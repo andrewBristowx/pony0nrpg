@@ -11,7 +11,7 @@
 			"type": "puffish_skills:smelt_item",
 			"data": {
 				"variables": {
-					"meat": {
+					"cooked_beef": {
 						"operations": [
 							{
 								"type": "get_smelted_item_stack"
@@ -19,12 +19,12 @@
 							{
 								"type": "puffish_skills:test",
 								"data": {
-									"item": "#forge:cooked_meats"
+									"item": "minecraft:cooked_beef"
 								}
 							}
 						]
 					},
-					"fish": {
+					"cooked_porkchop": {
 						"operations": [
 							{
 								"type": "get_smelted_item_stack"
@@ -32,12 +32,77 @@
 							{
 								"type": "puffish_skills:test",
 								"data": {
-									"item": "#forge:cooked_fishes"
+									"item": "minecraft:cooked_porkchop"
 								}
 							}
 						]
 					},
-					"potato": {
+					"cooked_chicken": {
+						"operations": [
+							{
+								"type": "get_smelted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:cooked_chicken"
+								}
+							}
+						]
+					},
+					"cooked_mutton": {
+						"operations": [
+							{
+								"type": "get_smelted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:cooked_mutton"
+								}
+							}
+						]
+					},
+					"cooked_rabbit": {
+						"operations": [
+							{
+								"type": "get_smelted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:cooked_rabbit"
+								}
+							}
+						]
+					},
+					"cooked_cod": {
+						"operations": [
+							{
+								"type": "get_smelted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:cooked_cod"
+								}
+							}
+						]
+					},
+					"cooked_salmon": {
+						"operations": [
+							{
+								"type": "get_smelted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:cooked_salmon"
+								}
+							}
+						]
+					},
+					"baked_potato": {
 						"operations": [
 							{
 								"type": "get_smelted_item_stack"
@@ -49,20 +114,57 @@
 								}
 							}
 						]
+					},
+					"dried_kelp": {
+						"operations": [
+							{
+								"type": "get_smelted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:dried_kelp"
+								}
+							}
+						]
 					}
 				},
 				"experience": [
 					{
-						"condition": "meat",
+						"condition": "cooked_beef",
 						"expression": "4"
 					},
 					{
-						"condition": "fish",
+						"condition": "cooked_porkchop",
 						"expression": "4"
 					},
 					{
-						"condition": "potato",
-						"expression": "3"
+						"condition": "cooked_chicken",
+						"expression": "4"
+					},
+					{
+						"condition": "cooked_mutton",
+						"expression": "4"
+					},
+					{
+						"condition": "cooked_rabbit",
+						"expression": "4"
+					},
+					{
+						"condition": "cooked_cod",
+						"expression": "4"
+					},
+					{
+						"condition": "cooked_salmon",
+						"expression": "4"
+					},
+					{
+						"condition": "baked_potato",
+						"expression": "4"
+					},
+					{
+						"condition": "dried_kelp",
+						"expression": "4"
 					}
 				]
 			}

@@ -302,6 +302,8 @@ const itemIcon = (item) => ({ type: "item", data: { item } });
 const blockVar = (data) => ({ operations: [{ type: "get_mined_block_state" }, { type: "puffish_skills:test", data }] });
 const itemVar = (getter, item) => ({ operations: [{ type: getter }, { type: "puffish_skills:test", data: { item } }] });
 const cases = (arr) => arr.map(([condition, expression]) => ({ condition, expression }));
+// Sin etiquetas de Forge (varían): objetos cocinados de vanilla, uno a uno
+const COOKED = ["cooked_beef", "cooked_porkchop", "cooked_chicken", "cooked_mutton", "cooked_rabbit", "cooked_cod", "cooked_salmon", "baked_potato", "dried_kelp"];
 const JOB_XP = { type: "expression", data: { expression: "40 + 10 * level + 0.6 * level ^ 2" } };
 const milestones = (id, lanes) => ({
   [`${id}_f6`]: { id: `oficio_${id}_1`, text: "Hito de oficio I (los desbloqueos llegan con KubeJS)" },
@@ -420,8 +422,8 @@ const jobs = [
     ],
     xp: [
       { type: "puffish_skills:smelt_item", data: {
-        variables: { meat: itemVar("get_smelted_item_stack", "#forge:cooked_meats"), fish: itemVar("get_smelted_item_stack", "#forge:cooked_fishes"), potato: itemVar("get_smelted_item_stack", "minecraft:baked_potato") },
-        experience: cases([["meat", "4"], ["fish", "4"], ["potato", "3"]]) } },
+        variables: Object.fromEntries(COOKED.map((id) => [id, itemVar("get_smelted_item_stack", "minecraft:" + id)])),
+        experience: cases(COOKED.map((id) => [id, "4"])) } },
       { type: "puffish_skills:eat_food", data: { experience: "1" } },
     ],
   },
