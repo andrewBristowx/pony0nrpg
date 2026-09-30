@@ -17,17 +17,18 @@ const out = (rel, data) => {
 
 // ---- razas ---------------------------------------------------------------------------------------------------
 // Se descartan: alfiq (gato), incubus (demonio), revenant (nigromante), plague_victim, pixie y fae (vuelo libre
-// desde el inicio), la Valquiria (sus alas necesitan Icarus, que no va con esta versión) y mythic:valkyrie.
+// desde el inicio), el Trol (su descripción dice "no implementado"), la Valquiria (sus alas necesitan Icarus, que no va con esta versión) y mythic:valkyrie.
 const RACES = [
   "origins:human",
   "medievalorigins:dwarf", "medievalorigins:high_elf", "medievalorigins:wood_elf", "medievalorigins:moon_elf",
-  "medievalorigins:troll", "medievalorigins:ogre", "medievalorigins:goblin",
+  "medievalorigins:ogre", "medievalorigins:goblin",
   "medievalorigins:gorgon", "medievalorigins:siren", "medievalorigins:yeti",
   "medievalorigins:banshee", "medievalorigins:arachnae",
   "mythic:kitsune", "mythic:djinn", "mythic:phoenix", "mythic:druid",
 ];
 out("origins/origin_layers/origin.json", {
   replace: true,
+  loading_priority: 1000,
   order: 0,
   enabled: true,
   name: "Raza",
@@ -37,7 +38,7 @@ out("origins/origin_layers/origin.json", {
   gui_title: { view_origin: "Tu raza", choose_origin: "Elige tu raza" },
 });
 // La capa extra de Medieval Origins (subclases del Elfo Alto) choca con nuestras clases: se desactiva.
-out("medievalorigins/origin_layers/magic_subclasses.json", { replace: true, enabled: false, order: 99, origins: [] });
+out("medievalorigins/origin_layers/magic_subclasses.json", { replace: true, loading_priority: 1000, enabled: false, order: 99, origins: [] });
 
 // ---- clases --------------------------------------------------------------------------------------------------
 const attr = (attribute, operation, value) => ({ attribute, operation, value });

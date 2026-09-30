@@ -185,7 +185,7 @@ Unos 80 mods listados; con dependencias serán bastantes más (estimación aprox
 | Mod | Rol | Lado |
 |---|---|---|
 | Origins (Forge, port no oficial) | Sistema de razas/clases elegidas al entrar | ambos |
-| Medieval Origins Revival **6.6.0** | razas de fantasía y mitología; en uso 12 (Enano, 3 Elfos, Troll, Ogro, Goblin, Gorgona, Sirena, Yeti, Banshee, Arácnida) | ambos |
+| Medieval Origins Revival **6.6.0** | razas de fantasía y mitología; en uso 11 (Enano, 3 Elfos, Ogro, Goblin, Gorgona, Sirena, Yeti, Banshee, Arácnida); el Trol se descarta porque el propio mod lo marca como no implementado | ambos |
 | Mythic Origins | Kitsune, Djinn, Fénix, Druida | ambos |
 | Caelus API, Pehkui | Dependencias (elytra/vuelo, tamaño) | ambos |
 
@@ -203,3 +203,4 @@ Unos 80 mods listados; con dependencias serán bastantes más (estimación aprox
 | FastFurnace, FastWorkbench | Cachean recetas de hornos y mesas de crafteo (menos lag con muchas máquinas) | ambos |
 
 - Descartados a propósito: Starlight (errores de iluminación), Saturn (solapa con ModernFix), Canary (solapa con Radium), C2ME y Dimensional Threading (riesgo de incompatibilidad con mods de mundo) y Universal Optimization (cambia reglas de aparición de mobs).
+- Las copias traducidas de Mythic Origins (`kubejs/data/mythic/`) llevan `loading_priority: 1000` para ganar a los archivos del mod cuando un id está repetido (sin eso el cliente seguía mostrando el texto en inglés). Lo mismo para las capas que sobrescribimos.

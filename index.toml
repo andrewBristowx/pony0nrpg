@@ -334,111 +334,111 @@ hash = "a2df37fc0cf8740951eb9ad80ebff3adbeb847520c14a4ca357407e6c991d054"
 
 [[files]]
 file = "kubejs/data/medievalorigins/origin_layers/magic_subclasses.json"
-hash = "ee1595b7d55125848ad38cabfd97d90e5786a6381c696b93dc08e03680c3febe"
+hash = "5c6c166db3e21e42ff700a001712fa0cda156373503949abe3adf6b8cc92deaa"
 
 [[files]]
 file = "kubejs/data/mythic/origins/djinn.json"
-hash = "58397a28c53212a428c388299ab101b0987bc46158086197fa20004ce5c1269d"
+hash = "2618ae6feac5b5d14d3d09a2316bc3331127fcbef9c60e2e2b7995bd71a04e6f"
 
 [[files]]
 file = "kubejs/data/mythic/origins/druid.json"
-hash = "fd0c5e29ae3a9e3b715ee610d88f03a4a0f136bb6786ab51fa873f20e9e4a5f6"
+hash = "b3022a1777e6d722eded7fbfbcbf15e0cad2c07af46ade8ffd3074fd6665501e"
 
 [[files]]
 file = "kubejs/data/mythic/origins/kitsune.json"
-hash = "645a73a6fff4d6f9a63aa35def8cbcb9933125483d2a5f976856a78432f9941a"
+hash = "4ed216c0bfc0bde8b225e04df3f29334dd525db01fbe093a4c5dc5cd75b195e5"
 
 [[files]]
 file = "kubejs/data/mythic/origins/phoenix.json"
-hash = "7771071bf98d5c26fb1c0f03e5e691de8c306564694e60e6606caf7deba5167b"
+hash = "b9f109218acf15f08bddbb4849ff76b5a3e4178ba80a4a6353e740b62d428c91"
 
 [[files]]
 file = "kubejs/data/mythic/powers/desert_walker.json"
-hash = "28916d9537dee5a4da417ebf5237907c19b04aed163c5f06f2b9383829ba01b9"
+hash = "4da5ffb4934d9575e5fbd077d7d781508bc529a1f6e06e59047c2341a54dc0f0"
 
 [[files]]
 file = "kubejs/data/mythic/powers/fire_immunity.json"
-hash = "023c65a98ee480bac1d463304faa954bd2cdf23be17faca360bcc80935f317e2"
+hash = "889fd3122ec9ab8d9fc5dbd92874132f5cbbe1c9e76e8c02f2aff32374cdedf0"
 
 [[files]]
 file = "kubejs/data/mythic/powers/flame_burst.json"
-hash = "ebad3a94eadd06cafeef1296931df21d8c34fd0f73b6e8bc47112b2aff43f90a"
+hash = "a9e1cb2222ebfe674d8d58473c67e2cd18cb31d8adf6587e4e4866ca3fc06301"
 
 [[files]]
 file = "kubejs/data/mythic/powers/forest_blend.json"
-hash = "a89f77e9b4228e03c4950e1e0203ff51967076df8f1d0b696aadfe8450afee7c"
+hash = "5fec243f67e20010b866f3517fa2b208b9ed3f2e8581cec1614ca60982fe32d0"
 
 [[files]]
 file = "kubejs/data/mythic/powers/fox_agility.json"
-hash = "1120c2ad5a22fb4993ec39f5a9038a5a3581824fe10770dfc87b53f96560a645"
+hash = "c5643189c4f8883694e3e6c048907c2bbc4920e1304381a7da008149caee27ae"
 
 [[files]]
 file = "kubejs/data/mythic/powers/fox_fire.json"
-hash = "9654eafff0cf0d19d120a892768745981ff64a2720224a4c76ceaa42669d3961"
+hash = "e2365663bad63ac325e6aedd3e70555f4327b6f78917e5166c407e65004e9828"
 
 [[files]]
 file = "kubejs/data/mythic/powers/fox_form.json"
-hash = "324981ed6bca7255d58b97d540f8cbdf3a1f536b51c935ef4d94e203fa7ccfe6"
+hash = "4fc0f136ce1a32db30d233a4254361ebdfb7eefc652cb4cd040e421a1160e63b"
 
 [[files]]
 file = "kubejs/data/mythic/powers/kitsune_illusions.json"
-hash = "9aa9075ea53c3b393b54628485bf1c37e0f84b3588685b47169d650ac6da2ce2"
+hash = "19bad1cb8a92aae2518c4407a471ce2b53c15e3bf4a5d3125c12efce979677aa"
 
 [[files]]
 file = "kubejs/data/mythic/powers/kitsune_weakness.json"
-hash = "65e24bd0bbe4b3ad3832c83c0fcc38fb8b54edff5406aeaeaf194b3764447e31"
+hash = "6d8cbe77cf7ae6f64b058de05b44b7a474d417739c0c5d05cc0e3a6b47b245a6"
 
 [[files]]
 file = "kubejs/data/mythic/powers/mirage.json"
-hash = "f1b8bc11a44f0dc1b98cd58cab5775e92a685b7a546baa4a7a1150f4540e09aa"
+hash = "e42d2a058685c13f42d7ba9afb4711be28d05b7120ea13e7032debc55982a7f4"
 
 [[files]]
 file = "kubejs/data/mythic/powers/natural_healing.json"
-hash = "9a9cc8151bbb2129019050dd5001b33aaa55772ca0214ee3e7786ac94149d798"
+hash = "d1771391d27d590de2f6e9d975cd97f31e4a8a64cad5ecd8f91e49682b4aa206"
 
 [[files]]
 file = "kubejs/data/mythic/powers/nature_weakness.json"
-hash = "b44237f7db620d4774d5c9e2399fbf958cb49d2bcfe0456775855f939c979fa5"
+hash = "f767a11b890814d2075f5b826ccef618d77d2c59fa16c9d60beefdc47133590c"
 
 [[files]]
 file = "kubejs/data/mythic/powers/phoenix_flight.json"
-hash = "6abc8ad5a711f77c5e03eddbc57aff99beb56f74fbfa733086fba5c2f4f69f6e"
+hash = "df399e44a813ffd5b434ff5c4bc29cdf792ca58d15600f72762df0be1a949c5d"
 
 [[files]]
 file = "kubejs/data/mythic/powers/phoenix_weakness.json"
-hash = "6d50c9f21600519218434999b760e0964ab65b10193e502e1fbc2b0c0ec5acc6"
+hash = "0e490863656a908c7ce2d14fc857e6ae845c4444dd8f1945aaa840e264ce3a63"
 
 [[files]]
 file = "kubejs/data/mythic/powers/plant_step.json"
-hash = "0b2e909d088c0c5e4870a8a52a9933cd2070239bd01aea5e0c9ebc2b352fdc70"
+hash = "e2d527f6451d78d9848dea7f817f978293be1b3e561b1c908e491315213c426c"
 
 [[files]]
 file = "kubejs/data/mythic/powers/rebirth.json"
-hash = "b5a18762dbd6781b1f5245e4e7db1a045549e214839a010912498181675a504a"
+hash = "776503dd667d78ba6f841547a68af0b4a0d193d8228789813fe97336e1429651"
 
 [[files]]
 file = "kubejs/data/mythic/powers/sand_form.json"
-hash = "e17df2bf0e85beef41c0c700d4b446de7b51385128f7c5308a8b826ee246cd01"
+hash = "16bdfdcfdb9240ad97e6fd88f5317086d7d3b222176d102b4053ce4105129a90"
 
 [[files]]
 file = "kubejs/data/mythic/powers/sandstorm.json"
-hash = "a0c826feb9db117fbbd4f672ac038f35b53a5a66870669ba48a9befc50715c83"
+hash = "9c41cb6cc084bf9c5b55a4ed0e29a667a0862114b19ad184c04de03ab77e3dd9"
 
 [[files]]
 file = "kubejs/data/mythic/powers/solar_strength.json"
-hash = "70516fce938a66ffa895b8570ae813e1f3cab3ca0a09beb70ed036144693a398"
+hash = "e30e232bd3cb1cb9f87ebe233af3eed110b4fbec138fa39716e3892a0a4adc4b"
 
 [[files]]
 file = "kubejs/data/mythic/powers/vegetarian.json"
-hash = "e83610b5677c1dabc0810a0abcadcd02dc7b296fff932d5ee20aa103bcf33dd5"
+hash = "2941b4d1b6a964c9017781730631a52df9615151d74b508e1456fed72fcfa089"
 
 [[files]]
 file = "kubejs/data/mythic/powers/wish_magic.json"
-hash = "9c9c8c60e6cdd42478f529d1e7e07e0b8fdb21abbe48917105b2c2c5fe186a49"
+hash = "ebbecb715dd5ed63e1d7ba09949deca1e964c6e4830de204bcf00c7dcf40d4a8"
 
 [[files]]
 file = "kubejs/data/origins/origin_layers/origin.json"
-hash = "8bfee89f477f72ce1871b51fdc59eef8221012ddc32f524ed3789f92c19eaac9"
+hash = "cdace903603bc2fa747e54c99dacae592cd309d77a69ab4e133e74b9f19ced59"
 
 [[files]]
 file = "kubejs/data/pony0n/origin_layers/clase.json"

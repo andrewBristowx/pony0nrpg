@@ -1,4 +1,5 @@
 {
+  "loading_priority": 1000,
   "name": "Djinn",
   "description": "Un espíritu místico del desierto con control sobre la arena y el viento. Maestros del engaño y de la supervivencia en entornos hostiles.",
   "powers": [
