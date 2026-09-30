@@ -44,7 +44,8 @@ out("medievalorigins/origin_layers/magic_subclasses.json", { replace: true, load
 const attr = (attribute, operation, value) => ({ attribute, operation, value });
 const give = (item, amount = 1) => ({ type: "origins:give", stack: { item, amount } });
 const cmd = (command) => ({ type: "origins:execute_command", command });
-// "ignore_death" no hace falta: los kits solo se entregan al ELEGIR la clase
+// execute_chosen_when_orb: true -> el kit también se entrega si el jugador YA había elegido antes (Origins trata cualquier elección posterior
+// como "orbe" y con false el kit no se daba al repetir la elección, p. ej. tras un /origin set).
 const kitPower = (cls, items) => ({
   hidden: true,
   type: "origins:action_on_callback",
@@ -52,7 +53,7 @@ const kitPower = (cls, items) => ({
     type: "origins:and",
     actions: [cmd(`kubejs stages add @s clase_${cls}`), cmd(`kubejs stages add @s origen_${cls}`), ...items.map(([i, n]) => give(i, n))],
   },
-  execute_chosen_when_orb: false,
+  execute_chosen_when_orb: true,
 });
 
 const classes = [
