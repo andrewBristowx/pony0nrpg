@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "name": "Manos delicadas",
+  "description": "Haces un 10 % menos de daño cuerpo a cuerpo.",
+  "modifier": {
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "multiply_base",
+    "value": -0.1
+  }
+}

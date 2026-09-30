@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "name": "Sangre arcana",
+  "description": "+100 de maná máximo.",
+  "modifier": {
+    "attribute": "irons_spellbooks:max_mana",
+    "operation": "addition",
+    "value": 100
+  }
+}

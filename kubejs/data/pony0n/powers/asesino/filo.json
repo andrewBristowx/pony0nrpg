@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "name": "Filo mortal",
+  "description": "Haces un 10 % más de daño.",
+  "modifier": {
+    "operation": "multiply_total_multiplicative",
+    "value": 0.1
+  }
+}

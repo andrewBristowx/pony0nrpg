@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "name": "Pies ligeros",
+  "description": "Te mueves un 6 % más rápido.",
+  "modifier": {
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "multiply_base",
+    "value": 0.06
+  }
+}

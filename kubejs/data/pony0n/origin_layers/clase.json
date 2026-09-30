@@ -1,0 +1,18 @@
+{
+  "order": 10,
+  "enabled": true,
+  "name": "Clase",
+  "missing_name": "Clase",
+  "missing_description": "Elige una clase",
+  "origins": [
+    "pony0n:guerrero",
+    "pony0n:arquero",
+    "pony0n:mago",
+    "pony0n:ingeniero",
+    "pony0n:asesino"
+  ],
+  "gui_title": {
+    "view_origin": "Tu clase",
+    "choose_origin": "Elige tu clase"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "origins:modify_damage_taken",
+  "name": "Caída suave",
+  "description": "Recibes un 40 % menos de daño por caídas.",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "fall"
+  },
+  "modifier": {
+    "operation": "multiply_total_multiplicative",
+    "value": -0.4
+  }
+}

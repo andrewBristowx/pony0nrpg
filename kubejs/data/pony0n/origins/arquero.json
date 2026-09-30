@@ -1,0 +1,16 @@
+{
+  "name": "Arquero",
+  "description": "Preciso y veloz. Golpea desde la distancia, se mueve con ligereza y amortigua las caídas. Empiezas con arco largo y flechas, y desbloqueas el equipo de Arquero (Tier I).",
+  "icon": {
+    "item": "minecraft:bow"
+  },
+  "impact": 2,
+  "order": 2,
+  "powers": [
+    "pony0n:arquero/punteria",
+    "pony0n:arquero/pies_ligeros",
+    "pony0n:arquero/caida_suave",
+    "pony0n:arquero/fragil",
+    "pony0n:arquero/kit"
+  ]
+}

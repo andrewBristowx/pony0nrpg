@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "name": "Sin corazas",
+  "description": "-1 de armadura: confías en la velocidad y no en el metal.",
+  "modifier": {
+    "attribute": "minecraft:generic.armor",
+    "operation": "addition",
+    "value": -1
+  }
+}

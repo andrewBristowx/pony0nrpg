@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "name": "Cuerpo frágil",
+  "description": "Tienes 2 corazones menos de vida máxima.",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "operation": "addition",
+    "value": -4
+  }
+}

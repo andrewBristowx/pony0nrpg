@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_break_speed",
+  "name": "Manos hábiles",
+  "description": "Rompes bloques un 20 % más rápido.",
+  "modifier": {
+    "operation": "multiply_base",
+    "value": 0.2
+  }
+}

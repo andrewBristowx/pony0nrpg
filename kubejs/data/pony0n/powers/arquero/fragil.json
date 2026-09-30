@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "name": "Constitución ligera",
+  "description": "Tienes 1 corazón menos de vida máxima.",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "operation": "addition",
+    "value": -2
+  }
+}

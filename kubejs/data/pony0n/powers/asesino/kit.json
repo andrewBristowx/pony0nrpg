@@ -1,0 +1,46 @@
+{
+  "hidden": true,
+  "type": "origins:action_on_callback",
+  "entity_action_chosen": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "kubejs stages add @s clase_asesino"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "kubejs stages add @s origen_asesino"
+      },
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "spartanweaponry:copper_dagger",
+          "amount": 1
+        }
+      },
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "minecraft:leather_boots",
+          "amount": 1
+        }
+      },
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "minecraft:ender_pearl",
+          "amount": 2
+        }
+      },
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "minecraft:cooked_porkchop",
+          "amount": 12
+        }
+      }
+    ]
+  },
+  "execute_chosen_when_orb": false
+}

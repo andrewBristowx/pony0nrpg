@@ -1,0 +1,16 @@
+{
+  "type": "origins:conditioned_attribute",
+  "name": "Paso de sombra",
+  "description": "Agachado te mueves mucho más rápido.",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_base",
+      "value": 0.6
+    }
+  ],
+  "condition": {
+    "type": "origins:sneaking"
+  },
+  "tick_rate": 4
+}

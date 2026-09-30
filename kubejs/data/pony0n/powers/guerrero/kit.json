@@ -1,0 +1,46 @@
+{
+  "hidden": true,
+  "type": "origins:action_on_callback",
+  "entity_action_chosen": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "kubejs stages add @s clase_guerrero"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "kubejs stages add @s origen_guerrero"
+      },
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "spartanweaponry:copper_greatsword",
+          "amount": 1
+        }
+      },
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "minecraft:shield",
+          "amount": 1
+        }
+      },
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "minecraft:leather_chestplate",
+          "amount": 1
+        }
+      },
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "minecraft:cooked_beef",
+          "amount": 12
+        }
+      }
+    ]
+  },
+  "execute_chosen_when_orb": false
+}

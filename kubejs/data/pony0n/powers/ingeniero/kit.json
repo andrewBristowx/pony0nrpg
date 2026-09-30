@@ -1,0 +1,53 @@
+{
+  "hidden": true,
+  "type": "origins:action_on_callback",
+  "entity_action_chosen": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "kubejs stages add @s clase_ingeniero"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "kubejs stages add @s origen_ingeniero"
+      },
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "minecraft:iron_pickaxe",
+          "amount": 1
+        }
+      },
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "sophisticatedbackpacks:backpack",
+          "amount": 1
+        }
+      },
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "create:goggles",
+          "amount": 1
+        }
+      },
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "create:andesite_alloy",
+          "amount": 8
+        }
+      },
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "minecraft:bread",
+          "amount": 12
+        }
+      }
+    ]
+  },
+  "execute_chosen_when_orb": false
+}

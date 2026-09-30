@@ -1,0 +1,15 @@
+{
+  "name": "Mago",
+  "description": "Domina la magia arcana. Más maná, hechizos más potentes y menos enfriamiento, a costa de un cuerpo frágil. Empiezas con bastón, grimorio y tinta, y puedes lanzar hechizos (Mago Tier I).",
+  "icon": {
+    "item": "minecraft:enchanted_book"
+  },
+  "impact": 2,
+  "order": 3,
+  "powers": [
+    "pony0n:mago/sangre_arcana",
+    "pony0n:mago/mente_clara",
+    "pony0n:mago/cuerpo_fragil",
+    "pony0n:mago/kit"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_projectile_damage",
+  "name": "Puntería",
+  "description": "Tus proyectiles hacen un 20 % más de daño.",
+  "modifier": {
+    "operation": "multiply_total_multiplicative",
+    "value": 0.2
+  }
+}

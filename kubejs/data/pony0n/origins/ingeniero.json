@@ -1,0 +1,15 @@
+{
+  "name": "Ingeniero",
+  "description": "Manitas e ingenioso. Mina y construye más rápido, tiene más suerte y gana más experiencia. Empiezas con pico, mochila y gafas de ingeniero, y desbloqueas las habilidades de Ingeniero.",
+  "icon": {
+    "item": "minecraft:iron_pickaxe"
+  },
+  "impact": 1,
+  "order": 4,
+  "powers": [
+    "pony0n:ingeniero/manos_habiles",
+    "pony0n:ingeniero/ingenio",
+    "pony0n:ingeniero/delicado",
+    "pony0n:ingeniero/kit"
+  ]
+}

@@ -329,12 +329,132 @@ file = "kubejs/assets/ftbquests/ftb_quests_theme.txt"
 hash = "b9648e40eb87fb7586dbf4ef9b972b2bc7286e4c38ff276aef1602ee272da148"
 
 [[files]]
+file = "kubejs/assets/medievalorigins/lang/es_es.json"
+hash = "a2df37fc0cf8740951eb9ad80ebff3adbeb847520c14a4ca357407e6c991d054"
+
+[[files]]
+file = "kubejs/data/medievalorigins/origin_layers/magic_subclasses.json"
+hash = "ee1595b7d55125848ad38cabfd97d90e5786a6381c696b93dc08e03680c3febe"
+
+[[files]]
+file = "kubejs/data/origins/origin_layers/origin.json"
+hash = "0e5d94d30c4a61c470208bcfc4ec39ae768d72fb12c83dffbe65250d27a30d87"
+
+[[files]]
+file = "kubejs/data/pony0n/origin_layers/clase.json"
+hash = "e4c961ac0ea9eed850cb26c9aaada7b2dac68abca70c46e686e54f94614821c3"
+
+[[files]]
+file = "kubejs/data/pony0n/origins/arquero.json"
+hash = "77e39cd90aa069a6fa7bc6e2b6ce90d68a42a6c505e9441f4dc4f373371a1b20"
+
+[[files]]
+file = "kubejs/data/pony0n/origins/asesino.json"
+hash = "85ce94061cfd78159fc6d22c4b87284f1ecf39075e7ef17afe9b7933c342e048"
+
+[[files]]
+file = "kubejs/data/pony0n/origins/guerrero.json"
+hash = "aa586f7786bb33fb1ef077438294b514e87543c23e7dee9ab33ae65b1f7b68eb"
+
+[[files]]
+file = "kubejs/data/pony0n/origins/ingeniero.json"
+hash = "a6c353422bea2d3843782a9bdd6ba0f7689715d7d299e74cc7e1b231aee062b1"
+
+[[files]]
+file = "kubejs/data/pony0n/origins/mago.json"
+hash = "71b81d8f172b25337b2083de7a8da1dd8750a5a0423242f966235e09b4711c5d"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/arquero/caida_suave.json"
+hash = "c226bf605fa7fa0e7c76b1092140c71533436eb69d3de20b345aeffd714c8120"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/arquero/fragil.json"
+hash = "c4dec5b38ba2fd6aada22007ba8843442e7b977dce906906e24df6c32975586e"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/arquero/kit.json"
+hash = "5d51bf11cef8ab4021ac5dc918e117f4d18d499803120700f3416861601daabf"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/arquero/pies_ligeros.json"
+hash = "f7d152b675975b4626a7737fa8ed4f91ce7f7ab129c589a3c6d7bc0174530522"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/arquero/punteria.json"
+hash = "de48348a1bb25e4bd5a1d3eaef39a2a5b49cf9dd2b2ef7c7fa99f329c9df0984"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/asesino/filo.json"
+hash = "716ebfcf90f72d2d5c7a1c23d459c73e82c1829e00d035f6d6ad2cce608dcd3c"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/asesino/kit.json"
+hash = "4f2858f766126c92460ae75710677e1563dc303cb559c4a98b33994f84dd1f70"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/asesino/sigilo.json"
+hash = "4d3fa4dcbd997b2b6a2d6bf906f285064835f81d4001b8e9e6194cb3e497b909"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/asesino/sin_armadura.json"
+hash = "bf8832af162659331d00af158f9d0853673a90bea4fe8850b038402cae390d3d"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/guerrero/furia.json"
+hash = "12886e90bf7434e6a6acc6713cffbcb724489e33ce8d94328ba8ad1cd6a4b270"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/guerrero/kit.json"
+hash = "c0b7a37cdaee0cdd56100e7360ffb347a5469dba99cf488d8adad756fe6f6c4d"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/guerrero/pesado.json"
+hash = "cd1f34e68d6ede6760b0f4ec6bf877a1f03da2b1ef96091de1075821bf6b528a"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/guerrero/piel_de_acero.json"
+hash = "11c102ee680f9a5b842a5618b68abe279852f03dd3b1804a5a467019db16b67b"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/ingeniero/delicado.json"
+hash = "a9f447eadef56fd11de94dc7da289354eabde1e31b141335e6c03a7b75fcf1eb"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/ingeniero/ingenio.json"
+hash = "5e16c85a88894216b91471689db4bcb63bd7144a6edfc8704f899e5f4d066439"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/ingeniero/kit.json"
+hash = "db213a90548d26e47c2e056c2e94951ce3012cd5b8746ffb80822fd44e6d3f75"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/ingeniero/manos_habiles.json"
+hash = "1361d75edfe2b60657b60d175ed7451c3a60b1c4e8fc5aa80a4cbd386ea072ab"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/mago/cuerpo_fragil.json"
+hash = "0f477e3df77497b1cc2f07930165097f124064d510373a68441d22435513cc92"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/mago/kit.json"
+hash = "8c33a77c352df9683d21aa368de4e9fa77d5a2b1d7785fe62ef678ac9356edd7"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/mago/mente_clara.json"
+hash = "fa1c20366c3f5487a3d69dd0453af5ff97ddfaa460056560da866ccdd068a9fe"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/mago/sangre_arcana.json"
+hash = "9884a089d977b580dc0068b193504d3d7323aa86af73e689606836f9e3d017b2"
+
+[[files]]
 file = "kubejs/server_scripts/class_gating.js"
 hash = "1f9c7106ec0cdc933394e7f3a725d73211805eefd0cef1af8b95260d4ddbf24d"
 
 [[files]]
 file = "kubejs/startup_scripts/class_gating.js"
-hash = "a6974380d4b4a8b224ac1fc449d2321bc6d1358ce2b04b97e6d3bd1295cd3fec"
+hash = "3e35c4c424702165cc00257aa84930701ce351e9f06cf9c80bf49e9e39baea91"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
@@ -419,6 +539,11 @@ metafile = true
 [[files]]
 file = "mods/botarium.pw.toml"
 hash = "440a806e54d48cd4c5ef447ff8f1a6cd9a99d53d02ab90d50204be9b31c2f30d"
+metafile = true
+
+[[files]]
+file = "mods/caelus.pw.toml"
+hash = "8a8ea0af79b88d9c192d208aa5be4bacd934e2b92d4721566e2e796eb9761e10"
 metafile = true
 
 [[files]]
@@ -617,6 +742,11 @@ hash = "7cbc557e23729a2ab1a0dfa8832359edb640a9c4b2f1919e7c43cd5c7ccfdf3c"
 metafile = true
 
 [[files]]
+file = "mods/icarus.pw.toml"
+hash = "e435fbbf3af8d112431718fb90641d164810422d46c1222a4b84874435e21291"
+metafile = true
+
+[[files]]
 file = "mods/ice-and-fire-dragons.pw.toml"
 hash = "3e8cbae6a944592a6485b8c5e62b0794fe950ba8a6b155302d08f4205b9ad9b3"
 metafile = true
@@ -697,6 +827,11 @@ hash = "f8b4210300a8f2ce76a2329de37f2e671ac5dfeca17018528cadb333b019a814"
 metafile = true
 
 [[files]]
+file = "mods/medieval-origins-revival.pw.toml"
+hash = "76de53c4879659e597816529a3a894a4a3da375840633573b5ac83fca5c629b1"
+metafile = true
+
+[[files]]
 file = "mods/mekanism-additions.pw.toml"
 hash = "b70b0220d902edd85ff5fff43ba6c3a3aaa2fe05f1b420e62beb68a028b7c38e"
 metafile = true
@@ -747,6 +882,11 @@ hash = "0e6b04ea03c95a193b564aee5c67b8912c52c1de61cd2bd43222c494e26bbbe9"
 metafile = true
 
 [[files]]
+file = "mods/mythic-origins.pw.toml"
+hash = "7c3513ed6fef82e3441e022a7d79062022099229b12e4520ba854e9f1aa1c44b"
+metafile = true
+
+[[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "8cad1023bbc6e5c13961de6248a88b91538f3ad315dfdbb40c969e25606d98eb"
 metafile = true
@@ -772,6 +912,11 @@ hash = "f83b253ca6a8e6f2f847952704da0e1fb00e65cbb10b7c9cb15d1a1780618da0"
 metafile = true
 
 [[files]]
+file = "mods/origins-forge.pw.toml"
+hash = "736d3d09ea2fb87f8477f72d81a1f17b8ba6ad61a9cee9c122a37b2ccbdd62c9"
+metafile = true
+
+[[files]]
 file = "mods/packet-fixer.pw.toml"
 hash = "ef0c8813eef47e8ffdce023dfee08152a5099817960dce86623b9a21e8b14be2"
 metafile = true
@@ -779,6 +924,11 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "2242b76f7c4ee6d7f396a2d1380bee615d78408d00bff5cca38e4df777b18dc5"
+metafile = true
+
+[[files]]
+file = "mods/pehkui.pw.toml"
+hash = "1f92dd360908c1801848dcd4d14aca5640199545e7e22e76bfdb981b06fa9399"
 metafile = true
 
 [[files]]

@@ -1,0 +1,32 @@
+{
+  "replace": true,
+  "order": 0,
+  "enabled": true,
+  "name": "Raza",
+  "missing_name": "Raza",
+  "missing_description": "Elige una raza",
+  "origins": [
+    "origins:human",
+    "medievalorigins:dwarf",
+    "medievalorigins:high_elf",
+    "medievalorigins:wood_elf",
+    "medievalorigins:moon_elf",
+    "medievalorigins:troll",
+    "medievalorigins:ogre",
+    "medievalorigins:goblin",
+    "medievalorigins:gorgon",
+    "medievalorigins:siren",
+    "medievalorigins:valkyrie",
+    "medievalorigins:yeti",
+    "medievalorigins:banshee",
+    "medievalorigins:arachnae",
+    "mythic:kitsune",
+    "mythic:djinn",
+    "mythic:phoenix",
+    "mythic:druid"
+  ],
+  "gui_title": {
+    "view_origin": "Tu raza",
+    "choose_origin": "Elige tu raza"
+  }
+}

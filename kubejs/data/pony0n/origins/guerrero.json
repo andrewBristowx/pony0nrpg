@@ -1,0 +1,15 @@
+{
+  "name": "Guerrero",
+  "description": "Un luchador de primera línea. Aguanta golpes, pega fuerte cuando está al límite y abre el camino a su grupo. Empiezas con arma pesada y escudo, y desbloqueas el equipo de Guerrero (Tier I).",
+  "icon": {
+    "item": "minecraft:iron_sword"
+  },
+  "impact": 2,
+  "order": 1,
+  "powers": [
+    "pony0n:guerrero/piel_de_acero",
+    "pony0n:guerrero/furia",
+    "pony0n:guerrero/pesado",
+    "pony0n:guerrero/kit"
+  ]
+}

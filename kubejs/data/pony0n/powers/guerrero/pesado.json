@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "name": "Paso pesado",
+  "description": "Tu equipamiento te hace un 3 % más lento.",
+  "modifier": {
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "multiply_base",
+    "value": -0.03
+  }
+}

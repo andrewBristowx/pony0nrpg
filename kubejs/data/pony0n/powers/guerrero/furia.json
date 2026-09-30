@@ -1,0 +1,14 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "name": "Furia del guerrero",
+  "description": "Con menos de la mitad de tu vida haces un 25 % más de daño.",
+  "modifier": {
+    "operation": "multiply_total_multiplicative",
+    "value": 0.25
+  },
+  "condition": {
+    "type": "origins:relative_health",
+    "comparison": "<=",
+    "compare_to": 0.5
+  }
+}

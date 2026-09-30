@@ -69,6 +69,8 @@ function stageFor(cls, tier) { return tier === 1 ? 'clase_' + cls : 'maestria_' 
 
 /** ¿El jugador cumple el requisito? (un tier mayor cubre los menores) */
 function hasTier(player, cls, tier) {
+  // elegir la clase en Origins concede 'origen_<c>' (Tier I) aunque luego se reinicie el árbol de habilidades
+  if (tier <= 1 && player.stages.has('origen_' + cls)) return true;
   for (let t = tier; t <= 3; t++) if (player.stages.has(stageFor(cls, t))) return true;
   return false;
 }

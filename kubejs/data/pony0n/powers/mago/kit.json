@@ -1,0 +1,53 @@
+{
+  "hidden": true,
+  "type": "origins:action_on_callback",
+  "entity_action_chosen": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "kubejs stages add @s clase_mago"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "kubejs stages add @s origen_mago"
+      },
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "irons_spellbooks:graybeard_staff",
+          "amount": 1
+        }
+      },
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "irons_spellbooks:wimpy_spell_book",
+          "amount": 1
+        }
+      },
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "irons_spellbooks:common_ink",
+          "amount": 4
+        }
+      },
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "minecraft:golden_carrot",
+          "amount": 12
+        }
+      },
+      {
+        "type": "origins:give",
+        "stack": {
+          "item": "minecraft:experience_bottle",
+          "amount": 4
+        }
+      }
+    ]
+  },
+  "execute_chosen_when_orb": false
+}

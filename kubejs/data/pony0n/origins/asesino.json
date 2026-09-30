@@ -1,0 +1,15 @@
+{
+  "name": "Asesino",
+  "description": "Sigiloso y letal. Sus golpes son más duros, se mueve rápido agachado y cae de pie. Empiezas con daga y perla de ender, y desbloqueas el equipo de Asesino (Tier I).",
+  "icon": {
+    "item": "minecraft:iron_axe"
+  },
+  "impact": 2,
+  "order": 5,
+  "powers": [
+    "pony0n:asesino/filo",
+    "pony0n:asesino/sigilo",
+    "pony0n:asesino/sin_armadura",
+    "pony0n:asesino/kit"
+  ]
+}

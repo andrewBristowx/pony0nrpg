@@ -1,0 +1,17 @@
+{
+  "type": "origins:attribute",
+  "name": "Mente clara",
+  "description": "+8 % de poder de hechizo y 5 % menos de enfriamiento.",
+  "modifiers": [
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "operation": "multiply_base",
+      "value": 0.08
+    },
+    {
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "operation": "multiply_base",
+      "value": 0.05
+    }
+  ]
+}

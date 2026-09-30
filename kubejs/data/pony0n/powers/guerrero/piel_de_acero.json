@@ -1,0 +1,17 @@
+{
+  "type": "origins:attribute",
+  "name": "Piel de acero",
+  "description": "+2 de armadura y +2 corazones de vida máxima.",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "operation": "addition",
+      "value": 2
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "operation": "addition",
+      "value": 4
+    }
+  ]
+}

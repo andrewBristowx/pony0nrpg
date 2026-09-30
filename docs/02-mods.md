@@ -179,3 +179,16 @@ Elegir **JEI o EMI**, no ambos.
 ## Dimensión del pack
 
 Unos 80 mods listados; con dependencias serán bastantes más (estimación aproximada, no medida). Es un tamaño grande: el perfilado de la fase 2 decide si algo se recorta. Cada adición nueva pasa por los 8 criterios de `docs/06`.
+
+## Razas y clases (Origins)
+
+| Mod | Rol | Lado |
+|---|---|---|
+| Origins (Forge, port no oficial) | Sistema de razas/clases elegidas al entrar | ambos |
+| Medieval Origins Revival | 13 razas de fantasía y mitología (Enano, Elfos, Troll, Ogro, Gorgona, Sirena, Valquiria, Yeti, Banshee, Arácnida, Goblin…) | ambos |
+| Mythic Origins | Kitsune, Djinn, Fénix, Druida | ambos |
+| Caelus API, Icarus, Pehkui | Dependencias (vuelo, tamaño) | ambos |
+
+- La lista de razas disponibles y las 5 clases (Guerrero, Arquero, Mago, Ingeniero, Asesino) se definen en `tools/gen-origins.mjs` → `kubejs/data/`. Se descartan las razas con vuelo libre al inicio (Hada, Pixie) y las que chocan con el diseño (Incubo, Revenant, Plaga, Alfiq).
+- Elegir clase da un kit de inicio y los stages `clase_<c>` y `origen_<c>` (equipo de Tier I).
+- **No** se usa el Origins de Modrinth con Sinytra Connector (es el de Fabric); solo el port de Forge.
