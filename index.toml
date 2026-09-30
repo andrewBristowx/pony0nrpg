@@ -672,11 +672,6 @@ hash = "903352ffbd84d4b95fed905893f4715d9c3f88ec9fff6fb06f6e359e0b839dc3"
 metafile = true
 
 [[files]]
-file = "mods/common-network.pw.toml"
-hash = "d20ac61510085aab4dbd69b2e2c7beb7ddd80671733e7cc18a00878e2bbba3b7"
-metafile = true
-
-[[files]]
 file = "mods/create-connected.pw.toml"
 hash = "878bea7ee908c8eb9eda3035ed5a8ed53fa3d26328756777945aaa5527765c54"
 metafile = true
@@ -847,11 +842,6 @@ hash = "7cbc557e23729a2ab1a0dfa8832359edb640a9c4b2f1919e7c43cd5c7ccfdf3c"
 metafile = true
 
 [[files]]
-file = "mods/icarus.pw.toml"
-hash = "a022f2f31c6a198d73934c76d20fcb6c769878bdc2fddb80da060eb37f355c2d"
-metafile = true
-
-[[files]]
 file = "mods/ice-and-fire-dragons.pw.toml"
 hash = "3e8cbae6a944592a6485b8c5e62b0794fe950ba8a6b155302d08f4205b9ad9b3"
 metafile = true
@@ -933,7 +923,7 @@ metafile = true
 
 [[files]]
 file = "mods/medieval-origins-revival.pw.toml"
-hash = "76de53c4879659e597816529a3a894a4a3da375840633573b5ac83fca5c629b1"
+hash = "3039ea3b8a4d6283b89a19db3c9f6b19418d948ad7912c8ffa2d53f621f7688c"
 metafile = true
 
 [[files]]
