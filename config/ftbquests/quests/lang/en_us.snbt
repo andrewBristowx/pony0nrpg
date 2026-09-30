@@ -8,12 +8,16 @@
 	chapter.1A169DCF6DD33AFA.title: "2. Secretos de la tierra"
 	chapter.27FFD10CD39B1657.chapter_subtitle: "Clases, combate, mazmorras y tu primer miniboss. Entra al gremio."
 	chapter.27FFD10CD39B1657.title: "3. El aventurero"
+	chapter.2F905063C99D5E77.chapter_subtitle: "El dragón del End, el equipo mítico y la puerta de la Ascensión."
+	chapter.2F905063C99D5E77.title: "10. El fin del mundo"
 	chapter.479A8AB763858CBE.chapter_subtitle: "Puntos de Ascensión para Mago"
 	chapter.479A8AB763858CBE.title: "Ascensión: Mago"
 	chapter.4F72E72B760CB007.chapter_subtitle: "Has aprendido a sobrevivir. Ahora descubre el poder de las máquinas."
 	chapter.4F72E72B760CB007.title: "4. La revolución de Create"
 	chapter.4F85A16CD2F734C8.chapter_subtitle: "Puntos de Ascensión para Guerrero"
 	chapter.4F85A16CD2F734C8.title: "Ascensión: Guerrero"
+	chapter.6DDFDAB1A64AB16D.chapter_subtitle: "Jefes del mundo, dragones y tu arma legendaria."
+	chapter.6DDFDAB1A64AB16D.title: "9. Los grandes jefes"
 	chapter.6F58F88937D025BF.chapter_subtitle: "Puntos de Ascensión para Arquero"
 	chapter.6F58F88937D025BF.title: "Ascensión: Arquero"
 	chapter.8A23F5912A5F28C7.chapter_subtitle: "Puntos de Ascensión para Ingeniero"
@@ -26,6 +30,10 @@
 	chapter.A4FA102768BB3DEA.title: "6. El despertar de la magia"
 	chapter.B01E0EAF688A58EC.chapter_subtitle: "Siete oficios que suben mientras haces sus tareas"
 	chapter.B01E0EAF688A58EC.title: "Oficios"
+	chapter.C02B48C24882F324.chapter_subtitle: "Undergarden, Aether y el espacio: nuevas dimensiones y materiales."
+	chapter.C02B48C24882F324.title: "8. Más allá del mundo"
+	chapter.C176596AE4EA0D36.chapter_subtitle: "Mazmorras enormes, cuevas imposibles y tu primer jefe de Cataclysm."
+	chapter.C176596AE4EA0D36.title: "7. Las tierras olvidadas"
 	chapter.EAC04198190FFCE4.chapter_subtitle: "El mundo ha cambiado. Antes de aventurarte tendrás que aprender a sobrevivir."
 	chapter.EAC04198190FFCE4.title: "1. El comienzo"
 	chapter.EB42D72D8341FA4F.chapter_subtitle: "Puntos de Ascensión para Asesino"
@@ -36,6 +44,9 @@
 	]
 	quest.0146B7675CB1ADB3.quest_subtitle: "Desbloquea la pestaña"
 	quest.0146B7675CB1ADB3.title: "Elige la Ascensión de Guerrero"
+	quest.07C8A22BF934F241.quest_desc: ["Los dragones de Ice and Fire son de los enemigos más peligrosos. Cazarlos exige armadura de netherita y armas potentes."]
+	quest.07C8A22BF934F241.quest_subtitle: "Ice and Fire"
+	quest.07C8A22BF934F241.title: "Dragón de fuego"
 	quest.081D1FF65EC02FC8.quest_desc: ["Llega hasta la cima de uno de los dos caminos de Encantador. Es el hito de maestría del oficio."]
 	quest.081D1FF65EC02FC8.quest_subtitle: "Maestría"
 	quest.081D1FF65EC02FC8.title: "Encantador II"
@@ -64,6 +75,9 @@
 	]
 	quest.0CCABA5E8E7E4CFE.quest_subtitle: "Pulsa K"
 	quest.0CCABA5E8E7E4CFE.title: "Árbol de habilidades"
+	quest.0CF5D43F82571F8E.quest_desc: ["El Aether es un reino de islas flotantes sobre las nubes. Construye un portal con bloques de piedra sagrada y enciéndelo con agua."]
+	quest.0CF5D43F82571F8E.quest_subtitle: "Las islas del cielo"
+	quest.0CF5D43F82571F8E.title: "Portal al Aether"
 	quest.101EC6A0A52230CD.quest_desc: ["Derriba 30 fantasmas."]
 	quest.101EC6A0A52230CD.quest_subtitle: "Los cielos"
 	quest.101EC6A0A52230CD.title: "Cazador de fantasmas"
@@ -82,6 +96,9 @@
 	quest.1A893B25B04FC13D.quest_desc: ["Sube en el árbol de Cocinero hasta &6Fundamentos VI&r. Esto activa el hito Cocinero I."]
 	quest.1A893B25B04FC13D.quest_subtitle: "Hito de oficio"
 	quest.1A893B25B04FC13D.title: "Cocinero I"
+	quest.1B49A963E6430C21.quest_desc: ["La reina de las tormentas del mar. Solo para quien ya venció al Leviatán."]
+	quest.1B49A963E6430C21.quest_subtitle: "Cataclysm"
+	quest.1B49A963E6430C21.title: "Scylla"
 	quest.1BDF8774D83C58FF.quest_desc: [
 		"Un pico y un hacha de madera te permiten conseguir piedra y madera más rápido."
 		"Pico: piedra y minerales. Hacha: madera."
@@ -100,12 +117,21 @@
 	quest.1EB38FEDF5C4F757.quest_desc: ["Ingeniero: más velocidad de minado, suerte y experiencia. Tus máquinas llegarán en el capítulo 4."]
 	quest.1EB38FEDF5C4F757.quest_subtitle: "Minería y máquinas"
 	quest.1EB38FEDF5C4F757.title: "Camino del Ingeniero"
+	quest.20B83444BFFAE39C.quest_desc: ["El Wither ataca con calaveras que se lo llevan todo. Combátelo en un túnel bajo tierra."]
+	quest.20B83444BFFAE39C.quest_subtitle: "El clásico"
+	quest.20B83444BFFAE39C.title: "El Wither"
 	quest.232F25CB31CDBD5A.quest_desc: ["Ya tienes clase. Cada nivel te dará más puntos; elige con calma cómo repartirlos (puedes reiniciar el árbol)."]
 	quest.232F25CB31CDBD5A.quest_subtitle: "Pufferfish"
 	quest.232F25CB31CDBD5A.title: "Tu primera habilidad"
 	quest.24EAA068F8A60EE9.quest_desc: ["Forja un mandoble de netherita."]
 	quest.24EAA068F8A60EE9.quest_subtitle: "El mandoble definitivo"
 	quest.24EAA068F8A60EE9.title: "Hoja de guerra"
+	quest.252B5CC6604F1E2A.quest_desc: [
+		"Has explorado, sobrevivido y derrotado a un gran jefe. Ya nada te sorprende. Entrega un ojo de Ignis para completar el capítulo."
+		"Se abre el capítulo 8."
+	]
+	quest.252B5CC6604F1E2A.quest_subtitle: "Cierre del capítulo"
+	quest.252B5CC6604F1E2A.title: "Primer gran jefe"
 	quest.275367E181852557.quest_desc: ["Las fortalezas del Nether contienen blaze y cofres. Usa tu brújula del explorador para encontrar una."]
 	quest.275367E181852557.quest_subtitle: "Exploración"
 	quest.275367E181852557.title: "Fortaleza del Nether"
@@ -115,6 +141,9 @@
 	quest.27B8560427F11E26.quest_desc: ["Las arañas infestan las cuevas. Acaba con 20."]
 	quest.27B8560427F11E26.quest_subtitle: "Novato"
 	quest.27B8560427F11E26.title: "Encargo: arañas"
+	quest.289319CD0FB27F96.quest_desc: ["Las mazmorras del Aether guardan a los Slider y a las Valquirias. La de bronce es la primera. Llegar al final abre la de plata y la de oro."]
+	quest.289319CD0FB27F96.quest_subtitle: "Jefe del Aether"
+	quest.289319CD0FB27F96.title: "Mazmorra de bronce"
 	quest.296BB18C21C4F723.quest_desc: [
 		"Las bóvedas de objetos guardan miles de objetos y se conectan con embudos y cintas."
 		"Usa la mochila (&6B&r) para llevar contigo lo importante."
@@ -154,12 +183,21 @@
 	]
 	quest.3157D2002210A894.quest_subtitle: "Noche, mobs y respawn"
 	quest.3157D2002210A894.title: "Refugio"
+	quest.3197D5D381797683.quest_desc: [
+		"Has completado la campaña. Alcanza el nivel 100 y abre la Ascensión: en los capítulos de Ascensión de cada clase ganarás puntos que mejoran a tu personaje para siempre."
+		"Este es el final del camino... y el principio de otro."
+	]
+	quest.3197D5D381797683.quest_subtitle: "Fin de la campaña"
+	quest.3197D5D381797683.title: "La puerta de la Ascensión"
 	quest.3445B8FE66BB1571.quest_desc: ["Las mazmorras tienen enemigos, trampas y mucho botín. Prepara comida, antorchas y un escudo antes de entrar."]
 	quest.3445B8FE66BB1571.quest_subtitle: "Entra y sal con vida"
 	quest.3445B8FE66BB1571.title: "Primera mazmorra"
 	quest.344EF3DE8D7FA8CB.quest_desc: ["Los ejes transmiten. Los engranajes cambian la dirección. Los engranajes grandes cambian la velocidad. Una caja de cambios invierte el sentido."]
 	quest.344EF3DE8D7FA8CB.quest_subtitle: "Dirección y velocidad"
 	quest.344EF3DE8D7FA8CB.title: "Transmisión"
+	quest.366DCDCB76E6B45C.quest_desc: ["Una bestia colosal del Nether. Suelta el cuerno monstruoso, base de armas poderosas."]
+	quest.366DCDCB76E6B45C.quest_subtitle: "Otro jefe"
+	quest.366DCDCB76E6B45C.title: "Monstruosidad de netherita (opcional)"
 	quest.36C790764DFE6623.quest_desc: [
 		"Este mundo mezcla RPG, exploración, Create, tecnología y magia."
 		"Este libro de misiones es tu manual: cada misión te enseña algo y te da un premio. Empieza por aquí y sigue las líneas que unen las misiones."
@@ -167,6 +205,9 @@
 	]
 	quest.36C790764DFE6623.quest_subtitle: "Aventura, clases, oficios y máquinas"
 	quest.36C790764DFE6623.title: "Bienvenido a Pony0n RPG"
+	quest.389B0A13226CA341.quest_desc: ["El Lich invoca cometas y cráneos. Su arena es una torre; lleva armadura con protección mágica."]
+	quest.389B0A13226CA341.quest_subtitle: "Bosses of Mass Destruction"
+	quest.389B0A13226CA341.title: "El Lich"
 	quest.393A2A529C6BA469.quest_desc: ["Al completar &6El aventurero&r te reconocen como aventurero de Bronce. Ya puedes tomar encargos contra enemigos del Nether."]
 	quest.393A2A529C6BA469.quest_subtitle: "Tras el capítulo 3"
 	quest.393A2A529C6BA469.title: "Rango Bronce"
@@ -188,6 +229,9 @@
 	quest.3EDA4F9660560F63.quest_desc: ["El servidor tiene chat de voz por proximidad. Pulsa &6V&r para configurarlo y elige tu micrófono."]
 	quest.3EDA4F9660560F63.quest_subtitle: "Pulsa V"
 	quest.3EDA4F9660560F63.title: "Chat de voz"
+	quest.414193DA24BEBD2A.quest_desc: ["Bajo el Deep Dark hay una ciudad antigua y criaturas del sculk. Ve sin luz y sin ruido: hay guardianes."]
+	quest.414193DA24BEBD2A.quest_subtitle: "Deeper and Darker"
+	quest.414193DA24BEBD2A.title: "Más profundo y más oscuro"
 	quest.41494B12BA1ADEB7.quest_desc: ["Explora un templo o torre y sal con vida."]
 	quest.41494B12BA1ADEB7.quest_subtitle: "Otra estructura"
 	quest.41494B12BA1ADEB7.title: "Torres y templos"
@@ -263,6 +307,9 @@
 	]
 	quest.5339C4147395574B.quest_subtitle: "Presentación"
 	quest.5339C4147395574B.title: "Oficio: Minero"
+	quest.57C84769B9A5FB8F.quest_desc: ["Un coliseo enorme con oleadas de enemigos. Ideal para probar tu equipo de clase."]
+	quest.57C84769B9A5FB8F.quest_subtitle: "Arena de combate"
+	quest.57C84769B9A5FB8F.title: "Coliseo"
 	quest.5AC03FC7AF1A0F16.quest_desc: [
 		"Los diamantes aparecen muy abajo, cerca de la capa Y -58. Lleva antorchas, comida y un pico de hierro, y ten cuidado con la lava."
 		"El nivel de tu oficio de Minero sube mientras picas."
@@ -284,6 +331,9 @@
 	quest.5C743ED0FE5620E5.quest_desc: ["Encanta objetos en la mesa de encantamientos."]
 	quest.5C743ED0FE5620E5.quest_subtitle: "Haz el trabajo"
 	quest.5C743ED0FE5620E5.title: "Encantador: práctica"
+	quest.5D3FFEF92F1173B2.quest_desc: ["Destruye los cristales del End y acaba con el dragón. Lleva bloques, arco y mucha comida."]
+	quest.5D3FFEF92F1173B2.quest_subtitle: "El jefe final"
+	quest.5D3FFEF92F1173B2.title: "El dragón del End"
 	quest.5E89FB767BB1E9C7.quest_desc: [
 		"Sigue subiendo en tu clase hasta &6Fundamentos VI&r: eso te da el Tier II y abre equipo mejor."
 		"Mientras tanto, prepárate para explorar."
@@ -296,6 +346,9 @@
 	]
 	quest.604171E7AD5F136E.quest_subtitle: "Introducción a Create"
 	quest.604171E7AD5F136E.title: "Primeras máquinas (opcional)"
+	quest.613EB86C5C470D5C.quest_desc: ["El dragón de rayo es el más veloz. Su aliento paraliza."]
+	quest.613EB86C5C470D5C.quest_subtitle: "Ice and Fire"
+	quest.613EB86C5C470D5C.title: "Dragón de rayo"
 	quest.661472E3C58175D2.quest_desc: [
 		"Los procesadores se fabrican con moldes en un inscriptor. Necesitas lógica, cálculo e ingeniería."
 		"Un mecanismo de precisión de Create viene muy bien en esta etapa."
@@ -305,6 +358,12 @@
 	quest.68C1A8BC88D5C2E1.quest_desc: ["Los zombis rodean el pueblo. Elimina 30."]
 	quest.68C1A8BC88D5C2E1.quest_subtitle: "Novato"
 	quest.68C1A8BC88D5C2E1.title: "Encargo: zombis"
+	quest.69AE17FC4E72B712.quest_desc: [
+		"Aquí están los enemigos más poderosos del mundo. Se enfrentan en grupo, con buen equipo, pociones, comida y un plan."
+		"Cada jefe suelta materiales únicos. Con ellos forjarás tu arma legendaria."
+	]
+	quest.69AE17FC4E72B712.quest_subtitle: "Solo para veteranos"
+	quest.69AE17FC4E72B712.title: "Los grandes jefes"
 	quest.69B30B980486EE8F.quest_desc: ["Bloquea daño con tu escudo hasta acumular una gran cantidad."]
 	quest.69B30B980486EE8F.quest_subtitle: "Bloquea el daño"
 	quest.69B30B980486EE8F.title: "Muralla"
@@ -314,9 +373,15 @@
 	]
 	quest.69F7A8073F6F44D2.quest_subtitle: "Un enemigo de élite"
 	quest.69F7A8073F6F44D2.title: "Primer miniboss"
+	quest.6A1F3570BDB04DF6.quest_desc: ["El Catalizador abre el portal al Undergarden: una dimensión oscura y húmeda bajo el mundo. Es un lugar hostil y de mucho botín."]
+	quest.6A1F3570BDB04DF6.quest_subtitle: "El subsuelo"
+	quest.6A1F3570BDB04DF6.title: "Portal al Undergarden"
 	quest.6A34C1CD6FD08430.quest_desc: ["Acaba con 10 devastadores."]
 	quest.6A34C1CD6FD08430.quest_subtitle: "Raid"
 	quest.6A34C1CD6FD08430.title: "Aplasta devastadores"
+	quest.6BC09C66DEDF9229.quest_desc: ["El Ferrous Wroughtnaut custodia su estructura con un hacha enorme. Ataca cuando baja el hacha y retrocede cuando se enfurece."]
+	quest.6BC09C66DEDF9229.quest_subtitle: "Jefe de Mowzie's Mobs"
+	quest.6BC09C66DEDF9229.title: "El Wroughtnaut"
 	quest.6C72FF8578451F92.quest_desc: ["Una caldera con agua y calor alimenta motores de vapor que dan un montón de estrés."]
 	quest.6C72FF8578451F92.quest_subtitle: "Mucha fuerza"
 	quest.6C72FF8578451F92.title: "Motor de vapor (opcional)"
@@ -332,9 +397,15 @@
 	quest.6EBC59CAF79FAB55.quest_desc: ["Construye una baliza."]
 	quest.6EBC59CAF79FAB55.quest_subtitle: "Baliza"
 	quest.6EBC59CAF79FAB55.title: "Faro del ingeniero"
+	quest.70A678CA815512E3.quest_desc: ["Pisa la Luna. La gravedad baja permite saltar mucho más alto. Lleva mucha comida y oxígeno."]
+	quest.70A678CA815512E3.quest_subtitle: "Primer destino"
+	quest.70A678CA815512E3.title: "La Luna"
 	quest.7254BDE4C260F5ED.quest_desc: ["La sierra corta troncos y árboles. También procesa madera en tablones desde una cinta."]
 	quest.7254BDE4C260F5ED.quest_subtitle: "Tala automática"
 	quest.7254BDE4C260F5ED.title: "Sierra mecánica"
+	quest.752493E8C3ACAD7E.quest_desc: ["Los planetas tienen metales únicos: desh en la Luna, ostrum en Marte, calorita en Venus. Son la base del equipo espacial."]
+	quest.752493E8C3ACAD7E.quest_subtitle: "Metales del espacio"
+	quest.752493E8C3ACAD7E.title: "Desh, Ostrum y Calorita"
 	quest.753F8FC0BE2F83E4.quest_desc: [
 		"El cocinero sube cocinando carne y pescado, y comiendo."
 		"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Cocinero. Cada nivel del oficio te da 1 punto para su árbol."
@@ -344,6 +415,18 @@
 	quest.772705568398490D.quest_desc: ["Derrota 10 ghasts, de lejos."]
 	quest.772705568398490D.quest_subtitle: "Dispara a la bola"
 	quest.772705568398490D.title: "Ghast a distancia"
+	quest.77BD59570E5928DF.quest_desc: [
+		"Has fabricado un arma legendaria y vencido a los grandes jefes. Solo queda el final del mundo."
+		"Se abre el capítulo 10."
+	]
+	quest.77BD59570E5928DF.quest_subtitle: "Cierre del capítulo"
+	quest.77BD59570E5928DF.title: "Leyenda"
+	quest.79D86D9AF1006A2E.quest_desc: [
+		"Más allá de los caminos conocidos hay fortalezas, templos hundidos y cuevas de otro mundo. Aquí cada estructura es una aventura de un buen rato."
+		"Lleva equipo completo, pociones, comida y una ruta de escape. Trabajen en equipo: los jefes de este capítulo no son para ir solo."
+	]
+	quest.79D86D9AF1006A2E.quest_subtitle: "Peligro real"
+	quest.79D86D9AF1006A2E.title: "Tierras olvidadas"
 	quest.7A0777EF5D49B88A.quest_desc: [
 		"El granjero sube cosechando cultivos maduros (no vale romper los brotes)."
 		"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Granjero. Cada nivel del oficio te da 1 punto para su árbol."
@@ -353,6 +436,9 @@
 	quest.7AB94966CEC6E3F9.quest_desc: ["Elimina 20 brujas."]
 	quest.7AB94966CEC6E3F9.quest_subtitle: "Práctica"
 	quest.7AB94966CEC6E3F9.title: "Caza de brujas"
+	quest.7BAC261842D92139.quest_desc: ["La garra de las mareas se forja con el tridente del Leviatán."]
+	quest.7BAC261842D92139.quest_subtitle: "Alternativa"
+	quest.7BAC261842D92139.title: "Garra de las mareas (opcional)"
 	quest.7C8EA5D510588DD0.quest_desc: ["Un ingeniero necesita almacenamiento. Mejora tu mochila a hierro."]
 	quest.7C8EA5D510588DD0.quest_subtitle: "Mochila de hierro"
 	quest.7C8EA5D510588DD0.title: "Equipo de Ingeniero"
@@ -398,6 +484,12 @@
 	quest.8401A8164AC34D43.quest_desc: ["El brasero ritual hace magia colectiva: cambia el clima, hace crecer bosques o invoca criaturas. Lo primero: fabricar el brasero."]
 	quest.8401A8164AC34D43.quest_subtitle: "Magia poderosa"
 	quest.8401A8164AC34D43.title: "Rituales"
+	quest.853F39E834393EB2.quest_desc: [
+		"El equipo mítico se forja con materiales de tres dimensiones distintas: el Undergarden, el Aether y el espacio."
+		"Entrégalos para demostrar que has llegado al final."
+	]
+	quest.853F39E834393EB2.quest_subtitle: "Fruto de tres dimensiones"
+	quest.853F39E834393EB2.title: "Equipo mítico"
 	quest.855865679720C887.quest_desc: ["Fabrica un circuito de control definitivo."]
 	quest.855865679720C887.quest_subtitle: "Mekanism"
 	quest.855865679720C887.title: "Circuito supremo"
@@ -438,6 +530,9 @@
 	quest.8B3A82BE13DF2E1B.quest_desc: ["El arco largo tiene más alcance y potencia. Requiere Arquero (Tier I)."]
 	quest.8B3A82BE13DF2E1B.quest_subtitle: "Arco largo de hierro"
 	quest.8B3A82BE13DF2E1B.title: "Equipo de Arquero"
+	quest.8BA57DB472D771CC.quest_desc: ["El Undergarden tiene metales propios: cloggrum y froststeel. Con ellos fabricas equipo especial."]
+	quest.8BA57DB472D771CC.quest_subtitle: "Metales nuevos"
+	quest.8BA57DB472D771CC.title: "Cloggrum y Froststeel"
 	quest.8D64DD1C0E759D96.quest_desc: ["Llega a la cima de un camino de Mago (Tier III)."]
 	quest.8D64DD1C0E759D96.quest_subtitle: "Tier III"
 	quest.8D64DD1C0E759D96.title: "Maestría final"
@@ -459,6 +554,9 @@
 	quest.9243E3CCBABC82FC.quest_desc: ["La piedra dura más que la madera y sirve para minar hierro. Consigue adoquín con tu pico."]
 	quest.9243E3CCBABC82FC.quest_subtitle: "Un salto de calidad"
 	quest.9243E3CCBABC82FC.title: "Herramientas de piedra"
+	quest.925E7E3DF8BBF298.quest_desc: ["En el espacio no hay aire. El traje espacial y el equipo de oxígeno te mantienen con vida."]
+	quest.925E7E3DF8BBF298.quest_subtitle: "Oxígeno"
+	quest.925E7E3DF8BBF298.title: "Traje espacial"
 	quest.945E836B0ADE39A7.quest_desc: ["Acaba con 200 zombis: la fuerza se gana golpeando."]
 	quest.945E836B0ADE39A7.quest_subtitle: "Mata sin descanso"
 	quest.945E836B0ADE39A7.title: "Fuerza bruta"
@@ -483,6 +581,18 @@
 	quest.980363084265B5E6.quest_desc: ["Fabrica un grimorio de diamante."]
 	quest.980363084265B5E6.quest_subtitle: "Un libro mayor"
 	quest.980363084265B5E6.title: "Grimorio superior"
+	quest.99B0C33FC300E506.quest_desc: ["Marte requiere un cohete de nivel 2. Aquí hay más minerales, y enemigos."]
+	quest.99B0C33FC300E506.quest_subtitle: "Cohete tier 2"
+	quest.99B0C33FC300E506.title: "Marte (opcional)"
+	quest.9B1494BEA9A64C90.quest_desc: [
+		"Hay tres caminos nuevos: el subsuelo oscuro (&6Undergarden&r), las islas del cielo (&6Aether&r) y el espacio (&6Ad Astra&r)."
+		"Cada dimensión tiene materiales únicos. Los necesitarás para el equipo legendario."
+	]
+	quest.9B1494BEA9A64C90.quest_subtitle: "Dimensiones"
+	quest.9B1494BEA9A64C90.title: "Más allá del mundo"
+	quest.9B5C873368FF2ED3.quest_desc: ["Una estructura de metal y engranajes de una civilización perdida. Custodia un jefe mecánico."]
+	quest.9B5C873368FF2ED3.quest_subtitle: "Cataclysm"
+	quest.9B5C873368FF2ED3.title: "La fábrica antigua"
 	quest.9BA06F3334BBE69A.quest_desc: ["Derrota 50 endermen."]
 	quest.9BA06F3334BBE69A.quest_subtitle: "Endermen"
 	quest.9BA06F3334BBE69A.title: "Golpe de sombra"
@@ -505,9 +615,18 @@
 	quest.9F16F986157B10A0.quest_desc: ["Los grimorios guardan hechizos y aumentan tu poder mágico. Requiere Mago (Tier I)."]
 	quest.9F16F986157B10A0.quest_subtitle: "Grimorio de hierro"
 	quest.9F16F986157B10A0.title: "Equipo de Mago"
+	quest.9FA71A4077662222.quest_desc: [
+		"Ignis es el primero de los grandes jefes de Cataclysm. Ataca sin cesar y se cura con almas; mantén la presión y evita los proyectiles."
+		"Al derrotarlo, sueltan sus ojos y su espada."
+	]
+	quest.9FA71A4077662222.quest_subtitle: "Primer jefe de Cataclysm"
+	quest.9FA71A4077662222.title: "Ignis"
 	quest.A03132261B14BBF7.quest_desc: ["Recorre una gran distancia a pie."]
 	quest.A03132261B14BBF7.quest_subtitle: "Movilidad"
 	quest.A03132261B14BBF7.title: "Corredor de largas distancias"
+	quest.A132A8381F48F638.quest_desc: ["Un coloso mecánico de una civilización antigua. Sus rayos y misiles te obligan a moverte sin parar."]
+	quest.A132A8381F48F638.quest_subtitle: "Cataclysm"
+	quest.A132A8381F48F638.title: "El Harbinger"
 	quest.A172BC3B18A57A27.quest_desc: [
 		"Después de la fuerza mecánica llega la electricidad. Usaremos FE (Forge Energy) y tres familias de mods:"
 		"&6Create Crafts & Additions&r: convierte la fuerza de Create en electricidad. &6Powah&r: generadores y baterías intermedias. &6Mekanism&r: procesamiento y energía densa. &6AE2&r: almacenamiento y autocrafteo."
@@ -523,9 +642,18 @@
 	quest.A2FC1EAC5A3C7C74.quest_desc: ["Derrota 30 fantasmas."]
 	quest.A2FC1EAC5A3C7C74.quest_subtitle: "Phantoms"
 	quest.A2FC1EAC5A3C7C74.title: "Cazador nocturno"
+	quest.A3B65706E7EC5F07.quest_desc: ["El dragón de hielo se cura con nieve y ataca con aliento congelante."]
+	quest.A3B65706E7EC5F07.quest_subtitle: "Ice and Fire"
+	quest.A3B65706E7EC5F07.title: "Dragón de hielo"
 	quest.A470FFA3588A8492.quest_desc: ["Gasta tus puntos en un camino del árbol de habilidades: Piromancia, Criomancia, Arcanismo u Oscuridad. Cada uno mejora la escuela correspondiente."]
 	quest.A470FFA3588A8492.quest_subtitle: "Especialízate"
 	quest.A470FFA3588A8492.title: "Elige tu escuela"
+	quest.A6CB2891FCED730B.quest_desc: [
+		"Con las armas de los jefes forjas armas legendarias. Consigue una de ellas: la incineradora, la garra de las mareas o el renderizador de almas."
+		"Se fabrican en las forjas de Cataclysm con los ojos y lingotes de los jefes."
+	]
+	quest.A6CB2891FCED730B.quest_subtitle: "Forja la tuya"
+	quest.A6CB2891FCED730B.title: "Arma legendaria"
 	quest.A7AEFFF6B8BB4F49.quest_desc: ["Las brujas envenenan los pozos. Encuentra y elimina 5."]
 	quest.A7AEFFF6B8BB4F49.quest_subtitle: "Bronce"
 	quest.A7AEFFF6B8BB4F49.title: "Encargo: brujas"
@@ -535,6 +663,9 @@
 	quest.A8B4C2A3F535BB7A.quest_desc: ["Las ruinas, minas abandonadas y templos guardan cofres y peligros. Usa tu brújula para encontrar una mina abandonada."]
 	quest.A8B4C2A3F535BB7A.quest_subtitle: "Estructuras"
 	quest.A8B4C2A3F535BB7A.title: "Primeras ruinas"
+	quest.A9F9F8A3B2F1D7AC.quest_desc: ["Una criatura antigua del hielo. Necesitas fuego, armadura y paciencia."]
+	quest.A9F9F8A3B2F1D7AC.quest_subtitle: "Jefe de las nieves"
+	quest.A9F9F8A3B2F1D7AC.title: "El Frostmaw"
 	quest.AC60C20D64A0E28C.quest_desc: ["Coloca una estación, monta un vagón con controles y ponle nombre a tu tren. Un tren une tu base con tus fábricas y con el mundo."]
 	quest.AC60C20D64A0E28C.quest_subtitle: "Movimiento a gran escala"
 	quest.AC60C20D64A0E28C.title: "Estación de tren"
@@ -565,6 +696,9 @@
 	quest.B193519A7BAE7605.quest_desc: ["La mesa de escriba te permite crear glifos con gemas de fuente. Empieza por los básicos: proyectil, impacto, curar."]
 	quest.B193519A7BAE7605.quest_subtitle: "Glifos"
 	quest.B193519A7BAE7605.title: "Mesa de escriba"
+	quest.B1A87DBC8F9DA4E7.quest_desc: ["El Forgotten Guardian custodia el portal más profundo. Su recompensa: el metal olvidado."]
+	quest.B1A87DBC8F9DA4E7.quest_subtitle: "Jefe del Undergarden"
+	quest.B1A87DBC8F9DA4E7.title: "El guardián olvidado"
 	quest.B5D35989BB85CB9F.quest_desc: ["Con el libro de hechizos creas tus propios hechizos combinando glifos. Cambias de hechizo con las teclas configuradas."]
 	quest.B5D35989BB85CB9F.quest_subtitle: "Novato"
 	quest.B5D35989BB85CB9F.title: "Libro de hechizos de Ars"
@@ -583,9 +717,15 @@
 	]
 	quest.BB50558137D5DBEC.quest_subtitle: "Encargos con recompensa"
 	quest.BB50558137D5DBEC.title: "Gremio de aventureros"
+	quest.BC34EE86D9929279.quest_desc: ["Los ojos del End te guían hacia la fortaleza donde está el portal al End. Se hacen con una perla de ender y polvo de blaze."]
+	quest.BC34EE86D9929279.quest_subtitle: "Encuentra la fortaleza"
+	quest.BC34EE86D9929279.title: "Ojos del End"
 	quest.BC8BAE8FA9501974.quest_desc: ["Un grimorio de oro o diamante guarda más hechizos. Cuando tengas el nodo &6Mago Tier II&r (Fundamentos VI) podrás usarlo."]
 	quest.BC8BAE8FA9501974.quest_subtitle: "Requiere Mago (Tier I o II)"
 	quest.BC8BAE8FA9501974.title: "Tu grimorio"
+	quest.BCD87D472ED867E1.quest_desc: ["La zanita es el mineral base del Aether: sirve para herramientas y armas. La gravitita necesita un altar."]
+	quest.BCD87D472ED867E1.quest_subtitle: "Materiales del Aether"
+	quest.BCD87D472ED867E1.title: "Zanita y gravitita"
 	quest.BD6C2BB3B1FE24F8.quest_desc: ["El hierro aparece entre las alturas Y 0 y 60 aproximadamente. Baja a una cueva con antorchas y no caves justo hacia abajo."]
 	quest.BD6C2BB3B1FE24F8.quest_subtitle: "Minería y niveles Y"
 	quest.BD6C2BB3B1FE24F8.title: "Bajo tierra"
@@ -601,6 +741,12 @@
 	quest.C18860FCA577E7F3.quest_desc: ["Un taladro rompe bloques por ti mientras recibe fuerza. Ponlo frente a una veta y recoge los objetos."]
 	quest.C18860FCA577E7F3.quest_subtitle: "Minado automático"
 	quest.C18860FCA577E7F3.title: "Taladro mecánico"
+	quest.C20C5FA204BC3F48.quest_desc: ["Un coloso del desierto. Ataca a distancia y abre el suelo bajo tus pies."]
+	quest.C20C5FA204BC3F48.quest_subtitle: "Cataclysm"
+	quest.C20C5FA204BC3F48.title: "El Remanente Antiguo"
+	quest.C2853AA259EA5044.quest_desc: ["Las cajas shulker son la mejor forma de llevar equipo contigo."]
+	quest.C2853AA259EA5044.quest_subtitle: "Almacenamiento móvil"
+	quest.C2853AA259EA5044.title: "Cajas shulker"
 	quest.C2FFB20DB6F69E69.quest_desc: ["Pica minerales: cada uno da experiencia de oficio. Consigue diamantes y esmeraldas."]
 	quest.C2FFB20DB6F69E69.quest_subtitle: "Haz el trabajo"
 	quest.C2FFB20DB6F69E69.title: "Minero: práctica"
@@ -616,12 +762,18 @@
 	quest.C87C963E8018A4EE.quest_desc: ["Tier I de Mago: bastones, grimorios básicos y lanzar hechizos."]
 	quest.C87C963E8018A4EE.quest_subtitle: "Hechizos y grimorios"
 	quest.C87C963E8018A4EE.title: "Camino del Mago"
+	quest.C8F04AAF3D8BDDA0.quest_desc: ["Cruza el portal. Ten cuidado con los moradores y los devoradores."]
+	quest.C8F04AAF3D8BDDA0.quest_subtitle: "Bajo tierra"
+	quest.C8F04AAF3D8BDDA0.title: "Entra al Undergarden"
 	quest.C97F4BC7B296B70E.quest_desc: [
 		"Has sobrevivido a tu primera noche, tienes herramientas, armadura y comida. Entrega lingotes de hierro y pan para completar el capítulo."
 		"Al terminar se abre el capítulo 2."
 	]
 	quest.C97F4BC7B296B70E.quest_subtitle: "Cierre del capítulo"
 	quest.C97F4BC7B296B70E.title: "De vuelta al spawn"
+	quest.CBFBBAC1DD7AF59D.quest_desc: ["En las ciudades del End hay barcos con élitros. Con ellos y cohetes, el cielo es tuyo."]
+	quest.CBFBBAC1DD7AF59D.quest_subtitle: "Vuela"
+	quest.CBFBBAC1DD7AF59D.title: "Élitros"
 	quest.CC63238389AE1C80.quest_desc: ["Fabrica armas y herramientas de hierro y funde lingotes."]
 	quest.CC63238389AE1C80.quest_subtitle: "Haz el trabajo"
 	quest.CC63238389AE1C80.title: "Herrero: práctica"
@@ -634,6 +786,12 @@
 	]
 	quest.CD39F7FD4EA6A331.quest_subtitle: "Presentación"
 	quest.CD39F7FD4EA6A331.title: "Oficio: Leñador"
+	quest.CD8B35492B3252A6.quest_desc: [
+		"Has visitado el subsuelo, el cielo y el espacio. Entrega materiales de cada dimensión para completar el capítulo."
+		"Se abre el capítulo 9."
+	]
+	quest.CD8B35492B3252A6.quest_subtitle: "Cierre del capítulo"
+	quest.CD8B35492B3252A6.title: "Materiales dimensionales"
 	quest.CDA9B35585558D64.quest_desc: ["Derrota 40 esqueletos del Wither."]
 	quest.CDA9B35585558D64.quest_subtitle: "Esqueletos"
 	quest.CDA9B35585558D64.title: "Verdugo del Nether"
@@ -658,12 +816,21 @@
 	]
 	quest.D61BBAE4A603C442.quest_subtitle: "FTB Teams y FTB Chunks"
 	quest.D61BBAE4A603C442.title: "Equipos y protección"
+	quest.D6478AB6BCB0465D.quest_desc: [
+		"Todo lo que has hecho te ha traído hasta aquí. El End te espera con su dragón y sus ciudades."
+		"Al completar este capítulo se abre la Ascensión: un nuevo camino para tu clase."
+	]
+	quest.D6478AB6BCB0465D.quest_subtitle: "La última era"
+	quest.D6478AB6BCB0465D.title: "El fin del mundo"
 	quest.D7DB47F7D5C43B18.quest_desc: [
 		"Mekanism tiene máquinas que multiplican tus minerales: un mineral procesado en una cámara de enriquecimiento da más lingotes."
 		"Empieza con circuitos de control básicos."
 	]
 	quest.D7DB47F7D5C43B18.quest_subtitle: "Procesamiento"
 	quest.D7DB47F7D5C43B18.title: "Mekanism: primeras máquinas"
+	quest.D7E6D29776E5BCBF.quest_desc: ["Bajo la superficie hay cuevas de dinosaurios, caramelo, imanes y ácido. Cada una tiene sus propios enemigos y recompensas."]
+	quest.D7E6D29776E5BCBF.quest_subtitle: "Biomas subterráneos"
+	quest.D7E6D29776E5BCBF.title: "Cuevas de Alex"
 	quest.D7F01831E0B33A15.quest_desc: [
 		"Los bastones, grimorios, armas pesadas, arcos y armas ligeras de alto nivel solo los puede usar quien tenga esa clase."
 		"Compra el primer nodo de una clase (Tier I), llega a Fundamentos VI (Tier II) y a la cima de un camino (Tier III) para desbloquear equipo mejor."
@@ -674,6 +841,9 @@
 	quest.D8586CCB7C53F57D.quest_desc: ["Ya conoces las herramientas del pack. Ve al capítulo &6El comienzo&r y sobrevive tu primera noche."]
 	quest.D8586CCB7C53F57D.quest_subtitle: "Ya sabes lo básico"
 	quest.D8586CCB7C53F57D.title: "Empieza tu aventura"
+	quest.D8C05D5FEF793DAA.quest_desc: ["Una ciudadela quemada en el Nether alberga a Ignis, un caballero infernal. Prepárate con resistencia al fuego, armadura fuerte y un plan."]
+	quest.D8C05D5FEF793DAA.quest_subtitle: "Cataclysm"
+	quest.D8C05D5FEF793DAA.title: "La ciudadela en ruinas"
 	quest.D8C24ED29B2FB89A.quest_desc: ["Derrota al Wither. Prepara pociones, armadura encantada y un plan."]
 	quest.D8C24ED29B2FB89A.quest_subtitle: "Prueba de valor"
 	quest.D8C24ED29B2FB89A.title: "Contra el Wither"
@@ -683,6 +853,9 @@
 	]
 	quest.D97D3AB089CBE0D9.quest_subtitle: "Encantar"
 	quest.D97D3AB089CBE0D9.title: "Mesa de encantamientos"
+	quest.DD5EAC0EC65FBB08.quest_desc: ["El renderizador de almas es un arma de energía oscura."]
+	quest.DD5EAC0EC65FBB08.quest_subtitle: "Alternativa"
+	quest.DD5EAC0EC65FBB08.title: "Renderizador de almas (opcional)"
 	quest.DDFBEB5533EF30EC.quest_desc: ["Llega a la cima de un camino de Arquero (Tier III)."]
 	quest.DDFBEB5533EF30EC.quest_subtitle: "Tier III"
 	quest.DDFBEB5533EF30EC.title: "Maestría final"
@@ -692,9 +865,21 @@
 	]
 	quest.DF10D342CB4BCEB2.quest_subtitle: "Prueba de valor"
 	quest.DF10D342CB4BCEB2.title: "Rango Plata"
+	quest.E0307F6540B895AB.quest_desc: ["El rey del abismo marino. Necesitas respiración submarina, buena visión y armas potentes."]
+	quest.E0307F6540B895AB.quest_subtitle: "Cataclysm"
+	quest.E0307F6540B895AB.title: "El Leviatán"
+	quest.E08D0E74AE144739.quest_desc: ["Cruza el portal. Cuidado con las caídas: al vacío del Aether no le importan tus corazones."]
+	quest.E08D0E74AE144739.quest_subtitle: "El cielo"
+	quest.E08D0E74AE144739.title: "Entra al Aether"
+	quest.E10521C15254B921.quest_desc: ["Un guardián de cristal y vacío. Es rápido y su daño atraviesa armaduras."]
+	quest.E10521C15254B921.quest_subtitle: "Cataclysm"
+	quest.E10521C15254B921.title: "Guardián del End"
 	quest.E1CC250482E30D57.quest_desc: ["Llega a la cima de un camino de Guerrero (Tier III)."]
 	quest.E1CC250482E30D57.quest_subtitle: "Tier III"
 	quest.E1CC250482E30D57.title: "Maestría final"
+	quest.E220FA1EB73AACFF.quest_desc: ["Una ciudad sumergida con enemigos acuáticos. Lleva pociones de respiración y visión."]
+	quest.E220FA1EB73AACFF.quest_subtitle: "Bajo el mar"
+	quest.E220FA1EB73AACFF.title: "Ciudad hundida"
 	quest.E2DC0531E77E38C6.quest_desc: [
 		"Automatiza la producción de placas de hierro: taladro o mena → cinta → prensa → cofre. Sin intervención."
 		"Cuando la fábrica esté sola, recoge las placas."
@@ -752,6 +937,12 @@
 	quest.F07C6F6EA7B5C3AC.quest_desc: ["El Patio de la Naga guarda a la primera jefa del bosque. Derrótala para conseguir sus escamas y avanzar."]
 	quest.F07C6F6EA7B5C3AC.quest_subtitle: "Primer jefe"
 	quest.F07C6F6EA7B5C3AC.title: "La Naga"
+	quest.F127EBEC8782BE85.quest_desc: ["Con una estrella del Nether, obsidiana y cristal fabricas una baliza que da bonificaciones a todo tu equipo."]
+	quest.F127EBEC8782BE85.quest_subtitle: "Bonificaciones de zona"
+	quest.F127EBEC8782BE85.title: "Baliza"
+	quest.F13ECEE45C2EAD8B.quest_desc: ["Activa el portal con doce ojos del End. Al otro lado te esperan el dragón y los endermen."]
+	quest.F13ECEE45C2EAD8B.quest_subtitle: "Cruza"
+	quest.F13ECEE45C2EAD8B.title: "Portal al End"
 	quest.F259D202A3B8C5E8.quest_desc: [
 		"El Ingeniero optimiza cada tarea: más minería, suerte y experiencia."
 		"Al recoger el premio se desbloquea la pestaña de Ascensión de esta clase en el árbol de habilidades (&6K&r)."
@@ -788,6 +979,12 @@
 	]
 	quest.F6C4E233CB747E07.quest_subtitle: "Sistema de almacenamiento"
 	quest.F6C4E233CB747E07.title: "AE2: cuarzo"
+	quest.F87D568DFB6D92C8.quest_desc: [
+		"Ad Astra te lleva a la Luna y más allá. Necesitas un cohete, combustible, un traje espacial y oxígeno."
+		"Los cohetes requieren componentes de tecnología: placas de acero y mecanismos de Create/Mekanism."
+	]
+	quest.F87D568DFB6D92C8.quest_subtitle: "Ad Astra"
+	quest.F87D568DFB6D92C8.title: "Cohete"
 	quest.F93319BF3F30FEC1.quest_desc: [
 		"Sabes minar, explorar, encantar y sobrevivir. Ya estás listo para las mazmorras."
 		"Al terminar se abre el capítulo 3."
@@ -812,6 +1009,9 @@
 	]
 	quest.F9E2BC60282EC470.quest_subtitle: "Fuerza rotacional"
 	quest.F9E2BC60282EC470.title: "Movimiento"
+	quest.FA77B62A6C7BE745.quest_desc: ["Los fuertes de los ilagers están llenos de enemigos y botín. Entra con buena armadura y no te separes de tu grupo."]
+	quest.FA77B62A6C7BE745.quest_subtitle: "Estructura grande"
+	quest.FA77B62A6C7BE745.title: "Fuerte ilagerino"
 	quest.FB3C727C6ACE4E37.quest_desc: ["Derrota al Wither."]
 	quest.FB3C727C6ACE4E37.quest_subtitle: "Prueba final"
 	quest.FB3C727C6ACE4E37.title: "Contra el Wither"

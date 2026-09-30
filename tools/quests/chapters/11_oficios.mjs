@@ -17,7 +17,7 @@ const job = (id, name, intro, practice, rewardItem) => [
 ];
 
 export default {
-  key: "oficios", order: 11, group: "ramas", icon: "minecraft:anvil",
+  key: "oficios", order: 13, group: "ramas", icon: "minecraft:anvil",
   title: "Oficios",
   sub: "Siete oficios que suben mientras haces sus tareas",
   quests: [

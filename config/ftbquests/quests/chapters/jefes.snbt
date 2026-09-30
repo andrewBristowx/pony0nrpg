@@ -1,0 +1,502 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "jefes"
+	group: "FA1951BF2D35F839"
+	icon: {
+		id: "cataclysm:the_incinerator"
+	}
+	id: "6DDFDAB1A64AB16D"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			id: "69AE17FC4E72B712"
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["CD8B35492B3252A6"]
+			tasks: [
+				{
+					id: "9901292A74B16DBB"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "12DAF6568D12B9B9"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 4000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "ACBE50ECA5C99E76"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "A132A8381F48F638"
+			x: 2d
+			y: 0.5d
+			dependencies: ["69AE17FC4E72B712"]
+			tasks: [
+				{
+					id: "964A79AEE60AEFBD"
+					type: "kill"
+					entity: "cataclysm:the_harbinger"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "3691BDB3028627DD"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 6000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "C56B6ABD337AD601"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			id: "E10521C15254B921"
+			x: 2d
+			y: 2d
+			dependencies: ["69AE17FC4E72B712"]
+			tasks: [
+				{
+					id: "5583B0802AC1F31C"
+					type: "kill"
+					entity: "cataclysm:ender_guardian"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "B7D0F23B29B6ED80"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 6000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "BCFF5D02958E7A65"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			id: "E0307F6540B895AB"
+			x: 2d
+			y: 3.5d
+			dependencies: ["69AE17FC4E72B712"]
+			tasks: [
+				{
+					id: "0D1762FC7F0ACAA5"
+					type: "kill"
+					entity: "cataclysm:the_leviathan"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "D8E0D572B0B5D34B"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 6500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "8CC5BCD3ABB4CBB9"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			id: "1B49A963E6430C21"
+			x: 3.5d
+			y: 0.5d
+			optional: true
+			dependencies: ["E0307F6540B895AB"]
+			tasks: [
+				{
+					id: "7AA3BAB4FDB44DB2"
+					type: "kill"
+					entity: "cataclysm:scylla"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "4A59D90635B2CD1C"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 7000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "6574A0E4CD4FCE73"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			id: "C20C5FA204BC3F48"
+			x: 2d
+			y: 5d
+			dependencies: ["69AE17FC4E72B712"]
+			tasks: [
+				{
+					id: "112D33E79081C42D"
+					type: "kill"
+					entity: "cataclysm:ancient_remnant"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "80526581D87FC08B"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 6500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "A5581D9599615C1E"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			id: "389B0A13226CA341"
+			x: 2d
+			y: 6.5d
+			dependencies: ["69AE17FC4E72B712"]
+			tasks: [
+				{
+					id: "4126143D627E8D31"
+					type: "kill"
+					entity: "bosses_of_mass_destruction:lich"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "20C9F89F901F9440"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 6500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "C3AC2994DBA0C477"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			id: "20B83444BFFAE39C"
+			x: 2d
+			y: 8d
+			dependencies: ["69AE17FC4E72B712"]
+			tasks: [
+				{
+					id: "EA0217E6B32A3499"
+					type: "kill"
+					entity: "minecraft:wither"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "97B73DC7470ACDCD"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 6000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "F1B9A64DEF953E62"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+				}
+			]
+		}
+		{
+			id: "07C8A22BF934F241"
+			x: 2d
+			y: 9.5d
+			optional: true
+			dependencies: ["69AE17FC4E72B712"]
+			tasks: [
+				{
+					id: "D22F28A66ACF5C3A"
+					type: "kill"
+					entity: "iceandfire:fire_dragon"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "0681782074E4D6F1"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 8000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "C348BABB3365A38D"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			id: "A3B65706E7EC5F07"
+			x: 2d
+			y: 11d
+			optional: true
+			dependencies: ["69AE17FC4E72B712"]
+			tasks: [
+				{
+					id: "85F893DEA442C74D"
+					type: "kill"
+					entity: "iceandfire:ice_dragon"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "A5E7196D35717EB1"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 8000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "1E644631366BAE18"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			id: "613EB86C5C470D5C"
+			x: 2d
+			y: 12.5d
+			optional: true
+			dependencies: ["69AE17FC4E72B712"]
+			tasks: [
+				{
+					id: "E6DFD2A3EE5CDDFE"
+					type: "kill"
+					entity: "iceandfire:lightning_dragon"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "AA4B8253D10F2A98"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 8000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "F22A05BE44B867A8"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			id: "A6CB2891FCED730B"
+			x: 3.5d
+			y: 2d
+			dependency_requirement: "one_completed"
+			dependencies: [
+				"A132A8381F48F638"
+				"E10521C15254B921"
+				"E0307F6540B895AB"
+				"C20C5FA204BC3F48"
+			]
+			tasks: [
+				{
+					id: "06CA10C0F94CF0CD"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:the_incinerator"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5C47E9CED433B67C"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 9000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "4545E4105ADCDC6E"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			id: "7BAC261842D92139"
+			x: 3.5d
+			y: 3.5d
+			optional: true
+			dependencies: ["E0307F6540B895AB"]
+			tasks: [
+				{
+					id: "011451309077F974"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:tidal_claws"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4D91233BFAAADE9F"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 9000"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "DD5EAC0EC65FBB08"
+			x: 3.5d
+			y: 5d
+			optional: true
+			dependencies: ["C20C5FA204BC3F48"]
+			tasks: [
+				{
+					id: "6AACC59AC8734D3F"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:soul_render"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "188428F01CB0057A"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 9000"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "77BD59570E5928DF"
+			x: 5d
+			y: 0.5d
+			dependencies: ["A6CB2891FCED730B", "20B83444BFFAE39C", "389B0A13226CA341"]
+			tasks: [
+				{
+					id: "078AC1BD90F35580"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "441BF1D35B49F992"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 12000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "455367CE591A2CF3"
+					type: "command"
+					command: "/kubejs stages add {p} era_10_previa"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "C05649724DE924F6"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 6
+				}
+			]
+		}
+	]
+}

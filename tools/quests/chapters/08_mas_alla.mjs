@@ -1,0 +1,72 @@
+import { T, R } from "../../quest-dsl.mjs";
+
+// Capítulo 8 — Más allá del mundo (niveles 70–80, ~25 000 XP repartidos)
+export default {
+  key: "mas_alla", order: 8, group: "campana", icon: "ad_astra:tier_1_rocket",
+  title: "8. Más allá del mundo",
+  sub: "Undergarden, Aether y el espacio: nuevas dimensiones y materiales.",
+  quests: [
+    { k: "intro", t: "Más allá del mundo", sub: "Dimensiones", deps: ["tierras.cierre"],
+      d: ["Hay tres caminos nuevos: el subsuelo oscuro (&6Undergarden&r), las islas del cielo (&6Aether&r) y el espacio (&6Ad Astra&r).",
+          "Cada dimensión tiene materiales únicos. Los necesitarás para el equipo legendario."],
+      tasks: [T.check()], rewards: [R.skill(2500), R.coins({ netherita: 1 })] },
+
+    // ---- Undergarden ----
+    { k: "ug_portal", t: "Portal al Undergarden", sub: "El subsuelo", deps: ["intro"],
+      d: ["El Catalizador abre el portal al Undergarden: una dimensión oscura y húmeda bajo el mundo. Es un lugar hostil y de mucho botín."],
+      tasks: [T.item("undergarden:catalyst")], rewards: [R.skill(2800)] },
+    { k: "ug_dim", t: "Entra al Undergarden", sub: "Bajo tierra", deps: ["ug_portal"],
+      d: ["Cruza el portal. Ten cuidado con los moradores y los devoradores."],
+      tasks: [T.dim("undergarden:undergarden")], rewards: [R.skill(3000), R.coins({ netherita: 1 })] },
+    { k: "ug_cloggrum", t: "Cloggrum y Froststeel", sub: "Metales nuevos", deps: ["ug_dim"],
+      d: ["El Undergarden tiene metales propios: cloggrum y froststeel. Con ellos fabricas equipo especial."],
+      tasks: [T.item("undergarden:cloggrum_ingot", 8), T.item("undergarden:froststeel_ingot", 4)],
+      rewards: [R.skill(3200), R.job("herrero", 300)] },
+    { k: "ug_forgotten", t: "El guardián olvidado", sub: "Jefe del Undergarden", deps: ["ug_cloggrum"],
+      d: ["El Forgotten Guardian custodia el portal más profundo. Su recompensa: el metal olvidado."],
+      tasks: [T.kill("undergarden:forgotten_guardian", 1), T.item("undergarden:forgotten_ingot", 4)],
+      rewards: [R.skill(4000), R.coins({ netherita: 2 })] },
+
+    // ---- Aether ----
+    { k: "ae_portal", t: "Portal al Aether", sub: "Las islas del cielo", deps: ["intro"],
+      d: ["El Aether es un reino de islas flotantes sobre las nubes. Construye un portal con bloques de piedra sagrada y enciéndelo con agua."],
+      tasks: [T.item("aether:holystone", 16)], rewards: [R.skill(2800)] },
+    { k: "ae_dim", t: "Entra al Aether", sub: "El cielo", deps: ["ae_portal"],
+      d: ["Cruza el portal. Cuidado con las caídas: al vacío del Aether no le importan tus corazones."],
+      tasks: [T.adv("aether:enter_aether")],
+      rewards: [R.skill(3000), R.coins({ netherita: 1 })] },
+    { k: "ae_zanita", t: "Zanita y gravitita", sub: "Materiales del Aether", deps: ["ae_dim"],
+      d: ["La zanita es el mineral base del Aether: sirve para herramientas y armas. La gravitita necesita un altar."],
+      tasks: [T.item("aether:zanite_gemstone", 16), T.item("aether:ambrosium_shard", 16)],
+      rewards: [R.skill(3200), R.job("minero", 300)] },
+    { k: "ae_mazmorra", t: "Mazmorra de bronce", sub: "Jefe del Aether", deps: ["ae_zanita"],
+      d: ["Las mazmorras del Aether guardan a los Slider y a las Valquirias. La de bronce es la primera. Llegar al final abre la de plata y la de oro."],
+      tasks: [T.adv("aether:bronze_dungeon")], rewards: [R.skill(4000), R.coins({ netherita: 2 })] },
+
+    // ---- Espacio ----
+    { k: "esp_cohete", t: "Cohete", sub: "Ad Astra", deps: ["intro"],
+      d: ["Ad Astra te lleva a la Luna y más allá. Necesitas un cohete, combustible, un traje espacial y oxígeno.",
+          "Los cohetes requieren componentes de tecnología: placas de acero y mecanismos de Create/Mekanism."],
+      tasks: [T.item("ad_astra:nasa_workbench"), T.item("ad_astra:tier_1_rocket")],
+      rewards: [R.skill(3500), R.coins({ netherita: 1 })] },
+    { k: "esp_traje", t: "Traje espacial", sub: "Oxígeno", deps: ["esp_cohete"],
+      d: ["En el espacio no hay aire. El traje espacial y el equipo de oxígeno te mantienen con vida."],
+      tasks: [T.item("ad_astra:space_suit"), T.item("ad_astra:oxygen_gear")],
+      rewards: [R.skill(3500), R.item("ad_astra:oxygen_loader")] },
+    { k: "esp_luna", t: "La Luna", sub: "Primer destino", deps: ["esp_traje"],
+      d: ["Pisa la Luna. La gravedad baja permite saltar mucho más alto. Lleva mucha comida y oxígeno."],
+      tasks: [T.adv("ad_astra:moon")], rewards: [R.skill(4000), R.coins({ netherita: 2 })] },
+    { k: "esp_marte", t: "Marte (opcional)", sub: "Cohete tier 2", deps: ["esp_luna"], opt: true,
+      d: ["Marte requiere un cohete de nivel 2. Aquí hay más minerales, y enemigos."],
+      tasks: [T.adv("ad_astra:mars")], rewards: [R.skill(4500), R.coins({ netherita: 2 })] },
+    { k: "esp_desh", t: "Desh, Ostrum y Calorita", sub: "Metales del espacio", deps: ["esp_luna"],
+      d: ["Los planetas tienen metales únicos: desh en la Luna, ostrum en Marte, calorita en Venus. Son la base del equipo espacial."],
+      tasks: [T.item("ad_astra:desh_ingot", 16), T.item("ad_astra:ostrum_ingot", 8)],
+      rewards: [R.skill(4000), R.job("minero", 400)] },
+
+    { k: "cierre", t: "Materiales dimensionales", sub: "Cierre del capítulo", deps: ["ug_forgotten", "ae_mazmorra", "esp_desh"],
+      d: ["Has visitado el subsuelo, el cielo y el espacio. Entrega materiales de cada dimensión para completar el capítulo.", "Se abre el capítulo 9."],
+      tasks: [T.item("undergarden:forgotten_ingot", 4, { consume: true }), T.item("aether:zanite_gemstone", 8, { consume: true }), T.item("ad_astra:desh_ingot", 8, { consume: true })],
+      rewards: [R.skill(7000), R.stage("era_9"), R.coins({ netherita: 4 })] },
+  ],
+};

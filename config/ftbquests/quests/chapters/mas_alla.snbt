@@ -1,0 +1,564 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mas_alla"
+	group: "FA1951BF2D35F839"
+	icon: {
+		id: "ad_astra:tier_1_rocket"
+	}
+	id: "C02B48C24882F324"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "9B1494BEA9A64C90"
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["252B5CC6604F1E2A"]
+			tasks: [
+				{
+					id: "CEDFC12303C88CED"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "D17414ED6E26B2A6"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 2500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "EA931EE3D14DFF9C"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+				}
+			]
+		}
+		{
+			id: "6A1F3570BDB04DF6"
+			x: 2d
+			y: 0.5d
+			dependencies: ["9B1494BEA9A64C90"]
+			tasks: [
+				{
+					id: "A5C66A58B04D93BB"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:catalyst"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "982F8EAE4072398C"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 2800"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "C8F04AAF3D8BDDA0"
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["6A1F3570BDB04DF6"]
+			tasks: [
+				{
+					id: "E3C4AAEEA2954C6F"
+					type: "dimension"
+					dimension: "undergarden:undergarden"
+				}
+			]
+			rewards: [
+				{
+					id: "694FC29E473A9671"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 3000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "BC014F7B5123A68A"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+				}
+			]
+		}
+		{
+			id: "8BA57DB472D771CC"
+			x: 5d
+			y: 0.5d
+			dependencies: ["C8F04AAF3D8BDDA0"]
+			tasks: [
+				{
+					id: "ACB551B64D36D2BF"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:cloggrum_ingot"
+					}
+					count: 8L
+				}
+				{
+					id: "C3546674183B7089"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:froststeel_ingot"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "D2BE36B33940E5FA"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 3200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "B2D554328A35BC8F"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_herrero 300"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "B1A87DBC8F9DA4E7"
+			x: 6.5d
+			y: 0.5d
+			dependencies: ["8BA57DB472D771CC"]
+			tasks: [
+				{
+					id: "C743A1437E57AB75"
+					type: "kill"
+					entity: "undergarden:forgotten_guardian"
+					value: 1L
+				}
+				{
+					id: "145949CC79A70776"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:forgotten_ingot"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "26DA165B0B4E2217"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 4000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "B71CBDB4B6B8B6E2"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "0CF5D43F82571F8E"
+			x: 2d
+			y: 2d
+			dependencies: ["9B1494BEA9A64C90"]
+			tasks: [
+				{
+					id: "3C48251E5829AFE1"
+					type: "item"
+					item: {
+						count: 1
+						id: "aether:holystone"
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "7C8FE64C743DC4E7"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 2800"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "E08D0E74AE144739"
+			x: 3.5d
+			y: 2d
+			dependencies: ["0CF5D43F82571F8E"]
+			tasks: [
+				{
+					id: "BE804702E84D7138"
+					type: "advancement"
+					advancement: "aether:enter_aether"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "3120A5326ED56575"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 3000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "3CF11F9C879347F6"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+				}
+			]
+		}
+		{
+			id: "BCD87D472ED867E1"
+			x: 5d
+			y: 2d
+			dependencies: ["E08D0E74AE144739"]
+			tasks: [
+				{
+					id: "B9D820F3A51CB22C"
+					type: "item"
+					item: {
+						count: 1
+						id: "aether:zanite_gemstone"
+					}
+					count: 16L
+				}
+				{
+					id: "284F47A6B1562754"
+					type: "item"
+					item: {
+						count: 1
+						id: "aether:ambrosium_shard"
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "7F06CDF36CA225A0"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 3200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "3B34D0D4CEB25CDE"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_minero 300"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "289319CD0FB27F96"
+			x: 6.5d
+			y: 2d
+			dependencies: ["BCD87D472ED867E1"]
+			tasks: [
+				{
+					id: "D2F3AED21E431030"
+					type: "advancement"
+					advancement: "aether:bronze_dungeon"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "26FF1B0E6EE8083D"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 4000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "E9BF4F542268181E"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "F87D568DFB6D92C8"
+			x: 2d
+			y: 3.5d
+			dependencies: ["9B1494BEA9A64C90"]
+			tasks: [
+				{
+					id: "C0FF72BD86EC320E"
+					type: "item"
+					item: {
+						count: 1
+						id: "ad_astra:nasa_workbench"
+					}
+				}
+				{
+					id: "3F970C9E0A55B5F0"
+					type: "item"
+					item: {
+						count: 1
+						id: "ad_astra:tier_1_rocket"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "C56CA549566D22EF"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 3500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "1A5EE439269F1691"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+				}
+			]
+		}
+		{
+			id: "925E7E3DF8BBF298"
+			x: 3.5d
+			y: 3.5d
+			dependencies: ["F87D568DFB6D92C8"]
+			tasks: [
+				{
+					id: "BD5EF0EEA6CBFF53"
+					type: "item"
+					item: {
+						count: 1
+						id: "ad_astra:space_suit"
+					}
+				}
+				{
+					id: "C1538050AC3A34F4"
+					type: "item"
+					item: {
+						count: 1
+						id: "ad_astra:oxygen_gear"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5F8EAFF27423B79A"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 3500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "6DCB7EF563FE063A"
+					type: "item"
+					item: {
+						count: 1
+						id: "ad_astra:oxygen_loader"
+					}
+				}
+			]
+		}
+		{
+			id: "70A678CA815512E3"
+			x: 5d
+			y: 3.5d
+			dependencies: ["925E7E3DF8BBF298"]
+			tasks: [
+				{
+					id: "47908F37C005B77D"
+					type: "advancement"
+					advancement: "ad_astra:moon"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "7F70E733EDC7C73C"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 4000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "12A60E179B786236"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "99B0C33FC300E506"
+			x: 6.5d
+			y: 3.5d
+			optional: true
+			dependencies: ["70A678CA815512E3"]
+			tasks: [
+				{
+					id: "7056B7C86BB9F589"
+					type: "advancement"
+					advancement: "ad_astra:mars"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "8A5878597654982A"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 4500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "FF8442C79C092BE4"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "752493E8C3ACAD7E"
+			x: 6.5d
+			y: 5d
+			dependencies: ["70A678CA815512E3"]
+			tasks: [
+				{
+					id: "F99AE485BD8B9E2F"
+					type: "item"
+					item: {
+						count: 1
+						id: "ad_astra:desh_ingot"
+					}
+					count: 16L
+				}
+				{
+					id: "E86868E6CB02589B"
+					type: "item"
+					item: {
+						count: 1
+						id: "ad_astra:ostrum_ingot"
+					}
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "C1F8ED1A62CA58B1"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 4000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "01314B270884B239"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_minero 400"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "CD8B35492B3252A6"
+			x: 8d
+			y: 0.5d
+			dependencies: ["B1A87DBC8F9DA4E7", "289319CD0FB27F96", "752493E8C3ACAD7E"]
+			tasks: [
+				{
+					id: "3B5BEFF1ED0B9297"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:forgotten_ingot"
+					}
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "D6337CF3986FB7ED"
+					type: "item"
+					item: {
+						count: 1
+						id: "aether:zanite_gemstone"
+					}
+					count: 8L
+					consume_items: true
+				}
+				{
+					id: "3C487EACE6E65AE5"
+					type: "item"
+					item: {
+						count: 1
+						id: "ad_astra:desh_ingot"
+					}
+					count: 8L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "BD655251CB2B4212"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 7000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "9FF44F804C55D7F9"
+					type: "command"
+					command: "/kubejs stages add {p} era_9"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "78AFA8D7C8AC17C2"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 4
+				}
+			]
+		}
+	]
+}

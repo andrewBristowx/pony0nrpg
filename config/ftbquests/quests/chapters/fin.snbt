@@ -1,0 +1,339 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fin"
+	group: "FA1951BF2D35F839"
+	icon: {
+		id: "minecraft:dragon_head"
+	}
+	id: "2F905063C99D5E77"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			id: "D6478AB6BCB0465D"
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["77BD59570E5928DF"]
+			tasks: [
+				{
+					id: "3EDBAC0710462D15"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "FC00B3AE394F5D1D"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 6000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "2F2281694792C63F"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			id: "BC34EE86D9929279"
+			x: 2d
+			y: 0.5d
+			dependencies: ["D6478AB6BCB0465D"]
+			tasks: [
+				{
+					id: "7279B33785324173"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
+					count: 12L
+				}
+			]
+			rewards: [
+				{
+					id: "5C161DFF37050997"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 7000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "B3C7C94291BBC235"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "F13ECEE45C2EAD8B"
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["BC34EE86D9929279"]
+			tasks: [
+				{
+					id: "623123D37365BE26"
+					type: "dimension"
+					dimension: "minecraft:the_end"
+				}
+			]
+			rewards: [
+				{
+					id: "43B5EC8763A80E35"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 8000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "32BDF872FC41A232"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			id: "5D3FFEF92F1173B2"
+			x: 5d
+			y: 0.5d
+			dependencies: ["F13ECEE45C2EAD8B"]
+			tasks: [
+				{
+					id: "C68EB362F51C615B"
+					type: "kill"
+					entity: "minecraft:ender_dragon"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "D6884284CB02E1D6"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 12000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "B119BA353EEDE4FD"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+				}
+				{
+					id: "15C1C8CBD72A7989"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			id: "CBFBBAC1DD7AF59D"
+			x: 6.5d
+			y: 0.5d
+			dependencies: ["5D3FFEF92F1173B2"]
+			tasks: [
+				{
+					id: "6340926F61E970AA"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:elytra"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2C57C50D4FF6AF44"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 9000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "4F47F7AB613493DB"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					count: 32
+				}
+			]
+		}
+		{
+			id: "C2853AA259EA5044"
+			x: 6.5d
+			y: 2d
+			optional: true
+			dependencies: ["5D3FFEF92F1173B2"]
+			tasks: [
+				{
+					id: "36F31740ADE93030"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:shulker_shell"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "E3911A3B7EAFCE03"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 7000"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "F127EBEC8782BE85"
+			x: 6.5d
+			y: 3.5d
+			optional: true
+			dependencies: ["5D3FFEF92F1173B2"]
+			tasks: [
+				{
+					id: "E1B1E62074153F44"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:beacon"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2F67AB511FAA39B8"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 9000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "AA276360E80C09BA"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			id: "853F39E834393EB2"
+			x: 8d
+			y: 0.5d
+			dependencies: ["5D3FFEF92F1173B2", "CBFBBAC1DD7AF59D"]
+			tasks: [
+				{
+					id: "AA2A5A0FC646975F"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:forgotten_ingot"
+					}
+					count: 8L
+					consume_items: true
+				}
+				{
+					id: "10CD94FD5EED98E8"
+					type: "item"
+					item: {
+						count: 1
+						id: "aether:zanite_gemstone"
+					}
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "F9BC02EC75C92EE2"
+					type: "item"
+					item: {
+						count: 1
+						id: "ad_astra:calorite_ingot"
+					}
+					count: 8L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "083659E5E71CB4AA"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 20000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "4F65E719682DB6B0"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			id: "3197D5D381797683"
+			x: 9.5d
+			y: 0.5d
+			dependencies: ["853F39E834393EB2"]
+			tasks: [
+				{
+					id: "5A13A4A9364750B2"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "CAFD5A72FB69AE4C"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 30000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "BD04FD18BC888AE8"
+					type: "command"
+					command: "/kubejs stages add {p} era_10"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "858605268B035060"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 10
+				}
+			]
+		}
+	]
+}

@@ -76,7 +76,7 @@ Desde la misión 4.8, la recompensa incluye la **pista de la siguiente era**: lo
 
 ## Estado (fase 1)
 
-Capítulos ya escritos y cargando sin errores en el juego (14 capítulos, 203 misiones): Bienvenida, 1 El comienzo, 2 Secretos de la tierra, 3 El aventurero, 4 La revolución de Create, 5 La era tecnológica, 6 El despertar de la magia, y las ramas Gremio y economía, Oficios y Ascensión (un capítulo por clase). Faltan los capítulos 7–10.
+Capítulos escritos y cargando sin errores en el juego (18 capítulos, 255 misiones): Bienvenida, los 10 capítulos de la campaña (1 El comienzo … 10 El fin del mundo) y las ramas Gremio y economía, Oficios y Ascensión (un capítulo por clase). Los textos y el equilibrio de XP/monedas son un primer borrador para revisar jugando.
 
 Las misiones se **generan** desde `tools/quests/chapters/*.mjs` con `node tools/gen-quests.mjs` (antes, una vez: `node tools/build-id-index.mjs`). El generador valida que cada objeto, entidad, logro, estructura y bioma exista en el pack y que las dependencias existan; los IDs de misión salen de un hash de su clave, así que regenerar no borra el progreso de nadie. Salida: `config/ftbquests/quests/`.
 

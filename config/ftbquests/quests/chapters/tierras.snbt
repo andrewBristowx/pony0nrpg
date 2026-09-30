@@ -1,0 +1,407 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tierras"
+	group: "FA1951BF2D35F839"
+	icon: {
+		id: "cataclysm:monstrous_horn"
+	}
+	id: "C176596AE4EA0D36"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "79D86D9AF1006A2E"
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["0B1AA7B46CDAA7CD"]
+			tasks: [
+				{
+					id: "4927E32D07B81DBC"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "A94CEAEE813C9142"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 2000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "63BAAB3DFDEC52A6"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_diamond"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "FA77B62A6C7BE745"
+			x: 2d
+			y: 0.5d
+			dependencies: ["79D86D9AF1006A2E"]
+			tasks: [
+				{
+					id: "50D195E860E2ADF3"
+					type: "structure"
+					structure: "dungeons_arise:illager_fort"
+				}
+			]
+			rewards: [
+				{
+					id: "EFC7E3BCD4AB4D84"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 2200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "A7224CF087FF9BA2"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_diamond"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "57C84769B9A5FB8F"
+			x: 2d
+			y: 2d
+			dependencies: ["79D86D9AF1006A2E"]
+			tasks: [
+				{
+					id: "B0278B5EBE8D8D85"
+					type: "structure"
+					structure: "dungeons_arise:coliseum"
+				}
+			]
+			rewards: [
+				{
+					id: "78048FBC4F00C7E5"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 2200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "FF7AF86EAD9C4ED9"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_diamond"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "9B5C873368FF2ED3"
+			x: 2d
+			y: 3.5d
+			optional: true
+			dependencies: ["79D86D9AF1006A2E"]
+			tasks: [
+				{
+					id: "A69BDB89D7FF7973"
+					type: "structure"
+					structure: "cataclysm:ancient_factory"
+				}
+			]
+			rewards: [
+				{
+					id: "AD1159682187F752"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 2200"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "E220FA1EB73AACFF"
+			x: 2d
+			y: 5d
+			optional: true
+			dependencies: ["79D86D9AF1006A2E"]
+			tasks: [
+				{
+					id: "42D6E56CA6B09748"
+					type: "structure"
+					structure: "cataclysm:sunken_city"
+				}
+			]
+			rewards: [
+				{
+					id: "BC04997430E481FC"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 2200"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "D7E6D29776E5BCBF"
+			x: 2d
+			y: 6.5d
+			dependencies: ["79D86D9AF1006A2E"]
+			tasks: [
+				{
+					id: "E959D13697E64ADD"
+					type: "advancement"
+					advancement: "alexscaves:alexscaves/discover_primordial_caves"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "BEBCC7DC2F8B0E72"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 2300"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "7D0540C1A6C93643"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_diamond"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "414193DA24BEBD2A"
+			x: 2d
+			y: 8d
+			optional: true
+			dependencies: ["79D86D9AF1006A2E"]
+			tasks: [
+				{
+					id: "EF904EA52AA6126C"
+					type: "structure"
+					structure: "deeperdarker:ancient_temple"
+				}
+			]
+			rewards: [
+				{
+					id: "74A0ECEA469DC0CF"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 2500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "24ECF46A58DC712A"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+				}
+			]
+		}
+		{
+			id: "6BC09C66DEDF9229"
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["FA77B62A6C7BE745"]
+			tasks: [
+				{
+					id: "4A3A926A68222DCD"
+					type: "kill"
+					entity: "mowziesmobs:ferrous_wroughtnaut"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "CD074EA00971860A"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 3000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "D1C74212BF036F46"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+				}
+			]
+		}
+		{
+			id: "A9F9F8A3B2F1D7AC"
+			x: 3.5d
+			y: 2d
+			optional: true
+			dependencies: ["57C84769B9A5FB8F"]
+			tasks: [
+				{
+					id: "1FA7968F58B9650B"
+					type: "kill"
+					entity: "mowziesmobs:frostmaw"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "82114DE08C785D5A"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 3000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "CC657BBDC8A27C3C"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+				}
+			]
+		}
+		{
+			id: "D8C05D5FEF793DAA"
+			x: 5d
+			y: 0.5d
+			dependencies: ["6BC09C66DEDF9229"]
+			tasks: [
+				{
+					id: "7B50B3D2F5EE7132"
+					type: "structure"
+					structure: "cataclysm:ruined_citadel"
+				}
+			]
+			rewards: [
+				{
+					id: "DA0705664D657EFA"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 2500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "9FA71A4077662222"
+			x: 6.5d
+			y: 0.5d
+			dependencies: ["D8C05D5FEF793DAA"]
+			tasks: [
+				{
+					id: "9A9F2D7F10232305"
+					type: "kill"
+					entity: "cataclysm:ignis"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "9AB55E756A6D4555"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 4000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "992EFCC93987B8B5"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "366DCDCB76E6B45C"
+			x: 8d
+			y: 0.5d
+			optional: true
+			dependencies: ["9FA71A4077662222"]
+			tasks: [
+				{
+					id: "3B8A86977F6CEA2B"
+					type: "kill"
+					entity: "cataclysm:netherite_monstrosity"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "18A334EECB89F598"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 4500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "B5229E518F2EF4FE"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "252B5CC6604F1E2A"
+			x: 8d
+			y: 2d
+			dependencies: ["9FA71A4077662222", "D7E6D29776E5BCBF", "FA77B62A6C7BE745"]
+			tasks: [
+				{
+					id: "4D2DDA19CCF632B4"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:flame_eye"
+					}
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "C48DBF5804EA5C6A"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 5000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "286DA8A9AFB9EB2F"
+					type: "command"
+					command: "/kubejs stages add {p} era_dim"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "FAD02C5CE3FACD0A"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+					count: 3
+				}
+			]
+		}
+	]
+}

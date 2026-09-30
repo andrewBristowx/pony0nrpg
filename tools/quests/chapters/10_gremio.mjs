@@ -2,7 +2,7 @@ import { T, R } from "../../quest-dsl.mjs";
 
 // Rama transversal: Gremio de aventureros y economía (Lightman's Currency)
 export default {
-  key: "gremio", order: 10, group: "ramas", icon: "lightmanscurrency:coin_gold",
+  key: "gremio", order: 12, group: "ramas", icon: "lightmanscurrency:coin_gold",
   title: "Gremio y economía",
   sub: "Encargos, rangos y monedas",
   quests: [
