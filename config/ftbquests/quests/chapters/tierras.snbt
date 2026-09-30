@@ -3,15 +3,23 @@
 	default_quest_shape: ""
 	filename: "tierras"
 	group: "FA1951BF2D35F839"
-	icon: {
-		id: "cataclysm:monstrous_horn"
-	}
+	title: "7. Las tierras olvidadas"
+	subtitle: ["Mazmorras enormes, cuevas imposibles y tu primer jefe de Cataclysm."]
+	icon: "cataclysm:monstrous_horn"
 	id: "C176596AE4EA0D36"
 	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
 			id: "79D86D9AF1006A2E"
+			title: "Tierras olvidadas"
+			subtitle: "Peligro real"
+			description: [
+				"Más allá de los caminos conocidos hay fortalezas, templos hundidos y cuevas de otro mundo. Aquí cada estructura es una aventura de un buen rato."
+				""
+				"Lleva equipo completo, pociones, comida y una ruta de escape. Trabajen en equipo: los jefes de este capítulo no son para ir solo."
+			]
+			icon: "cataclysm:monstrous_horn"
 			x: 0.5d
 			y: 0.5d
 			dependencies: ["0B1AA7B46CDAA7CD"]
@@ -32,16 +40,17 @@
 				{
 					id: "63BAAB3DFDEC52A6"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_diamond"
-					}
+					item: "lightmanscurrency:coin_diamond"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "FA77B62A6C7BE745"
+			title: "Fuerte ilagerino"
+			subtitle: "Estructura grande"
+			description: ["Los fuertes de los ilagers están llenos de enemigos y botín. Entra con buena armadura y no te separes de tu grupo."]
+			icon: "minecraft:compass"
 			x: 2d
 			y: 0.5d
 			dependencies: ["79D86D9AF1006A2E"]
@@ -63,16 +72,17 @@
 				{
 					id: "A7224CF087FF9BA2"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_diamond"
-					}
+					item: "lightmanscurrency:coin_diamond"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "57C84769B9A5FB8F"
+			title: "Coliseo"
+			subtitle: "Arena de combate"
+			description: ["Un coliseo enorme con oleadas de enemigos. Ideal para probar tu equipo de clase."]
+			icon: "minecraft:compass"
 			x: 2d
 			y: 2d
 			dependencies: ["79D86D9AF1006A2E"]
@@ -94,16 +104,17 @@
 				{
 					id: "FF7AF86EAD9C4ED9"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_diamond"
-					}
+					item: "lightmanscurrency:coin_diamond"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "9B5C873368FF2ED3"
+			title: "La fábrica antigua"
+			subtitle: "Cataclysm"
+			description: ["Una estructura de metal y engranajes de una civilización perdida. Custodia un jefe mecánico."]
+			icon: "minecraft:compass"
 			x: 2d
 			y: 3.5d
 			optional: true
@@ -127,6 +138,10 @@
 		}
 		{
 			id: "E220FA1EB73AACFF"
+			title: "Ciudad hundida"
+			subtitle: "Bajo el mar"
+			description: ["Una ciudad sumergida con enemigos acuáticos. Lleva pociones de respiración y visión."]
+			icon: "minecraft:compass"
 			x: 2d
 			y: 5d
 			optional: true
@@ -150,6 +165,10 @@
 		}
 		{
 			id: "D7E6D29776E5BCBF"
+			title: "Cuevas de Alex"
+			subtitle: "Biomas subterráneos"
+			description: ["Bajo la superficie hay cuevas de dinosaurios, caramelo, imanes y ácido. Cada una tiene sus propios enemigos y recompensas."]
+			icon: "minecraft:writable_book"
 			x: 2d
 			y: 6.5d
 			dependencies: ["79D86D9AF1006A2E"]
@@ -172,16 +191,17 @@
 				{
 					id: "7D0540C1A6C93643"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_diamond"
-					}
+					item: "lightmanscurrency:coin_diamond"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "414193DA24BEBD2A"
+			title: "Más profundo y más oscuro"
+			subtitle: "Deeper and Darker"
+			description: ["Bajo el Deep Dark hay una ciudad antigua y criaturas del sculk. Ve sin luz y sin ruido: hay guardianes."]
+			icon: "minecraft:compass"
 			x: 2d
 			y: 8d
 			optional: true
@@ -204,15 +224,16 @@
 				{
 					id: "24ECF46A58DC712A"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 				}
 			]
 		}
 		{
 			id: "6BC09C66DEDF9229"
+			title: "El Wroughtnaut"
+			subtitle: "Jefe de Mowzie's Mobs"
+			description: ["El Ferrous Wroughtnaut custodia su estructura con un hacha enorme. Ataca cuando baja el hacha y retrocede cuando se enfurece."]
+			icon: "minecraft:iron_sword"
 			x: 3.5d
 			y: 0.5d
 			dependencies: ["FA77B62A6C7BE745"]
@@ -235,15 +256,16 @@
 				{
 					id: "D1C74212BF036F46"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 				}
 			]
 		}
 		{
 			id: "A9F9F8A3B2F1D7AC"
+			title: "El Frostmaw"
+			subtitle: "Jefe de las nieves"
+			description: ["Una criatura antigua del hielo. Necesitas fuego, armadura y paciencia."]
+			icon: "minecraft:iron_sword"
 			x: 3.5d
 			y: 2d
 			optional: true
@@ -267,15 +289,16 @@
 				{
 					id: "CC657BBDC8A27C3C"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 				}
 			]
 		}
 		{
 			id: "D8C05D5FEF793DAA"
+			title: "La ciudadela en ruinas"
+			subtitle: "Cataclysm"
+			description: ["Una ciudadela quemada en el Nether alberga a Ignis, un caballero infernal. Prepárate con resistencia al fuego, armadura fuerte y un plan."]
+			icon: "minecraft:compass"
 			x: 5d
 			y: 0.5d
 			dependencies: ["6BC09C66DEDF9229"]
@@ -298,6 +321,14 @@
 		}
 		{
 			id: "9FA71A4077662222"
+			title: "Ignis"
+			subtitle: "Primer jefe de Cataclysm"
+			description: [
+				"Ignis es el primero de los grandes jefes de Cataclysm. Ataca sin cesar y se cura con almas; mantén la presión y evita los proyectiles."
+				""
+				"Al derrotarlo, sueltan sus ojos y su espada."
+			]
+			icon: "minecraft:iron_sword"
 			x: 6.5d
 			y: 0.5d
 			dependencies: ["D8C05D5FEF793DAA"]
@@ -320,16 +351,17 @@
 				{
 					id: "992EFCC93987B8B5"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "366DCDCB76E6B45C"
+			title: "Monstruosidad de netherita (opcional)"
+			subtitle: "Otro jefe"
+			description: ["Una bestia colosal del Nether. Suelta el cuerno monstruoso, base de armas poderosas."]
+			icon: "minecraft:iron_sword"
 			x: 8d
 			y: 0.5d
 			optional: true
@@ -353,16 +385,21 @@
 				{
 					id: "B5229E518F2EF4FE"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "252B5CC6604F1E2A"
+			title: "Primer gran jefe"
+			subtitle: "Cierre del capítulo"
+			description: [
+				"Has explorado, sobrevivido y derrotado a un gran jefe. Ya nada te sorprende. Entrega un ojo de Ignis para completar el capítulo."
+				""
+				"Se abre el capítulo 8."
+			]
+			icon: "cataclysm:flame_eye"
 			x: 8d
 			y: 2d
 			dependencies: ["9FA71A4077662222", "D7E6D29776E5BCBF", "FA77B62A6C7BE745"]
@@ -370,10 +407,7 @@
 				{
 					id: "4D2DDA19CCF632B4"
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:flame_eye"
-					}
+					item: "cataclysm:flame_eye"
 					consume_items: true
 				}
 			]
@@ -395,10 +429,7 @@
 				{
 					id: "FAD02C5CE3FACD0A"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 3
 				}
 			]

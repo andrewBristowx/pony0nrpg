@@ -10,7 +10,7 @@ const D = (n) => ({ __double: n });
 
 export const T = {
   check: () => ({ type: "checkmark" }),
-  item: (id, n = 1, opts = {}) => ({ type: "item", item: { count: 1, id }, ...(n > 1 ? { count: L(n) } : {}), ...(opts.consume ? { consume_items: true } : {}), _item: id }),
+  item: (id, n = 1, opts = {}) => ({ type: "item", item: id, ...(n > 1 ? { count: L(n) } : {}), ...(opts.consume ? { consume_items: true } : {}), _item: id }),
   kill: (entity, n = 1) => ({ type: "kill", entity, value: L(n), _entity: entity }),
   adv: (advancement) => ({ type: "advancement", advancement, criterion: "", _adv: advancement }),
   dim: (dimension) => ({ type: "dimension", dimension }),
@@ -24,14 +24,14 @@ const cmd = (command) => ({ type: "command", command, elevate_perms: true, silen
 const COINS = { cobre: "lightmanscurrency:coin_copper", hierro: "lightmanscurrency:coin_iron", oro: "lightmanscurrency:coin_gold", esmeralda: "lightmanscurrency:coin_emerald", diamante: "lightmanscurrency:coin_diamond", netherita: "lightmanscurrency:coin_netherite" };
 
 export const R = {
-  item: (id, n = 1) => ({ type: "item", item: { count: 1, id }, ...(n > 1 ? { count: n } : {}), _item: id }),
+  item: (id, n = 1) => ({ type: "item", item: id, ...(n > 1 ? { count: n } : {}), _item: id }),
   xp: (n) => ({ type: "xp", xp: n }),
   // XP de la categoría "habilidades" (nivel global de Pufferfish's Skills)
   skill: (n) => cmd(`/puffish_skills experience add {p} habilidades ${n}`),
   // XP de un oficio (categoría oficio_<id>)
   job: (job, n) => cmd(`/puffish_skills experience add {p} oficio_${job} ${n}`),
   // Monedas de Lightman's Currency: R.coins({ cobre: 50 }) -> un premio por tipo de moneda
-  coins: (obj) => Object.entries(obj).map(([k, n]) => ({ type: "item", item: { count: 1, id: COINS[k] }, ...(n > 1 ? { count: n } : {}), _item: COINS[k] })),
+  coins: (obj) => Object.entries(obj).map(([k, n]) => ({ type: "item", item: COINS[k], ...(n > 1 ? { count: n } : {}), _item: COINS[k] })),
   cmd,
   stage: (stage) => cmd(`/kubejs stages add {p} ${stage}`),
   asc: (cls, n = 1) => cmd(`/puffish_skills points add {p} ascension_${cls} ${n}`),

@@ -3,7 +3,7 @@
 //       node tools/gen-quests.mjs
 //
 // - Los IDs (16 hex) salen de un hash de la clave del capítulo/misión: regenerar NO cambia IDs ni pierde progreso.
-// - Los textos van a lang/en_us.snbt y lang/es_es.snbt (FTB Quests los lee de ahí; el capítulo solo guarda estructura).
+// - Esta versión de FTB Quests (2001.4.22) guarda título, subtítulo y descripción DENTRO de cada capítulo/misión (no usa archivos lang).
 // - Valida que objetos, entidades, logros, estructuras y biomas existan en el pack y que las dependencias existan.
 import { createHash } from "node:crypto";
 import { mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync, existsSync } from "node:fs";
@@ -58,6 +58,21 @@ for (const ch of chapters) for (const qu of ch.quests) {
   questIndex[ref] = hid(`quest:${ref}`);
 }
 
+// icono de la misión: explícito (ic) > primer objeto de una tarea > por tipo de tarea > icono del capítulo
+const TYPE_ICON = { kill: "minecraft:iron_sword", stat: "minecraft:clock", structure: "minecraft:compass", biome: "minecraft:map",
+  advancement: "minecraft:writable_book", dimension: "minecraft:ender_eye", stage: "minecraft:nether_star" };
+const questIcon = (qu, ch) => {
+  if (qu.ic) return qu.ic;
+  const t = (qu.tasks || []);
+  const item = t.find((x) => x._item);
+  if (item) return item._item;
+  const other = t.find((x) => TYPE_ICON[x.type]);
+  if (other) return TYPE_ICON[other.type];
+  return ch.icon;
+};
+// párrafos separados por una línea en blanco
+const paragraphs = (d) => (d || []).flatMap((p, i) => (i ? ["", p] : [p]));
+
 chapters.forEach((ch, ci) => {
   const chId = hid(`chapter:${ch.key}`);
   // maquetación automática: capa = camino más largo de dependencias; fila = orden de aparición en la capa
@@ -82,6 +97,7 @@ chapters.forEach((ch, ci) => {
     const x = qu.at ? qu.at[0] : lay * 1.5 + 0.5;
     const y = qu.at ? qu.at[1] : rows[lay] * 1.5 + 0.5;
     rows[lay]++;
+    check("items", questIcon(qu, ch), `${where} icono`);
     const tasks = (qu.tasks || []).map((t, i) => {
       if (t._item) check("items", t._item, `${where} tarea`);
       if (t._entity) check("entities", t._entity, `${where} tarea`);
@@ -99,34 +115,28 @@ chapters.forEach((ch, ci) => {
       if (!questIndex[ref]) problems.push(`${where}: dependencia desconocida "${d}"`);
       return questIndex[ref];
     }).filter(Boolean);
-    lang[`quest.${id}.title`] = qu.t;
-    if (qu.sub) lang[`quest.${id}.quest_subtitle`] = qu.sub;
-    if (qu.d && qu.d.length) lang[`quest.${id}.quest_desc`] = qu.d;
     return {
-      id, x: { __double: x }, y: { __double: y },
+      id, title: qu.t, ...(qu.sub ? { subtitle: qu.sub } : {}), ...(qu.d && qu.d.length ? { description: paragraphs(qu.d) } : {}),
+      icon: questIcon(qu, ch), x: { __double: x }, y: { __double: y },
       ...(qu.shape ? { shape: qu.shape } : {}), ...(qu.size ? { size: { __double: qu.size } } : {}),
       ...(qu.opt ? { optional: true } : {}), ...(qu.any ? { dependency_requirement: "one_completed" } : {}),
       ...(deps.length ? { dependencies: deps } : {}),
       tasks, ...(rewards.length ? { rewards } : {}),
     };
   });
-  lang[`chapter.${chId}.title`] = ch.title;
-  if (ch.sub) lang[`chapter.${chId}.chapter_subtitle`] = ch.sub;
   chapterFiles[ch.key] = {
     default_hide_dependency_lines: false, default_quest_shape: "",
-    filename: ch.key, group: hid(`group:${ch.group}`),
-    icon: { id: ch.icon }, id: chId, order_index: ci, quest_links: [], quests,
+    filename: ch.key, group: hid(`group:${ch.group}`), title: ch.title, ...(ch.sub ? { subtitle: [ch.sub] } : {}),
+    icon: ch.icon, id: chId, order_index: ci, quest_links: [], quests,
   };
   check("items", ch.icon, `capítulo ${ch.key} icono`);
 });
-for (const [g, title] of Object.entries(GROUPS)) lang[`chapter_group.${hid(`group:${g}`)}.title`] = title;
 
 if (problems.length) { console.error(problems.join("\n")); console.error(`\n${problems.length} problema(s): no se escribe nada.`); process.exit(1); }
 
 // ---- escritura ----------------------------------------------------------------------------------------------
 rmSync(outRoot, { recursive: true, force: true });
 mkdirSync(join(outRoot, "chapters"), { recursive: true });
-mkdirSync(join(outRoot, "lang"), { recursive: true });
 const w = (rel, text) => writeFileSync(join(outRoot, rel), text);
 w("data.snbt", ser({
   default_autoclaim_rewards: "disabled", default_consume_items: false, default_quest_disable_jei: false, default_quest_shape: "circle",
@@ -134,12 +144,8 @@ w("data.snbt", ser({
   fallback_locale: "en_us", grid_scale: { __double: 0.5 }, lock_message: "",
   loot_crate_no_drop: { boss: 0, monster: 600, passive: 4000 }, pause_game: false, progression_mode: "flexible", version: 13,
 }) + "\n");
-w("chapter_groups.snbt", ser({ chapter_groups: Object.keys(GROUPS).map((g) => ({ id: hid(`group:${g}`) })) }) + "\n");
+w("chapter_groups.snbt", ser({ chapter_groups: Object.entries(GROUPS).map(([g, title]) => ({ id: hid(`group:${g}`), title })) }) + "\n");
 for (const [k, c] of Object.entries(chapterFiles)) w(`chapters/${k}.snbt`, ser(c) + "\n");
-const sortedLang = Object.fromEntries(Object.entries(lang).sort(([a], [b]) => a.localeCompare(b)));
-const langText = ser(sortedLang) + "\n";
-w("lang/en_us.snbt", langText);
-w("lang/es_es.snbt", langText);
 
 const total = chapters.reduce((s, c) => s + c.quests.length, 0);
 console.log(`${chapters.length} capítulos, ${total} misiones -> ${outRoot}`);

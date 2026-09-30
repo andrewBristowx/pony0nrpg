@@ -2,91 +2,83 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "c84b3e8935470b248bb8a2553f27db4cff850ef9256bbe20db80573e492efa98"
+hash = "7de4e7b8427a66d4bd1603f564a0597a50ee2edc0f00f5ee43b68304cd569f4f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascension_arquero.snbt"
-hash = "c9abf978ef8d25b66df20c09c89b3510c02af2bf8efc9ecea9271776dc3f2aff"
+hash = "1b458ddc9aa38b402739b106a96294cd2cbc1e7fba223d935ff151c2ce1b0279"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascension_asesino.snbt"
-hash = "e537e27013ff2404d957dd359c9fb3639f5be85845b3db4fe1474d48f2a704a1"
+hash = "85f920d447296eb60b87bfaa34bea54be9b895c8b9b8589d12d5c64d7db61377"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascension_guerrero.snbt"
-hash = "e21d02c44a7a1d9ce976eb888085f0f7ce09654f78bcfad478b75edf5222c142"
+hash = "d95c783caaa99485f29df85cb1919da717266f5daeb7c7804578820e7c9e7453"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascension_ingeniero.snbt"
-hash = "5716c3c3f4cd64e24f4d490ebc16ec3225cc4bed7fd455c08f159e6adf00a867"
+hash = "3cfc2349422fa484d6182c68a6e8f2923d5b38d3f33211d16e67b037c47f059b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascension_mago.snbt"
-hash = "25e2f2c3a16f88439ef90e0ef8ee9c7770cddada0037b15372f37b06b6a4e681"
+hash = "2789202f9f506a8178df7f974288e768e0977c39d99d084dfa3bf1109b7efdd1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/aventurero.snbt"
-hash = "fa4aee93d509cebb952c715d144e7f463b176dd3fb99a1782040ce6cfc8e0806"
+hash = "a182b5c81437fd91d1a8d471ef028f0486cd3f4fef6acc0f502dbf8b06145fc4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bienvenida.snbt"
-hash = "b3bce01248a6b074913fa2680fc475545bd08d3cd3226df7eb03cfaa24889815"
+hash = "09f51c96b2bd4dcdc8f12700e3410dcae2297906b8abdf48b3572693773a810a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/comienzo.snbt"
-hash = "fc080c9efbab9da3e08e74461ef148c755a62b6e6d09dc73af618812cf086424"
+hash = "271eb983fae6022b4308bfa195a0b8a6ed2f30f90e50f7b2883885489769f4e4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "7dd8da77c6c5167166dd4987d455f2558f500519d94cd4ead377d77c3e266f57"
+hash = "584e852948b797e0f170bbd7b7404bf981d509f51f8f3e463f342937d91f30f2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fin.snbt"
-hash = "2188d55ec3214f01867416d3af0f91ada4312951ae1bdfcf8f2390d408d95a4d"
+hash = "7989faa0f7768d2110e9869ea3fedd4dae9e07478ac92b9b87076d585f4384cc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gremio.snbt"
-hash = "b5882f9d0d31ae469cb96992301854ed89df27e22b84ba312b6c1704d31aa6ca"
+hash = "c0a05f8f2dfb8ae44b356817fa8002570ad6a4786a5ca2af843b802017b28cc1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/jefes.snbt"
-hash = "ef12d01237bfa9b2cfe5ec3b388d6adf4fa94b8619687bf165cc5f6ee65d5834"
+hash = "cf2e334c6a37f136bdcf48cb42d02cb530ea0bd71b23a67917acc3f9272bbce6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magia.snbt"
-hash = "07459a5e8fe71ab008009a32e67dc6b19047acbb6328523acfaf6e29cef37a2a"
+hash = "b368f2acc565a63fb319c27ee5b794d29f65b9d80add00ea2feb71d5c73aa573"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mas_alla.snbt"
-hash = "9861d35fde15c026a2c464014c49448d82903040ebf5e4814715faf19ea2d0d4"
+hash = "8acb264de7004b74befc1b643b198b1414fab614dc575ec0404aa5ec02664606"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oficios.snbt"
-hash = "27bcd836650fb4cfe3c5cbce20b4288fa473fa7615d73daf98fc365aa3be4a01"
+hash = "431ced1c87eeaa30079016857ab48b59e298cf2c4c957f95bd78a671cbaeec2b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/secretos.snbt"
-hash = "e5ac4208e35c99f66b4115daf3fa71a8eddfc738a6916f1cdf6e34da887b4ff9"
+hash = "3b9c5c4ec78b2deaea518031b00fb7e6064d6501c4430b24083efe9bb9e9131a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tecnologia.snbt"
-hash = "b11e32fcc2c8f51abd04425fab8387e4f89d4c59cadb0b2c18db11fb65c5de1f"
+hash = "ac573802a05c5a7cf393f2ded4605b61cd5044e855962a6eec6677d4a535118c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tierras.snbt"
-hash = "c14e7f795fa83d02a5eb335c3a5f330511d54cdb6b89640c08582dad3541dbbc"
+hash = "9cf332d0ccb3e34cfa1710a88d149b2f38e7ca1b6470d98f032302cff83cbea5"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
 hash = "03b07f490641eaedcc5fbbc3fd065f405c47f9a43ab0d4f2c53f6d4237f1522b"
-
-[[files]]
-file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "7e709471bd15e3f5c48385d71bfaf8571c15688aca11230f42fbe8ebec107a79"
-
-[[files]]
-file = "config/ftbquests/quests/lang/es_es.snbt"
-hash = "7e709471bd15e3f5c48385d71bfaf8571c15688aca11230f42fbe8ebec107a79"
 
 [[files]]
 file = "config/puffish_skills/categories/ascension_arquero/category.json"

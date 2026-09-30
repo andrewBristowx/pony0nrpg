@@ -3,15 +3,23 @@
 	default_quest_shape: ""
 	filename: "ascension_arquero"
 	group: "FD609B87CC2A62AE"
-	icon: {
-		id: "minecraft:bow"
-	}
+	title: "Ascensión: Arquero"
+	subtitle: ["Puntos de Ascensión para Arquero"]
+	icon: "minecraft:bow"
 	id: "6F58F88937D025BF"
 	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{
 			id: "B02D602055F17560"
+			title: "La puerta de la Ascensión"
+			subtitle: "Se abre al terminar la campaña"
+			description: [
+				"La Ascensión es el camino después del nivel 100: cada misión de tu clase te da puntos de Ascensión, con bonos pequeños y permanentes."
+				""
+				"Esta misión se completa sola cuando terminas la campaña (stage &6era_10&r)."
+			]
+			icon: "minecraft:nether_star"
 			x: 0.5d
 			y: 0.5d
 			tasks: [
@@ -33,6 +41,14 @@
 		}
 		{
 			id: "E90B3B0F267CADC9"
+			title: "Elige la Ascensión de Arquero"
+			subtitle: "Desbloquea la pestaña"
+			description: [
+				"El Arquero gana precisión y velocidad con cada punto."
+				""
+				"Al recoger el premio se desbloquea la pestaña de Ascensión de esta clase en el árbol de habilidades (&6K&r)."
+			]
+			icon: "minecraft:bow"
 			x: 2d
 			y: 0.5d
 			dependencies: ["B02D602055F17560"]
@@ -61,6 +77,10 @@
 		}
 		{
 			id: "4674019A8475FB7A"
+			title: "Ojo de halcón"
+			subtitle: "Tiros certeros"
+			description: ["Derrota 200 esqueletos con tu arco."]
+			icon: "minecraft:iron_sword"
 			x: 3.5d
 			y: 0.5d
 			dependencies: ["E90B3B0F267CADC9"]
@@ -91,6 +111,10 @@
 		}
 		{
 			id: "101EC6A0A52230CD"
+			title: "Cazador de fantasmas"
+			subtitle: "Los cielos"
+			description: ["Derriba 30 fantasmas."]
+			icon: "minecraft:iron_sword"
 			x: 5d
 			y: 0.5d
 			dependencies: ["4674019A8475FB7A"]
@@ -121,6 +145,10 @@
 		}
 		{
 			id: "30C4940823119B26"
+			title: "Arco supremo"
+			subtitle: "Materiales nobles"
+			description: ["Fabrica un arco largo de diamante."]
+			icon: "spartanweaponry:diamond_longbow"
 			x: 6.5d
 			y: 0.5d
 			dependencies: ["101EC6A0A52230CD"]
@@ -128,10 +156,7 @@
 				{
 					id: "47370AAC98233767"
 					type: "item"
-					item: {
-						count: 1
-						id: "spartanweaponry:diamond_longbow"
-					}
+					item: "spartanweaponry:diamond_longbow"
 				}
 			]
 			rewards: [
@@ -153,6 +178,10 @@
 		}
 		{
 			id: "957396200984DCA3"
+			title: "Flechas espectrales"
+			subtitle: "Munición"
+			description: ["Reúne 64 flechas espectrales."]
+			icon: "minecraft:spectral_arrow"
 			x: 8d
 			y: 0.5d
 			dependencies: ["30C4940823119B26"]
@@ -160,10 +189,7 @@
 				{
 					id: "D2F68B36D771694A"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:spectral_arrow"
-					}
+					item: "minecraft:spectral_arrow"
 					count: 64L
 				}
 			]
@@ -186,6 +212,10 @@
 		}
 		{
 			id: "772705568398490D"
+			title: "Ghast a distancia"
+			subtitle: "Dispara a la bola"
+			description: ["Derrota 10 ghasts, de lejos."]
+			icon: "minecraft:iron_sword"
 			x: 9.5d
 			y: 0.5d
 			dependencies: ["957396200984DCA3"]
@@ -216,6 +246,10 @@
 		}
 		{
 			id: "A03132261B14BBF7"
+			title: "Corredor de largas distancias"
+			subtitle: "Movilidad"
+			description: ["Recorre una gran distancia a pie."]
+			icon: "minecraft:clock"
 			x: 11d
 			y: 0.5d
 			dependencies: ["772705568398490D"]
@@ -246,6 +280,10 @@
 		}
 		{
 			id: "160CFE7745F3D189"
+			title: "Cazador de blazes"
+			subtitle: "El Nether"
+			description: ["Derrota 50 blazes."]
+			icon: "minecraft:iron_sword"
 			x: 12.5d
 			y: 0.5d
 			dependencies: ["A03132261B14BBF7"]
@@ -276,6 +314,10 @@
 		}
 		{
 			id: "DDFBEB5533EF30EC"
+			title: "Maestría final"
+			subtitle: "Tier III"
+			description: ["Llega a la cima de un camino de Arquero (Tier III)."]
+			icon: "minecraft:nether_star"
 			x: 14d
 			y: 0.5d
 			dependencies: ["160CFE7745F3D189"]

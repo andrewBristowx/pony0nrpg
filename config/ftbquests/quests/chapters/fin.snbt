@@ -3,15 +3,23 @@
 	default_quest_shape: ""
 	filename: "fin"
 	group: "FA1951BF2D35F839"
-	icon: {
-		id: "minecraft:dragon_head"
-	}
+	title: "10. El fin del mundo"
+	subtitle: ["El dragón del End, el equipo mítico y la puerta de la Ascensión."]
+	icon: "minecraft:dragon_head"
 	id: "2F905063C99D5E77"
 	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
 			id: "D6478AB6BCB0465D"
+			title: "El fin del mundo"
+			subtitle: "La última era"
+			description: [
+				"Todo lo que has hecho te ha traído hasta aquí. El End te espera con su dragón y sus ciudades."
+				""
+				"Al completar este capítulo se abre la Ascensión: un nuevo camino para tu clase."
+			]
+			icon: "minecraft:dragon_head"
 			x: 0.5d
 			y: 0.5d
 			dependencies: ["77BD59570E5928DF"]
@@ -32,16 +40,17 @@
 				{
 					id: "2F2281694792C63F"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 3
 				}
 			]
 		}
 		{
 			id: "BC34EE86D9929279"
+			title: "Ojos del End"
+			subtitle: "Encuentra la fortaleza"
+			description: ["Los ojos del End te guían hacia la fortaleza donde está el portal al End. Se hacen con una perla de ender y polvo de blaze."]
+			icon: "minecraft:ender_eye"
 			x: 2d
 			y: 0.5d
 			dependencies: ["D6478AB6BCB0465D"]
@@ -49,10 +58,7 @@
 				{
 					id: "7279B33785324173"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:ender_eye"
-					}
+					item: "minecraft:ender_eye"
 					count: 12L
 				}
 			]
@@ -67,16 +73,17 @@
 				{
 					id: "B3C7C94291BBC235"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "F13ECEE45C2EAD8B"
+			title: "Portal al End"
+			subtitle: "Cruza"
+			description: ["Activa el portal con doce ojos del End. Al otro lado te esperan el dragón y los endermen."]
+			icon: "minecraft:ender_eye"
 			x: 3.5d
 			y: 0.5d
 			dependencies: ["BC34EE86D9929279"]
@@ -98,16 +105,17 @@
 				{
 					id: "32BDF872FC41A232"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 3
 				}
 			]
 		}
 		{
 			id: "5D3FFEF92F1173B2"
+			title: "El dragón del End"
+			subtitle: "El jefe final"
+			description: ["Destruye los cristales del End y acaba con el dragón. Lleva bloques, arco y mucha comida."]
+			icon: "minecraft:iron_sword"
 			x: 5d
 			y: 0.5d
 			dependencies: ["F13ECEE45C2EAD8B"]
@@ -130,24 +138,22 @@
 				{
 					id: "B119BA353EEDE4FD"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:dragon_egg"
-					}
+					item: "minecraft:dragon_egg"
 				}
 				{
 					id: "15C1C8CBD72A7989"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 5
 				}
 			]
 		}
 		{
 			id: "CBFBBAC1DD7AF59D"
+			title: "Élitros"
+			subtitle: "Vuela"
+			description: ["En las ciudades del End hay barcos con élitros. Con ellos y cohetes, el cielo es tuyo."]
+			icon: "minecraft:elytra"
 			x: 6.5d
 			y: 0.5d
 			dependencies: ["5D3FFEF92F1173B2"]
@@ -155,10 +161,7 @@
 				{
 					id: "6340926F61E970AA"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:elytra"
-					}
+					item: "minecraft:elytra"
 				}
 			]
 			rewards: [
@@ -172,16 +175,17 @@
 				{
 					id: "4F47F7AB613493DB"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:firework_rocket"
-					}
+					item: "minecraft:firework_rocket"
 					count: 32
 				}
 			]
 		}
 		{
 			id: "C2853AA259EA5044"
+			title: "Cajas shulker"
+			subtitle: "Almacenamiento móvil"
+			description: ["Las cajas shulker son la mejor forma de llevar equipo contigo."]
+			icon: "minecraft:shulker_shell"
 			x: 6.5d
 			y: 2d
 			optional: true
@@ -190,10 +194,7 @@
 				{
 					id: "36F31740ADE93030"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:shulker_shell"
-					}
+					item: "minecraft:shulker_shell"
 					count: 4L
 				}
 			]
@@ -209,6 +210,10 @@
 		}
 		{
 			id: "F127EBEC8782BE85"
+			title: "Baliza"
+			subtitle: "Bonificaciones de zona"
+			description: ["Con una estrella del Nether, obsidiana y cristal fabricas una baliza que da bonificaciones a todo tu equipo."]
+			icon: "minecraft:beacon"
 			x: 6.5d
 			y: 3.5d
 			optional: true
@@ -217,10 +222,7 @@
 				{
 					id: "E1B1E62074153F44"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:beacon"
-					}
+					item: "minecraft:beacon"
 				}
 			]
 			rewards: [
@@ -234,16 +236,21 @@
 				{
 					id: "AA276360E80C09BA"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 3
 				}
 			]
 		}
 		{
 			id: "853F39E834393EB2"
+			title: "Equipo mítico"
+			subtitle: "Fruto de tres dimensiones"
+			description: [
+				"El equipo mítico se forja con materiales de tres dimensiones distintas: el Undergarden, el Aether y el espacio."
+				""
+				"Entrégalos para demostrar que has llegado al final."
+			]
+			icon: "undergarden:forgotten_ingot"
 			x: 8d
 			y: 0.5d
 			dependencies: ["5D3FFEF92F1173B2", "CBFBBAC1DD7AF59D"]
@@ -251,30 +258,21 @@
 				{
 					id: "AA2A5A0FC646975F"
 					type: "item"
-					item: {
-						count: 1
-						id: "undergarden:forgotten_ingot"
-					}
+					item: "undergarden:forgotten_ingot"
 					count: 8L
 					consume_items: true
 				}
 				{
 					id: "10CD94FD5EED98E8"
 					type: "item"
-					item: {
-						count: 1
-						id: "aether:zanite_gemstone"
-					}
+					item: "aether:zanite_gemstone"
 					count: 16L
 					consume_items: true
 				}
 				{
 					id: "F9BC02EC75C92EE2"
 					type: "item"
-					item: {
-						count: 1
-						id: "ad_astra:calorite_ingot"
-					}
+					item: "ad_astra:calorite_ingot"
 					count: 8L
 					consume_items: true
 				}
@@ -290,16 +288,21 @@
 				{
 					id: "4F65E719682DB6B0"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 8
 				}
 			]
 		}
 		{
 			id: "3197D5D381797683"
+			title: "La puerta de la Ascensión"
+			subtitle: "Fin de la campaña"
+			description: [
+				"Has completado la campaña. Alcanza el nivel 100 y abre la Ascensión: en los capítulos de Ascensión de cada clase ganarás puntos que mejoran a tu personaje para siempre."
+				""
+				"Este es el final del camino... y el principio de otro."
+			]
+			icon: "minecraft:dragon_head"
 			x: 9.5d
 			y: 0.5d
 			dependencies: ["853F39E834393EB2"]
@@ -327,10 +330,7 @@
 				{
 					id: "858605268B035060"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 10
 				}
 			]

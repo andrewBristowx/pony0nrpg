@@ -3,15 +3,23 @@
 	default_quest_shape: ""
 	filename: "tecnologia"
 	group: "FA1951BF2D35F839"
-	icon: {
-		id: "mekanism:steel_casing"
-	}
+	title: "5. La era tecnológica"
+	subtitle: ["Electricidad, máquinas de proceso y redes de almacenamiento."]
+	icon: "mekanism:steel_casing"
 	id: "8ED56C9EADB59DA3"
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
 			id: "A172BC3B18A57A27"
+			title: "La era de la energía"
+			subtitle: "Contexto"
+			description: [
+				"Después de la fuerza mecánica llega la electricidad. Usaremos FE (Forge Energy) y tres familias de mods:"
+				""
+				"&6Create Crafts & Additions&r: convierte la fuerza de Create en electricidad. &6Powah&r: generadores y baterías intermedias. &6Mekanism&r: procesamiento y energía densa. &6AE2&r: almacenamiento y autocrafteo."
+			]
+			icon: "mekanism:steel_casing"
 			x: 0.5d
 			y: 0.5d
 			dependencies: ["AF5C488BE0D600A2"]
@@ -32,16 +40,17 @@
 				{
 					id: "D50C7A45BAF6F161"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_emerald"
-					}
+					item: "lightmanscurrency:coin_emerald"
 					count: 4
 				}
 			]
 		}
 		{
 			id: "862160E0F3BA21DB"
+			title: "Alternador y motor"
+			subtitle: "De fuerza a electricidad"
+			description: ["El alternador convierte fuerza rotatoria en electricidad. El motor eléctrico hace lo contrario: convierte electricidad en fuerza."]
+			icon: "createaddition:alternator"
 			x: 2d
 			y: 0.5d
 			dependencies: ["A172BC3B18A57A27"]
@@ -49,18 +58,12 @@
 				{
 					id: "CFCB3B9CFB3966D3"
 					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:alternator"
-					}
+					item: "createaddition:alternator"
 				}
 				{
 					id: "EEAF021B644DBF5C"
 					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:electric_motor"
-					}
+					item: "createaddition:electric_motor"
 				}
 			]
 			rewards: [
@@ -74,16 +77,17 @@
 				{
 					id: "259013248C0BD814"
 					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:copper_wire"
-					}
+					item: "createaddition:copper_wire"
 					count: 16
 				}
 			]
 		}
 		{
 			id: "FCE9D77E5744EA27"
+			title: "Cables y conectores"
+			subtitle: "Transporte de energía"
+			description: ["Los conectores unen máquinas con cable. Cuidado con la distancia y con la pérdida por hilo fino."]
+			icon: "createaddition:connector"
 			x: 3.5d
 			y: 0.5d
 			dependencies: ["862160E0F3BA21DB"]
@@ -91,19 +95,13 @@
 				{
 					id: "C88C9C8081FDA768"
 					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:connector"
-					}
+					item: "createaddition:connector"
 					count: 4L
 				}
 				{
 					id: "B692D0B94424E532"
 					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:copper_spool"
-					}
+					item: "createaddition:copper_spool"
 					count: 2L
 				}
 			]
@@ -118,15 +116,16 @@
 				{
 					id: "F67AB421D0E8005C"
 					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:capacitor"
-					}
+					item: "createaddition:capacitor"
 				}
 			]
 		}
 		{
 			id: "9539C9153183A31C"
+			title: "Laminador (opcional)"
+			subtitle: "Hilos y varillas"
+			description: ["El laminador convierte placas en varillas y cables de distintos metales."]
+			icon: "createaddition:rolling_mill"
 			x: 5d
 			y: 0.5d
 			optional: true
@@ -135,10 +134,7 @@
 				{
 					id: "2327866F3C85C6E3"
 					type: "item"
-					item: {
-						count: 1
-						id: "createaddition:rolling_mill"
-					}
+					item: "createaddition:rolling_mill"
 				}
 			]
 			rewards: [
@@ -153,6 +149,14 @@
 		}
 		{
 			id: "F99D2CB2D4EDFB7A"
+			title: "Energía intermedia"
+			subtitle: "Powah"
+			description: [
+				"Powah añade generadores sencillos: el furnator quema combustible y el magmator usa lava."
+				""
+				"Guarda la energía en una celda."
+			]
+			icon: "powah:furnator_starter"
 			x: 2d
 			y: 2d
 			dependencies: ["A172BC3B18A57A27"]
@@ -160,18 +164,12 @@
 				{
 					id: "0E00DEC46A3F338A"
 					type: "item"
-					item: {
-						count: 1
-						id: "powah:furnator_starter"
-					}
+					item: "powah:furnator_starter"
 				}
 				{
 					id: "E99AB4E45C1F42A3"
 					type: "item"
-					item: {
-						count: 1
-						id: "powah:energy_cell_starter"
-					}
+					item: "powah:energy_cell_starter"
 				}
 			]
 			rewards: [
@@ -185,15 +183,16 @@
 				{
 					id: "6E0FC33F86BA0AC3"
 					type: "item"
-					item: {
-						count: 1
-						id: "powah:energizing_orb"
-					}
+					item: "powah:energizing_orb"
 				}
 			]
 		}
 		{
 			id: "859B1B9A97096EC6"
+			title: "Batería Powah"
+			subtitle: "Almacenar"
+			description: ["Una celda de energía básica almacena mucho más. Mejora todo tu sistema con celdas mayores."]
+			icon: "powah:energy_cell_basic"
 			x: 3.5d
 			y: 2d
 			dependencies: ["F99D2CB2D4EDFB7A"]
@@ -201,10 +200,7 @@
 				{
 					id: "E910DFA2725883C8"
 					type: "item"
-					item: {
-						count: 1
-						id: "powah:energy_cell_basic"
-					}
+					item: "powah:energy_cell_basic"
 				}
 			]
 			rewards: [
@@ -219,6 +215,14 @@
 		}
 		{
 			id: "D7DB47F7D5C43B18"
+			title: "Mekanism: primeras máquinas"
+			subtitle: "Procesamiento"
+			description: [
+				"Mekanism tiene máquinas que multiplican tus minerales: un mineral procesado en una cámara de enriquecimiento da más lingotes."
+				""
+				"Empieza con circuitos de control básicos."
+			]
+			icon: "mekanism:enrichment_chamber"
 			x: 3.5d
 			y: 3.5d
 			dependencies: ["862160E0F3BA21DB"]
@@ -226,18 +230,12 @@
 				{
 					id: "AB9C9A06EA79A429"
 					type: "item"
-					item: {
-						count: 1
-						id: "mekanism:enrichment_chamber"
-					}
+					item: "mekanism:enrichment_chamber"
 				}
 				{
 					id: "BD70B5DDE14A18B7"
 					type: "item"
-					item: {
-						count: 1
-						id: "mekanism:basic_control_circuit"
-					}
+					item: "mekanism:basic_control_circuit"
 					count: 4L
 				}
 			]
@@ -252,16 +250,17 @@
 				{
 					id: "8C92B89F2F90CF9B"
 					type: "item"
-					item: {
-						count: 1
-						id: "mekanism:basic_universal_cable"
-					}
+					item: "mekanism:basic_universal_cable"
 					count: 8
 				}
 			]
 		}
 		{
 			id: "5C41BCBC32FB0AD0"
+			title: "Osmio"
+			subtitle: "El metal de Mekanism"
+			description: ["El osmio es la base de Mekanism. Mínalo en cuevas y fúndelo."]
+			icon: "mekanism:ingot_osmium"
 			x: 5d
 			y: 2d
 			dependencies: ["D7DB47F7D5C43B18"]
@@ -269,10 +268,7 @@
 				{
 					id: "77C3A4E7A07DD58B"
 					type: "item"
-					item: {
-						count: 1
-						id: "mekanism:ingot_osmium"
-					}
+					item: "mekanism:ingot_osmium"
 					count: 16L
 				}
 			]
@@ -295,6 +291,10 @@
 		}
 		{
 			id: "E36F8C4FF3D2A5BB"
+			title: "Acero"
+			subtitle: "Infusión"
+			description: ["El infusor metalúrgico mezcla materiales; con él fabricas acero y aleaciones de infusión."]
+			icon: "mekanism:metallurgic_infuser"
 			x: 6.5d
 			y: 0.5d
 			dependencies: ["5C41BCBC32FB0AD0"]
@@ -302,18 +302,12 @@
 				{
 					id: "BB38CF6E941DBBCE"
 					type: "item"
-					item: {
-						count: 1
-						id: "mekanism:metallurgic_infuser"
-					}
+					item: "mekanism:metallurgic_infuser"
 				}
 				{
 					id: "61DFB55FD254E727"
 					type: "item"
-					item: {
-						count: 1
-						id: "mekanism:ingot_steel"
-					}
+					item: "mekanism:ingot_steel"
 					count: 8L
 				}
 			]
@@ -328,15 +322,16 @@
 				{
 					id: "FA92BE2D460188D8"
 					type: "item"
-					item: {
-						count: 1
-						id: "mekanism:steel_casing"
-					}
+					item: "mekanism:steel_casing"
 				}
 			]
 		}
 		{
 			id: "B16E6C0F19F6AF4C"
+			title: "Triple procesado"
+			subtitle: "Multiplica tus minerales"
+			description: ["Con trituradora y cámara de purificación, cada mineral da varias veces más lingotes."]
+			icon: "mekanism:crusher"
 			x: 8d
 			y: 0.5d
 			dependencies: ["E36F8C4FF3D2A5BB"]
@@ -344,18 +339,12 @@
 				{
 					id: "9D73EA0E25C47587"
 					type: "item"
-					item: {
-						count: 1
-						id: "mekanism:crusher"
-					}
+					item: "mekanism:crusher"
 				}
 				{
 					id: "4DFD4AAB5B9E4A57"
 					type: "item"
-					item: {
-						count: 1
-						id: "mekanism:purification_chamber"
-					}
+					item: "mekanism:purification_chamber"
 				}
 			]
 			rewards: [
@@ -369,16 +358,17 @@
 				{
 					id: "4CC6052250CFEB77"
 					type: "item"
-					item: {
-						count: 1
-						id: "mekanism:advanced_control_circuit"
-					}
+					item: "mekanism:advanced_control_circuit"
 					count: 4
 				}
 			]
 		}
 		{
 			id: "8F4D7DFC604A06EC"
+			title: "Cubos de energía"
+			subtitle: "Almacén de energía"
+			description: ["Los cubos de energía guardan grandes cantidades y se conectan con cables universales."]
+			icon: "mekanism:basic_energy_cube"
 			x: 8d
 			y: 2d
 			dependencies: ["E36F8C4FF3D2A5BB"]
@@ -386,18 +376,12 @@
 				{
 					id: "A7C95FB5FDF41FB7"
 					type: "item"
-					item: {
-						count: 1
-						id: "mekanism:basic_energy_cube"
-					}
+					item: "mekanism:basic_energy_cube"
 				}
 				{
 					id: "AA458A29FF5796E2"
 					type: "item"
-					item: {
-						count: 1
-						id: "mekanism:basic_universal_cable"
-					}
+					item: "mekanism:basic_universal_cable"
 					count: 16L
 				}
 			]
@@ -413,6 +397,10 @@
 		}
 		{
 			id: "8B00B888A8B29A05"
+			title: "Robit (opcional)"
+			subtitle: "Tu robot personal"
+			description: ["El robit es un ayudante que recoge objetos y te sigue. Es muy básico, pero divertido."]
+			icon: "mekanism:robit"
 			x: 9.5d
 			y: 0.5d
 			optional: true
@@ -421,10 +409,7 @@
 				{
 					id: "CB18E26C401352D4"
 					type: "item"
-					item: {
-						count: 1
-						id: "mekanism:robit"
-					}
+					item: "mekanism:robit"
 				}
 			]
 			rewards: [
@@ -439,6 +424,14 @@
 		}
 		{
 			id: "F6C4E233CB747E07"
+			title: "AE2: cuarzo"
+			subtitle: "Sistema de almacenamiento"
+			description: [
+				"Applied Energistics 2 guarda objetos en una red y los automatiza. Empieza con cuarzo certus: minado en meteoritas y cuevas."
+				""
+				"Un cargador convierte cuarzo certus en cuarzo cargado."
+			]
+			icon: "ae2:certus_quartz_crystal"
 			x: 2d
 			y: 3.5d
 			dependencies: ["A172BC3B18A57A27"]
@@ -446,19 +439,13 @@
 				{
 					id: "389AE081B67AA549"
 					type: "item"
-					item: {
-						count: 1
-						id: "ae2:certus_quartz_crystal"
-					}
+					item: "ae2:certus_quartz_crystal"
 					count: 8L
 				}
 				{
 					id: "3748DA5F8FCCA4CA"
 					type: "item"
-					item: {
-						count: 1
-						id: "ae2:charger"
-					}
+					item: "ae2:charger"
 				}
 			]
 			rewards: [
@@ -472,16 +459,17 @@
 				{
 					id: "7C832DA180C08F3E"
 					type: "item"
-					item: {
-						count: 1
-						id: "ae2:charged_certus_quartz_crystal"
-					}
+					item: "ae2:charged_certus_quartz_crystal"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "BDA57587C5554562"
+			title: "Tu primera red"
+			subtitle: "Controlador y unidades"
+			description: ["Una red de ME necesita energía, un controlador, una unidad de disco y un terminal. Conecta todo con cables."]
+			icon: "ae2:controller"
 			x: 3.5d
 			y: 5d
 			dependencies: ["F6C4E233CB747E07"]
@@ -489,34 +477,22 @@
 				{
 					id: "E3DFEA880AF53C6B"
 					type: "item"
-					item: {
-						count: 1
-						id: "ae2:controller"
-					}
+					item: "ae2:controller"
 				}
 				{
 					id: "34AB7E72A5671667"
 					type: "item"
-					item: {
-						count: 1
-						id: "ae2:drive"
-					}
+					item: "ae2:drive"
 				}
 				{
 					id: "8600423E38FE726F"
 					type: "item"
-					item: {
-						count: 1
-						id: "ae2:terminal"
-					}
+					item: "ae2:terminal"
 				}
 				{
 					id: "8E249B3C92BA5336"
 					type: "item"
-					item: {
-						count: 1
-						id: "ae2:item_storage_cell_1k"
-					}
+					item: "ae2:item_storage_cell_1k"
 				}
 			]
 			rewards: [
@@ -530,16 +506,21 @@
 				{
 					id: "7FB627C29E9E0530"
 					type: "item"
-					item: {
-						count: 1
-						id: "ae2:fluix_glass_cable"
-					}
+					item: "ae2:fluix_glass_cable"
 					count: 8
 				}
 			]
 		}
 		{
 			id: "661472E3C58175D2"
+			title: "Procesadores"
+			subtitle: "El corazón de AE2"
+			description: [
+				"Los procesadores se fabrican con moldes en un inscriptor. Necesitas lógica, cálculo e ingeniería."
+				""
+				"Un mecanismo de precisión de Create viene muy bien en esta etapa."
+			]
+			icon: "ae2:inscriber"
 			x: 5d
 			y: 3.5d
 			dependencies: ["BDA57587C5554562"]
@@ -547,36 +528,24 @@
 				{
 					id: "4C314ABF4AC89193"
 					type: "item"
-					item: {
-						count: 1
-						id: "ae2:inscriber"
-					}
+					item: "ae2:inscriber"
 				}
 				{
 					id: "7917047F79A1F221"
 					type: "item"
-					item: {
-						count: 1
-						id: "ae2:logic_processor"
-					}
+					item: "ae2:logic_processor"
 					count: 4L
 				}
 				{
 					id: "E4908614D73106EE"
 					type: "item"
-					item: {
-						count: 1
-						id: "ae2:calculation_processor"
-					}
+					item: "ae2:calculation_processor"
 					count: 4L
 				}
 				{
 					id: "3F6A582224F095BD"
 					type: "item"
-					item: {
-						count: 1
-						id: "ae2:engineering_processor"
-					}
+					item: "ae2:engineering_processor"
 					count: 4L
 				}
 			]
@@ -591,15 +560,16 @@
 				{
 					id: "1C510C79C6964799"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_diamond"
-					}
+					item: "lightmanscurrency:coin_diamond"
 				}
 			]
 		}
 		{
 			id: "5C0E20E716BD0168"
+			title: "Autocrafteo"
+			subtitle: "Fabricación automática"
+			description: ["Con un proveedor de patrones, un ensamblador molecular y una unidad de crafteo, tu red fabrica lo que le pidas."]
+			icon: "ae2:pattern_provider"
 			x: 6.5d
 			y: 2d
 			dependencies: ["661472E3C58175D2"]
@@ -607,34 +577,22 @@
 				{
 					id: "778EAA16DCA81E5A"
 					type: "item"
-					item: {
-						count: 1
-						id: "ae2:pattern_provider"
-					}
+					item: "ae2:pattern_provider"
 				}
 				{
 					id: "EDA83E4E648B3438"
 					type: "item"
-					item: {
-						count: 1
-						id: "ae2:molecular_assembler"
-					}
+					item: "ae2:molecular_assembler"
 				}
 				{
 					id: "857FBABFB022FD0E"
 					type: "item"
-					item: {
-						count: 1
-						id: "ae2:crafting_unit"
-					}
+					item: "ae2:crafting_unit"
 				}
 				{
 					id: "BA58ADBD06BE514E"
 					type: "item"
-					item: {
-						count: 1
-						id: "ae2:pattern_encoding_terminal"
-					}
+					item: "ae2:pattern_encoding_terminal"
 				}
 			]
 			rewards: [
@@ -648,16 +606,17 @@
 				{
 					id: "37B1332E2F332ADB"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_diamond"
-					}
+					item: "lightmanscurrency:coin_diamond"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "C3AE9B374546359B"
+			title: "Recuerda: mecanismos de precisión"
+			subtitle: "De Create"
+			description: ["Los procesadores avanzados se apoyan en componentes de Create. Si no tienes mecanismos de precisión, vuelve al capítulo 4."]
+			icon: "create:precision_mechanism"
 			x: 5d
 			y: 5d
 			optional: true
@@ -666,10 +625,7 @@
 				{
 					id: "56DB4B2508861AE3"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:precision_mechanism"
-					}
+					item: "create:precision_mechanism"
 					count: 2L
 				}
 			]
@@ -685,6 +641,14 @@
 		}
 		{
 			id: "F4B3AE87BC788D84"
+			title: "Energía estable, red estable"
+			subtitle: "Cierre del capítulo"
+			description: [
+				"Tienes energía estable, procesamiento de minerales y una red de almacenamiento con autocrafteo. Entrega un núcleo de teletransporte para completar la era tecnológica."
+				""
+				"Se abre el capítulo 6: la magia."
+			]
+			icon: "mekanism:teleportation_core"
 			x: 9.5d
 			y: 2d
 			dependencies: [
@@ -697,10 +661,7 @@
 				{
 					id: "A62487F109BBE1F7"
 					type: "item"
-					item: {
-						count: 1
-						id: "mekanism:teleportation_core"
-					}
+					item: "mekanism:teleportation_core"
 					consume_items: true
 				}
 			]
@@ -722,10 +683,7 @@
 				{
 					id: "F547CE1F5DBFBA8C"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_diamond"
-					}
+					item: "lightmanscurrency:coin_diamond"
 					count: 4
 				}
 			]

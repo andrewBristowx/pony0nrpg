@@ -3,15 +3,23 @@
 	default_quest_shape: ""
 	filename: "ascension_mago"
 	group: "FD609B87CC2A62AE"
-	icon: {
-		id: "minecraft:enchanted_book"
-	}
+	title: "Ascensión: Mago"
+	subtitle: ["Puntos de Ascensión para Mago"]
+	icon: "minecraft:enchanted_book"
 	id: "479A8AB763858CBE"
 	order_index: 15
 	quest_links: [ ]
 	quests: [
 		{
 			id: "51240FD0804A9114"
+			title: "La puerta de la Ascensión"
+			subtitle: "Se abre al terminar la campaña"
+			description: [
+				"La Ascensión es el camino después del nivel 100: cada misión de tu clase te da puntos de Ascensión, con bonos pequeños y permanentes."
+				""
+				"Esta misión se completa sola cuando terminas la campaña (stage &6era_10&r)."
+			]
+			icon: "minecraft:nether_star"
 			x: 0.5d
 			y: 0.5d
 			tasks: [
@@ -33,6 +41,14 @@
 		}
 		{
 			id: "F3F25F81C77B0851"
+			title: "Elige la Ascensión de Mago"
+			subtitle: "Desbloquea la pestaña"
+			description: [
+				"El Mago crece en poder mágico y maná con cada punto."
+				""
+				"Al recoger el premio se desbloquea la pestaña de Ascensión de esta clase en el árbol de habilidades (&6K&r)."
+			]
+			icon: "minecraft:enchanted_book"
 			x: 2d
 			y: 0.5d
 			dependencies: ["51240FD0804A9114"]
@@ -61,6 +77,10 @@
 		}
 		{
 			id: "7AB94966CEC6E3F9"
+			title: "Caza de brujas"
+			subtitle: "Práctica"
+			description: ["Elimina 20 brujas."]
+			icon: "minecraft:iron_sword"
 			x: 3.5d
 			y: 0.5d
 			dependencies: ["F3F25F81C77B0851"]
@@ -91,6 +111,10 @@
 		}
 		{
 			id: "980363084265B5E6"
+			title: "Grimorio superior"
+			subtitle: "Un libro mayor"
+			description: ["Fabrica un grimorio de diamante."]
+			icon: "irons_spellbooks:diamond_spell_book"
 			x: 5d
 			y: 0.5d
 			dependencies: ["7AB94966CEC6E3F9"]
@@ -98,10 +122,7 @@
 				{
 					id: "C796859AAD0F45C4"
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:diamond_spell_book"
-					}
+					item: "irons_spellbooks:diamond_spell_book"
 				}
 			]
 			rewards: [
@@ -123,6 +144,10 @@
 		}
 		{
 			id: "8A415716A32C74ED"
+			title: "Libro del archimago"
+			subtitle: "Ars Nouveau"
+			description: ["Consigue el libro de hechizos de archimago."]
+			icon: "ars_nouveau:archmage_spell_book"
 			x: 6.5d
 			y: 0.5d
 			dependencies: ["980363084265B5E6"]
@@ -130,10 +155,7 @@
 				{
 					id: "AA03C535BA54EB64"
 					type: "item"
-					item: {
-						count: 1
-						id: "ars_nouveau:archmage_spell_book"
-					}
+					item: "ars_nouveau:archmage_spell_book"
 				}
 			]
 			rewards: [
@@ -155,6 +177,10 @@
 		}
 		{
 			id: "393B4B73A9C0C5E3"
+			title: "Tinta legendaria"
+			subtitle: "El arte de escribir"
+			description: ["Consigue tinta legendaria para tus pergaminos."]
+			icon: "irons_spellbooks:legendary_ink"
 			x: 8d
 			y: 0.5d
 			dependencies: ["8A415716A32C74ED"]
@@ -162,10 +188,7 @@
 				{
 					id: "E98F17F9FBEA6A56"
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:legendary_ink"
-					}
+					item: "irons_spellbooks:legendary_ink"
 				}
 			]
 			rewards: [
@@ -187,6 +210,10 @@
 		}
 		{
 			id: "BA05A3891EDCFF07"
+			title: "Contra la Naga y el Lich"
+			subtitle: "Bosque Crepuscular"
+			description: ["Completa la torre del Lich."]
+			icon: "minecraft:writable_book"
 			x: 9.5d
 			y: 0.5d
 			dependencies: ["393B4B73A9C0C5E3"]
@@ -217,6 +244,10 @@
 		}
 		{
 			id: "CCDE3021BA18106A"
+			title: "Fuego de blaze"
+			subtitle: "El Nether"
+			description: ["Derrota 40 blazes."]
+			icon: "minecraft:iron_sword"
 			x: 11d
 			y: 0.5d
 			dependencies: ["BA05A3891EDCFF07"]
@@ -247,6 +278,10 @@
 		}
 		{
 			id: "EFB49371B3732D55"
+			title: "Contra el Wither"
+			subtitle: "Prueba mágica"
+			description: ["Derrota al Wither con magia."]
+			icon: "minecraft:iron_sword"
 			x: 12.5d
 			y: 0.5d
 			dependencies: ["CCDE3021BA18106A"]
@@ -277,6 +312,10 @@
 		}
 		{
 			id: "8D64DD1C0E759D96"
+			title: "Maestría final"
+			subtitle: "Tier III"
+			description: ["Llega a la cima de un camino de Mago (Tier III)."]
+			icon: "minecraft:nether_star"
 			x: 14d
 			y: 0.5d
 			dependencies: ["EFB49371B3732D55"]

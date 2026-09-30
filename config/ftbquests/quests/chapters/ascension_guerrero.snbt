@@ -3,15 +3,23 @@
 	default_quest_shape: ""
 	filename: "ascension_guerrero"
 	group: "FD609B87CC2A62AE"
-	icon: {
-		id: "minecraft:netherite_sword"
-	}
+	title: "Ascensión: Guerrero"
+	subtitle: ["Puntos de Ascensión para Guerrero"]
+	icon: "minecraft:netherite_sword"
 	id: "4F85A16CD2F734C8"
 	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{
 			id: "892DEB68945D84C1"
+			title: "La puerta de la Ascensión"
+			subtitle: "Se abre al terminar la campaña"
+			description: [
+				"La Ascensión es el camino después del nivel 100: cada misión de tu clase te da puntos de Ascensión, con bonos pequeños y permanentes."
+				""
+				"Esta misión se completa sola cuando terminas la campaña (stage &6era_10&r)."
+			]
+			icon: "minecraft:nether_star"
 			x: 0.5d
 			y: 0.5d
 			tasks: [
@@ -33,6 +41,14 @@
 		}
 		{
 			id: "0146B7675CB1ADB3"
+			title: "Elige la Ascensión de Guerrero"
+			subtitle: "Desbloquea la pestaña"
+			description: [
+				"El Guerrero se hace más resistente y más letal con cada punto."
+				""
+				"Al recoger el premio se desbloquea la pestaña de Ascensión de esta clase en el árbol de habilidades (&6K&r)."
+			]
+			icon: "minecraft:netherite_sword"
 			x: 2d
 			y: 0.5d
 			dependencies: ["892DEB68945D84C1"]
@@ -61,6 +77,10 @@
 		}
 		{
 			id: "945E836B0ADE39A7"
+			title: "Fuerza bruta"
+			subtitle: "Mata sin descanso"
+			description: ["Acaba con 200 zombis: la fuerza se gana golpeando."]
+			icon: "minecraft:iron_sword"
 			x: 3.5d
 			y: 0.5d
 			dependencies: ["0146B7675CB1ADB3"]
@@ -91,6 +111,10 @@
 		}
 		{
 			id: "69B30B980486EE8F"
+			title: "Muralla"
+			subtitle: "Bloquea el daño"
+			description: ["Bloquea daño con tu escudo hasta acumular una gran cantidad."]
+			icon: "minecraft:clock"
 			x: 5d
 			y: 0.5d
 			dependencies: ["945E836B0ADE39A7"]
@@ -121,6 +145,10 @@
 		}
 		{
 			id: "802CFCCA2B4DCD8F"
+			title: "Armadura completa"
+			subtitle: "Un titán de netherita"
+			description: ["Fabrica una armadura de netherita, aunque sea una pieza."]
+			icon: "minecraft:netherite_chestplate"
 			x: 6.5d
 			y: 0.5d
 			dependencies: ["69B30B980486EE8F"]
@@ -128,10 +156,7 @@
 				{
 					id: "D651136620224244"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:netherite_chestplate"
-					}
+					item: "minecraft:netherite_chestplate"
 				}
 			]
 			rewards: [
@@ -153,6 +178,10 @@
 		}
 		{
 			id: "24EAA068F8A60EE9"
+			title: "Hoja de guerra"
+			subtitle: "El mandoble definitivo"
+			description: ["Forja un mandoble de netherita."]
+			icon: "simplyswords:netherite_claymore"
 			x: 8d
 			y: 0.5d
 			dependencies: ["802CFCCA2B4DCD8F"]
@@ -160,10 +189,7 @@
 				{
 					id: "C809E64585C69601"
 					type: "item"
-					item: {
-						count: 1
-						id: "simplyswords:netherite_claymore"
-					}
+					item: "simplyswords:netherite_claymore"
 				}
 			]
 			rewards: [
@@ -185,6 +211,10 @@
 		}
 		{
 			id: "D8C24ED29B2FB89A"
+			title: "Contra el Wither"
+			subtitle: "Prueba de valor"
+			description: ["Derrota al Wither. Prepara pociones, armadura encantada y un plan."]
+			icon: "minecraft:iron_sword"
 			x: 9.5d
 			y: 0.5d
 			dependencies: ["24EAA068F8A60EE9"]
@@ -215,6 +245,10 @@
 		}
 		{
 			id: "4D33E6006674E5B8"
+			title: "Aguante"
+			subtitle: "Recibe golpes"
+			description: ["Resiste un gran volumen de daño acumulado."]
+			icon: "minecraft:clock"
 			x: 11d
 			y: 0.5d
 			dependencies: ["D8C24ED29B2FB89A"]
@@ -245,6 +279,10 @@
 		}
 		{
 			id: "6A34C1CD6FD08430"
+			title: "Aplasta devastadores"
+			subtitle: "Raid"
+			description: ["Acaba con 10 devastadores."]
+			icon: "minecraft:iron_sword"
 			x: 12.5d
 			y: 0.5d
 			dependencies: ["4D33E6006674E5B8"]
@@ -275,6 +313,10 @@
 		}
 		{
 			id: "E1CC250482E30D57"
+			title: "Maestría final"
+			subtitle: "Tier III"
+			description: ["Llega a la cima de un camino de Guerrero (Tier III)."]
+			icon: "minecraft:nether_star"
 			x: 14d
 			y: 0.5d
 			dependencies: ["6A34C1CD6FD08430"]

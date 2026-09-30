@@ -3,15 +3,23 @@
 	default_quest_shape: ""
 	filename: "oficios"
 	group: "5677092D8B6DEB7B"
-	icon: {
-		id: "minecraft:anvil"
-	}
+	title: "Oficios"
+	subtitle: ["Siete oficios que suben mientras haces sus tareas"]
+	icon: "minecraft:anvil"
 	id: "B01E0EAF688A58EC"
 	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{
 			id: "5339C4147395574B"
+			title: "Oficio: Minero"
+			subtitle: "Presentación"
+			description: [
+				"El minero sube picando minerales (mucho) y roca (poco)."
+				""
+				"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Minero. Cada nivel del oficio te da 1 punto para su árbol."
+			]
+			icon: "minecraft:anvil"
 			x: 0.5d
 			y: 0.5d
 			dependencies: ["D4EFDB76A048C766"]
@@ -40,6 +48,10 @@
 		}
 		{
 			id: "C2FFB20DB6F69E69"
+			title: "Minero: práctica"
+			subtitle: "Haz el trabajo"
+			description: ["Pica minerales: cada uno da experiencia de oficio. Consigue diamantes y esmeraldas."]
+			icon: "minecraft:diamond"
 			x: 2d
 			y: 0.5d
 			dependencies: ["5339C4147395574B"]
@@ -47,19 +59,13 @@
 				{
 					id: "71C8F10C0279A54A"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:diamond"
-					}
+					item: "minecraft:diamond"
 					count: 3L
 				}
 				{
 					id: "B40468CBDFCCA7CA"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:emerald"
-					}
+					item: "minecraft:emerald"
 					count: 3L
 				}
 			]
@@ -81,15 +87,16 @@
 				{
 					id: "ED4E6047AF5B4410"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:iron_pickaxe"
-					}
+					item: "minecraft:iron_pickaxe"
 				}
 			]
 		}
 		{
 			id: "7EB8BA411AEFD923"
+			title: "Minero I"
+			subtitle: "Hito de oficio"
+			description: ["Sube en el árbol de Minero hasta &6Fundamentos VI&r. Esto activa el hito Minero I."]
+			icon: "minecraft:nether_star"
 			x: 3.5d
 			y: 0.5d
 			dependencies: ["C2FFB20DB6F69E69"]
@@ -118,16 +125,17 @@
 				{
 					id: "1E44A6219FA3D61F"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_gold"
-					}
+					item: "lightmanscurrency:coin_gold"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "7F79323E65F0252D"
+			title: "Minero II"
+			subtitle: "Maestría"
+			description: ["Llega hasta la cima de uno de los dos caminos de Minero. Es el hito de maestría del oficio."]
+			icon: "minecraft:nether_star"
 			x: 5d
 			y: 0.5d
 			dependencies: ["7EB8BA411AEFD923"]
@@ -149,16 +157,21 @@
 				{
 					id: "43534CB4DB8C16CD"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_emerald"
-					}
+					item: "lightmanscurrency:coin_emerald"
 					count: 3
 				}
 			]
 		}
 		{
 			id: "CD39F7FD4EA6A331"
+			title: "Oficio: Leñador"
+			subtitle: "Presentación"
+			description: [
+				"El leñador sube talando árboles."
+				""
+				"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Leñador. Cada nivel del oficio te da 1 punto para su árbol."
+			]
+			icon: "minecraft:anvil"
 			x: 0.5d
 			y: 2d
 			dependencies: ["D4EFDB76A048C766"]
@@ -187,6 +200,10 @@
 		}
 		{
 			id: "4B48A7ABAD5D3004"
+			title: "Leñador: práctica"
+			subtitle: "Haz el trabajo"
+			description: ["Tala árboles y consigue troncos de varios tipos."]
+			icon: "minecraft:oak_log"
 			x: 2d
 			y: 2d
 			dependencies: ["CD39F7FD4EA6A331"]
@@ -194,19 +211,13 @@
 				{
 					id: "F3BF262998E46C24"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:oak_log"
-					}
+					item: "minecraft:oak_log"
 					count: 32L
 				}
 				{
 					id: "90AF39618FF739C4"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:spruce_log"
-					}
+					item: "minecraft:spruce_log"
 					count: 32L
 				}
 			]
@@ -228,15 +239,16 @@
 				{
 					id: "3B45E3BDCDDBDC3F"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:iron_axe"
-					}
+					item: "minecraft:iron_axe"
 				}
 			]
 		}
 		{
 			id: "0B92822CA033C654"
+			title: "Leñador I"
+			subtitle: "Hito de oficio"
+			description: ["Sube en el árbol de Leñador hasta &6Fundamentos VI&r. Esto activa el hito Leñador I."]
+			icon: "minecraft:nether_star"
 			x: 3.5d
 			y: 2d
 			dependencies: ["4B48A7ABAD5D3004"]
@@ -265,16 +277,17 @@
 				{
 					id: "66E5FFC7C31217E8"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_gold"
-					}
+					item: "lightmanscurrency:coin_gold"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "3CD75AE420A3D168"
+			title: "Leñador II"
+			subtitle: "Maestría"
+			description: ["Llega hasta la cima de uno de los dos caminos de Leñador. Es el hito de maestría del oficio."]
+			icon: "minecraft:nether_star"
 			x: 5d
 			y: 2d
 			dependencies: ["0B92822CA033C654"]
@@ -296,16 +309,21 @@
 				{
 					id: "E02826374814D49F"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_emerald"
-					}
+					item: "lightmanscurrency:coin_emerald"
 					count: 3
 				}
 			]
 		}
 		{
 			id: "7A0777EF5D49B88A"
+			title: "Oficio: Granjero"
+			subtitle: "Presentación"
+			description: [
+				"El granjero sube cosechando cultivos maduros (no vale romper los brotes)."
+				""
+				"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Granjero. Cada nivel del oficio te da 1 punto para su árbol."
+			]
+			icon: "minecraft:anvil"
 			x: 0.5d
 			y: 3.5d
 			dependencies: ["D4EFDB76A048C766"]
@@ -334,6 +352,10 @@
 		}
 		{
 			id: "136FDA2F6D4631AD"
+			title: "Granjero: práctica"
+			subtitle: "Haz el trabajo"
+			description: ["Cosecha trigo, zanahorias y patatas maduras."]
+			icon: "minecraft:wheat"
 			x: 2d
 			y: 3.5d
 			dependencies: ["7A0777EF5D49B88A"]
@@ -341,28 +363,19 @@
 				{
 					id: "0BEE18D9CC176DFA"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:wheat"
-					}
+					item: "minecraft:wheat"
 					count: 32L
 				}
 				{
 					id: "C54E92A7B7318F5C"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:carrot"
-					}
+					item: "minecraft:carrot"
 					count: 16L
 				}
 				{
 					id: "F0293686D65C86DF"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:potato"
-					}
+					item: "minecraft:potato"
 					count: 16L
 				}
 			]
@@ -384,15 +397,16 @@
 				{
 					id: "14999E708BDBEA9E"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:iron_hoe"
-					}
+					item: "minecraft:iron_hoe"
 				}
 			]
 		}
 		{
 			id: "9046A50E44B352DF"
+			title: "Granjero I"
+			subtitle: "Hito de oficio"
+			description: ["Sube en el árbol de Granjero hasta &6Fundamentos VI&r. Esto activa el hito Granjero I."]
+			icon: "minecraft:nether_star"
 			x: 3.5d
 			y: 3.5d
 			dependencies: ["136FDA2F6D4631AD"]
@@ -421,16 +435,17 @@
 				{
 					id: "1780D9A662FB7E73"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_gold"
-					}
+					item: "lightmanscurrency:coin_gold"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "EF3FC198CEE5CC5D"
+			title: "Granjero II"
+			subtitle: "Maestría"
+			description: ["Llega hasta la cima de uno de los dos caminos de Granjero. Es el hito de maestría del oficio."]
+			icon: "minecraft:nether_star"
 			x: 5d
 			y: 3.5d
 			dependencies: ["9046A50E44B352DF"]
@@ -452,16 +467,21 @@
 				{
 					id: "B31380451333BF85"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_emerald"
-					}
+					item: "lightmanscurrency:coin_emerald"
 					count: 3
 				}
 			]
 		}
 		{
 			id: "F976B17565C51B4C"
+			title: "Oficio: Pescador"
+			subtitle: "Presentación"
+			description: [
+				"El pescador sube pescando."
+				""
+				"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Pescador. Cada nivel del oficio te da 1 punto para su árbol."
+			]
+			icon: "minecraft:anvil"
 			x: 0.5d
 			y: 5d
 			dependencies: ["D4EFDB76A048C766"]
@@ -490,6 +510,10 @@
 		}
 		{
 			id: "08ABD6C69F3F736F"
+			title: "Pescador: práctica"
+			subtitle: "Haz el trabajo"
+			description: ["Pesca peces variados."]
+			icon: "minecraft:cod"
 			x: 2d
 			y: 5d
 			dependencies: ["F976B17565C51B4C"]
@@ -497,19 +521,13 @@
 				{
 					id: "277A27ED8C059BAB"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:cod"
-					}
+					item: "minecraft:cod"
 					count: 8L
 				}
 				{
 					id: "A16EDACA3279CF8F"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:salmon"
-					}
+					item: "minecraft:salmon"
 					count: 8L
 				}
 			]
@@ -531,15 +549,16 @@
 				{
 					id: "273274C69EF489C5"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:fishing_rod"
-					}
+					item: "minecraft:fishing_rod"
 				}
 			]
 		}
 		{
 			id: "43A2FE4E40BB587A"
+			title: "Pescador I"
+			subtitle: "Hito de oficio"
+			description: ["Sube en el árbol de Pescador hasta &6Fundamentos VI&r. Esto activa el hito Pescador I."]
+			icon: "minecraft:nether_star"
 			x: 3.5d
 			y: 5d
 			dependencies: ["08ABD6C69F3F736F"]
@@ -568,16 +587,17 @@
 				{
 					id: "A863C58674CD145B"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_gold"
-					}
+					item: "lightmanscurrency:coin_gold"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "7D2C327DBE2FF7C4"
+			title: "Pescador II"
+			subtitle: "Maestría"
+			description: ["Llega hasta la cima de uno de los dos caminos de Pescador. Es el hito de maestría del oficio."]
+			icon: "minecraft:nether_star"
 			x: 5d
 			y: 5d
 			dependencies: ["43A2FE4E40BB587A"]
@@ -599,16 +619,21 @@
 				{
 					id: "A67CCDC2D450071A"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_emerald"
-					}
+					item: "lightmanscurrency:coin_emerald"
 					count: 3
 				}
 			]
 		}
 		{
 			id: "6E531DE17D4DC58E"
+			title: "Oficio: Herrero"
+			subtitle: "Presentación"
+			description: [
+				"El herrero sube fabricando herramientas, armas y armaduras, y fundiendo lingotes."
+				""
+				"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Herrero. Cada nivel del oficio te da 1 punto para su árbol."
+			]
+			icon: "minecraft:anvil"
 			x: 0.5d
 			y: 6.5d
 			dependencies: ["D4EFDB76A048C766"]
@@ -637,6 +662,10 @@
 		}
 		{
 			id: "CC63238389AE1C80"
+			title: "Herrero: práctica"
+			subtitle: "Haz el trabajo"
+			description: ["Fabrica armas y herramientas de hierro y funde lingotes."]
+			icon: "minecraft:iron_sword"
 			x: 2d
 			y: 6.5d
 			dependencies: ["6E531DE17D4DC58E"]
@@ -644,26 +673,17 @@
 				{
 					id: "0B95D96ABC8EA7DA"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:iron_sword"
-					}
+					item: "minecraft:iron_sword"
 				}
 				{
 					id: "20EA8A48007DA117"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:iron_pickaxe"
-					}
+					item: "minecraft:iron_pickaxe"
 				}
 				{
 					id: "7C9ED38375DBDF6B"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
+					item: "minecraft:iron_ingot"
 					count: 32L
 				}
 			]
@@ -685,15 +705,16 @@
 				{
 					id: "5BA35392AE4A6213"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:anvil"
-					}
+					item: "minecraft:anvil"
 				}
 			]
 		}
 		{
 			id: "96F0710C262B298C"
+			title: "Herrero I"
+			subtitle: "Hito de oficio"
+			description: ["Sube en el árbol de Herrero hasta &6Fundamentos VI&r. Esto activa el hito Herrero I."]
+			icon: "minecraft:nether_star"
 			x: 3.5d
 			y: 6.5d
 			dependencies: ["CC63238389AE1C80"]
@@ -722,16 +743,17 @@
 				{
 					id: "5011C3A53326E67A"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_gold"
-					}
+					item: "lightmanscurrency:coin_gold"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "5C174FD9F3A49448"
+			title: "Herrero II"
+			subtitle: "Maestría"
+			description: ["Llega hasta la cima de uno de los dos caminos de Herrero. Es el hito de maestría del oficio."]
+			icon: "minecraft:nether_star"
 			x: 5d
 			y: 6.5d
 			dependencies: ["96F0710C262B298C"]
@@ -753,16 +775,21 @@
 				{
 					id: "B0A05FF0ABB606B2"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_emerald"
-					}
+					item: "lightmanscurrency:coin_emerald"
 					count: 3
 				}
 			]
 		}
 		{
 			id: "753F8FC0BE2F83E4"
+			title: "Oficio: Cocinero"
+			subtitle: "Presentación"
+			description: [
+				"El cocinero sube cocinando carne y pescado, y comiendo."
+				""
+				"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Cocinero. Cada nivel del oficio te da 1 punto para su árbol."
+			]
+			icon: "minecraft:anvil"
 			x: 0.5d
 			y: 8d
 			dependencies: ["D4EFDB76A048C766"]
@@ -791,6 +818,10 @@
 		}
 		{
 			id: "FF6561684F886B64"
+			title: "Cocinero: práctica"
+			subtitle: "Haz el trabajo"
+			description: ["Cocina carne y pescado, y prepara comida variada."]
+			icon: "minecraft:cooked_beef"
 			x: 2d
 			y: 8d
 			dependencies: ["753F8FC0BE2F83E4"]
@@ -798,28 +829,19 @@
 				{
 					id: "E68688AC69FBEF75"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:cooked_beef"
-					}
+					item: "minecraft:cooked_beef"
 					count: 16L
 				}
 				{
 					id: "E661719EA57C11F6"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:cooked_porkchop"
-					}
+					item: "minecraft:cooked_porkchop"
 					count: 16L
 				}
 				{
 					id: "A60BA9DE7614D0F9"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:baked_potato"
-					}
+					item: "minecraft:baked_potato"
 					count: 16L
 				}
 			]
@@ -841,15 +863,16 @@
 				{
 					id: "DF8D81BA5714EF38"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:smoker"
-					}
+					item: "minecraft:smoker"
 				}
 			]
 		}
 		{
 			id: "1A893B25B04FC13D"
+			title: "Cocinero I"
+			subtitle: "Hito de oficio"
+			description: ["Sube en el árbol de Cocinero hasta &6Fundamentos VI&r. Esto activa el hito Cocinero I."]
+			icon: "minecraft:nether_star"
 			x: 3.5d
 			y: 8d
 			dependencies: ["FF6561684F886B64"]
@@ -878,16 +901,17 @@
 				{
 					id: "6E05FA1926E454A7"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_gold"
-					}
+					item: "lightmanscurrency:coin_gold"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "6E9B3A427BA4CDA0"
+			title: "Cocinero II"
+			subtitle: "Maestría"
+			description: ["Llega hasta la cima de uno de los dos caminos de Cocinero. Es el hito de maestría del oficio."]
+			icon: "minecraft:nether_star"
 			x: 5d
 			y: 8d
 			dependencies: ["1A893B25B04FC13D"]
@@ -909,16 +933,21 @@
 				{
 					id: "F99197915EE7B168"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_emerald"
-					}
+					item: "lightmanscurrency:coin_emerald"
 					count: 3
 				}
 			]
 		}
 		{
 			id: "C57EB78696ACE273"
+			title: "Oficio: Encantador"
+			subtitle: "Presentación"
+			description: [
+				"El encantador sube encantando objetos: más nivel de encantamiento, más experiencia."
+				""
+				"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Encantador. Cada nivel del oficio te da 1 punto para su árbol."
+			]
+			icon: "minecraft:anvil"
 			x: 0.5d
 			y: 9.5d
 			dependencies: ["D4EFDB76A048C766"]
@@ -947,6 +976,10 @@
 		}
 		{
 			id: "5C743ED0FE5620E5"
+			title: "Encantador: práctica"
+			subtitle: "Haz el trabajo"
+			description: ["Encanta objetos en la mesa de encantamientos."]
+			icon: "minecraft:enchanted_book"
 			x: 2d
 			y: 9.5d
 			dependencies: ["C57EB78696ACE273"]
@@ -954,10 +987,7 @@
 				{
 					id: "75A3699AE2F6F7BB"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:enchanted_book"
-					}
+					item: "minecraft:enchanted_book"
 					count: 3L
 				}
 			]
@@ -979,16 +1009,17 @@
 				{
 					id: "C0AE69EDB7DCA7B4"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:lapis_lazuli"
-					}
+					item: "minecraft:lapis_lazuli"
 					count: 32
 				}
 			]
 		}
 		{
 			id: "8AC405322A68F794"
+			title: "Encantador I"
+			subtitle: "Hito de oficio"
+			description: ["Sube en el árbol de Encantador hasta &6Fundamentos VI&r. Esto activa el hito Encantador I."]
+			icon: "minecraft:nether_star"
 			x: 3.5d
 			y: 9.5d
 			dependencies: ["5C743ED0FE5620E5"]
@@ -1017,16 +1048,17 @@
 				{
 					id: "F6FB84C4D55B9EB6"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_gold"
-					}
+					item: "lightmanscurrency:coin_gold"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "081D1FF65EC02FC8"
+			title: "Encantador II"
+			subtitle: "Maestría"
+			description: ["Llega hasta la cima de uno de los dos caminos de Encantador. Es el hito de maestría del oficio."]
+			icon: "minecraft:nether_star"
 			x: 5d
 			y: 9.5d
 			dependencies: ["8AC405322A68F794"]
@@ -1048,10 +1080,7 @@
 				{
 					id: "61AF3A191F5CB2AC"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_emerald"
-					}
+					item: "lightmanscurrency:coin_emerald"
 					count: 3
 				}
 			]

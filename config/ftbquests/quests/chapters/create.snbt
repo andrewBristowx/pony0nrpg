@@ -3,15 +3,23 @@
 	default_quest_shape: ""
 	filename: "create"
 	group: "FA1951BF2D35F839"
-	icon: {
-		id: "create:cogwheel"
-	}
+	title: "4. La revolución de Create"
+	subtitle: ["Has aprendido a sobrevivir. Ahora descubre el poder de las máquinas."]
+	icon: "create:cogwheel"
 	id: "4F72E72B760CB007"
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			id: "43E7E7976BE6165F"
+			title: "Las máquinas despiertan"
+			subtitle: "Contexto"
+			description: [
+				"Create mueve el mundo con fuerza rotatoria: ejes, engranajes, ruedas y motores. Todo se mide en RPM y en estrés."
+				""
+				"Aquí aprenderás desde tu primer engranaje hasta un tren. Ponte las gafas de ingeniero (goggles) cuando las tengas: te muestran RPM y estrés."
+			]
+			icon: "create:cogwheel"
 			x: 0.5d
 			y: 0.5d
 			dependencies: ["973E5CD212B18321"]
@@ -32,16 +40,17 @@
 				{
 					id: "A3419F29CCBE28F3"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_gold"
-					}
+					item: "lightmanscurrency:coin_gold"
 					count: 5
 				}
 			]
 		}
 		{
 			id: "90CC5F5EC097BEB8"
+			title: "Aleación de andesita"
+			subtitle: "El ingrediente base"
+			description: ["Casi todo en Create empieza con la aleación de andesita: pepitas de hierro + andesita en una mesa de trabajo."]
+			icon: "create:andesite_alloy"
 			x: 2d
 			y: 0.5d
 			dependencies: ["43E7E7976BE6165F"]
@@ -49,10 +58,7 @@
 				{
 					id: "779C9EEB32F11ED2"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:andesite_alloy"
-					}
+					item: "create:andesite_alloy"
 					count: 16L
 				}
 			]
@@ -67,16 +73,21 @@
 				{
 					id: "FB9A762BE3D80422"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:cogwheel"
-					}
+					item: "create:cogwheel"
 					count: 4
 				}
 			]
 		}
 		{
 			id: "F9E2BC60282EC470"
+			title: "Movimiento"
+			subtitle: "Fuerza rotacional"
+			description: [
+				"Una rueda hidráulica colocada junto al agua en movimiento, o un molino de viento, produce fuerza sin combustible."
+				""
+				"Comprueba el estrés con los goggles."
+			]
+			icon: "create:water_wheel"
 			x: 3.5d
 			y: 0.5d
 			dependencies: ["90CC5F5EC097BEB8"]
@@ -84,10 +95,7 @@
 				{
 					id: "6171E75FA7F9B6DA"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:water_wheel"
-					}
+					item: "create:water_wheel"
 				}
 			]
 			rewards: [
@@ -101,16 +109,17 @@
 				{
 					id: "6B4F095FF25828B5"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:shaft"
-					}
+					item: "create:shaft"
 					count: 8
 				}
 			]
 		}
 		{
 			id: "4E483602731B4B12"
+			title: "Molino de viento (opcional)"
+			subtitle: "Otra fuente"
+			description: ["Un rodamiento de molino con velas produce fuerza continua sin agua."]
+			icon: "create:windmill_bearing"
 			x: 5d
 			y: 0.5d
 			optional: true
@@ -119,10 +128,7 @@
 				{
 					id: "49338B910FBC7834"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:windmill_bearing"
-					}
+					item: "create:windmill_bearing"
 				}
 			]
 			rewards: [
@@ -137,6 +143,10 @@
 		}
 		{
 			id: "344EF3DE8D7FA8CB"
+			title: "Transmisión"
+			subtitle: "Dirección y velocidad"
+			description: ["Los ejes transmiten. Los engranajes cambian la dirección. Los engranajes grandes cambian la velocidad. Una caja de cambios invierte el sentido."]
+			icon: "create:shaft"
 			x: 5d
 			y: 2d
 			dependencies: ["F9E2BC60282EC470"]
@@ -144,36 +154,24 @@
 				{
 					id: "3328A090E30CCAD5"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:shaft"
-					}
+					item: "create:shaft"
 					count: 8L
 				}
 				{
 					id: "F93EE2129DB944D7"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:cogwheel"
-					}
+					item: "create:cogwheel"
 					count: 4L
 				}
 				{
 					id: "7B8A4CE009A207F0"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:large_cogwheel"
-					}
+					item: "create:large_cogwheel"
 				}
 				{
 					id: "1C9534990BD9840D"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:gearbox"
-					}
+					item: "create:gearbox"
 				}
 			]
 			rewards: [
@@ -187,16 +185,17 @@
 				{
 					id: "E06DF55517177F3D"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:belt_connector"
-					}
+					item: "create:belt_connector"
 					count: 4
 				}
 			]
 		}
 		{
 			id: "394BFF181A51BD26"
+			title: "Prensa mecánica"
+			subtitle: "Tu primera máquina"
+			description: ["La prensa convierte lingotes en placas. Colócala sobre un depósito o una cinta con un lingote debajo y aliméntala con fuerza."]
+			icon: "create:mechanical_press"
 			x: 6.5d
 			y: 0.5d
 			dependencies: ["344EF3DE8D7FA8CB"]
@@ -204,18 +203,12 @@
 				{
 					id: "9C69DD19C7D114DC"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:mechanical_press"
-					}
+					item: "create:mechanical_press"
 				}
 				{
 					id: "2DE6EC5A5885B305"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:iron_sheet"
-					}
+					item: "create:iron_sheet"
 					count: 8L
 				}
 			]
@@ -238,6 +231,10 @@
 		}
 		{
 			id: "C18860FCA577E7F3"
+			title: "Taladro mecánico"
+			subtitle: "Minado automático"
+			description: ["Un taladro rompe bloques por ti mientras recibe fuerza. Ponlo frente a una veta y recoge los objetos."]
+			icon: "create:mechanical_drill"
 			x: 8d
 			y: 0.5d
 			dependencies: ["394BFF181A51BD26"]
@@ -245,10 +242,7 @@
 				{
 					id: "22C8A5D92C054F76"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:mechanical_drill"
-					}
+					item: "create:mechanical_drill"
 				}
 			]
 			rewards: [
@@ -269,16 +263,17 @@
 				{
 					id: "F7F1B063D565AFF8"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:andesite_casing"
-					}
+					item: "create:andesite_casing"
 					count: 4
 				}
 			]
 		}
 		{
 			id: "7254BDE4C260F5ED"
+			title: "Sierra mecánica"
+			subtitle: "Tala automática"
+			description: ["La sierra corta troncos y árboles. También procesa madera en tablones desde una cinta."]
+			icon: "create:mechanical_saw"
 			x: 8d
 			y: 2d
 			dependencies: ["394BFF181A51BD26"]
@@ -286,10 +281,7 @@
 				{
 					id: "87AE49D4CF13B40C"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:mechanical_saw"
-					}
+					item: "create:mechanical_saw"
 				}
 			]
 			rewards: [
@@ -311,6 +303,14 @@
 		}
 		{
 			id: "EA46316309EFB5CE"
+			title: "Cintas y embudos"
+			subtitle: "Logística"
+			description: [
+				"Las cintas mueven objetos. Los embudos los meten y sacan de los contenedores. Con estas dos piezas empieza cualquier fábrica."
+				""
+				"&6Pista del futuro:&r Mekanism y otros mods te pedirán componentes de Create más adelante, así que guarda planchas y mecanismos."
+			]
+			icon: "create:belt_connector"
 			x: 9.5d
 			y: 0.5d
 			dependencies: ["C18860FCA577E7F3", "7254BDE4C260F5ED"]
@@ -318,19 +318,13 @@
 				{
 					id: "8B2E391D7CAFD64D"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:belt_connector"
-					}
+					item: "create:belt_connector"
 					count: 16L
 				}
 				{
 					id: "C0FB3281EABA7AEB"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:andesite_funnel"
-					}
+					item: "create:andesite_funnel"
 					count: 4L
 				}
 			]
@@ -345,16 +339,21 @@
 				{
 					id: "FB818C9453771898"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:chute"
-					}
+					item: "create:chute"
 					count: 4
 				}
 			]
 		}
 		{
 			id: "827FECC1AC04A31E"
+			title: "Mezclador y cuenco"
+			subtitle: "Procesamiento"
+			description: [
+				"El cuenco y el mezclador combinan ingredientes. Con calor (un quemador de blaze) fabrican latón: cobre + zinc."
+				""
+				"El latón abre una segunda mitad de recetas de Create."
+			]
+			icon: "create:basin"
 			x: 11d
 			y: 0.5d
 			dependencies: ["EA46316309EFB5CE"]
@@ -362,26 +361,17 @@
 				{
 					id: "672060305BE52CD8"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:basin"
-					}
+					item: "create:basin"
 				}
 				{
 					id: "D0401E1CCF97314B"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:mechanical_mixer"
-					}
+					item: "create:mechanical_mixer"
 				}
 				{
 					id: "53C60B1AFF2A10EE"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:brass_ingot"
-					}
+					item: "create:brass_ingot"
 					count: 8L
 				}
 			]
@@ -396,15 +386,20 @@
 				{
 					id: "7E42017AB69FDD14"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:blaze_burner"
-					}
+					item: "create:blaze_burner"
 				}
 			]
 		}
 		{
 			id: "E2DC0531E77E38C6"
+			title: "Fábrica de hierro"
+			subtitle: "Automatiza un recurso"
+			description: [
+				"Automatiza la producción de placas de hierro: taladro o mena → cinta → prensa → cofre. Sin intervención."
+				""
+				"Cuando la fábrica esté sola, recoge las placas."
+			]
+			icon: "create:iron_sheet"
 			x: 12.5d
 			y: 0.5d
 			dependencies: ["827FECC1AC04A31E"]
@@ -412,10 +407,7 @@
 				{
 					id: "07ABBE5E815A625F"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:iron_sheet"
-					}
+					item: "create:iron_sheet"
 					count: 64L
 				}
 			]
@@ -430,16 +422,21 @@
 				{
 					id: "1A5AE211A36CEAA7"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_emerald"
-					}
+					item: "lightmanscurrency:coin_emerald"
 					count: 3
 				}
 			]
 		}
 		{
 			id: "296BB18C21C4F723"
+			title: "Almacenamiento"
+			subtitle: "Bóvedas"
+			description: [
+				"Las bóvedas de objetos guardan miles de objetos y se conectan con embudos y cintas."
+				""
+				"Usa la mochila (&6B&r) para llevar contigo lo importante."
+			]
+			icon: "create:item_vault"
 			x: 11d
 			y: 2d
 			dependencies: ["EA46316309EFB5CE"]
@@ -447,10 +444,7 @@
 				{
 					id: "F17402E88C02449A"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:item_vault"
-					}
+					item: "create:item_vault"
 					count: 2L
 				}
 			]
@@ -465,15 +459,20 @@
 				{
 					id: "A80AF8829E5CE115"
 					type: "item"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:stack_upgrade_tier_1"
-					}
+					item: "sophisticatedbackpacks:stack_upgrade_tier_1"
 				}
 			]
 		}
 		{
 			id: "1D06021BA9A4674C"
+			title: "Línea de producción"
+			subtitle: "Cadenas de procesado"
+			description: [
+				"Encadena máquinas: placas de cobre y latón, envases de diamante y más. Un mecanismo de precisión es la pieza estrella: se monta en una cadena con un desplegador."
+				""
+				"Fabrica algunos mecanismos: los necesitarás para todo lo que viene."
+			]
+			icon: "create:brass_sheet"
 			x: 14d
 			y: 0.5d
 			dependencies: ["E2DC0531E77E38C6", "296BB18C21C4F723"]
@@ -481,28 +480,19 @@
 				{
 					id: "F752893414E5A609"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:brass_sheet"
-					}
+					item: "create:brass_sheet"
 					count: 16L
 				}
 				{
 					id: "1F053E3D2A9C5F15"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:copper_sheet"
-					}
+					item: "create:copper_sheet"
 					count: 16L
 				}
 				{
 					id: "B3811B6EA8E34C1B"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:precision_mechanism"
-					}
+					item: "create:precision_mechanism"
 					count: 2L
 				}
 			]
@@ -517,16 +507,17 @@
 				{
 					id: "C8C515D780E8A2DE"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_emerald"
-					}
+					item: "lightmanscurrency:coin_emerald"
 					count: 3
 				}
 			]
 		}
 		{
 			id: "9139AC1E342CF15D"
+			title: "Desplegador (opcional)"
+			subtitle: "Manos mecánicas"
+			description: ["El desplegador usa objetos por ti: coloca bloques, ensambla piezas, hasta ataca."]
+			icon: "create:deployer"
 			x: 15.5d
 			y: 0.5d
 			optional: true
@@ -535,10 +526,7 @@
 				{
 					id: "40E4D842AF6FA066"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:deployer"
-					}
+					item: "create:deployer"
 				}
 			]
 			rewards: [
@@ -553,6 +541,10 @@
 		}
 		{
 			id: "6C72FF8578451F92"
+			title: "Motor de vapor (opcional)"
+			subtitle: "Mucha fuerza"
+			description: ["Una caldera con agua y calor alimenta motores de vapor que dan un montón de estrés."]
+			icon: "create:steam_engine"
 			x: 15.5d
 			y: 2d
 			optional: true
@@ -561,10 +553,7 @@
 				{
 					id: "DAF5805826CE49FC"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:steam_engine"
-					}
+					item: "create:steam_engine"
 				}
 			]
 			rewards: [
@@ -579,6 +568,10 @@
 		}
 		{
 			id: "BAA7712C85BA1956"
+			title: "Vías"
+			subtitle: "Steam 'n' Rails"
+			description: ["Los trenes de Create usan sus propias vías. Con Steam 'n' Rails tienes más tipos de vía y decoración."]
+			icon: "create:track"
 			x: 15.5d
 			y: 3.5d
 			dependencies: ["1D06021BA9A4674C"]
@@ -586,10 +579,7 @@
 				{
 					id: "3133CE0B9A6B3FC5"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:track"
-					}
+					item: "create:track"
 					count: 16L
 				}
 			]
@@ -604,15 +594,16 @@
 				{
 					id: "E639E03D0675164B"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:controls"
-					}
+					item: "create:controls"
 				}
 			]
 		}
 		{
 			id: "AC60C20D64A0E28C"
+			title: "Estación de tren"
+			subtitle: "Movimiento a gran escala"
+			description: ["Coloca una estación, monta un vagón con controles y ponle nombre a tu tren. Un tren une tu base con tus fábricas y con el mundo."]
+			icon: "create:controls"
 			x: 17d
 			y: 0.5d
 			dependencies: ["BAA7712C85BA1956"]
@@ -620,18 +611,12 @@
 				{
 					id: "ED595FE5E33072D9"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:controls"
-					}
+					item: "create:controls"
 				}
 				{
 					id: "F14BA5C885E51A86"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:track_station"
-					}
+					item: "create:track_station"
 				}
 			]
 			rewards: [
@@ -645,16 +630,21 @@
 				{
 					id: "A37BB7AAD9DC8E76"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_emerald"
-					}
+					item: "lightmanscurrency:coin_emerald"
 					count: 4
 				}
 			]
 		}
 		{
 			id: "AF5C488BE0D600A2"
+			title: "Fábrica completa"
+			subtitle: "Cierre del capítulo"
+			description: [
+				"Tienes una fábrica con recursos automáticos y una estación de tren. Entrega tus mecanismos de precisión para abrir la era tecnológica."
+				""
+				"Se abre el capítulo 5."
+			]
+			icon: "create:precision_mechanism"
 			x: 18.5d
 			y: 0.5d
 			dependencies: ["1D06021BA9A4674C", "AC60C20D64A0E28C"]
@@ -662,10 +652,7 @@
 				{
 					id: "38F64B72EB793935"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:precision_mechanism"
-					}
+					item: "create:precision_mechanism"
 					count: 4L
 					consume_items: true
 				}
@@ -688,10 +675,7 @@
 				{
 					id: "CAC420EBFF5F95A6"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_diamond"
-					}
+					item: "lightmanscurrency:coin_diamond"
 					count: 2
 				}
 			]

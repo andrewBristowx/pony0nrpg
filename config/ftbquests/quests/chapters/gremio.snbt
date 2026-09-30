@@ -3,15 +3,23 @@
 	default_quest_shape: ""
 	filename: "gremio"
 	group: "5677092D8B6DEB7B"
-	icon: {
-		id: "lightmanscurrency:coin_gold"
-	}
+	title: "Gremio y economía"
+	subtitle: ["Encargos, rangos y monedas"]
+	icon: "lightmanscurrency:coin_gold"
 	id: "9BC158E2AE8F7AD4"
 	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
 			id: "BB50558137D5DBEC"
+			title: "Gremio de aventureros"
+			subtitle: "Encargos con recompensa"
+			description: [
+				"El gremio publica encargos repetibles en el tablón del spawn. Cada encargo se paga en monedas."
+				""
+				"Los rangos (Novato, Bronce, Plata, Oro, Maestro) se ganan con la campaña y los encargos."
+			]
+			icon: "lightmanscurrency:coin_gold"
 			x: 0.5d
 			y: 0.5d
 			dependencies: ["D8586CCB7C53F57D"]
@@ -32,16 +40,21 @@
 				{
 					id: "9DDD4B34976A0DDA"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_copper"
-					}
+					item: "lightmanscurrency:coin_copper"
 					count: 30
 				}
 			]
 		}
 		{
 			id: "E5662E199EC48100"
+			title: "Las monedas"
+			subtitle: "Lightman's Currency"
+			description: [
+				"El dinero del mundo son monedas: cobre, hierro, oro, esmeralda, diamante y netherita. Cada una vale más que la anterior."
+				""
+				"Guarda las monedas en tu cartera y usa cajeros (ATM) para tu cuenta de banco."
+			]
+			icon: "lightmanscurrency:coin_copper"
 			x: 2d
 			y: 0.5d
 			dependencies: ["BB50558137D5DBEC"]
@@ -49,10 +62,7 @@
 				{
 					id: "A40DCC7F779FC076"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_copper"
-					}
+					item: "lightmanscurrency:coin_copper"
 					count: 10L
 				}
 			]
@@ -67,15 +77,16 @@
 				{
 					id: "C13CEACEFAD7F163"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:wallet_copper"
-					}
+					item: "lightmanscurrency:wallet_copper"
 				}
 			]
 		}
 		{
 			id: "10DE08BC1BF5BED6"
+			title: "Cajero automático"
+			subtitle: "Tu cuenta de banco"
+			description: ["Un ATM guarda tus monedas en el banco: no se pierden al morir. También sirve para transferir dinero a otros jugadores."]
+			icon: "lightmanscurrency:atm"
 			x: 3.5d
 			y: 0.5d
 			dependencies: ["E5662E199EC48100"]
@@ -83,10 +94,7 @@
 				{
 					id: "0748DD2161F8C52E"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:atm"
-					}
+					item: "lightmanscurrency:atm"
 				}
 			]
 			rewards: [
@@ -100,16 +108,17 @@
 				{
 					id: "B995B2B5F96B84F9"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_iron"
-					}
+					item: "lightmanscurrency:coin_iron"
 					count: 5
 				}
 			]
 		}
 		{
 			id: "C085131512FB6F3A"
+			title: "Tu primera tienda"
+			subtitle: "Comercio entre jugadores"
+			description: ["Un comerciante de objetos vende lo que pongas en su inventario al precio que fijes. Es la base de la economía del servidor."]
+			icon: "lightmanscurrency:item_trader_server_sml"
 			x: 5d
 			y: 0.5d
 			optional: true
@@ -118,10 +127,7 @@
 				{
 					id: "C74FFA58BC1CF6D2"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:item_trader_server_sml"
-					}
+					item: "lightmanscurrency:item_trader_server_sml"
 				}
 			]
 			rewards: [
@@ -135,16 +141,17 @@
 				{
 					id: "4172F5A2102E9E97"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_iron"
-					}
+					item: "lightmanscurrency:coin_iron"
 					count: 10
 				}
 			]
 		}
 		{
 			id: "E8695456601ED108"
+			title: "Rango Novato"
+			subtitle: "Punto de partida"
+			description: ["Eres un aventurero del gremio. Los encargos de rango Novato son sencillos: mobs comunes cerca del spawn."]
+			icon: "lightmanscurrency:coin_gold"
 			x: 2d
 			y: 2d
 			dependencies: ["BB50558137D5DBEC"]
@@ -166,6 +173,10 @@
 		}
 		{
 			id: "68C1A8BC88D5C2E1"
+			title: "Encargo: zombis"
+			subtitle: "Novato"
+			description: ["Los zombis rodean el pueblo. Elimina 30."]
+			icon: "minecraft:iron_sword"
 			x: 3.5d
 			y: 2d
 			dependencies: ["E8695456601ED108"]
@@ -188,16 +199,17 @@
 				{
 					id: "106F68CE6152E082"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_iron"
-					}
+					item: "lightmanscurrency:coin_iron"
 					count: 8
 				}
 			]
 		}
 		{
 			id: "519FCDF1EBFE219E"
+			title: "Encargo: esqueletos"
+			subtitle: "Novato"
+			description: ["Los esqueletos atacan a los viajeros. Derrota 25."]
+			icon: "minecraft:iron_sword"
 			x: 3.5d
 			y: 3.5d
 			dependencies: ["E8695456601ED108"]
@@ -220,16 +232,17 @@
 				{
 					id: "40B5D205608BCADA"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_iron"
-					}
+					item: "lightmanscurrency:coin_iron"
 					count: 8
 				}
 			]
 		}
 		{
 			id: "27B8560427F11E26"
+			title: "Encargo: arañas"
+			subtitle: "Novato"
+			description: ["Las arañas infestan las cuevas. Acaba con 20."]
+			icon: "minecraft:iron_sword"
 			x: 3.5d
 			y: 5d
 			dependencies: ["E8695456601ED108"]
@@ -252,16 +265,17 @@
 				{
 					id: "91EDBF94F1D8D08E"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_iron"
-					}
+					item: "lightmanscurrency:coin_iron"
 					count: 8
 				}
 			]
 		}
 		{
 			id: "393A2A529C6BA469"
+			title: "Rango Bronce"
+			subtitle: "Tras el capítulo 3"
+			description: ["Al completar &6El aventurero&r te reconocen como aventurero de Bronce. Ya puedes tomar encargos contra enemigos del Nether."]
+			icon: "minecraft:nether_star"
 			x: 5d
 			y: 2d
 			dependencies: ["68C1A8BC88D5C2E1", "519FCDF1EBFE219E", "973E5CD212B18321"]
@@ -283,16 +297,17 @@
 				{
 					id: "77C6A225F3FEE04D"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_gold"
-					}
+					item: "lightmanscurrency:coin_gold"
 					count: 3
 				}
 			]
 		}
 		{
 			id: "A7AEFFF6B8BB4F49"
+			title: "Encargo: brujas"
+			subtitle: "Bronce"
+			description: ["Las brujas envenenan los pozos. Encuentra y elimina 5."]
+			icon: "minecraft:iron_sword"
 			x: 6.5d
 			y: 0.5d
 			dependencies: ["393A2A529C6BA469"]
@@ -315,16 +330,17 @@
 				{
 					id: "0C82DA614E789A38"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_gold"
-					}
+					item: "lightmanscurrency:coin_gold"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "E71D50A4E90F37D0"
+			title: "Encargo: endermen"
+			subtitle: "Bronce"
+			description: ["Los endermen se llevan bloques del pueblo. Derrota 8 (no los mires a los ojos)."]
+			icon: "minecraft:iron_sword"
 			x: 6.5d
 			y: 2d
 			dependencies: ["393A2A529C6BA469"]
@@ -347,16 +363,17 @@
 				{
 					id: "427531E267096439"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_gold"
-					}
+					item: "lightmanscurrency:coin_gold"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "B036B9CC8E184204"
+			title: "Encargo: blazes"
+			subtitle: "Bronce"
+			description: ["Las varas de blaze escasean. Elimina 10 blazes en una fortaleza del Nether."]
+			icon: "minecraft:iron_sword"
 			x: 6.5d
 			y: 3.5d
 			dependencies: ["393A2A529C6BA469", "275367E181852557"]
@@ -379,16 +396,21 @@
 				{
 					id: "D24E6DFCDFC5EB78"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_gold"
-					}
+					item: "lightmanscurrency:coin_gold"
 					count: 3
 				}
 			]
 		}
 		{
 			id: "DF10D342CB4BCEB2"
+			title: "Rango Plata"
+			subtitle: "Prueba de valor"
+			description: [
+				"Para subir a Plata tienes que demostrar que puedes con los esqueletos del Nether."
+				""
+				"Cuando lo hagas, el gremio te reconoce como aventurero de &6Plata&r."
+			]
+			icon: "minecraft:iron_sword"
 			x: 8d
 			y: 0.5d
 			dependencies: ["A7AEFFF6B8BB4F49", "E71D50A4E90F37D0", "B036B9CC8E184204"]
@@ -418,10 +440,7 @@
 				{
 					id: "4E21D438784FE7FF"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_emerald"
-					}
+					item: "lightmanscurrency:coin_emerald"
 					count: 3
 				}
 			]

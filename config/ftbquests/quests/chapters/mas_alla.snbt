@@ -3,15 +3,23 @@
 	default_quest_shape: ""
 	filename: "mas_alla"
 	group: "FA1951BF2D35F839"
-	icon: {
-		id: "ad_astra:tier_1_rocket"
-	}
+	title: "8. Más allá del mundo"
+	subtitle: ["Undergarden, Aether y el espacio: nuevas dimensiones y materiales."]
+	icon: "ad_astra:tier_1_rocket"
 	id: "C02B48C24882F324"
 	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
 			id: "9B1494BEA9A64C90"
+			title: "Más allá del mundo"
+			subtitle: "Dimensiones"
+			description: [
+				"Hay tres caminos nuevos: el subsuelo oscuro (&6Undergarden&r), las islas del cielo (&6Aether&r) y el espacio (&6Ad Astra&r)."
+				""
+				"Cada dimensión tiene materiales únicos. Los necesitarás para el equipo legendario."
+			]
+			icon: "ad_astra:tier_1_rocket"
 			x: 0.5d
 			y: 0.5d
 			dependencies: ["252B5CC6604F1E2A"]
@@ -32,15 +40,16 @@
 				{
 					id: "EA931EE3D14DFF9C"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 				}
 			]
 		}
 		{
 			id: "6A1F3570BDB04DF6"
+			title: "Portal al Undergarden"
+			subtitle: "El subsuelo"
+			description: ["El Catalizador abre el portal al Undergarden: una dimensión oscura y húmeda bajo el mundo. Es un lugar hostil y de mucho botín."]
+			icon: "undergarden:catalyst"
 			x: 2d
 			y: 0.5d
 			dependencies: ["9B1494BEA9A64C90"]
@@ -48,10 +57,7 @@
 				{
 					id: "A5C66A58B04D93BB"
 					type: "item"
-					item: {
-						count: 1
-						id: "undergarden:catalyst"
-					}
+					item: "undergarden:catalyst"
 				}
 			]
 			rewards: [
@@ -66,6 +72,10 @@
 		}
 		{
 			id: "C8F04AAF3D8BDDA0"
+			title: "Entra al Undergarden"
+			subtitle: "Bajo tierra"
+			description: ["Cruza el portal. Ten cuidado con los moradores y los devoradores."]
+			icon: "minecraft:ender_eye"
 			x: 3.5d
 			y: 0.5d
 			dependencies: ["6A1F3570BDB04DF6"]
@@ -87,15 +97,16 @@
 				{
 					id: "BC014F7B5123A68A"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 				}
 			]
 		}
 		{
 			id: "8BA57DB472D771CC"
+			title: "Cloggrum y Froststeel"
+			subtitle: "Metales nuevos"
+			description: ["El Undergarden tiene metales propios: cloggrum y froststeel. Con ellos fabricas equipo especial."]
+			icon: "undergarden:cloggrum_ingot"
 			x: 5d
 			y: 0.5d
 			dependencies: ["C8F04AAF3D8BDDA0"]
@@ -103,19 +114,13 @@
 				{
 					id: "ACB551B64D36D2BF"
 					type: "item"
-					item: {
-						count: 1
-						id: "undergarden:cloggrum_ingot"
-					}
+					item: "undergarden:cloggrum_ingot"
 					count: 8L
 				}
 				{
 					id: "C3546674183B7089"
 					type: "item"
-					item: {
-						count: 1
-						id: "undergarden:froststeel_ingot"
-					}
+					item: "undergarden:froststeel_ingot"
 					count: 4L
 				}
 			]
@@ -138,6 +143,10 @@
 		}
 		{
 			id: "B1A87DBC8F9DA4E7"
+			title: "El guardián olvidado"
+			subtitle: "Jefe del Undergarden"
+			description: ["El Forgotten Guardian custodia el portal más profundo. Su recompensa: el metal olvidado."]
+			icon: "undergarden:forgotten_ingot"
 			x: 6.5d
 			y: 0.5d
 			dependencies: ["8BA57DB472D771CC"]
@@ -151,10 +160,7 @@
 				{
 					id: "145949CC79A70776"
 					type: "item"
-					item: {
-						count: 1
-						id: "undergarden:forgotten_ingot"
-					}
+					item: "undergarden:forgotten_ingot"
 					count: 4L
 				}
 			]
@@ -169,16 +175,17 @@
 				{
 					id: "B71CBDB4B6B8B6E2"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "0CF5D43F82571F8E"
+			title: "Portal al Aether"
+			subtitle: "Las islas del cielo"
+			description: ["El Aether es un reino de islas flotantes sobre las nubes. Construye un portal con bloques de piedra sagrada y enciéndelo con agua."]
+			icon: "aether:holystone"
 			x: 2d
 			y: 2d
 			dependencies: ["9B1494BEA9A64C90"]
@@ -186,10 +193,7 @@
 				{
 					id: "3C48251E5829AFE1"
 					type: "item"
-					item: {
-						count: 1
-						id: "aether:holystone"
-					}
+					item: "aether:holystone"
 					count: 16L
 				}
 			]
@@ -205,6 +209,10 @@
 		}
 		{
 			id: "E08D0E74AE144739"
+			title: "Entra al Aether"
+			subtitle: "El cielo"
+			description: ["Cruza el portal. Cuidado con las caídas: al vacío del Aether no le importan tus corazones."]
+			icon: "minecraft:writable_book"
 			x: 3.5d
 			y: 2d
 			dependencies: ["0CF5D43F82571F8E"]
@@ -227,15 +235,16 @@
 				{
 					id: "3CF11F9C879347F6"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 				}
 			]
 		}
 		{
 			id: "BCD87D472ED867E1"
+			title: "Zanita y gravitita"
+			subtitle: "Materiales del Aether"
+			description: ["La zanita es el mineral base del Aether: sirve para herramientas y armas. La gravitita necesita un altar."]
+			icon: "aether:zanite_gemstone"
 			x: 5d
 			y: 2d
 			dependencies: ["E08D0E74AE144739"]
@@ -243,19 +252,13 @@
 				{
 					id: "B9D820F3A51CB22C"
 					type: "item"
-					item: {
-						count: 1
-						id: "aether:zanite_gemstone"
-					}
+					item: "aether:zanite_gemstone"
 					count: 16L
 				}
 				{
 					id: "284F47A6B1562754"
 					type: "item"
-					item: {
-						count: 1
-						id: "aether:ambrosium_shard"
-					}
+					item: "aether:ambrosium_shard"
 					count: 16L
 				}
 			]
@@ -278,6 +281,10 @@
 		}
 		{
 			id: "289319CD0FB27F96"
+			title: "Mazmorra de bronce"
+			subtitle: "Jefe del Aether"
+			description: ["Las mazmorras del Aether guardan a los Slider y a las Valquirias. La de bronce es la primera. Llegar al final abre la de plata y la de oro."]
+			icon: "minecraft:writable_book"
 			x: 6.5d
 			y: 2d
 			dependencies: ["BCD87D472ED867E1"]
@@ -300,16 +307,21 @@
 				{
 					id: "E9BF4F542268181E"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "F87D568DFB6D92C8"
+			title: "Cohete"
+			subtitle: "Ad Astra"
+			description: [
+				"Ad Astra te lleva a la Luna y más allá. Necesitas un cohete, combustible, un traje espacial y oxígeno."
+				""
+				"Los cohetes requieren componentes de tecnología: placas de acero y mecanismos de Create/Mekanism."
+			]
+			icon: "ad_astra:nasa_workbench"
 			x: 2d
 			y: 3.5d
 			dependencies: ["9B1494BEA9A64C90"]
@@ -317,18 +329,12 @@
 				{
 					id: "C0FF72BD86EC320E"
 					type: "item"
-					item: {
-						count: 1
-						id: "ad_astra:nasa_workbench"
-					}
+					item: "ad_astra:nasa_workbench"
 				}
 				{
 					id: "3F970C9E0A55B5F0"
 					type: "item"
-					item: {
-						count: 1
-						id: "ad_astra:tier_1_rocket"
-					}
+					item: "ad_astra:tier_1_rocket"
 				}
 			]
 			rewards: [
@@ -342,15 +348,16 @@
 				{
 					id: "1A5EE439269F1691"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 				}
 			]
 		}
 		{
 			id: "925E7E3DF8BBF298"
+			title: "Traje espacial"
+			subtitle: "Oxígeno"
+			description: ["En el espacio no hay aire. El traje espacial y el equipo de oxígeno te mantienen con vida."]
+			icon: "ad_astra:space_suit"
 			x: 3.5d
 			y: 3.5d
 			dependencies: ["F87D568DFB6D92C8"]
@@ -358,18 +365,12 @@
 				{
 					id: "BD5EF0EEA6CBFF53"
 					type: "item"
-					item: {
-						count: 1
-						id: "ad_astra:space_suit"
-					}
+					item: "ad_astra:space_suit"
 				}
 				{
 					id: "C1538050AC3A34F4"
 					type: "item"
-					item: {
-						count: 1
-						id: "ad_astra:oxygen_gear"
-					}
+					item: "ad_astra:oxygen_gear"
 				}
 			]
 			rewards: [
@@ -383,15 +384,16 @@
 				{
 					id: "6DCB7EF563FE063A"
 					type: "item"
-					item: {
-						count: 1
-						id: "ad_astra:oxygen_loader"
-					}
+					item: "ad_astra:oxygen_loader"
 				}
 			]
 		}
 		{
 			id: "70A678CA815512E3"
+			title: "La Luna"
+			subtitle: "Primer destino"
+			description: ["Pisa la Luna. La gravedad baja permite saltar mucho más alto. Lleva mucha comida y oxígeno."]
+			icon: "minecraft:writable_book"
 			x: 5d
 			y: 3.5d
 			dependencies: ["925E7E3DF8BBF298"]
@@ -414,16 +416,17 @@
 				{
 					id: "12A60E179B786236"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "99B0C33FC300E506"
+			title: "Marte (opcional)"
+			subtitle: "Cohete tier 2"
+			description: ["Marte requiere un cohete de nivel 2. Aquí hay más minerales, y enemigos."]
+			icon: "minecraft:writable_book"
 			x: 6.5d
 			y: 3.5d
 			optional: true
@@ -447,16 +450,17 @@
 				{
 					id: "FF8442C79C092BE4"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "752493E8C3ACAD7E"
+			title: "Desh, Ostrum y Calorita"
+			subtitle: "Metales del espacio"
+			description: ["Los planetas tienen metales únicos: desh en la Luna, ostrum en Marte, calorita en Venus. Son la base del equipo espacial."]
+			icon: "ad_astra:desh_ingot"
 			x: 6.5d
 			y: 5d
 			dependencies: ["70A678CA815512E3"]
@@ -464,19 +468,13 @@
 				{
 					id: "F99AE485BD8B9E2F"
 					type: "item"
-					item: {
-						count: 1
-						id: "ad_astra:desh_ingot"
-					}
+					item: "ad_astra:desh_ingot"
 					count: 16L
 				}
 				{
 					id: "E86868E6CB02589B"
 					type: "item"
-					item: {
-						count: 1
-						id: "ad_astra:ostrum_ingot"
-					}
+					item: "ad_astra:ostrum_ingot"
 					count: 8L
 				}
 			]
@@ -499,6 +497,14 @@
 		}
 		{
 			id: "CD8B35492B3252A6"
+			title: "Materiales dimensionales"
+			subtitle: "Cierre del capítulo"
+			description: [
+				"Has visitado el subsuelo, el cielo y el espacio. Entrega materiales de cada dimensión para completar el capítulo."
+				""
+				"Se abre el capítulo 9."
+			]
+			icon: "undergarden:forgotten_ingot"
 			x: 8d
 			y: 0.5d
 			dependencies: ["B1A87DBC8F9DA4E7", "289319CD0FB27F96", "752493E8C3ACAD7E"]
@@ -506,30 +512,21 @@
 				{
 					id: "3B5BEFF1ED0B9297"
 					type: "item"
-					item: {
-						count: 1
-						id: "undergarden:forgotten_ingot"
-					}
+					item: "undergarden:forgotten_ingot"
 					count: 4L
 					consume_items: true
 				}
 				{
 					id: "D6337CF3986FB7ED"
 					type: "item"
-					item: {
-						count: 1
-						id: "aether:zanite_gemstone"
-					}
+					item: "aether:zanite_gemstone"
 					count: 8L
 					consume_items: true
 				}
 				{
 					id: "3C487EACE6E65AE5"
 					type: "item"
-					item: {
-						count: 1
-						id: "ad_astra:desh_ingot"
-					}
+					item: "ad_astra:desh_ingot"
 					count: 8L
 					consume_items: true
 				}
@@ -552,10 +549,7 @@
 				{
 					id: "78AFA8D7C8AC17C2"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 4
 				}
 			]

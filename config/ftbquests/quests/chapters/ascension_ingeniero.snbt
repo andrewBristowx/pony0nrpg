@@ -3,15 +3,23 @@
 	default_quest_shape: ""
 	filename: "ascension_ingeniero"
 	group: "FD609B87CC2A62AE"
-	icon: {
-		id: "create:precision_mechanism"
-	}
+	title: "Ascensión: Ingeniero"
+	subtitle: ["Puntos de Ascensión para Ingeniero"]
+	icon: "create:precision_mechanism"
 	id: "8A23F5912A5F28C7"
 	order_index: 16
 	quest_links: [ ]
 	quests: [
 		{
 			id: "52A43C3AFE1F3B54"
+			title: "La puerta de la Ascensión"
+			subtitle: "Se abre al terminar la campaña"
+			description: [
+				"La Ascensión es el camino después del nivel 100: cada misión de tu clase te da puntos de Ascensión, con bonos pequeños y permanentes."
+				""
+				"Esta misión se completa sola cuando terminas la campaña (stage &6era_10&r)."
+			]
+			icon: "minecraft:nether_star"
 			x: 0.5d
 			y: 0.5d
 			tasks: [
@@ -33,6 +41,14 @@
 		}
 		{
 			id: "F259D202A3B8C5E8"
+			title: "Elige la Ascensión de Ingeniero"
+			subtitle: "Desbloquea la pestaña"
+			description: [
+				"El Ingeniero optimiza cada tarea: más minería, suerte y experiencia."
+				""
+				"Al recoger el premio se desbloquea la pestaña de Ascensión de esta clase en el árbol de habilidades (&6K&r)."
+			]
+			icon: "create:precision_mechanism"
 			x: 2d
 			y: 0.5d
 			dependencies: ["52A43C3AFE1F3B54"]
@@ -61,6 +77,10 @@
 		}
 		{
 			id: "9F0605D442843B55"
+			title: "Bóvedas rebosantes"
+			subtitle: "Almacenamiento"
+			description: ["Construye 8 bóvedas de Create."]
+			icon: "create:item_vault"
 			x: 3.5d
 			y: 0.5d
 			dependencies: ["F259D202A3B8C5E8"]
@@ -68,10 +88,7 @@
 				{
 					id: "537F9FE058D9BE6E"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:item_vault"
-					}
+					item: "create:item_vault"
 					count: 8L
 				}
 			]
@@ -94,6 +111,14 @@
 		}
 		{
 			id: "2E4918EB0D0CADC1"
+			title: "Chapa de latón"
+			subtitle: "Producción"
+			description: [
+				"Entrega 64 placas de latón a tu fábrica."
+				""
+				"Se consumen al entregar."
+			]
+			icon: "create:brass_sheet"
 			x: 5d
 			y: 0.5d
 			dependencies: ["9F0605D442843B55"]
@@ -101,10 +126,7 @@
 				{
 					id: "07CB05C3A44A321A"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:brass_sheet"
-					}
+					item: "create:brass_sheet"
 					count: 64L
 					consume_items: true
 				}
@@ -128,6 +150,10 @@
 		}
 		{
 			id: "855865679720C887"
+			title: "Circuito supremo"
+			subtitle: "Mekanism"
+			description: ["Fabrica un circuito de control definitivo."]
+			icon: "mekanism:ultimate_control_circuit"
 			x: 6.5d
 			y: 0.5d
 			dependencies: ["2E4918EB0D0CADC1"]
@@ -135,10 +161,7 @@
 				{
 					id: "DFE278D8DBFCDFE1"
 					type: "item"
-					item: {
-						count: 1
-						id: "mekanism:ultimate_control_circuit"
-					}
+					item: "mekanism:ultimate_control_circuit"
 				}
 			]
 			rewards: [
@@ -160,6 +183,10 @@
 		}
 		{
 			id: "90B960467FB7D032"
+			title: "Célula de 4K"
+			subtitle: "AE2"
+			description: ["Fabrica una célula de almacenamiento de 4K."]
+			icon: "ae2:item_storage_cell_4k"
 			x: 8d
 			y: 0.5d
 			dependencies: ["855865679720C887"]
@@ -167,10 +194,7 @@
 				{
 					id: "918786A000BFAD9A"
 					type: "item"
-					item: {
-						count: 1
-						id: "ae2:item_storage_cell_4k"
-					}
+					item: "ae2:item_storage_cell_4k"
 				}
 			]
 			rewards: [
@@ -192,6 +216,10 @@
 		}
 		{
 			id: "8062EC245C2A3F38"
+			title: "Obsidiana refinada"
+			subtitle: "Mekanism"
+			description: ["Consigue un lingote de obsidiana refinada."]
+			icon: "mekanism:ingot_refined_obsidian"
 			x: 9.5d
 			y: 0.5d
 			dependencies: ["90B960467FB7D032"]
@@ -199,10 +227,7 @@
 				{
 					id: "C4D910338E230A9E"
 					type: "item"
-					item: {
-						count: 1
-						id: "mekanism:ingot_refined_obsidian"
-					}
+					item: "mekanism:ingot_refined_obsidian"
 				}
 			]
 			rewards: [
@@ -224,6 +249,10 @@
 		}
 		{
 			id: "2DEAC55CA05D38C9"
+			title: "Motor de vapor"
+			subtitle: "Create"
+			description: ["Construye un motor de vapor."]
+			icon: "create:steam_engine"
 			x: 11d
 			y: 0.5d
 			dependencies: ["8062EC245C2A3F38"]
@@ -231,10 +260,7 @@
 				{
 					id: "99191E60D9F3C5C3"
 					type: "item"
-					item: {
-						count: 1
-						id: "create:steam_engine"
-					}
+					item: "create:steam_engine"
 				}
 			]
 			rewards: [
@@ -256,6 +282,10 @@
 		}
 		{
 			id: "6EBC59CAF79FAB55"
+			title: "Faro del ingeniero"
+			subtitle: "Baliza"
+			description: ["Construye una baliza."]
+			icon: "minecraft:beacon"
 			x: 12.5d
 			y: 0.5d
 			dependencies: ["2DEAC55CA05D38C9"]
@@ -263,10 +293,7 @@
 				{
 					id: "450F87B2C88D9B76"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:beacon"
-					}
+					item: "minecraft:beacon"
 				}
 			]
 			rewards: [
@@ -288,6 +315,10 @@
 		}
 		{
 			id: "1C2EF508133166A4"
+			title: "Maestría final"
+			subtitle: "Tier III"
+			description: ["Llega a la cima de un camino de Ingeniero (Tier III)."]
+			icon: "minecraft:nether_star"
 			x: 14d
 			y: 0.5d
 			dependencies: ["6EBC59CAF79FAB55"]

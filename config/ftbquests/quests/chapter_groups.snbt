@@ -2,12 +2,15 @@
 	chapter_groups: [
 		{
 			id: "FA1951BF2D35F839"
+			title: "Campaña"
 		}
 		{
 			id: "5677092D8B6DEB7B"
+			title: "Ramas"
 		}
 		{
 			id: "FD609B87CC2A62AE"
+			title: "Ascensión"
 		}
 	]
 }

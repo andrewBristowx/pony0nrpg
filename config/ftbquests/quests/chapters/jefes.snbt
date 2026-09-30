@@ -3,15 +3,23 @@
 	default_quest_shape: ""
 	filename: "jefes"
 	group: "FA1951BF2D35F839"
-	icon: {
-		id: "cataclysm:the_incinerator"
-	}
+	title: "9. Los grandes jefes"
+	subtitle: ["Jefes del mundo, dragones y tu arma legendaria."]
+	icon: "cataclysm:the_incinerator"
 	id: "6DDFDAB1A64AB16D"
 	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
 			id: "69AE17FC4E72B712"
+			title: "Los grandes jefes"
+			subtitle: "Solo para veteranos"
+			description: [
+				"Aquí están los enemigos más poderosos del mundo. Se enfrentan en grupo, con buen equipo, pociones, comida y un plan."
+				""
+				"Cada jefe suelta materiales únicos. Con ellos forjarás tu arma legendaria."
+			]
+			icon: "cataclysm:the_incinerator"
 			x: 0.5d
 			y: 0.5d
 			dependencies: ["CD8B35492B3252A6"]
@@ -32,16 +40,17 @@
 				{
 					id: "ACBE50ECA5C99E76"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "A132A8381F48F638"
+			title: "El Harbinger"
+			subtitle: "Cataclysm"
+			description: ["Un coloso mecánico de una civilización antigua. Sus rayos y misiles te obligan a moverte sin parar."]
+			icon: "minecraft:iron_sword"
 			x: 2d
 			y: 0.5d
 			dependencies: ["69AE17FC4E72B712"]
@@ -64,16 +73,17 @@
 				{
 					id: "C56B6ABD337AD601"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 3
 				}
 			]
 		}
 		{
 			id: "E10521C15254B921"
+			title: "Guardián del End"
+			subtitle: "Cataclysm"
+			description: ["Un guardián de cristal y vacío. Es rápido y su daño atraviesa armaduras."]
+			icon: "minecraft:iron_sword"
 			x: 2d
 			y: 2d
 			dependencies: ["69AE17FC4E72B712"]
@@ -96,16 +106,17 @@
 				{
 					id: "BCFF5D02958E7A65"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 3
 				}
 			]
 		}
 		{
 			id: "E0307F6540B895AB"
+			title: "El Leviatán"
+			subtitle: "Cataclysm"
+			description: ["El rey del abismo marino. Necesitas respiración submarina, buena visión y armas potentes."]
+			icon: "minecraft:iron_sword"
 			x: 2d
 			y: 3.5d
 			dependencies: ["69AE17FC4E72B712"]
@@ -128,16 +139,17 @@
 				{
 					id: "8CC5BCD3ABB4CBB9"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 3
 				}
 			]
 		}
 		{
 			id: "1B49A963E6430C21"
+			title: "Scylla"
+			subtitle: "Cataclysm"
+			description: ["La reina de las tormentas del mar. Solo para quien ya venció al Leviatán."]
+			icon: "minecraft:iron_sword"
 			x: 3.5d
 			y: 0.5d
 			optional: true
@@ -161,16 +173,17 @@
 				{
 					id: "6574A0E4CD4FCE73"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 3
 				}
 			]
 		}
 		{
 			id: "C20C5FA204BC3F48"
+			title: "El Remanente Antiguo"
+			subtitle: "Cataclysm"
+			description: ["Un coloso del desierto. Ataca a distancia y abre el suelo bajo tus pies."]
+			icon: "minecraft:iron_sword"
 			x: 2d
 			y: 5d
 			dependencies: ["69AE17FC4E72B712"]
@@ -193,16 +206,17 @@
 				{
 					id: "A5581D9599615C1E"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 3
 				}
 			]
 		}
 		{
 			id: "389B0A13226CA341"
+			title: "El Lich"
+			subtitle: "Bosses of Mass Destruction"
+			description: ["El Lich invoca cometas y cráneos. Su arena es una torre; lleva armadura con protección mágica."]
+			icon: "minecraft:iron_sword"
 			x: 2d
 			y: 6.5d
 			dependencies: ["69AE17FC4E72B712"]
@@ -225,16 +239,17 @@
 				{
 					id: "C3AC2994DBA0C477"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 3
 				}
 			]
 		}
 		{
 			id: "20B83444BFFAE39C"
+			title: "El Wither"
+			subtitle: "El clásico"
+			description: ["El Wither ataca con calaveras que se lo llevan todo. Combátelo en un túnel bajo tierra."]
+			icon: "minecraft:iron_sword"
 			x: 2d
 			y: 8d
 			dependencies: ["69AE17FC4E72B712"]
@@ -257,15 +272,16 @@
 				{
 					id: "F1B9A64DEF953E62"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:nether_star"
-					}
+					item: "minecraft:nether_star"
 				}
 			]
 		}
 		{
 			id: "07C8A22BF934F241"
+			title: "Dragón de fuego"
+			subtitle: "Ice and Fire"
+			description: ["Los dragones de Ice and Fire son de los enemigos más peligrosos. Cazarlos exige armadura de netherita y armas potentes."]
+			icon: "minecraft:iron_sword"
 			x: 2d
 			y: 9.5d
 			optional: true
@@ -289,16 +305,17 @@
 				{
 					id: "C348BABB3365A38D"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 4
 				}
 			]
 		}
 		{
 			id: "A3B65706E7EC5F07"
+			title: "Dragón de hielo"
+			subtitle: "Ice and Fire"
+			description: ["El dragón de hielo se cura con nieve y ataca con aliento congelante."]
+			icon: "minecraft:iron_sword"
 			x: 2d
 			y: 11d
 			optional: true
@@ -322,16 +339,17 @@
 				{
 					id: "1E644631366BAE18"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 4
 				}
 			]
 		}
 		{
 			id: "613EB86C5C470D5C"
+			title: "Dragón de rayo"
+			subtitle: "Ice and Fire"
+			description: ["El dragón de rayo es el más veloz. Su aliento paraliza."]
+			icon: "minecraft:iron_sword"
 			x: 2d
 			y: 12.5d
 			optional: true
@@ -355,16 +373,21 @@
 				{
 					id: "F22A05BE44B867A8"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 4
 				}
 			]
 		}
 		{
 			id: "A6CB2891FCED730B"
+			title: "Arma legendaria"
+			subtitle: "Forja la tuya"
+			description: [
+				"Con las armas de los jefes forjas armas legendarias. Consigue una de ellas: la incineradora, la garra de las mareas o el renderizador de almas."
+				""
+				"Se fabrican en las forjas de Cataclysm con los ojos y lingotes de los jefes."
+			]
+			icon: "cataclysm:the_incinerator"
 			x: 3.5d
 			y: 2d
 			dependency_requirement: "one_completed"
@@ -378,10 +401,7 @@
 				{
 					id: "06CA10C0F94CF0CD"
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:the_incinerator"
-					}
+					item: "cataclysm:the_incinerator"
 				}
 			]
 			rewards: [
@@ -395,16 +415,17 @@
 				{
 					id: "4545E4105ADCDC6E"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 5
 				}
 			]
 		}
 		{
 			id: "7BAC261842D92139"
+			title: "Garra de las mareas (opcional)"
+			subtitle: "Alternativa"
+			description: ["La garra de las mareas se forja con el tridente del Leviatán."]
+			icon: "cataclysm:tidal_claws"
 			x: 3.5d
 			y: 3.5d
 			optional: true
@@ -413,10 +434,7 @@
 				{
 					id: "011451309077F974"
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:tidal_claws"
-					}
+					item: "cataclysm:tidal_claws"
 				}
 			]
 			rewards: [
@@ -431,6 +449,10 @@
 		}
 		{
 			id: "DD5EAC0EC65FBB08"
+			title: "Renderizador de almas (opcional)"
+			subtitle: "Alternativa"
+			description: ["El renderizador de almas es un arma de energía oscura."]
+			icon: "cataclysm:soul_render"
 			x: 3.5d
 			y: 5d
 			optional: true
@@ -439,10 +461,7 @@
 				{
 					id: "6AACC59AC8734D3F"
 					type: "item"
-					item: {
-						count: 1
-						id: "cataclysm:soul_render"
-					}
+					item: "cataclysm:soul_render"
 				}
 			]
 			rewards: [
@@ -457,6 +476,14 @@
 		}
 		{
 			id: "77BD59570E5928DF"
+			title: "Leyenda"
+			subtitle: "Cierre del capítulo"
+			description: [
+				"Has fabricado un arma legendaria y vencido a los grandes jefes. Solo queda el final del mundo."
+				""
+				"Se abre el capítulo 10."
+			]
+			icon: "minecraft:nether_star"
 			x: 5d
 			y: 0.5d
 			dependencies: ["A6CB2891FCED730B", "20B83444BFFAE39C", "389B0A13226CA341"]
@@ -464,10 +491,7 @@
 				{
 					id: "078AC1BD90F35580"
 					type: "item"
-					item: {
-						count: 1
-						id: "minecraft:nether_star"
-					}
+					item: "minecraft:nether_star"
 					count: 2L
 					consume_items: true
 				}
@@ -490,10 +514,7 @@
 				{
 					id: "C05649724DE924F6"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 					count: 6
 				}
 			]

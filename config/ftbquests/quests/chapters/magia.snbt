@@ -3,15 +3,25 @@
 	default_quest_shape: ""
 	filename: "magia"
 	group: "FA1951BF2D35F839"
-	icon: {
-		id: "irons_spellbooks:iron_spell_book"
-	}
+	title: "6. El despertar de la magia"
+	subtitle: ["Escuelas de hechizos, glifos, rituales y el Bosque Crepuscular."]
+	icon: "irons_spellbooks:iron_spell_book"
 	id: "A4FA102768BB3DEA"
 	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
 			id: "89D4E872F25DCFAF"
+			title: "El despertar de la magia"
+			subtitle: "Dos caminos: Iron's y Ars"
+			description: [
+				"Hay dos magias en este mundo. &6Iron's Spells 'n Spellbooks&r es la magia de combate: escuelas de hechizos que se lanzan con bastones y grimorios."
+				""
+				"&6Ars Nouveau&r es la magia de rituales, glifos y utilidades. Las dos se complementan."
+				""
+				"Las escuelas del pack: &6Fuego&r, &6Hielo&r, &6Oscuridad&r (vacío, sangre, ancestral) y &6Arcana&r (evocación y sagrado). Necesitas Mago para lanzar hechizos."
+			]
+			icon: "irons_spellbooks:iron_spell_book"
 			x: 0.5d
 			y: 0.5d
 			dependencies: ["F4B3AE87BC788D84"]
@@ -32,16 +42,17 @@
 				{
 					id: "B476CE8C24765DEC"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_diamond"
-					}
+					item: "lightmanscurrency:coin_diamond"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "FE1C55A4EEDEA50A"
+			title: "Esencia arcana"
+			subtitle: "El material de la magia"
+			description: ["La esencia arcana se obtiene de enemigos mágicos y estructuras. Es la base de casi todo en Iron's Spells."]
+			icon: "irons_spellbooks:arcane_essence"
 			x: 2d
 			y: 0.5d
 			dependencies: ["89D4E872F25DCFAF"]
@@ -49,10 +60,7 @@
 				{
 					id: "0AF641C4D3E45898"
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:arcane_essence"
-					}
+					item: "irons_spellbooks:arcane_essence"
 					count: 8L
 				}
 			]
@@ -67,16 +75,17 @@
 				{
 					id: "6B0CA3AB3EF643C4"
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:common_ink"
-					}
+					item: "irons_spellbooks:common_ink"
 					count: 8
 				}
 			]
 		}
 		{
 			id: "FBDABBE645564FCF"
+			title: "Mesa de inscripción"
+			subtitle: "Grimorios y pergaminos"
+			description: ["En la mesa de inscripción puedes inscribir hechizos en un grimorio. Los pergaminos se usan una vez; los hechizos inscritos, siempre."]
+			icon: "irons_spellbooks:inscription_table"
 			x: 3.5d
 			y: 0.5d
 			dependencies: ["FE1C55A4EEDEA50A"]
@@ -84,18 +93,12 @@
 				{
 					id: "BA2C036B9D3D5ADC"
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:inscription_table"
-					}
+					item: "irons_spellbooks:inscription_table"
 				}
 				{
 					id: "564C2FD17FD36954"
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:common_ink"
-					}
+					item: "irons_spellbooks:common_ink"
 					count: 4L
 				}
 			]
@@ -110,16 +113,21 @@
 				{
 					id: "4B092636C9B7584C"
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:uncommon_ink"
-					}
+					item: "irons_spellbooks:uncommon_ink"
 					count: 4
 				}
 			]
 		}
 		{
 			id: "8231E0ACEAC208A9"
+			title: "Runas de escuela"
+			subtitle: "Una por escuela"
+			description: [
+				"Cada escuela tiene su runa. Con una runa en el yunque arcano mejoras un objeto de esa escuela."
+				""
+				"Elige la escuela que más te guste; te acompañará durante toda la campaña."
+			]
+			icon: "irons_spellbooks:blank_rune"
 			x: 5d
 			y: 0.5d
 			dependencies: ["FBDABBE645564FCF"]
@@ -127,19 +135,13 @@
 				{
 					id: "E1BFA4F8B59EE638"
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:blank_rune"
-					}
+					item: "irons_spellbooks:blank_rune"
 					count: 4L
 				}
 				{
 					id: "CC03A7F0F8092A65"
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:arcane_ingot"
-					}
+					item: "irons_spellbooks:arcane_ingot"
 					count: 2L
 				}
 			]
@@ -154,23 +156,21 @@
 				{
 					id: "9E7E57CA6D1C8186"
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:fire_rune"
-					}
+					item: "irons_spellbooks:fire_rune"
 				}
 				{
 					id: "E677673F7BA134EF"
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:ice_rune"
-					}
+					item: "irons_spellbooks:ice_rune"
 				}
 			]
 		}
 		{
 			id: "9C13CD93FC9EC170"
+			title: "Yunque arcano"
+			subtitle: "Mejora y separa"
+			description: ["El yunque arcano mejora tus objetos mágicos y también sirve para destruirlos y recuperar materiales."]
+			icon: "irons_spellbooks:arcane_anvil"
 			x: 6.5d
 			y: 0.5d
 			dependencies: ["8231E0ACEAC208A9"]
@@ -178,10 +178,7 @@
 				{
 					id: "200B37EF2DFE1A7B"
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:arcane_anvil"
-					}
+					item: "irons_spellbooks:arcane_anvil"
 				}
 			]
 			rewards: [
@@ -196,6 +193,10 @@
 		}
 		{
 			id: "BC8BAE8FA9501974"
+			title: "Tu grimorio"
+			subtitle: "Requiere Mago (Tier I o II)"
+			description: ["Un grimorio de oro o diamante guarda más hechizos. Cuando tengas el nodo &6Mago Tier II&r (Fundamentos VI) podrás usarlo."]
+			icon: "irons_spellbooks:gold_spell_book"
 			x: 5d
 			y: 2d
 			dependencies: ["FBDABBE645564FCF"]
@@ -203,10 +204,7 @@
 				{
 					id: "8118C5229E3B92C4"
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:gold_spell_book"
-					}
+					item: "irons_spellbooks:gold_spell_book"
 				}
 			]
 			rewards: [
@@ -220,15 +218,16 @@
 				{
 					id: "ABE13C58C482F651"
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:mana_ring"
-					}
+					item: "irons_spellbooks:mana_ring"
 				}
 			]
 		}
 		{
 			id: "30BFB860CD1E7E3B"
+			title: "Armadura de mago"
+			subtitle: "Piromante, criomante..."
+			description: ["Las armaduras de mago dan poder de escuela y maná. Requieren Mago (Tier II)."]
+			icon: "irons_spellbooks:pyromancer_chestplate"
 			x: 6.5d
 			y: 2d
 			optional: true
@@ -237,10 +236,7 @@
 				{
 					id: "1AED00C59518B4ED"
 					type: "item"
-					item: {
-						count: 1
-						id: "irons_spellbooks:pyromancer_chestplate"
-					}
+					item: "irons_spellbooks:pyromancer_chestplate"
 				}
 			]
 			rewards: [
@@ -255,6 +251,10 @@
 		}
 		{
 			id: "A470FFA3588A8492"
+			title: "Elige tu escuela"
+			subtitle: "Especialízate"
+			description: ["Gasta tus puntos en un camino del árbol de habilidades: Piromancia, Criomancia, Arcanismo u Oscuridad. Cada uno mejora la escuela correspondiente."]
+			icon: "minecraft:nether_star"
 			x: 6.5d
 			y: 3.5d
 			dependencies: ["BC8BAE8FA9501974", "8231E0ACEAC208A9"]
@@ -277,6 +277,10 @@
 		}
 		{
 			id: "5311B003EDE93BA8"
+			title: "Gemas de fuente"
+			subtitle: "Ars Nouveau"
+			description: ["La fuente es la energía mágica de Ars Nouveau. Las gemas se consiguen de la magia del entorno y se procesan en la mesa de escritura."]
+			icon: "ars_nouveau:source_gem"
 			x: 2d
 			y: 2d
 			dependencies: ["89D4E872F25DCFAF"]
@@ -284,19 +288,13 @@
 				{
 					id: "8B7C47D58E2A9474"
 					type: "item"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_gem"
-					}
+					item: "ars_nouveau:source_gem"
 					count: 8L
 				}
 				{
 					id: "55ECC8780717232E"
 					type: "item"
-					item: {
-						count: 1
-						id: "ars_nouveau:magebloom"
-					}
+					item: "ars_nouveau:magebloom"
 					count: 8L
 				}
 			]
@@ -311,16 +309,17 @@
 				{
 					id: "EEAA8716B65E5590"
 					type: "item"
-					item: {
-						count: 1
-						id: "ars_nouveau:magebloom_fiber"
-					}
+					item: "ars_nouveau:magebloom_fiber"
 					count: 8
 				}
 			]
 		}
 		{
 			id: "B5D35989BB85CB9F"
+			title: "Libro de hechizos de Ars"
+			subtitle: "Novato"
+			description: ["Con el libro de hechizos creas tus propios hechizos combinando glifos. Cambias de hechizo con las teclas configuradas."]
+			icon: "ars_nouveau:novice_spell_book"
 			x: 3.5d
 			y: 2d
 			dependencies: ["5311B003EDE93BA8"]
@@ -328,10 +327,7 @@
 				{
 					id: "AB4FC1D18F4DAD97"
 					type: "item"
-					item: {
-						count: 1
-						id: "ars_nouveau:novice_spell_book"
-					}
+					item: "ars_nouveau:novice_spell_book"
 				}
 			]
 			rewards: [
@@ -345,15 +341,16 @@
 				{
 					id: "41C062F414C8E0FF"
 					type: "item"
-					item: {
-						count: 1
-						id: "ars_nouveau:wand"
-					}
+					item: "ars_nouveau:wand"
 				}
 			]
 		}
 		{
 			id: "B193519A7BAE7605"
+			title: "Mesa de escriba"
+			subtitle: "Glifos"
+			description: ["La mesa de escriba te permite crear glifos con gemas de fuente. Empieza por los básicos: proyectil, impacto, curar."]
+			icon: "ars_nouveau:scribes_table"
 			x: 5d
 			y: 3.5d
 			dependencies: ["B5D35989BB85CB9F"]
@@ -361,10 +358,7 @@
 				{
 					id: "C16A9FF46B9DAF89"
 					type: "item"
-					item: {
-						count: 1
-						id: "ars_nouveau:scribes_table"
-					}
+					item: "ars_nouveau:scribes_table"
 				}
 			]
 			rewards: [
@@ -379,6 +373,10 @@
 		}
 		{
 			id: "A8200153781D4878"
+			title: "Jarra de fuente"
+			subtitle: "Almacenar energía"
+			description: ["Una jarra de fuente almacena fuente para alimentar aparatos y rituales. Se rellena con enlaces de fuente."]
+			icon: "ars_nouveau:source_jar"
 			x: 6.5d
 			y: 5d
 			dependencies: ["B193519A7BAE7605"]
@@ -386,10 +384,7 @@
 				{
 					id: "A26604F9810F3981"
 					type: "item"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_jar"
-					}
+					item: "ars_nouveau:source_jar"
 				}
 			]
 			rewards: [
@@ -404,6 +399,10 @@
 		}
 		{
 			id: "4286BB6CC3A24313"
+			title: "Aparato de encantamiento"
+			subtitle: "Objetos mágicos"
+			description: ["Con el aparato de encantamiento y pedestales arcanos creas objetos mágicos poderosos y mejoras tu equipo."]
+			icon: "ars_nouveau:enchanting_apparatus"
 			x: 8d
 			y: 0.5d
 			dependencies: ["A8200153781D4878"]
@@ -411,18 +410,12 @@
 				{
 					id: "DCB53119A7FE9A93"
 					type: "item"
-					item: {
-						count: 1
-						id: "ars_nouveau:enchanting_apparatus"
-					}
+					item: "ars_nouveau:enchanting_apparatus"
 				}
 				{
 					id: "A1E52FE6800CBC61"
 					type: "item"
-					item: {
-						count: 1
-						id: "ars_nouveau:arcane_pedestal"
-					}
+					item: "ars_nouveau:arcane_pedestal"
 					count: 4L
 				}
 			]
@@ -437,15 +430,16 @@
 				{
 					id: "B976E6CEF90624E0"
 					type: "item"
-					item: {
-						count: 1
-						id: "ars_nouveau:arcane_core"
-					}
+					item: "ars_nouveau:arcane_core"
 				}
 			]
 		}
 		{
 			id: "8401A8164AC34D43"
+			title: "Rituales"
+			subtitle: "Magia poderosa"
+			description: ["El brasero ritual hace magia colectiva: cambia el clima, hace crecer bosques o invoca criaturas. Lo primero: fabricar el brasero."]
+			icon: "ars_nouveau:ritual_brazier"
 			x: 9.5d
 			y: 0.5d
 			dependencies: ["4286BB6CC3A24313"]
@@ -453,10 +447,7 @@
 				{
 					id: "0FA0D5397FC02247"
 					type: "item"
-					item: {
-						count: 1
-						id: "ars_nouveau:ritual_brazier"
-					}
+					item: "ars_nouveau:ritual_brazier"
 				}
 			]
 			rewards: [
@@ -471,6 +462,10 @@
 		}
 		{
 			id: "3C208F022E6023BF"
+			title: "Familiar (opcional)"
+			subtitle: "Un compañero mágico"
+			description: ["Un familiar te acompaña y te da pequeñas bonificaciones. El starbuncle es el más popular."]
+			icon: "ars_nouveau:starbuncle_charm"
 			x: 11d
 			y: 0.5d
 			optional: true
@@ -479,10 +474,7 @@
 				{
 					id: "C740565A7D36D137"
 					type: "item"
-					item: {
-						count: 1
-						id: "ars_nouveau:starbuncle_charm"
-					}
+					item: "ars_nouveau:starbuncle_charm"
 				}
 			]
 			rewards: [
@@ -497,6 +489,14 @@
 		}
 		{
 			id: "F59D21FE67962C8F"
+			title: "El Bosque Crepuscular"
+			subtitle: "Una dimensión nueva"
+			description: [
+				"Arrojando un diamante a un estanque rodeado de flores se abre un portal al Bosque Crepuscular."
+				""
+				"Es una dimensión llena de estructuras, jefes y materiales propios. Prepara buena armadura y comida."
+			]
+			icon: "minecraft:writable_book"
 			x: 11d
 			y: 2d
 			dependencies: ["A470FFA3588A8492", "8401A8164AC34D43"]
@@ -519,16 +519,17 @@
 				{
 					id: "633A42B37BD4F2E9"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_diamond"
-					}
+					item: "lightmanscurrency:coin_diamond"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "F07C6F6EA7B5C3AC"
+			title: "La Naga"
+			subtitle: "Primer jefe"
+			description: ["El Patio de la Naga guarda a la primera jefa del bosque. Derrótala para conseguir sus escamas y avanzar."]
+			icon: "minecraft:writable_book"
 			x: 12.5d
 			y: 0.5d
 			dependencies: ["F59D21FE67962C8F"]
@@ -551,16 +552,17 @@
 				{
 					id: "435B73DB83C41856"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_diamond"
-					}
+					item: "lightmanscurrency:coin_diamond"
 					count: 2
 				}
 			]
 		}
 		{
 			id: "EF714C6E42ED78D2"
+			title: "La torre del Lich"
+			subtitle: "Segundo jefe"
+			description: ["Tras la Naga aguarda el Lich en su torre. Es un jefe de magia: prepara resistencia mágica y armas de distancia."]
+			icon: "minecraft:writable_book"
 			x: 14d
 			y: 0.5d
 			dependencies: ["F07C6F6EA7B5C3AC"]
@@ -583,15 +585,20 @@
 				{
 					id: "31B963E207479B58"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 				}
 			]
 		}
 		{
 			id: "0B1AA7B46CDAA7CD"
+			title: "Maestro de la magia"
+			subtitle: "Cierre del capítulo"
+			description: [
+				"Has dominado la magia básica y vencido a la Naga. El mundo te espera."
+				""
+				"Se abre el capítulo 7."
+			]
+			icon: "ars_nouveau:source_gem"
 			x: 14d
 			y: 2d
 			dependencies: ["F07C6F6EA7B5C3AC", "A470FFA3588A8492", "8401A8164AC34D43"]
@@ -599,10 +606,7 @@
 				{
 					id: "3DEA21680DCE23BD"
 					type: "item"
-					item: {
-						count: 1
-						id: "ars_nouveau:source_gem"
-					}
+					item: "ars_nouveau:source_gem"
 					count: 16L
 					consume_items: true
 				}
@@ -625,10 +629,7 @@
 				{
 					id: "CFA1F4C6C40FFEF5"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_netherite"
-					}
+					item: "lightmanscurrency:coin_netherite"
 				}
 			]
 		}

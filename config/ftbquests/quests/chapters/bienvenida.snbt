@@ -3,15 +3,25 @@
 	default_quest_shape: ""
 	filename: "bienvenida"
 	group: "FA1951BF2D35F839"
-	icon: {
-		id: "ftbquests:book"
-	}
+	title: "Bienvenida"
+	subtitle: ["Guía rápida de Pony0n RPG"]
+	icon: "ftbquests:book"
 	id: "0E3DDEBA982CD205"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			id: "36C790764DFE6623"
+			title: "Bienvenido a Pony0n RPG"
+			subtitle: "Aventura, clases, oficios y máquinas"
+			description: [
+				"Este mundo mezcla RPG, exploración, Create, tecnología y magia."
+				""
+				"Este libro de misiones es tu manual: cada misión te enseña algo y te da un premio. Empieza por aquí y sigue las líneas que unen las misiones."
+				""
+				"Pulsa el botón de recoger premio cuando termines una misión."
+			]
+			icon: "ftbquests:book"
 			x: 0.5d
 			y: 0.5d
 			tasks: [
@@ -38,16 +48,23 @@
 				{
 					id: "BAF979EA360EDF6A"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_copper"
-					}
+					item: "lightmanscurrency:coin_copper"
 					count: 20
 				}
 			]
 		}
 		{
 			id: "9D47C88484B97547"
+			title: "Tu libro de misiones"
+			subtitle: "Cómo se usa"
+			description: [
+				"Los capítulos están a la izquierda. Las misiones desbloqueadas se ven en color; las que aún no puedes hacer están apagadas."
+				""
+				"Las misiones de aprendizaje son individuales. Las de equipo se comparten con tu equipo de FTB Teams."
+				""
+				"Las misiones opcionales no bloquean la campaña."
+			]
+			icon: "ftbquests:book"
 			x: 2d
 			y: 0.5d
 			dependencies: ["36C790764DFE6623"]
@@ -69,6 +86,16 @@
 		}
 		{
 			id: "0CCABA5E8E7E4CFE"
+			title: "Árbol de habilidades"
+			subtitle: "Pulsa K"
+			description: [
+				"Cada nivel te da un punto. Pulsa &6K&r para abrir el árbol y gastarlo."
+				""
+				"Hay cinco clases: Guerrero, Arquero, Mago, Ingeniero y Asesino. Puedes llenar una a fondo o combinar varias: los puntos son compartidos."
+				""
+				"Ganas experiencia matando mobs, minando y completando misiones."
+			]
+			icon: "ftbquests:book"
 			x: 3.5d
 			y: 0.5d
 			dependencies: ["9D47C88484B97547"]
@@ -90,6 +117,16 @@
 		}
 		{
 			id: "D7F01831E0B33A15"
+			title: "Equipo de clase"
+			subtitle: "Tu clase decide qué puedes usar"
+			description: [
+				"Los bastones, grimorios, armas pesadas, arcos y armas ligeras de alto nivel solo los puede usar quien tenga esa clase."
+				""
+				"Compra el primer nodo de una clase (Tier I), llega a Fundamentos VI (Tier II) y a la cima de un camino (Tier III) para desbloquear equipo mejor."
+				""
+				"Lo básico (espadas y armaduras vanilla) lo puede usar cualquiera."
+			]
+			icon: "ftbquests:book"
 			x: 5d
 			y: 0.5d
 			dependencies: ["0CCABA5E8E7E4CFE"]
@@ -111,6 +148,14 @@
 		}
 		{
 			id: "D4EFDB76A048C766"
+			title: "Oficios"
+			subtitle: "Mejora haciendo tareas"
+			description: [
+				"Además de tu clase tienes siete oficios: Minero, Leñador, Granjero, Pescador, Herrero, Cocinero y Encantador."
+				""
+				"Cada oficio sube de nivel por sí solo mientras haces sus tareas (picar, talar, cosechar, pescar, fabricar, cocinar, encantar) y da puntos para su propio árbol."
+			]
+			icon: "ftbquests:book"
 			x: 5d
 			y: 2d
 			dependencies: ["0CCABA5E8E7E4CFE"]
@@ -139,6 +184,14 @@
 		}
 		{
 			id: "4E014CC5F8D58AA2"
+			title: "Recetas con JEI"
+			subtitle: "Mira sobre un objeto y pulsa R o U"
+			description: [
+				"JEI muestra las recetas de todos los objetos del pack."
+				""
+				"Pon el cursor sobre un objeto en tu inventario y pulsa &6R&r para ver cómo se fabrica o &6U&r para ver para qué sirve."
+			]
+			icon: "ftbquests:book"
 			x: 3.5d
 			y: 2d
 			dependencies: ["9D47C88484B97547"]
@@ -160,6 +213,14 @@
 		}
 		{
 			id: "2F4F9F6C413602E4"
+			title: "El mapa"
+			subtitle: "Pulsa M"
+			description: [
+				"Tienes un minimapa en la esquina y un mapa completo con la tecla &6M&r."
+				""
+				"Puedes marcar puntos de interés en el mapa; úsalos para volver a tu base y a las estructuras que encuentres."
+			]
+			icon: "ftbquests:book"
 			x: 3.5d
 			y: 3.5d
 			dependencies: ["9D47C88484B97547"]
@@ -181,6 +242,14 @@
 		}
 		{
 			id: "D61BBAE4A603C442"
+			title: "Equipos y protección"
+			subtitle: "FTB Teams y FTB Chunks"
+			description: [
+				"Con FTB Teams puedes crear un equipo y compartir misiones y protecciones."
+				""
+				"Con FTB Chunks puedes reclamar chunks para proteger tu base: abre el mapa de chunks desde el mapa (tecla &6M&r)."
+			]
+			icon: "ftbquests:book"
 			x: 3.5d
 			y: 5d
 			optional: true
@@ -203,6 +272,10 @@
 		}
 		{
 			id: "3EDA4F9660560F63"
+			title: "Chat de voz"
+			subtitle: "Pulsa V"
+			description: ["El servidor tiene chat de voz por proximidad. Pulsa &6V&r para configurarlo y elige tu micrófono."]
+			icon: "ftbquests:book"
 			x: 3.5d
 			y: 6.5d
 			optional: true
@@ -225,6 +298,10 @@
 		}
 		{
 			id: "D8586CCB7C53F57D"
+			title: "Empieza tu aventura"
+			subtitle: "Ya sabes lo básico"
+			description: ["Ya conoces las herramientas del pack. Ve al capítulo &6El comienzo&r y sobrevive tu primera noche."]
+			icon: "ftbquests:book"
 			x: 6.5d
 			y: 0.5d
 			dependencies: [
@@ -250,10 +327,7 @@
 				{
 					id: "A05CF1DF7A62ACF8"
 					type: "item"
-					item: {
-						count: 1
-						id: "lightmanscurrency:coin_copper"
-					}
+					item: "lightmanscurrency:coin_copper"
 					count: 30
 				}
 			]

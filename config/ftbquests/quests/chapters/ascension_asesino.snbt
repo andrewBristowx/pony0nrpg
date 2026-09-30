@@ -3,15 +3,23 @@
 	default_quest_shape: ""
 	filename: "ascension_asesino"
 	group: "FD609B87CC2A62AE"
-	icon: {
-		id: "minecraft:netherite_axe"
-	}
+	title: "Ascensión: Asesino"
+	subtitle: ["Puntos de Ascensión para Asesino"]
+	icon: "minecraft:netherite_axe"
 	id: "EB42D72D8341FA4F"
 	order_index: 17
 	quest_links: [ ]
 	quests: [
 		{
 			id: "AFDD4763FF6AD543"
+			title: "La puerta de la Ascensión"
+			subtitle: "Se abre al terminar la campaña"
+			description: [
+				"La Ascensión es el camino después del nivel 100: cada misión de tu clase te da puntos de Ascensión, con bonos pequeños y permanentes."
+				""
+				"Esta misión se completa sola cuando terminas la campaña (stage &6era_10&r)."
+			]
+			icon: "minecraft:nether_star"
 			x: 0.5d
 			y: 0.5d
 			tasks: [
@@ -33,6 +41,14 @@
 		}
 		{
 			id: "8677E94D84609E2A"
+			title: "Elige la Ascensión de Asesino"
+			subtitle: "Desbloquea la pestaña"
+			description: [
+				"El Asesino golpea rápido, esquiva y remata."
+				""
+				"Al recoger el premio se desbloquea la pestaña de Ascensión de esta clase en el árbol de habilidades (&6K&r)."
+			]
+			icon: "minecraft:netherite_axe"
 			x: 2d
 			y: 0.5d
 			dependencies: ["AFDD4763FF6AD543"]
@@ -61,6 +77,10 @@
 		}
 		{
 			id: "9BA06F3334BBE69A"
+			title: "Golpe de sombra"
+			subtitle: "Endermen"
+			description: ["Derrota 50 endermen."]
+			icon: "minecraft:iron_sword"
 			x: 3.5d
 			y: 0.5d
 			dependencies: ["8677E94D84609E2A"]
@@ -91,6 +111,10 @@
 		}
 		{
 			id: "CDA9B35585558D64"
+			title: "Verdugo del Nether"
+			subtitle: "Esqueletos"
+			description: ["Derrota 40 esqueletos del Wither."]
+			icon: "minecraft:iron_sword"
 			x: 5d
 			y: 0.5d
 			dependencies: ["9BA06F3334BBE69A"]
@@ -121,6 +145,10 @@
 		}
 		{
 			id: "BAB31AB884E68CBB"
+			title: "Daga de netherita"
+			subtitle: "El filo silencioso"
+			description: ["Forja una daga de netherita."]
+			icon: "spartanweaponry:netherite_dagger"
 			x: 6.5d
 			y: 0.5d
 			dependencies: ["CDA9B35585558D64"]
@@ -128,10 +156,7 @@
 				{
 					id: "70F0DD1698EDB2FC"
 					type: "item"
-					item: {
-						count: 1
-						id: "spartanweaponry:netherite_dagger"
-					}
+					item: "spartanweaponry:netherite_dagger"
 				}
 			]
 			rewards: [
@@ -153,6 +178,10 @@
 		}
 		{
 			id: "A2FC1EAC5A3C7C74"
+			title: "Cazador nocturno"
+			subtitle: "Phantoms"
+			description: ["Derrota 30 fantasmas."]
+			icon: "minecraft:iron_sword"
 			x: 8d
 			y: 0.5d
 			dependencies: ["BAB31AB884E68CBB"]
@@ -183,6 +212,10 @@
 		}
 		{
 			id: "4B6E99E64A76084A"
+			title: "Sigilo prolongado"
+			subtitle: "Agáchate y avanza"
+			description: ["Recorre una larga distancia agachado."]
+			icon: "minecraft:clock"
 			x: 9.5d
 			y: 0.5d
 			dependencies: ["A2FC1EAC5A3C7C74"]
@@ -213,6 +246,10 @@
 		}
 		{
 			id: "1A0F690529AF3FB4"
+			title: "Devastadores"
+			subtitle: "Raid"
+			description: ["Acaba con 10 devastadores."]
+			icon: "minecraft:iron_sword"
 			x: 11d
 			y: 0.5d
 			dependencies: ["4B6E99E64A76084A"]
@@ -243,6 +280,10 @@
 		}
 		{
 			id: "FB3C727C6ACE4E37"
+			title: "Contra el Wither"
+			subtitle: "Prueba final"
+			description: ["Derrota al Wither."]
+			icon: "minecraft:iron_sword"
 			x: 12.5d
 			y: 0.5d
 			dependencies: ["1A0F690529AF3FB4"]
@@ -273,6 +314,10 @@
 		}
 		{
 			id: "9F0B41A860D3CA6E"
+			title: "Maestría final"
+			subtitle: "Tier III"
+			description: ["Llega a la cima de un camino de Asesino (Tier III)."]
+			icon: "minecraft:nether_star"
 			x: 14d
 			y: 0.5d
 			dependencies: ["FB3C727C6ACE4E37"]
