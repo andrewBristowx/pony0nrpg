@@ -16,7 +16,7 @@ El hosting puede ejecutar un `start.sh`, así que el servidor se actualiza solo 
 4. **Una sola vez**, antes del primer arranque: vacía la carpeta `mods/` (así no quedan jars subidos a mano que dupliquen los del instalador).
 5. Reinicia. `start.sh` baja los mods/config/scripts desde `main`, calcula la memoria (75 % del límite, máx. 12 GB) y arranca Forge con flags de Aikar.
 
-Cada reinicio deja el servidor igual que `main`: los mods quitados del pack se borran solos y los añadidos se descargan. Por eso solo se mezcla a `main` lo ya probado. Si GitHub no responde, arranca con los mods que ya había.
+`start.sh` **se actualiza solo** desde GitHub en cada reinicio (descarga su versión nueva, comprueba que es un script válido y se relanza), así que solo hay que subirlo una vez; `packwiz-installer-bootstrap.jar` tampoco cambia. Cada reinicio deja el servidor igual que `main`: los mods quitados del pack se borran solos y los añadidos se descargan. Por eso solo se mezcla a `main` lo ya probado. Si GitHub no responde, arranca con los mods que ya había.
 
 ## Qué pedir al hosting
 

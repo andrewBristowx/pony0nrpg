@@ -5,6 +5,24 @@
 # Uso en el panel: Arranque -> "Utilizar FLAGS Customizadas" y dar permiso de ejecución (755) a este archivo.
 cd "$(dirname "$0")" || exit 1
 
+# ---- 0. este script se actualiza solo desde GitHub (así solo se sube UNA vez al hosting) -----------------------
+SELF_URL="${START_SH_URL:-https://raw.githubusercontent.com/andrewBristowx/pony0nrpg/main/server/start.sh}"
+if [ -z "$START_SH_UPDATED" ]; then
+  NEW="./.start.sh.new"
+  rm -f "$NEW"
+  if { command -v curl >/dev/null 2>&1 && curl -fsSL --max-time 20 "$SELF_URL" -o "$NEW"; } ||      { command -v wget >/dev/null 2>&1 && wget -q -T 20 -O "$NEW" "$SELF_URL"; }; then
+    # solo se acepta si es un script de bash válido y distinto del actual
+    if [ -s "$NEW" ] && head -1 "$NEW" | grep -q '^#!' && bash -n "$NEW" 2>/dev/null && ! cmp -s "$NEW" "$0"; then
+      chmod 755 "$NEW"
+      mv -f "$NEW" "$0"   # se sustituye el archivo (no se escribe encima) para no romper la ejecución en curso
+      echo "[start.sh] Script actualizado desde GitHub; reiniciando con la version nueva..."
+      export START_SH_UPDATED=1
+      exec bash "$0" "$@"
+    fi
+  fi
+  rm -f "$NEW"
+fi
+
 PACK_URL="https://raw.githubusercontent.com/andrewBristowx/pony0nrpg/main/pack.toml"
 
 # ---- 1. actualización de mods/config -------------------------------------------------------------------------
