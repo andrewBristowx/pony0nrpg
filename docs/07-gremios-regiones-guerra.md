@@ -1,6 +1,6 @@
 # 07 — Gremios, regiones, guerra y mundo de aventura (diseño)
 
-Estado: **propuesta, nada implementado todavía**. Marca qué es seguro, qué hay que verificar y qué decisiones quedan abiertas.
+Estado: **fase 1 implementada en la rama `gremios` (sin probar en juego)**: gremios, regiones, guerra y PvP. Lo demás sigue siendo propuesta. Marca qué es seguro, qué hay que verificar y qué decisiones quedan abiertas.
 
 ## 1. Los 4 gremios (capa de Origins)
 
@@ -55,10 +55,32 @@ Nombres: **Slytheri0n**, **RavenCachalotes**, **Huffleponyanos**, **Tuliondor**.
 3. **Mundo de aventura**: evaluar y añadir Dimensional Dungeons y Cataclysm Dimension, reinicio programado, subir la vida de los jefes.
 4. **Contenido de construcción**: pueblos de las 4 regiones, NPC guía, ciudad neutral.
 
-## Decisiones abiertas
+## Decisiones tomadas
 
-- Tamaño del mapa y de cada región (y número de jugadores previsto).
-- ¿Zona neutral central?
-- ¿Guerra manual, programada o las dos?
-- ¿Reinicio del mundo de aventura cada semana, cada dos o a demanda?
-- ¿Empezamos con un mundo nuevo? (el actual es de pruebas)
+- Mapa de **6 000 × 6 000** (cada región 3 000 × 3 000), centrado en (0, 0).
+- **Zona neutral central** de 300 × 300 (|x| ≤ 150 y |z| ≤ 150).
+- Regiones: **Slytheri0n** noroeste (x<0, z<0) · **RavenCachalotes** noreste (x>0, z<0) · **Huffleponyanos** suroeste (x<0, z>0) · **Tuliondor** sureste (x>0, z>0).
+- **Pueblo inicial** de cada región en **(±1 500, ±1 500)** (hay que construirlo ahí; el jugador aparece en la superficie más cercana).
+- Guerra **manual** con comando (y programable desde las Programaciones del panel); reinicio del mundo de aventura **a demanda**.
+- Empezar con un **mundo nuevo** (el script fija el borde la primera vez que carga un mundo).
+
+## Fase 1 implementada (rama `gremios`)
+
+- Capa de Origins `pony0n:gremio` (orden antes que raza y clase) con 4 orígenes y un pequeño efecto cada uno (`tools/gen-origins.mjs`).
+- `kubejs/server_scripts/gremios.js`: comandos `/guerra on|off|estado` y `/gremio unir <gremio> <jugador>` (lo ejecuta Origins al elegir), equipo de FTB Teams por gremio, límite entre regiones, borde del mundo y reglas de PvP.
+
+### Cómo probarla en el servidor sin tocar `main`
+1. En la raíz del servidor crea un archivo `pack_branch.txt` que contenga `gremios` y reinicia (`start.sh` usará esa rama).
+2. Con un mundo nuevo, entra: debe salir primero **Gremio**, luego raza y clase. Al elegir gremio te lleva a tu región.
+3. Comprueba: no puedes cruzar a otra región; `/guerra on` lo permite; `/guerra off` lo cierra; el PvP solo funciona en guerra y entre gremios distintos.
+4. Si todo va bien se mezcla a `main` y se borra `pack_branch.txt`.
+
+### Verificaciones pendientes
+- Que la unión automática al equipo de FTB Teams funcione (si falla, sale un aviso y el log del servidor explica por qué).
+- Que los reclamos de FTB Chunks no permitan salirse de la región.
+- Nombres de comandos y propiedades de KubeJS usados en el script (si alguno falla, sale en `logs/kubejs/server.log`).
+
+## Decisiones aún abiertas
+
+- Frecuencia de reinicio del mundo de aventura (ahora a demanda).
+- Qué mods de dimensiones/mazmorras se añaden y cuándo (fase 3).

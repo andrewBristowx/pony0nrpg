@@ -145,4 +145,48 @@ out("pony0n/origin_layers/clase.json", {
   gui_title: { view_origin: "Tu clase", choose_origin: "Elige tu clase" },
 });
 
-console.log(`razas: ${RACES.length}, clases: ${classes.length}`);
+
+// ---- gremios ---------------------------------------------------------------------------------------------------
+// 4 gremios como capa de Origins (se elige ANTES que raza y clase). Al elegir: el comando /gremio unir (kubejs/server_scripts/gremios.js)
+// da el stage gremio_<id>, mete al jugador en el equipo de FTB Teams del gremio, lo lleva a su región y fija su punto de reaparición.
+const gremios = [
+  { id: "slytherion", name: "Slytheri0n", icon: "minecraft:green_banner", impact: 1,
+    description: "Ambición y astucia. Los Slytheri0n aprenden más de todo lo que hacen. Su región es el noroeste del mapa.",
+    power: { type: "origins:attribute", name: "Ambición", description: "+8 % de experiencia ganada.", modifier: attr("attributeslib:experience_gained", "addition", 0.08) } },
+  { id: "ravencachalotes", name: "RavenCachalotes", icon: "minecraft:blue_banner", impact: 1,
+    description: "Ingenio y sabiduría. Los RavenCachalotes dominan la magia y el conocimiento. Su región es el noreste del mapa.",
+    power: { type: "origins:attribute", name: "Ingenio", description: "+50 de maná máximo y +5 % de poder de hechizo.",
+      modifiers: [attr("irons_spellbooks:max_mana", "addition", 50), attr("irons_spellbooks:spell_power", "multiply_base", 0.05)] } },
+  { id: "huffleponyanos", name: "Huffleponyanos", icon: "minecraft:yellow_banner", impact: 1,
+    description: "Lealtad y trabajo duro. Los Huffleponyanos cuidan de su gente y resisten más. Su región es el suroeste del mapa.",
+    power: { type: "origins:attribute", name: "Lealtad", description: "+1 corazón y +5 % de curación recibida.",
+      modifiers: [attr("minecraft:generic.max_health", "addition", 2), attr("attributeslib:healing_received", "addition", 0.05)] } },
+  { id: "tuliondor", name: "Tuliondor", icon: "minecraft:red_banner", impact: 1,
+    description: "Valor y honor. Los Tuliondor golpean primero y no retroceden. Su región es el sureste del mapa.",
+    power: { type: "origins:attribute", name: "Valor", description: "+5 % de daño de ataque y +10 % de resistencia al empuje.",
+      modifiers: [attr("minecraft:generic.attack_damage", "multiply_base", 0.05), attr("minecraft:generic.knockback_resistance", "addition", 0.1)] } },
+];
+for (const gr of gremios) {
+  out(`pony0n/powers/gremio_${gr.id}/perk.json`, gr.power);
+  out(`pony0n/powers/gremio_${gr.id}/unir.json`, {
+    hidden: true,
+    type: "origins:action_on_callback",
+    entity_action_chosen: cmd(`gremio unir ${gr.id} @s`),
+    execute_chosen_when_orb: true,
+  });
+  out(`pony0n/origins/gremio_${gr.id}.json`, {
+    name: gr.name, description: gr.description, icon: { item: gr.icon }, impact: gr.impact, order: gremios.indexOf(gr) + 1,
+    powers: [`pony0n:gremio_${gr.id}/perk`, `pony0n:gremio_${gr.id}/unir`],
+  });
+}
+out("pony0n/origin_layers/gremio.json", {
+  order: -10,
+  enabled: true,
+  name: "Gremio",
+  missing_name: "Gremio",
+  missing_description: "Elige un gremio",
+  origins: gremios.map((gr) => `pony0n:gremio_${gr.id}`),
+  gui_title: { view_origin: "Tu gremio", choose_origin: "Elige tu gremio" },
+});
+
+console.log(`razas: ${RACES.length}, clases: ${classes.length}, gremios: ${gremios.length}`);

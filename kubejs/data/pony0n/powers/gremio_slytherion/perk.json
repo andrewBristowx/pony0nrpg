@@ -1,0 +1,10 @@
+{
+  "type": "origins:attribute",
+  "name": "Ambición",
+  "description": "+8 % de experiencia ganada.",
+  "modifier": {
+    "attribute": "attributeslib:experience_gained",
+    "operation": "addition",
+    "value": 0.08
+  }
+}

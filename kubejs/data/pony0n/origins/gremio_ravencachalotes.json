@@ -1,0 +1,13 @@
+{
+  "name": "RavenCachalotes",
+  "description": "Ingenio y sabiduría. Los RavenCachalotes dominan la magia y el conocimiento. Su región es el noreste del mapa.",
+  "icon": {
+    "item": "minecraft:blue_banner"
+  },
+  "impact": 1,
+  "order": 2,
+  "powers": [
+    "pony0n:gremio_ravencachalotes/perk",
+    "pony0n:gremio_ravencachalotes/unir"
+  ]
+}

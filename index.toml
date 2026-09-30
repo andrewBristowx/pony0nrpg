@@ -445,12 +445,32 @@ file = "kubejs/data/pony0n/origin_layers/clase.json"
 hash = "e4c961ac0ea9eed850cb26c9aaada7b2dac68abca70c46e686e54f94614821c3"
 
 [[files]]
+file = "kubejs/data/pony0n/origin_layers/gremio.json"
+hash = "02b2693ada0e9c8f642df21093c19fbb81abc3480569e334544f5b3e734e94c0"
+
+[[files]]
 file = "kubejs/data/pony0n/origins/arquero.json"
 hash = "77e39cd90aa069a6fa7bc6e2b6ce90d68a42a6c505e9441f4dc4f373371a1b20"
 
 [[files]]
 file = "kubejs/data/pony0n/origins/asesino.json"
 hash = "85ce94061cfd78159fc6d22c4b87284f1ecf39075e7ef17afe9b7933c342e048"
+
+[[files]]
+file = "kubejs/data/pony0n/origins/gremio_huffleponyanos.json"
+hash = "71e146d28e8c93d438000f621bb03c4739480ccf89409c83d4d820c96663a05d"
+
+[[files]]
+file = "kubejs/data/pony0n/origins/gremio_ravencachalotes.json"
+hash = "1b50ac360bfe79949cd06c36d3a229832aecb26027dcb661c356500cefbd886c"
+
+[[files]]
+file = "kubejs/data/pony0n/origins/gremio_slytherion.json"
+hash = "0523057958180f909422045fef45668c265f6268d11753763ea2c276759e660f"
+
+[[files]]
+file = "kubejs/data/pony0n/origins/gremio_tuliondor.json"
+hash = "ce28ea925bcc3cfcf80ab926fdfceeed8a2f0fa3c89d62dbffa95818e8192f80"
 
 [[files]]
 file = "kubejs/data/pony0n/origins/guerrero.json"
@@ -499,6 +519,38 @@ hash = "4d3fa4dcbd997b2b6a2d6bf906f285064835f81d4001b8e9e6194cb3e497b909"
 [[files]]
 file = "kubejs/data/pony0n/powers/asesino/sin_armadura.json"
 hash = "bf8832af162659331d00af158f9d0853673a90bea4fe8850b038402cae390d3d"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/gremio_huffleponyanos/perk.json"
+hash = "9da8ff9a3bf50b1611754da68be80def1abeec4bb169aede33866cf85b11bcb7"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/gremio_huffleponyanos/unir.json"
+hash = "65918ba4b9f18bc2e9a104de4a6e3c2480bffd75e36a7b1542967057e1aa995d"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/gremio_ravencachalotes/perk.json"
+hash = "7a7fda7d408fc51efac429b6664ea18686cb5129074b67fed2f582592c2b491e"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/gremio_ravencachalotes/unir.json"
+hash = "83e32b1216dcf7ed8496ebe2643c7286a7273017b47284e57e4210a49ab3287b"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/gremio_slytherion/perk.json"
+hash = "79a13aa121a87794c3623052c21c6beafb3eddceaeb2588236f0e416685de75e"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/gremio_slytherion/unir.json"
+hash = "5c5d8119d9bbe3f085ccb05aa641b392ba1b20d27a53420e5f0e9ce5013e4f0e"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/gremio_tuliondor/perk.json"
+hash = "3e17cd63388c6e6e4b3e2ce379f71ba40cf5b03b5b291e543ba96591fccfbed9"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/gremio_tuliondor/unir.json"
+hash = "be6447572e44ba20151f9b14592bcbacc10d0cad91b34dd10d7caac78cabae4b"
 
 [[files]]
 file = "kubejs/data/pony0n/powers/guerrero/furia.json"
@@ -555,6 +607,10 @@ hash = "1f9c7106ec0cdc933394e7f3a725d73211805eefd0cef1af8b95260d4ddbf24d"
 [[files]]
 file = "kubejs/server_scripts/fixes.js"
 hash = "0fc331847426e183a313ee71a7ff76705108208e9e36db966282a1c8d061648e"
+
+[[files]]
+file = "kubejs/server_scripts/gremios.js"
+hash = "08c4813cf80a17df9ceff0bc3a42c5de31fcba7b874120a2b0c061293e43a632"
 
 [[files]]
 file = "kubejs/startup_scripts/class_gating.js"
