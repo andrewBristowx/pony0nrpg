@@ -28,6 +28,7 @@ Servidor y modpack de **RPG + aventura + exploración + Create + tecnología + m
 4. [`docs/04-misiones.md`](docs/04-misiones.md) — convenciones de misiones, esqueleto de los 10 capítulos, capítulos 1 y 4 desarrollados.
 5. [`docs/05-infra-packwiz.md`](docs/05-infra-packwiz.md) — Prism + packwiz + GitHub, flujo de actualización, servidor.
 6. [`docs/06-validacion-y-riesgos.md`](docs/06-validacion-y-riesgos.md) — los 8 criterios de admisión de un mod, prototipos pendientes (spikes), riesgos abiertos.
+7. [`docs/07-gremios-regiones-guerra.md`](docs/07-gremios-regiones-guerra.md) — 4 gremios, regiones con límite, modo guerra, mundo de aventura, roles y rangos (propuesta).
 
 ## Qué está verificado y qué no
 
