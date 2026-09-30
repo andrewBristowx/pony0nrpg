@@ -111,7 +111,7 @@ Estos ya están en el repo (carpetas `mods/` y `shaderpacks/`). Lado: **C** = so
 | Embeddium | 0.3.31 | Render (equivalente a Sodium en Forge) | C |
 | Embeddium (Rubidium) Extra | 0.5.4.4 | Opciones extra de vídeo para Embeddium | C |
 | Oculus | 1.8.0 | Motor de shaders (equivalente a Iris) | C |
-| ImmediatelyFast | 1.2.7 | Renderizado más rápido de HUD y texto | C |
+| ImmediatelyFast | — | **Descartado**: causa lag de cliente en algunas PCs; además no hace nada en servidor | — |
 | Entity Culling | 1.11.2 | No dibuja entidades ocultas | C |
 | Cull Leaves | 4.1.1 (+ MidnightLib) | Hojas más baratas de dibujar | C |
 | Dynamic FPS | 3.11.4 | Baja FPS con la ventana en segundo plano | C |
@@ -143,7 +143,7 @@ Estos ya están en el repo (carpetas `mods/` y `shaderpacks/`). Lado: **C** = so
 
 ### Notas y riesgos
 
-- **Versiones no siempre las más nuevas:** packwiz eligió la versión más reciente *por fecha* de Modrinth, y en ImmediatelyFast, Noisium y Better Compatibility Checker eso es una versión anterior a la más alta numerada. Es válida para 1.20.1, pero si se quiere la última hay que fijarla a mano. Se decide en el prototipo.
+- **Versiones no siempre las más nuevas:** packwiz eligió la versión más reciente *por fecha* de Modrinth, y en Noisium y Better Compatibility Checker eso es una versión anterior a la más alta numerada. Es válida para 1.20.1, pero si se quiere la última hay que fijarla a mano. Se decide en el prototipo.
 - **Radium (tipo Lithium) y Create:** los ports de Lithium a veces chocan con mecánicas de Create. Se prueba al añadir Create (fase 2); si falla, se quita Radium.
 - **ServerCore:** revisar su configuración; cambia comportamientos de mobs.
 - **Solapes evitados:** Saturn (solapa con ModernFix), Starlight (problemas de iluminación) y Fastload (lo cubre Ksyxis) no se han añadido.
