@@ -1,6 +1,6 @@
 # Servidor Pony0n RPG — mods para el hosting
 
-**Sube a la carpeta `mods/` de tu hosting los 113 jars de [`server/mods/`](mods/)** (lista exacta en [`MODS.txt`](MODS.txt)). Para subirlos de una vez hay un zip: `dist/Pony0nRPG-server-mods.zip` (549 MB, jars planos; descomprímelo dentro de `mods/`). No hace falta instalar Forge ni nada más en tu PC.
+**Sube a la carpeta `mods/` de tu hosting los 118 jars de [`server/mods/`](mods/)** (lista exacta en [`MODS.txt`](MODS.txt)). Para subirlos de una vez hay un zip: `dist/Pony0nRPG-server-mods.zip` (549 MB, jars planos; descomprímelo dentro de `mods/`). No hace falta instalar Forge ni nada más en tu PC.
 
 ## Además de los mods: configuración del servidor
 
@@ -31,11 +31,11 @@ Tras el primer arranque hay que aceptar la EULA de Mojang en `eula.txt` (`eula=t
 
 ## Qué se probó y qué no
 
-- **Probado:** un servidor Forge 1.20.1 (Java 17) cargó los 113 mods hasta la comprobación de la EULA. Es decir: todos son de Forge, no falta ninguna dependencia obligatoria y no hay conflictos de módulos.
+- **Probado:** un servidor Forge 1.20.1 (Java 17) cargó los 118 mods hasta la comprobación de la EULA. Es decir: todos son de Forge, no falta ninguna dependencia obligatoria y no hay conflictos de módulos.
 - **No probado:** la carga completa (registros, mundo, generación de estructuras, jugadores). Eso solo se ve arrancando de verdad tras aceptar la EULA. Si en el primer arranque hay un fallo, mándame el `crash-report` o `latest.log`.
 - Durante la prueba aparecieron 6 dependencias que packwiz no detectó (Kotlin for Forge, Zeta, Iron's Lib, Moonlight Lib…) y un conflicto (S-Lib vs Create Crafts & Additions). Ya están corregidos en estos 108.
 
-## Qué hay en `mods/` (113 jars)
+## Qué hay en `mods/` (118 jars)
 
 **Contenido de juego**
 - Misiones/equipos: FTB Quests, FTB Teams, FTB Library, FTB Chunks, FTB Ranks, FTB Quests Optimizer
@@ -50,7 +50,7 @@ Tras el primer arranque hay que aceptar la EULA de Mojang en `eula.txt` (`eula=t
 - Voz: Simple Voice Chat
 
 **Optimización y administración de servidor**
-Radium, ServerCore, AI Improvements, Noisium, Ksyxis, FerriteCore, ModernFix, Memory Leak Fix, Clumps, Neruina, Packet Fixer, Better Compatibility Checker, spark, Chunky, LuckPerms
+Radium, ServerCore, AI Improvements, Noisium, Ksyxis, FerriteCore, ModernFix, Memory Leak Fix, Clumps, **Let Me Despawn** (+ Almanac), **Async Locator**, **FastFurnace**, **FastWorkbench**, Neruina, Packet Fixer, Better Compatibility Checker, spark, Chunky, LuckPerms
 
 **Librerías** (necesarias, no aportan contenido): Architectury, GeckoLib, Citadel, Balm, Cloth Config, Botarium, Resourceful Lib/Config, Sophisticated Core, Kotlin for Forge, Zeta, Moonlight Lib, Integrated API, Lionfish API, CERBON's API, Necronomicon, Fzzy Config, Simply Tooltips, playerAnimator, MezzConfig…
 

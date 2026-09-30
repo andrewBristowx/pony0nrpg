@@ -193,3 +193,13 @@ Unos 80 mods listados; con dependencias serán bastantes más (estimación aprox
 - Elegir clase da un kit de inicio y los stages `clase_<c>` y `origen_<c>` (equipo de Tier I).
 - **No** se usa el Origins de Modrinth con Sinytra Connector (es el de Fabric); solo el port de Forge.
 - **Medieval Origins Revival fijado en 6.6.0** (`packwiz update` NO debe subirlo): desde la 6.7.0 exige el Origins oficial de Fabric con Sinytra Connector (usa clases de Cardinal Components) y se cae con el port de Forge que usamos. La 6.6.0 es la última compatible con Origins (Forge). Con esa versión no hacen falta Icarus ni Common Network.
+
+## Optimización extra del servidor
+
+| Mod | Qué hace | Lado |
+|---|---|---|
+| Let Me Despawn (+ Almanac) | Mejora las reglas de despawn de mobs persistentes (menos entidades acumuladas) | servidor |
+| Async Locator | Localiza estructuras en un hilo aparte: la brújula del explorador y los mapas ya no congelan el servidor | servidor |
+| FastFurnace, FastWorkbench | Cachean recetas de hornos y mesas de crafteo (menos lag con muchas máquinas) | ambos |
+
+- Descartados a propósito: Starlight (errores de iluminación), Saturn (solapa con ModernFix), Canary (solapa con Radium), C2ME y Dimensional Threading (riesgo de incompatibilidad con mods de mundo) y Universal Optimization (cambia reglas de aparición de mobs).

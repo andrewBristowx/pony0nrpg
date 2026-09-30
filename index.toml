@@ -582,6 +582,11 @@ hash = "0cbc4b2c6b58b7a94f030ae84f18057e5dc78a17bad429f40b8884926a6ab233"
 metafile = true
 
 [[files]]
+file = "mods/almanac.pw.toml"
+hash = "416c089224a401ec7c0ef60ae6f1f8555e783f89ec6aba49d72f41c58d7955d2"
+metafile = true
+
+[[files]]
 file = "mods/apotheosis.pw.toml"
 hash = "9879628ffc31444830369bca2acb00ce0bde37a092ac2ee3f53447b28a6f6f04"
 metafile = true
@@ -609,6 +614,11 @@ metafile = true
 [[files]]
 file = "mods/artifacts.pw.toml"
 hash = "2de33e7d757cfa1108b05247cb59f6db2f08000af824da328322d78cdb7c4c4d"
+metafile = true
+
+[[files]]
+file = "mods/async-locator.pw.toml"
+hash = "511e20af51a55064c02d18ed69caffff6a8b72eeaddaf69a3f5eedfd7d951b85"
 metafile = true
 
 [[files]]
@@ -792,6 +802,16 @@ hash = "c83385838fbf5cdd40684e5f6d4b7bcc2126de4abca229a60b7063e57a5a4615"
 metafile = true
 
 [[files]]
+file = "mods/fastfurnace.pw.toml"
+hash = "372aabbdc69fe63317c017cd8a323e6b8f52ebf070780a3a135be9f67555b8d4"
+metafile = true
+
+[[files]]
+file = "mods/fastworkbench.pw.toml"
+hash = "4720520cedd7c02806b67f67d7e1cf4d610d7dcb65971c21b52d1d2754ab0fad"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "902bac905b93271f02bd0951a22bac06a3da24f5c237fcaeb469e14a7679e508"
 metafile = true
@@ -914,6 +934,11 @@ metafile = true
 [[files]]
 file = "mods/lionfish-api.pw.toml"
 hash = "f3b6b7cd660a91a34a4e18010c9eaacaeb7ff306cadfee14431fa25a15b041ec"
+metafile = true
+
+[[files]]
+file = "mods/lmd.pw.toml"
+hash = "6aa6897a3227a41db128aef512ad6e6cf33e3c3b806973f94bf63a2eed69f4df"
 metafile = true
 
 [[files]]
