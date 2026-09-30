@@ -246,7 +246,11 @@ hash = "b24dda248dfb52e18106446fa1988b3a35bd6b0e5a659bc6cd9afa613f3413d6"
 
 [[files]]
 file = "kubejs/server_scripts/class_gating.js"
-hash = "8f05408fc46a4376cabfe2f8e87f12a81bcfeb9e27b22365c5a93277273d07e1"
+hash = "1f9c7106ec0cdc933394e7f3a725d73211805eefd0cef1af8b95260d4ddbf24d"
+
+[[files]]
+file = "kubejs/startup_scripts/class_gating.js"
+hash = "a6974380d4b4a8b224ac1fc449d2321bc6d1358ce2b04b97e6d3bd1295cd3fec"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
