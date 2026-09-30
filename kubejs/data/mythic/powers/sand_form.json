@@ -1,0 +1,126 @@
+{
+  "type": "origins:multiple",
+  "badges": [
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/block/sand.png",
+      "text": [
+        {
+          "text": "Pulsa ",
+          "color": "#cacaca"
+        },
+        {
+          "keybind": "key.origins.primary_active",
+          "color": "white"
+        },
+        {
+          "text": " para transformarte en ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "forma de arena",
+          "color": "#dcd0a8"
+        },
+        {
+          "text": ". Pulsa de nuevo para revertir.",
+          "color": "#cacaca"
+        }
+      ]
+    },
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/mob_effect/night_vision.png",
+      "text": [
+        {
+          "text": "Mientras estés en ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "forma de arena",
+          "color": "#dcd0a8"
+        },
+        {
+          "text": ", puedes atravesar bloques horizontalmente.",
+          "color": "#cacaca"
+        }
+      ]
+    },
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/mob_effect/slow_falling.png",
+      "text": [
+        {
+          "text": "Mantén ",
+          "color": "#cacaca"
+        },
+        {
+          "keybind": "key.sneak",
+          "color": "white"
+        },
+        {
+          "text": " mientras estás en ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "forma de arena ",
+          "color": "#dcd0a8"
+        },
+        {
+          "text": "para atravesar bloques hacia abajo.",
+          "color": "#cacaca"
+        }
+      ]
+    }
+  ],
+  "toggle": {
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+      "key": "key.origins.primary_active"
+    }
+  },
+  "particle": {
+    "type": "origins:particle",
+    "particle": "minecraft:falling_dust minecraft:sand",
+    "frequency": 4,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  },
+  "phasing": {
+    "type": "origins:phasing",
+    "blacklist": false,
+    "render_type": "none",
+    "view_distance": 10,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    },
+    "phase_down_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "*:*_toggle"
+        },
+        {
+          "type": "origins:sneaking"
+        }
+      ]
+    }
+  },
+  "color": {
+    "type": "origins:model_color",
+    "red": 0.76,
+    "green": 0.698,
+    "blue": 0.5,
+    "alpha": 1,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  },
+  "name": "Forma de Arena",
+  "description": "Transfórmate en arena (tecla principal para alternar). En forma de arena, puedes atravesar bloques horizontalmente y agacharte para atravesarlos hacia abajo."
+}

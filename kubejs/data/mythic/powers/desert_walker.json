@@ -1,0 +1,98 @@
+{
+  "type": "origins:multiple",
+  "badges": [
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/block/sand.png",
+      "text": [
+        {
+          "text": "Te mueves ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "30% más rápido",
+          "color": "#55ffff"
+        },
+        {
+          "text": " sobre la arena.",
+          "color": "#cacaca"
+        }
+      ]
+    },
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/mob_effect/fire_resistance.png",
+      "text": [
+        {
+          "text": "Recibes ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "50% menos de daño",
+          "color": "#55ffff"
+        },
+        {
+          "text": " del fuego.",
+          "color": "#cacaca"
+        }
+      ]
+    },
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/mob_effect/water_breathing.png",
+      "text": [
+        {
+          "text": "Recibes ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "daño con el tiempo",
+          "color": "#ff5555"
+        },
+        {
+          "text": " mientras estás en el agua.",
+          "color": "#cacaca"
+        }
+      ]
+    }
+  ],
+  "speed": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_total",
+      "value": 0.3
+    },
+    "condition": {
+      "type": "origins:on_block",
+      "block_condition": {
+        "type": "origins:block",
+        "block": "minecraft:sand"
+      }
+    }
+  },
+  "fire_resistance": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:fire"
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -0.5
+    }
+  },
+  "water_weakness": {
+    "type": "origins:damage_over_time",
+    "interval": 20,
+    "damage": 1,
+    "condition": {
+      "type": "origins:in_block",
+      "block_condition": {
+        "type": "origins:block",
+        "block": "minecraft:water"
+      }
+    }
+  },
+  "name": "Caminante del Desierto",
+  "description": "Te mueves más rápido sobre la arena y recibes menos daño del fuego, pero recibes daño en el agua."
+}

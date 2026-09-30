@@ -1,0 +1,86 @@
+{
+  "type": "origins:multiple",
+  "badges": [
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/mob_effect/invisibility.png",
+      "text": [
+        {
+          "text": "Mantén ",
+          "color": "#cacaca"
+        },
+        {
+          "keybind": "key.sneak",
+          "color": "white"
+        },
+        {
+          "text": " mientras estás sobre ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "arena",
+          "color": "#dcd0a8"
+        },
+        {
+          "text": " para volverte ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "invisible",
+          "color": "#7fbfff"
+        },
+        {
+          "text": ".",
+          "color": "#cacaca"
+        }
+      ]
+    },
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/item/leather_chestplate.png",
+      "text": [
+        {
+          "text": "Tu ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "armadura se vuelve invisible",
+          "color": "#7fbfff"
+        },
+        {
+          "text": " mientras te agachas.",
+          "color": "#cacaca"
+        }
+      ]
+    }
+  ],
+  "invisibility": {
+    "type": "origins:invisibility",
+    "render_armor": false,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:sneaking"
+        },
+        {
+          "type": "origins:on_block",
+          "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:sand"
+          }
+        }
+      ]
+    }
+  },
+  "particles": {
+    "type": "origins:particle",
+    "particle": "minecraft:portal",
+    "frequency": 2,
+    "condition": {
+      "type": "origins:invisible"
+    }
+  },
+  "name": "Espejismo",
+  "description": "Vuélvete invisible mientras te agachas sobre la arena."
+}

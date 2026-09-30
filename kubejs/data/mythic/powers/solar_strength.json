@@ -1,0 +1,24 @@
+{
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "addition",
+    "value": 2
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:exposed_to_sun"
+      },
+      {
+        "type": "origins:time_of_day",
+        "inverted": true,
+        "comparison": ">",
+        "compare_to": 0.75
+      }
+    ]
+  },
+  "name": "Fuerza Solar",
+  "description": "Tu daño de ataque aumenta durante las horas de luz diurna cuando estás expuesto al sol."
+}

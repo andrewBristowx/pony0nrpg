@@ -1,0 +1,66 @@
+{
+  "type": "origins:fire_projectile",
+  "badges": [
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/item/fire_charge.png",
+      "text": [
+        {
+          "text": "Pulsa ",
+          "color": "#cacaca"
+        },
+        {
+          "keybind": "key.origins.primary_active",
+          "color": "white"
+        },
+        {
+          "text": " para desatar una ráfaga de ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "bolas de fuego",
+          "color": "#ff7f27"
+        },
+        {
+          "text": " a tu alrededor.",
+          "color": "#cacaca"
+        }
+      ]
+    },
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/item/clock_00.png",
+      "text": [
+        {
+          "text": "Esta habilidad tiene un ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "tiempo de reutilización de 10 segundos",
+          "color": "#ff7f27"
+        },
+        {
+          "text": ".",
+          "color": "#cacaca"
+        }
+      ]
+    }
+  ],
+  "entity_type": "minecraft:small_fireball",
+  "cooldown": 200,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+    "bar_index": 7
+  },
+  "count": 5,
+  "speed": 1.5,
+  "divergence": 2,
+  "sound": "minecraft:entity.blaze.shoot",
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "name": "Ráfaga de Llamas",
+  "description": "Libera una ráfaga de bolas de fuego a tu alrededor (tecla principal, 10 s de reutilización)."
+}

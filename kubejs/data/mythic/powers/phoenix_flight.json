@@ -1,0 +1,439 @@
+{
+  "type": "origins:multiple",
+  "badges": [
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/mob_effect/levitation.png",
+      "text": [
+        {
+          "text": "Pulsa ",
+          "color": "#cacaca"
+        },
+        {
+          "keybind": "key.jump",
+          "color": "white"
+        },
+        {
+          "text": " en el aire para empezar a ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "volar",
+          "color": "#ff7f27"
+        },
+        {
+          "text": ". Mantén ",
+          "color": "#cacaca"
+        },
+        {
+          "keybind": "key.jump",
+          "color": "white"
+        },
+        {
+          "text": " para mantener el vuelo.",
+          "color": "#cacaca"
+        }
+      ]
+    },
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/mob_effect/speed.png",
+      "text": [
+        {
+          "text": "Mantén ",
+          "color": "#cacaca"
+        },
+        {
+          "keybind": "key.sneak",
+          "color": "white"
+        },
+        {
+          "text": " mientras ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "vuelas ",
+          "color": "#ff7f27"
+        },
+        {
+          "text": "para impulsarte hacia adelante con mayor velocidad.",
+          "color": "#cacaca"
+        }
+      ]
+    },
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/mob_effect/slow_falling.png",
+      "text": [
+        {
+          "text": "Tus alas ardientes te protegen del daño por caída y te permiten caer con más gracia.",
+          "color": "#cacaca"
+        }
+      ]
+    },
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/item/cooked_chicken.png",
+      "text": [
+        {
+          "text": "Volar ",
+          "color": "#ff7f27"
+        },
+        {
+          "text": "agota lentamente tu hambre. Impulsarte consume más hambre.",
+          "color": "#cacaca"
+        }
+      ]
+    }
+  ],
+  "fly_check": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 4,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "toggle_check": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 2,
+    "hud_render": {
+      "should_render": false
+    },
+    "min_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_fly_check",
+      "change": -4
+    }
+  },
+  "toggle_timer": {
+    "type": "origins:cooldown",
+    "cooldown": 5
+  },
+  "toggle_decay": {
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_toggle_check",
+      "change": -1
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:or",
+          "conditions": [
+            {
+              "type": "origins:resource",
+              "resource": "*:*_toggle_check",
+              "comparison": "==",
+              "compare_to": 2
+            },
+            {
+              "type": "origins:block_collision",
+              "offset_y": -0.7
+            },
+            {
+              "type": "origins:on_block"
+            }
+          ]
+        },
+        {
+          "type": "origins:resource",
+          "resource": "*:*_toggle_check",
+          "comparison": ">",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:resource",
+          "resource": "*:*_toggle_timer",
+          "comparison": "==",
+          "compare_to": 0
+        }
+      ]
+    }
+  },
+  "toggle_jump": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "*:*_toggle_timer"
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "*:*_toggle_check",
+          "change": 1
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "*:*_fly_check",
+          "change": 3
+        },
+        {
+          "type": "origins:set_fall_distance",
+          "fall_distance": 0.1
+        }
+      ]
+    },
+    "cooldown": 1,
+    "key": {
+      "key": "key.jump"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:on_block",
+          "inverted": true
+        },
+        {
+          "type": "origins:block_collision",
+          "offset_y": -0.3,
+          "inverted": true
+        },
+        {
+          "type": "origins:riding",
+          "inverted": true
+        },
+        {
+          "type": "origins:resource",
+          "resource": "*:*_toggle_check",
+          "comparison": "==",
+          "compare_to": 0
+        }
+      ]
+    }
+  },
+  "fly_trigger": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_fly_check",
+      "operation": "set",
+      "change": 4
+    },
+    "cooldown": 0,
+    "key": {
+      "key": "key.jump",
+      "continuous": true
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "*:*_toggle_check",
+          "comparison": ">",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:on_block",
+          "inverted": true
+        }
+      ]
+    }
+  },
+  "fly_tick": {
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:if_else",
+          "condition": {
+            "type": "origins:fall_flying"
+          },
+          "if_action": {
+            "type": "origins:if_else",
+            "condition": {
+              "type": "origins:sneaking"
+            },
+            "if_action": {
+              "type": "origins:and",
+              "actions": [
+                {
+                  "type": "origins:add_velocity",
+                  "space": "local",
+                  "set": true,
+                  "z": 1
+                },
+                {
+                  "type": "origins:exhaust",
+                  "amount": 0.04
+                }
+              ]
+            },
+            "else_action": {
+              "type": "origins:and",
+              "actions": [
+                {
+                  "type": "origins:add_velocity",
+                  "space": "local",
+                  "set": true,
+                  "z": 0.55
+                },
+                {
+                  "type": "origins:exhaust",
+                  "amount": 0.02
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "*:*_fly_check",
+          "change": -1
+        }
+      ]
+    }
+  },
+  "wing_particles": {
+    "type": "origins:particle",
+    "particle": "minecraft:flame",
+    "frequency": 2,
+    "offset_y": 0.3,
+    "offset_x": 1.5,
+    "offset_z": 0.3,
+    "spread": {
+      "x": 0.2,
+      "y": 0.1,
+      "z": 0.2
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_toggle_check",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+  "wing_particles_2": {
+    "type": "origins:particle",
+    "particle": "minecraft:soul_fire_flame",
+    "frequency": 1,
+    "offset_y": 0.3,
+    "offset_x": 2,
+    "offset_z": -0.3,
+    "spread": {
+      "x": 0.2,
+      "y": 0.1,
+      "z": 0.2
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_toggle_check",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+  "trail_particles": {
+    "type": "origins:particle",
+    "particle": "minecraft:flame",
+    "frequency": 3,
+    "spread": {
+      "x": 0.3,
+      "y": 0.2,
+      "z": 0.3
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "*:*_toggle_check",
+          "comparison": ">",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:moving"
+        }
+      ]
+    }
+  },
+  "exhaustion": {
+    "type": "origins:exhaust",
+    "interval": 20,
+    "exhaustion": 0.1,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_toggle_check",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+  "flight_sim": {
+    "type": "origins:elytra_flight",
+    "render_elytra": false,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_fly_check",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+  "no_fall": {
+    "type": "origins:modify_falling",
+    "velocity": 0.03,
+    "take_fall_damage": false
+  },
+  "landing_effect": {
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "particle minecraft:flame ~ ~ ~ 1.5 0.2 1.5 0.2 50"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "particle minecraft:soul_fire_flame ~ ~ ~ 1.2 0.1 1.2 0.15 30"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "particle minecraft:lava ~ ~ ~ 1 0.1 1 0.1 10"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "playsound minecraft:entity.blaze.shoot player @a ~ ~ ~ 1 0.5"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "playsound minecraft:block.fire.extinguish player @a ~ ~ ~ 0.8 0.8"
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "*:*_toggle_check",
+          "comparison": ">",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:or",
+          "conditions": [
+            {
+              "type": "origins:on_block"
+            },
+            {
+              "type": "origins:block_collision",
+              "offset_y": -0.7
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "name": "Alas de Llamas",
+  "description": "Pulsa saltar en el aire para empezar a volar, mantén espacio para mantener el vuelo y agáchate para impulsarte hacia adelante. Tus alas ardientes te protegen del daño por caída y permiten un control preciso en el aire, pero volar agota lentamente tu hambre. Majestuosas alas de llamas se extienden desde tu espalda mientras vuelas."
+}

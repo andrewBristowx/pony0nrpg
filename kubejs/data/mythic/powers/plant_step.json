@@ -1,0 +1,49 @@
+{
+  "type": "origins:multiple",
+  "step": {
+    "type": "origins:prevent_block_selection",
+    "block_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:block",
+          "block": "minecraft:grass"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:tall_grass"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:fern"
+        }
+      ]
+    }
+  },
+  "speed": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_total",
+      "value": 0.2
+    },
+    "condition": {
+      "type": "origins:on_block",
+      "block_condition": {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:block",
+            "block": "minecraft:grass_block"
+          },
+          {
+            "type": "origins:block",
+            "block": "minecraft:dirt"
+          }
+        ]
+      }
+    }
+  },
+  "name": "Paso Vegetal",
+  "description": "Camina a través de las plantas sin romperlas y muévete más rápido sobre terreno natural."
+}

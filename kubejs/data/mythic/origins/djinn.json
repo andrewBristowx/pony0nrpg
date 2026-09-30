@@ -1,0 +1,17 @@
+{
+  "name": "Djinn",
+  "description": "Un espíritu místico del desierto con control sobre la arena y el viento. Maestros del engaño y de la supervivencia en entornos hostiles.",
+  "powers": [
+    "mythic:sand_form",
+    "mythic:desert_walker",
+    "mythic:sandstorm",
+    "mythic:mirage",
+    "mythic:wish_magic"
+  ],
+  "icon": {
+    "item": "minecraft:yellow_dye",
+    "tag": "{CustomModelData:1301}"
+  },
+  "impact": 2,
+  "order": 5
+}

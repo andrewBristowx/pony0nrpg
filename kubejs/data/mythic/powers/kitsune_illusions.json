@@ -1,0 +1,55 @@
+{
+  "type": "origins:multiple",
+  "illusion": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "particle minecraft:campfire_signal_smoke ~ ~ ~ 1 1 1 0.01 100"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "particle minecraft:soul_fire_flame ~ ~1 ~ 1 1 1 0.02 50"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "effect give @s minecraft:invisibility 5 0 true"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "playsound minecraft:entity.fox.ambient player @a ~ ~ ~ 1 0.5"
+        }
+      ]
+    },
+    "cooldown": 300,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+      "bar_index": 5
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    }
+  },
+  "sneak_invis": {
+    "type": "origins:invisibility",
+    "render_armor": false,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:sneaking"
+        },
+        {
+          "type": "origins:time_of_day",
+          "comparison": ">",
+          "compare_to": 0.75
+        }
+      ]
+    }
+  },
+  "name": "Ilusiones de Kitsune",
+  "description": "Crea una cortina de humo mística y vuélvete invisible brevemente (tecla secundaria). También puedes volverte invisible al agacharte de noche."
+}

@@ -1,0 +1,107 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "effect give @e[distance=..15,tag=!predicate=origins:origin(mythic:djinn)] minecraft:blindness 5 0"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "effect give @e[distance=..15,tag=!predicate=origins:origin(mythic:djinn)] minecraft:slowness 5 1"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "particle minecraft:falling_dust minecraft:sand ~ ~ ~ 2.5 1 2.5 1 100"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "playsound minecraft:entity.blaze.shoot player @a ~ ~ ~ 1 0.5"
+      }
+    ]
+  },
+  "cooldown": 300,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 6
+  },
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
+  "name": "Tormenta de Arena",
+  "description": "Crea una cegadora tormenta de arena a tu alrededor que ralentiza a los enemigos (tecla secundaria). Los demás Djinn son inmunes a sus efectos.",
+  "badges": [
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/mob_effect/blindness.png",
+      "text": [
+        {
+          "text": "Pulsa ",
+          "color": "#cacaca"
+        },
+        {
+          "keybind": "key.origins.secondary_active",
+          "color": "white"
+        },
+        {
+          "text": " para crear una ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "tormenta de arena cegadora",
+          "color": "#dcd0a8"
+        },
+        {
+          "text": " que ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "ralentiza a los enemigos",
+          "color": "#ff5555"
+        },
+        {
+          "text": ".",
+          "color": "#cacaca"
+        }
+      ]
+    },
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/mob_effect/hero_of_the_village.png",
+      "text": [
+        {
+          "text": "Afecta a todos los enemigos en un radio de ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "15 bloques",
+          "color": "#55ffff"
+        },
+        {
+          "text": ". Los demás Djinn son inmunes.",
+          "color": "#cacaca"
+        }
+      ]
+    },
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/item/clock_00.png",
+      "text": [
+        {
+          "text": "Esta habilidad tiene un ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "tiempo de reutilización de 15 segundos",
+          "color": "#dcd0a8"
+        },
+        {
+          "text": ".",
+          "color": "#cacaca"
+        }
+      ]
+    }
+  ]
+}

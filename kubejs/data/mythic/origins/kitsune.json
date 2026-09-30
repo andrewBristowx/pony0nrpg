@@ -1,0 +1,17 @@
+{
+  "name": "Kitsune",
+  "description": "Un espíritu zorro místico que se fortalece de noche pero teme a lo sagrado y lo puro. Maestros de la ilusión y del fuego zorro, los Kitsune son embaucadores y cazadores.",
+  "powers": [
+    "mythic:fox_form",
+    "mythic:fox_fire",
+    "mythic:kitsune_illusions",
+    "mythic:fox_agility",
+    "mythic:kitsune_weakness"
+  ],
+  "icon": {
+    "item": "minecraft:yellow_dye",
+    "tag": "{CustomModelData:1303}"
+  },
+  "impact": 2,
+  "order": 2
+}

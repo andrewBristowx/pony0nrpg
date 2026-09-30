@@ -1,0 +1,17 @@
+{
+  "name": "Druida",
+  "description": "Un guardián de la naturaleza con la capacidad de controlar las plantas y comunicarse con los animales. Al obtener su poder del mundo natural, los Druidas son más fuertes en los bosques pero se debilitan bajo tierra.",
+  "powers": [
+    "mythic:forest_blend",
+    "mythic:plant_step",
+    "mythic:natural_healing",
+    "mythic:nature_weakness",
+    "mythic:vegetarian"
+  ],
+  "icon": {
+    "item": "minecraft:yellow_dye",
+    "tag": "{CustomModelData:1302}"
+  },
+  "impact": 2,
+  "order": 3
+}

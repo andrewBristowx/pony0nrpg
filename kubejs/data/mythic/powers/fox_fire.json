@@ -1,0 +1,115 @@
+{
+  "type": "origins:multiple",
+  "badges": [
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/mob_effect/glowing.png",
+      "text": [
+        {
+          "text": "Pulsa ",
+          "color": "#cacaca"
+        },
+        {
+          "keybind": "key.origins.primary_active",
+          "color": "white"
+        },
+        {
+          "text": " para revelar y debilitar a las criaturas cercanas con ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "fuego zorro",
+          "color": "#7fbfff"
+        },
+        {
+          "text": ".",
+          "color": "#cacaca"
+        }
+      ]
+    },
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/item/clock_00.png",
+      "text": [
+        {
+          "text": "Esta habilidad tiene un ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "tiempo de reutilización de 10 segundos",
+          "color": "#7fbfff"
+        },
+        {
+          "text": ".",
+          "color": "#cacaca"
+        }
+      ]
+    },
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/mob_effect/strength.png",
+      "text": [
+        {
+          "text": "Tu poder aumenta un ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "30%",
+          "color": "#ff5555"
+        },
+        {
+          "text": " durante la noche.",
+          "color": "#cacaca"
+        }
+      ]
+    }
+  ],
+  "fox_fire": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "particle minecraft:soul_fire_flame ~ ~1 ~ 0.5 0.5 0.5 0.05 20"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "effect give @e[distance=..50,type=!minecraft:player] minecraft:glowing 10 0"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "effect give @e[distance=..50,type=!minecraft:player] minecraft:weakness 10 1"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "playsound minecraft:entity.fox.screech player @a ~ ~ ~ 1 1.5"
+        }
+      ]
+    },
+    "cooldown": 200,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/resource_bar.png",
+      "bar_index": 7
+    },
+    "key": {
+      "key": "key.origins.primary_active"
+    }
+  },
+  "night_power": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "multiply_total",
+      "value": 0.3
+    },
+    "condition": {
+      "type": "origins:time_of_day",
+      "comparison": ">",
+      "compare_to": 0.75
+    }
+  },
+  "name": "Fuego Zorro",
+  "description": "Canaliza el místico fuego zorro para revelar y debilitar a las criaturas cercanas (tecla principal). Tu poder aumenta de noche."
+}

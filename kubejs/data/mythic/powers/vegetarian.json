@@ -1,0 +1,36 @@
+{
+  "type": "origins:multiple",
+  "meat_weakness": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:meat"
+    },
+    "food_modifier": {
+      "operation": "multiply_total",
+      "value": -0.5
+    },
+    "saturation_modifier": {
+      "operation": "multiply_total",
+      "value": -0.5
+    }
+  },
+  "meat_sickness": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:nausea",
+        "duration": 200,
+        "amplifier": 0
+      }
+    },
+    "condition": {
+      "type": "origins:consumed_item",
+      "item_condition": {
+        "type": "origins:meat"
+      }
+    }
+  },
+  "name": "Vegetariano",
+  "description": "No puedes digerir la carne eficazmente. Comerla aporta menos nutrición y causa náuseas."
+}

@@ -1,0 +1,37 @@
+{
+  "type": "origins:multiple",
+  "fire_immunity": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:fire"
+        },
+        {
+          "type": "origins:name",
+          "name": "on_fire"
+        },
+        {
+          "type": "origins:name",
+          "name": "lava"
+        }
+      ]
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -1
+    }
+  },
+  "fire_effect_immunity": {
+    "type": "origins:effect_immunity",
+    "effects": [
+      "minecraft:fire_resistance"
+    ]
+  },
+  "fire_particles": {
+    "type": "origins:fire_immunity"
+  },
+  "name": "Inmunidad al Fuego",
+  "description": "Eres completamente inmune a todas las formas de daño por fuego y lava, y no puedes ser prendido en llamas."
+}

@@ -1,0 +1,71 @@
+{
+  "type": "origins:multiple",
+  "holy_weakness": {
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": 0.5
+    },
+    "damage_condition": {
+      "type": "origins:attacker",
+      "entity_condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "minecraft:golden_sword"
+          }
+        }
+      }
+    }
+  },
+  "dog_reveal": {
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:glowing",
+            "duration": 40,
+            "amplifier": 0
+          },
+          "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:wolf",
+            "distance": 10
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute if entity @e[type=wolf,distance=..10] run playsound minecraft:entity.wolf.growl player @a ~ ~ ~ 0.5 1"
+        }
+      ]
+    }
+  },
+  "daylight_weakness": {
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -0.3
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:time_of_day",
+          "comparison": "<",
+          "compare_to": 0.75
+        },
+        {
+          "type": "origins:in_daylight"
+        }
+      ]
+    }
+  },
+  "name": "Vulnerabilidades del Kitsune",
+  "description": "Como en el folclore japonés, eres vulnerable a las armas de oro puro y los lobos pueden detectarte, pues perciben tu verdadera naturaleza. Como muchos yokai, tus poderes disminuyen a la luz del día."
+}

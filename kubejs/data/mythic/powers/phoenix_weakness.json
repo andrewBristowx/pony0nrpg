@@ -1,0 +1,186 @@
+{
+  "type": "origins:multiple",
+  "badges": [
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/mob_effect/water_breathing.png",
+      "text": [
+        {
+          "text": "Recibes ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "2 de daño",
+          "color": "#ff5555"
+        },
+        {
+          "text": " cada ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "0,5 segundos",
+          "color": "#ff5555"
+        },
+        {
+          "text": " en el agua o bajo la lluvia.",
+          "color": "#cacaca"
+        }
+      ]
+    },
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/block/powder_snow.png",
+      "text": [
+        {
+          "text": "Recibes ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "1 de daño",
+          "color": "#ff5555"
+        },
+        {
+          "text": " por segundo en nieve en polvo.",
+          "color": "#cacaca"
+        }
+      ]
+    },
+    {
+      "type": "origins:tooltip",
+      "sprite": "minecraft:textures/mob_effect/slowness.png",
+      "text": [
+        {
+          "text": "El daño por ahogamiento y por congelación es ",
+          "color": "#cacaca"
+        },
+        {
+          "text": "el doble",
+          "color": "#ff5555"
+        },
+        {
+          "text": ".",
+          "color": "#cacaca"
+        }
+      ]
+    }
+  ],
+  "water_damage": {
+    "type": "origins:action_over_time",
+    "interval": 10,
+    "entity_action": {
+      "type": "origins:damage",
+      "amount": 2,
+      "source": {
+        "name": "phoenix.extinguish",
+        "bypasses_armor": true,
+        "unblockable": true,
+        "fire": false,
+        "magic": true
+      }
+    },
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:fluid_height",
+          "fluid": "minecraft:water",
+          "comparison": ">",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:in_rain"
+        }
+      ]
+    }
+  },
+  "snow_vulnerability": {
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+      "type": "origins:damage",
+      "amount": 1,
+      "source": {
+        "name": "generic.freeze",
+        "bypasses_armor": true,
+        "unblockable": true
+      }
+    },
+    "condition": {
+      "type": "origins:in_block",
+      "block": "minecraft:powder_snow"
+    }
+  },
+  "drowning_amplifier": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "drown"
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": 2
+    }
+  },
+  "freeze_amplifier": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "freeze"
+    },
+    "modifier": {
+      "operation": "multiply_total",
+      "value": 2
+    }
+  },
+  "flame_extinguish": {
+    "type": "origins:action_over_time",
+    "interval": 2,
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:weakness",
+            "duration": 100,
+            "amplifier": 1
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "particle minecraft:large_smoke ~ ~1 ~ 0.2 0.4 0.2 0.05 3"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "particle minecraft:cloud ~ ~0.5 ~ 0.2 0.2 0.2 0.01 1"
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "block.fire.extinguish",
+          "volume": 0.3,
+          "pitch": 1.5
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:fluid_height",
+          "fluid": "minecraft:water",
+          "comparison": ">",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:in_rain"
+        },
+        {
+          "type": "origins:in_block",
+          "block": "minecraft:powder_snow"
+        }
+      ]
+    }
+  },
+  "name": "Llama Eterna",
+  "description": "Al ser una criatura de fuego puro, el agua y la nieve te causan intenso dolor y debilidad. Estas fuerzas pueden apagar temporalmente tu fuego interior, debilitándote considerablemente."
+}

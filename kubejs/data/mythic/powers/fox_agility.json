@@ -1,0 +1,21 @@
+{
+  "type": "origins:multiple",
+  "jump": {
+    "type": "origins:modify_jump",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": 0.5
+    }
+  },
+  "fall": {
+    "type": "origins:modify_falling",
+    "velocity": 0.12,
+    "take_fall_damage": false
+  },
+  "sprint": {
+    "type": "origins:sprint_jumping",
+    "speed": 0.3
+  },
+  "name": "Agilidad de Zorro",
+  "description": "Mayor capacidad de salto, menor daño por caída y mejores saltos al correr."
+}

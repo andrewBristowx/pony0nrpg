@@ -1,0 +1,53 @@
+{
+  "type": "origins:multiple",
+  "mining_weakness": {
+    "type": "origins:modify_break_speed",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": -0.3
+    },
+    "block_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:block",
+          "block": "minecraft:stone"
+        },
+        {
+          "type": "origins:block",
+          "block": "minecraft:deepslate"
+        },
+        {
+          "type": "origins:in_tag",
+          "tag": "minecraft:base_stone_overworld"
+        }
+      ]
+    }
+  },
+  "underground_weakness": {
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+      "operation": "multiply_total",
+      "value": 0.5
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:block_collision",
+          "offset_y": 3
+        },
+        {
+          "type": "origins:in_block_anywhere",
+          "block_condition": {
+            "type": "origins:height",
+            "comparison": "<",
+            "compare_to": 60
+          }
+        }
+      ]
+    }
+  },
+  "name": "Llamado de la Naturaleza",
+  "description": "Minas la piedra mucho más lento y recibes más daño cuando estás bajo tierra, lejos de la influencia de la naturaleza."
+}

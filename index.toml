@@ -337,6 +337,106 @@ file = "kubejs/data/medievalorigins/origin_layers/magic_subclasses.json"
 hash = "ee1595b7d55125848ad38cabfd97d90e5786a6381c696b93dc08e03680c3febe"
 
 [[files]]
+file = "kubejs/data/mythic/origins/djinn.json"
+hash = "58397a28c53212a428c388299ab101b0987bc46158086197fa20004ce5c1269d"
+
+[[files]]
+file = "kubejs/data/mythic/origins/druid.json"
+hash = "fd0c5e29ae3a9e3b715ee610d88f03a4a0f136bb6786ab51fa873f20e9e4a5f6"
+
+[[files]]
+file = "kubejs/data/mythic/origins/kitsune.json"
+hash = "645a73a6fff4d6f9a63aa35def8cbcb9933125483d2a5f976856a78432f9941a"
+
+[[files]]
+file = "kubejs/data/mythic/origins/phoenix.json"
+hash = "7771071bf98d5c26fb1c0f03e5e691de8c306564694e60e6606caf7deba5167b"
+
+[[files]]
+file = "kubejs/data/mythic/powers/desert_walker.json"
+hash = "28916d9537dee5a4da417ebf5237907c19b04aed163c5f06f2b9383829ba01b9"
+
+[[files]]
+file = "kubejs/data/mythic/powers/fire_immunity.json"
+hash = "023c65a98ee480bac1d463304faa954bd2cdf23be17faca360bcc80935f317e2"
+
+[[files]]
+file = "kubejs/data/mythic/powers/flame_burst.json"
+hash = "ebad3a94eadd06cafeef1296931df21d8c34fd0f73b6e8bc47112b2aff43f90a"
+
+[[files]]
+file = "kubejs/data/mythic/powers/forest_blend.json"
+hash = "a89f77e9b4228e03c4950e1e0203ff51967076df8f1d0b696aadfe8450afee7c"
+
+[[files]]
+file = "kubejs/data/mythic/powers/fox_agility.json"
+hash = "1120c2ad5a22fb4993ec39f5a9038a5a3581824fe10770dfc87b53f96560a645"
+
+[[files]]
+file = "kubejs/data/mythic/powers/fox_fire.json"
+hash = "9654eafff0cf0d19d120a892768745981ff64a2720224a4c76ceaa42669d3961"
+
+[[files]]
+file = "kubejs/data/mythic/powers/fox_form.json"
+hash = "324981ed6bca7255d58b97d540f8cbdf3a1f536b51c935ef4d94e203fa7ccfe6"
+
+[[files]]
+file = "kubejs/data/mythic/powers/kitsune_illusions.json"
+hash = "9aa9075ea53c3b393b54628485bf1c37e0f84b3588685b47169d650ac6da2ce2"
+
+[[files]]
+file = "kubejs/data/mythic/powers/kitsune_weakness.json"
+hash = "3b0fdb77d142e36e7495dbc82972a3a1d559df2b9e4dab14abcbee3e03561667"
+
+[[files]]
+file = "kubejs/data/mythic/powers/mirage.json"
+hash = "f1b8bc11a44f0dc1b98cd58cab5775e92a685b7a546baa4a7a1150f4540e09aa"
+
+[[files]]
+file = "kubejs/data/mythic/powers/natural_healing.json"
+hash = "9a9cc8151bbb2129019050dd5001b33aaa55772ca0214ee3e7786ac94149d798"
+
+[[files]]
+file = "kubejs/data/mythic/powers/nature_weakness.json"
+hash = "b44237f7db620d4774d5c9e2399fbf958cb49d2bcfe0456775855f939c979fa5"
+
+[[files]]
+file = "kubejs/data/mythic/powers/phoenix_flight.json"
+hash = "6abc8ad5a711f77c5e03eddbc57aff99beb56f74fbfa733086fba5c2f4f69f6e"
+
+[[files]]
+file = "kubejs/data/mythic/powers/phoenix_weakness.json"
+hash = "14728670ff2c636daed9036a78c0b4e4a43c635d4d2046bb53ad73e5174f56b6"
+
+[[files]]
+file = "kubejs/data/mythic/powers/plant_step.json"
+hash = "0b2e909d088c0c5e4870a8a52a9933cd2070239bd01aea5e0c9ebc2b352fdc70"
+
+[[files]]
+file = "kubejs/data/mythic/powers/rebirth.json"
+hash = "b5a18762dbd6781b1f5245e4e7db1a045549e214839a010912498181675a504a"
+
+[[files]]
+file = "kubejs/data/mythic/powers/sand_form.json"
+hash = "e17df2bf0e85beef41c0c700d4b446de7b51385128f7c5308a8b826ee246cd01"
+
+[[files]]
+file = "kubejs/data/mythic/powers/sandstorm.json"
+hash = "a0c826feb9db117fbbd4f672ac038f35b53a5a66870669ba48a9befc50715c83"
+
+[[files]]
+file = "kubejs/data/mythic/powers/solar_strength.json"
+hash = "70516fce938a66ffa895b8570ae813e1f3cab3ca0a09beb70ed036144693a398"
+
+[[files]]
+file = "kubejs/data/mythic/powers/vegetarian.json"
+hash = "e83610b5677c1dabc0810a0abcadcd02dc7b296fff932d5ee20aa103bcf33dd5"
+
+[[files]]
+file = "kubejs/data/mythic/powers/wish_magic.json"
+hash = "9c9c8c60e6cdd42478f529d1e7e07e0b8fdb21abbe48917105b2c2c5fe186a49"
+
+[[files]]
 file = "kubejs/data/origins/origin_layers/origin.json"
 hash = "0e5d94d30c4a61c470208bcfc4ec39ae768d72fb12c83dffbe65250d27a30d87"
 
