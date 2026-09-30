@@ -1,6 +1,6 @@
 # Servidor Pony0n RPG — mods para el hosting
 
-**Sube a la carpeta `mods/` de tu hosting los 114 jars de [`server/mods/`](mods/)** (lista exacta en [`MODS.txt`](MODS.txt)). Para subirlos de una vez hay un zip: `dist/Pony0nRPG-server-mods.zip` (549 MB, jars planos; descomprímelo dentro de `mods/`). No hace falta instalar Forge ni nada más en tu PC.
+**Sube a la carpeta `mods/` de tu hosting los 115 jars de [`server/mods/`](mods/)** (lista exacta en [`MODS.txt`](MODS.txt)). Para subirlos de una vez hay un zip: `dist/Pony0nRPG-server-mods.zip` (549 MB, jars planos; descomprímelo dentro de `mods/`). No hace falta instalar Forge ni nada más en tu PC.
 
 ## Además de los mods: configuración del servidor
 
@@ -19,11 +19,11 @@ Tras el primer arranque hay que aceptar la EULA de Mojang en `eula.txt` (`eula=t
 
 ## Qué se probó y qué no
 
-- **Probado:** un servidor Forge 1.20.1 (Java 17) cargó los 114 mods hasta la comprobación de la EULA. Es decir: todos son de Forge, no falta ninguna dependencia obligatoria y no hay conflictos de módulos.
+- **Probado:** un servidor Forge 1.20.1 (Java 17) cargó los 115 mods hasta la comprobación de la EULA. Es decir: todos son de Forge, no falta ninguna dependencia obligatoria y no hay conflictos de módulos.
 - **No probado:** la carga completa (registros, mundo, generación de estructuras, jugadores). Eso solo se ve arrancando de verdad tras aceptar la EULA. Si en el primer arranque hay un fallo, mándame el `crash-report` o `latest.log`.
 - Durante la prueba aparecieron 6 dependencias que packwiz no detectó (Kotlin for Forge, Zeta, Iron's Lib, Moonlight Lib…) y un conflicto (S-Lib vs Create Crafts & Additions). Ya están corregidos en estos 108.
 
-## Qué hay en `mods/` (114 jars)
+## Qué hay en `mods/` (115 jars)
 
 **Contenido de juego**
 - Misiones/equipos: FTB Quests, FTB Teams, FTB Library, FTB Chunks, FTB Ranks, FTB Quests Optimizer
@@ -34,7 +34,7 @@ Tras el primer arranque hay que aceptar la EULA de Mojang en `eula.txt` (`eula=t
 - Tecnología/otros: Mekanism (+ Generators, Additions), Powah, Applied Energistics 2 (+ GuideME), Ad Astra, Farmer's Delight, Sophisticated Backpacks/Storage
 - Mundo: Structory, Dungeons and Taverns, Integrated Dungeons and Structures (trae Quark y Supplementaries como dependencia), YUNG's Better Dungeons, When Dungeons Arise, Dungeon Crawl, Repurposed Structures, Alex's Caves, Deeper and Darker, Explorer's/Nature's Compass, Waystones
 - Bosses/dimensiones: L_Ender's Cataclysm, Mowzie's Mobs, Bosses of Mass Destruction, Ice and Fire, The Twilight Forest, The Aether, The Undergarden
-- Razas y clases: Origins (Forge), Medieval Origins Revival, Mythic Origins (+ Caelus API, Icarus, Pehkui). Las clases y el resto de la capa de Origins son un datapack de KubeJS (`kubejs/data/`)
+- Razas y clases: Origins (Forge), Medieval Origins Revival, Mythic Origins (+ Caelus API, Icarus 2.13.2, Common Network, Pehkui). Las clases y el resto de la capa de Origins son un datapack de KubeJS (`kubejs/data/`)
 - Voz: Simple Voice Chat
 
 **Optimización y administración de servidor**
