@@ -6,6 +6,18 @@
 
 Como el hosting no ejecuta packwiz, hay que subir **a mano** la configuración de habilidades, oficios, misiones y bloqueo de clase: `dist/Pony0nRPG-server-config.zip` (se regenera con `tools/make-server-config.ps1`). Descomprímelo en la **raíz** del servidor (crea `config/puffish_skills/`, `config/ftbquests/` y `kubejs/`). Cada vez que cambie algo de esas carpetas hay que volver a subirlo.
 
+## Actualización automática en el hosting (Pterodactyl / HolyHosting)
+
+El hosting puede ejecutar un `start.sh`, así que el servidor se actualiza solo con packwiz, igual que el cliente:
+
+1. Sube a la **raíz** del servidor `server/start.sh` y `server/packwiz-installer-bootstrap.jar` (hay copias en `dist/hosting/`).
+2. En el gestor de archivos, **Permisos** de `start.sh` -> 755 (ejecución).
+3. **Arranque** -> Comando predefinido: *Utilizar FLAGS Customizadas (crear manualmente un start.sh…)*.
+4. **Una sola vez**, antes del primer arranque: vacía la carpeta `mods/` (así no quedan jars subidos a mano que dupliquen los del instalador).
+5. Reinicia. `start.sh` baja los mods/config/scripts desde `main`, calcula la memoria (75 % del límite, máx. 12 GB) y arranca Forge con flags de Aikar.
+
+Cada reinicio deja el servidor igual que `main`: los mods quitados del pack se borran solos y los añadidos se descargan. Por eso solo se mezcla a `main` lo ya probado. Si GitHub no responde, arranca con los mods que ya había.
+
 ## Qué pedir al hosting
 
 | | |
