@@ -99,19 +99,62 @@ Nada de esto significa "compatible": eso se comprueba en el prototipo (`docs/06`
 | Blue Skies ✅ | 1.3.31 | Dimensiones de cielo | 8 | S | Elegir Aether *o* Blue Skies si el pack pesa. |
 | The Undergarden ✅ | 0.8.14 | Dimensión oscura | 8 | S | |
 
-## Rendimiento y calidad de vida
+## Optimización, shaders y administración (ya añadidos al pack)
+
+Estos ya están en el repo (carpetas `mods/` y `shaderpacks/`). Lado: **C** = solo cliente, **S** = solo servidor, **A** = ambos. Los lados están fijados a mano porque packwiz los marcaba como "both" en varios mods que solo sirven en un lado.
 
 | Mod | Versión | Rol | Lado |
 |---|---|---|---|
-| Embeddium ✅ + Oculus ✅ | 0.3.31 / 1.8.0 | Render (Sodium/Iris en Forge); shaders opcionales | C |
-| FerriteCore ✅ / ModernFix ✅ | 6.0.1 / 5.27.83 | Memoria y arranque | S |
-| Saturn ✅ | 0.1.3 | Memoria | S (opcional; probar si suma sobre ModernFix) |
-| Spark ✅ | 1.10.53 | Perfilado | S |
-| Chunky ✅ | 1.3.146 | Pregenerar mundo | S* |
+| Embeddium | 0.3.31 | Render (equivalente a Sodium en Forge) | C |
+| Embeddium (Rubidium) Extra | 0.5.4.4 | Opciones extra de vídeo para Embeddium | C |
+| Oculus | 1.8.0 | Motor de shaders (equivalente a Iris) | C |
+| ImmediatelyFast | 1.2.7 | Renderizado más rápido de HUD y texto | C |
+| Entity Culling | 1.11.2 | No dibuja entidades ocultas | C |
+| Cull Leaves | 4.1.1 (+ MidnightLib) | Hojas más baratas de dibujar | C |
+| Dynamic FPS | 3.11.4 | Baja FPS con la ventana en segundo plano | C |
+| BadOptimizations | 2.4.1 | Pequeñas optimizaciones de render y chunks | C |
+| FerriteCore | 6.0.1 | Menos RAM | A |
+| ModernFix | 5.27.83 | Arranque rápido y menos RAM | A |
+| Memory Leak Fix | 1.1.5 | Corrige fugas de memoria | A |
+| Clumps | 12.0.0.4 | Agrupa orbes de experiencia | A |
+| Neruina | 3.3.3 | Evita crashes por entidades/bloques rotos | A |
+| Packet Fixer | 3.3.2 | Evita desconexiones por paquetes grandes | A |
+| Better Compatibility Checker | build.58 | Avisa si cliente y servidor no coinciden | A |
+| spark | 1.10.53 | Perfilado (TPS/MSPT) | A |
+| Radium | 0.12.4 | Optimiza el motor del servidor (tipo Lithium) | S |
+| ServerCore | 1.5.2 | Optimiza mobs, chunks y ticks | S |
+| AI Improvements | 0.5.2 | Menos coste de IA de mobs | S |
+| Noisium | 2.0.1 | Generación de terreno más rápida | S |
+| Ksyxis | 1.4.5 | Carga del mundo más rápida | S |
+| Chunky | 1.3.146 | Pregenerar mundo | S |
+| LuckPerms | 5.4.102 | Permisos | S |
+
+**Shaders** (en `shaderpacks/`, solo cliente; no se activa ninguno por defecto, cada jugador elige en *Opciones → Shaders*):
+
+| Pack | Versión | Perfil |
+|---|---|---|
+| MakeUp – Ultra Fast | 9.5f | PC modestos |
+| Complementary Reimagined | r5.9.3 | Equilibrado (recomendado por defecto) |
+| Complementary Unbound | r5.9.3 | Más bonito, más pesado |
+| BSL Shaders | 10.1.8 | Clásico, pesado |
+
+### Notas y riesgos
+
+- **Versiones no siempre las más nuevas:** packwiz eligió la versión más reciente *por fecha* de Modrinth, y en ImmediatelyFast, Noisium y Better Compatibility Checker eso es una versión anterior a la más alta numerada. Es válida para 1.20.1, pero si se quiere la última hay que fijarla a mano. Se decide en el prototipo.
+- **Radium (tipo Lithium) y Create:** los ports de Lithium a veces chocan con mecánicas de Create. Se prueba al añadir Create (fase 2); si falla, se quita Radium.
+- **ServerCore:** revisar su configuración; cambia comportamientos de mobs.
+- **Solapes evitados:** Saturn (solapa con ModernFix), Starlight (problemas de iluminación) y Fastload (lo cubre Ksyxis) no se han añadido.
+- **Pendientes con shaders:** "Iris/Oculus & GeckoLib Compat" y "Iris & Oculus Flywheel Compat" arreglan entidades invisibles con shaders en mods de GeckoLib y en Create. Se probaron a añadir, pero se retiraron porque dependen de mods que aún no están en el pack (GeckoLib, Create). Se añaden en la fase 2 junto con esos mods.
+- Ninguno está probado en un arranque real de cliente ni de servidor.
+
+## Calidad de vida (pendiente de añadir)
+
+| Mod | Versión | Rol | Lado |
+|---|---|---|---|
 | JEI ✅ (o EMI ✅ 1.1.24) | 15.62 | Recetas | C |
 | Jade ✅ | 11.13.3 | Info de bloques | C |
 | AppleSkin ✅, Mouse Tweaks ✅, Xaero's Minimap/World Map ✅ | — | QoL | C |
-| Simple Voice Chat ✅ | 2.6.24 | Voz de proximidad (cooperativo) | S |
+| Simple Voice Chat ✅ | 2.6.24 | Voz de proximidad (cooperativo) | A |
 | FancyMenu ✅ | 3.9.14 | Pantalla de título/branding | C (opcional) |
 
 Elegir **JEI o EMI**, no ambos.

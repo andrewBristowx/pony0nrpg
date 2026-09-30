@@ -1,1 +1,23 @@
 dist/
+
+# Servidor: solo se versionan los scripts y el README; jars, mundo y logs no
+server/mods/
+server/packwiz-installer.jar
+server/packwiz.json
+server/libraries/
+server/world/
+server/logs/
+server/crash-reports/
+server/forge-installer.jar
+server/*.log
+server/eula.txt
+server/server.properties
+server/user_jvm_args.txt
+server/run.bat
+server/run.sh
+server/config/
+server/defaultconfigs/
+server/whitelist.json
+server/ops.json
+server/banned-*.json
+server/usercache.json

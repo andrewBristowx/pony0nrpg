@@ -2,7 +2,7 @@
 
 Servidor y modpack de **RPG + aventura + exploración + Create + tecnología + magia**, donde las misiones (FTB Quests) funcionan como manual interactivo del pack.
 
-**Estado: fase de diseño.** No hay mods instalados todavía. Este repositorio contiene el plan; el pack packwiz se inicializa en la fase 1 (ver `docs/05-infra-packwiz.md`).
+**Estado: fase de diseño + base de rendimiento.** El pack ya incluye mods de optimización y shaders; el contenido de juego entra en las fases 1 y 2. Los mods de servidor están en [`server/`](server/README.md).
 
 ## Decisiones tomadas
 
