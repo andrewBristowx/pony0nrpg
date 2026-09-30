@@ -9,7 +9,7 @@ Add-Type -AssemblyName System.IO.Compression
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 $fs = [IO.File]::Open($zip, [IO.FileMode]::Create)
 $archive = New-Object IO.Compression.ZipArchive($fs, [IO.Compression.ZipArchiveMode]::Create)
-foreach ($dir in @("config\puffish_skills", "kubejs")) {
+foreach ($dir in @("config\puffish_skills", "config\ftbquests", "kubejs")) {
     Get-ChildItem (Join-Path $root $dir) -Recurse -File | ForEach-Object {
         $entry = $_.FullName.Substring($root.Length + 1).Replace("\", "/")
         [IO.Compression.ZipFileExtensions]::CreateEntryFromFile($archive, $_.FullName, $entry) | Out-Null
