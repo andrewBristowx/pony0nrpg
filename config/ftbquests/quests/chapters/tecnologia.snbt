@@ -51,7 +51,7 @@
 			subtitle: "De fuerza a electricidad"
 			description: ["El alternador convierte fuerza rotatoria en electricidad. El motor eléctrico hace lo contrario: convierte electricidad en fuerza."]
 			icon: "createaddition:alternator"
-			x: 2d
+			x: 2.5d
 			y: 0.5d
 			dependencies: ["A172BC3B18A57A27"]
 			tasks: [
@@ -88,7 +88,7 @@
 			subtitle: "Transporte de energía"
 			description: ["Los conectores unen máquinas con cable. Cuidado con la distancia y con la pérdida por hilo fino."]
 			icon: "createaddition:connector"
-			x: 3.5d
+			x: 4.5d
 			y: 0.5d
 			dependencies: ["862160E0F3BA21DB"]
 			tasks: [
@@ -126,7 +126,7 @@
 			subtitle: "Hilos y varillas"
 			description: ["El laminador convierte placas en varillas y cables de distintos metales."]
 			icon: "createaddition:rolling_mill"
-			x: 5d
+			x: 6.5d
 			y: 0.5d
 			optional: true
 			dependencies: ["FCE9D77E5744EA27"]
@@ -157,7 +157,7 @@
 				"Guarda la energía en una celda."
 			]
 			icon: "powah:furnator_starter"
-			x: 2d
+			x: 2.5d
 			y: 2d
 			dependencies: ["A172BC3B18A57A27"]
 			tasks: [
@@ -193,8 +193,8 @@
 			subtitle: "Almacenar"
 			description: ["Una celda de energía básica almacena mucho más. Mejora todo tu sistema con celdas mayores."]
 			icon: "powah:energy_cell_basic"
-			x: 3.5d
-			y: 2d
+			x: 4.5d
+			y: 3.5d
 			dependencies: ["F99D2CB2D4EDFB7A"]
 			tasks: [
 				{
@@ -223,8 +223,8 @@
 				"Empieza con circuitos de control básicos."
 			]
 			icon: "mekanism:enrichment_chamber"
-			x: 3.5d
-			y: 3.5d
+			x: 4.5d
+			y: 2d
 			dependencies: ["862160E0F3BA21DB"]
 			tasks: [
 				{
@@ -261,7 +261,7 @@
 			subtitle: "El metal de Mekanism"
 			description: ["El osmio es la base de Mekanism. Mínalo en cuevas y fúndelo."]
 			icon: "mekanism:ingot_osmium"
-			x: 5d
+			x: 6.5d
 			y: 2d
 			dependencies: ["D7DB47F7D5C43B18"]
 			tasks: [
@@ -295,8 +295,8 @@
 			subtitle: "Infusión"
 			description: ["El infusor metalúrgico mezcla materiales; con él fabricas acero y aleaciones de infusión."]
 			icon: "mekanism:metallurgic_infuser"
-			x: 6.5d
-			y: 0.5d
+			x: 8.5d
+			y: 2d
 			dependencies: ["5C41BCBC32FB0AD0"]
 			tasks: [
 				{
@@ -332,8 +332,8 @@
 			subtitle: "Multiplica tus minerales"
 			description: ["Con trituradora y cámara de purificación, cada mineral da varias veces más lingotes."]
 			icon: "mekanism:crusher"
-			x: 8d
-			y: 0.5d
+			x: 10.5d
+			y: 2d
 			dependencies: ["E36F8C4FF3D2A5BB"]
 			tasks: [
 				{
@@ -369,8 +369,8 @@
 			subtitle: "Almacén de energía"
 			description: ["Los cubos de energía guardan grandes cantidades y se conectan con cables universales."]
 			icon: "mekanism:basic_energy_cube"
-			x: 8d
-			y: 2d
+			x: 10.5d
+			y: 3.5d
 			dependencies: ["E36F8C4FF3D2A5BB"]
 			tasks: [
 				{
@@ -401,8 +401,8 @@
 			subtitle: "Tu robot personal"
 			description: ["El robit es un ayudante que recoge objetos y te sigue. Es muy básico, pero divertido."]
 			icon: "mekanism:robit"
-			x: 9.5d
-			y: 0.5d
+			x: 12.5d
+			y: 3.5d
 			optional: true
 			dependencies: ["B16E6C0F19F6AF4C", "8F4D7DFC604A06EC"]
 			tasks: [
@@ -432,7 +432,7 @@
 				"Un cargador convierte cuarzo certus en cuarzo cargado."
 			]
 			icon: "ae2:certus_quartz_crystal"
-			x: 2d
+			x: 2.5d
 			y: 3.5d
 			dependencies: ["A172BC3B18A57A27"]
 			tasks: [
@@ -470,7 +470,7 @@
 			subtitle: "Controlador y unidades"
 			description: ["Una red de ME necesita energía, un controlador, una unidad de disco y un terminal. Conecta todo con cables."]
 			icon: "ae2:controller"
-			x: 3.5d
+			x: 4.5d
 			y: 5d
 			dependencies: ["F6C4E233CB747E07"]
 			tasks: [
@@ -521,8 +521,8 @@
 				"Un mecanismo de precisión de Create viene muy bien en esta etapa."
 			]
 			icon: "ae2:inscriber"
-			x: 5d
-			y: 3.5d
+			x: 6.5d
+			y: 5d
 			dependencies: ["BDA57587C5554562"]
 			tasks: [
 				{
@@ -570,8 +570,8 @@
 			subtitle: "Fabricación automática"
 			description: ["Con un proveedor de patrones, un ensamblador molecular y una unidad de crafteo, tu red fabrica lo que le pidas."]
 			icon: "ae2:pattern_provider"
-			x: 6.5d
-			y: 2d
+			x: 8.5d
+			y: 5d
 			dependencies: ["661472E3C58175D2"]
 			tasks: [
 				{
@@ -617,8 +617,8 @@
 			subtitle: "De Create"
 			description: ["Los procesadores avanzados se apoyan en componentes de Create. Si no tienes mecanismos de precisión, vuelve al capítulo 4."]
 			icon: "create:precision_mechanism"
-			x: 5d
-			y: 5d
+			x: 6.5d
+			y: 6.5d
 			optional: true
 			dependencies: ["BDA57587C5554562"]
 			tasks: [
@@ -649,8 +649,8 @@
 				"Se abre el capítulo 6: la magia."
 			]
 			icon: "mekanism:teleportation_core"
-			x: 9.5d
-			y: 2d
+			x: 12.5d
+			y: 5d
 			dependencies: [
 				"859B1B9A97096EC6"
 				"B16E6C0F19F6AF4C"

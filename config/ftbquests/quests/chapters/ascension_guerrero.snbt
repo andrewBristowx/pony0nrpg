@@ -49,7 +49,7 @@
 				"Al recoger el premio se desbloquea la pestaña de Ascensión de esta clase en el árbol de habilidades (&6K&r)."
 			]
 			icon: "minecraft:netherite_sword"
-			x: 2d
+			x: 2.5d
 			y: 0.5d
 			dependencies: ["892DEB68945D84C1"]
 			tasks: [
@@ -81,7 +81,7 @@
 			subtitle: "Mata sin descanso"
 			description: ["Acaba con 200 zombis: la fuerza se gana golpeando."]
 			icon: "minecraft:iron_sword"
-			x: 3.5d
+			x: 4.5d
 			y: 0.5d
 			dependencies: ["0146B7675CB1ADB3"]
 			tasks: [
@@ -115,7 +115,7 @@
 			subtitle: "Bloquea el daño"
 			description: ["Bloquea daño con tu escudo hasta acumular una gran cantidad."]
 			icon: "minecraft:clock"
-			x: 5d
+			x: 6.5d
 			y: 0.5d
 			dependencies: ["945E836B0ADE39A7"]
 			tasks: [
@@ -149,7 +149,7 @@
 			subtitle: "Un titán de netherita"
 			description: ["Fabrica una armadura de netherita, aunque sea una pieza."]
 			icon: "minecraft:netherite_chestplate"
-			x: 6.5d
+			x: 8.5d
 			y: 0.5d
 			dependencies: ["69B30B980486EE8F"]
 			tasks: [
@@ -182,7 +182,7 @@
 			subtitle: "El mandoble definitivo"
 			description: ["Forja un mandoble de netherita."]
 			icon: "simplyswords:netherite_claymore"
-			x: 8d
+			x: 10.5d
 			y: 0.5d
 			dependencies: ["802CFCCA2B4DCD8F"]
 			tasks: [
@@ -215,7 +215,7 @@
 			subtitle: "Prueba de valor"
 			description: ["Derrota al Wither. Prepara pociones, armadura encantada y un plan."]
 			icon: "minecraft:iron_sword"
-			x: 9.5d
+			x: 12.5d
 			y: 0.5d
 			dependencies: ["24EAA068F8A60EE9"]
 			tasks: [
@@ -249,7 +249,7 @@
 			subtitle: "Recibe golpes"
 			description: ["Resiste un gran volumen de daño acumulado."]
 			icon: "minecraft:clock"
-			x: 11d
+			x: 14.5d
 			y: 0.5d
 			dependencies: ["D8C24ED29B2FB89A"]
 			tasks: [
@@ -283,7 +283,7 @@
 			subtitle: "Raid"
 			description: ["Acaba con 10 devastadores."]
 			icon: "minecraft:iron_sword"
-			x: 12.5d
+			x: 16.5d
 			y: 0.5d
 			dependencies: ["4D33E6006674E5B8"]
 			tasks: [
@@ -317,7 +317,7 @@
 			subtitle: "Tier III"
 			description: ["Llega a la cima de un camino de Guerrero (Tier III)."]
 			icon: "minecraft:nether_star"
-			x: 14d
+			x: 18.5d
 			y: 0.5d
 			dependencies: ["6A34C1CD6FD08430"]
 			tasks: [

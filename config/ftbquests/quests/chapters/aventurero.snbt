@@ -51,7 +51,7 @@
 			subtitle: "Mandoble de hierro"
 			description: ["Las armas pesadas golpean fuerte pero lento. Requieren Guerrero (Tier I)."]
 			icon: "spartanweaponry:iron_greatsword"
-			x: 2d
+			x: 2.5d
 			y: 0.5d
 			optional: true
 			dependencies: ["089D27A3C570503E"]
@@ -85,7 +85,7 @@
 			subtitle: "Arco largo de hierro"
 			description: ["El arco largo tiene más alcance y potencia. Requiere Arquero (Tier I)."]
 			icon: "spartanweaponry:iron_longbow"
-			x: 2d
+			x: 2.5d
 			y: 2d
 			optional: true
 			dependencies: ["089D27A3C570503E"]
@@ -118,7 +118,7 @@
 			subtitle: "Grimorio de hierro"
 			description: ["Los grimorios guardan hechizos y aumentan tu poder mágico. Requiere Mago (Tier I)."]
 			icon: "irons_spellbooks:iron_spell_book"
-			x: 2d
+			x: 2.5d
 			y: 3.5d
 			optional: true
 			dependencies: ["089D27A3C570503E"]
@@ -151,7 +151,7 @@
 			subtitle: "Daga de hierro"
 			description: ["Las armas ligeras son rápidas y dan críticos. Requieren Asesino (Tier I)."]
 			icon: "spartanweaponry:iron_dagger"
-			x: 2d
+			x: 2.5d
 			y: 5d
 			optional: true
 			dependencies: ["089D27A3C570503E"]
@@ -185,7 +185,7 @@
 			subtitle: "Mochila de hierro"
 			description: ["Un ingeniero necesita almacenamiento. Mejora tu mochila a hierro."]
 			icon: "sophisticatedbackpacks:iron_backpack"
-			x: 2d
+			x: 2.5d
 			y: 6.5d
 			optional: true
 			dependencies: ["089D27A3C570503E"]
@@ -221,8 +221,8 @@
 				"Mientras tanto, prepárate para explorar."
 			]
 			icon: "minecraft:iron_sword"
-			x: 3.5d
-			y: 0.5d
+			x: 4.5d
+			y: 3.5d
 			dependency_requirement: "one_completed"
 			dependencies: [
 				"2C5539401072FC86"
@@ -257,7 +257,7 @@
 				"Derrota a unas cuantas arañas y creepers: los creepers se combaten a distancia o con escudo."
 			]
 			icon: "minecraft:iron_sword"
-			x: 2d
+			x: 2.5d
 			y: 8d
 			dependencies: ["089D27A3C570503E"]
 			tasks: [
@@ -295,8 +295,8 @@
 			subtitle: "Entra y sal con vida"
 			description: ["Las mazmorras tienen enemigos, trampas y mucho botín. Prepara comida, antorchas y un escudo antes de entrar."]
 			icon: "minecraft:compass"
-			x: 3.5d
-			y: 2d
+			x: 4.5d
+			y: 8d
 			dependencies: ["CF73AC1BF3EE7841"]
 			tasks: [
 				{
@@ -327,8 +327,8 @@
 			subtitle: "Otra estructura"
 			description: ["Explora un templo o torre y sal con vida."]
 			icon: "minecraft:compass"
-			x: 3.5d
-			y: 3.5d
+			x: 4.5d
+			y: 9.5d
 			optional: true
 			dependencies: ["CF73AC1BF3EE7841"]
 			tasks: [
@@ -354,8 +354,8 @@
 			subtitle: "Otra dimensión"
 			description: ["Construye un portal de obsidiana y enciéndelo. El Nether es peligroso: lleva armadura, armas y bloques para taparte."]
 			icon: "minecraft:writable_book"
-			x: 3.5d
-			y: 5d
+			x: 4.5d
+			y: 11d
 			dependencies: ["CF73AC1BF3EE7841"]
 			tasks: [
 				{
@@ -393,8 +393,8 @@
 			subtitle: "Exploración"
 			description: ["Las fortalezas del Nether contienen blaze y cofres. Usa tu brújula del explorador para encontrar una."]
 			icon: "minecraft:writable_book"
-			x: 5d
-			y: 0.5d
+			x: 6.5d
+			y: 11d
 			dependencies: ["D06D4C9C5CF61779"]
 			tasks: [
 				{
@@ -426,8 +426,8 @@
 			subtitle: "Piglins"
 			description: ["Los bastiones tienen piglins y mucho oro. Ponte una pieza de oro para que no se enfaden."]
 			icon: "minecraft:writable_book"
-			x: 5d
-			y: 2d
+			x: 6.5d
+			y: 12.5d
 			dependencies: ["D06D4C9C5CF61779"]
 			tasks: [
 				{
@@ -463,8 +463,8 @@
 				"Prepara pociones, buena armadura y un plan de retirada."
 			]
 			icon: "minecraft:iron_sword"
-			x: 6.5d
-			y: 0.5d
+			x: 8.5d
+			y: 12.5d
 			dependency_requirement: "one_completed"
 			dependencies: ["275367E181852557", "FE538FA4FBF014EF"]
 			tasks: [
@@ -501,8 +501,8 @@
 				"Se abre el capítulo 4: la revolución de Create."
 			]
 			icon: "minecraft:iron_sword"
-			x: 8d
-			y: 0.5d
+			x: 10.5d
+			y: 8d
 			dependencies: ["5E89FB767BB1E9C7", "3445B8FE66BB1571", "69F7A8073F6F44D2"]
 			tasks: [
 				{

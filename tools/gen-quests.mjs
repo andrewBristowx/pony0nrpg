@@ -88,15 +88,31 @@ chapters.forEach((ch, ci) => {
     return layer[k];
   };
   ch.quests.forEach((qu) => depth(qu.k));
-  const rows = {};
+  // filas: cada misión intenta quedar a la altura media de sus dependencias (líneas cortas y rectas);
+  // dentro de una capa se ordenan por esa altura y se separan 1,5 casillas
+  const STEP = 1.5;
+  const yOf = {};
+  const layersSorted = [...new Set(Object.values(layer))].sort((a, b) => a - b);
+  for (const L of layersSorted) {
+    const members = ch.quests.filter((qu) => layer[qu.k] === L).map((qu, idx) => {
+      const local = (qu.deps || []).filter((d) => !d.includes(".") && yOf[d] !== undefined);
+      const pref = local.length ? local.reduce((a, d) => a + yOf[d], 0) / local.length : undefined;
+      return { qu, idx, pref };
+    });
+    members.sort((a, b) => (a.pref ?? 1e9 + a.idx) - (b.pref ?? 1e9 + b.idx) || a.idx - b.idx);
+    let last = -Infinity;
+    for (const m of members) {
+      const want = m.pref === undefined ? (last === -Infinity ? 0 : last + STEP) : Math.round(m.pref / STEP) * STEP;
+      const y = Math.max(want, last + STEP);
+      yOf[m.qu.k] = y; last = y;
+    }
+  }
+  const minY = Math.min(...Object.values(yOf));
   const quests = ch.quests.map((qu) => {
     const where = `${ch.key}.${qu.k}`;
     const id = questIndex[where];
-    const lay = layer[qu.k];
-    rows[lay] = rows[lay] ?? 0;
-    const x = qu.at ? qu.at[0] : lay * 1.5 + 0.5;
-    const y = qu.at ? qu.at[1] : rows[lay] * 1.5 + 0.5;
-    rows[lay]++;
+    const x = qu.at ? qu.at[0] : layer[qu.k] * 2 + 0.5;
+    const y = qu.at ? qu.at[1] : yOf[qu.k] - minY + 0.5;
     check("items", questIcon(qu, ch), `${where} icono`);
     const tasks = (qu.tasks || []).map((t, i) => {
       if (t._item) check("items", t._item, `${where} tarea`);

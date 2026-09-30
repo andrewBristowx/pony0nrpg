@@ -65,7 +65,7 @@
 				"Las misiones opcionales no bloquean la campaña."
 			]
 			icon: "ftbquests:book"
-			x: 2d
+			x: 2.5d
 			y: 0.5d
 			dependencies: ["36C790764DFE6623"]
 			tasks: [
@@ -96,7 +96,7 @@
 				"Ganas experiencia matando mobs, minando y completando misiones."
 			]
 			icon: "ftbquests:book"
-			x: 3.5d
+			x: 4.5d
 			y: 0.5d
 			dependencies: ["9D47C88484B97547"]
 			tasks: [
@@ -127,7 +127,7 @@
 				"Lo básico (espadas y armaduras vanilla) lo puede usar cualquiera."
 			]
 			icon: "ftbquests:book"
-			x: 5d
+			x: 6.5d
 			y: 0.5d
 			dependencies: ["0CCABA5E8E7E4CFE"]
 			tasks: [
@@ -156,7 +156,7 @@
 				"Cada oficio sube de nivel por sí solo mientras haces sus tareas (picar, talar, cosechar, pescar, fabricar, cocinar, encantar) y da puntos para su propio árbol."
 			]
 			icon: "ftbquests:book"
-			x: 5d
+			x: 6.5d
 			y: 2d
 			dependencies: ["0CCABA5E8E7E4CFE"]
 			tasks: [
@@ -192,7 +192,7 @@
 				"Pon el cursor sobre un objeto en tu inventario y pulsa &6R&r para ver cómo se fabrica o &6U&r para ver para qué sirve."
 			]
 			icon: "ftbquests:book"
-			x: 3.5d
+			x: 4.5d
 			y: 2d
 			dependencies: ["9D47C88484B97547"]
 			tasks: [
@@ -221,7 +221,7 @@
 				"Puedes marcar puntos de interés en el mapa; úsalos para volver a tu base y a las estructuras que encuentres."
 			]
 			icon: "ftbquests:book"
-			x: 3.5d
+			x: 4.5d
 			y: 3.5d
 			dependencies: ["9D47C88484B97547"]
 			tasks: [
@@ -250,7 +250,7 @@
 				"Con FTB Chunks puedes reclamar chunks para proteger tu base: abre el mapa de chunks desde el mapa (tecla &6M&r)."
 			]
 			icon: "ftbquests:book"
-			x: 3.5d
+			x: 4.5d
 			y: 5d
 			optional: true
 			dependencies: ["9D47C88484B97547"]
@@ -276,7 +276,7 @@
 			subtitle: "Pulsa V"
 			description: ["El servidor tiene chat de voz por proximidad. Pulsa &6V&r para configurarlo y elige tu micrófono."]
 			icon: "ftbquests:book"
-			x: 3.5d
+			x: 4.5d
 			y: 6.5d
 			optional: true
 			dependencies: ["9D47C88484B97547"]
@@ -302,8 +302,8 @@
 			subtitle: "Ya sabes lo básico"
 			description: ["Ya conoces las herramientas del pack. Ve al capítulo &6El comienzo&r y sobrevive tu primera noche."]
 			icon: "ftbquests:book"
-			x: 6.5d
-			y: 0.5d
+			x: 8.5d
+			y: 2d
 			dependencies: [
 				"D7F01831E0B33A15"
 				"D4EFDB76A048C766"

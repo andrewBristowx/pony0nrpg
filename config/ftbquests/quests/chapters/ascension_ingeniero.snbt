@@ -49,7 +49,7 @@
 				"Al recoger el premio se desbloquea la pestaña de Ascensión de esta clase en el árbol de habilidades (&6K&r)."
 			]
 			icon: "create:precision_mechanism"
-			x: 2d
+			x: 2.5d
 			y: 0.5d
 			dependencies: ["52A43C3AFE1F3B54"]
 			tasks: [
@@ -81,7 +81,7 @@
 			subtitle: "Almacenamiento"
 			description: ["Construye 8 bóvedas de Create."]
 			icon: "create:item_vault"
-			x: 3.5d
+			x: 4.5d
 			y: 0.5d
 			dependencies: ["F259D202A3B8C5E8"]
 			tasks: [
@@ -119,7 +119,7 @@
 				"Se consumen al entregar."
 			]
 			icon: "create:brass_sheet"
-			x: 5d
+			x: 6.5d
 			y: 0.5d
 			dependencies: ["9F0605D442843B55"]
 			tasks: [
@@ -154,7 +154,7 @@
 			subtitle: "Mekanism"
 			description: ["Fabrica un circuito de control definitivo."]
 			icon: "mekanism:ultimate_control_circuit"
-			x: 6.5d
+			x: 8.5d
 			y: 0.5d
 			dependencies: ["2E4918EB0D0CADC1"]
 			tasks: [
@@ -187,7 +187,7 @@
 			subtitle: "AE2"
 			description: ["Fabrica una célula de almacenamiento de 4K."]
 			icon: "ae2:item_storage_cell_4k"
-			x: 8d
+			x: 10.5d
 			y: 0.5d
 			dependencies: ["855865679720C887"]
 			tasks: [
@@ -220,7 +220,7 @@
 			subtitle: "Mekanism"
 			description: ["Consigue un lingote de obsidiana refinada."]
 			icon: "mekanism:ingot_refined_obsidian"
-			x: 9.5d
+			x: 12.5d
 			y: 0.5d
 			dependencies: ["90B960467FB7D032"]
 			tasks: [
@@ -253,7 +253,7 @@
 			subtitle: "Create"
 			description: ["Construye un motor de vapor."]
 			icon: "create:steam_engine"
-			x: 11d
+			x: 14.5d
 			y: 0.5d
 			dependencies: ["8062EC245C2A3F38"]
 			tasks: [
@@ -286,7 +286,7 @@
 			subtitle: "Baliza"
 			description: ["Construye una baliza."]
 			icon: "minecraft:beacon"
-			x: 12.5d
+			x: 16.5d
 			y: 0.5d
 			dependencies: ["2DEAC55CA05D38C9"]
 			tasks: [
@@ -319,7 +319,7 @@
 			subtitle: "Tier III"
 			description: ["Llega a la cima de un camino de Ingeniero (Tier III)."]
 			icon: "minecraft:nether_star"
-			x: 14d
+			x: 18.5d
 			y: 0.5d
 			dependencies: ["6EBC59CAF79FAB55"]
 			tasks: [

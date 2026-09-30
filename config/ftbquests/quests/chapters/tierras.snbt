@@ -51,7 +51,7 @@
 			subtitle: "Estructura grande"
 			description: ["Los fuertes de los ilagers están llenos de enemigos y botín. Entra con buena armadura y no te separes de tu grupo."]
 			icon: "minecraft:compass"
-			x: 2d
+			x: 2.5d
 			y: 0.5d
 			dependencies: ["79D86D9AF1006A2E"]
 			tasks: [
@@ -83,7 +83,7 @@
 			subtitle: "Arena de combate"
 			description: ["Un coliseo enorme con oleadas de enemigos. Ideal para probar tu equipo de clase."]
 			icon: "minecraft:compass"
-			x: 2d
+			x: 2.5d
 			y: 2d
 			dependencies: ["79D86D9AF1006A2E"]
 			tasks: [
@@ -115,7 +115,7 @@
 			subtitle: "Cataclysm"
 			description: ["Una estructura de metal y engranajes de una civilización perdida. Custodia un jefe mecánico."]
 			icon: "minecraft:compass"
-			x: 2d
+			x: 2.5d
 			y: 3.5d
 			optional: true
 			dependencies: ["79D86D9AF1006A2E"]
@@ -142,7 +142,7 @@
 			subtitle: "Bajo el mar"
 			description: ["Una ciudad sumergida con enemigos acuáticos. Lleva pociones de respiración y visión."]
 			icon: "minecraft:compass"
-			x: 2d
+			x: 2.5d
 			y: 5d
 			optional: true
 			dependencies: ["79D86D9AF1006A2E"]
@@ -169,7 +169,7 @@
 			subtitle: "Biomas subterráneos"
 			description: ["Bajo la superficie hay cuevas de dinosaurios, caramelo, imanes y ácido. Cada una tiene sus propios enemigos y recompensas."]
 			icon: "minecraft:writable_book"
-			x: 2d
+			x: 2.5d
 			y: 6.5d
 			dependencies: ["79D86D9AF1006A2E"]
 			tasks: [
@@ -202,7 +202,7 @@
 			subtitle: "Deeper and Darker"
 			description: ["Bajo el Deep Dark hay una ciudad antigua y criaturas del sculk. Ve sin luz y sin ruido: hay guardianes."]
 			icon: "minecraft:compass"
-			x: 2d
+			x: 2.5d
 			y: 8d
 			optional: true
 			dependencies: ["79D86D9AF1006A2E"]
@@ -234,7 +234,7 @@
 			subtitle: "Jefe de Mowzie's Mobs"
 			description: ["El Ferrous Wroughtnaut custodia su estructura con un hacha enorme. Ataca cuando baja el hacha y retrocede cuando se enfurece."]
 			icon: "minecraft:iron_sword"
-			x: 3.5d
+			x: 4.5d
 			y: 0.5d
 			dependencies: ["FA77B62A6C7BE745"]
 			tasks: [
@@ -266,7 +266,7 @@
 			subtitle: "Jefe de las nieves"
 			description: ["Una criatura antigua del hielo. Necesitas fuego, armadura y paciencia."]
 			icon: "minecraft:iron_sword"
-			x: 3.5d
+			x: 4.5d
 			y: 2d
 			optional: true
 			dependencies: ["57C84769B9A5FB8F"]
@@ -299,7 +299,7 @@
 			subtitle: "Cataclysm"
 			description: ["Una ciudadela quemada en el Nether alberga a Ignis, un caballero infernal. Prepárate con resistencia al fuego, armadura fuerte y un plan."]
 			icon: "minecraft:compass"
-			x: 5d
+			x: 6.5d
 			y: 0.5d
 			dependencies: ["6BC09C66DEDF9229"]
 			tasks: [
@@ -329,7 +329,7 @@
 				"Al derrotarlo, sueltan sus ojos y su espada."
 			]
 			icon: "minecraft:iron_sword"
-			x: 6.5d
+			x: 8.5d
 			y: 0.5d
 			dependencies: ["D8C05D5FEF793DAA"]
 			tasks: [
@@ -362,7 +362,7 @@
 			subtitle: "Otro jefe"
 			description: ["Una bestia colosal del Nether. Suelta el cuerno monstruoso, base de armas poderosas."]
 			icon: "minecraft:iron_sword"
-			x: 8d
+			x: 10.5d
 			y: 0.5d
 			optional: true
 			dependencies: ["9FA71A4077662222"]
@@ -400,7 +400,7 @@
 				"Se abre el capítulo 8."
 			]
 			icon: "cataclysm:flame_eye"
-			x: 8d
+			x: 10.5d
 			y: 2d
 			dependencies: ["9FA71A4077662222", "D7E6D29776E5BCBF", "FA77B62A6C7BE745"]
 			tasks: [

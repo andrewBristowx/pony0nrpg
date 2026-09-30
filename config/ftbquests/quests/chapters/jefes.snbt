@@ -51,7 +51,7 @@
 			subtitle: "Cataclysm"
 			description: ["Un coloso mecánico de una civilización antigua. Sus rayos y misiles te obligan a moverte sin parar."]
 			icon: "minecraft:iron_sword"
-			x: 2d
+			x: 2.5d
 			y: 0.5d
 			dependencies: ["69AE17FC4E72B712"]
 			tasks: [
@@ -84,7 +84,7 @@
 			subtitle: "Cataclysm"
 			description: ["Un guardián de cristal y vacío. Es rápido y su daño atraviesa armaduras."]
 			icon: "minecraft:iron_sword"
-			x: 2d
+			x: 2.5d
 			y: 2d
 			dependencies: ["69AE17FC4E72B712"]
 			tasks: [
@@ -117,7 +117,7 @@
 			subtitle: "Cataclysm"
 			description: ["El rey del abismo marino. Necesitas respiración submarina, buena visión y armas potentes."]
 			icon: "minecraft:iron_sword"
-			x: 2d
+			x: 2.5d
 			y: 3.5d
 			dependencies: ["69AE17FC4E72B712"]
 			tasks: [
@@ -150,8 +150,8 @@
 			subtitle: "Cataclysm"
 			description: ["La reina de las tormentas del mar. Solo para quien ya venció al Leviatán."]
 			icon: "minecraft:iron_sword"
-			x: 3.5d
-			y: 0.5d
+			x: 4.5d
+			y: 5d
 			optional: true
 			dependencies: ["E0307F6540B895AB"]
 			tasks: [
@@ -184,7 +184,7 @@
 			subtitle: "Cataclysm"
 			description: ["Un coloso del desierto. Ataca a distancia y abre el suelo bajo tus pies."]
 			icon: "minecraft:iron_sword"
-			x: 2d
+			x: 2.5d
 			y: 5d
 			dependencies: ["69AE17FC4E72B712"]
 			tasks: [
@@ -217,7 +217,7 @@
 			subtitle: "Bosses of Mass Destruction"
 			description: ["El Lich invoca cometas y cráneos. Su arena es una torre; lleva armadura con protección mágica."]
 			icon: "minecraft:iron_sword"
-			x: 2d
+			x: 2.5d
 			y: 6.5d
 			dependencies: ["69AE17FC4E72B712"]
 			tasks: [
@@ -250,7 +250,7 @@
 			subtitle: "El clásico"
 			description: ["El Wither ataca con calaveras que se lo llevan todo. Combátelo en un túnel bajo tierra."]
 			icon: "minecraft:iron_sword"
-			x: 2d
+			x: 2.5d
 			y: 8d
 			dependencies: ["69AE17FC4E72B712"]
 			tasks: [
@@ -282,7 +282,7 @@
 			subtitle: "Ice and Fire"
 			description: ["Los dragones de Ice and Fire son de los enemigos más peligrosos. Cazarlos exige armadura de netherita y armas potentes."]
 			icon: "minecraft:iron_sword"
-			x: 2d
+			x: 2.5d
 			y: 9.5d
 			optional: true
 			dependencies: ["69AE17FC4E72B712"]
@@ -316,7 +316,7 @@
 			subtitle: "Ice and Fire"
 			description: ["El dragón de hielo se cura con nieve y ataca con aliento congelante."]
 			icon: "minecraft:iron_sword"
-			x: 2d
+			x: 2.5d
 			y: 11d
 			optional: true
 			dependencies: ["69AE17FC4E72B712"]
@@ -350,7 +350,7 @@
 			subtitle: "Ice and Fire"
 			description: ["El dragón de rayo es el más veloz. Su aliento paraliza."]
 			icon: "minecraft:iron_sword"
-			x: 2d
+			x: 2.5d
 			y: 12.5d
 			optional: true
 			dependencies: ["69AE17FC4E72B712"]
@@ -388,8 +388,8 @@
 				"Se fabrican en las forjas de Cataclysm con los ojos y lingotes de los jefes."
 			]
 			icon: "cataclysm:the_incinerator"
-			x: 3.5d
-			y: 2d
+			x: 4.5d
+			y: 3.5d
 			dependency_requirement: "one_completed"
 			dependencies: [
 				"A132A8381F48F638"
@@ -426,8 +426,8 @@
 			subtitle: "Alternativa"
 			description: ["La garra de las mareas se forja con el tridente del Leviatán."]
 			icon: "cataclysm:tidal_claws"
-			x: 3.5d
-			y: 3.5d
+			x: 4.5d
+			y: 6.5d
 			optional: true
 			dependencies: ["E0307F6540B895AB"]
 			tasks: [
@@ -453,8 +453,8 @@
 			subtitle: "Alternativa"
 			description: ["El renderizador de almas es un arma de energía oscura."]
 			icon: "cataclysm:soul_render"
-			x: 3.5d
-			y: 5d
+			x: 4.5d
+			y: 8d
 			optional: true
 			dependencies: ["C20C5FA204BC3F48"]
 			tasks: [
@@ -484,8 +484,8 @@
 				"Se abre el capítulo 10."
 			]
 			icon: "minecraft:nether_star"
-			x: 5d
-			y: 0.5d
+			x: 6.5d
+			y: 6.5d
 			dependencies: ["A6CB2891FCED730B", "20B83444BFFAE39C", "389B0A13226CA341"]
 			tasks: [
 				{

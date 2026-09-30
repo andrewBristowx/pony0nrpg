@@ -52,7 +52,7 @@
 			subtitle: "Haz el trabajo"
 			description: ["Pica minerales: cada uno da experiencia de oficio. Consigue diamantes y esmeraldas."]
 			icon: "minecraft:diamond"
-			x: 2d
+			x: 2.5d
 			y: 0.5d
 			dependencies: ["5339C4147395574B"]
 			tasks: [
@@ -97,7 +97,7 @@
 			subtitle: "Hito de oficio"
 			description: ["Sube en el árbol de Minero hasta &6Fundamentos VI&r. Esto activa el hito Minero I."]
 			icon: "minecraft:nether_star"
-			x: 3.5d
+			x: 4.5d
 			y: 0.5d
 			dependencies: ["C2FFB20DB6F69E69"]
 			tasks: [
@@ -136,7 +136,7 @@
 			subtitle: "Maestría"
 			description: ["Llega hasta la cima de uno de los dos caminos de Minero. Es el hito de maestría del oficio."]
 			icon: "minecraft:nether_star"
-			x: 5d
+			x: 6.5d
 			y: 0.5d
 			dependencies: ["7EB8BA411AEFD923"]
 			tasks: [
@@ -204,7 +204,7 @@
 			subtitle: "Haz el trabajo"
 			description: ["Tala árboles y consigue troncos de varios tipos."]
 			icon: "minecraft:oak_log"
-			x: 2d
+			x: 2.5d
 			y: 2d
 			dependencies: ["CD39F7FD4EA6A331"]
 			tasks: [
@@ -249,7 +249,7 @@
 			subtitle: "Hito de oficio"
 			description: ["Sube en el árbol de Leñador hasta &6Fundamentos VI&r. Esto activa el hito Leñador I."]
 			icon: "minecraft:nether_star"
-			x: 3.5d
+			x: 4.5d
 			y: 2d
 			dependencies: ["4B48A7ABAD5D3004"]
 			tasks: [
@@ -288,7 +288,7 @@
 			subtitle: "Maestría"
 			description: ["Llega hasta la cima de uno de los dos caminos de Leñador. Es el hito de maestría del oficio."]
 			icon: "minecraft:nether_star"
-			x: 5d
+			x: 6.5d
 			y: 2d
 			dependencies: ["0B92822CA033C654"]
 			tasks: [
@@ -356,7 +356,7 @@
 			subtitle: "Haz el trabajo"
 			description: ["Cosecha trigo, zanahorias y patatas maduras."]
 			icon: "minecraft:wheat"
-			x: 2d
+			x: 2.5d
 			y: 3.5d
 			dependencies: ["7A0777EF5D49B88A"]
 			tasks: [
@@ -407,7 +407,7 @@
 			subtitle: "Hito de oficio"
 			description: ["Sube en el árbol de Granjero hasta &6Fundamentos VI&r. Esto activa el hito Granjero I."]
 			icon: "minecraft:nether_star"
-			x: 3.5d
+			x: 4.5d
 			y: 3.5d
 			dependencies: ["136FDA2F6D4631AD"]
 			tasks: [
@@ -446,7 +446,7 @@
 			subtitle: "Maestría"
 			description: ["Llega hasta la cima de uno de los dos caminos de Granjero. Es el hito de maestría del oficio."]
 			icon: "minecraft:nether_star"
-			x: 5d
+			x: 6.5d
 			y: 3.5d
 			dependencies: ["9046A50E44B352DF"]
 			tasks: [
@@ -514,7 +514,7 @@
 			subtitle: "Haz el trabajo"
 			description: ["Pesca peces variados."]
 			icon: "minecraft:cod"
-			x: 2d
+			x: 2.5d
 			y: 5d
 			dependencies: ["F976B17565C51B4C"]
 			tasks: [
@@ -559,7 +559,7 @@
 			subtitle: "Hito de oficio"
 			description: ["Sube en el árbol de Pescador hasta &6Fundamentos VI&r. Esto activa el hito Pescador I."]
 			icon: "minecraft:nether_star"
-			x: 3.5d
+			x: 4.5d
 			y: 5d
 			dependencies: ["08ABD6C69F3F736F"]
 			tasks: [
@@ -598,7 +598,7 @@
 			subtitle: "Maestría"
 			description: ["Llega hasta la cima de uno de los dos caminos de Pescador. Es el hito de maestría del oficio."]
 			icon: "minecraft:nether_star"
-			x: 5d
+			x: 6.5d
 			y: 5d
 			dependencies: ["43A2FE4E40BB587A"]
 			tasks: [
@@ -666,7 +666,7 @@
 			subtitle: "Haz el trabajo"
 			description: ["Fabrica armas y herramientas de hierro y funde lingotes."]
 			icon: "minecraft:iron_sword"
-			x: 2d
+			x: 2.5d
 			y: 6.5d
 			dependencies: ["6E531DE17D4DC58E"]
 			tasks: [
@@ -715,7 +715,7 @@
 			subtitle: "Hito de oficio"
 			description: ["Sube en el árbol de Herrero hasta &6Fundamentos VI&r. Esto activa el hito Herrero I."]
 			icon: "minecraft:nether_star"
-			x: 3.5d
+			x: 4.5d
 			y: 6.5d
 			dependencies: ["CC63238389AE1C80"]
 			tasks: [
@@ -754,7 +754,7 @@
 			subtitle: "Maestría"
 			description: ["Llega hasta la cima de uno de los dos caminos de Herrero. Es el hito de maestría del oficio."]
 			icon: "minecraft:nether_star"
-			x: 5d
+			x: 6.5d
 			y: 6.5d
 			dependencies: ["96F0710C262B298C"]
 			tasks: [
@@ -822,7 +822,7 @@
 			subtitle: "Haz el trabajo"
 			description: ["Cocina carne y pescado, y prepara comida variada."]
 			icon: "minecraft:cooked_beef"
-			x: 2d
+			x: 2.5d
 			y: 8d
 			dependencies: ["753F8FC0BE2F83E4"]
 			tasks: [
@@ -873,7 +873,7 @@
 			subtitle: "Hito de oficio"
 			description: ["Sube en el árbol de Cocinero hasta &6Fundamentos VI&r. Esto activa el hito Cocinero I."]
 			icon: "minecraft:nether_star"
-			x: 3.5d
+			x: 4.5d
 			y: 8d
 			dependencies: ["FF6561684F886B64"]
 			tasks: [
@@ -912,7 +912,7 @@
 			subtitle: "Maestría"
 			description: ["Llega hasta la cima de uno de los dos caminos de Cocinero. Es el hito de maestría del oficio."]
 			icon: "minecraft:nether_star"
-			x: 5d
+			x: 6.5d
 			y: 8d
 			dependencies: ["1A893B25B04FC13D"]
 			tasks: [
@@ -980,7 +980,7 @@
 			subtitle: "Haz el trabajo"
 			description: ["Encanta objetos en la mesa de encantamientos."]
 			icon: "minecraft:enchanted_book"
-			x: 2d
+			x: 2.5d
 			y: 9.5d
 			dependencies: ["C57EB78696ACE273"]
 			tasks: [
@@ -1020,7 +1020,7 @@
 			subtitle: "Hito de oficio"
 			description: ["Sube en el árbol de Encantador hasta &6Fundamentos VI&r. Esto activa el hito Encantador I."]
 			icon: "minecraft:nether_star"
-			x: 3.5d
+			x: 4.5d
 			y: 9.5d
 			dependencies: ["5C743ED0FE5620E5"]
 			tasks: [
@@ -1059,7 +1059,7 @@
 			subtitle: "Maestría"
 			description: ["Llega hasta la cima de uno de los dos caminos de Encantador. Es el hito de maestría del oficio."]
 			icon: "minecraft:nether_star"
-			x: 5d
+			x: 6.5d
 			y: 9.5d
 			dependencies: ["8AC405322A68F794"]
 			tasks: [

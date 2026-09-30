@@ -53,7 +53,7 @@
 			subtitle: "El material de la magia"
 			description: ["La esencia arcana se obtiene de enemigos mágicos y estructuras. Es la base de casi todo en Iron's Spells."]
 			icon: "irons_spellbooks:arcane_essence"
-			x: 2d
+			x: 2.5d
 			y: 0.5d
 			dependencies: ["89D4E872F25DCFAF"]
 			tasks: [
@@ -86,7 +86,7 @@
 			subtitle: "Grimorios y pergaminos"
 			description: ["En la mesa de inscripción puedes inscribir hechizos en un grimorio. Los pergaminos se usan una vez; los hechizos inscritos, siempre."]
 			icon: "irons_spellbooks:inscription_table"
-			x: 3.5d
+			x: 4.5d
 			y: 0.5d
 			dependencies: ["FE1C55A4EEDEA50A"]
 			tasks: [
@@ -128,7 +128,7 @@
 				"Elige la escuela que más te guste; te acompañará durante toda la campaña."
 			]
 			icon: "irons_spellbooks:blank_rune"
-			x: 5d
+			x: 6.5d
 			y: 0.5d
 			dependencies: ["FBDABBE645564FCF"]
 			tasks: [
@@ -171,7 +171,7 @@
 			subtitle: "Mejora y separa"
 			description: ["El yunque arcano mejora tus objetos mágicos y también sirve para destruirlos y recuperar materiales."]
 			icon: "irons_spellbooks:arcane_anvil"
-			x: 6.5d
+			x: 8.5d
 			y: 0.5d
 			dependencies: ["8231E0ACEAC208A9"]
 			tasks: [
@@ -197,7 +197,7 @@
 			subtitle: "Requiere Mago (Tier I o II)"
 			description: ["Un grimorio de oro o diamante guarda más hechizos. Cuando tengas el nodo &6Mago Tier II&r (Fundamentos VI) podrás usarlo."]
 			icon: "irons_spellbooks:gold_spell_book"
-			x: 5d
+			x: 6.5d
 			y: 2d
 			dependencies: ["FBDABBE645564FCF"]
 			tasks: [
@@ -228,8 +228,8 @@
 			subtitle: "Piromante, criomante..."
 			description: ["Las armaduras de mago dan poder de escuela y maná. Requieren Mago (Tier II)."]
 			icon: "irons_spellbooks:pyromancer_chestplate"
-			x: 6.5d
-			y: 2d
+			x: 8.5d
+			y: 3.5d
 			optional: true
 			dependencies: ["BC8BAE8FA9501974"]
 			tasks: [
@@ -255,8 +255,8 @@
 			subtitle: "Especialízate"
 			description: ["Gasta tus puntos en un camino del árbol de habilidades: Piromancia, Criomancia, Arcanismo u Oscuridad. Cada uno mejora la escuela correspondiente."]
 			icon: "minecraft:nether_star"
-			x: 6.5d
-			y: 3.5d
+			x: 8.5d
+			y: 2d
 			dependencies: ["BC8BAE8FA9501974", "8231E0ACEAC208A9"]
 			tasks: [
 				{
@@ -281,7 +281,7 @@
 			subtitle: "Ars Nouveau"
 			description: ["La fuente es la energía mágica de Ars Nouveau. Las gemas se consiguen de la magia del entorno y se procesan en la mesa de escritura."]
 			icon: "ars_nouveau:source_gem"
-			x: 2d
+			x: 2.5d
 			y: 2d
 			dependencies: ["89D4E872F25DCFAF"]
 			tasks: [
@@ -320,7 +320,7 @@
 			subtitle: "Novato"
 			description: ["Con el libro de hechizos creas tus propios hechizos combinando glifos. Cambias de hechizo con las teclas configuradas."]
 			icon: "ars_nouveau:novice_spell_book"
-			x: 3.5d
+			x: 4.5d
 			y: 2d
 			dependencies: ["5311B003EDE93BA8"]
 			tasks: [
@@ -351,7 +351,7 @@
 			subtitle: "Glifos"
 			description: ["La mesa de escriba te permite crear glifos con gemas de fuente. Empieza por los básicos: proyectil, impacto, curar."]
 			icon: "ars_nouveau:scribes_table"
-			x: 5d
+			x: 6.5d
 			y: 3.5d
 			dependencies: ["B5D35989BB85CB9F"]
 			tasks: [
@@ -377,7 +377,7 @@
 			subtitle: "Almacenar energía"
 			description: ["Una jarra de fuente almacena fuente para alimentar aparatos y rituales. Se rellena con enlaces de fuente."]
 			icon: "ars_nouveau:source_jar"
-			x: 6.5d
+			x: 8.5d
 			y: 5d
 			dependencies: ["B193519A7BAE7605"]
 			tasks: [
@@ -403,8 +403,8 @@
 			subtitle: "Objetos mágicos"
 			description: ["Con el aparato de encantamiento y pedestales arcanos creas objetos mágicos poderosos y mejoras tu equipo."]
 			icon: "ars_nouveau:enchanting_apparatus"
-			x: 8d
-			y: 0.5d
+			x: 10.5d
+			y: 5d
 			dependencies: ["A8200153781D4878"]
 			tasks: [
 				{
@@ -440,8 +440,8 @@
 			subtitle: "Magia poderosa"
 			description: ["El brasero ritual hace magia colectiva: cambia el clima, hace crecer bosques o invoca criaturas. Lo primero: fabricar el brasero."]
 			icon: "ars_nouveau:ritual_brazier"
-			x: 9.5d
-			y: 0.5d
+			x: 12.5d
+			y: 5d
 			dependencies: ["4286BB6CC3A24313"]
 			tasks: [
 				{
@@ -466,8 +466,8 @@
 			subtitle: "Un compañero mágico"
 			description: ["Un familiar te acompaña y te da pequeñas bonificaciones. El starbuncle es el más popular."]
 			icon: "ars_nouveau:starbuncle_charm"
-			x: 11d
-			y: 0.5d
+			x: 14.5d
+			y: 5d
 			optional: true
 			dependencies: ["8401A8164AC34D43"]
 			tasks: [
@@ -497,8 +497,8 @@
 				"Es una dimensión llena de estructuras, jefes y materiales propios. Prepara buena armadura y comida."
 			]
 			icon: "minecraft:writable_book"
-			x: 11d
-			y: 2d
+			x: 14.5d
+			y: 3.5d
 			dependencies: ["A470FFA3588A8492", "8401A8164AC34D43"]
 			tasks: [
 				{
@@ -530,8 +530,8 @@
 			subtitle: "Primer jefe"
 			description: ["El Patio de la Naga guarda a la primera jefa del bosque. Derrótala para conseguir sus escamas y avanzar."]
 			icon: "minecraft:writable_book"
-			x: 12.5d
-			y: 0.5d
+			x: 16.5d
+			y: 3.5d
 			dependencies: ["F59D21FE67962C8F"]
 			tasks: [
 				{
@@ -563,8 +563,8 @@
 			subtitle: "Segundo jefe"
 			description: ["Tras la Naga aguarda el Lich en su torre. Es un jefe de magia: prepara resistencia mágica y armas de distancia."]
 			icon: "minecraft:writable_book"
-			x: 14d
-			y: 0.5d
+			x: 18.5d
+			y: 3.5d
 			dependencies: ["F07C6F6EA7B5C3AC"]
 			tasks: [
 				{
@@ -599,8 +599,8 @@
 				"Se abre el capítulo 7."
 			]
 			icon: "ars_nouveau:source_gem"
-			x: 14d
-			y: 2d
+			x: 18.5d
+			y: 5d
 			dependencies: ["F07C6F6EA7B5C3AC", "A470FFA3588A8492", "8401A8164AC34D43"]
 			tasks: [
 				{

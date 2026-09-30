@@ -51,7 +51,7 @@
 			subtitle: "Encuentra la fortaleza"
 			description: ["Los ojos del End te guían hacia la fortaleza donde está el portal al End. Se hacen con una perla de ender y polvo de blaze."]
 			icon: "minecraft:ender_eye"
-			x: 2d
+			x: 2.5d
 			y: 0.5d
 			dependencies: ["D6478AB6BCB0465D"]
 			tasks: [
@@ -84,7 +84,7 @@
 			subtitle: "Cruza"
 			description: ["Activa el portal con doce ojos del End. Al otro lado te esperan el dragón y los endermen."]
 			icon: "minecraft:ender_eye"
-			x: 3.5d
+			x: 4.5d
 			y: 0.5d
 			dependencies: ["BC34EE86D9929279"]
 			tasks: [
@@ -116,7 +116,7 @@
 			subtitle: "El jefe final"
 			description: ["Destruye los cristales del End y acaba con el dragón. Lleva bloques, arco y mucha comida."]
 			icon: "minecraft:iron_sword"
-			x: 5d
+			x: 6.5d
 			y: 0.5d
 			dependencies: ["F13ECEE45C2EAD8B"]
 			tasks: [
@@ -154,7 +154,7 @@
 			subtitle: "Vuela"
 			description: ["En las ciudades del End hay barcos con élitros. Con ellos y cohetes, el cielo es tuyo."]
 			icon: "minecraft:elytra"
-			x: 6.5d
+			x: 8.5d
 			y: 0.5d
 			dependencies: ["5D3FFEF92F1173B2"]
 			tasks: [
@@ -186,7 +186,7 @@
 			subtitle: "Almacenamiento móvil"
 			description: ["Las cajas shulker son la mejor forma de llevar equipo contigo."]
 			icon: "minecraft:shulker_shell"
-			x: 6.5d
+			x: 8.5d
 			y: 2d
 			optional: true
 			dependencies: ["5D3FFEF92F1173B2"]
@@ -214,7 +214,7 @@
 			subtitle: "Bonificaciones de zona"
 			description: ["Con una estrella del Nether, obsidiana y cristal fabricas una baliza que da bonificaciones a todo tu equipo."]
 			icon: "minecraft:beacon"
-			x: 6.5d
+			x: 8.5d
 			y: 3.5d
 			optional: true
 			dependencies: ["5D3FFEF92F1173B2"]
@@ -251,7 +251,7 @@
 				"Entrégalos para demostrar que has llegado al final."
 			]
 			icon: "undergarden:forgotten_ingot"
-			x: 8d
+			x: 10.5d
 			y: 0.5d
 			dependencies: ["5D3FFEF92F1173B2", "CBFBBAC1DD7AF59D"]
 			tasks: [
@@ -303,7 +303,7 @@
 				"Este es el final del camino... y el principio de otro."
 			]
 			icon: "minecraft:dragon_head"
-			x: 9.5d
+			x: 12.5d
 			y: 0.5d
 			dependencies: ["853F39E834393EB2"]
 			tasks: [

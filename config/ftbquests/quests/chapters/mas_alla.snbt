@@ -50,7 +50,7 @@
 			subtitle: "El subsuelo"
 			description: ["El Catalizador abre el portal al Undergarden: una dimensión oscura y húmeda bajo el mundo. Es un lugar hostil y de mucho botín."]
 			icon: "undergarden:catalyst"
-			x: 2d
+			x: 2.5d
 			y: 0.5d
 			dependencies: ["9B1494BEA9A64C90"]
 			tasks: [
@@ -76,7 +76,7 @@
 			subtitle: "Bajo tierra"
 			description: ["Cruza el portal. Ten cuidado con los moradores y los devoradores."]
 			icon: "minecraft:ender_eye"
-			x: 3.5d
+			x: 4.5d
 			y: 0.5d
 			dependencies: ["6A1F3570BDB04DF6"]
 			tasks: [
@@ -107,7 +107,7 @@
 			subtitle: "Metales nuevos"
 			description: ["El Undergarden tiene metales propios: cloggrum y froststeel. Con ellos fabricas equipo especial."]
 			icon: "undergarden:cloggrum_ingot"
-			x: 5d
+			x: 6.5d
 			y: 0.5d
 			dependencies: ["C8F04AAF3D8BDDA0"]
 			tasks: [
@@ -147,7 +147,7 @@
 			subtitle: "Jefe del Undergarden"
 			description: ["El Forgotten Guardian custodia el portal más profundo. Su recompensa: el metal olvidado."]
 			icon: "undergarden:forgotten_ingot"
-			x: 6.5d
+			x: 8.5d
 			y: 0.5d
 			dependencies: ["8BA57DB472D771CC"]
 			tasks: [
@@ -186,7 +186,7 @@
 			subtitle: "Las islas del cielo"
 			description: ["El Aether es un reino de islas flotantes sobre las nubes. Construye un portal con bloques de piedra sagrada y enciéndelo con agua."]
 			icon: "aether:holystone"
-			x: 2d
+			x: 2.5d
 			y: 2d
 			dependencies: ["9B1494BEA9A64C90"]
 			tasks: [
@@ -213,7 +213,7 @@
 			subtitle: "El cielo"
 			description: ["Cruza el portal. Cuidado con las caídas: al vacío del Aether no le importan tus corazones."]
 			icon: "minecraft:writable_book"
-			x: 3.5d
+			x: 4.5d
 			y: 2d
 			dependencies: ["0CF5D43F82571F8E"]
 			tasks: [
@@ -245,7 +245,7 @@
 			subtitle: "Materiales del Aether"
 			description: ["La zanita es el mineral base del Aether: sirve para herramientas y armas. La gravitita necesita un altar."]
 			icon: "aether:zanite_gemstone"
-			x: 5d
+			x: 6.5d
 			y: 2d
 			dependencies: ["E08D0E74AE144739"]
 			tasks: [
@@ -285,7 +285,7 @@
 			subtitle: "Jefe del Aether"
 			description: ["Las mazmorras del Aether guardan a los Slider y a las Valquirias. La de bronce es la primera. Llegar al final abre la de plata y la de oro."]
 			icon: "minecraft:writable_book"
-			x: 6.5d
+			x: 8.5d
 			y: 2d
 			dependencies: ["BCD87D472ED867E1"]
 			tasks: [
@@ -322,7 +322,7 @@
 				"Los cohetes requieren componentes de tecnología: placas de acero y mecanismos de Create/Mekanism."
 			]
 			icon: "ad_astra:nasa_workbench"
-			x: 2d
+			x: 2.5d
 			y: 3.5d
 			dependencies: ["9B1494BEA9A64C90"]
 			tasks: [
@@ -358,7 +358,7 @@
 			subtitle: "Oxígeno"
 			description: ["En el espacio no hay aire. El traje espacial y el equipo de oxígeno te mantienen con vida."]
 			icon: "ad_astra:space_suit"
-			x: 3.5d
+			x: 4.5d
 			y: 3.5d
 			dependencies: ["F87D568DFB6D92C8"]
 			tasks: [
@@ -394,7 +394,7 @@
 			subtitle: "Primer destino"
 			description: ["Pisa la Luna. La gravedad baja permite saltar mucho más alto. Lleva mucha comida y oxígeno."]
 			icon: "minecraft:writable_book"
-			x: 5d
+			x: 6.5d
 			y: 3.5d
 			dependencies: ["925E7E3DF8BBF298"]
 			tasks: [
@@ -427,7 +427,7 @@
 			subtitle: "Cohete tier 2"
 			description: ["Marte requiere un cohete de nivel 2. Aquí hay más minerales, y enemigos."]
 			icon: "minecraft:writable_book"
-			x: 6.5d
+			x: 8.5d
 			y: 3.5d
 			optional: true
 			dependencies: ["70A678CA815512E3"]
@@ -461,7 +461,7 @@
 			subtitle: "Metales del espacio"
 			description: ["Los planetas tienen metales únicos: desh en la Luna, ostrum en Marte, calorita en Venus. Son la base del equipo espacial."]
 			icon: "ad_astra:desh_ingot"
-			x: 6.5d
+			x: 8.5d
 			y: 5d
 			dependencies: ["70A678CA815512E3"]
 			tasks: [
@@ -505,8 +505,8 @@
 				"Se abre el capítulo 9."
 			]
 			icon: "undergarden:forgotten_ingot"
-			x: 8d
-			y: 0.5d
+			x: 10.5d
+			y: 2d
 			dependencies: ["B1A87DBC8F9DA4E7", "289319CD0FB27F96", "752493E8C3ACAD7E"]
 			tasks: [
 				{

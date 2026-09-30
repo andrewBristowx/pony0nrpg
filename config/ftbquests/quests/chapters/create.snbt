@@ -51,7 +51,7 @@
 			subtitle: "El ingrediente base"
 			description: ["Casi todo en Create empieza con la aleación de andesita: pepitas de hierro + andesita en una mesa de trabajo."]
 			icon: "create:andesite_alloy"
-			x: 2d
+			x: 2.5d
 			y: 0.5d
 			dependencies: ["43E7E7976BE6165F"]
 			tasks: [
@@ -88,7 +88,7 @@
 				"Comprueba el estrés con los goggles."
 			]
 			icon: "create:water_wheel"
-			x: 3.5d
+			x: 4.5d
 			y: 0.5d
 			dependencies: ["90CC5F5EC097BEB8"]
 			tasks: [
@@ -120,7 +120,7 @@
 			subtitle: "Otra fuente"
 			description: ["Un rodamiento de molino con velas produce fuerza continua sin agua."]
 			icon: "create:windmill_bearing"
-			x: 5d
+			x: 6.5d
 			y: 0.5d
 			optional: true
 			dependencies: ["F9E2BC60282EC470"]
@@ -147,7 +147,7 @@
 			subtitle: "Dirección y velocidad"
 			description: ["Los ejes transmiten. Los engranajes cambian la dirección. Los engranajes grandes cambian la velocidad. Una caja de cambios invierte el sentido."]
 			icon: "create:shaft"
-			x: 5d
+			x: 6.5d
 			y: 2d
 			dependencies: ["F9E2BC60282EC470"]
 			tasks: [
@@ -196,8 +196,8 @@
 			subtitle: "Tu primera máquina"
 			description: ["La prensa convierte lingotes en placas. Colócala sobre un depósito o una cinta con un lingote debajo y aliméntala con fuerza."]
 			icon: "create:mechanical_press"
-			x: 6.5d
-			y: 0.5d
+			x: 8.5d
+			y: 2d
 			dependencies: ["344EF3DE8D7FA8CB"]
 			tasks: [
 				{
@@ -235,8 +235,8 @@
 			subtitle: "Minado automático"
 			description: ["Un taladro rompe bloques por ti mientras recibe fuerza. Ponlo frente a una veta y recoge los objetos."]
 			icon: "create:mechanical_drill"
-			x: 8d
-			y: 0.5d
+			x: 10.5d
+			y: 2d
 			dependencies: ["394BFF181A51BD26"]
 			tasks: [
 				{
@@ -274,8 +274,8 @@
 			subtitle: "Tala automática"
 			description: ["La sierra corta troncos y árboles. También procesa madera en tablones desde una cinta."]
 			icon: "create:mechanical_saw"
-			x: 8d
-			y: 2d
+			x: 10.5d
+			y: 3.5d
 			dependencies: ["394BFF181A51BD26"]
 			tasks: [
 				{
@@ -311,8 +311,8 @@
 				"&6Pista del futuro:&r Mekanism y otros mods te pedirán componentes de Create más adelante, así que guarda planchas y mecanismos."
 			]
 			icon: "create:belt_connector"
-			x: 9.5d
-			y: 0.5d
+			x: 12.5d
+			y: 3.5d
 			dependencies: ["C18860FCA577E7F3", "7254BDE4C260F5ED"]
 			tasks: [
 				{
@@ -354,8 +354,8 @@
 				"El latón abre una segunda mitad de recetas de Create."
 			]
 			icon: "create:basin"
-			x: 11d
-			y: 0.5d
+			x: 14.5d
+			y: 3.5d
 			dependencies: ["EA46316309EFB5CE"]
 			tasks: [
 				{
@@ -400,8 +400,8 @@
 				"Cuando la fábrica esté sola, recoge las placas."
 			]
 			icon: "create:iron_sheet"
-			x: 12.5d
-			y: 0.5d
+			x: 16.5d
+			y: 3.5d
 			dependencies: ["827FECC1AC04A31E"]
 			tasks: [
 				{
@@ -437,8 +437,8 @@
 				"Usa la mochila (&6B&r) para llevar contigo lo importante."
 			]
 			icon: "create:item_vault"
-			x: 11d
-			y: 2d
+			x: 14.5d
+			y: 5d
 			dependencies: ["EA46316309EFB5CE"]
 			tasks: [
 				{
@@ -473,8 +473,8 @@
 				"Fabrica algunos mecanismos: los necesitarás para todo lo que viene."
 			]
 			icon: "create:brass_sheet"
-			x: 14d
-			y: 0.5d
+			x: 18.5d
+			y: 5d
 			dependencies: ["E2DC0531E77E38C6", "296BB18C21C4F723"]
 			tasks: [
 				{
@@ -518,8 +518,8 @@
 			subtitle: "Manos mecánicas"
 			description: ["El desplegador usa objetos por ti: coloca bloques, ensambla piezas, hasta ataca."]
 			icon: "create:deployer"
-			x: 15.5d
-			y: 0.5d
+			x: 20.5d
+			y: 5d
 			optional: true
 			dependencies: ["1D06021BA9A4674C"]
 			tasks: [
@@ -545,8 +545,8 @@
 			subtitle: "Mucha fuerza"
 			description: ["Una caldera con agua y calor alimenta motores de vapor que dan un montón de estrés."]
 			icon: "create:steam_engine"
-			x: 15.5d
-			y: 2d
+			x: 20.5d
+			y: 6.5d
 			optional: true
 			dependencies: ["1D06021BA9A4674C"]
 			tasks: [
@@ -572,8 +572,8 @@
 			subtitle: "Steam 'n' Rails"
 			description: ["Los trenes de Create usan sus propias vías. Con Steam 'n' Rails tienes más tipos de vía y decoración."]
 			icon: "create:track"
-			x: 15.5d
-			y: 3.5d
+			x: 20.5d
+			y: 8d
 			dependencies: ["1D06021BA9A4674C"]
 			tasks: [
 				{
@@ -604,8 +604,8 @@
 			subtitle: "Movimiento a gran escala"
 			description: ["Coloca una estación, monta un vagón con controles y ponle nombre a tu tren. Un tren une tu base con tus fábricas y con el mundo."]
 			icon: "create:controls"
-			x: 17d
-			y: 0.5d
+			x: 22.5d
+			y: 8d
 			dependencies: ["BAA7712C85BA1956"]
 			tasks: [
 				{
@@ -645,8 +645,8 @@
 				"Se abre el capítulo 5."
 			]
 			icon: "create:precision_mechanism"
-			x: 18.5d
-			y: 0.5d
+			x: 24.5d
+			y: 6.5d
 			dependencies: ["1D06021BA9A4674C", "AC60C20D64A0E28C"]
 			tasks: [
 				{

@@ -53,7 +53,7 @@
 			subtitle: "Crafteo básico"
 			description: ["Con una mesa de trabajo puedes fabricar casi todo. Si no recuerdas la receta, mira el objeto en JEI (&6R&r)."]
 			icon: "minecraft:crafting_table"
-			x: 2d
+			x: 2.5d
 			y: 0.5d
 			dependencies: ["E37C8C69FE86A06E"]
 			tasks: [
@@ -89,7 +89,7 @@
 				"Pico: piedra y minerales. Hacha: madera."
 			]
 			icon: "minecraft:wooden_pickaxe"
-			x: 3.5d
+			x: 4.5d
 			y: 0.5d
 			dependencies: ["2A18551ABF8BAA2B"]
 			tasks: [
@@ -127,7 +127,7 @@
 			subtitle: "Un salto de calidad"
 			description: ["La piedra dura más que la madera y sirve para minar hierro. Consigue adoquín con tu pico."]
 			icon: "minecraft:stone_pickaxe"
-			x: 5d
+			x: 6.5d
 			y: 0.5d
 			dependencies: ["1BDF8774D83C58FF"]
 			tasks: [
@@ -170,7 +170,7 @@
 				"Necesitas una cama: lana + tablones."
 			]
 			icon: "minecraft:torch"
-			x: 6.5d
+			x: 8.5d
 			y: 0.5d
 			dependencies: ["9243E3CCBABC82FC"]
 			tasks: [
@@ -213,7 +213,7 @@
 			subtitle: "Combate defensivo"
 			description: ["Defiéndete: acaba con unos zombis. Ataca, retrocede y cúrate; el combate es mejor con tiempo entre golpes."]
 			icon: "minecraft:iron_sword"
-			x: 8d
+			x: 10.5d
 			y: 0.5d
 			dependencies: ["3157D2002210A894"]
 			tasks: [
@@ -245,7 +245,7 @@
 			subtitle: "Minería y niveles Y"
 			description: ["El hierro aparece entre las alturas Y 0 y 60 aproximadamente. Baja a una cueva con antorchas y no caves justo hacia abajo."]
 			icon: "minecraft:raw_iron"
-			x: 9.5d
+			x: 12.5d
 			y: 0.5d
 			dependencies: ["A2C3F80A74017C20"]
 			tasks: [
@@ -279,7 +279,7 @@
 			subtitle: "Fundición"
 			description: ["Funde el hierro en un horno con carbón o madera como combustible."]
 			icon: "minecraft:furnace"
-			x: 11d
+			x: 14.5d
 			y: 0.5d
 			dependencies: ["BD6C2BB3B1FE24F8"]
 			tasks: [
@@ -317,7 +317,7 @@
 			subtitle: "Defensa"
 			description: ["Fabrica al menos una pieza de armadura de hierro y póntela."]
 			icon: "minecraft:writable_book"
-			x: 12.5d
+			x: 16.5d
 			y: 0.5d
 			dependencies: ["3AE0A47C08FD920C"]
 			tasks: [
@@ -355,7 +355,7 @@
 				"Con Farmer's Delight tendrás más recetas de cocina más adelante."
 			]
 			icon: "minecraft:bread"
-			x: 6.5d
+			x: 8.5d
 			y: 2d
 			dependencies: ["9243E3CCBABC82FC"]
 			tasks: [
@@ -395,7 +395,7 @@
 			subtitle: "Clase"
 			description: ["Abre el árbol de habilidades (&6K&r) y gasta tu primer punto en el primer nodo de una clase. Las misiones siguientes se completan solas según la clase que elijas."]
 			icon: "minecraft:oak_log"
-			x: 9.5d
+			x: 12.5d
 			y: 2d
 			dependencies: ["A2C3F80A74017C20"]
 			tasks: [
@@ -420,7 +420,7 @@
 			subtitle: "Armas pesadas y armadura"
 			description: ["Tier I de Guerrero: mandobles, hachas de batalla y mazas."]
 			icon: "minecraft:nether_star"
-			x: 11d
+			x: 14.5d
 			y: 2d
 			optional: true
 			dependencies: ["FC83CEEB4EC50B37"]
@@ -447,7 +447,7 @@
 			subtitle: "Arcos y ballestas"
 			description: ["Tier I de Arquero: arcos largos y ballestas pesadas."]
 			icon: "minecraft:nether_star"
-			x: 11d
+			x: 14.5d
 			y: 3.5d
 			optional: true
 			dependencies: ["FC83CEEB4EC50B37"]
@@ -474,7 +474,7 @@
 			subtitle: "Hechizos y grimorios"
 			description: ["Tier I de Mago: bastones, grimorios básicos y lanzar hechizos."]
 			icon: "minecraft:nether_star"
-			x: 11d
+			x: 14.5d
 			y: 5d
 			optional: true
 			dependencies: ["FC83CEEB4EC50B37"]
@@ -501,7 +501,7 @@
 			subtitle: "Minería y máquinas"
 			description: ["Ingeniero: más velocidad de minado, suerte y experiencia. Tus máquinas llegarán en el capítulo 4."]
 			icon: "minecraft:nether_star"
-			x: 11d
+			x: 14.5d
 			y: 6.5d
 			optional: true
 			dependencies: ["FC83CEEB4EC50B37"]
@@ -528,7 +528,7 @@
 			subtitle: "Armas ligeras"
 			description: ["Tier I de Asesino: dagas, katanas y armas rápidas."]
 			icon: "minecraft:nether_star"
-			x: 11d
+			x: 14.5d
 			y: 8d
 			optional: true
 			dependencies: ["FC83CEEB4EC50B37"]
@@ -555,8 +555,8 @@
 			subtitle: "Pufferfish"
 			description: ["Ya tienes clase. Cada nivel te dará más puntos; elige con calma cómo repartirlos (puedes reiniciar el árbol)."]
 			icon: "minecraft:oak_log"
-			x: 12.5d
-			y: 2d
+			x: 16.5d
+			y: 5d
 			dependency_requirement: "one_completed"
 			dependencies: [
 				"F53E3D15082E6D9B"
@@ -591,8 +591,8 @@
 				"Al terminar se abre el capítulo 2."
 			]
 			icon: "minecraft:iron_ingot"
-			x: 14d
-			y: 0.5d
+			x: 18.5d
+			y: 2d
 			dependencies: ["514DF68997C946E7", "463355FF3C985EA9", "232F25CB31CDBD5A"]
 			tasks: [
 				{

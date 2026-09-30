@@ -55,7 +55,7 @@
 				"Guarda las monedas en tu cartera y usa cajeros (ATM) para tu cuenta de banco."
 			]
 			icon: "lightmanscurrency:coin_copper"
-			x: 2d
+			x: 2.5d
 			y: 0.5d
 			dependencies: ["BB50558137D5DBEC"]
 			tasks: [
@@ -87,7 +87,7 @@
 			subtitle: "Tu cuenta de banco"
 			description: ["Un ATM guarda tus monedas en el banco: no se pierden al morir. También sirve para transferir dinero a otros jugadores."]
 			icon: "lightmanscurrency:atm"
-			x: 3.5d
+			x: 4.5d
 			y: 0.5d
 			dependencies: ["E5662E199EC48100"]
 			tasks: [
@@ -119,7 +119,7 @@
 			subtitle: "Comercio entre jugadores"
 			description: ["Un comerciante de objetos vende lo que pongas en su inventario al precio que fijes. Es la base de la economía del servidor."]
 			icon: "lightmanscurrency:item_trader_server_sml"
-			x: 5d
+			x: 6.5d
 			y: 0.5d
 			optional: true
 			dependencies: ["10DE08BC1BF5BED6"]
@@ -152,7 +152,7 @@
 			subtitle: "Punto de partida"
 			description: ["Eres un aventurero del gremio. Los encargos de rango Novato son sencillos: mobs comunes cerca del spawn."]
 			icon: "lightmanscurrency:coin_gold"
-			x: 2d
+			x: 2.5d
 			y: 2d
 			dependencies: ["BB50558137D5DBEC"]
 			tasks: [
@@ -177,7 +177,7 @@
 			subtitle: "Novato"
 			description: ["Los zombis rodean el pueblo. Elimina 30."]
 			icon: "minecraft:iron_sword"
-			x: 3.5d
+			x: 4.5d
 			y: 2d
 			dependencies: ["E8695456601ED108"]
 			tasks: [
@@ -210,7 +210,7 @@
 			subtitle: "Novato"
 			description: ["Los esqueletos atacan a los viajeros. Derrota 25."]
 			icon: "minecraft:iron_sword"
-			x: 3.5d
+			x: 4.5d
 			y: 3.5d
 			dependencies: ["E8695456601ED108"]
 			tasks: [
@@ -243,7 +243,7 @@
 			subtitle: "Novato"
 			description: ["Las arañas infestan las cuevas. Acaba con 20."]
 			icon: "minecraft:iron_sword"
-			x: 3.5d
+			x: 4.5d
 			y: 5d
 			dependencies: ["E8695456601ED108"]
 			tasks: [
@@ -276,8 +276,8 @@
 			subtitle: "Tras el capítulo 3"
 			description: ["Al completar &6El aventurero&r te reconocen como aventurero de Bronce. Ya puedes tomar encargos contra enemigos del Nether."]
 			icon: "minecraft:nether_star"
-			x: 5d
-			y: 2d
+			x: 6.5d
+			y: 3.5d
 			dependencies: ["68C1A8BC88D5C2E1", "519FCDF1EBFE219E", "973E5CD212B18321"]
 			tasks: [
 				{
@@ -308,8 +308,8 @@
 			subtitle: "Bronce"
 			description: ["Las brujas envenenan los pozos. Encuentra y elimina 5."]
 			icon: "minecraft:iron_sword"
-			x: 6.5d
-			y: 0.5d
+			x: 8.5d
+			y: 3.5d
 			dependencies: ["393A2A529C6BA469"]
 			tasks: [
 				{
@@ -341,8 +341,8 @@
 			subtitle: "Bronce"
 			description: ["Los endermen se llevan bloques del pueblo. Derrota 8 (no los mires a los ojos)."]
 			icon: "minecraft:iron_sword"
-			x: 6.5d
-			y: 2d
+			x: 8.5d
+			y: 5d
 			dependencies: ["393A2A529C6BA469"]
 			tasks: [
 				{
@@ -374,8 +374,8 @@
 			subtitle: "Bronce"
 			description: ["Las varas de blaze escasean. Elimina 10 blazes en una fortaleza del Nether."]
 			icon: "minecraft:iron_sword"
-			x: 6.5d
-			y: 3.5d
+			x: 8.5d
+			y: 6.5d
 			dependencies: ["393A2A529C6BA469", "275367E181852557"]
 			tasks: [
 				{
@@ -411,8 +411,8 @@
 				"Cuando lo hagas, el gremio te reconoce como aventurero de &6Plata&r."
 			]
 			icon: "minecraft:iron_sword"
-			x: 8d
-			y: 0.5d
+			x: 10.5d
+			y: 5d
 			dependencies: ["A7AEFFF6B8BB4F49", "E71D50A4E90F37D0", "B036B9CC8E184204"]
 			tasks: [
 				{
