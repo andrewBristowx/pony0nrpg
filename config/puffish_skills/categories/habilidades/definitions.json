@@ -97,11 +97,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+2 Armadura\n",
+				"text": "+4 Vida máxima\n",
 				"color": "green"
 			},
 			{
-				"text": "+2 Vida máxima",
+				"text": "+0.5 Daño de ataque",
 				"color": "green"
 			}
 		],
@@ -116,16 +116,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.armor",
-					"value": 2,
+					"attribute": "generic.max_health",
+					"value": 4,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.max_health",
-					"value": 2,
+					"attribute": "generic.attack_damage",
+					"value": 0.5,
 					"operation": "addition"
 				}
 			}
@@ -229,11 +229,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+2 Armadura\n",
+				"text": "+4 Vida máxima\n",
 				"color": "green"
 			},
 			{
-				"text": "+2 Vida máxima",
+				"text": "+1 Armadura",
 				"color": "green"
 			}
 		],
@@ -248,16 +248,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.armor",
-					"value": 2,
+					"attribute": "generic.max_health",
+					"value": 4,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.max_health",
-					"value": 2,
+					"attribute": "generic.armor",
+					"value": 1,
 					"operation": "addition"
 				}
 			}
@@ -361,11 +361,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+1 Dureza de armadura\n",
+				"text": "+2 Armadura\n",
 				"color": "green"
 			},
 			{
-				"text": "+1 Armadura",
+				"text": "+2 Vida máxima",
 				"color": "green"
 			}
 		],
@@ -380,16 +380,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.armor_toughness",
-					"value": 1,
+					"attribute": "generic.armor",
+					"value": 2,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.armor",
-					"value": 1,
+					"attribute": "generic.max_health",
+					"value": 2,
 					"operation": "addition"
 				}
 			}
@@ -493,11 +493,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+1 Dureza de armadura\n",
+				"text": "+2 Armadura\n",
 				"color": "green"
 			},
 			{
-				"text": "+1 Armadura",
+				"text": "+0.5 Dureza de armadura",
 				"color": "green"
 			}
 		],
@@ -512,16 +512,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.armor_toughness",
-					"value": 1,
+					"attribute": "generic.armor",
+					"value": 2,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.armor",
-					"value": 1,
+					"attribute": "generic.armor_toughness",
+					"value": 0.5,
 					"operation": "addition"
 				}
 			}
@@ -625,7 +625,7 @@
 				"color": "gold"
 			},
 			{
-				"text": "+1 Dureza de armadura\n",
+				"text": "+2 Armadura\n",
 				"color": "green"
 			},
 			{
@@ -644,8 +644,8 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.armor_toughness",
-					"value": 1,
+					"attribute": "generic.armor",
+					"value": 2,
 					"operation": "addition"
 				}
 			},
@@ -817,11 +817,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+0.1 Velocidad de ataque\n",
+				"text": "+1 Daño de ataque\n",
 				"color": "green"
 			},
 			{
-				"text": "+0.5 Daño de ataque",
+				"text": "+2% Probabilidad de crítico",
 				"color": "green"
 			}
 		],
@@ -836,16 +836,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.attack_speed",
-					"value": 0.1,
+					"attribute": "generic.attack_damage",
+					"value": 1,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.attack_damage",
-					"value": 0.5,
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.02,
 					"operation": "addition"
 				}
 			}
@@ -949,11 +949,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+0.1 Velocidad de ataque\n",
+				"text": "+1 Daño de ataque\n",
 				"color": "green"
 			},
 			{
-				"text": "+0.5 Daño de ataque",
+				"text": "+0.05 Velocidad de ataque",
 				"color": "green"
 			}
 		],
@@ -968,16 +968,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.attack_speed",
-					"value": 0.1,
+					"attribute": "generic.attack_damage",
+					"value": 1,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.attack_damage",
-					"value": 0.5,
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
 					"operation": "addition"
 				}
 			}
@@ -1081,7 +1081,7 @@
 				"color": "gold"
 			},
 			{
-				"text": "+0.1 Velocidad de ataque\n",
+				"text": "+1 Daño de ataque\n",
 				"color": "green"
 			},
 			{
@@ -1100,8 +1100,8 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.attack_speed",
-					"value": 0.1,
+					"attribute": "generic.attack_damage",
+					"value": 1,
 					"operation": "addition"
 				}
 			},
@@ -1273,11 +1273,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+4% Sobrecuración\n",
+				"text": "+6% Curación recibida\n",
 				"color": "green"
 			},
 			{
-				"text": "+3% Curación recibida",
+				"text": "+2 Vida máxima",
 				"color": "green"
 			}
 		],
@@ -1292,16 +1292,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:overheal",
-					"value": 0.04,
+					"attribute": "attributeslib:healing_received",
+					"value": 0.06,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:healing_received",
-					"value": 0.03,
+					"attribute": "generic.max_health",
+					"value": 2,
 					"operation": "addition"
 				}
 			}
@@ -1405,11 +1405,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+4% Sobrecuración\n",
+				"text": "+6% Curación recibida\n",
 				"color": "green"
 			},
 			{
-				"text": "+3% Curación recibida",
+				"text": "+2% Sobrecuración",
 				"color": "green"
 			}
 		],
@@ -1424,16 +1424,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:overheal",
-					"value": 0.04,
+					"attribute": "attributeslib:healing_received",
+					"value": 0.06,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:healing_received",
-					"value": 0.03,
+					"attribute": "attributeslib:overheal",
+					"value": 0.02,
 					"operation": "addition"
 				}
 			}
@@ -1537,7 +1537,7 @@
 				"color": "gold"
 			},
 			{
-				"text": "+4% Sobrecuración\n",
+				"text": "+6% Curación recibida\n",
 				"color": "green"
 			},
 			{
@@ -1556,8 +1556,8 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:overheal",
-					"value": 0.04,
+					"attribute": "attributeslib:healing_received",
+					"value": 0.06,
 					"operation": "addition"
 				}
 			},
@@ -1729,11 +1729,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+6% Velocidad de tensado\n",
+				"text": "+4% Daño de flecha\n",
 				"color": "green"
 			},
 			{
-				"text": "+2% Daño de flecha",
+				"text": "+1% Velocidad de movimiento",
 				"color": "green"
 			}
 		],
@@ -1748,16 +1748,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:draw_speed",
-					"value": 0.06,
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.04,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:arrow_damage",
-					"value": 0.02,
+					"attribute": "generic.movement_speed",
+					"value": 0.01,
 					"operation": "addition"
 				}
 			}
@@ -1861,11 +1861,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+6% Velocidad de tensado\n",
+				"text": "+4% Daño de flecha\n",
 				"color": "green"
 			},
 			{
-				"text": "+2% Daño de flecha",
+				"text": "+3% Velocidad de tensado",
 				"color": "green"
 			}
 		],
@@ -1880,16 +1880,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:draw_speed",
-					"value": 0.06,
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.04,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:arrow_damage",
-					"value": 0.02,
+					"attribute": "attributeslib:draw_speed",
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
@@ -1993,11 +1993,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+10% Velocidad de flecha\n",
+				"text": "+6% Daño de flecha\n",
 				"color": "green"
 			},
 			{
-				"text": "+3% Daño de flecha",
+				"text": "+2% Probabilidad de crítico",
 				"color": "green"
 			}
 		],
@@ -2012,16 +2012,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:arrow_velocity",
-					"value": 0.1,
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.06,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:arrow_damage",
-					"value": 0.03,
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.02,
 					"operation": "addition"
 				}
 			}
@@ -2125,11 +2125,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+10% Velocidad de flecha\n",
+				"text": "+6% Daño de flecha\n",
 				"color": "green"
 			},
 			{
-				"text": "+3% Daño de flecha",
+				"text": "+5% Velocidad de flecha",
 				"color": "green"
 			}
 		],
@@ -2144,16 +2144,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:arrow_velocity",
-					"value": 0.1,
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.06,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:arrow_damage",
-					"value": 0.03,
+					"attribute": "attributeslib:arrow_velocity",
+					"value": 0.05,
 					"operation": "addition"
 				}
 			}
@@ -2257,7 +2257,7 @@
 				"color": "gold"
 			},
 			{
-				"text": "+10% Velocidad de flecha\n",
+				"text": "+6% Daño de flecha\n",
 				"color": "green"
 			},
 			{
@@ -2276,8 +2276,8 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:arrow_velocity",
-					"value": 0.1,
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.06,
 					"operation": "addition"
 				}
 			},
@@ -2449,11 +2449,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+0.6 Suerte\n",
+				"text": "+4% Velocidad de movimiento\n",
 				"color": "green"
 			},
 			{
-				"text": "+2% Velocidad de movimiento",
+				"text": "+1.5% Esquiva",
 				"color": "green"
 			}
 		],
@@ -2468,16 +2468,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.luck",
-					"value": 0.6,
+					"attribute": "generic.movement_speed",
+					"value": 0.04,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.movement_speed",
-					"value": 0.02,
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.015,
 					"operation": "addition"
 				}
 			}
@@ -2581,11 +2581,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+0.6 Suerte\n",
+				"text": "+4% Velocidad de movimiento\n",
 				"color": "green"
 			},
 			{
-				"text": "+2% Velocidad de movimiento",
+				"text": "+0.3 Suerte",
 				"color": "green"
 			}
 		],
@@ -2600,16 +2600,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.luck",
-					"value": 0.6,
+					"attribute": "generic.movement_speed",
+					"value": 0.04,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.movement_speed",
-					"value": 0.02,
+					"attribute": "generic.luck",
+					"value": 0.3,
 					"operation": "addition"
 				}
 			}
@@ -2713,7 +2713,7 @@
 				"color": "gold"
 			},
 			{
-				"text": "+0.6 Suerte\n",
+				"text": "+4% Velocidad de movimiento\n",
 				"color": "green"
 			},
 			{
@@ -2732,8 +2732,8 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.luck",
-					"value": 0.6,
+					"attribute": "generic.movement_speed",
+					"value": 0.04,
 					"operation": "addition"
 				}
 			},
@@ -2905,11 +2905,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+2 Vida máxima\n",
+				"text": "+8% Velocidad de tensado\n",
 				"color": "green"
 			},
 			{
-				"text": "+4% Velocidad de tensado",
+				"text": "+5% Velocidad de flecha",
 				"color": "green"
 			}
 		],
@@ -2924,16 +2924,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.max_health",
-					"value": 2,
+					"attribute": "attributeslib:draw_speed",
+					"value": 0.08,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:draw_speed",
-					"value": 0.04,
+					"attribute": "attributeslib:arrow_velocity",
+					"value": 0.05,
 					"operation": "addition"
 				}
 			}
@@ -3037,11 +3037,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+2 Vida máxima\n",
+				"text": "+8% Velocidad de tensado\n",
 				"color": "green"
 			},
 			{
-				"text": "+4% Velocidad de tensado",
+				"text": "+1 Vida máxima",
 				"color": "green"
 			}
 		],
@@ -3056,16 +3056,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.max_health",
-					"value": 2,
+					"attribute": "attributeslib:draw_speed",
+					"value": 0.08,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:draw_speed",
-					"value": 0.04,
+					"attribute": "generic.max_health",
+					"value": 1,
 					"operation": "addition"
 				}
 			}
@@ -3169,7 +3169,7 @@
 				"color": "gold"
 			},
 			{
-				"text": "+2 Vida máxima\n",
+				"text": "+8% Velocidad de tensado\n",
 				"color": "green"
 			},
 			{
@@ -3188,8 +3188,8 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.max_health",
-					"value": 2,
+					"attribute": "attributeslib:draw_speed",
+					"value": 0.08,
 					"operation": "addition"
 				}
 			},
@@ -3361,11 +3361,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+2% Reducción de enfriamiento\n",
+				"text": "+50 Maná máximo\n",
 				"color": "green"
 			},
 			{
-				"text": "+25 Maná máximo",
+				"text": "+1% Poder de hechizo",
 				"color": "green"
 			}
 		],
@@ -3380,17 +3380,17 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:cooldown_reduction",
-					"value": 0.02,
-					"operation": "multiply_base"
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 50,
+					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:max_mana",
-					"value": 25,
-					"operation": "addition"
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.01,
+					"operation": "multiply_base"
 				}
 			}
 		]
@@ -3493,11 +3493,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+2% Reducción de enfriamiento\n",
+				"text": "+50 Maná máximo\n",
 				"color": "green"
 			},
 			{
-				"text": "+25 Maná máximo",
+				"text": "+1% Reducción de enfriamiento",
 				"color": "green"
 			}
 		],
@@ -3512,17 +3512,17 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:cooldown_reduction",
-					"value": 0.02,
-					"operation": "multiply_base"
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 50,
+					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:max_mana",
-					"value": 25,
-					"operation": "addition"
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.01,
+					"operation": "multiply_base"
 				}
 			}
 		]
@@ -3625,11 +3625,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+4% Reducción de tiempo de lanzamiento\n",
+				"text": "+6% Poder de fuego\n",
 				"color": "green"
 			},
 			{
-				"text": "+3% Poder de fuego",
+				"text": "+25 Maná máximo",
 				"color": "green"
 			}
 		],
@@ -3644,17 +3644,17 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:cast_time_reduction",
-					"value": 0.04,
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 0.06,
 					"operation": "multiply_base"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:fire_spell_power",
-					"value": 0.03,
-					"operation": "multiply_base"
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
 				}
 			}
 		]
@@ -3757,11 +3757,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+4% Reducción de tiempo de lanzamiento\n",
+				"text": "+6% Poder de fuego\n",
 				"color": "green"
 			},
 			{
-				"text": "+3% Poder de fuego",
+				"text": "+2% Reducción de tiempo de lanzamiento",
 				"color": "green"
 			}
 		],
@@ -3776,16 +3776,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:cast_time_reduction",
-					"value": 0.04,
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 0.06,
 					"operation": "multiply_base"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:fire_spell_power",
-					"value": 0.03,
+					"attribute": "irons_spellbooks:cast_time_reduction",
+					"value": 0.02,
 					"operation": "multiply_base"
 				}
 			}
@@ -3889,7 +3889,7 @@
 				"color": "gold"
 			},
 			{
-				"text": "+4% Reducción de tiempo de lanzamiento\n",
+				"text": "+6% Poder de fuego\n",
 				"color": "green"
 			},
 			{
@@ -3908,8 +3908,8 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:cast_time_reduction",
-					"value": 0.04,
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 0.06,
 					"operation": "multiply_base"
 				}
 			},
@@ -4081,11 +4081,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+4% Resistencia a hechizos\n",
+				"text": "+6% Poder de hielo\n",
 				"color": "green"
 			},
 			{
-				"text": "+3% Poder de hielo",
+				"text": "+25 Maná máximo",
 				"color": "green"
 			}
 		],
@@ -4100,17 +4100,17 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:spell_resist",
-					"value": 0.04,
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 0.06,
 					"operation": "multiply_base"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:ice_spell_power",
-					"value": 0.03,
-					"operation": "multiply_base"
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
 				}
 			}
 		]
@@ -4213,11 +4213,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+4% Resistencia a hechizos\n",
+				"text": "+6% Poder de hielo\n",
 				"color": "green"
 			},
 			{
-				"text": "+3% Poder de hielo",
+				"text": "+2% Resistencia a hechizos",
 				"color": "green"
 			}
 		],
@@ -4232,16 +4232,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:spell_resist",
-					"value": 0.04,
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 0.06,
 					"operation": "multiply_base"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:ice_spell_power",
-					"value": 0.03,
+					"attribute": "irons_spellbooks:spell_resist",
+					"value": 0.02,
 					"operation": "multiply_base"
 				}
 			}
@@ -4345,7 +4345,7 @@
 				"color": "gold"
 			},
 			{
-				"text": "+4% Resistencia a hechizos\n",
+				"text": "+6% Poder de hielo\n",
 				"color": "green"
 			},
 			{
@@ -4364,8 +4364,8 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:spell_resist",
-					"value": 0.04,
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 0.06,
 					"operation": "multiply_base"
 				}
 			},
@@ -4537,11 +4537,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+4% Reducción de enfriamiento\n",
+				"text": "+6% Poder de evocación\n",
 				"color": "green"
 			},
 			{
-				"text": "+3% Poder de evocación",
+				"text": "+3% Poder sagrado",
 				"color": "green"
 			}
 		],
@@ -4556,15 +4556,15 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:cooldown_reduction",
-					"value": 0.04,
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 0.06,
 					"operation": "multiply_base"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:evocation_spell_power",
+					"attribute": "irons_spellbooks:holy_spell_power",
 					"value": 0.03,
 					"operation": "multiply_base"
 				}
@@ -4669,11 +4669,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+4% Reducción de enfriamiento\n",
+				"text": "+6% Poder de evocación\n",
 				"color": "green"
 			},
 			{
-				"text": "+3% Poder de evocación",
+				"text": "+2% Reducción de enfriamiento",
 				"color": "green"
 			}
 		],
@@ -4688,16 +4688,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:cooldown_reduction",
-					"value": 0.04,
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 0.06,
 					"operation": "multiply_base"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:evocation_spell_power",
-					"value": 0.03,
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.02,
 					"operation": "multiply_base"
 				}
 			}
@@ -4801,7 +4801,7 @@
 				"color": "gold"
 			},
 			{
-				"text": "+4% Reducción de enfriamiento\n",
+				"text": "+6% Poder de evocación\n",
 				"color": "green"
 			},
 			{
@@ -4820,8 +4820,8 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:cooldown_reduction",
-					"value": 0.04,
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 0.06,
 					"operation": "multiply_base"
 				}
 			},
@@ -4993,11 +4993,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+6% Poder ancestral\n",
+				"text": "+6% Poder del vacío\n",
 				"color": "green"
 			},
 			{
-				"text": "+3% Poder del vacío",
+				"text": "+3% Poder de sangre",
 				"color": "green"
 			}
 		],
@@ -5012,7 +5012,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:eldritch_spell_power",
+					"attribute": "irons_spellbooks:ender_spell_power",
 					"value": 0.06,
 					"operation": "multiply_base"
 				}
@@ -5020,7 +5020,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:ender_spell_power",
+					"attribute": "irons_spellbooks:blood_spell_power",
 					"value": 0.03,
 					"operation": "multiply_base"
 				}
@@ -5125,11 +5125,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+6% Poder ancestral\n",
+				"text": "+6% Poder del vacío\n",
 				"color": "green"
 			},
 			{
-				"text": "+3% Poder del vacío",
+				"text": "+3% Poder ancestral",
 				"color": "green"
 			}
 		],
@@ -5144,7 +5144,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:eldritch_spell_power",
+					"attribute": "irons_spellbooks:ender_spell_power",
 					"value": 0.06,
 					"operation": "multiply_base"
 				}
@@ -5152,7 +5152,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:ender_spell_power",
+					"attribute": "irons_spellbooks:eldritch_spell_power",
 					"value": 0.03,
 					"operation": "multiply_base"
 				}
@@ -5257,7 +5257,7 @@
 				"color": "gold"
 			},
 			{
-				"text": "+6% Poder ancestral\n",
+				"text": "+6% Poder del vacío\n",
 				"color": "green"
 			},
 			{
@@ -5276,7 +5276,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "irons_spellbooks:eldritch_spell_power",
+					"attribute": "irons_spellbooks:ender_spell_power",
 					"value": 0.06,
 					"operation": "multiply_base"
 				}
@@ -5449,11 +5449,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+4% Experiencia ganada\n",
+				"text": "+6% Velocidad de minado\n",
 				"color": "green"
 			},
 			{
-				"text": "+3% Velocidad de minado",
+				"text": "+2 Vida máxima",
 				"color": "green"
 			}
 		],
@@ -5468,16 +5468,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:experience_gained",
-					"value": 0.04,
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.06,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:mining_speed",
-					"value": 0.03,
+					"attribute": "generic.max_health",
+					"value": 2,
 					"operation": "addition"
 				}
 			}
@@ -5581,11 +5581,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+4% Experiencia ganada\n",
+				"text": "+6% Velocidad de minado\n",
 				"color": "green"
 			},
 			{
-				"text": "+3% Velocidad de minado",
+				"text": "+2% Experiencia ganada",
 				"color": "green"
 			}
 		],
@@ -5600,16 +5600,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:experience_gained",
-					"value": 0.04,
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.06,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:mining_speed",
-					"value": 0.03,
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.02,
 					"operation": "addition"
 				}
 			}
@@ -5713,11 +5713,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+2 Vida máxima\n",
+				"text": "+8% Velocidad de minado\n",
 				"color": "green"
 			},
 			{
-				"text": "+4% Velocidad de minado",
+				"text": "+0.3 Suerte",
 				"color": "green"
 			}
 		],
@@ -5732,16 +5732,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.max_health",
-					"value": 2,
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.08,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:mining_speed",
-					"value": 0.04,
+					"attribute": "generic.luck",
+					"value": 0.3,
 					"operation": "addition"
 				}
 			}
@@ -5845,11 +5845,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+2 Vida máxima\n",
+				"text": "+8% Velocidad de minado\n",
 				"color": "green"
 			},
 			{
-				"text": "+4% Velocidad de minado",
+				"text": "+1 Vida máxima",
 				"color": "green"
 			}
 		],
@@ -5864,16 +5864,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.max_health",
-					"value": 2,
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.08,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:mining_speed",
-					"value": 0.04,
+					"attribute": "generic.max_health",
+					"value": 1,
 					"operation": "addition"
 				}
 			}
@@ -5977,7 +5977,7 @@
 				"color": "gold"
 			},
 			{
-				"text": "+2 Vida máxima\n",
+				"text": "+8% Velocidad de minado\n",
 				"color": "green"
 			},
 			{
@@ -5996,8 +5996,8 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.max_health",
-					"value": 2,
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.08,
 					"operation": "addition"
 				}
 			},
@@ -6169,11 +6169,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+0.06 Velocidad de ataque\n",
+				"text": "+6% Experiencia ganada\n",
 				"color": "green"
 			},
 			{
-				"text": "+3% Experiencia ganada",
+				"text": "+0.3 Suerte",
 				"color": "green"
 			}
 		],
@@ -6188,7 +6188,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.attack_speed",
+					"attribute": "attributeslib:experience_gained",
 					"value": 0.06,
 					"operation": "addition"
 				}
@@ -6196,8 +6196,8 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:experience_gained",
-					"value": 0.03,
+					"attribute": "generic.luck",
+					"value": 0.3,
 					"operation": "addition"
 				}
 			}
@@ -6301,11 +6301,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+0.06 Velocidad de ataque\n",
+				"text": "+6% Experiencia ganada\n",
 				"color": "green"
 			},
 			{
-				"text": "+3% Experiencia ganada",
+				"text": "+0.03 Velocidad de ataque",
 				"color": "green"
 			}
 		],
@@ -6320,7 +6320,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.attack_speed",
+					"attribute": "attributeslib:experience_gained",
 					"value": 0.06,
 					"operation": "addition"
 				}
@@ -6328,7 +6328,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:experience_gained",
+					"attribute": "generic.attack_speed",
 					"value": 0.03,
 					"operation": "addition"
 				}
@@ -6433,7 +6433,7 @@
 				"color": "gold"
 			},
 			{
-				"text": "+0.06 Velocidad de ataque\n",
+				"text": "+6% Experiencia ganada\n",
 				"color": "green"
 			},
 			{
@@ -6452,7 +6452,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.attack_speed",
+					"attribute": "attributeslib:experience_gained",
 					"value": 0.06,
 					"operation": "addition"
 				}
@@ -6625,11 +6625,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+4% Velocidad de movimiento\n",
+				"text": "+4 Vida máxima\n",
 				"color": "green"
 			},
 			{
-				"text": "+2 Vida máxima",
+				"text": "+1 Armadura",
 				"color": "green"
 			}
 		],
@@ -6644,16 +6644,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.movement_speed",
-					"value": 0.04,
+					"attribute": "generic.max_health",
+					"value": 4,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.max_health",
-					"value": 2,
+					"attribute": "generic.armor",
+					"value": 1,
 					"operation": "addition"
 				}
 			}
@@ -6757,11 +6757,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+4% Velocidad de movimiento\n",
+				"text": "+4 Vida máxima\n",
 				"color": "green"
 			},
 			{
-				"text": "+2 Vida máxima",
+				"text": "+2% Velocidad de movimiento",
 				"color": "green"
 			}
 		],
@@ -6776,16 +6776,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.movement_speed",
-					"value": 0.04,
+					"attribute": "generic.max_health",
+					"value": 4,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.max_health",
-					"value": 2,
+					"attribute": "generic.movement_speed",
+					"value": 0.02,
 					"operation": "addition"
 				}
 			}
@@ -6889,7 +6889,7 @@
 				"color": "gold"
 			},
 			{
-				"text": "+4% Velocidad de movimiento\n",
+				"text": "+4 Vida máxima\n",
 				"color": "green"
 			},
 			{
@@ -6908,8 +6908,8 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.movement_speed",
-					"value": 0.04,
+					"attribute": "generic.max_health",
+					"value": 4,
 					"operation": "addition"
 				}
 			},
@@ -7081,11 +7081,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+2% Velocidad de movimiento\n",
+				"text": "+1 Daño de ataque\n",
 				"color": "green"
 			},
 			{
-				"text": "+0.5 Daño de ataque",
+				"text": "+0.03 Velocidad de ataque",
 				"color": "green"
 			}
 		],
@@ -7100,16 +7100,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.movement_speed",
-					"value": 0.02,
+					"attribute": "generic.attack_damage",
+					"value": 1,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.attack_damage",
-					"value": 0.5,
+					"attribute": "generic.attack_speed",
+					"value": 0.03,
 					"operation": "addition"
 				}
 			}
@@ -7213,11 +7213,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+2% Velocidad de movimiento\n",
+				"text": "+1 Daño de ataque\n",
 				"color": "green"
 			},
 			{
-				"text": "+0.5 Daño de ataque",
+				"text": "+1% Velocidad de movimiento",
 				"color": "green"
 			}
 		],
@@ -7232,16 +7232,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.movement_speed",
-					"value": 0.02,
+					"attribute": "generic.attack_damage",
+					"value": 1,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.attack_damage",
-					"value": 0.5,
+					"attribute": "generic.movement_speed",
+					"value": 0.01,
 					"operation": "addition"
 				}
 			}
@@ -7345,11 +7345,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+4% Probabilidad de crítico\n",
+				"text": "+4% Esquiva\n",
 				"color": "green"
 			},
 			{
-				"text": "+2% Esquiva",
+				"text": "+2% Velocidad de movimiento",
 				"color": "green"
 			}
 		],
@@ -7364,7 +7364,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:crit_chance",
+					"attribute": "attributeslib:dodge_chance",
 					"value": 0.04,
 					"operation": "addition"
 				}
@@ -7372,7 +7372,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:dodge_chance",
+					"attribute": "generic.movement_speed",
 					"value": 0.02,
 					"operation": "addition"
 				}
@@ -7477,11 +7477,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+4% Probabilidad de crítico\n",
+				"text": "+4% Esquiva\n",
 				"color": "green"
 			},
 			{
-				"text": "+2% Esquiva",
+				"text": "+2% Probabilidad de crítico",
 				"color": "green"
 			}
 		],
@@ -7496,7 +7496,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:crit_chance",
+					"attribute": "attributeslib:dodge_chance",
 					"value": 0.04,
 					"operation": "addition"
 				}
@@ -7504,7 +7504,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:dodge_chance",
+					"attribute": "attributeslib:crit_chance",
 					"value": 0.02,
 					"operation": "addition"
 				}
@@ -7609,7 +7609,7 @@
 				"color": "gold"
 			},
 			{
-				"text": "+4% Probabilidad de crítico\n",
+				"text": "+4% Esquiva\n",
 				"color": "green"
 			},
 			{
@@ -7628,7 +7628,7 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:crit_chance",
+					"attribute": "attributeslib:dodge_chance",
 					"value": 0.04,
 					"operation": "addition"
 				}
@@ -7801,11 +7801,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+2 Perforación de armadura\n",
+				"text": "+0.1 Velocidad de ataque\n",
 				"color": "green"
 			},
 			{
-				"text": "+0.05 Velocidad de ataque",
+				"text": "+0.5 Daño de ataque",
 				"color": "green"
 			}
 		],
@@ -7820,16 +7820,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:armor_pierce",
-					"value": 2,
+					"attribute": "generic.attack_speed",
+					"value": 0.1,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.attack_speed",
-					"value": 0.05,
+					"attribute": "generic.attack_damage",
+					"value": 0.5,
 					"operation": "addition"
 				}
 			}
@@ -7933,11 +7933,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+2 Perforación de armadura\n",
+				"text": "+0.1 Velocidad de ataque\n",
 				"color": "green"
 			},
 			{
-				"text": "+0.05 Velocidad de ataque",
+				"text": "+1 Perforación de armadura",
 				"color": "green"
 			}
 		],
@@ -7952,16 +7952,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:armor_pierce",
-					"value": 2,
+					"attribute": "generic.attack_speed",
+					"value": 0.1,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.attack_speed",
-					"value": 0.05,
+					"attribute": "attributeslib:armor_pierce",
+					"value": 1,
 					"operation": "addition"
 				}
 			}
@@ -8065,7 +8065,7 @@
 				"color": "gold"
 			},
 			{
-				"text": "+2 Perforación de armadura\n",
+				"text": "+0.1 Velocidad de ataque\n",
 				"color": "green"
 			},
 			{
@@ -8084,8 +8084,8 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:armor_pierce",
-					"value": 2,
+					"attribute": "generic.attack_speed",
+					"value": 0.1,
 					"operation": "addition"
 				}
 			},
@@ -8257,11 +8257,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+2% Daño según vida del objetivo\n",
+				"text": "+16% Daño crítico\n",
 				"color": "green"
 			},
 			{
-				"text": "+8% Daño crítico",
+				"text": "+1% Robo de vida",
 				"color": "green"
 			}
 		],
@@ -8276,16 +8276,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:current_hp_damage",
-					"value": 0.02,
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.16,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:crit_damage",
-					"value": 0.08,
+					"attribute": "attributeslib:life_steal",
+					"value": 0.01,
 					"operation": "addition"
 				}
 			}
@@ -8389,11 +8389,11 @@
 				"color": "gold"
 			},
 			{
-				"text": "+2% Daño según vida del objetivo\n",
+				"text": "+16% Daño crítico\n",
 				"color": "green"
 			},
 			{
-				"text": "+8% Daño crítico",
+				"text": "+1% Daño según vida del objetivo",
 				"color": "green"
 			}
 		],
@@ -8408,16 +8408,16 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:current_hp_damage",
-					"value": 0.02,
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.16,
 					"operation": "addition"
 				}
 			},
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:crit_damage",
-					"value": 0.08,
+					"attribute": "attributeslib:current_hp_damage",
+					"value": 0.01,
 					"operation": "addition"
 				}
 			}
@@ -8521,7 +8521,7 @@
 				"color": "gold"
 			},
 			{
-				"text": "+2% Daño según vida del objetivo\n",
+				"text": "+16% Daño crítico\n",
 				"color": "green"
 			},
 			{
@@ -8540,8 +8540,8 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "attributeslib:current_hp_damage",
-					"value": 0.02,
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.16,
 					"operation": "addition"
 				}
 			},

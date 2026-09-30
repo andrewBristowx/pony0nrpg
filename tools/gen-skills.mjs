@@ -206,7 +206,7 @@ classes.forEach((cls, ci) => {
     const notable = k % 3 === 0;
     const main = cls.trunk.stats[(k - 1) % cls.trunk.stats.length];
     const extra = cls.trunk.stats[k % cls.trunk.stats.length];
-    const stats = notable ? [[main[0], main[1] * 2], extra] : [main];
+    const stats = notable ? [[cls.trunk.stats[0][0], cls.trunk.stats[0][1] * 2], cls.trunk.stats[(k / 3) % cls.trunk.stats.length]] : [main];
     addNode({
       id, x: (k - 1) * TRUNK_STEP, y: y0, isRoot: k === 1, frame: notable ? "goal" : "task",
       title: notable ? cls.trunk.notables[k / 3 - 1] : `${cls.name} · Fundamentos ${roman[k - 1]}`,
@@ -238,7 +238,7 @@ classes.forEach((cls, ci) => {
       if (isCap) {
         addNode({ id, x, y: ly, frame: "challenge", title: lane.cap.title, path, icon: lane.cap.icon, stats: lane.cap.stats, lore: lane.cap.lore, requiredSpent: CAP_SPENT });
       } else if (notable) {
-        addNode({ id, x, y: ly, frame: "goal", title: lane.notables[k / 3 - 1], path, icon: lane.icons[(k - 1) % lane.icons.length], stats: [[main[0], main[1] * 2], extra] });
+        addNode({ id, x, y: ly, frame: "goal", title: lane.notables[k / 3 - 1], path, icon: lane.icons[(k - 1) % lane.icons.length], stats: [[lane.stats[0][0], lane.stats[0][1] * 2], lane.stats[(k / 3) % lane.stats.length]] });
       } else {
         addNode({ id, x, y: ly, frame: "task", title: `${lane.name} ${roman[k - 1]}`, path, icon: lane.icons[(k - 1) % lane.icons.length], stats: [main] });
       }
