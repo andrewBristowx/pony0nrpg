@@ -96,9 +96,9 @@ Configs que el jugador puede cambiar (`options.txt`, ajustes de minimapa) se dis
 
 Para no explicar esto a cada jugador: distribuir una **instancia Prism exportada** (`.zip`) con el jar y el comando ya puestos; el jugador solo la importa.
 
-### Limitación importante
+### Cambios de Forge o Minecraft
 
-packwiz-installer actualiza mods, configs y archivos, **pero no cambia la versión de Forge/Minecraft de la instancia**. Si se sube Forge (o Minecraft), los jugadores tienen que crear/importar una nueva instancia. Por eso: fijar Forge al principio y actualizarlo muy pocas veces, con aviso.
+packwiz-installer detecta instancias de MultiMC/Prism (al ejecutarlo muestra "Loaded MultiMC config") y en principio puede actualizar los componentes de `mmc-pack.json`, pero **no está probado** que un cambio de versión de Forge se aplique bien en Prism ni que no requiera reiniciar. Hasta probarlo, tratar un cambio de Forge/Minecraft como riesgoso: fijar Forge pronto, avisar, y ser capaz de dar una instancia nueva si hace falta.
 
 ## Servidor dedicado
 
