@@ -1,10 +1,10 @@
-# Genera dist/EmiRPG-Prism.zip: instancia de Prism Launcher que se auto-actualiza desde GitHub.
-# Uso:  powershell -File tools/make-prism-instance.ps1 -GithubUser TU_USUARIO -Repo TU_REPO [-Branch main]
+# Genera dist/Pony0nRPG-Prism.zip: instancia de Prism Launcher que se auto-actualiza desde GitHub.
+# Uso:  powershell -File tools/make-prism-instance.ps1 [-GithubUser USUARIO] [-Repo REPO] [-Branch main]
 param(
-    [Parameter(Mandatory = $true)][string]$GithubUser,
-    [Parameter(Mandatory = $true)][string]$Repo,
+    [string]$GithubUser = "andrewBristowx",
+    [string]$Repo = "pony0nrpg",
     [string]$Branch = "main",
-    [string]$InstanceName = "Emi RPG Modpack",
+    [string]$InstanceName = "Pony0n RPG",
     [string]$MinecraftVersion = "1.20.1",
     [string]$ForgeVersion = "47.4.10",
     [int]$MaxMemMB = 6144
@@ -48,7 +48,7 @@ MaxMemAlloc=$MaxMemMB
 [IO.File]::WriteAllText((Join-Path $stage "instance.cfg"), $cfg, (New-Object Text.UTF8Encoding($false)))
 
 # 4. Zip
-$zip = Join-Path $dist "EmiRPG-Prism.zip"
+$zip = Join-Path $dist "Pony0nRPG-Prism.zip"
 if (Test-Path $zip) { Remove-Item $zip -Force }
 Add-Type -AssemblyName System.IO.Compression
 Add-Type -AssemblyName System.IO.Compression.FileSystem

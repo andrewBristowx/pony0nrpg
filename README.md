@@ -1,4 +1,4 @@
-# Modpack RPG — Minecraft 1.20.1 Forge
+# Pony0n RPG — Minecraft 1.20.1 Forge
 
 Servidor y modpack de **RPG + aventura + exploración + Create + tecnología + magia**, donde las misiones (FTB Quests) funcionan como manual interactivo del pack.
 
