@@ -7,8 +7,13 @@
 				"color": "gold"
 			},
 			{
-				"text": "+2 Vida máxima",
+				"text": "+2 Vida máxima\n",
 				"color": "green"
+			},
+			{
+				"text": "Equipo de Guerrero: Tier I",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
@@ -25,6 +30,13 @@
 					"attribute": "generic.max_health",
 					"value": 2,
 					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s clase_guerrero",
+					"lock_command": "kubejs stages remove @s clase_guerrero"
 				}
 			}
 		]
@@ -233,8 +245,13 @@
 				"color": "green"
 			},
 			{
-				"text": "+1 Armadura",
+				"text": "+1 Armadura\n",
 				"color": "green"
+			},
+			{
+				"text": "Equipo de Guerrero: Tier II",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
@@ -259,6 +276,13 @@
 					"attribute": "generic.armor",
 					"value": 1,
 					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_guerrero_2",
+					"lock_command": "kubejs stages remove @s maestria_guerrero_2"
 				}
 			}
 		]
@@ -679,7 +703,12 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima del Baluarte: el muro que no cae.",
+				"text": "Cima del Baluarte: el muro que no cae.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Guerrero: Tier III",
 				"color": "gray",
 				"italic": true
 			}
@@ -714,6 +743,13 @@
 					"attribute": "generic.armor_toughness",
 					"value": 1,
 					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_guerrero_3",
+					"lock_command": "kubejs stages remove @s maestria_guerrero_3"
 				}
 			}
 		],
@@ -1135,7 +1171,12 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima del Berserker: cada golpe cuenta.",
+				"text": "Cima del Berserker: cada golpe cuenta.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Guerrero: Tier III",
 				"color": "gray",
 				"italic": true
 			}
@@ -1170,6 +1211,13 @@
 					"attribute": "attributeslib:life_steal",
 					"value": 0.03,
 					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_guerrero_3",
+					"lock_command": "kubejs stages remove @s maestria_guerrero_3"
 				}
 			}
 		],
@@ -1591,7 +1639,12 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima del Paladín: la luz que sostiene al grupo.",
+				"text": "Cima del Paladín: la luz que sostiene al grupo.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Guerrero: Tier III",
 				"color": "gray",
 				"italic": true
 			}
@@ -1627,6 +1680,13 @@
 					"value": 0.03,
 					"operation": "addition"
 				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_guerrero_3",
+					"lock_command": "kubejs stages remove @s maestria_guerrero_3"
+				}
 			}
 		],
 		"required_spent_points": 30
@@ -1639,8 +1699,13 @@
 				"color": "gold"
 			},
 			{
-				"text": "+2% Daño de flecha",
+				"text": "+2% Daño de flecha\n",
 				"color": "green"
+			},
+			{
+				"text": "Equipo de Arquero: Tier I",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
@@ -1657,6 +1722,13 @@
 					"attribute": "attributeslib:arrow_damage",
 					"value": 0.02,
 					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s clase_arquero",
+					"lock_command": "kubejs stages remove @s clase_arquero"
 				}
 			}
 		]
@@ -1865,8 +1937,13 @@
 				"color": "green"
 			},
 			{
-				"text": "+3% Velocidad de tensado",
+				"text": "+3% Velocidad de tensado\n",
 				"color": "green"
+			},
+			{
+				"text": "Equipo de Arquero: Tier II",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
@@ -1891,6 +1968,13 @@
 					"attribute": "attributeslib:draw_speed",
 					"value": 0.03,
 					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_arquero_2",
+					"lock_command": "kubejs stages remove @s maestria_arquero_2"
 				}
 			}
 		]
@@ -2311,7 +2395,12 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima del Francotirador: un tiro, una baja.",
+				"text": "Cima del Francotirador: un tiro, una baja.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Arquero: Tier III",
 				"color": "gray",
 				"italic": true
 			}
@@ -2346,6 +2435,13 @@
 					"attribute": "attributeslib:arrow_velocity",
 					"value": 0.2,
 					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_arquero_3",
+					"lock_command": "kubejs stages remove @s maestria_arquero_3"
 				}
 			}
 		],
@@ -2767,7 +2863,12 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima del Explorador: nadie te alcanza.",
+				"text": "Cima del Explorador: nadie te alcanza.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Arquero: Tier III",
 				"color": "gray",
 				"italic": true
 			}
@@ -2802,6 +2903,13 @@
 					"attribute": "generic.luck",
 					"value": 1,
 					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_arquero_3",
+					"lock_command": "kubejs stages remove @s maestria_arquero_3"
 				}
 			}
 		],
@@ -3223,7 +3331,12 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima del Tirador veloz: el cielo se llena de flechas.",
+				"text": "Cima del Tirador veloz: el cielo se llena de flechas.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Arquero: Tier III",
 				"color": "gray",
 				"italic": true
 			}
@@ -3259,6 +3372,13 @@
 					"value": 0.05,
 					"operation": "addition"
 				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_arquero_3",
+					"lock_command": "kubejs stages remove @s maestria_arquero_3"
+				}
 			}
 		],
 		"required_spent_points": 30
@@ -3271,8 +3391,13 @@
 				"color": "gold"
 			},
 			{
-				"text": "+25 Maná máximo",
+				"text": "+25 Maná máximo\n",
 				"color": "green"
+			},
+			{
+				"text": "Equipo de Mago: Tier I",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
@@ -3289,6 +3414,13 @@
 					"attribute": "irons_spellbooks:max_mana",
 					"value": 25,
 					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s clase_mago",
+					"lock_command": "kubejs stages remove @s clase_mago"
 				}
 			}
 		]
@@ -3497,8 +3629,13 @@
 				"color": "green"
 			},
 			{
-				"text": "+1% Reducción de enfriamiento",
+				"text": "+1% Reducción de enfriamiento\n",
 				"color": "green"
+			},
+			{
+				"text": "Equipo de Mago: Tier II",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
@@ -3523,6 +3660,13 @@
 					"attribute": "irons_spellbooks:cooldown_reduction",
 					"value": 0.01,
 					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_mago_2",
+					"lock_command": "kubejs stages remove @s maestria_mago_2"
 				}
 			}
 		]
@@ -3943,7 +4087,12 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima de la Piromancia: el fuego te obedece.",
+				"text": "Cima de la Piromancia: el fuego te obedece.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Mago: Tier III",
 				"color": "gray",
 				"italic": true
 			}
@@ -3978,6 +4127,13 @@
 					"attribute": "irons_spellbooks:cooldown_reduction",
 					"value": 0.05,
 					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_mago_3",
+					"lock_command": "kubejs stages remove @s maestria_mago_3"
 				}
 			}
 		],
@@ -4399,7 +4555,12 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima de la Criomancia: el invierno eterno.",
+				"text": "Cima de la Criomancia: el invierno eterno.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Mago: Tier III",
 				"color": "gray",
 				"italic": true
 			}
@@ -4434,6 +4595,13 @@
 					"attribute": "irons_spellbooks:spell_resist",
 					"value": 0.05,
 					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_mago_3",
+					"lock_command": "kubejs stages remove @s maestria_mago_3"
 				}
 			}
 		],
@@ -4855,7 +5023,12 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima del Arcanismo: escudos, curación y magia pura.",
+				"text": "Cima del Arcanismo: escudos, curación y magia pura.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Mago: Tier III",
 				"color": "gray",
 				"italic": true
 			}
@@ -4890,6 +5063,13 @@
 					"attribute": "irons_spellbooks:mana_regen",
 					"value": 0.15,
 					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_mago_3",
+					"lock_command": "kubejs stages remove @s maestria_mago_3"
 				}
 			}
 		],
@@ -5311,7 +5491,12 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima de la Oscuridad: poder a cualquier precio.",
+				"text": "Cima de la Oscuridad: poder a cualquier precio.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Mago: Tier III",
 				"color": "gray",
 				"italic": true
 			}
@@ -5347,6 +5532,13 @@
 					"value": 0.1,
 					"operation": "multiply_base"
 				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_mago_3",
+					"lock_command": "kubejs stages remove @s maestria_mago_3"
+				}
 			}
 		],
 		"required_spent_points": 30
@@ -5359,8 +5551,13 @@
 				"color": "gold"
 			},
 			{
-				"text": "+3% Velocidad de minado",
+				"text": "+3% Velocidad de minado\n",
 				"color": "green"
+			},
+			{
+				"text": "Equipo de Ingeniero: Tier I",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
@@ -5377,6 +5574,13 @@
 					"attribute": "attributeslib:mining_speed",
 					"value": 0.03,
 					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s clase_ingeniero",
+					"lock_command": "kubejs stages remove @s clase_ingeniero"
 				}
 			}
 		]
@@ -5585,8 +5789,13 @@
 				"color": "green"
 			},
 			{
-				"text": "+2% Experiencia ganada",
+				"text": "+2% Experiencia ganada\n",
 				"color": "green"
+			},
+			{
+				"text": "Equipo de Ingeniero: Tier II",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
@@ -5611,6 +5820,13 @@
 					"attribute": "attributeslib:experience_gained",
 					"value": 0.02,
 					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_ingeniero_2",
+					"lock_command": "kubejs stages remove @s maestria_ingeniero_2"
 				}
 			}
 		]
@@ -6031,7 +6247,12 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima del Minero: la roca se aparta.",
+				"text": "Cima del Minero: la roca se aparta.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Ingeniero: Tier III",
 				"color": "gray",
 				"italic": true
 			}
@@ -6066,6 +6287,13 @@
 					"attribute": "generic.max_health",
 					"value": 4,
 					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_ingeniero_3",
+					"lock_command": "kubejs stages remove @s maestria_ingeniero_3"
 				}
 			}
 		],
@@ -6487,7 +6715,12 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima del Inventor: todo problema tiene solución.",
+				"text": "Cima del Inventor: todo problema tiene solución.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Ingeniero: Tier III",
 				"color": "gray",
 				"italic": true
 			}
@@ -6522,6 +6755,13 @@
 					"attribute": "generic.attack_speed",
 					"value": 0.1,
 					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_ingeniero_3",
+					"lock_command": "kubejs stages remove @s maestria_ingeniero_3"
 				}
 			}
 		],
@@ -6943,7 +7183,12 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima del Zapador: bajo tierra eres inmune al miedo.",
+				"text": "Cima del Zapador: bajo tierra eres inmune al miedo.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Ingeniero: Tier III",
 				"color": "gray",
 				"italic": true
 			}
@@ -6979,6 +7224,13 @@
 					"value": 0.05,
 					"operation": "addition"
 				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_ingeniero_3",
+					"lock_command": "kubejs stages remove @s maestria_ingeniero_3"
+				}
 			}
 		],
 		"required_spent_points": 30
@@ -6991,8 +7243,13 @@
 				"color": "gold"
 			},
 			{
-				"text": "+0.5 Daño de ataque",
+				"text": "+0.5 Daño de ataque\n",
 				"color": "green"
+			},
+			{
+				"text": "Equipo de Asesino: Tier I",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
@@ -7009,6 +7266,13 @@
 					"attribute": "generic.attack_damage",
 					"value": 0.5,
 					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s clase_asesino",
+					"lock_command": "kubejs stages remove @s clase_asesino"
 				}
 			}
 		]
@@ -7217,8 +7481,13 @@
 				"color": "green"
 			},
 			{
-				"text": "+1% Velocidad de movimiento",
+				"text": "+1% Velocidad de movimiento\n",
 				"color": "green"
+			},
+			{
+				"text": "Equipo de Asesino: Tier II",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
@@ -7243,6 +7512,13 @@
 					"attribute": "generic.movement_speed",
 					"value": 0.01,
 					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_asesino_2",
+					"lock_command": "kubejs stages remove @s maestria_asesino_2"
 				}
 			}
 		]
@@ -7663,7 +7939,12 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima de la Sombra: no te ven, no te tocan.",
+				"text": "Cima de la Sombra: no te ven, no te tocan.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Asesino: Tier III",
 				"color": "gray",
 				"italic": true
 			}
@@ -7698,6 +7979,13 @@
 					"attribute": "attributeslib:crit_chance",
 					"value": 0.06,
 					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_asesino_3",
+					"lock_command": "kubejs stages remove @s maestria_asesino_3"
 				}
 			}
 		],
@@ -8119,7 +8407,12 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima del Duelista: la espada más rápida.",
+				"text": "Cima del Duelista: la espada más rápida.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Asesino: Tier III",
 				"color": "gray",
 				"italic": true
 			}
@@ -8154,6 +8447,13 @@
 					"attribute": "attributeslib:armor_pierce",
 					"value": 3,
 					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_asesino_3",
+					"lock_command": "kubejs stages remove @s maestria_asesino_3"
 				}
 			}
 		],
@@ -8575,7 +8875,12 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima del Verdugo: el final de todo enemigo.",
+				"text": "Cima del Verdugo: el final de todo enemigo.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Asesino: Tier III",
 				"color": "gray",
 				"italic": true
 			}
@@ -8610,6 +8915,13 @@
 					"attribute": "attributeslib:current_hp_damage",
 					"value": 0.05,
 					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_asesino_3",
+					"lock_command": "kubejs stages remove @s maestria_asesino_3"
 				}
 			}
 		],

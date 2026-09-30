@@ -269,7 +269,13 @@ const itemIcon = (item) => ({ type: "item", data: { item } });
 // ============================================================================================================
 {
   const b = makeBuilder("normal");
-  classes.forEach((cls, ci) => buildBand(b, ci * BAND_GAP, cls, { trunkN: 6, laneN: 10, capSpent: 30 }));
+  // Stages de clase (los usa kubejs/server_scripts/class_gating.js): I = raíz, II = Fundamentos VI, III = cimas de camino
+  const classStages = (cls) => ({
+    [`${cls.id}_f1`]: { id: `clase_${cls.id}`, text: `Equipo de ${cls.name}: Tier I` },
+    [`${cls.id}_f6`]: { id: `maestria_${cls.id}_2`, text: `Equipo de ${cls.name}: Tier II` },
+    ...Object.fromEntries(cls.lanes.map((l) => [`${cls.id}_${l.id}_10`, { id: `maestria_${cls.id}_3`, text: `Equipo de ${cls.name}: Tier III` }])),
+  });
+  classes.forEach((cls, ci) => buildBand(b, ci * BAND_GAP, { ...cls, stages: classStages(cls) }, { trunkN: 6, laneN: 10, capSpent: 30 }));
   writeCategory("habilidades", b, {
     title: "Habilidades",
     description: "Sube de nivel y reparte tus puntos entre las clases. Puedes llenar una a fondo o combinar varias.",

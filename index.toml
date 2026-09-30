@@ -1,28 +1,252 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/puffish_skills/categories/ascension_arquero/category.json"
+hash = "32bab6e90c44c804873b6e41c1409bbf89aff441d3e9b7f01ab07e1e740f2fba"
+
+[[files]]
+file = "config/puffish_skills/categories/ascension_arquero/connections.json"
+hash = "1fa819f1d81d10a5f77f72866f90dc0b16668fa64156e70887b83b7f633ec93f"
+
+[[files]]
+file = "config/puffish_skills/categories/ascension_arquero/definitions.json"
+hash = "cf65512e459bbd42202af3f66f826a46cf6d567ba7894db6c62ec568224a7903"
+
+[[files]]
+file = "config/puffish_skills/categories/ascension_arquero/skills.json"
+hash = "6cf943dee5603c85e63b885df2c252447a06c41004a04127db32a8b3ecf7184d"
+
+[[files]]
+file = "config/puffish_skills/categories/ascension_asesino/category.json"
+hash = "7892b73044ebe883674077af8973a91dfebca9ca53f5fcc15c9ddec77b9aa89d"
+
+[[files]]
+file = "config/puffish_skills/categories/ascension_asesino/connections.json"
+hash = "f5aa64fa3ed85c8281e1549936739628fc34af8341ea3a5ece4f1d752bd75294"
+
+[[files]]
+file = "config/puffish_skills/categories/ascension_asesino/definitions.json"
+hash = "63102c00f9f9039a27e95995c6098fc84c65c366bbb7b9d9038d00b108b4220b"
+
+[[files]]
+file = "config/puffish_skills/categories/ascension_asesino/skills.json"
+hash = "813f6d31f9b9ffd4353268f3f0131b83f4b8f39c74baed16c8734df053d84f6d"
+
+[[files]]
+file = "config/puffish_skills/categories/ascension_guerrero/category.json"
+hash = "b5bce473747c8118e39bab2d1a3c4a1e265e47766d288aa887a48ff3f96a2bf1"
+
+[[files]]
+file = "config/puffish_skills/categories/ascension_guerrero/connections.json"
+hash = "186f87f40dd7a4d19a668bc25cea8c41abb05e981840faaa9e310ff6316d04c8"
+
+[[files]]
+file = "config/puffish_skills/categories/ascension_guerrero/definitions.json"
+hash = "ad2dbc747099d3cb706616b3086cd802cc6cddcb4dd7af2ccfc2eca637976a50"
+
+[[files]]
+file = "config/puffish_skills/categories/ascension_guerrero/skills.json"
+hash = "b55bc1f6e06194fbe73e7caa14d56aad4dd0950b01d0812c564477b77c52d072"
+
+[[files]]
+file = "config/puffish_skills/categories/ascension_ingeniero/category.json"
+hash = "97999a78d63e548b69bd21e3ddeefa525f6332a44bdfb6a36f660877fec94206"
+
+[[files]]
+file = "config/puffish_skills/categories/ascension_ingeniero/connections.json"
+hash = "16e9539c843f9a5f492b25c111335fa57167ad36260d1374da999309a42389f7"
+
+[[files]]
+file = "config/puffish_skills/categories/ascension_ingeniero/definitions.json"
+hash = "b115074d09806a0883d56926d2f4b4e0a7056b8b8a7903f9315bfa14ca33f98d"
+
+[[files]]
+file = "config/puffish_skills/categories/ascension_ingeniero/skills.json"
+hash = "3c6a4f9924732a16de0843a942625a8981a78d6b0332a11cbaa8eb53c4df32e8"
+
+[[files]]
+file = "config/puffish_skills/categories/ascension_mago/category.json"
+hash = "3fe5d8dcf75edf0b87e461493f2324a59c7b4453b0ae5e02eb82c28e13195854"
+
+[[files]]
+file = "config/puffish_skills/categories/ascension_mago/connections.json"
+hash = "a4e45879427c69272b052e80941867ec1b9709ccc4d1aa9a4fe3feddcb690e33"
+
+[[files]]
+file = "config/puffish_skills/categories/ascension_mago/definitions.json"
+hash = "82712372a52914273266273b5d0e9ea2c1a4227d50341b93964f6c9dc8d20b89"
+
+[[files]]
+file = "config/puffish_skills/categories/ascension_mago/skills.json"
+hash = "09599a700ca2e05d9d5448e7a2fc100af8c9a849ae47da6b17b9699505cce886"
+
+[[files]]
 file = "config/puffish_skills/categories/habilidades/category.json"
 hash = "e3d094b2cbb9070c4023ea6e8b928bf64498d8e0d404b4a6d8d84c594c26d9d4"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades/connections.json"
-hash = "b52b42c7d400acd67c105f05de2c0fb0d36fee29a618796bb025419b33a293b3"
+hash = "248e306497764d9ac78a97bfe3421240d392a8eff585be1e73f05201b0a951c4"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades/definitions.json"
-hash = "47cba22828c75fa6c241f2d745426a38e59b011c550b51479d24dfd385409ea2"
+hash = "d159cda61abd54f4e3765fb2248ef0f971c78fc4d4ba18e3174951b2a33016db"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades/experience.json"
-hash = "86ef3f53bd967029170eeb83c9fe2d08dafddb9fecf0bc224c9d50e68afa3837"
+hash = "da5a5ce1e5328de92f1cef7438a07df63a3462cde1c64f976e4492e4de4d8344"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades/skills.json"
-hash = "c4cd4d9cb0b765b04975df6754622f9db0ecfb84cf8b1bac0c4394c4142711e2"
+hash = "d400fd7ef1d43e61d64c4f603ff187f2cc081a4eaecb59d9e3ec71ebf4644681"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_cocinero/category.json"
+hash = "0f333d235f1dcb9eff2fe1f00ff7a80b3324a0f52cde786ed3467b4af735adf4"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_cocinero/connections.json"
+hash = "f982f4b3b7c125ac41bfe4bdf4266b39db593fc67e50c92687393ebd578bbaad"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_cocinero/definitions.json"
+hash = "b284985897ab1f9fe11fbb6ac71c342d405056c1ed45f6a648f117a3b113927d"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_cocinero/experience.json"
+hash = "ae3b9dd428cd112c4f2b82e5cd988949bb7d4a625bb897a9bf57cc4edafaaf01"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_cocinero/skills.json"
+hash = "d01681360ef558f6fc4099f9bcc0936890a2495521b9825b602c43a06972c9ce"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_encantador/category.json"
+hash = "734c71d5195693d6dad451bf18bfa2b3e80f39b7657372052a9578f24c8ba114"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_encantador/connections.json"
+hash = "dd87e2d1dad1098743328f3cab53569572f9b67bfd9e5924b95e1d2777286eb2"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_encantador/definitions.json"
+hash = "e6af0636209e715ebe1ea3d493ef8f81978627466f91e8d2c471ca649fc6abd3"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_encantador/experience.json"
+hash = "8f3c92edd88ca244a71ae78a576a3aa81128922bdd0fe5f4ba1315ffd64b4aa3"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_encantador/skills.json"
+hash = "419eb898c8e71b6d82a8a9bb0a24eb114eb4e42ad45cfa122ce732be8097c1b8"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_granjero/category.json"
+hash = "89f410124d5e9d22f6ce1c936564118437c642db6ef0e518643ec16dd0cb8159"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_granjero/connections.json"
+hash = "8412df33e38db3deb68d13f28254737cd86d0f451be708dac0b6957e65c7f49f"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_granjero/definitions.json"
+hash = "88186a3a7f754f6cb2c3c32b000d2e1b7680a3f03a94b289f866c060133df3c4"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_granjero/experience.json"
+hash = "96c868bc0116c13f928247d9607c3a0435950bda1f814e1e550e10f9bb6724af"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_granjero/skills.json"
+hash = "cbafa23a355776a92a571c98e6502d6cbaa99e9412183e85e3aa8a459b891a2f"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_herrero/category.json"
+hash = "6f1fc5cc990e46e08b7591f6c99d99b1fb39761d815e4262912f361a734ff2a1"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_herrero/connections.json"
+hash = "739fe20ff3c4e7ca9f44be24e6205081ed3da3155f027d32c5cf5ccdea680e46"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_herrero/definitions.json"
+hash = "eefc97e63b164ce88883f7b4c2849e3f64c488514add72a43f321db7fca8d769"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_herrero/experience.json"
+hash = "e7ed09097a9308ce73a197d3d0bc648bccbf73538cdc8856aebc183e7d850c88"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_herrero/skills.json"
+hash = "776ea5e82a67e43a17c95e2a8702169016e8a8d96c969c2d9c8749ef7b4609b3"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_lenador/category.json"
+hash = "1689a0a3376ea2a2bc2d632054f13bfeb5601d828cd083f6e18922ee444635a7"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_lenador/connections.json"
+hash = "5f928640d1628ead21cae87b43c49cee8971b7090aee31e865097a87a6e1ceaf"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_lenador/definitions.json"
+hash = "2dbd393d22d96bd96eadd8782f2eb7575a987f562aa3d5216ed6092d74ecacd1"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_lenador/experience.json"
+hash = "7059adde1a65a0c742b1fa3de6600ad292b990eba8b0bbc7cd8b56a68b16c071"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_lenador/skills.json"
+hash = "9ab304540fa71466304ea85be9da34d52d93e74f81f72c66076a8648916b7556"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_minero/category.json"
+hash = "da4a929d1b6a9d13dca184eadfe6cbb66ba071dd35c99176ba14a8278ed95183"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_minero/connections.json"
+hash = "01fbd5c7ae06d68339d4eec9d9956aab98579093e16fde849fc9f09a0a0faf3a"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_minero/definitions.json"
+hash = "d508f84bedb70061ae7fee2c5524521473640debd0d7d61e042dda25f79423f8"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_minero/experience.json"
+hash = "9131d711e77eb8159d952629f3ceb5cc4c0345e5cf3e8e3139194292d45f647e"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_minero/skills.json"
+hash = "1fc2e5e805f2acbd249e86232d27d61881045c3c090dd676fc91adf5e7b26849"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_pescador/category.json"
+hash = "12413b607b910bdbbd569ddf0c93fe170e5ede8c36d3f456ab27025f762ff181"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_pescador/connections.json"
+hash = "7606b9bd857d0166a7a797ae1079fd4d4f115955c8470aa8bfaea24c1c6be382"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_pescador/definitions.json"
+hash = "ad269015162c3b4dd542e9994c2a6b589fc7a51fcfd48a94a9117234051f3630"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_pescador/experience.json"
+hash = "473ea7c5c1796334fc11ef7d8f476791364b8a4f6358962f5fa98dd54289030a"
+
+[[files]]
+file = "config/puffish_skills/categories/oficio_pescador/skills.json"
+hash = "f6f7713ddce3d879a1a8d64803212dc78d177ab16e9bc3fd324a65d792d6ec08"
 
 [[files]]
 file = "config/puffish_skills/config.json"
-hash = "967184191c377b83696c548c74b7b2e14dabe1f6ab3f26d6f928a3a8b294a004"
+hash = "b24dda248dfb52e18106446fa1988b3a35bd6b0e5a659bc6cd9afa613f3413d6"
+
+[[files]]
+file = "kubejs/server_scripts/class_gating.js"
+hash = "8f05408fc46a4376cabfe2f8e87f12a81bcfeb9e27b22365c5a93277273d07e1"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
