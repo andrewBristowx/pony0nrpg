@@ -88,7 +88,7 @@ Los identificadores exactos de atributo se fijan al montar los árboles (depende
 | 15 | NPC que explican sistemas | Easy NPC (diálogos, comandos, acciones por clic). | ✅ |
 | 16 | Gremio de aventureros con rangos | Capítulos de FTB Quests "Gremio" con rango en stage (`rank_bronce`…) que desbloquea misiones más difíciles. Rangos por equipo de jugador. | 🔧 |
 | 17 | Economía | Lightman's Currency: monedas, cajeros, tiendas de jugador, subastas, cuentas de banco (incluye cuentas de equipo). Recompensas de quests/dungeons/bosses en monedas por KubeJS/FTB Quests. | ✅ |
-| 17 | Jobs | Sin mod fiable en 1.20.1 Forge. Se sustituye por recompensas de moneda desde XP de PMMO/quests repetibles. | ❌ → 🔧 |
+| 17 | Jobs | **Resuelto en fase 1** con Pufferfish's Skills: 7 oficios (Minero, Leñador, Granjero, Pescador, Herrero, Cocinero, Encantador), cada uno su propia pestaña con nivel y puntos. La XP se gana haciendo las tareas del oficio (minar, talar, cosechar, pescar, fabricar, cocinar, encantar). Ver `tools/gen-skills.mjs`. | ✅ |
 | 18 | Guilds con base, nivel, banco, misiones | FTB Teams (miembros y roles) + FTB Chunks (base protegida) + cuenta de banco de equipo de Lightman's + misiones de equipo de FTB Quests. **Nivel de gremio** = stage por KubeJS al completar hitos. | ⚠️ + 🔧 |
 | 18 | Arenas | Estructura construida + comandos/NPC; PvP opcional con FTB Chunks. | 🔧 |
 

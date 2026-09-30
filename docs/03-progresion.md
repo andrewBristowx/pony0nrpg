@@ -111,7 +111,10 @@ Objetivo de diseño: que cada mod aporte **un ingrediente que otro no tiene**, d
 
 ## 7. Ascensión (nivel 100+)
 
-- Al llegar al nivel 100, la XP normal deja de subir nivel y pasa a llenar una barra de **XP de Ascensión**.
-- Cada Ascensión da **1 punto de Ascensión** para un árbol propio (bonos pequeños y multiplicativos: +2% daño a bosses, +1 slot de amuleto…), cosméticos y quests nuevas.
-- Se propone un tope de 50 Ascensiones al lanzar y ampliar con actualizaciones.
-- Implementación: categoría extra de Pufferfish + KubeJS para la barra y recompensas. Es trabajo propio (🔧), no viene con ningún mod.
+Sustituye la idea inicial de "barra de XP de Ascensión". Diseño actual (fase 1):
+
+- Hay **una categoría de Pufferfish por clase**: `ascension_guerrero`, `ascension_arquero`, `ascension_mago`, `ascension_ingeniero`, `ascension_asesino`. Nacen **bloqueadas**.
+- El jugador elige su Ascensión con una misión (FTB Quests) que ejecuta `puffish_skills category unlock @p ascension_<clase>`.
+- **Los puntos se ganan completando las misiones de la clase que quiere ser**: cada misión de Ascensión de esa clase ejecuta `puffish_skills points add @p ascension_<clase> 1`. No hay XP.
+- Bonos pequeños y porcentuales (+1–2 % por nodo, multiplicativos); tope de 50 puntos gastables por categoría.
+- Las misiones de Ascensión son trabajo pendiente (capítulos de FTB Quests por clase).
