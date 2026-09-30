@@ -1,0 +1,1703 @@
+{
+	"guerrero_1": {
+		"title": "Vitalidad I",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:apple"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_2": {
+		"title": "Fuerza I",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_3": {
+		"title": "Piel de hierro I",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_chestplate"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_4": {
+		"title": "Vitalidad II",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_apple"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_5": {
+		"title": "Fuerza II",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_6": {
+		"title": "Firmeza",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:shield"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_7": {
+		"title": "Piel de hierro II",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_chestplate"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_8": {
+		"title": "Vitalidad III",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_apple"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_9": {
+		"title": "Fuerza III",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_10": {
+		"title": "Baluarte",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_chestplate"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_11": {
+		"title": "Vitalidad IV",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:enchanted_golden_apple"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_12": {
+		"title": "Titán",
+		"description": "Cima del Guerrero.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:netherite_chestplate"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 6,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:life_steal",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_s1": {
+		"title": "Robustez",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_chestplate"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_s2": {
+		"title": "Golpe certero",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:flint"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_s3": {
+		"title": "Sed de sangre",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:life_steal",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_s4": {
+		"title": "Pulso firme",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_1": {
+		"title": "Puntería I",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:arrow"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_2": {
+		"title": "Agilidad I",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_boots"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"arquero_3": {
+		"title": "Tensado I",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:bow"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:draw_speed",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_4": {
+		"title": "Puntería II",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:arrow"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_5": {
+		"title": "Proyectil veloz",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:feather"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_velocity",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_6": {
+		"title": "Ojo de halcón",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:spyglass"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_7": {
+		"title": "Tensado II",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:crossbow"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:draw_speed",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_8": {
+		"title": "Puntería III",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:spectral_arrow"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_9": {
+		"title": "Agilidad II",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:chainmail_boots"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"arquero_10": {
+		"title": "Esquiva I",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:rabbit_foot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_11": {
+		"title": "Tirador certero",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:tipped_arrow"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_12": {
+		"title": "Ojo del cazador",
+		"description": "Cima del Arquero.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:target"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_velocity",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_s1": {
+		"title": "Vitalidad ligera",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:apple"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_s2": {
+		"title": "Reflejos",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:sugar"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_s3": {
+		"title": "Cuero curtido",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_s4": {
+		"title": "Pies ligeros",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:feather"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_1": {
+		"title": "Reserva de maná I",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lapis_lazuli"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 50,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_2": {
+		"title": "Poder arcano I",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:amethyst_shard"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_3": {
+		"title": "Concentración I",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:clock"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_4": {
+		"title": "Reserva de maná II",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lapis_block"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 50,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_5": {
+		"title": "Poder arcano II",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:amethyst_cluster"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_6": {
+		"title": "Flujo de maná",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:glowstone_dust"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_7": {
+		"title": "Concentración II",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:clock"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_8": {
+		"title": "Invocación rápida",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:ender_pearl"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cast_time_reduction",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_9": {
+		"title": "Reserva de maná III",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:heart_of_the_sea"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 100,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_10": {
+		"title": "Poder arcano III",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:nether_star"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_11": {
+		"title": "Mente clara",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:experience_bottle"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_resist",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_12": {
+		"title": "Archimago",
+		"description": "Cima del Mago.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:end_crystal"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 150,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.08,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_s1": {
+		"title": "Cuerpo etéreo",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:apple"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_s2": {
+		"title": "Voluntad",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:paper"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_resist",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_s3": {
+		"title": "Sabiduría",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:book"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_s4": {
+		"title": "Vínculo arcano",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_carrot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_1": {
+		"title": "Excavación I",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_pickaxe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_2": {
+		"title": "Suerte I",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:gold_nugget"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_3": {
+		"title": "Resistencia I",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_helmet"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_4": {
+		"title": "Excavación II",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_pickaxe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_5": {
+		"title": "Ingenio I",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_6": {
+		"title": "Manos rápidas",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:piston"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_7": {
+		"title": "Excavación III",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_pickaxe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_8": {
+		"title": "Suerte II",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:emerald"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_9": {
+		"title": "Casco de obra",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_helmet"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_10": {
+		"title": "Ingenio II",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:repeater"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_11": {
+		"title": "Motor incansable",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:sugar"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"ingeniero_12": {
+		"title": "Maestro de obra",
+		"description": "Cima del Ingeniero.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:netherite_pickaxe"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_s1": {
+		"title": "Buen ojo",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:spyglass"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_s2": {
+		"title": "Pico afilado",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:flint"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_s3": {
+		"title": "Botas de trabajo",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_boots"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_s4": {
+		"title": "Constitución",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:bread"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_1": {
+		"title": "Filo I",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_2": {
+		"title": "Rapidez I",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:sugar"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_3": {
+		"title": "Paso ligero I",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_boots"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"asesino_4": {
+		"title": "Filo II",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_5": {
+		"title": "Golpe crítico I",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:flint"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_6": {
+		"title": "Sombra",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:black_dye"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_7": {
+		"title": "Rapidez II",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blaze_powder"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_8": {
+		"title": "Perforar",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_nugget"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:armor_pierce",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_9": {
+		"title": "Filo III",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_10": {
+		"title": "Golpe crítico II",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blaze_rod"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.15,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_11": {
+		"title": "Paso ligero II",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:chainmail_boots"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"asesino_12": {
+		"title": "Ejecutor",
+		"description": "Cima del Asesino.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:netherite_axe"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 1.5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.06,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_s1": {
+		"title": "Vitalidad ágil",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:apple"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_s2": {
+		"title": "Instinto",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:fermented_spider_eye"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_s3": {
+		"title": "Cuero ligero",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_chestplate"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_s4": {
+		"title": "Veneno",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:spider_eye"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:life_steal",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	}
+}

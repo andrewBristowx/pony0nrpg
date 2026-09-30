@@ -1,6 +1,30 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/puffish_skills/categories/habilidades/category.json"
+hash = "e3d094b2cbb9070c4023ea6e8b928bf64498d8e0d404b4a6d8d84c594c26d9d4"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades/connections.json"
+hash = "b52b42c7d400acd67c105f05de2c0fb0d36fee29a618796bb025419b33a293b3"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades/definitions.json"
+hash = "47cba22828c75fa6c241f2d745426a38e59b011c550b51479d24dfd385409ea2"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades/experience.json"
+hash = "86ef3f53bd967029170eeb83c9fe2d08dafddb9fecf0bc224c9d50e68afa3837"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades/skills.json"
+hash = "c4cd4d9cb0b765b04975df6754622f9db0ecfb84cf8b1bac0c4394c4142711e2"
+
+[[files]]
+file = "config/puffish_skills/config.json"
+hash = "967184191c377b83696c548c74b7b2e14dabe1f6ab3f26d6f928a3a8b294a004"
+
+[[files]]
 file = "mods/ad-astra.pw.toml"
 hash = "d94f5fd662671e6f6f4bda5d89234aded7461a8a90d9f9fe3d5b8a7f17c25b54"
 metafile = true

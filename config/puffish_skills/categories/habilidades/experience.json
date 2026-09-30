@@ -1,0 +1,58 @@
+{
+	"level_limit": 100,
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "60 + 12 * level + 0.9 * level ^ 2"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:kill_entity",
+			"data": {
+				"variables": {
+					"max_health": {
+						"operations": [
+							{
+								"type": "get_killed_living_entity"
+							},
+							{
+								"type": "get_max_health"
+							}
+						]
+					},
+					"dropped_xp": {
+						"operations": [
+							{
+								"type": "get_dropped_experience"
+							}
+						]
+					}
+				},
+				"experience": "max_health * 1.5 + dropped_xp",
+				"anti_farming_per_chunk": {
+					"limit_per_chunk": 15,
+					"reset_after_seconds": 300
+				}
+			}
+		},
+		{
+			"type": "puffish_skills:mine_block",
+			"data": {
+				"variables": {
+					"hardness": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "get_hardness"
+							}
+						]
+					}
+				},
+				"experience": "1 + hardness"
+			}
+		}
+	]
+}

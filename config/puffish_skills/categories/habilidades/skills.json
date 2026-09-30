@@ -1,0 +1,407 @@
+{
+	"guerrero_1": {
+		"x": 0,
+		"y": -70,
+		"definition": "guerrero_1",
+		"root": true
+	},
+	"guerrero_2": {
+		"x": 0,
+		"y": -106,
+		"definition": "guerrero_2"
+	},
+	"guerrero_3": {
+		"x": 0,
+		"y": -142,
+		"definition": "guerrero_3"
+	},
+	"guerrero_4": {
+		"x": 0,
+		"y": -178,
+		"definition": "guerrero_4"
+	},
+	"guerrero_5": {
+		"x": 0,
+		"y": -214,
+		"definition": "guerrero_5"
+	},
+	"guerrero_6": {
+		"x": 0,
+		"y": -250,
+		"definition": "guerrero_6"
+	},
+	"guerrero_7": {
+		"x": 0,
+		"y": -286,
+		"definition": "guerrero_7"
+	},
+	"guerrero_8": {
+		"x": 0,
+		"y": -322,
+		"definition": "guerrero_8"
+	},
+	"guerrero_9": {
+		"x": 0,
+		"y": -358,
+		"definition": "guerrero_9"
+	},
+	"guerrero_10": {
+		"x": 0,
+		"y": -394,
+		"definition": "guerrero_10"
+	},
+	"guerrero_11": {
+		"x": 0,
+		"y": -430,
+		"definition": "guerrero_11"
+	},
+	"guerrero_12": {
+		"x": 0,
+		"y": -466,
+		"definition": "guerrero_12"
+	},
+	"guerrero_s1": {
+		"x": 30,
+		"y": -142,
+		"definition": "guerrero_s1"
+	},
+	"guerrero_s2": {
+		"x": -30,
+		"y": -214,
+		"definition": "guerrero_s2"
+	},
+	"guerrero_s3": {
+		"x": 30,
+		"y": -322,
+		"definition": "guerrero_s3"
+	},
+	"guerrero_s4": {
+		"x": -30,
+		"y": -394,
+		"definition": "guerrero_s4"
+	},
+	"arquero_1": {
+		"x": 67,
+		"y": -22,
+		"definition": "arquero_1",
+		"root": true
+	},
+	"arquero_2": {
+		"x": 101,
+		"y": -33,
+		"definition": "arquero_2"
+	},
+	"arquero_3": {
+		"x": 135,
+		"y": -44,
+		"definition": "arquero_3"
+	},
+	"arquero_4": {
+		"x": 169,
+		"y": -55,
+		"definition": "arquero_4"
+	},
+	"arquero_5": {
+		"x": 204,
+		"y": -66,
+		"definition": "arquero_5"
+	},
+	"arquero_6": {
+		"x": 238,
+		"y": -77,
+		"definition": "arquero_6"
+	},
+	"arquero_7": {
+		"x": 272,
+		"y": -88,
+		"definition": "arquero_7"
+	},
+	"arquero_8": {
+		"x": 306,
+		"y": -100,
+		"definition": "arquero_8"
+	},
+	"arquero_9": {
+		"x": 340,
+		"y": -111,
+		"definition": "arquero_9"
+	},
+	"arquero_10": {
+		"x": 375,
+		"y": -122,
+		"definition": "arquero_10"
+	},
+	"arquero_11": {
+		"x": 409,
+		"y": -133,
+		"definition": "arquero_11"
+	},
+	"arquero_12": {
+		"x": 443,
+		"y": -144,
+		"definition": "arquero_12"
+	},
+	"arquero_s1": {
+		"x": 110,
+		"y": -4,
+		"definition": "arquero_s1"
+	},
+	"arquero_s2": {
+		"x": 160,
+		"y": -84,
+		"definition": "arquero_s2"
+	},
+	"arquero_s3": {
+		"x": 281,
+		"y": -60,
+		"definition": "arquero_s3"
+	},
+	"arquero_s4": {
+		"x": 331,
+		"y": -139,
+		"definition": "arquero_s4"
+	},
+	"mago_1": {
+		"x": 41,
+		"y": 57,
+		"definition": "mago_1",
+		"root": true
+	},
+	"mago_2": {
+		"x": 62,
+		"y": 86,
+		"definition": "mago_2"
+	},
+	"mago_3": {
+		"x": 83,
+		"y": 115,
+		"definition": "mago_3"
+	},
+	"mago_4": {
+		"x": 105,
+		"y": 144,
+		"definition": "mago_4"
+	},
+	"mago_5": {
+		"x": 126,
+		"y": 173,
+		"definition": "mago_5"
+	},
+	"mago_6": {
+		"x": 147,
+		"y": 202,
+		"definition": "mago_6"
+	},
+	"mago_7": {
+		"x": 168,
+		"y": 231,
+		"definition": "mago_7"
+	},
+	"mago_8": {
+		"x": 189,
+		"y": 261,
+		"definition": "mago_8"
+	},
+	"mago_9": {
+		"x": 210,
+		"y": 290,
+		"definition": "mago_9"
+	},
+	"mago_10": {
+		"x": 232,
+		"y": 319,
+		"definition": "mago_10"
+	},
+	"mago_11": {
+		"x": 253,
+		"y": 348,
+		"definition": "mago_11"
+	},
+	"mago_12": {
+		"x": 274,
+		"y": 377,
+		"definition": "mago_12"
+	},
+	"mago_s1": {
+		"x": 38,
+		"y": 103,
+		"definition": "mago_s1"
+	},
+	"mago_s2": {
+		"x": 150,
+		"y": 155,
+		"definition": "mago_s2"
+	},
+	"mago_s3": {
+		"x": 144,
+		"y": 249,
+		"definition": "mago_s3"
+	},
+	"mago_s4": {
+		"x": 256,
+		"y": 301,
+		"definition": "mago_s4"
+	},
+	"ingeniero_1": {
+		"x": -41,
+		"y": 57,
+		"definition": "ingeniero_1",
+		"root": true
+	},
+	"ingeniero_2": {
+		"x": -62,
+		"y": 86,
+		"definition": "ingeniero_2"
+	},
+	"ingeniero_3": {
+		"x": -83,
+		"y": 115,
+		"definition": "ingeniero_3"
+	},
+	"ingeniero_4": {
+		"x": -105,
+		"y": 144,
+		"definition": "ingeniero_4"
+	},
+	"ingeniero_5": {
+		"x": -126,
+		"y": 173,
+		"definition": "ingeniero_5"
+	},
+	"ingeniero_6": {
+		"x": -147,
+		"y": 202,
+		"definition": "ingeniero_6"
+	},
+	"ingeniero_7": {
+		"x": -168,
+		"y": 231,
+		"definition": "ingeniero_7"
+	},
+	"ingeniero_8": {
+		"x": -189,
+		"y": 261,
+		"definition": "ingeniero_8"
+	},
+	"ingeniero_9": {
+		"x": -210,
+		"y": 290,
+		"definition": "ingeniero_9"
+	},
+	"ingeniero_10": {
+		"x": -232,
+		"y": 319,
+		"definition": "ingeniero_10"
+	},
+	"ingeniero_11": {
+		"x": -253,
+		"y": 348,
+		"definition": "ingeniero_11"
+	},
+	"ingeniero_12": {
+		"x": -274,
+		"y": 377,
+		"definition": "ingeniero_12"
+	},
+	"ingeniero_s1": {
+		"x": -87,
+		"y": 68,
+		"definition": "ingeniero_s1"
+	},
+	"ingeniero_s2": {
+		"x": -80,
+		"y": 162,
+		"definition": "ingeniero_s2"
+	},
+	"ingeniero_s3": {
+		"x": -192,
+		"y": 214,
+		"definition": "ingeniero_s3"
+	},
+	"ingeniero_s4": {
+		"x": -207,
+		"y": 336,
+		"definition": "ingeniero_s4"
+	},
+	"asesino_1": {
+		"x": -67,
+		"y": -22,
+		"definition": "asesino_1",
+		"root": true
+	},
+	"asesino_2": {
+		"x": -101,
+		"y": -33,
+		"definition": "asesino_2"
+	},
+	"asesino_3": {
+		"x": -135,
+		"y": -44,
+		"definition": "asesino_3"
+	},
+	"asesino_4": {
+		"x": -169,
+		"y": -55,
+		"definition": "asesino_4"
+	},
+	"asesino_5": {
+		"x": -204,
+		"y": -66,
+		"definition": "asesino_5"
+	},
+	"asesino_6": {
+		"x": -238,
+		"y": -77,
+		"definition": "asesino_6"
+	},
+	"asesino_7": {
+		"x": -272,
+		"y": -88,
+		"definition": "asesino_7"
+	},
+	"asesino_8": {
+		"x": -306,
+		"y": -100,
+		"definition": "asesino_8"
+	},
+	"asesino_9": {
+		"x": -340,
+		"y": -111,
+		"definition": "asesino_9"
+	},
+	"asesino_10": {
+		"x": -375,
+		"y": -122,
+		"definition": "asesino_10"
+	},
+	"asesino_11": {
+		"x": -409,
+		"y": -133,
+		"definition": "asesino_11"
+	},
+	"asesino_12": {
+		"x": -443,
+		"y": -144,
+		"definition": "asesino_12"
+	},
+	"asesino_s1": {
+		"x": -92,
+		"y": -61,
+		"definition": "asesino_s1"
+	},
+	"asesino_s2": {
+		"x": -213,
+		"y": -38,
+		"definition": "asesino_s2"
+	},
+	"asesino_s3": {
+		"x": -263,
+		"y": -117,
+		"definition": "asesino_s3"
+	},
+	"asesino_s4": {
+		"x": -384,
+		"y": -93,
+		"definition": "asesino_s4"
+	}
+}
