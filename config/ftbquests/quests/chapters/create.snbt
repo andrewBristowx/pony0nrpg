@@ -1,0 +1,700 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "FA1951BF2D35F839"
+	icon: {
+		id: "create:cogwheel"
+	}
+	id: "4F72E72B760CB007"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "43E7E7976BE6165F"
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["973E5CD212B18321"]
+			tasks: [
+				{
+					id: "1D07426AFBF53D46"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "75A5E3B304C7F91F"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "A3419F29CCBE28F3"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			id: "90CC5F5EC097BEB8"
+			x: 2d
+			y: 0.5d
+			dependencies: ["43E7E7976BE6165F"]
+			tasks: [
+				{
+					id: "779C9EEB32F11ED2"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:andesite_alloy"
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "66620A3AC54B96D2"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 560"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "FB9A762BE3D80422"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			id: "F9E2BC60282EC470"
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["90CC5F5EC097BEB8"]
+			tasks: [
+				{
+					id: "6171E75FA7F9B6DA"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:water_wheel"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1AC0149F3113BF16"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 580"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "6B4F095FF25828B5"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			id: "4E483602731B4B12"
+			x: 5d
+			y: 0.5d
+			optional: true
+			dependencies: ["F9E2BC60282EC470"]
+			tasks: [
+				{
+					id: "49338B910FBC7834"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:windmill_bearing"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "97039022DCDA47E6"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "344EF3DE8D7FA8CB"
+			x: 5d
+			y: 2d
+			dependencies: ["F9E2BC60282EC470"]
+			tasks: [
+				{
+					id: "3328A090E30CCAD5"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					count: 8L
+				}
+				{
+					id: "F93EE2129DB944D7"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					count: 4L
+				}
+				{
+					id: "7B8A4CE009A207F0"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:large_cogwheel"
+					}
+				}
+				{
+					id: "1C9534990BD9840D"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:gearbox"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4CA380231CBF5B0B"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 600"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "E06DF55517177F3D"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:belt_connector"
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			id: "394BFF181A51BD26"
+			x: 6.5d
+			y: 0.5d
+			dependencies: ["344EF3DE8D7FA8CB"]
+			tasks: [
+				{
+					id: "9C69DD19C7D114DC"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:mechanical_press"
+					}
+				}
+				{
+					id: "2DE6EC5A5885B305"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:iron_sheet"
+					}
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "BA748BE3694B8ED0"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 620"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "A951BDCD8F75F065"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_herrero 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "C18860FCA577E7F3"
+			x: 8d
+			y: 0.5d
+			dependencies: ["394BFF181A51BD26"]
+			tasks: [
+				{
+					id: "22C8A5D92C054F76"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:mechanical_drill"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "E1AF98B4EE1252DA"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 640"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "41CF988C3E8C6796"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_minero 80"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "F7F1B063D565AFF8"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:andesite_casing"
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			id: "7254BDE4C260F5ED"
+			x: 8d
+			y: 2d
+			dependencies: ["394BFF181A51BD26"]
+			tasks: [
+				{
+					id: "87AE49D4CF13B40C"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:mechanical_saw"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "38DA40328674D819"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 640"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "C08C0ABDF8EEC1B7"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_lenador 80"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "EA46316309EFB5CE"
+			x: 9.5d
+			y: 0.5d
+			dependencies: ["C18860FCA577E7F3", "7254BDE4C260F5ED"]
+			tasks: [
+				{
+					id: "8B2E391D7CAFD64D"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:belt_connector"
+					}
+					count: 16L
+				}
+				{
+					id: "C0FB3281EABA7AEB"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:andesite_funnel"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "85D1DD3FAEAA08F3"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 660"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "FB818C9453771898"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:chute"
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			id: "827FECC1AC04A31E"
+			x: 11d
+			y: 0.5d
+			dependencies: ["EA46316309EFB5CE"]
+			tasks: [
+				{
+					id: "672060305BE52CD8"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:basin"
+					}
+				}
+				{
+					id: "D0401E1CCF97314B"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:mechanical_mixer"
+					}
+				}
+				{
+					id: "53C60B1AFF2A10EE"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "C67BAFC4DCB58930"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 700"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "7E42017AB69FDD14"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:blaze_burner"
+					}
+				}
+			]
+		}
+		{
+			id: "E2DC0531E77E38C6"
+			x: 12.5d
+			y: 0.5d
+			dependencies: ["827FECC1AC04A31E"]
+			tasks: [
+				{
+					id: "07ABBE5E815A625F"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:iron_sheet"
+					}
+					count: 64L
+				}
+			]
+			rewards: [
+				{
+					id: "54C5C2CAE2DDD71F"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 760"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "1A5AE211A36CEAA7"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			id: "296BB18C21C4F723"
+			x: 11d
+			y: 2d
+			dependencies: ["EA46316309EFB5CE"]
+			tasks: [
+				{
+					id: "F17402E88C02449A"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:item_vault"
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "2C4DD8103813F8B6"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 680"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "A80AF8829E5CE115"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:stack_upgrade_tier_1"
+					}
+				}
+			]
+		}
+		{
+			id: "1D06021BA9A4674C"
+			x: 14d
+			y: 0.5d
+			dependencies: ["E2DC0531E77E38C6", "296BB18C21C4F723"]
+			tasks: [
+				{
+					id: "F752893414E5A609"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:brass_sheet"
+					}
+					count: 16L
+				}
+				{
+					id: "1F053E3D2A9C5F15"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:copper_sheet"
+					}
+					count: 16L
+				}
+				{
+					id: "B3811B6EA8E34C1B"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "5912400655320E87"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 800"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "C8C515D780E8A2DE"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			id: "9139AC1E342CF15D"
+			x: 15.5d
+			y: 0.5d
+			optional: true
+			dependencies: ["1D06021BA9A4674C"]
+			tasks: [
+				{
+					id: "40E4D842AF6FA066"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:deployer"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7A9283F3118B37A8"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 700"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "6C72FF8578451F92"
+			x: 15.5d
+			y: 2d
+			optional: true
+			dependencies: ["1D06021BA9A4674C"]
+			tasks: [
+				{
+					id: "DAF5805826CE49FC"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:steam_engine"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "9ED842851C96EF74"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 700"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "BAA7712C85BA1956"
+			x: 15.5d
+			y: 3.5d
+			dependencies: ["1D06021BA9A4674C"]
+			tasks: [
+				{
+					id: "3133CE0B9A6B3FC5"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:track"
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "CDA113DF5526D1FE"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 800"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "E639E03D0675164B"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:controls"
+					}
+				}
+			]
+		}
+		{
+			id: "AC60C20D64A0E28C"
+			x: 17d
+			y: 0.5d
+			dependencies: ["BAA7712C85BA1956"]
+			tasks: [
+				{
+					id: "ED595FE5E33072D9"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:controls"
+					}
+				}
+				{
+					id: "F14BA5C885E51A86"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:track_station"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "E25C6DA417B77286"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 900"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "A37BB7AAD9DC8E76"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			id: "AF5C488BE0D600A2"
+			x: 18.5d
+			y: 0.5d
+			dependencies: ["1D06021BA9A4674C", "AC60C20D64A0E28C"]
+			tasks: [
+				{
+					id: "38F64B72EB793935"
+					type: "item"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "ACD9CB9B4B8A97D5"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 1200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "003F93C0A10FF7EA"
+					type: "command"
+					command: "/kubejs stages add {p} era_tech"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "CAC420EBFF5F95A6"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_diamond"
+					}
+					count: 2
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,307 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ascension_arquero"
+	group: "FD609B87CC2A62AE"
+	icon: {
+		id: "minecraft:bow"
+	}
+	id: "6F58F88937D025BF"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			id: "B02D602055F17560"
+			x: 0.5d
+			y: 0.5d
+			tasks: [
+				{
+					id: "35B56C084A402BBB"
+					type: "stage"
+					stage: "era_10"
+				}
+			]
+			rewards: [
+				{
+					id: "AD1FAA8572458A35"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 100"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "E90B3B0F267CADC9"
+			x: 2d
+			y: 0.5d
+			dependencies: ["B02D602055F17560"]
+			tasks: [
+				{
+					id: "21AE6080AB892064"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "EB1C0A837A88CB5F"
+					type: "command"
+					command: "/puffish_skills category unlock {p} ascension_arquero"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "3E1C98260CBB0588"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_arquero 1"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "4674019A8475FB7A"
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["E90B3B0F267CADC9"]
+			tasks: [
+				{
+					id: "FE301327A8846405"
+					type: "kill"
+					entity: "minecraft:skeleton"
+					value: 200L
+				}
+			]
+			rewards: [
+				{
+					id: "705647FAB8A8E75E"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_arquero 1"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "E7386D61A4F099F4"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "101EC6A0A52230CD"
+			x: 5d
+			y: 0.5d
+			dependencies: ["4674019A8475FB7A"]
+			tasks: [
+				{
+					id: "935739635EC245F6"
+					type: "kill"
+					entity: "minecraft:phantom"
+					value: 30L
+				}
+			]
+			rewards: [
+				{
+					id: "0144094A7E3239E5"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_arquero 1"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "B5A6F406AD8C8E3F"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "30C4940823119B26"
+			x: 6.5d
+			y: 0.5d
+			dependencies: ["101EC6A0A52230CD"]
+			tasks: [
+				{
+					id: "47370AAC98233767"
+					type: "item"
+					item: {
+						count: 1
+						id: "spartanweaponry:diamond_longbow"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "07ABBEE490701CA1"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_arquero 1"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "DD4F17B7A414B0EF"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "957396200984DCA3"
+			x: 8d
+			y: 0.5d
+			dependencies: ["30C4940823119B26"]
+			tasks: [
+				{
+					id: "D2F68B36D771694A"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:spectral_arrow"
+					}
+					count: 64L
+				}
+			]
+			rewards: [
+				{
+					id: "383028CB70D1F4C9"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_arquero 1"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "0F7E2732334E5ABE"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "772705568398490D"
+			x: 9.5d
+			y: 0.5d
+			dependencies: ["957396200984DCA3"]
+			tasks: [
+				{
+					id: "A4845E19A8AEA17F"
+					type: "kill"
+					entity: "minecraft:ghast"
+					value: 10L
+				}
+			]
+			rewards: [
+				{
+					id: "30B0C0C5BDFDA5EF"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_arquero 1"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "2913808ADCAD50C6"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "A03132261B14BBF7"
+			x: 11d
+			y: 0.5d
+			dependencies: ["772705568398490D"]
+			tasks: [
+				{
+					id: "97E25AE6EA100478"
+					type: "stat"
+					stat: "minecraft:walk_one_cm"
+					value: 500000
+				}
+			]
+			rewards: [
+				{
+					id: "13AB84CB981EEDF8"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_arquero 1"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "58E67C104CB78590"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "160CFE7745F3D189"
+			x: 12.5d
+			y: 0.5d
+			dependencies: ["A03132261B14BBF7"]
+			tasks: [
+				{
+					id: "BBEDEA6D5DEDA69C"
+					type: "kill"
+					entity: "minecraft:blaze"
+					value: 50L
+				}
+			]
+			rewards: [
+				{
+					id: "ED9D89BE0949CE96"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_arquero 1"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "932501481D8FE483"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "DDFBEB5533EF30EC"
+			x: 14d
+			y: 0.5d
+			dependencies: ["160CFE7745F3D189"]
+			tasks: [
+				{
+					id: "7D535F7E756928E1"
+					type: "stage"
+					stage: "maestria_arquero_3"
+				}
+			]
+			rewards: [
+				{
+					id: "9BCDDC8D2392FA6C"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_arquero 2"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "4BE74EE4B31F10B9"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,430 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gremio"
+	group: "5677092D8B6DEB7B"
+	icon: {
+		id: "lightmanscurrency:coin_gold"
+	}
+	id: "9BC158E2AE8F7AD4"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "BB50558137D5DBEC"
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["D8586CCB7C53F57D"]
+			tasks: [
+				{
+					id: "88D059B491A7230C"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "38F19A76DE3EE758"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 60"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "9DDD4B34976A0DDA"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					count: 30
+				}
+			]
+		}
+		{
+			id: "E5662E199EC48100"
+			x: 2d
+			y: 0.5d
+			dependencies: ["BB50558137D5DBEC"]
+			tasks: [
+				{
+					id: "A40DCC7F779FC076"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					count: 10L
+				}
+			]
+			rewards: [
+				{
+					id: "737D800168E4436F"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 60"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "C13CEACEFAD7F163"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:wallet_copper"
+					}
+				}
+			]
+		}
+		{
+			id: "10DE08BC1BF5BED6"
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["E5662E199EC48100"]
+			tasks: [
+				{
+					id: "0748DD2161F8C52E"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:atm"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "E6F988A006493DCF"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "B995B2B5F96B84F9"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			id: "C085131512FB6F3A"
+			x: 5d
+			y: 0.5d
+			optional: true
+			dependencies: ["10DE08BC1BF5BED6"]
+			tasks: [
+				{
+					id: "C74FFA58BC1CF6D2"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:item_trader_server_sml"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "F78D9B3A29253616"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 150"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "4172F5A2102E9E97"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					count: 10
+				}
+			]
+		}
+		{
+			id: "E8695456601ED108"
+			x: 2d
+			y: 2d
+			dependencies: ["BB50558137D5DBEC"]
+			tasks: [
+				{
+					id: "464373D4EC403594"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "E76A5524125A1F59"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 50"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "68C1A8BC88D5C2E1"
+			x: 3.5d
+			y: 2d
+			dependencies: ["E8695456601ED108"]
+			tasks: [
+				{
+					id: "CB903A5283FD9702"
+					type: "kill"
+					entity: "minecraft:zombie"
+					value: 30L
+				}
+			]
+			rewards: [
+				{
+					id: "56048E00327D651C"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 160"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "106F68CE6152E082"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			id: "519FCDF1EBFE219E"
+			x: 3.5d
+			y: 3.5d
+			dependencies: ["E8695456601ED108"]
+			tasks: [
+				{
+					id: "B1A16D745A376AF3"
+					type: "kill"
+					entity: "minecraft:skeleton"
+					value: 25L
+				}
+			]
+			rewards: [
+				{
+					id: "9DDC5038CCC50DAA"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 160"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "40B5D205608BCADA"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			id: "27B8560427F11E26"
+			x: 3.5d
+			y: 5d
+			dependencies: ["E8695456601ED108"]
+			tasks: [
+				{
+					id: "38A473E81E1FE3F5"
+					type: "kill"
+					entity: "minecraft:spider"
+					value: 20L
+				}
+			]
+			rewards: [
+				{
+					id: "D8CCCE54E44F284D"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 160"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "91EDBF94F1D8D08E"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			id: "393A2A529C6BA469"
+			x: 5d
+			y: 2d
+			dependencies: ["68C1A8BC88D5C2E1", "519FCDF1EBFE219E", "973E5CD212B18321"]
+			tasks: [
+				{
+					id: "E5232E4CE71B2C27"
+					type: "stage"
+					stage: "rango_bronce"
+				}
+			]
+			rewards: [
+				{
+					id: "540F3DF847A9AE01"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 300"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "77C6A225F3FEE04D"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			id: "A7AEFFF6B8BB4F49"
+			x: 6.5d
+			y: 0.5d
+			dependencies: ["393A2A529C6BA469"]
+			tasks: [
+				{
+					id: "8068C0182F76D17A"
+					type: "kill"
+					entity: "minecraft:witch"
+					value: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "490F89275D4C83F5"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 300"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "0C82DA614E789A38"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "E71D50A4E90F37D0"
+			x: 6.5d
+			y: 2d
+			dependencies: ["393A2A529C6BA469"]
+			tasks: [
+				{
+					id: "B5BE633D4EE94959"
+					type: "kill"
+					entity: "minecraft:enderman"
+					value: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "E410E3CF7E002CA5"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 320"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "427531E267096439"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "B036B9CC8E184204"
+			x: 6.5d
+			y: 3.5d
+			dependencies: ["393A2A529C6BA469", "275367E181852557"]
+			tasks: [
+				{
+					id: "FB54A2AD2BA9644B"
+					type: "kill"
+					entity: "minecraft:blaze"
+					value: 10L
+				}
+			]
+			rewards: [
+				{
+					id: "2FC695CD46EF364A"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 340"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "D24E6DFCDFC5EB78"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			id: "DF10D342CB4BCEB2"
+			x: 8d
+			y: 0.5d
+			dependencies: ["A7AEFFF6B8BB4F49", "E71D50A4E90F37D0", "B036B9CC8E184204"]
+			tasks: [
+				{
+					id: "2CECA0CE9B12463D"
+					type: "kill"
+					entity: "minecraft:wither_skeleton"
+					value: 10L
+				}
+			]
+			rewards: [
+				{
+					id: "0E253A95B3734168"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 600"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "F97BE58CC117E8BF"
+					type: "command"
+					command: "/kubejs stages add {p} rango_plata"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "4E21D438784FE7FF"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					count: 3
+				}
+			]
+		}
+	]
+}

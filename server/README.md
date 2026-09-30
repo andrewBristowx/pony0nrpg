@@ -4,7 +4,7 @@
 
 ## Además de los mods: configuración del servidor
 
-Como el hosting no ejecuta packwiz, hay que subir **a mano** la configuración de habilidades, oficios y bloqueo de clase: `dist/Pony0nRPG-server-config.zip` (se regenera con `tools/make-server-config.ps1`). Descomprímelo en la **raíz** del servidor (crea `config/puffish_skills/` y `kubejs/`). Cada vez que cambie algo de esas carpetas hay que volver a subirlo.
+Como el hosting no ejecuta packwiz, hay que subir **a mano** la configuración de habilidades, oficios, misiones y bloqueo de clase: `dist/Pony0nRPG-server-config.zip` (se regenera con `tools/make-server-config.ps1`). Descomprímelo en la **raíz** del servidor (crea `config/puffish_skills/`, `config/ftbquests/` y `kubejs/`). Cada vez que cambie algo de esas carpetas hay que volver a subirlo.
 
 ## Qué pedir al hosting
 

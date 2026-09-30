@@ -74,6 +74,14 @@ Optativas: matar cada mob común (por bestiario), encontrar una estructura, pesc
 
 Desde la misión 4.8, la recompensa incluye la **pista de la siguiente era**: los componentes de Create que luego pide Mekanism.
 
+## Estado (fase 1)
+
+Capítulos ya escritos y cargando sin errores en el juego (14 capítulos, 203 misiones): Bienvenida, 1 El comienzo, 2 Secretos de la tierra, 3 El aventurero, 4 La revolución de Create, 5 La era tecnológica, 6 El despertar de la magia, y las ramas Gremio y economía, Oficios y Ascensión (un capítulo por clase). Faltan los capítulos 7–10.
+
+Las misiones se **generan** desde `tools/quests/chapters/*.mjs` con `node tools/gen-quests.mjs` (antes, una vez: `node tools/build-id-index.mjs`). El generador valida que cada objeto, entidad, logro, estructura y bioma exista en el pack y que las dependencias existan; los IDs de misión salen de un hash de su clave, así que regenerar no borra el progreso de nadie. Salida: `config/ftbquests/quests/`.
+
+Convenciones técnicas: la XP de Habilidades y de Oficios y los puntos de Ascensión se dan con premios de tipo comando (`/puffish_skills ...` con `{p}`), y las eras con `/kubejs stages add {p} era_X`. Las tareas de tipo "stage" leen los stages de KubeJS (que son etiquetas de entidad, las mismas que lee FTB Library).
+
 ## Herramientas para escribir las misiones
 
 - **FTB Quests** guarda las misiones como archivos SNBT en `config/ftbquests/quests/`. Son texto: caben perfectamente en git, se revisan por diff y se pueden generar por script.

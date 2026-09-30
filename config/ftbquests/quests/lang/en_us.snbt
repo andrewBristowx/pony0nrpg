@@ -1,0 +1,839 @@
+{
+	chapter_group.5677092D8B6DEB7B.title: "Ramas"
+	chapter_group.FA1951BF2D35F839.title: "Campaña"
+	chapter_group.FD609B87CC2A62AE.title: "Ascensión"
+	chapter.0E3DDEBA982CD205.chapter_subtitle: "Guía rápida de Pony0n RPG"
+	chapter.0E3DDEBA982CD205.title: "Bienvenida"
+	chapter.1A169DCF6DD33AFA.chapter_subtitle: "Minería avanzada, exploración, encantamientos y tus primeras ruinas."
+	chapter.1A169DCF6DD33AFA.title: "2. Secretos de la tierra"
+	chapter.27FFD10CD39B1657.chapter_subtitle: "Clases, combate, mazmorras y tu primer miniboss. Entra al gremio."
+	chapter.27FFD10CD39B1657.title: "3. El aventurero"
+	chapter.479A8AB763858CBE.chapter_subtitle: "Puntos de Ascensión para Mago"
+	chapter.479A8AB763858CBE.title: "Ascensión: Mago"
+	chapter.4F72E72B760CB007.chapter_subtitle: "Has aprendido a sobrevivir. Ahora descubre el poder de las máquinas."
+	chapter.4F72E72B760CB007.title: "4. La revolución de Create"
+	chapter.4F85A16CD2F734C8.chapter_subtitle: "Puntos de Ascensión para Guerrero"
+	chapter.4F85A16CD2F734C8.title: "Ascensión: Guerrero"
+	chapter.6F58F88937D025BF.chapter_subtitle: "Puntos de Ascensión para Arquero"
+	chapter.6F58F88937D025BF.title: "Ascensión: Arquero"
+	chapter.8A23F5912A5F28C7.chapter_subtitle: "Puntos de Ascensión para Ingeniero"
+	chapter.8A23F5912A5F28C7.title: "Ascensión: Ingeniero"
+	chapter.8ED56C9EADB59DA3.chapter_subtitle: "Electricidad, máquinas de proceso y redes de almacenamiento."
+	chapter.8ED56C9EADB59DA3.title: "5. La era tecnológica"
+	chapter.9BC158E2AE8F7AD4.chapter_subtitle: "Encargos, rangos y monedas"
+	chapter.9BC158E2AE8F7AD4.title: "Gremio y economía"
+	chapter.A4FA102768BB3DEA.chapter_subtitle: "Escuelas de hechizos, glifos, rituales y el Bosque Crepuscular."
+	chapter.A4FA102768BB3DEA.title: "6. El despertar de la magia"
+	chapter.B01E0EAF688A58EC.chapter_subtitle: "Siete oficios que suben mientras haces sus tareas"
+	chapter.B01E0EAF688A58EC.title: "Oficios"
+	chapter.EAC04198190FFCE4.chapter_subtitle: "El mundo ha cambiado. Antes de aventurarte tendrás que aprender a sobrevivir."
+	chapter.EAC04198190FFCE4.title: "1. El comienzo"
+	chapter.EB42D72D8341FA4F.chapter_subtitle: "Puntos de Ascensión para Asesino"
+	chapter.EB42D72D8341FA4F.title: "Ascensión: Asesino"
+	quest.0146B7675CB1ADB3.quest_desc: [
+		"El Guerrero se hace más resistente y más letal con cada punto."
+		"Al recoger el premio se desbloquea la pestaña de Ascensión de esta clase en el árbol de habilidades (&6K&r)."
+	]
+	quest.0146B7675CB1ADB3.quest_subtitle: "Desbloquea la pestaña"
+	quest.0146B7675CB1ADB3.title: "Elige la Ascensión de Guerrero"
+	quest.081D1FF65EC02FC8.quest_desc: ["Llega hasta la cima de uno de los dos caminos de Encantador. Es el hito de maestría del oficio."]
+	quest.081D1FF65EC02FC8.quest_subtitle: "Maestría"
+	quest.081D1FF65EC02FC8.title: "Encantador II"
+	quest.089D27A3C570503E.quest_desc: [
+		"El gremio te da encargos y te reconoce con rangos. Empiezas de Novato; al completar este capítulo subes a &6Bronce&r."
+		"Cada rango desbloquea misiones más difíciles y mejores recompensas."
+	]
+	quest.089D27A3C570503E.quest_subtitle: "Rangos: Novato, Bronce, Plata, Oro…"
+	quest.089D27A3C570503E.title: "El gremio de aventureros"
+	quest.08ABD6C69F3F736F.quest_desc: ["Pesca peces variados."]
+	quest.08ABD6C69F3F736F.quest_subtitle: "Haz el trabajo"
+	quest.08ABD6C69F3F736F.title: "Pescador: práctica"
+	quest.0B1AA7B46CDAA7CD.quest_desc: [
+		"Has dominado la magia básica y vencido a la Naga. El mundo te espera."
+		"Se abre el capítulo 7."
+	]
+	quest.0B1AA7B46CDAA7CD.quest_subtitle: "Cierre del capítulo"
+	quest.0B1AA7B46CDAA7CD.title: "Maestro de la magia"
+	quest.0B92822CA033C654.quest_desc: ["Sube en el árbol de Leñador hasta &6Fundamentos VI&r. Esto activa el hito Leñador I."]
+	quest.0B92822CA033C654.quest_subtitle: "Hito de oficio"
+	quest.0B92822CA033C654.title: "Leñador I"
+	quest.0CCABA5E8E7E4CFE.quest_desc: [
+		"Cada nivel te da un punto. Pulsa &6K&r para abrir el árbol y gastarlo."
+		"Hay cinco clases: Guerrero, Arquero, Mago, Ingeniero y Asesino. Puedes llenar una a fondo o combinar varias: los puntos son compartidos."
+		"Ganas experiencia matando mobs, minando y completando misiones."
+	]
+	quest.0CCABA5E8E7E4CFE.quest_subtitle: "Pulsa K"
+	quest.0CCABA5E8E7E4CFE.title: "Árbol de habilidades"
+	quest.101EC6A0A52230CD.quest_desc: ["Derriba 30 fantasmas."]
+	quest.101EC6A0A52230CD.quest_subtitle: "Los cielos"
+	quest.101EC6A0A52230CD.title: "Cazador de fantasmas"
+	quest.10DE08BC1BF5BED6.quest_desc: ["Un ATM guarda tus monedas en el banco: no se pierden al morir. También sirve para transferir dinero a otros jugadores."]
+	quest.10DE08BC1BF5BED6.quest_subtitle: "Tu cuenta de banco"
+	quest.10DE08BC1BF5BED6.title: "Cajero automático"
+	quest.136FDA2F6D4631AD.quest_desc: ["Cosecha trigo, zanahorias y patatas maduras."]
+	quest.136FDA2F6D4631AD.quest_subtitle: "Haz el trabajo"
+	quest.136FDA2F6D4631AD.title: "Granjero: práctica"
+	quest.160CFE7745F3D189.quest_desc: ["Derrota 50 blazes."]
+	quest.160CFE7745F3D189.quest_subtitle: "El Nether"
+	quest.160CFE7745F3D189.title: "Cazador de blazes"
+	quest.1A0F690529AF3FB4.quest_desc: ["Acaba con 10 devastadores."]
+	quest.1A0F690529AF3FB4.quest_subtitle: "Raid"
+	quest.1A0F690529AF3FB4.title: "Devastadores"
+	quest.1A893B25B04FC13D.quest_desc: ["Sube en el árbol de Cocinero hasta &6Fundamentos VI&r. Esto activa el hito Cocinero I."]
+	quest.1A893B25B04FC13D.quest_subtitle: "Hito de oficio"
+	quest.1A893B25B04FC13D.title: "Cocinero I"
+	quest.1BDF8774D83C58FF.quest_desc: [
+		"Un pico y un hacha de madera te permiten conseguir piedra y madera más rápido."
+		"Pico: piedra y minerales. Hacha: madera."
+	]
+	quest.1BDF8774D83C58FF.quest_subtitle: "Cada material, un nivel"
+	quest.1BDF8774D83C58FF.title: "Herramientas"
+	quest.1C2EF508133166A4.quest_desc: ["Llega a la cima de un camino de Ingeniero (Tier III)."]
+	quest.1C2EF508133166A4.quest_subtitle: "Tier III"
+	quest.1C2EF508133166A4.title: "Maestría final"
+	quest.1D06021BA9A4674C.quest_desc: [
+		"Encadena máquinas: placas de cobre y latón, envases de diamante y más. Un mecanismo de precisión es la pieza estrella: se monta en una cadena con un desplegador."
+		"Fabrica algunos mecanismos: los necesitarás para todo lo que viene."
+	]
+	quest.1D06021BA9A4674C.quest_subtitle: "Cadenas de procesado"
+	quest.1D06021BA9A4674C.title: "Línea de producción"
+	quest.1EB38FEDF5C4F757.quest_desc: ["Ingeniero: más velocidad de minado, suerte y experiencia. Tus máquinas llegarán en el capítulo 4."]
+	quest.1EB38FEDF5C4F757.quest_subtitle: "Minería y máquinas"
+	quest.1EB38FEDF5C4F757.title: "Camino del Ingeniero"
+	quest.232F25CB31CDBD5A.quest_desc: ["Ya tienes clase. Cada nivel te dará más puntos; elige con calma cómo repartirlos (puedes reiniciar el árbol)."]
+	quest.232F25CB31CDBD5A.quest_subtitle: "Pufferfish"
+	quest.232F25CB31CDBD5A.title: "Tu primera habilidad"
+	quest.24EAA068F8A60EE9.quest_desc: ["Forja un mandoble de netherita."]
+	quest.24EAA068F8A60EE9.quest_subtitle: "El mandoble definitivo"
+	quest.24EAA068F8A60EE9.title: "Hoja de guerra"
+	quest.275367E181852557.quest_desc: ["Las fortalezas del Nether contienen blaze y cofres. Usa tu brújula del explorador para encontrar una."]
+	quest.275367E181852557.quest_subtitle: "Exploración"
+	quest.275367E181852557.title: "Fortaleza del Nether"
+	quest.27B356D1A8EA1AF3.quest_desc: ["Con la olla de cocina y la tabla de cortar, Farmer's Delight añade platos que dan bonificaciones. El oficio de Cocinero sube al cocinar."]
+	quest.27B356D1A8EA1AF3.quest_subtitle: "Farmer's Delight"
+	quest.27B356D1A8EA1AF3.title: "Buena cocina"
+	quest.27B8560427F11E26.quest_desc: ["Las arañas infestan las cuevas. Acaba con 20."]
+	quest.27B8560427F11E26.quest_subtitle: "Novato"
+	quest.27B8560427F11E26.title: "Encargo: arañas"
+	quest.296BB18C21C4F723.quest_desc: [
+		"Las bóvedas de objetos guardan miles de objetos y se conectan con embudos y cintas."
+		"Usa la mochila (&6B&r) para llevar contigo lo importante."
+	]
+	quest.296BB18C21C4F723.quest_subtitle: "Bóvedas"
+	quest.296BB18C21C4F723.title: "Almacenamiento"
+	quest.2A18551ABF8BAA2B.quest_desc: ["Con una mesa de trabajo puedes fabricar casi todo. Si no recuerdas la receta, mira el objeto en JEI (&6R&r)."]
+	quest.2A18551ABF8BAA2B.quest_subtitle: "Crafteo básico"
+	quest.2A18551ABF8BAA2B.title: "Mesa de trabajo"
+	quest.2C5539401072FC86.quest_desc: ["Las armas pesadas golpean fuerte pero lento. Requieren Guerrero (Tier I)."]
+	quest.2C5539401072FC86.quest_subtitle: "Mandoble de hierro"
+	quest.2C5539401072FC86.title: "Equipo de Guerrero"
+	quest.2DEAC55CA05D38C9.quest_desc: ["Construye un motor de vapor."]
+	quest.2DEAC55CA05D38C9.quest_subtitle: "Create"
+	quest.2DEAC55CA05D38C9.title: "Motor de vapor"
+	quest.2E4918EB0D0CADC1.quest_desc: [
+		"Entrega 64 placas de latón a tu fábrica."
+		"Se consumen al entregar."
+	]
+	quest.2E4918EB0D0CADC1.quest_subtitle: "Producción"
+	quest.2E4918EB0D0CADC1.title: "Chapa de latón"
+	quest.2F4F9F6C413602E4.quest_desc: [
+		"Tienes un minimapa en la esquina y un mapa completo con la tecla &6M&r."
+		"Puedes marcar puntos de interés en el mapa; úsalos para volver a tu base y a las estructuras que encuentres."
+	]
+	quest.2F4F9F6C413602E4.quest_subtitle: "Pulsa M"
+	quest.2F4F9F6C413602E4.title: "El mapa"
+	quest.30BFB860CD1E7E3B.quest_desc: ["Las armaduras de mago dan poder de escuela y maná. Requieren Mago (Tier II)."]
+	quest.30BFB860CD1E7E3B.quest_subtitle: "Piromante, criomante..."
+	quest.30BFB860CD1E7E3B.title: "Armadura de mago"
+	quest.30C4940823119B26.quest_desc: ["Fabrica un arco largo de diamante."]
+	quest.30C4940823119B26.quest_subtitle: "Materiales nobles"
+	quest.30C4940823119B26.title: "Arco supremo"
+	quest.3157D2002210A894.quest_desc: [
+		"De noche salen monstruos. Construye un refugio con antorchas y un cofre, y duerme para fijar tu punto de reaparición."
+		"Necesitas una cama: lana + tablones."
+	]
+	quest.3157D2002210A894.quest_subtitle: "Noche, mobs y respawn"
+	quest.3157D2002210A894.title: "Refugio"
+	quest.3445B8FE66BB1571.quest_desc: ["Las mazmorras tienen enemigos, trampas y mucho botín. Prepara comida, antorchas y un escudo antes de entrar."]
+	quest.3445B8FE66BB1571.quest_subtitle: "Entra y sal con vida"
+	quest.3445B8FE66BB1571.title: "Primera mazmorra"
+	quest.344EF3DE8D7FA8CB.quest_desc: ["Los ejes transmiten. Los engranajes cambian la dirección. Los engranajes grandes cambian la velocidad. Una caja de cambios invierte el sentido."]
+	quest.344EF3DE8D7FA8CB.quest_subtitle: "Dirección y velocidad"
+	quest.344EF3DE8D7FA8CB.title: "Transmisión"
+	quest.36C790764DFE6623.quest_desc: [
+		"Este mundo mezcla RPG, exploración, Create, tecnología y magia."
+		"Este libro de misiones es tu manual: cada misión te enseña algo y te da un premio. Empieza por aquí y sigue las líneas que unen las misiones."
+		"Pulsa el botón de recoger premio cuando termines una misión."
+	]
+	quest.36C790764DFE6623.quest_subtitle: "Aventura, clases, oficios y máquinas"
+	quest.36C790764DFE6623.title: "Bienvenido a Pony0n RPG"
+	quest.393A2A529C6BA469.quest_desc: ["Al completar &6El aventurero&r te reconocen como aventurero de Bronce. Ya puedes tomar encargos contra enemigos del Nether."]
+	quest.393A2A529C6BA469.quest_subtitle: "Tras el capítulo 3"
+	quest.393A2A529C6BA469.title: "Rango Bronce"
+	quest.393B4B73A9C0C5E3.quest_desc: ["Consigue tinta legendaria para tus pergaminos."]
+	quest.393B4B73A9C0C5E3.quest_subtitle: "El arte de escribir"
+	quest.393B4B73A9C0C5E3.title: "Tinta legendaria"
+	quest.394BFF181A51BD26.quest_desc: ["La prensa convierte lingotes en placas. Colócala sobre un depósito o una cinta con un lingote debajo y aliméntala con fuerza."]
+	quest.394BFF181A51BD26.quest_subtitle: "Tu primera máquina"
+	quest.394BFF181A51BD26.title: "Prensa mecánica"
+	quest.3AE0A47C08FD920C.quest_desc: ["Funde el hierro en un horno con carbón o madera como combustible."]
+	quest.3AE0A47C08FD920C.quest_subtitle: "Fundición"
+	quest.3AE0A47C08FD920C.title: "Horno"
+	quest.3C208F022E6023BF.quest_desc: ["Un familiar te acompaña y te da pequeñas bonificaciones. El starbuncle es el más popular."]
+	quest.3C208F022E6023BF.quest_subtitle: "Un compañero mágico"
+	quest.3C208F022E6023BF.title: "Familiar (opcional)"
+	quest.3CD75AE420A3D168.quest_desc: ["Llega hasta la cima de uno de los dos caminos de Leñador. Es el hito de maestría del oficio."]
+	quest.3CD75AE420A3D168.quest_subtitle: "Maestría"
+	quest.3CD75AE420A3D168.title: "Leñador II"
+	quest.3EDA4F9660560F63.quest_desc: ["El servidor tiene chat de voz por proximidad. Pulsa &6V&r para configurarlo y elige tu micrófono."]
+	quest.3EDA4F9660560F63.quest_subtitle: "Pulsa V"
+	quest.3EDA4F9660560F63.title: "Chat de voz"
+	quest.41494B12BA1ADEB7.quest_desc: ["Explora un templo o torre y sal con vida."]
+	quest.41494B12BA1ADEB7.quest_subtitle: "Otra estructura"
+	quest.41494B12BA1ADEB7.title: "Torres y templos"
+	quest.4248853794C0D6F4.quest_desc: ["Las mochilas de Sophisticated Backpacks se pueden mejorar con mejoras (recoger objetos, imán, bomba…). Equípala y pulsa &6B&r para abrirla."]
+	quest.4248853794C0D6F4.quest_subtitle: "Más espacio, menos viajes"
+	quest.4248853794C0D6F4.title: "Una mochila"
+	quest.4286BB6CC3A24313.quest_desc: ["Con el aparato de encantamiento y pedestales arcanos creas objetos mágicos poderosos y mejoras tu equipo."]
+	quest.4286BB6CC3A24313.quest_subtitle: "Objetos mágicos"
+	quest.4286BB6CC3A24313.title: "Aparato de encantamiento"
+	quest.43A2FE4E40BB587A.quest_desc: ["Sube en el árbol de Pescador hasta &6Fundamentos VI&r. Esto activa el hito Pescador I."]
+	quest.43A2FE4E40BB587A.quest_subtitle: "Hito de oficio"
+	quest.43A2FE4E40BB587A.title: "Pescador I"
+	quest.43E7E7976BE6165F.quest_desc: [
+		"Create mueve el mundo con fuerza rotatoria: ejes, engranajes, ruedas y motores. Todo se mide en RPM y en estrés."
+		"Aquí aprenderás desde tu primer engranaje hasta un tren. Ponte las gafas de ingeniero (goggles) cuando las tengas: te muestran RPM y estrés."
+	]
+	quest.43E7E7976BE6165F.quest_subtitle: "Contexto"
+	quest.43E7E7976BE6165F.title: "Las máquinas despiertan"
+	quest.463355FF3C985EA9.quest_desc: [
+		"Cultiva trigo con semillas, espera a que madure y hornea pan."
+		"Con Farmer's Delight tendrás más recetas de cocina más adelante."
+	]
+	quest.463355FF3C985EA9.quest_subtitle: "Agricultura"
+	quest.463355FF3C985EA9.title: "Cosecha"
+	quest.4674019A8475FB7A.quest_desc: ["Derrota 200 esqueletos con tu arco."]
+	quest.4674019A8475FB7A.quest_subtitle: "Tiros certeros"
+	quest.4674019A8475FB7A.title: "Ojo de halcón"
+	quest.48A6A5FE93DD788E.quest_desc: ["Tier I de Asesino: dagas, katanas y armas rápidas."]
+	quest.48A6A5FE93DD788E.quest_subtitle: "Armas ligeras"
+	quest.48A6A5FE93DD788E.title: "Camino del Asesino"
+	quest.4B48A7ABAD5D3004.quest_desc: ["Tala árboles y consigue troncos de varios tipos."]
+	quest.4B48A7ABAD5D3004.quest_subtitle: "Haz el trabajo"
+	quest.4B48A7ABAD5D3004.title: "Leñador: práctica"
+	quest.4B6E99E64A76084A.quest_desc: ["Recorre una larga distancia agachado."]
+	quest.4B6E99E64A76084A.quest_subtitle: "Agáchate y avanza"
+	quest.4B6E99E64A76084A.title: "Sigilo prolongado"
+	quest.4D33E6006674E5B8.quest_desc: ["Resiste un gran volumen de daño acumulado."]
+	quest.4D33E6006674E5B8.quest_subtitle: "Recibe golpes"
+	quest.4D33E6006674E5B8.title: "Aguante"
+	quest.4E014CC5F8D58AA2.quest_desc: [
+		"JEI muestra las recetas de todos los objetos del pack."
+		"Pon el cursor sobre un objeto en tu inventario y pulsa &6R&r para ver cómo se fabrica o &6U&r para ver para qué sirve."
+	]
+	quest.4E014CC5F8D58AA2.quest_subtitle: "Mira sobre un objeto y pulsa R o U"
+	quest.4E014CC5F8D58AA2.title: "Recetas con JEI"
+	quest.4E483602731B4B12.quest_desc: ["Un rodamiento de molino con velas produce fuerza continua sin agua."]
+	quest.4E483602731B4B12.quest_subtitle: "Otra fuente"
+	quest.4E483602731B4B12.title: "Molino de viento (opcional)"
+	quest.51240FD0804A9114.quest_desc: [
+		"La Ascensión es el camino después del nivel 100: cada misión de tu clase te da puntos de Ascensión, con bonos pequeños y permanentes."
+		"Esta misión se completa sola cuando terminas la campaña (stage &6era_10&r)."
+	]
+	quest.51240FD0804A9114.quest_subtitle: "Se abre al terminar la campaña"
+	quest.51240FD0804A9114.title: "La puerta de la Ascensión"
+	quest.514DF68997C946E7.quest_desc: ["Fabrica al menos una pieza de armadura de hierro y póntela."]
+	quest.514DF68997C946E7.quest_subtitle: "Defensa"
+	quest.514DF68997C946E7.title: "Armadura"
+	quest.519FCDF1EBFE219E.quest_desc: ["Los esqueletos atacan a los viajeros. Derrota 25."]
+	quest.519FCDF1EBFE219E.quest_subtitle: "Novato"
+	quest.519FCDF1EBFE219E.title: "Encargo: esqueletos"
+	quest.52A43C3AFE1F3B54.quest_desc: [
+		"La Ascensión es el camino después del nivel 100: cada misión de tu clase te da puntos de Ascensión, con bonos pequeños y permanentes."
+		"Esta misión se completa sola cuando terminas la campaña (stage &6era_10&r)."
+	]
+	quest.52A43C3AFE1F3B54.quest_subtitle: "Se abre al terminar la campaña"
+	quest.52A43C3AFE1F3B54.title: "La puerta de la Ascensión"
+	quest.5311B003EDE93BA8.quest_desc: ["La fuente es la energía mágica de Ars Nouveau. Las gemas se consiguen de la magia del entorno y se procesan en la mesa de escritura."]
+	quest.5311B003EDE93BA8.quest_subtitle: "Ars Nouveau"
+	quest.5311B003EDE93BA8.title: "Gemas de fuente"
+	quest.5339C4147395574B.quest_desc: [
+		"El minero sube picando minerales (mucho) y roca (poco)."
+		"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Minero. Cada nivel del oficio te da 1 punto para su árbol."
+	]
+	quest.5339C4147395574B.quest_subtitle: "Presentación"
+	quest.5339C4147395574B.title: "Oficio: Minero"
+	quest.5AC03FC7AF1A0F16.quest_desc: [
+		"Los diamantes aparecen muy abajo, cerca de la capa Y -58. Lleva antorchas, comida y un pico de hierro, y ten cuidado con la lava."
+		"El nivel de tu oficio de Minero sube mientras picas."
+	]
+	quest.5AC03FC7AF1A0F16.quest_subtitle: "Minería profunda"
+	quest.5AC03FC7AF1A0F16.title: "Brillo de diamante"
+	quest.5BB8354E958B66F8.quest_desc: ["Tier I de Arquero: arcos largos y ballestas pesadas."]
+	quest.5BB8354E958B66F8.quest_subtitle: "Arcos y ballestas"
+	quest.5BB8354E958B66F8.title: "Camino del Arquero"
+	quest.5C0E20E716BD0168.quest_desc: ["Con un proveedor de patrones, un ensamblador molecular y una unidad de crafteo, tu red fabrica lo que le pidas."]
+	quest.5C0E20E716BD0168.quest_subtitle: "Fabricación automática"
+	quest.5C0E20E716BD0168.title: "Autocrafteo"
+	quest.5C174FD9F3A49448.quest_desc: ["Llega hasta la cima de uno de los dos caminos de Herrero. Es el hito de maestría del oficio."]
+	quest.5C174FD9F3A49448.quest_subtitle: "Maestría"
+	quest.5C174FD9F3A49448.title: "Herrero II"
+	quest.5C41BCBC32FB0AD0.quest_desc: ["El osmio es la base de Mekanism. Mínalo en cuevas y fúndelo."]
+	quest.5C41BCBC32FB0AD0.quest_subtitle: "El metal de Mekanism"
+	quest.5C41BCBC32FB0AD0.title: "Osmio"
+	quest.5C743ED0FE5620E5.quest_desc: ["Encanta objetos en la mesa de encantamientos."]
+	quest.5C743ED0FE5620E5.quest_subtitle: "Haz el trabajo"
+	quest.5C743ED0FE5620E5.title: "Encantador: práctica"
+	quest.5E89FB767BB1E9C7.quest_desc: [
+		"Sigue subiendo en tu clase hasta &6Fundamentos VI&r: eso te da el Tier II y abre equipo mejor."
+		"Mientras tanto, prepárate para explorar."
+	]
+	quest.5E89FB767BB1E9C7.quest_subtitle: "Fundamentos VI (Tier II)"
+	quest.5E89FB767BB1E9C7.title: "Maestría de clase"
+	quest.604171E7AD5F136E.quest_desc: [
+		"Create mueve el mundo con fuerza rotatoria. Esta rama opcional te enseña lo mínimo; el capítulo 4 trata Create a fondo."
+		"Empieza con una aleación de andesita: andesita + hierro (o pepitas de hierro)."
+	]
+	quest.604171E7AD5F136E.quest_subtitle: "Introducción a Create"
+	quest.604171E7AD5F136E.title: "Primeras máquinas (opcional)"
+	quest.661472E3C58175D2.quest_desc: [
+		"Los procesadores se fabrican con moldes en un inscriptor. Necesitas lógica, cálculo e ingeniería."
+		"Un mecanismo de precisión de Create viene muy bien en esta etapa."
+	]
+	quest.661472E3C58175D2.quest_subtitle: "El corazón de AE2"
+	quest.661472E3C58175D2.title: "Procesadores"
+	quest.68C1A8BC88D5C2E1.quest_desc: ["Los zombis rodean el pueblo. Elimina 30."]
+	quest.68C1A8BC88D5C2E1.quest_subtitle: "Novato"
+	quest.68C1A8BC88D5C2E1.title: "Encargo: zombis"
+	quest.69B30B980486EE8F.quest_desc: ["Bloquea daño con tu escudo hasta acumular una gran cantidad."]
+	quest.69B30B980486EE8F.quest_subtitle: "Bloquea el daño"
+	quest.69B30B980486EE8F.title: "Muralla"
+	quest.69F7A8073F6F44D2.quest_desc: [
+		"Enfréntate a un enemigo de élite: un piglin bruto en un bastión, o un invocador si lo encuentras."
+		"Prepara pociones, buena armadura y un plan de retirada."
+	]
+	quest.69F7A8073F6F44D2.quest_subtitle: "Un enemigo de élite"
+	quest.69F7A8073F6F44D2.title: "Primer miniboss"
+	quest.6A34C1CD6FD08430.quest_desc: ["Acaba con 10 devastadores."]
+	quest.6A34C1CD6FD08430.quest_subtitle: "Raid"
+	quest.6A34C1CD6FD08430.title: "Aplasta devastadores"
+	quest.6C72FF8578451F92.quest_desc: ["Una caldera con agua y calor alimenta motores de vapor que dan un montón de estrés."]
+	quest.6C72FF8578451F92.quest_subtitle: "Mucha fuerza"
+	quest.6C72FF8578451F92.title: "Motor de vapor (opcional)"
+	quest.6E531DE17D4DC58E.quest_desc: [
+		"El herrero sube fabricando herramientas, armas y armaduras, y fundiendo lingotes."
+		"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Herrero. Cada nivel del oficio te da 1 punto para su árbol."
+	]
+	quest.6E531DE17D4DC58E.quest_subtitle: "Presentación"
+	quest.6E531DE17D4DC58E.title: "Oficio: Herrero"
+	quest.6E9B3A427BA4CDA0.quest_desc: ["Llega hasta la cima de uno de los dos caminos de Cocinero. Es el hito de maestría del oficio."]
+	quest.6E9B3A427BA4CDA0.quest_subtitle: "Maestría"
+	quest.6E9B3A427BA4CDA0.title: "Cocinero II"
+	quest.6EBC59CAF79FAB55.quest_desc: ["Construye una baliza."]
+	quest.6EBC59CAF79FAB55.quest_subtitle: "Baliza"
+	quest.6EBC59CAF79FAB55.title: "Faro del ingeniero"
+	quest.7254BDE4C260F5ED.quest_desc: ["La sierra corta troncos y árboles. También procesa madera en tablones desde una cinta."]
+	quest.7254BDE4C260F5ED.quest_subtitle: "Tala automática"
+	quest.7254BDE4C260F5ED.title: "Sierra mecánica"
+	quest.753F8FC0BE2F83E4.quest_desc: [
+		"El cocinero sube cocinando carne y pescado, y comiendo."
+		"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Cocinero. Cada nivel del oficio te da 1 punto para su árbol."
+	]
+	quest.753F8FC0BE2F83E4.quest_subtitle: "Presentación"
+	quest.753F8FC0BE2F83E4.title: "Oficio: Cocinero"
+	quest.772705568398490D.quest_desc: ["Derrota 10 ghasts, de lejos."]
+	quest.772705568398490D.quest_subtitle: "Dispara a la bola"
+	quest.772705568398490D.title: "Ghast a distancia"
+	quest.7A0777EF5D49B88A.quest_desc: [
+		"El granjero sube cosechando cultivos maduros (no vale romper los brotes)."
+		"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Granjero. Cada nivel del oficio te da 1 punto para su árbol."
+	]
+	quest.7A0777EF5D49B88A.quest_subtitle: "Presentación"
+	quest.7A0777EF5D49B88A.title: "Oficio: Granjero"
+	quest.7AB94966CEC6E3F9.quest_desc: ["Elimina 20 brujas."]
+	quest.7AB94966CEC6E3F9.quest_subtitle: "Práctica"
+	quest.7AB94966CEC6E3F9.title: "Caza de brujas"
+	quest.7C8EA5D510588DD0.quest_desc: ["Un ingeniero necesita almacenamiento. Mejora tu mochila a hierro."]
+	quest.7C8EA5D510588DD0.quest_subtitle: "Mochila de hierro"
+	quest.7C8EA5D510588DD0.title: "Equipo de Ingeniero"
+	quest.7D2C327DBE2FF7C4.quest_desc: ["Llega hasta la cima de uno de los dos caminos de Pescador. Es el hito de maestría del oficio."]
+	quest.7D2C327DBE2FF7C4.quest_subtitle: "Maestría"
+	quest.7D2C327DBE2FF7C4.title: "Pescador II"
+	quest.7EB8BA411AEFD923.quest_desc: ["Sube en el árbol de Minero hasta &6Fundamentos VI&r. Esto activa el hito Minero I."]
+	quest.7EB8BA411AEFD923.quest_subtitle: "Hito de oficio"
+	quest.7EB8BA411AEFD923.title: "Minero I"
+	quest.7EDE8B0BCFFFD16A.quest_desc: [
+		"Los monstruos y cofres ahora pueden soltar equipo con rareza y afijos (Apotheosis). Cuanto más rara la rareza, mejor el objeto."
+		"Derrota esqueletos y zombis: prueba suerte."
+	]
+	quest.7EDE8B0BCFFFD16A.quest_subtitle: "Objetos con rareza"
+	quest.7EDE8B0BCFFFD16A.title: "Botín de aventurero"
+	quest.7F79323E65F0252D.quest_desc: ["Llega hasta la cima de uno de los dos caminos de Minero. Es el hito de maestría del oficio."]
+	quest.7F79323E65F0252D.quest_subtitle: "Maestría"
+	quest.7F79323E65F0252D.title: "Minero II"
+	quest.7F7A70E5F762DAD8.quest_desc: [
+		"La brújula del explorador te indica hacia dónde está la estructura que elijas más cercana. Es la mejor amiga de un aventurero."
+		"La brújula de la naturaleza hace lo mismo con los biomas."
+	]
+	quest.7F7A70E5F762DAD8.quest_subtitle: "Encuentra estructuras"
+	quest.7F7A70E5F762DAD8.title: "Brújula del explorador"
+	quest.802CFCCA2B4DCD8F.quest_desc: ["Fabrica una armadura de netherita, aunque sea una pieza."]
+	quest.802CFCCA2B4DCD8F.quest_subtitle: "Un titán de netherita"
+	quest.802CFCCA2B4DCD8F.title: "Armadura completa"
+	quest.8062EC245C2A3F38.quest_desc: ["Consigue un lingote de obsidiana refinada."]
+	quest.8062EC245C2A3F38.quest_subtitle: "Mekanism"
+	quest.8062EC245C2A3F38.title: "Obsidiana refinada"
+	quest.8231E0ACEAC208A9.quest_desc: [
+		"Cada escuela tiene su runa. Con una runa en el yunque arcano mejoras un objeto de esa escuela."
+		"Elige la escuela que más te guste; te acompañará durante toda la campaña."
+	]
+	quest.8231E0ACEAC208A9.quest_subtitle: "Una por escuela"
+	quest.8231E0ACEAC208A9.title: "Runas de escuela"
+	quest.827FECC1AC04A31E.quest_desc: [
+		"El cuenco y el mezclador combinan ingredientes. Con calor (un quemador de blaze) fabrican latón: cobre + zinc."
+		"El latón abre una segunda mitad de recetas de Create."
+	]
+	quest.827FECC1AC04A31E.quest_subtitle: "Procesamiento"
+	quest.827FECC1AC04A31E.title: "Mezclador y cuenco"
+	quest.8401A8164AC34D43.quest_desc: ["El brasero ritual hace magia colectiva: cambia el clima, hace crecer bosques o invoca criaturas. Lo primero: fabricar el brasero."]
+	quest.8401A8164AC34D43.quest_subtitle: "Magia poderosa"
+	quest.8401A8164AC34D43.title: "Rituales"
+	quest.855865679720C887.quest_desc: ["Fabrica un circuito de control definitivo."]
+	quest.855865679720C887.quest_subtitle: "Mekanism"
+	quest.855865679720C887.title: "Circuito supremo"
+	quest.859B1B9A97096EC6.quest_desc: ["Una celda de energía básica almacena mucho más. Mejora todo tu sistema con celdas mayores."]
+	quest.859B1B9A97096EC6.quest_subtitle: "Almacenar"
+	quest.859B1B9A97096EC6.title: "Batería Powah"
+	quest.862160E0F3BA21DB.quest_desc: ["El alternador convierte fuerza rotatoria en electricidad. El motor eléctrico hace lo contrario: convierte electricidad en fuerza."]
+	quest.862160E0F3BA21DB.quest_subtitle: "De fuerza a electricidad"
+	quest.862160E0F3BA21DB.title: "Alternador y motor"
+	quest.8677E94D84609E2A.quest_desc: [
+		"El Asesino golpea rápido, esquiva y remata."
+		"Al recoger el premio se desbloquea la pestaña de Ascensión de esta clase en el árbol de habilidades (&6K&r)."
+	]
+	quest.8677E94D84609E2A.quest_subtitle: "Desbloquea la pestaña"
+	quest.8677E94D84609E2A.title: "Elige la Ascensión de Asesino"
+	quest.892DEB68945D84C1.quest_desc: [
+		"La Ascensión es el camino después del nivel 100: cada misión de tu clase te da puntos de Ascensión, con bonos pequeños y permanentes."
+		"Esta misión se completa sola cuando terminas la campaña (stage &6era_10&r)."
+	]
+	quest.892DEB68945D84C1.quest_subtitle: "Se abre al terminar la campaña"
+	quest.892DEB68945D84C1.title: "La puerta de la Ascensión"
+	quest.89D4E872F25DCFAF.quest_desc: [
+		"Hay dos magias en este mundo. &6Iron's Spells 'n Spellbooks&r es la magia de combate: escuelas de hechizos que se lanzan con bastones y grimorios."
+		"&6Ars Nouveau&r es la magia de rituales, glifos y utilidades. Las dos se complementan."
+		"Las escuelas del pack: &6Fuego&r, &6Hielo&r, &6Oscuridad&r (vacío, sangre, ancestral) y &6Arcana&r (evocación y sagrado). Necesitas Mago para lanzar hechizos."
+	]
+	quest.89D4E872F25DCFAF.quest_subtitle: "Dos caminos: Iron's y Ars"
+	quest.89D4E872F25DCFAF.title: "El despertar de la magia"
+	quest.8A415716A32C74ED.quest_desc: ["Consigue el libro de hechizos de archimago."]
+	quest.8A415716A32C74ED.quest_subtitle: "Ars Nouveau"
+	quest.8A415716A32C74ED.title: "Libro del archimago"
+	quest.8AC405322A68F794.quest_desc: ["Sube en el árbol de Encantador hasta &6Fundamentos VI&r. Esto activa el hito Encantador I."]
+	quest.8AC405322A68F794.quest_subtitle: "Hito de oficio"
+	quest.8AC405322A68F794.title: "Encantador I"
+	quest.8B00B888A8B29A05.quest_desc: ["El robit es un ayudante que recoge objetos y te sigue. Es muy básico, pero divertido."]
+	quest.8B00B888A8B29A05.quest_subtitle: "Tu robot personal"
+	quest.8B00B888A8B29A05.title: "Robit (opcional)"
+	quest.8B3A82BE13DF2E1B.quest_desc: ["El arco largo tiene más alcance y potencia. Requiere Arquero (Tier I)."]
+	quest.8B3A82BE13DF2E1B.quest_subtitle: "Arco largo de hierro"
+	quest.8B3A82BE13DF2E1B.title: "Equipo de Arquero"
+	quest.8D64DD1C0E759D96.quest_desc: ["Llega a la cima de un camino de Mago (Tier III)."]
+	quest.8D64DD1C0E759D96.quest_subtitle: "Tier III"
+	quest.8D64DD1C0E759D96.title: "Maestría final"
+	quest.8F4D7DFC604A06EC.quest_desc: ["Los cubos de energía guardan grandes cantidades y se conectan con cables universales."]
+	quest.8F4D7DFC604A06EC.quest_subtitle: "Almacén de energía"
+	quest.8F4D7DFC604A06EC.title: "Cubos de energía"
+	quest.9046A50E44B352DF.quest_desc: ["Sube en el árbol de Granjero hasta &6Fundamentos VI&r. Esto activa el hito Granjero I."]
+	quest.9046A50E44B352DF.quest_subtitle: "Hito de oficio"
+	quest.9046A50E44B352DF.title: "Granjero I"
+	quest.90B960467FB7D032.quest_desc: ["Fabrica una célula de almacenamiento de 4K."]
+	quest.90B960467FB7D032.quest_subtitle: "AE2"
+	quest.90B960467FB7D032.title: "Célula de 4K"
+	quest.90CC5F5EC097BEB8.quest_desc: ["Casi todo en Create empieza con la aleación de andesita: pepitas de hierro + andesita en una mesa de trabajo."]
+	quest.90CC5F5EC097BEB8.quest_subtitle: "El ingrediente base"
+	quest.90CC5F5EC097BEB8.title: "Aleación de andesita"
+	quest.9139AC1E342CF15D.quest_desc: ["El desplegador usa objetos por ti: coloca bloques, ensambla piezas, hasta ataca."]
+	quest.9139AC1E342CF15D.quest_subtitle: "Manos mecánicas"
+	quest.9139AC1E342CF15D.title: "Desplegador (opcional)"
+	quest.9243E3CCBABC82FC.quest_desc: ["La piedra dura más que la madera y sirve para minar hierro. Consigue adoquín con tu pico."]
+	quest.9243E3CCBABC82FC.quest_subtitle: "Un salto de calidad"
+	quest.9243E3CCBABC82FC.title: "Herramientas de piedra"
+	quest.945E836B0ADE39A7.quest_desc: ["Acaba con 200 zombis: la fuerza se gana golpeando."]
+	quest.945E836B0ADE39A7.quest_subtitle: "Mata sin descanso"
+	quest.945E836B0ADE39A7.title: "Fuerza bruta"
+	quest.94C199365E022A19.quest_desc: ["Los aldeanos comercian con esmeraldas. Busca una aldea y haz un intercambio."]
+	quest.94C199365E022A19.quest_subtitle: "Aldeanos"
+	quest.94C199365E022A19.title: "Comercio"
+	quest.9539C9153183A31C.quest_desc: ["El laminador convierte placas en varillas y cables de distintos metales."]
+	quest.9539C9153183A31C.quest_subtitle: "Hilos y varillas"
+	quest.9539C9153183A31C.title: "Laminador (opcional)"
+	quest.957396200984DCA3.quest_desc: ["Reúne 64 flechas espectrales."]
+	quest.957396200984DCA3.quest_subtitle: "Munición"
+	quest.957396200984DCA3.title: "Flechas espectrales"
+	quest.96F0710C262B298C.quest_desc: ["Sube en el árbol de Herrero hasta &6Fundamentos VI&r. Esto activa el hito Herrero I."]
+	quest.96F0710C262B298C.quest_subtitle: "Hito de oficio"
+	quest.96F0710C262B298C.title: "Herrero I"
+	quest.973E5CD212B18321.quest_desc: [
+		"Has demostrado tu valía. El gremio te concede el rango &6Bronce&r y un arma con nombre."
+		"Se abre el capítulo 4: la revolución de Create."
+	]
+	quest.973E5CD212B18321.quest_subtitle: "Cierre del capítulo"
+	quest.973E5CD212B18321.title: "Rango Bronce"
+	quest.980363084265B5E6.quest_desc: ["Fabrica un grimorio de diamante."]
+	quest.980363084265B5E6.quest_subtitle: "Un libro mayor"
+	quest.980363084265B5E6.title: "Grimorio superior"
+	quest.9BA06F3334BBE69A.quest_desc: ["Derrota 50 endermen."]
+	quest.9BA06F3334BBE69A.quest_subtitle: "Endermen"
+	quest.9BA06F3334BBE69A.title: "Golpe de sombra"
+	quest.9C13CD93FC9EC170.quest_desc: ["El yunque arcano mejora tus objetos mágicos y también sirve para destruirlos y recuperar materiales."]
+	quest.9C13CD93FC9EC170.quest_subtitle: "Mejora y separa"
+	quest.9C13CD93FC9EC170.title: "Yunque arcano"
+	quest.9D47C88484B97547.quest_desc: [
+		"Los capítulos están a la izquierda. Las misiones desbloqueadas se ven en color; las que aún no puedes hacer están apagadas."
+		"Las misiones de aprendizaje son individuales. Las de equipo se comparten con tu equipo de FTB Teams."
+		"Las misiones opcionales no bloquean la campaña."
+	]
+	quest.9D47C88484B97547.quest_subtitle: "Cómo se usa"
+	quest.9D47C88484B97547.title: "Tu libro de misiones"
+	quest.9F0605D442843B55.quest_desc: ["Construye 8 bóvedas de Create."]
+	quest.9F0605D442843B55.quest_subtitle: "Almacenamiento"
+	quest.9F0605D442843B55.title: "Bóvedas rebosantes"
+	quest.9F0B41A860D3CA6E.quest_desc: ["Llega a la cima de un camino de Asesino (Tier III)."]
+	quest.9F0B41A860D3CA6E.quest_subtitle: "Tier III"
+	quest.9F0B41A860D3CA6E.title: "Maestría final"
+	quest.9F16F986157B10A0.quest_desc: ["Los grimorios guardan hechizos y aumentan tu poder mágico. Requiere Mago (Tier I)."]
+	quest.9F16F986157B10A0.quest_subtitle: "Grimorio de hierro"
+	quest.9F16F986157B10A0.title: "Equipo de Mago"
+	quest.A03132261B14BBF7.quest_desc: ["Recorre una gran distancia a pie."]
+	quest.A03132261B14BBF7.quest_subtitle: "Movilidad"
+	quest.A03132261B14BBF7.title: "Corredor de largas distancias"
+	quest.A172BC3B18A57A27.quest_desc: [
+		"Después de la fuerza mecánica llega la electricidad. Usaremos FE (Forge Energy) y tres familias de mods:"
+		"&6Create Crafts & Additions&r: convierte la fuerza de Create en electricidad. &6Powah&r: generadores y baterías intermedias. &6Mekanism&r: procesamiento y energía densa. &6AE2&r: almacenamiento y autocrafteo."
+	]
+	quest.A172BC3B18A57A27.quest_subtitle: "Contexto"
+	quest.A172BC3B18A57A27.title: "La era de la energía"
+	quest.A2463BDBAC29BB2E.quest_desc: ["Las armas ligeras son rápidas y dan críticos. Requieren Asesino (Tier I)."]
+	quest.A2463BDBAC29BB2E.quest_subtitle: "Daga de hierro"
+	quest.A2463BDBAC29BB2E.title: "Equipo de Asesino"
+	quest.A2C3F80A74017C20.quest_desc: ["Defiéndete: acaba con unos zombis. Ataca, retrocede y cúrate; el combate es mejor con tiempo entre golpes."]
+	quest.A2C3F80A74017C20.quest_subtitle: "Combate defensivo"
+	quest.A2C3F80A74017C20.title: "La primera noche"
+	quest.A2FC1EAC5A3C7C74.quest_desc: ["Derrota 30 fantasmas."]
+	quest.A2FC1EAC5A3C7C74.quest_subtitle: "Phantoms"
+	quest.A2FC1EAC5A3C7C74.title: "Cazador nocturno"
+	quest.A470FFA3588A8492.quest_desc: ["Gasta tus puntos en un camino del árbol de habilidades: Piromancia, Criomancia, Arcanismo u Oscuridad. Cada uno mejora la escuela correspondiente."]
+	quest.A470FFA3588A8492.quest_subtitle: "Especialízate"
+	quest.A470FFA3588A8492.title: "Elige tu escuela"
+	quest.A7AEFFF6B8BB4F49.quest_desc: ["Las brujas envenenan los pozos. Encuentra y elimina 5."]
+	quest.A7AEFFF6B8BB4F49.quest_subtitle: "Bronce"
+	quest.A7AEFFF6B8BB4F49.title: "Encargo: brujas"
+	quest.A8200153781D4878.quest_desc: ["Una jarra de fuente almacena fuente para alimentar aparatos y rituales. Se rellena con enlaces de fuente."]
+	quest.A8200153781D4878.quest_subtitle: "Almacenar energía"
+	quest.A8200153781D4878.title: "Jarra de fuente"
+	quest.A8B4C2A3F535BB7A.quest_desc: ["Las ruinas, minas abandonadas y templos guardan cofres y peligros. Usa tu brújula para encontrar una mina abandonada."]
+	quest.A8B4C2A3F535BB7A.quest_subtitle: "Estructuras"
+	quest.A8B4C2A3F535BB7A.title: "Primeras ruinas"
+	quest.AC60C20D64A0E28C.quest_desc: ["Coloca una estación, monta un vagón con controles y ponle nombre a tu tren. Un tren une tu base con tus fábricas y con el mundo."]
+	quest.AC60C20D64A0E28C.quest_subtitle: "Movimiento a gran escala"
+	quest.AC60C20D64A0E28C.title: "Estación de tren"
+	quest.AF5C488BE0D600A2.quest_desc: [
+		"Tienes una fábrica con recursos automáticos y una estación de tren. Entrega tus mecanismos de precisión para abrir la era tecnológica."
+		"Se abre el capítulo 5."
+	]
+	quest.AF5C488BE0D600A2.quest_subtitle: "Cierre del capítulo"
+	quest.AF5C488BE0D600A2.title: "Fábrica completa"
+	quest.AFDD4763FF6AD543.quest_desc: [
+		"La Ascensión es el camino después del nivel 100: cada misión de tu clase te da puntos de Ascensión, con bonos pequeños y permanentes."
+		"Esta misión se completa sola cuando terminas la campaña (stage &6era_10&r)."
+	]
+	quest.AFDD4763FF6AD543.quest_subtitle: "Se abre al terminar la campaña"
+	quest.AFDD4763FF6AD543.title: "La puerta de la Ascensión"
+	quest.B02D602055F17560.quest_desc: [
+		"La Ascensión es el camino después del nivel 100: cada misión de tu clase te da puntos de Ascensión, con bonos pequeños y permanentes."
+		"Esta misión se completa sola cuando terminas la campaña (stage &6era_10&r)."
+	]
+	quest.B02D602055F17560.quest_subtitle: "Se abre al terminar la campaña"
+	quest.B02D602055F17560.title: "La puerta de la Ascensión"
+	quest.B036B9CC8E184204.quest_desc: ["Las varas de blaze escasean. Elimina 10 blazes en una fortaleza del Nether."]
+	quest.B036B9CC8E184204.quest_subtitle: "Bronce"
+	quest.B036B9CC8E184204.title: "Encargo: blazes"
+	quest.B16E6C0F19F6AF4C.quest_desc: ["Con trituradora y cámara de purificación, cada mineral da varias veces más lingotes."]
+	quest.B16E6C0F19F6AF4C.quest_subtitle: "Multiplica tus minerales"
+	quest.B16E6C0F19F6AF4C.title: "Triple procesado"
+	quest.B193519A7BAE7605.quest_desc: ["La mesa de escriba te permite crear glifos con gemas de fuente. Empieza por los básicos: proyectil, impacto, curar."]
+	quest.B193519A7BAE7605.quest_subtitle: "Glifos"
+	quest.B193519A7BAE7605.title: "Mesa de escriba"
+	quest.B5D35989BB85CB9F.quest_desc: ["Con el libro de hechizos creas tus propios hechizos combinando glifos. Cambias de hechizo con las teclas configuradas."]
+	quest.B5D35989BB85CB9F.quest_subtitle: "Novato"
+	quest.B5D35989BB85CB9F.title: "Libro de hechizos de Ars"
+	quest.BA05A3891EDCFF07.quest_desc: ["Completa la torre del Lich."]
+	quest.BA05A3891EDCFF07.quest_subtitle: "Bosque Crepuscular"
+	quest.BA05A3891EDCFF07.title: "Contra la Naga y el Lich"
+	quest.BAA7712C85BA1956.quest_desc: ["Los trenes de Create usan sus propias vías. Con Steam 'n' Rails tienes más tipos de vía y decoración."]
+	quest.BAA7712C85BA1956.quest_subtitle: "Steam 'n' Rails"
+	quest.BAA7712C85BA1956.title: "Vías"
+	quest.BAB31AB884E68CBB.quest_desc: ["Forja una daga de netherita."]
+	quest.BAB31AB884E68CBB.quest_subtitle: "El filo silencioso"
+	quest.BAB31AB884E68CBB.title: "Daga de netherita"
+	quest.BB50558137D5DBEC.quest_desc: [
+		"El gremio publica encargos repetibles en el tablón del spawn. Cada encargo se paga en monedas."
+		"Los rangos (Novato, Bronce, Plata, Oro, Maestro) se ganan con la campaña y los encargos."
+	]
+	quest.BB50558137D5DBEC.quest_subtitle: "Encargos con recompensa"
+	quest.BB50558137D5DBEC.title: "Gremio de aventureros"
+	quest.BC8BAE8FA9501974.quest_desc: ["Un grimorio de oro o diamante guarda más hechizos. Cuando tengas el nodo &6Mago Tier II&r (Fundamentos VI) podrás usarlo."]
+	quest.BC8BAE8FA9501974.quest_subtitle: "Requiere Mago (Tier I o II)"
+	quest.BC8BAE8FA9501974.title: "Tu grimorio"
+	quest.BD6C2BB3B1FE24F8.quest_desc: ["El hierro aparece entre las alturas Y 0 y 60 aproximadamente. Baja a una cueva con antorchas y no caves justo hacia abajo."]
+	quest.BD6C2BB3B1FE24F8.quest_subtitle: "Minería y niveles Y"
+	quest.BD6C2BB3B1FE24F8.title: "Bajo tierra"
+	quest.BDA57587C5554562.quest_desc: ["Una red de ME necesita energía, un controlador, una unidad de disco y un terminal. Conecta todo con cables."]
+	quest.BDA57587C5554562.quest_subtitle: "Controlador y unidades"
+	quest.BDA57587C5554562.title: "Tu primera red"
+	quest.BFA3A715848855AC.quest_desc: ["Una rueda hidráulica junto al agua en movimiento genera fuerza sin combustible."]
+	quest.BFA3A715848855AC.quest_subtitle: "Fuerza gratis"
+	quest.BFA3A715848855AC.title: "Rueda hidráulica"
+	quest.C085131512FB6F3A.quest_desc: ["Un comerciante de objetos vende lo que pongas en su inventario al precio que fijes. Es la base de la economía del servidor."]
+	quest.C085131512FB6F3A.quest_subtitle: "Comercio entre jugadores"
+	quest.C085131512FB6F3A.title: "Tu primera tienda"
+	quest.C18860FCA577E7F3.quest_desc: ["Un taladro rompe bloques por ti mientras recibe fuerza. Ponlo frente a una veta y recoge los objetos."]
+	quest.C18860FCA577E7F3.quest_subtitle: "Minado automático"
+	quest.C18860FCA577E7F3.title: "Taladro mecánico"
+	quest.C2FFB20DB6F69E69.quest_desc: ["Pica minerales: cada uno da experiencia de oficio. Consigue diamantes y esmeraldas."]
+	quest.C2FFB20DB6F69E69.quest_subtitle: "Haz el trabajo"
+	quest.C2FFB20DB6F69E69.title: "Minero: práctica"
+	quest.C3AE9B374546359B.quest_desc: ["Los procesadores avanzados se apoyan en componentes de Create. Si no tienes mecanismos de precisión, vuelve al capítulo 4."]
+	quest.C3AE9B374546359B.quest_subtitle: "De Create"
+	quest.C3AE9B374546359B.title: "Recuerda: mecanismos de precisión"
+	quest.C57EB78696ACE273.quest_desc: [
+		"El encantador sube encantando objetos: más nivel de encantamiento, más experiencia."
+		"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Encantador. Cada nivel del oficio te da 1 punto para su árbol."
+	]
+	quest.C57EB78696ACE273.quest_subtitle: "Presentación"
+	quest.C57EB78696ACE273.title: "Oficio: Encantador"
+	quest.C87C963E8018A4EE.quest_desc: ["Tier I de Mago: bastones, grimorios básicos y lanzar hechizos."]
+	quest.C87C963E8018A4EE.quest_subtitle: "Hechizos y grimorios"
+	quest.C87C963E8018A4EE.title: "Camino del Mago"
+	quest.C97F4BC7B296B70E.quest_desc: [
+		"Has sobrevivido a tu primera noche, tienes herramientas, armadura y comida. Entrega lingotes de hierro y pan para completar el capítulo."
+		"Al terminar se abre el capítulo 2."
+	]
+	quest.C97F4BC7B296B70E.quest_subtitle: "Cierre del capítulo"
+	quest.C97F4BC7B296B70E.title: "De vuelta al spawn"
+	quest.CC63238389AE1C80.quest_desc: ["Fabrica armas y herramientas de hierro y funde lingotes."]
+	quest.CC63238389AE1C80.quest_subtitle: "Haz el trabajo"
+	quest.CC63238389AE1C80.title: "Herrero: práctica"
+	quest.CCDE3021BA18106A.quest_desc: ["Derrota 40 blazes."]
+	quest.CCDE3021BA18106A.quest_subtitle: "El Nether"
+	quest.CCDE3021BA18106A.title: "Fuego de blaze"
+	quest.CD39F7FD4EA6A331.quest_desc: [
+		"El leñador sube talando árboles."
+		"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Leñador. Cada nivel del oficio te da 1 punto para su árbol."
+	]
+	quest.CD39F7FD4EA6A331.quest_subtitle: "Presentación"
+	quest.CD39F7FD4EA6A331.title: "Oficio: Leñador"
+	quest.CDA9B35585558D64.quest_desc: ["Derrota 40 esqueletos del Wither."]
+	quest.CDA9B35585558D64.quest_subtitle: "Esqueletos"
+	quest.CDA9B35585558D64.title: "Verdugo del Nether"
+	quest.CF73AC1BF3EE7841.quest_desc: [
+		"Con Better Combat cada arma tiene su propio estilo de golpe. Prueba distintos ataques y esquiva con tiempo."
+		"Derrota a unas cuantas arañas y creepers: los creepers se combaten a distancia o con escudo."
+	]
+	quest.CF73AC1BF3EE7841.quest_subtitle: "Better Combat"
+	quest.CF73AC1BF3EE7841.title: "Combate avanzado"
+	quest.D06D4C9C5CF61779.quest_desc: ["Construye un portal de obsidiana y enciéndelo. El Nether es peligroso: lleva armadura, armas y bloques para taparte."]
+	quest.D06D4C9C5CF61779.quest_subtitle: "Otra dimensión"
+	quest.D06D4C9C5CF61779.title: "Portal al Nether"
+	quest.D4EFDB76A048C766.quest_desc: [
+		"Además de tu clase tienes siete oficios: Minero, Leñador, Granjero, Pescador, Herrero, Cocinero y Encantador."
+		"Cada oficio sube de nivel por sí solo mientras haces sus tareas (picar, talar, cosechar, pescar, fabricar, cocinar, encantar) y da puntos para su propio árbol."
+	]
+	quest.D4EFDB76A048C766.quest_subtitle: "Mejora haciendo tareas"
+	quest.D4EFDB76A048C766.title: "Oficios"
+	quest.D61BBAE4A603C442.quest_desc: [
+		"Con FTB Teams puedes crear un equipo y compartir misiones y protecciones."
+		"Con FTB Chunks puedes reclamar chunks para proteger tu base: abre el mapa de chunks desde el mapa (tecla &6M&r)."
+	]
+	quest.D61BBAE4A603C442.quest_subtitle: "FTB Teams y FTB Chunks"
+	quest.D61BBAE4A603C442.title: "Equipos y protección"
+	quest.D7DB47F7D5C43B18.quest_desc: [
+		"Mekanism tiene máquinas que multiplican tus minerales: un mineral procesado en una cámara de enriquecimiento da más lingotes."
+		"Empieza con circuitos de control básicos."
+	]
+	quest.D7DB47F7D5C43B18.quest_subtitle: "Procesamiento"
+	quest.D7DB47F7D5C43B18.title: "Mekanism: primeras máquinas"
+	quest.D7F01831E0B33A15.quest_desc: [
+		"Los bastones, grimorios, armas pesadas, arcos y armas ligeras de alto nivel solo los puede usar quien tenga esa clase."
+		"Compra el primer nodo de una clase (Tier I), llega a Fundamentos VI (Tier II) y a la cima de un camino (Tier III) para desbloquear equipo mejor."
+		"Lo básico (espadas y armaduras vanilla) lo puede usar cualquiera."
+	]
+	quest.D7F01831E0B33A15.quest_subtitle: "Tu clase decide qué puedes usar"
+	quest.D7F01831E0B33A15.title: "Equipo de clase"
+	quest.D8586CCB7C53F57D.quest_desc: ["Ya conoces las herramientas del pack. Ve al capítulo &6El comienzo&r y sobrevive tu primera noche."]
+	quest.D8586CCB7C53F57D.quest_subtitle: "Ya sabes lo básico"
+	quest.D8586CCB7C53F57D.title: "Empieza tu aventura"
+	quest.D8C24ED29B2FB89A.quest_desc: ["Derrota al Wither. Prepara pociones, armadura encantada y un plan."]
+	quest.D8C24ED29B2FB89A.quest_subtitle: "Prueba de valor"
+	quest.D8C24ED29B2FB89A.title: "Contra el Wither"
+	quest.D97D3AB089CBE0D9.quest_desc: [
+		"Con una mesa de encantamientos y lapislázuli puedes mejorar herramientas y armas. Rodéala de estanterías para opciones mejores."
+		"El oficio de Encantador sube cada vez que encantas algo."
+	]
+	quest.D97D3AB089CBE0D9.quest_subtitle: "Encantar"
+	quest.D97D3AB089CBE0D9.title: "Mesa de encantamientos"
+	quest.DDFBEB5533EF30EC.quest_desc: ["Llega a la cima de un camino de Arquero (Tier III)."]
+	quest.DDFBEB5533EF30EC.quest_subtitle: "Tier III"
+	quest.DDFBEB5533EF30EC.title: "Maestría final"
+	quest.DF10D342CB4BCEB2.quest_desc: [
+		"Para subir a Plata tienes que demostrar que puedes con los esqueletos del Nether."
+		"Cuando lo hagas, el gremio te reconoce como aventurero de &6Plata&r."
+	]
+	quest.DF10D342CB4BCEB2.quest_subtitle: "Prueba de valor"
+	quest.DF10D342CB4BCEB2.title: "Rango Plata"
+	quest.E1CC250482E30D57.quest_desc: ["Llega a la cima de un camino de Guerrero (Tier III)."]
+	quest.E1CC250482E30D57.quest_subtitle: "Tier III"
+	quest.E1CC250482E30D57.title: "Maestría final"
+	quest.E2DC0531E77E38C6.quest_desc: [
+		"Automatiza la producción de placas de hierro: taladro o mena → cinta → prensa → cofre. Sin intervención."
+		"Cuando la fábrica esté sola, recoge las placas."
+	]
+	quest.E2DC0531E77E38C6.quest_subtitle: "Automatiza un recurso"
+	quest.E2DC0531E77E38C6.title: "Fábrica de hierro"
+	quest.E36F8C4FF3D2A5BB.quest_desc: ["El infusor metalúrgico mezcla materiales; con él fabricas acero y aleaciones de infusión."]
+	quest.E36F8C4FF3D2A5BB.quest_subtitle: "Infusión"
+	quest.E36F8C4FF3D2A5BB.title: "Acero"
+	quest.E37C8C69FE86A06E.quest_desc: [
+		"Has despertado en un mundo distinto. Lo primero es reunir recursos."
+		"Consigue madera de cualquier árbol y crea palos: entrarás en el ciclo de recoger y fabricar."
+	]
+	quest.E37C8C69FE86A06E.quest_subtitle: "Tu primera misión"
+	quest.E37C8C69FE86A06E.title: "Despertar"
+	quest.E5662E199EC48100.quest_desc: [
+		"El dinero del mundo son monedas: cobre, hierro, oro, esmeralda, diamante y netherita. Cada una vale más que la anterior."
+		"Guarda las monedas en tu cartera y usa cajeros (ATM) para tu cuenta de banco."
+	]
+	quest.E5662E199EC48100.quest_subtitle: "Lightman's Currency"
+	quest.E5662E199EC48100.title: "Las monedas"
+	quest.E651CA313DA81E01.quest_desc: [
+		"Abre el árbol de habilidades (&6K&r) y mira las pestañas de oficios. Cada uno sube al hacer sus tareas: pica, tala, cultiva, pesca, forja, cocina o encanta."
+		"Cuando llegues al nivel 5 de cualquier oficio, marca esta misión."
+	]
+	quest.E651CA313DA81E01.quest_subtitle: "Elige en qué especializarte"
+	quest.E651CA313DA81E01.title: "Un oficio"
+	quest.E71D50A4E90F37D0.quest_desc: ["Los endermen se llevan bloques del pueblo. Derrota 8 (no los mires a los ojos)."]
+	quest.E71D50A4E90F37D0.quest_subtitle: "Bronce"
+	quest.E71D50A4E90F37D0.title: "Encargo: endermen"
+	quest.E8695456601ED108.quest_desc: ["Eres un aventurero del gremio. Los encargos de rango Novato son sencillos: mobs comunes cerca del spawn."]
+	quest.E8695456601ED108.quest_subtitle: "Punto de partida"
+	quest.E8695456601ED108.title: "Rango Novato"
+	quest.E90B3B0F267CADC9.quest_desc: [
+		"El Arquero gana precisión y velocidad con cada punto."
+		"Al recoger el premio se desbloquea la pestaña de Ascensión de esta clase en el árbol de habilidades (&6K&r)."
+	]
+	quest.E90B3B0F267CADC9.quest_subtitle: "Desbloquea la pestaña"
+	quest.E90B3B0F267CADC9.title: "Elige la Ascensión de Arquero"
+	quest.EA46316309EFB5CE.quest_desc: [
+		"Las cintas mueven objetos. Los embudos los meten y sacan de los contenedores. Con estas dos piezas empieza cualquier fábrica."
+		"&6Pista del futuro:&r Mekanism y otros mods te pedirán componentes de Create más adelante, así que guarda planchas y mecanismos."
+	]
+	quest.EA46316309EFB5CE.quest_subtitle: "Logística"
+	quest.EA46316309EFB5CE.title: "Cintas y embudos"
+	quest.EF3FC198CEE5CC5D.quest_desc: ["Llega hasta la cima de uno de los dos caminos de Granjero. Es el hito de maestría del oficio."]
+	quest.EF3FC198CEE5CC5D.quest_subtitle: "Maestría"
+	quest.EF3FC198CEE5CC5D.title: "Granjero II"
+	quest.EF714C6E42ED78D2.quest_desc: ["Tras la Naga aguarda el Lich en su torre. Es un jefe de magia: prepara resistencia mágica y armas de distancia."]
+	quest.EF714C6E42ED78D2.quest_subtitle: "Segundo jefe"
+	quest.EF714C6E42ED78D2.title: "La torre del Lich"
+	quest.EFB49371B3732D55.quest_desc: ["Derrota al Wither con magia."]
+	quest.EFB49371B3732D55.quest_subtitle: "Prueba mágica"
+	quest.EFB49371B3732D55.title: "Contra el Wither"
+	quest.F07C6F6EA7B5C3AC.quest_desc: ["El Patio de la Naga guarda a la primera jefa del bosque. Derrótala para conseguir sus escamas y avanzar."]
+	quest.F07C6F6EA7B5C3AC.quest_subtitle: "Primer jefe"
+	quest.F07C6F6EA7B5C3AC.title: "La Naga"
+	quest.F259D202A3B8C5E8.quest_desc: [
+		"El Ingeniero optimiza cada tarea: más minería, suerte y experiencia."
+		"Al recoger el premio se desbloquea la pestaña de Ascensión de esta clase en el árbol de habilidades (&6K&r)."
+	]
+	quest.F259D202A3B8C5E8.quest_subtitle: "Desbloquea la pestaña"
+	quest.F259D202A3B8C5E8.title: "Elige la Ascensión de Ingeniero"
+	quest.F3F25F81C77B0851.quest_desc: [
+		"El Mago crece en poder mágico y maná con cada punto."
+		"Al recoger el premio se desbloquea la pestaña de Ascensión de esta clase en el árbol de habilidades (&6K&r)."
+	]
+	quest.F3F25F81C77B0851.quest_subtitle: "Desbloquea la pestaña"
+	quest.F3F25F81C77B0851.title: "Elige la Ascensión de Mago"
+	quest.F4B3AE87BC788D84.quest_desc: [
+		"Tienes energía estable, procesamiento de minerales y una red de almacenamiento con autocrafteo. Entrega un núcleo de teletransporte para completar la era tecnológica."
+		"Se abre el capítulo 6: la magia."
+	]
+	quest.F4B3AE87BC788D84.quest_subtitle: "Cierre del capítulo"
+	quest.F4B3AE87BC788D84.title: "Energía estable, red estable"
+	quest.F53E3D15082E6D9B.quest_desc: ["Tier I de Guerrero: mandobles, hachas de batalla y mazas."]
+	quest.F53E3D15082E6D9B.quest_subtitle: "Armas pesadas y armadura"
+	quest.F53E3D15082E6D9B.title: "Camino del Guerrero"
+	quest.F59D21FE67962C8F.quest_desc: [
+		"Arrojando un diamante a un estanque rodeado de flores se abre un portal al Bosque Crepuscular."
+		"Es una dimensión llena de estructuras, jefes y materiales propios. Prepara buena armadura y comida."
+	]
+	quest.F59D21FE67962C8F.quest_subtitle: "Una dimensión nueva"
+	quest.F59D21FE67962C8F.title: "El Bosque Crepuscular"
+	quest.F6740455BA418460.quest_desc: ["Los ejes y engranajes transmiten la fuerza rotatoria."]
+	quest.F6740455BA418460.quest_subtitle: "Transmisión"
+	quest.F6740455BA418460.title: "Ejes y engranajes"
+	quest.F6C4E233CB747E07.quest_desc: [
+		"Applied Energistics 2 guarda objetos en una red y los automatiza. Empieza con cuarzo certus: minado en meteoritas y cuevas."
+		"Un cargador convierte cuarzo certus en cuarzo cargado."
+	]
+	quest.F6C4E233CB747E07.quest_subtitle: "Sistema de almacenamiento"
+	quest.F6C4E233CB747E07.title: "AE2: cuarzo"
+	quest.F93319BF3F30FEC1.quest_desc: [
+		"Sabes minar, explorar, encantar y sobrevivir. Ya estás listo para las mazmorras."
+		"Al terminar se abre el capítulo 3."
+	]
+	quest.F93319BF3F30FEC1.quest_subtitle: "Cierre del capítulo"
+	quest.F93319BF3F30FEC1.title: "Manual del aventurero"
+	quest.F976B17565C51B4C.quest_desc: [
+		"El pescador sube pescando."
+		"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Pescador. Cada nivel del oficio te da 1 punto para su árbol."
+	]
+	quest.F976B17565C51B4C.quest_subtitle: "Presentación"
+	quest.F976B17565C51B4C.title: "Oficio: Pescador"
+	quest.F99D2CB2D4EDFB7A.quest_desc: [
+		"Powah añade generadores sencillos: el furnator quema combustible y el magmator usa lava."
+		"Guarda la energía en una celda."
+	]
+	quest.F99D2CB2D4EDFB7A.quest_subtitle: "Powah"
+	quest.F99D2CB2D4EDFB7A.title: "Energía intermedia"
+	quest.F9E2BC60282EC470.quest_desc: [
+		"Una rueda hidráulica colocada junto al agua en movimiento, o un molino de viento, produce fuerza sin combustible."
+		"Comprueba el estrés con los goggles."
+	]
+	quest.F9E2BC60282EC470.quest_subtitle: "Fuerza rotacional"
+	quest.F9E2BC60282EC470.title: "Movimiento"
+	quest.FB3C727C6ACE4E37.quest_desc: ["Derrota al Wither."]
+	quest.FB3C727C6ACE4E37.quest_subtitle: "Prueba final"
+	quest.FB3C727C6ACE4E37.title: "Contra el Wither"
+	quest.FBDABBE645564FCF.quest_desc: ["En la mesa de inscripción puedes inscribir hechizos en un grimorio. Los pergaminos se usan una vez; los hechizos inscritos, siempre."]
+	quest.FBDABBE645564FCF.quest_subtitle: "Grimorios y pergaminos"
+	quest.FBDABBE645564FCF.title: "Mesa de inscripción"
+	quest.FC83CEEB4EC50B37.quest_desc: ["Abre el árbol de habilidades (&6K&r) y gasta tu primer punto en el primer nodo de una clase. Las misiones siguientes se completan solas según la clase que elijas."]
+	quest.FC83CEEB4EC50B37.quest_subtitle: "Clase"
+	quest.FC83CEEB4EC50B37.title: "Elige tu camino"
+	quest.FCE9D77E5744EA27.quest_desc: ["Los conectores unen máquinas con cable. Cuidado con la distancia y con la pérdida por hilo fino."]
+	quest.FCE9D77E5744EA27.quest_subtitle: "Transporte de energía"
+	quest.FCE9D77E5744EA27.title: "Cables y conectores"
+	quest.FE1C55A4EEDEA50A.quest_desc: ["La esencia arcana se obtiene de enemigos mágicos y estructuras. Es la base de casi todo en Iron's Spells."]
+	quest.FE1C55A4EEDEA50A.quest_subtitle: "El material de la magia"
+	quest.FE1C55A4EEDEA50A.title: "Esencia arcana"
+	quest.FE538FA4FBF014EF.quest_desc: ["Los bastiones tienen piglins y mucho oro. Ponte una pieza de oro para que no se enfaden."]
+	quest.FE538FA4FBF014EF.quest_subtitle: "Piglins"
+	quest.FE538FA4FBF014EF.title: "Bastión"
+	quest.FF6561684F886B64.quest_desc: ["Cocina carne y pescado, y prepara comida variada."]
+	quest.FF6561684F886B64.quest_subtitle: "Haz el trabajo"
+	quest.FF6561684F886B64.title: "Cocinero: práctica"
+	quest.FFCF9B720D72B757.quest_desc: ["Las waystones te permiten teletransportarte entre las que hayas activado. Colocar una junto a tu base te evitará muchos viajes."]
+	quest.FFCF9B720D72B757.quest_subtitle: "Waystones"
+	quest.FFCF9B720D72B757.title: "Piedras de viaje"
+}

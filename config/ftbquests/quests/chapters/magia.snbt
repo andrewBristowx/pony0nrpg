@@ -1,0 +1,636 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magia"
+	group: "FA1951BF2D35F839"
+	icon: {
+		id: "irons_spellbooks:iron_spell_book"
+	}
+	id: "A4FA102768BB3DEA"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "89D4E872F25DCFAF"
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["F4B3AE87BC788D84"]
+			tasks: [
+				{
+					id: "048F106190BE74EC"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "107B90B6E34BF9E5"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 1000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "B476CE8C24765DEC"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_diamond"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "FE1C55A4EEDEA50A"
+			x: 2d
+			y: 0.5d
+			dependencies: ["89D4E872F25DCFAF"]
+			tasks: [
+				{
+					id: "0AF641C4D3E45898"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "FFBD06A1717C507D"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 1100"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "6B0CA3AB3EF643C4"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:common_ink"
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			id: "FBDABBE645564FCF"
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["FE1C55A4EEDEA50A"]
+			tasks: [
+				{
+					id: "BA2C036B9D3D5ADC"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:inscription_table"
+					}
+				}
+				{
+					id: "564C2FD17FD36954"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:common_ink"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "D6FA18087F1C1154"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 1200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "4B092636C9B7584C"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:uncommon_ink"
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			id: "8231E0ACEAC208A9"
+			x: 5d
+			y: 0.5d
+			dependencies: ["FBDABBE645564FCF"]
+			tasks: [
+				{
+					id: "E1BFA4F8B59EE638"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:blank_rune"
+					}
+					count: 4L
+				}
+				{
+					id: "CC03A7F0F8092A65"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_ingot"
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "15E1994574EE1573"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 1200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "9E7E57CA6D1C8186"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:fire_rune"
+					}
+				}
+				{
+					id: "E677673F7BA134EF"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:ice_rune"
+					}
+				}
+			]
+		}
+		{
+			id: "9C13CD93FC9EC170"
+			x: 6.5d
+			y: 0.5d
+			dependencies: ["8231E0ACEAC208A9"]
+			tasks: [
+				{
+					id: "200B37EF2DFE1A7B"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_anvil"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "F236A222124EC7D1"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 1300"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "BC8BAE8FA9501974"
+			x: 5d
+			y: 2d
+			dependencies: ["FBDABBE645564FCF"]
+			tasks: [
+				{
+					id: "8118C5229E3B92C4"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:gold_spell_book"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2A17BF79CB94525D"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 1300"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "ABE13C58C482F651"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:mana_ring"
+					}
+				}
+			]
+		}
+		{
+			id: "30BFB860CD1E7E3B"
+			x: 6.5d
+			y: 2d
+			optional: true
+			dependencies: ["BC8BAE8FA9501974"]
+			tasks: [
+				{
+					id: "1AED00C59518B4ED"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:pyromancer_chestplate"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "E047AC77A4706F0A"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 1200"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "A470FFA3588A8492"
+			x: 6.5d
+			y: 3.5d
+			dependencies: ["BC8BAE8FA9501974", "8231E0ACEAC208A9"]
+			tasks: [
+				{
+					id: "A68595191BDD2F9C"
+					type: "stage"
+					stage: "maestria_mago_2"
+				}
+			]
+			rewards: [
+				{
+					id: "293E8B5CB3976A17"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 1500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "5311B003EDE93BA8"
+			x: 2d
+			y: 2d
+			dependencies: ["89D4E872F25DCFAF"]
+			tasks: [
+				{
+					id: "8B7C47D58E2A9474"
+					type: "item"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					count: 8L
+				}
+				{
+					id: "55ECC8780717232E"
+					type: "item"
+					item: {
+						count: 1
+						id: "ars_nouveau:magebloom"
+					}
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "FE3C1DB7E72E0809"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 1100"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "EEAA8716B65E5590"
+					type: "item"
+					item: {
+						count: 1
+						id: "ars_nouveau:magebloom_fiber"
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			id: "B5D35989BB85CB9F"
+			x: 3.5d
+			y: 2d
+			dependencies: ["5311B003EDE93BA8"]
+			tasks: [
+				{
+					id: "AB4FC1D18F4DAD97"
+					type: "item"
+					item: {
+						count: 1
+						id: "ars_nouveau:novice_spell_book"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "27D5200D5B877BC1"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 1200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "41C062F414C8E0FF"
+					type: "item"
+					item: {
+						count: 1
+						id: "ars_nouveau:wand"
+					}
+				}
+			]
+		}
+		{
+			id: "B193519A7BAE7605"
+			x: 5d
+			y: 3.5d
+			dependencies: ["B5D35989BB85CB9F"]
+			tasks: [
+				{
+					id: "C16A9FF46B9DAF89"
+					type: "item"
+					item: {
+						count: 1
+						id: "ars_nouveau:scribes_table"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6D70462F91DF2702"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 1300"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "A8200153781D4878"
+			x: 6.5d
+			y: 5d
+			dependencies: ["B193519A7BAE7605"]
+			tasks: [
+				{
+					id: "A26604F9810F3981"
+					type: "item"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_jar"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "8D20703150B26632"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 1300"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "4286BB6CC3A24313"
+			x: 8d
+			y: 0.5d
+			dependencies: ["A8200153781D4878"]
+			tasks: [
+				{
+					id: "DCB53119A7FE9A93"
+					type: "item"
+					item: {
+						count: 1
+						id: "ars_nouveau:enchanting_apparatus"
+					}
+				}
+				{
+					id: "A1E52FE6800CBC61"
+					type: "item"
+					item: {
+						count: 1
+						id: "ars_nouveau:arcane_pedestal"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "4EEC176A53882A38"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 1500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "B976E6CEF90624E0"
+					type: "item"
+					item: {
+						count: 1
+						id: "ars_nouveau:arcane_core"
+					}
+				}
+			]
+		}
+		{
+			id: "8401A8164AC34D43"
+			x: 9.5d
+			y: 0.5d
+			dependencies: ["4286BB6CC3A24313"]
+			tasks: [
+				{
+					id: "0FA0D5397FC02247"
+					type: "item"
+					item: {
+						count: 1
+						id: "ars_nouveau:ritual_brazier"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "535BA5717FEA33E7"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 1500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "3C208F022E6023BF"
+			x: 11d
+			y: 0.5d
+			optional: true
+			dependencies: ["8401A8164AC34D43"]
+			tasks: [
+				{
+					id: "C740565A7D36D137"
+					type: "item"
+					item: {
+						count: 1
+						id: "ars_nouveau:starbuncle_charm"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3CAA6ACA54E8F6C1"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 1200"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "F59D21FE67962C8F"
+			x: 11d
+			y: 2d
+			dependencies: ["A470FFA3588A8492", "8401A8164AC34D43"]
+			tasks: [
+				{
+					id: "FE1FDDC30AC0AF4E"
+					type: "advancement"
+					advancement: "twilightforest:root"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "8A20B653712DE371"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 1800"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "633A42B37BD4F2E9"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_diamond"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "F07C6F6EA7B5C3AC"
+			x: 12.5d
+			y: 0.5d
+			dependencies: ["F59D21FE67962C8F"]
+			tasks: [
+				{
+					id: "25FEAD0835E1C43B"
+					type: "advancement"
+					advancement: "twilightforest:progress_naga"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "8F8B8D3E5A3CB705"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 2500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "435B73DB83C41856"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_diamond"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "EF714C6E42ED78D2"
+			x: 14d
+			y: 0.5d
+			dependencies: ["F07C6F6EA7B5C3AC"]
+			tasks: [
+				{
+					id: "6A8352FBE7DFBEEF"
+					type: "advancement"
+					advancement: "twilightforest:progress_lich"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "3969A8B02E4DDCB8"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 3000"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "31B963E207479B58"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+				}
+			]
+		}
+		{
+			id: "0B1AA7B46CDAA7CD"
+			x: 14d
+			y: 2d
+			dependencies: ["F07C6F6EA7B5C3AC", "A470FFA3588A8492", "8401A8164AC34D43"]
+			tasks: [
+				{
+					id: "3DEA21680DCE23BD"
+					type: "item"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					count: 16L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "5D8D9D5C43C03F3D"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 3500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "9DEF66A985B07343"
+					type: "command"
+					command: "/kubejs stages add {p} era_7"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "CFA1F4C6C40FFEF5"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_netherite"
+					}
+				}
+			]
+		}
+	]
+}

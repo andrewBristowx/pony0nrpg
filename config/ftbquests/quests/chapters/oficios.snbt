@@ -1,0 +1,1060 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oficios"
+	group: "5677092D8B6DEB7B"
+	icon: {
+		id: "minecraft:anvil"
+	}
+	id: "B01E0EAF688A58EC"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5339C4147395574B"
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["D4EFDB76A048C766"]
+			tasks: [
+				{
+					id: "C71A5A84745AF34D"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "8D37AA4AAE22030D"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_minero 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "69F3398CD27F27E9"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "C2FFB20DB6F69E69"
+			x: 2d
+			y: 0.5d
+			dependencies: ["5339C4147395574B"]
+			tasks: [
+				{
+					id: "71C8F10C0279A54A"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					count: 3L
+				}
+				{
+					id: "B40468CBDFCCA7CA"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "5105E3020A96CD54"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_minero 150"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "A7544B5858E8442D"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "ED4E6047AF5B4410"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:iron_pickaxe"
+					}
+				}
+			]
+		}
+		{
+			id: "7EB8BA411AEFD923"
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["C2FFB20DB6F69E69"]
+			tasks: [
+				{
+					id: "FEB1DA58CB332ADE"
+					type: "stage"
+					stage: "oficio_minero_1"
+				}
+			]
+			rewards: [
+				{
+					id: "A6FAF1FBC6D15209"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_minero 100"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "0EA1F08BD8511479"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "1E44A6219FA3D61F"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "7F79323E65F0252D"
+			x: 5d
+			y: 0.5d
+			dependencies: ["7EB8BA411AEFD923"]
+			tasks: [
+				{
+					id: "164315A6412CAF4F"
+					type: "stage"
+					stage: "oficio_minero_2"
+				}
+			]
+			rewards: [
+				{
+					id: "B13E7A99752AF4EE"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "43534CB4DB8C16CD"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			id: "CD39F7FD4EA6A331"
+			x: 0.5d
+			y: 2d
+			dependencies: ["D4EFDB76A048C766"]
+			tasks: [
+				{
+					id: "6770E7BD84951CEB"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "8AEF06810FEE8155"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_lenador 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "0243D0E6E2241835"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "4B48A7ABAD5D3004"
+			x: 2d
+			y: 2d
+			dependencies: ["CD39F7FD4EA6A331"]
+			tasks: [
+				{
+					id: "F3BF262998E46C24"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					count: 32L
+				}
+				{
+					id: "90AF39618FF739C4"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:spruce_log"
+					}
+					count: 32L
+				}
+			]
+			rewards: [
+				{
+					id: "7CB67EDCD833C909"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_lenador 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "519021175ED7A397"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "3B45E3BDCDDBDC3F"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:iron_axe"
+					}
+				}
+			]
+		}
+		{
+			id: "0B92822CA033C654"
+			x: 3.5d
+			y: 2d
+			dependencies: ["4B48A7ABAD5D3004"]
+			tasks: [
+				{
+					id: "3CFAC904D7B1E9A6"
+					type: "stage"
+					stage: "oficio_lenador_1"
+				}
+			]
+			rewards: [
+				{
+					id: "F2BFEE6EDC175A83"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_lenador 100"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "2FA7860FFF8CD5FC"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "66E5FFC7C31217E8"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "3CD75AE420A3D168"
+			x: 5d
+			y: 2d
+			dependencies: ["0B92822CA033C654"]
+			tasks: [
+				{
+					id: "DEBD223AEE2E7F44"
+					type: "stage"
+					stage: "oficio_lenador_2"
+				}
+			]
+			rewards: [
+				{
+					id: "3A9794FBC9B2A933"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "E02826374814D49F"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			id: "7A0777EF5D49B88A"
+			x: 0.5d
+			y: 3.5d
+			dependencies: ["D4EFDB76A048C766"]
+			tasks: [
+				{
+					id: "1F96DECD00A7924A"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "F7D9B55AA5DD922D"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_granjero 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "37AC2DA61960C034"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "136FDA2F6D4631AD"
+			x: 2d
+			y: 3.5d
+			dependencies: ["7A0777EF5D49B88A"]
+			tasks: [
+				{
+					id: "0BEE18D9CC176DFA"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:wheat"
+					}
+					count: 32L
+				}
+				{
+					id: "C54E92A7B7318F5C"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:carrot"
+					}
+					count: 16L
+				}
+				{
+					id: "F0293686D65C86DF"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:potato"
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "8F649F5447D33527"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_granjero 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "263D1A8B39C6DA6D"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "14999E708BDBEA9E"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:iron_hoe"
+					}
+				}
+			]
+		}
+		{
+			id: "9046A50E44B352DF"
+			x: 3.5d
+			y: 3.5d
+			dependencies: ["136FDA2F6D4631AD"]
+			tasks: [
+				{
+					id: "FBC9BBEF9108B3F1"
+					type: "stage"
+					stage: "oficio_granjero_1"
+				}
+			]
+			rewards: [
+				{
+					id: "8B66FB21A12BEAA4"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_granjero 100"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "5581D402F34E2D42"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "1780D9A662FB7E73"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "EF3FC198CEE5CC5D"
+			x: 5d
+			y: 3.5d
+			dependencies: ["9046A50E44B352DF"]
+			tasks: [
+				{
+					id: "B45AF59BD10BB15D"
+					type: "stage"
+					stage: "oficio_granjero_2"
+				}
+			]
+			rewards: [
+				{
+					id: "99C70774B5390F80"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "B31380451333BF85"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			id: "F976B17565C51B4C"
+			x: 0.5d
+			y: 5d
+			dependencies: ["D4EFDB76A048C766"]
+			tasks: [
+				{
+					id: "683EF383865C17AF"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "9F2EFB35053EA8EF"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_pescador 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "7C6909ED498542D6"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "08ABD6C69F3F736F"
+			x: 2d
+			y: 5d
+			dependencies: ["F976B17565C51B4C"]
+			tasks: [
+				{
+					id: "277A27ED8C059BAB"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:cod"
+					}
+					count: 8L
+				}
+				{
+					id: "A16EDACA3279CF8F"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:salmon"
+					}
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "A38675DBE2412C8A"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_pescador 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "11584A5175E3CC47"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "273274C69EF489C5"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:fishing_rod"
+					}
+				}
+			]
+		}
+		{
+			id: "43A2FE4E40BB587A"
+			x: 3.5d
+			y: 5d
+			dependencies: ["08ABD6C69F3F736F"]
+			tasks: [
+				{
+					id: "E02CED330DC4BF1D"
+					type: "stage"
+					stage: "oficio_pescador_1"
+				}
+			]
+			rewards: [
+				{
+					id: "9BD430F05121FBF6"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_pescador 100"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "91F5EF4AC6E71CDC"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "A863C58674CD145B"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "7D2C327DBE2FF7C4"
+			x: 5d
+			y: 5d
+			dependencies: ["43A2FE4E40BB587A"]
+			tasks: [
+				{
+					id: "26E357BB00105144"
+					type: "stage"
+					stage: "oficio_pescador_2"
+				}
+			]
+			rewards: [
+				{
+					id: "DAEF8E1D41F08F62"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "A67CCDC2D450071A"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			id: "6E531DE17D4DC58E"
+			x: 0.5d
+			y: 6.5d
+			dependencies: ["D4EFDB76A048C766"]
+			tasks: [
+				{
+					id: "89DD84CBB901BBC3"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "5BB171BBBABF3C3F"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_herrero 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "3B653B80F5384FC6"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "CC63238389AE1C80"
+			x: 2d
+			y: 6.5d
+			dependencies: ["6E531DE17D4DC58E"]
+			tasks: [
+				{
+					id: "0B95D96ABC8EA7DA"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:iron_sword"
+					}
+				}
+				{
+					id: "20EA8A48007DA117"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:iron_pickaxe"
+					}
+				}
+				{
+					id: "7C9ED38375DBDF6B"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					count: 32L
+				}
+			]
+			rewards: [
+				{
+					id: "936B33E3375FBDB3"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_herrero 150"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "929ACB5665D93620"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "5BA35392AE4A6213"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:anvil"
+					}
+				}
+			]
+		}
+		{
+			id: "96F0710C262B298C"
+			x: 3.5d
+			y: 6.5d
+			dependencies: ["CC63238389AE1C80"]
+			tasks: [
+				{
+					id: "8020F02196223AAF"
+					type: "stage"
+					stage: "oficio_herrero_1"
+				}
+			]
+			rewards: [
+				{
+					id: "2A4FF9C8B2C83E9C"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_herrero 100"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "6F805285869D1896"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "5011C3A53326E67A"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "5C174FD9F3A49448"
+			x: 5d
+			y: 6.5d
+			dependencies: ["96F0710C262B298C"]
+			tasks: [
+				{
+					id: "6CB2C673AA197794"
+					type: "stage"
+					stage: "oficio_herrero_2"
+				}
+			]
+			rewards: [
+				{
+					id: "0D7DBC8E7C3A3F31"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "B0A05FF0ABB606B2"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			id: "753F8FC0BE2F83E4"
+			x: 0.5d
+			y: 8d
+			dependencies: ["D4EFDB76A048C766"]
+			tasks: [
+				{
+					id: "1C9F1AE9566375AD"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "8CB26B5C9BBD6BAA"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_cocinero 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "95E7BAEEE75ABCFE"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "FF6561684F886B64"
+			x: 2d
+			y: 8d
+			dependencies: ["753F8FC0BE2F83E4"]
+			tasks: [
+				{
+					id: "E68688AC69FBEF75"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					count: 16L
+				}
+				{
+					id: "E661719EA57C11F6"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:cooked_porkchop"
+					}
+					count: 16L
+				}
+				{
+					id: "A60BA9DE7614D0F9"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:baked_potato"
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "54D3EEBDA602E000"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_cocinero 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "5914BFC5C3125B13"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "DF8D81BA5714EF38"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:smoker"
+					}
+				}
+			]
+		}
+		{
+			id: "1A893B25B04FC13D"
+			x: 3.5d
+			y: 8d
+			dependencies: ["FF6561684F886B64"]
+			tasks: [
+				{
+					id: "BE535588EDFA9CF7"
+					type: "stage"
+					stage: "oficio_cocinero_1"
+				}
+			]
+			rewards: [
+				{
+					id: "B2CFA87F0B38CC6A"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_cocinero 100"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "E9767DEC3CBE46A9"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "6E05FA1926E454A7"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "6E9B3A427BA4CDA0"
+			x: 5d
+			y: 8d
+			dependencies: ["1A893B25B04FC13D"]
+			tasks: [
+				{
+					id: "9E7F7D89D9B0A9D9"
+					type: "stage"
+					stage: "oficio_cocinero_2"
+				}
+			]
+			rewards: [
+				{
+					id: "5B971408592B8950"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "F99197915EE7B168"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			id: "C57EB78696ACE273"
+			x: 0.5d
+			y: 9.5d
+			dependencies: ["D4EFDB76A048C766"]
+			tasks: [
+				{
+					id: "29864F64B8304780"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "947D450E7CB9DE13"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_encantador 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "858DB57A27D64372"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "5C743ED0FE5620E5"
+			x: 2d
+			y: 9.5d
+			dependencies: ["C57EB78696ACE273"]
+			tasks: [
+				{
+					id: "75A3699AE2F6F7BB"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "E57AC48AAF3E33C6"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_encantador 150"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "C55C37A908486660"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "C0AE69EDB7DCA7B4"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					count: 32
+				}
+			]
+		}
+		{
+			id: "8AC405322A68F794"
+			x: 3.5d
+			y: 9.5d
+			dependencies: ["5C743ED0FE5620E5"]
+			tasks: [
+				{
+					id: "C9F85A42FAD730CF"
+					type: "stage"
+					stage: "oficio_encantador_1"
+				}
+			]
+			rewards: [
+				{
+					id: "15238EA9158314D2"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_encantador 100"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "43008A773A50DD88"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "F6FB84C4D55B9EB6"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "081D1FF65EC02FC8"
+			x: 5d
+			y: 9.5d
+			dependencies: ["8AC405322A68F794"]
+			tasks: [
+				{
+					id: "A4832711AE997FF7"
+					type: "stage"
+					stage: "oficio_encantador_2"
+				}
+			]
+			rewards: [
+				{
+					id: "08E76CF8B0409607"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "61AF3A191F5CB2AC"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					count: 3
+				}
+			]
+		}
+	]
+}

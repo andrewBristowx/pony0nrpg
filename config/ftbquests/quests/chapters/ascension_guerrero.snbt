@@ -1,0 +1,306 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ascension_guerrero"
+	group: "FD609B87CC2A62AE"
+	icon: {
+		id: "minecraft:netherite_sword"
+	}
+	id: "4F85A16CD2F734C8"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			id: "892DEB68945D84C1"
+			x: 0.5d
+			y: 0.5d
+			tasks: [
+				{
+					id: "8C419B8A61DC5CBF"
+					type: "stage"
+					stage: "era_10"
+				}
+			]
+			rewards: [
+				{
+					id: "777F9D6201890D1A"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 100"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "0146B7675CB1ADB3"
+			x: 2d
+			y: 0.5d
+			dependencies: ["892DEB68945D84C1"]
+			tasks: [
+				{
+					id: "4BFF5A0DAE82E632"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "678908A6F0BF1497"
+					type: "command"
+					command: "/puffish_skills category unlock {p} ascension_guerrero"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "A32CC2F54F5AA038"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_guerrero 1"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "945E836B0ADE39A7"
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["0146B7675CB1ADB3"]
+			tasks: [
+				{
+					id: "12A13F5CEC6A4FF4"
+					type: "kill"
+					entity: "minecraft:zombie"
+					value: 200L
+				}
+			]
+			rewards: [
+				{
+					id: "2579634259C5593F"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_guerrero 1"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "0C7668C797444499"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "69B30B980486EE8F"
+			x: 5d
+			y: 0.5d
+			dependencies: ["945E836B0ADE39A7"]
+			tasks: [
+				{
+					id: "3E6FCC1098076894"
+					type: "stat"
+					stat: "minecraft:damage_blocked_by_shield"
+					value: 5000
+				}
+			]
+			rewards: [
+				{
+					id: "DD320A5D7573D40A"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_guerrero 1"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "F84616886CDA443F"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "802CFCCA2B4DCD8F"
+			x: 6.5d
+			y: 0.5d
+			dependencies: ["69B30B980486EE8F"]
+			tasks: [
+				{
+					id: "D651136620224244"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:netherite_chestplate"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "DD101D55534554DC"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_guerrero 1"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "CE5654AB6FB6B510"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "24EAA068F8A60EE9"
+			x: 8d
+			y: 0.5d
+			dependencies: ["802CFCCA2B4DCD8F"]
+			tasks: [
+				{
+					id: "C809E64585C69601"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:netherite_claymore"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "B6AEBC00DA8272CB"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_guerrero 1"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "1A8909C2B90A755A"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "D8C24ED29B2FB89A"
+			x: 9.5d
+			y: 0.5d
+			dependencies: ["24EAA068F8A60EE9"]
+			tasks: [
+				{
+					id: "259D7010F58B2444"
+					type: "kill"
+					entity: "minecraft:wither"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "877977DB96FC6B3E"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_guerrero 2"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "FD365100A376B869"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "4D33E6006674E5B8"
+			x: 11d
+			y: 0.5d
+			dependencies: ["D8C24ED29B2FB89A"]
+			tasks: [
+				{
+					id: "16A7B39FB13CEC21"
+					type: "stat"
+					stat: "minecraft:damage_taken"
+					value: 10000
+				}
+			]
+			rewards: [
+				{
+					id: "07E707D6D68FBA5E"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_guerrero 1"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "7E6A98A8E57C1678"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "6A34C1CD6FD08430"
+			x: 12.5d
+			y: 0.5d
+			dependencies: ["4D33E6006674E5B8"]
+			tasks: [
+				{
+					id: "58DD5838394E15C4"
+					type: "kill"
+					entity: "minecraft:ravager"
+					value: 10L
+				}
+			]
+			rewards: [
+				{
+					id: "B4F92D66717E998E"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_guerrero 1"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "C723A082754C07B5"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "E1CC250482E30D57"
+			x: 14d
+			y: 0.5d
+			dependencies: ["6A34C1CD6FD08430"]
+			tasks: [
+				{
+					id: "E67F195DF9F1E1B6"
+					type: "stage"
+					stage: "maestria_guerrero_3"
+				}
+			]
+			rewards: [
+				{
+					id: "8616E0D64E69B4B9"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_guerrero 2"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "84C14406A7DFAF71"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+	]
+}

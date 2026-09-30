@@ -1,0 +1,523 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aventurero"
+	group: "FA1951BF2D35F839"
+	icon: {
+		id: "minecraft:iron_sword"
+	}
+	id: "27FFD10CD39B1657"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "089D27A3C570503E"
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["F93319BF3F30FEC1"]
+			tasks: [
+				{
+					id: "6E04A7DEAC543CF7"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "7A336532E1B8583E"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 300"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "5663806442B2730E"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_iron"
+					}
+					count: 20
+				}
+			]
+		}
+		{
+			id: "2C5539401072FC86"
+			x: 2d
+			y: 0.5d
+			optional: true
+			dependencies: ["089D27A3C570503E"]
+			tasks: [
+				{
+					id: "35D4AED639C14B12"
+					type: "item"
+					item: {
+						count: 1
+						id: "spartanweaponry:iron_greatsword"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "224266C513B52807"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 320"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "5A19931BF5642992"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_herrero 80"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "8B3A82BE13DF2E1B"
+			x: 2d
+			y: 2d
+			optional: true
+			dependencies: ["089D27A3C570503E"]
+			tasks: [
+				{
+					id: "BD1D517F8AA50B08"
+					type: "item"
+					item: {
+						count: 1
+						id: "spartanweaponry:iron_longbow"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "C7F1525356485519"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 320"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "50A954134CE82FFB"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					count: 32
+				}
+			]
+		}
+		{
+			id: "9F16F986157B10A0"
+			x: 2d
+			y: 3.5d
+			optional: true
+			dependencies: ["089D27A3C570503E"]
+			tasks: [
+				{
+					id: "1BBCD39B7B30E1F8"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:iron_spell_book"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2394A0F0913F3B68"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 320"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "A6E561DE26904232"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:common_ink"
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			id: "A2463BDBAC29BB2E"
+			x: 2d
+			y: 5d
+			optional: true
+			dependencies: ["089D27A3C570503E"]
+			tasks: [
+				{
+					id: "C2E54072EE3D7C0A"
+					type: "item"
+					item: {
+						count: 1
+						id: "spartanweaponry:iron_dagger"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "52C6CA3ECE7B695F"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 320"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "D34AD261FEC1F825"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_herrero 80"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "7C8EA5D510588DD0"
+			x: 2d
+			y: 6.5d
+			optional: true
+			dependencies: ["089D27A3C570503E"]
+			tasks: [
+				{
+					id: "61D97CA332A693EB"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:iron_backpack"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "79C2B40D50AEA082"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 320"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "DE8A042E853A5B15"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:magnet_upgrade"
+					}
+				}
+			]
+		}
+		{
+			id: "5E89FB767BB1E9C7"
+			x: 3.5d
+			y: 0.5d
+			dependency_requirement: "one_completed"
+			dependencies: [
+				"2C5539401072FC86"
+				"8B3A82BE13DF2E1B"
+				"9F16F986157B10A0"
+				"A2463BDBAC29BB2E"
+				"7C8EA5D510588DD0"
+			]
+			tasks: [
+				{
+					id: "78B57B17BDF9F0C6"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "8F4212C4BA19C170"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 350"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "CF73AC1BF3EE7841"
+			x: 2d
+			y: 8d
+			dependencies: ["089D27A3C570503E"]
+			tasks: [
+				{
+					id: "55D2B6C6D926CB87"
+					type: "kill"
+					entity: "minecraft:spider"
+					value: 10L
+				}
+				{
+					id: "CB7F73512C9908D9"
+					type: "kill"
+					entity: "minecraft:creeper"
+					value: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "FAB8665C1869E149"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 340"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "091F0F1DDB8C3128"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:shield"
+					}
+				}
+			]
+		}
+		{
+			id: "3445B8FE66BB1571"
+			x: 3.5d
+			y: 2d
+			dependencies: ["CF73AC1BF3EE7841"]
+			tasks: [
+				{
+					id: "267F23DA8204FC3B"
+					type: "structure"
+					structure: "betterdungeons:small_dungeon"
+				}
+			]
+			rewards: [
+				{
+					id: "BBFC0E18AB176460"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 380"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "625F1779833EF1A1"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			id: "41494B12BA1ADEB7"
+			x: 3.5d
+			y: 3.5d
+			optional: true
+			dependencies: ["CF73AC1BF3EE7841"]
+			tasks: [
+				{
+					id: "BD1DCD55F957CFF5"
+					type: "structure"
+					structure: "minecraft:desert_pyramid"
+				}
+			]
+			rewards: [
+				{
+					id: "419F87404637B4D2"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 340"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "D06D4C9C5CF61779"
+			x: 3.5d
+			y: 5d
+			dependencies: ["CF73AC1BF3EE7841"]
+			tasks: [
+				{
+					id: "6D075955C6E33722"
+					type: "advancement"
+					advancement: "minecraft:story/enter_the_nether"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "E5E35EB3C0BA647C"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 420"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "592450612465A588"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					count: 5
+				}
+				{
+					id: "B8CE939776A8D48C"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "275367E181852557"
+			x: 5d
+			y: 0.5d
+			dependencies: ["D06D4C9C5CF61779"]
+			tasks: [
+				{
+					id: "B47E3C72577A2460"
+					type: "advancement"
+					advancement: "minecraft:nether/find_fortress"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "029275E24EA05F56"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 400"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "1862BFE20CC3A885"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			id: "FE538FA4FBF014EF"
+			x: 5d
+			y: 2d
+			dependencies: ["D06D4C9C5CF61779"]
+			tasks: [
+				{
+					id: "4B6500437CCD724B"
+					type: "advancement"
+					advancement: "minecraft:nether/find_bastion"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "52F288D454EA68AC"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 400"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "4C29F68FFEE0825E"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			id: "69F7A8073F6F44D2"
+			x: 6.5d
+			y: 0.5d
+			dependency_requirement: "one_completed"
+			dependencies: ["275367E181852557", "FE538FA4FBF014EF"]
+			tasks: [
+				{
+					id: "AC632D47415D5D45"
+					type: "kill"
+					entity: "minecraft:piglin_brute"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "FD688C24E51DA413"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 600"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "ABE67668FF82D310"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			id: "973E5CD212B18321"
+			x: 8d
+			y: 0.5d
+			dependencies: ["5E89FB767BB1E9C7", "3445B8FE66BB1571", "69F7A8073F6F44D2"]
+			tasks: [
+				{
+					id: "7B8C265978EB4BE9"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "335D1A0465CA30B7"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "66BF0CC2D75DCBD1"
+					type: "command"
+					command: "/kubejs stages add {p} rango_bronce"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "27F265AE9C09BBAD"
+					type: "command"
+					command: "/kubejs stages add {p} era_create"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "D54DD7464CC3353D"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					count: 3
+				}
+				{
+					id: "ED14C3EE6AA12F49"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:diamond_sword"
+					}
+				}
+			]
+		}
+	]
+}

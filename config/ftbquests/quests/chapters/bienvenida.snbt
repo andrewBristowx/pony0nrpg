@@ -1,0 +1,262 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bienvenida"
+	group: "FA1951BF2D35F839"
+	icon: {
+		id: "ftbquests:book"
+	}
+	id: "0E3DDEBA982CD205"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "36C790764DFE6623"
+			x: 0.5d
+			y: 0.5d
+			tasks: [
+				{
+					id: "04F24DD856B85D99"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "203EADC30D1CB195"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "4397C0D0874D55AE"
+					type: "command"
+					command: "/kubejs stages add {p} era_1"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "BAF979EA360EDF6A"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					count: 20
+				}
+			]
+		}
+		{
+			id: "9D47C88484B97547"
+			x: 2d
+			y: 0.5d
+			dependencies: ["36C790764DFE6623"]
+			tasks: [
+				{
+					id: "188B013E8FBF426D"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "87544339C9413486"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 30"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "0CCABA5E8E7E4CFE"
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["9D47C88484B97547"]
+			tasks: [
+				{
+					id: "3380B26849282146"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "0AE0C4965265EF63"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 40"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "D7F01831E0B33A15"
+			x: 5d
+			y: 0.5d
+			dependencies: ["0CCABA5E8E7E4CFE"]
+			tasks: [
+				{
+					id: "D41DCF0FE3CEFBFE"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "F0FDD042534FAD87"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 40"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "D4EFDB76A048C766"
+			x: 5d
+			y: 2d
+			dependencies: ["0CCABA5E8E7E4CFE"]
+			tasks: [
+				{
+					id: "33AA20771358C87E"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "B9F16D6E3FDCB43F"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "F51BBA205810BF5E"
+					type: "command"
+					command: "/puffish_skills experience add {p} oficio_minero 30"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "4E014CC5F8D58AA2"
+			x: 3.5d
+			y: 2d
+			dependencies: ["9D47C88484B97547"]
+			tasks: [
+				{
+					id: "3A82A00F321F4078"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "14FFECC8B6BAA4F0"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 30"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "2F4F9F6C413602E4"
+			x: 3.5d
+			y: 3.5d
+			dependencies: ["9D47C88484B97547"]
+			tasks: [
+				{
+					id: "AB03A08C0DB48740"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "655BD736DB3F5E9F"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 30"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "D61BBAE4A603C442"
+			x: 3.5d
+			y: 5d
+			optional: true
+			dependencies: ["9D47C88484B97547"]
+			tasks: [
+				{
+					id: "8400155493EAFF04"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "F5869A77430CB7B5"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 30"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "3EDA4F9660560F63"
+			x: 3.5d
+			y: 6.5d
+			optional: true
+			dependencies: ["9D47C88484B97547"]
+			tasks: [
+				{
+					id: "170674F082D66C0C"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "35E6E354417FD033"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 20"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "D8586CCB7C53F57D"
+			x: 6.5d
+			y: 0.5d
+			dependencies: [
+				"D7F01831E0B33A15"
+				"D4EFDB76A048C766"
+				"4E014CC5F8D58AA2"
+				"2F4F9F6C413602E4"
+			]
+			tasks: [
+				{
+					id: "10F54C0E3212B3A4"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "E17F48850AFFE7F0"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 60"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "A05CF1DF7A62ACF8"
+					type: "item"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_copper"
+					}
+					count: 30
+				}
+			]
+		}
+	]
+}

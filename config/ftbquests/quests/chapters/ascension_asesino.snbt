@@ -1,0 +1,304 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ascension_asesino"
+	group: "FD609B87CC2A62AE"
+	icon: {
+		id: "minecraft:netherite_axe"
+	}
+	id: "EB42D72D8341FA4F"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			id: "AFDD4763FF6AD543"
+			x: 0.5d
+			y: 0.5d
+			tasks: [
+				{
+					id: "373A6502D99A5E99"
+					type: "stage"
+					stage: "era_10"
+				}
+			]
+			rewards: [
+				{
+					id: "B344F24F0F5AB6E2"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 100"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "8677E94D84609E2A"
+			x: 2d
+			y: 0.5d
+			dependencies: ["AFDD4763FF6AD543"]
+			tasks: [
+				{
+					id: "9FC9DA09E8C280F4"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "8022D00DF99F8244"
+					type: "command"
+					command: "/puffish_skills category unlock {p} ascension_asesino"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "A1AC20330E63072F"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_asesino 1"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "9BA06F3334BBE69A"
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["8677E94D84609E2A"]
+			tasks: [
+				{
+					id: "B75AB663E6EE9DF1"
+					type: "kill"
+					entity: "minecraft:enderman"
+					value: 50L
+				}
+			]
+			rewards: [
+				{
+					id: "A66A3C591E64C193"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_asesino 1"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "DD65D846EE058E34"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "CDA9B35585558D64"
+			x: 5d
+			y: 0.5d
+			dependencies: ["9BA06F3334BBE69A"]
+			tasks: [
+				{
+					id: "67FC11F52B5E3A64"
+					type: "kill"
+					entity: "minecraft:wither_skeleton"
+					value: 40L
+				}
+			]
+			rewards: [
+				{
+					id: "AB38C3DEA375F986"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_asesino 1"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "5A1648D05A6DDE5D"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "BAB31AB884E68CBB"
+			x: 6.5d
+			y: 0.5d
+			dependencies: ["CDA9B35585558D64"]
+			tasks: [
+				{
+					id: "70F0DD1698EDB2FC"
+					type: "item"
+					item: {
+						count: 1
+						id: "spartanweaponry:netherite_dagger"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2A7EABC479919564"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_asesino 1"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "6395CE80871C1969"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "A2FC1EAC5A3C7C74"
+			x: 8d
+			y: 0.5d
+			dependencies: ["BAB31AB884E68CBB"]
+			tasks: [
+				{
+					id: "C1D19A65B454A5CE"
+					type: "kill"
+					entity: "minecraft:phantom"
+					value: 30L
+				}
+			]
+			rewards: [
+				{
+					id: "A412FFA281004F5B"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_asesino 1"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "96F1334DF5376085"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "4B6E99E64A76084A"
+			x: 9.5d
+			y: 0.5d
+			dependencies: ["A2FC1EAC5A3C7C74"]
+			tasks: [
+				{
+					id: "9E16F7DF45D09CB9"
+					type: "stat"
+					stat: "minecraft:crouch_one_cm"
+					value: 100000
+				}
+			]
+			rewards: [
+				{
+					id: "D6FD38A4B2CF5246"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_asesino 1"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "16ADC830BC49E69C"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "1A0F690529AF3FB4"
+			x: 11d
+			y: 0.5d
+			dependencies: ["4B6E99E64A76084A"]
+			tasks: [
+				{
+					id: "769BCF42784C40C2"
+					type: "kill"
+					entity: "minecraft:ravager"
+					value: 10L
+				}
+			]
+			rewards: [
+				{
+					id: "86FDB559331B0DE5"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_asesino 1"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "E9FEF5AB86467F8C"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "FB3C727C6ACE4E37"
+			x: 12.5d
+			y: 0.5d
+			dependencies: ["1A0F690529AF3FB4"]
+			tasks: [
+				{
+					id: "D2A8F5AEDC6AC8B8"
+					type: "kill"
+					entity: "minecraft:wither"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "7F0B17A6BE117409"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_asesino 2"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "69B40EF343CC632C"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "9F0B41A860D3CA6E"
+			x: 14d
+			y: 0.5d
+			dependencies: ["FB3C727C6ACE4E37"]
+			tasks: [
+				{
+					id: "67186C10AA68011D"
+					type: "stage"
+					stage: "maestria_asesino_3"
+				}
+			]
+			rewards: [
+				{
+					id: "05D73AC8345E4F57"
+					type: "command"
+					command: "/puffish_skills points add {p} ascension_asesino 2"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "9F67B4EFEE582501"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 500"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+	]
+}
