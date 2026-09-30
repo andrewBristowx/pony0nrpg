@@ -1,0 +1,13 @@
+name = "Simply Swords"
+filename = "simplyswords-forge-neoforge-1.70.2-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bK3Ubu9p/versions/Na6e94J1/simplyswords-forge-neoforge-1.70.2-1.20.1.jar"
+hash-format = "sha512"
+hash = "f4ba377dc5a3cfa99859933c45746f2c730e5fa2b7a0af40fc3b93a396fa3f671799231af0286e9766e5629a334105f1ede63668a3aa9fff72fbf5f97a76ac61"
+
+[update]
+[update.modrinth]
+mod-id = "bK3Ubu9p"
+version = "Na6e94J1"

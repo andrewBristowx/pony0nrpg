@@ -1,47 +1,64 @@
-# Servidor Pony0n RPG
+# Servidor Pony0n RPG — mods para el hosting
 
-Esta carpeta es el servidor dedicado. `mods/` contiene **solo** los mods que hacen falta en el servidor (los de cliente como shaders o Embeddium no se descargan). Se rellena y se actualiza sola desde el repo de GitHub con el mismo instalador que usa Prism (`-s server`).
+**Sube a la carpeta `mods/` de tu hosting los 108 jars de [`server/mods/`](mods/)** (lista exacta en [`MODS.txt`](MODS.txt)). Para subirlos de una vez hay un zip: `dist/Pony0nRPG-server-mods.zip` (549 MB, jars planos; descomprímelo dentro de `mods/`). No hace falta instalar Forge ni nada más en tu PC.
 
-## Puesta en marcha
+## Qué pedir al hosting
 
-Requisitos: **Java 17** (recomendado para Forge 1.20.1) y unos 8 GB de RAM libres para empezar.
-
-1. `install-forge.bat`: instala Forge 1.20.1-47.4.10 y crea `user_jvm_args.txt` (memoria 6–8 GB + flags G1). Una sola vez.
-2. `start.bat` (o `start.sh` en Linux): actualiza los mods desde GitHub y arranca. Falla el primer arranque hasta que aceptes la EULA en `eula.txt`.
-
-Si falla la actualización de mods, el script **no** arranca el servidor.
-
-## Mods en `mods/` ahora mismo (15)
-
-### Optimización de servidor
-| Mod | Para qué |
+| | |
 |---|---|
-| Radium | Optimiza el motor (físicas, listas de entidades, pathfinding); equivalente a Lithium |
-| ServerCore | Optimiza mobs, chunks y ticks. **Revisar su config**: puede cambiar el comportamiento de algunos mobs |
-| AI Improvements | Reduce el coste de la IA de mobs |
-| Noisium | Genera el terreno más rápido |
-| Ksyxis | Acelera la carga del mundo al arrancar |
-| FerriteCore | Menos memoria RAM |
-| ModernFix | Arranque más rápido y menos RAM |
-| Memory Leak Fix | Corrige fugas de memoria |
-| Clumps | Agrupa orbes de experiencia (menos entidades) |
-| Neruina | Evita que una entidad/bloque "roto" tumbe el servidor |
+| Minecraft | **1.20.1** |
+| Loader | **Forge 47.4.10** (mismo que el cliente; si el hosting solo ofrece otra 47.x cercana, funciona, pero lo ideal es igualarlo) |
+| **Java** | **Java 17** (es lo que usa Forge 1.20.1 y con lo que se hizo la prueba: 17.0.15). No uses Java 8 ni Java 21 |
+| RAM | Mínimo 8 GB asignados; **10–12 GB recomendados** (estimación: no se ha medido con jugadores conectados) |
 
-### Diagnóstico, red y administración
-| Mod | Para qué |
+Tras el primer arranque hay que aceptar la EULA de Mojang en `eula.txt` (`eula=true`); eso lo tienes que hacer tú.
+
+## Qué se probó y qué no
+
+- **Probado:** un servidor Forge 1.20.1 (Java 17) cargó los 108 mods hasta la comprobación de la EULA. Es decir: todos son de Forge, no falta ninguna dependencia obligatoria y no hay conflictos de módulos.
+- **No probado:** la carga completa (registros, mundo, generación de estructuras, jugadores). Eso solo se ve arrancando de verdad tras aceptar la EULA. Si en el primer arranque hay un fallo, mándame el `crash-report` o `latest.log`.
+- Durante la prueba aparecieron 6 dependencias que packwiz no detectó (Kotlin for Forge, Zeta, Iron's Lib, Moonlight Lib…) y un conflicto (S-Lib vs Create Crafts & Additions). Ya están corregidos en estos 108.
+
+## Qué hay en `mods/` (108 jars)
+
+**Contenido de juego**
+- Misiones/equipos: FTB Quests, FTB Teams, FTB Library, FTB Chunks, FTB Ranks, FTB Quests Optimizer
+- RPG/loot/economía/NPC: Pufferfish's Skills, Apotheosis (+ Apothic Attributes, Placebo, Patchouli), Lightman's Currency, Easy NPC, KubeJS (+ Rhino), Item Obliterator
+- Combate/objetos: Better Combat, Spartan Weaponry, Simply Swords, Artifacts, Curios
+- Magia: Iron's Spells 'n Spellbooks (+ Iron's Lib), Ars Nouveau
+- Create: Create, Steam 'n' Rails, Connected, Deco, Crafts & Additions, Enchantment Industry (+ Dragons Plus), Sifting, Ironworks, Utilities, Jetpack, y las integraciones de Sophisticated Backpacks/Storage
+- Tecnología/otros: Mekanism (+ Generators, Additions), Powah, Applied Energistics 2 (+ GuideME), Ad Astra, Farmer's Delight, Sophisticated Backpacks/Storage
+- Mundo: Structory, Dungeons and Taverns, Integrated Dungeons and Structures (trae Quark y Supplementaries como dependencia), YUNG's Better Dungeons, When Dungeons Arise, Dungeon Crawl, Repurposed Structures, Alex's Caves, Deeper and Darker, Explorer's/Nature's Compass, Waystones
+- Bosses/dimensiones: L_Ender's Cataclysm, Mowzie's Mobs, Bosses of Mass Destruction, Ice and Fire, The Twilight Forest, The Aether, The Undergarden
+- Voz: Simple Voice Chat
+
+**Optimización y administración de servidor**
+Radium, ServerCore, AI Improvements, Noisium, Ksyxis, FerriteCore, ModernFix, Memory Leak Fix, Clumps, Neruina, Packet Fixer, Better Compatibility Checker, spark, Chunky, LuckPerms
+
+**Librerías** (necesarias, no aportan contenido): Architectury, GeckoLib, Citadel, Balm, Cloth Config, Botarium, Resourceful Lib/Config, Sophisticated Core, Kotlin for Forge, Zeta, Moonlight Lib, Integrated API, Lionfish API, CERBON's API, Necronomicon, Fzzy Config, Simply Tooltips, playerAnimator, MezzConfig…
+
+## Qué NO se sube al servidor (solo cliente)
+
+JEI, Xaero's Minimap/World Map, Mouse Tweaks, y todo el render: Embeddium (+ Extra), Oculus, ImmediatelyFast, Entity Culling, Cull Leaves, Dynamic FPS, BadOptimizations, los shaders y los parches Oculus–GeckoLib/Flywheel. Los jugadores los reciben solos por Prism; **no los subas al hosting**.
+
+## Decisiones tomadas por mí al completar el pack (revisables)
+
+| Decisión | Motivo |
 |---|---|
-| spark | Perfilado: `/spark profiler`, TPS y MSPT |
-| Chunky | Pregenerar el mundo (`/chunky radius 5000`, `/chunky start`) |
-| Packet Fixer | Evita desconexiones por paquetes grandes en packs con muchos mods |
-| Better Compatibility Checker | Avisa al jugador si su cliente no coincide con el servidor |
-| LuckPerms | Permisos y rangos |
+| JEI en lugar de EMI | Más compatible con KubeJS/FTB; se puede cambiar |
+| The Aether sin Blue Skies | Pack ya muy grande |
+| **Sin** Create Big Cannons | Riesgo de grifing en servidor |
+| **Sin** Project MMO ni Scaling Health | Dependen de decisiones de diseño pendientes (`docs/06`, spike S1) |
+| **Sin** Create Diesel Generators, Saturn, FancyMenu, Blue Skies | Opcionales o solapados |
+| **Sin** Quests & Teams Fixes | Choca con Create Crafts & Additions (dos copias de Jankson); era un parche opcional |
+| Radium (tipo Lithium) incluido | Puede chocar con Create; si hay problemas, es el primero que se quita |
 
-## Qué falta
+## Actualizar mods
 
-El contenido de juego (FTB Quests, Create, Iron's, estructuras, bosses…) entra en las fases 1 y 2; cada mod que sea de servidor aparecerá aquí al ejecutar `start.bat`. Lo que sí se mantiene aparte, sin versionar: mundo, `eula.txt`, `server.properties`, `ops.json`, `whitelist.json`, `logs/`.
+Si en el futuro cambian los mods, este listado se regenera desde el repo (`packwiz-installer -s server`). Si el hosting no permite ejecutar comandos, hay que volver a subir los jars: pídeme el zip actualizado.
 
-## Notas
+## Ficheros de esta carpeta
 
-- `mods/` no se sube a git; se descarga con el instalador.
-- Ningún mod de esta carpeta se ha probado aún en un servidor dedicado arrancado (criterio 7 de `docs/06`). Eso se hace al primer arranque real.
-- Perfilar con spark antes y después de añadir cada bloque de mods.
+- `mods/` — los jars (no se versionan en git)
+- `MODS.txt` — lista exacta de jars
+- `start.bat`, `start.sh`, `install-forge.bat` — solo para montar un servidor propio en tu PC; **no hacen falta en un hosting**

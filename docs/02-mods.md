@@ -1,5 +1,8 @@
 # 02 — Matriz de mods
 
+> **Estado real del pack (2026-09-29):** los mods de esta matriz ya están añadidos a packwiz, salvo los marcados como excluidos en  (Create Big Cannons, Project MMO, Scaling Health, Diesel Generators, Saturn, FancyMenu, Blue Skies) y con estas decisiones: JEI en lugar de EMI, Aether sin Blue Skies. Se retiró Quests & Teams Fixes por un conflicto con Create Crafts & Additions. Hay 124 entradas en  (contenido + dependencias + optimización) y 108 jars van al servidor. Un arranque de prueba en servidor Forge 1.20.1 con Java 17 cargó todos los mods hasta la EULA; la carga completa de mundo no está probada.
+
+
 Todo para **Minecraft 1.20.1 + Forge**.
 
 - ✅ = versión 1.20.1 Forge confirmada en Modrinth el 2026-09-29 (se muestra la última versión vista; el pack fijará la que se pruebe).

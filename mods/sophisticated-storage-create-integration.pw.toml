@@ -1,0 +1,13 @@
+name = "Sophisticated Storage Create Integration"
+filename = "sophisticatedstoragecreateintegration-1.20.1-0.1.24.221.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MJ0hdevs/versions/o8dwHKKj/sophisticatedstoragecreateintegration-1.20.1-0.1.24.221.jar"
+hash-format = "sha512"
+hash = "1ba857722ed94a747892391e27e908c6a083e12ce4715d7f95d5c4d17afd6fef85dc5b4ff464a38ba702d2c582b51b06fd5c927ebbedfd3f44b1ac0c4e4b455d"
+
+[update]
+[update.modrinth]
+mod-id = "MJ0hdevs"
+version = "o8dwHKKj"

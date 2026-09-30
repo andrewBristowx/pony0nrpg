@@ -1,0 +1,13 @@
+name = "Simply Tooltips"
+filename = "SimplyTooltips-forge-0.1.5-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/6avVoBVB/versions/s87jNabF/SimplyTooltips-forge-0.1.5-1.20.1.jar"
+hash-format = "sha512"
+hash = "802790a630344de51c74f30e02ac1a2454b6dbc8450e7ea0101495a9196a7d320ad746b4a4628fa43f6e615b6bf15acd9574791c69c4ce5caea756e71dfc5895"
+
+[update]
+[update.modrinth]
+mod-id = "6avVoBVB"
+version = "s87jNabF"
