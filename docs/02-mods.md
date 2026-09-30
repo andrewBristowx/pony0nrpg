@@ -147,7 +147,7 @@ Estos ya están en el repo (carpetas `mods/` y `shaderpacks/`). Lado: **C** = so
 - **Radium (tipo Lithium) y Create:** los ports de Lithium a veces chocan con mecánicas de Create. Se prueba al añadir Create (fase 2); si falla, se quita Radium.
 - **ServerCore:** revisar su configuración; cambia comportamientos de mobs.
 - **Solapes evitados:** Saturn (solapa con ModernFix), Starlight (problemas de iluminación) y Fastload (lo cubre Ksyxis) no se han añadido.
-- **Pendientes con shaders:** "Iris/Oculus & GeckoLib Compat" y "Iris & Oculus Flywheel Compat" arreglan entidades invisibles con shaders en mods de GeckoLib y en Create. Se probaron a añadir, pero se retiraron porque dependen de mods que aún no están en el pack (GeckoLib, Create). Se añaden en la fase 2 junto con esos mods.
+- **Shaders y GeckoLib:** el parche "Iris/Oculus & GeckoLib Compat" ya no se usa: GeckoLib 4.8.x trae el arreglo de Oculus y el propio GeckoLib se niega a arrancar si el parche está instalado (`geckolib only supports geckoanimfix 9.removeoculusgeckolibcompat or above`). Se mantiene "Iris & Oculus Flywheel Compat" para Create.
 - Ninguno está probado en un arranque real de cliente ni de servidor.
 
 ## Calidad de vida (pendiente de añadir)

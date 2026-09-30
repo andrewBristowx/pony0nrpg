@@ -39,7 +39,7 @@ Radium, ServerCore, AI Improvements, Noisium, Ksyxis, FerriteCore, ModernFix, Me
 
 ## Qué NO se sube al servidor (solo cliente)
 
-JEI, Xaero's Minimap/World Map, Mouse Tweaks, y todo el render: Embeddium (+ Extra), Oculus, Entity Culling, Cull Leaves, Dynamic FPS, BadOptimizations, los shaders y los parches Oculus–GeckoLib/Flywheel. Los jugadores los reciben solos por Prism; **no los subas al hosting**.
+JEI, Xaero's Minimap/World Map, Mouse Tweaks, y todo el render: Embeddium (+ Extra), Oculus, Entity Culling, Cull Leaves, Dynamic FPS, BadOptimizations, los shaders y el parche Oculus–Flywheel. Los jugadores los reciben solos por Prism; **no los subas al hosting**.
 
 ## Decisiones tomadas por mí al completar el pack (revisables)
 
