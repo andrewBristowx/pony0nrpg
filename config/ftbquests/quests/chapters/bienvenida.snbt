@@ -184,10 +184,10 @@
 		}
 		{
 			id: "4E014CC5F8D58AA2"
-			title: "Recetas con JEI"
+			title: "Recetas con EMI"
 			subtitle: "Mira sobre un objeto y pulsa R o U"
 			description: [
-				"JEI muestra las recetas de todos los objetos del pack."
+				"EMI muestra las recetas de todos los objetos del pack (funciona junto a JEI, que le aporta las recetas de muchos mods)."
 				""
 				"Pon el cursor sobre un objeto en tu inventario y pulsa &6R&r para ver cómo se fabrica o &6U&r para ver para qué sirve."
 			]

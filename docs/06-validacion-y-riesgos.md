@@ -48,7 +48,7 @@ Estas son las incógnitas que pueden cambiar el diseño. Cada una debe resolvers
 
 ## Decisiones que quedan abiertas para ti
 
-1. **JEI o EMI** (elegir uno).
+1. ~~JEI o EMI~~ Resuelto: se usan los dos (EMI como interfaz, JEI como API/plugins).
 2. **Aether o Blue Skies** como dimensión "celestial" (o ambas, con más peso).
 3. **Dimensiones Desértica y del Vacío**: ¿construirlas por datapack, o dejarlas fuera de la versión 1?
 4. **Raid bosses con roles**: ¿desarrollo propio (mod) o aproximación con bosses existentes?

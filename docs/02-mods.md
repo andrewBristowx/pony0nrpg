@@ -154,13 +154,13 @@ Estos ya están en el repo (carpetas `mods/` y `shaderpacks/`). Lado: **C** = so
 
 | Mod | Versión | Rol | Lado |
 |---|---|---|---|
-| JEI ✅ (o EMI ✅ 1.1.24) | 15.62 | Recetas | C |
+| JEI ✅ 15.62 + EMI ✅ 1.1.24 | — | Recetas (EMI pone la interfaz; JEI aporta su API y los plugins de los mods) | C |
 | Jade ✅ | 11.13.3 | Info de bloques | C |
 | AppleSkin ✅, Mouse Tweaks ✅, Xaero's Minimap/World Map ✅ | — | QoL | C |
 | Simple Voice Chat ✅ | 2.6.24 | Voz de proximidad (cooperativo) | A |
 | FancyMenu ✅ | 3.9.14 | Pantalla de título/branding | C (opcional) |
 
-Elegir **JEI o EMI**, no ambos.
+**JEI + EMI a la vez**: EMI está pensado para convivir con JEI (su mixin hace que JEI omita su GUI y los plugins que EMI ya cubre) y recarga en un hilo propio, lo que evita el congelón de ~1 minuto que JEI provocaba al entrar a un servidor.
 
 ## Descartados (por ahora) y por qué
 

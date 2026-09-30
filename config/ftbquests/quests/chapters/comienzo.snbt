@@ -51,7 +51,7 @@
 			id: "2A18551ABF8BAA2B"
 			title: "Mesa de trabajo"
 			subtitle: "Crafteo básico"
-			description: ["Con una mesa de trabajo puedes fabricar casi todo. Si no recuerdas la receta, mira el objeto en JEI (&6R&r)."]
+			description: ["Con una mesa de trabajo puedes fabricar casi todo. Si no recuerdas la receta, mira el objeto en EMI (&6R&r)."]
 			icon: "minecraft:crafting_table"
 			x: 2.5d
 			y: 0.5d

@@ -36,8 +36,8 @@ export default {
           "Cada oficio sube de nivel por sí solo mientras haces sus tareas (picar, talar, cosechar, pescar, fabricar, cocinar, encantar) y da puntos para su propio árbol."],
       tasks: [T.check()], rewards: [R.skill(40), R.job("minero", 30)] },
 
-    { k: "jei", t: "Recetas con JEI", sub: "Mira sobre un objeto y pulsa R o U", deps: ["libro"],
-      d: ["JEI muestra las recetas de todos los objetos del pack.",
+    { k: "jei", t: "Recetas con EMI", sub: "Mira sobre un objeto y pulsa R o U", deps: ["libro"],
+      d: ["EMI muestra las recetas de todos los objetos del pack (funciona junto a JEI, que le aporta las recetas de muchos mods).",
           "Pon el cursor sobre un objeto en tu inventario y pulsa &6R&r para ver cómo se fabrica o &6U&r para ver para qué sirve."],
       tasks: [T.check()], rewards: [R.skill(30)] },
 

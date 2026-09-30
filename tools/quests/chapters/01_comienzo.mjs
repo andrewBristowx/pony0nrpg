@@ -12,7 +12,7 @@ export default {
       rewards: [R.skill(60), R.coins({ cobre: 30 })] },
 
     { k: "mesa", t: "Mesa de trabajo", sub: "Crafteo básico", deps: ["despertar"],
-      d: ["Con una mesa de trabajo puedes fabricar casi todo. Si no recuerdas la receta, mira el objeto en JEI (&6R&r)."],
+      d: ["Con una mesa de trabajo puedes fabricar casi todo. Si no recuerdas la receta, mira el objeto en EMI (&6R&r)."],
       tasks: [T.item("minecraft:crafting_table")],
       rewards: [R.skill(70), R.item("minecraft:bread", 4)] },
 

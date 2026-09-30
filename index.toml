@@ -30,11 +30,11 @@ hash = "0996ecb3186f4cf9d2561e67f305b0d7f0bb07641ef14968da1f428c622a6f87"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bienvenida.snbt"
-hash = "7028136b71f23a32faa61cdf957e86bfc5be20dcfbaa05b913d64306d3e5ad65"
+hash = "0bffbd0233929490eced69b09248cd6a06a3a51adc087c453c4ceb7b95ec4e4f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/comienzo.snbt"
-hash = "c597cff0638e12481d6c91f2393679533d6e609e5d2d32941028c08d3fba2be2"
+hash = "e9c39d02c91d72dbe6569394f45ef6c9a8c65adea029a5e000a413da8e0a7674"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
@@ -784,6 +784,11 @@ metafile = true
 [[files]]
 file = "mods/embeddium.pw.toml"
 hash = "5ec0c37f3f4ad07a40c10376668bca80334ddb7ad2bab06eb4de8f7aac339c8e"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "5feac37b8e20cc95c9f0795d94fc620238d39191f018102116b3735aa2b3ea76"
 metafile = true
 
 [[files]]
