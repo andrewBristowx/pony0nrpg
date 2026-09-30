@@ -46,6 +46,9 @@
 								"type": "get_mined_block_state"
 							},
 							{
+								"type": "get_block"
+							},
+							{
 								"type": "get_hardness"
 							}
 						]

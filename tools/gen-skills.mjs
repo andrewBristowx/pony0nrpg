@@ -223,7 +223,7 @@ out(dir + "experience.json", {
       type: "puffish_skills:mine_block",
       data: {
         variables: {
-          hardness: { operations: [{ type: "get_mined_block_state" }, { type: "get_hardness" }] },
+          hardness: { operations: [{ type: "get_mined_block_state" }, { type: "get_block" }, { type: "get_hardness" }] },
         },
         experience: "1 + hardness",
       },
