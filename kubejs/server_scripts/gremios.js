@@ -86,9 +86,10 @@ function colocarPueblo(server, id) {
     run('fill ' + x1 + ' ' + y + ' ' + z1 + ' ' + x2 + ' ' + Math.min(y + 6, ref + 30) + ' ' + z2 + ' minecraft:air');
   // 2) rellenar huecos y agua por debajo para que el pueblo no quede colgando
   for (var yy = ref - 4; yy > ref - 25; yy -= 7) {
-    const lo = Math.max(yy - 6, ref - 25);
-    for (var blk of ['minecraft:air', 'minecraft:water', 'minecraft:lava'])
+    var lo = Math.max(yy - 6, ref - 25);
+    ["minecraft:air", "minecraft:water", "minecraft:lava"].forEach(function (blk) {
       run('fill ' + x1 + ' ' + lo + ' ' + z1 + ' ' + x2 + ' ' + yy + ' ' + z2 + ' minecraft:dirt replace ' + blk);
+    });
   }
   // 3) colocar la plantilla (su suelo queda en y=ref)
   run('place template pony0n:pueblo_' + id + ' ' + o.x + ' ' + (ref - PUEBLO_SUELO) + ' ' + o.z);

@@ -626,7 +626,7 @@ hash = "0fc331847426e183a313ee71a7ff76705108208e9e36db966282a1c8d061648e"
 
 [[files]]
 file = "kubejs/server_scripts/gremios.js"
-hash = "be9229f1a7eff7a2d6e291da6d08a170a870f60f23e4a488e90d12578412747b"
+hash = "498eb517b6818c55e7e249949a0cc054b7f15c1fb608c0b2ec57d03913f73cc9"
 
 [[files]]
 file = "kubejs/startup_scripts/class_gating.js"
