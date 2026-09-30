@@ -194,7 +194,7 @@ hash = "b284985897ab1f9fe11fbb6ac71c342d405056c1ed45f6a648f117a3b113927d"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_cocinero/experience.json"
-hash = "ae3b9dd428cd112c4f2b82e5cd988949bb7d4a625bb897a9bf57cc4edafaaf01"
+hash = "ddfe0d83b6ea10b4176b328552a128819553c6249016132dbffcc94e414f483b"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_cocinero/skills.json"
@@ -214,7 +214,7 @@ hash = "e6af0636209e715ebe1ea3d493ef8f81978627466f91e8d2c471ca649fc6abd3"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_encantador/experience.json"
-hash = "8f3c92edd88ca244a71ae78a576a3aa81128922bdd0fe5f4ba1315ffd64b4aa3"
+hash = "49c7268673b52cd3bf750ed943ecf7b51a6b9b40f47d5428a9db35912ced3fbe"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_encantador/skills.json"
@@ -234,7 +234,7 @@ hash = "88186a3a7f754f6cb2c3c32b000d2e1b7680a3f03a94b289f866c060133df3c4"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_granjero/experience.json"
-hash = "96c868bc0116c13f928247d9607c3a0435950bda1f814e1e550e10f9bb6724af"
+hash = "4719c38dcd35b729f0afadc63a42b6ea2a5f712fbb9f0f41c7e1251886081d80"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_granjero/skills.json"
@@ -254,7 +254,7 @@ hash = "eefc97e63b164ce88883f7b4c2849e3f64c488514add72a43f321db7fca8d769"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_herrero/experience.json"
-hash = "e7ed09097a9308ce73a197d3d0bc648bccbf73538cdc8856aebc183e7d850c88"
+hash = "c94628bebaa2b374cc38a50ead4d736cbdedabeb3428f1a53abea949507f86c0"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_herrero/skills.json"
@@ -274,7 +274,7 @@ hash = "2dbd393d22d96bd96eadd8782f2eb7575a987f562aa3d5216ed6092d74ecacd1"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_lenador/experience.json"
-hash = "7059adde1a65a0c742b1fa3de6600ad292b990eba8b0bbc7cd8b56a68b16c071"
+hash = "2b101a9cd22f346adcd89a5b1d3756fa74990a0ddb6c111e23e3e02decef57d3"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_lenador/skills.json"
@@ -294,7 +294,7 @@ hash = "d508f84bedb70061ae7fee2c5524521473640debd0d7d61e042dda25f79423f8"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_minero/experience.json"
-hash = "9131d711e77eb8159d952629f3ceb5cc4c0345e5cf3e8e3139194292d45f647e"
+hash = "de8c9d68c42453a0da0a34e7bf5819e9815b5445afa83c212d28833b3a70e423"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_minero/skills.json"
@@ -314,7 +314,7 @@ hash = "ad269015162c3b4dd542e9994c2a6b589fc7a51fcfd48a94a9117234051f3630"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_pescador/experience.json"
-hash = "473ea7c5c1796334fc11ef7d8f476791364b8a4f6358962f5fa98dd54289030a"
+hash = "bf5a8ed68adc5e6c966f7adc8aa76707b740ecc97948888f74295ecd8cefab06"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_pescador/skills.json"

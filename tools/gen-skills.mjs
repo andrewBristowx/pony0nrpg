@@ -310,7 +310,10 @@ const itemVar = (getter, item) => ({ operations: [{ type: getter }, { type: "puf
 const cases = (arr) => arr.map(([condition, expression]) => ({ condition, expression }));
 // Sin etiquetas de Forge (varían): objetos cocinados de vanilla, uno a uno
 const COOKED = ["cooked_beef", "cooked_porkchop", "cooked_chicken", "cooked_mutton", "cooked_rabbit", "cooked_cod", "cooked_salmon", "baked_potato", "dried_kelp"];
-const JOB_XP = { type: "expression", data: { expression: "40 + 10 * level + 0.6 * level ^ 2" } };
+// XP de oficio por nivel: f * (150 + 50n + 5n^2). Cada nivel cuesta bastante más que el anterior
+// (nivel 1 ≈ 15 acciones "típicas", nivel 4 ≈ 100, nivel 10 ≈ 500). f compensa cuánta XP da la acción de cada oficio.
+const JOB_SCALE = { minero: 1, lenador: 0.3, granjero: 0.8, pescador: 0.6, herrero: 0.7, cocinero: 0.4, encantador: 2 };
+const jobXp = (id) => ({ type: "expression", data: { expression: `${JOB_SCALE[id]} * (150 + 50 * level + 5 * level ^ 2)` } });
 const milestones = (id, lanes) => ({
   [`${id}_f6`]: { id: `oficio_${id}_1`, text: "Hito de oficio I (los desbloqueos llegan con KubeJS)" },
   ...Object.fromEntries(lanes.map((l) => [`${id}_${l}_8`, { id: `oficio_${id}_2`, text: "Hito de oficio II" }])),
@@ -458,7 +461,7 @@ for (const job of jobs) {
   writeCategory(`oficio_${job.id}`, b, {
     title: job.name, description: job.about + " Cada nivel da 1 punto.",
     icon: itemIcon(job.icon), background: BG(job.bg), unlocked_by_default: true, exclusive_root: false,
-  }, { level_limit: 30, experience_per_level: JOB_XP, sources: job.xp });
+  }, { level_limit: 30, experience_per_level: jobXp(job.id), sources: job.xp });
 }
 
 // ============================================================================================================
