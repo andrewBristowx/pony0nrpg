@@ -56,10 +56,78 @@ function joinGuildTeam(server, player, id) {
   }
 }
 
+// ---- pueblos iniciales --------------------------------------------------------------------------------------------
+// Las plantillas (kubejs/data/pony0n/structures/pueblo_<gremio>.nbt) las genera tools/village/gen-village.mjs.
+// Miden 65 x 26 x 65 y su suelo está en y=3 de la plantilla (debajo hay 3 capas de tierra). Se colocan centradas en (±PUEBLO, ±PUEBLO).
+const PUEBLO_LADO = 65, PUEBLO_SUELO = 3;
+const PUEBLO_SPAWN = [32, 37];           // desplazamiento dentro de la plantilla donde aparece el jugador (plaza, junto al pozo)
+
+function puebloOrigen(id) {
+  const g = GREMIOS[id];
+  return { x: g.sx * PUEBLO - 32, z: g.sz * PUEBLO - 32 };
+}
+
+function puebloColocado(server, id) { return server.persistentData.contains('pueblo_' + id + '_y'); }
+
+function colocarPueblo(server, id) {
+  const Heightmap = Java.loadClass('net.minecraft.world.level.levelgen.Heightmap');
+  const level = server.overworld;
+  const o = puebloOrigen(id);
+  // cargar (y generar si hace falta) los chunks de la zona + margen
+  for (var cx = (o.x - 2) >> 4; cx <= (o.x + PUEBLO_LADO + 2) >> 4; cx++)
+    for (var cz = (o.z - 2) >> 4; cz <= (o.z + PUEBLO_LADO + 2) >> 4; cz++) level.getChunk(cx, cz);
+  // altura del suelo en el centro (sin contar hojas); en el mar se usa el nivel del agua
+  const h = level.getHeight(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, o.x + 32, o.z + 32);
+  const ref = Math.max(h - 1, 63);
+  const x1 = o.x - 1, x2 = o.x + PUEBLO_LADO, z1 = o.z - 1, z2 = o.z + PUEBLO_LADO;
+  const run = (c) => server.runCommandSilent('execute in minecraft:overworld run ' + c);
+  // 1) despejar árboles y relieve sobre el suelo del pueblo (por tramos de 7 capas: el límite de /fill es 32768 bloques)
+  for (var y = ref + 1; y <= ref + 30; y += 7)
+    run('fill ' + x1 + ' ' + y + ' ' + z1 + ' ' + x2 + ' ' + Math.min(y + 6, ref + 30) + ' ' + z2 + ' minecraft:air');
+  // 2) rellenar huecos y agua por debajo para que el pueblo no quede colgando
+  for (var yy = ref - 4; yy > ref - 25; yy -= 7) {
+    const lo = Math.max(yy - 6, ref - 25);
+    for (var blk of ['minecraft:air', 'minecraft:water', 'minecraft:lava'])
+      run('fill ' + x1 + ' ' + lo + ' ' + z1 + ' ' + x2 + ' ' + yy + ' ' + z2 + ' minecraft:dirt replace ' + blk);
+  }
+  // 3) colocar la plantilla (su suelo queda en y=ref)
+  run('place template pony0n:pueblo_' + id + ' ' + o.x + ' ' + (ref - PUEBLO_SUELO) + ' ' + o.z);
+  server.persistentData.putInt('pueblo_' + id + '_y', ref);
+  console.info('[gremios] pueblo de ' + id + ' colocado en ' + o.x + ',' + (ref - PUEBLO_SUELO) + ',' + o.z);
+  return ref;
+}
+
+/** posición de aparición dentro del pueblo de un gremio, o null si aún no se colocó */
+function puebloSpawn(server, id) {
+  if (!puebloColocado(server, id)) return null;
+  const o = puebloOrigen(id);
+  return { x: o.x + PUEBLO_SPAWN[0] + 0.5, y: server.persistentData.getInt('pueblo_' + id + '_y') + 1, z: o.z + PUEBLO_SPAWN[1] + 0.5 };
+}
+
 // ---- comandos -------------------------------------------------------------------------------------------------
 ServerEvents.commandRegistry((event) => {
   const Commands = event.commands;
   const Arguments = event.arguments;
+
+  event.register(Commands.literal('pueblo')
+    .requires((src) => src.hasPermission(2))
+    .then(Commands.literal('colocar')
+      .then(Commands.argument('gremio', Arguments.STRING.create(event))
+        .executes((ctx) => {
+          const id = String(Arguments.STRING.getResult(ctx, 'gremio')).toLowerCase();
+          const ids = id === 'todos' ? Object.keys(GREMIOS) : [id];
+          for (var i = 0; i < ids.length; i++) {
+            if (!GREMIOS[ids[i]]) { ctx.source.sendFailure(Text.of('Gremio desconocido: ' + ids[i])); return 0; }
+          }
+          ctx.source.sendSuccess(() => Text.of('Colocando ' + ids.length + ' pueblo(s); puede tardar unos segundos…'), false);
+          ids.forEach((g) => colocarPueblo(ctx.source.server, g));
+          ctx.source.sendSuccess(() => Text.green('Listo.'), false);
+          return 1;
+        })))
+    .then(Commands.literal('estado').executes((ctx) => {
+      Object.keys(GREMIOS).forEach((id) => ctx.source.sendSuccess(() => Text.of(id + ': ' + (puebloColocado(ctx.source.server, id) ? 'colocado' : 'pendiente')), false));
+      return 1;
+    })));
 
   const setWar = (server, on) => {
     server.persistentData.putBoolean('guerra', on);
@@ -96,9 +164,14 @@ ServerEvents.commandRegistry((event) => {
             const inTeam = joinGuildTeam(server, player, id);
 
             // llevar al pueblo de su región y fijar allí su reaparición
-            const tx = g.sx * PUEBLO, tz = g.sz * PUEBLO;
             const n = player.username;
-            server.runCommandSilent('execute as ' + n + ' in minecraft:overworld run spreadplayers ' + tx + ' ' + tz + ' 0 20 false @s');
+            const sp = puebloSpawn(server, id);
+            if (sp) {
+              server.runCommandSilent('execute in minecraft:overworld run tp ' + n + ' ' + sp.x + ' ' + sp.y + ' ' + sp.z);
+            } else {   // el pueblo aún no existe: a una zona al azar cerca de donde estará
+              const tx = g.sx * PUEBLO, tz = g.sz * PUEBLO;
+              server.runCommandSilent('execute as ' + n + ' in minecraft:overworld run spreadplayers ' + tx + ' ' + tz + ' 0 20 false @s');
+            }
             server.runCommandSilent('execute as ' + n + ' at ' + n + ' run spawnpoint @s ~ ~ ~');
 
             player.tell(Text.gold('Ahora perteneces al gremio ' + g.nombre + '.'));
@@ -114,6 +187,8 @@ ServerEvents.loaded((event) => {
     s.runCommandSilent('worldborder center 0 0');
     s.runCommandSilent('worldborder set ' + BORDE);
     s.persistentData.putBoolean('regiones_init', true);
+    // los cuatro pueblos se colocan solos la primera vez (con 2 segundos entre uno y otro para no bloquear el servidor); /pueblo colocar los rehace
+    Object.keys(GREMIOS).forEach((id, i) => s.scheduleInTicks(100 + i * 40, () => { if (!puebloColocado(s, id)) colocarPueblo(s, id); }));
     console.info('[gremios] borde del mundo fijado en ' + BORDE + ' x ' + BORDE);
   }
 });

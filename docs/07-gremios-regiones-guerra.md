@@ -75,6 +75,25 @@ Nombres: **Slytheri0n**, **RavenCachalotes**, **Huffleponyanos**, **Tuliondor**.
 3. Comprueba: no puedes cruzar a otra región; `/guerra on` lo permite; `/guerra off` lo cierra; el PvP solo funciona en guerra y entre gremios distintos.
 4. Si todo va bien se mezcla a `main` y se borra `pack_branch.txt`.
 
+## Pueblos iniciales (fase 1b)
+
+Cada gremio tiene un pueblo amurallado de 65 × 65 bloques hecho con un generador propio (`tools/village/`), no un diseño al azar:
+las técnicas (base de adoquín, esquinas de tronco, entramado de paredes, ventanas con contraventanas, tejado de escaleras a dos aguas
+con alero, chimenea) salen de estudiar las casas de aldea de vanilla con `dump.mjs` y de comparar renders (`preview.mjs`) antes de darlo por bueno.
+
+**Contenido:** muralla con almenas y 3 puertas (sur, este, oeste), 4 torres de esquina con escalera y tejado, plaza con pozo, 4 mástiles con el
+estandarte del gremio y farolas, **Salón del gremio** al norte (tarima, alfombra, estandartes; ahí va el NPC guía), **taberna** de 2 plantas con camas,
+**herrería** abierta (yunque, hornos, amoladora), 6 casas amuebladas (camas, cofres, mesa, estantes, chimenea), 3 puestos de mercado y 2 granjas.
+Colores/material por gremio: Slytheri0n verde y roble oscuro, RavenCachalotes azul y abeto, Huffleponyanos amarillo y roble, Tuliondor rojo y ladrillo.
+
+**Regenerar:** `node tools/village/gen-village.mjs all` → `kubejs/data/pony0n/structures/pueblo_<gremio>.nbt`.
+**Comprobar:** `node tools/village/validate.mjs <archivo.nbt>` (cada bloque y propiedad existe en vanilla 1.20.1) y
+`node tools/village/preview.mjs <archivo.nbt> salida.png 8 <0-3>` para verlo desde los 4 ángulos (`CROP=x0,z0,x1,z1,ymax` recorta una zona).
+
+**Colocación:** la primera vez que carga un mundo nuevo, el servidor coloca los 4 pueblos solo en (±1500, ±1500): carga los chunks, despeja árboles,
+rellena huecos y agua debajo y pega la plantilla. `/pueblo colocar <gremio|todos>` lo repite y `/pueblo estado` dice cuáles están hechos.
+`/gremio unir` ahora teletransporta a la plaza del pueblo (junto al pozo) y fija allí la reaparición.
+
 ### Verificaciones pendientes
 - Que la unión automática al equipo de FTB Teams funcione (si falla, sale un aviso y el log del servidor explica por qué).
 - Que los reclamos de FTB Chunks no permitan salirse de la región.
