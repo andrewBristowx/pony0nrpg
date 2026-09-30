@@ -30,7 +30,10 @@ JVM_FLAGS="-Xms${MIN_MB}M -Xmx${HEAP_MB}M \
  -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 \
  -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 \
  -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 \
- -Dterminal.jline=false -Dterminal.ansi=true"
+ -Dterminal.jline=false -Dterminal.ansi=true \n -Dforge.readTimeout=120"
+
+# forge.readTimeout=120: por defecto el servidor expulsa ("Timed out") al cliente que no responde en 30 s. Al entrar, JEI bloquea
+# el cliente ~30 s dos veces seguidas en este pack; con 120 s el jugador ya no es expulsado mientras JEI carga.
 
 # ---- 3. Forge ------------------------------------------------------------------------------------------------
 echo "[start.sh] Iniciando servidor con ${HEAP_MB} MB de heap..."
