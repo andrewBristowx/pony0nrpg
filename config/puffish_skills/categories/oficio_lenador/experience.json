@@ -1,0 +1,37 @@
+{
+	"level_limit": 30,
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "40 + 10 * level + 0.6 * level ^ 2"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:mine_block",
+			"data": {
+				"variables": {
+					"is_log": {
+						"operations": [
+							{
+								"type": "get_mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#minecraft:logs"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "is_log",
+						"expression": "3"
+					}
+				]
+			}
+		}
+	]
+}

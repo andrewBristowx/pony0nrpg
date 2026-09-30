@@ -1,0 +1,1070 @@
+{
+	"minero_f1": {
+		"title": "Minero · Fundamentos I",
+		"description": [
+			{
+				"text": "Minero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_pickaxe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_f2": {
+		"title": "Minero · Fundamentos II",
+		"description": [
+			{
+				"text": "Minero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:raw_iron"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_f2s": {
+		"title": "Minero · Soporte",
+		"description": [
+			{
+				"text": "Minero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:raw_iron"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_f3": {
+		"title": "Pico firme",
+		"description": [
+			{
+				"text": "Minero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Velocidad de minado\n",
+				"color": "green"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:coal"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.06,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_f4": {
+		"title": "Minero · Fundamentos IV",
+		"description": [
+			{
+				"text": "Minero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_f5": {
+		"title": "Minero · Fundamentos V",
+		"description": [
+			{
+				"text": "Minero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_f5s": {
+		"title": "Minero · Soporte",
+		"description": [
+			{
+				"text": "Minero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_f6": {
+		"title": "Ojo de minero",
+		"description": [
+			{
+				"text": "Minero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Velocidad de minado\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.2 Suerte\n",
+				"color": "green"
+			},
+			{
+				"text": "Hito de oficio I (los desbloqueos llegan con KubeJS)",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_pickaxe"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.06,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s oficio_minero_1",
+					"lock_command": "kubejs stages remove @s oficio_minero_1"
+				}
+			}
+		]
+	},
+	"minero_excavador_1": {
+		"title": "Excavador I",
+		"description": [
+			{
+				"text": "Minero › Excavador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_pickaxe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_excavador_2": {
+		"title": "Excavador II",
+		"description": [
+			{
+				"text": "Minero › Excavador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:tnt"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_excavador_s1": {
+		"title": "Excavador · Apoyo",
+		"description": [
+			{
+				"text": "Minero › Excavador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:cobblestone"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_excavador_3": {
+		"title": "Golpe seco",
+		"description": [
+			{
+				"text": "Minero › Excavador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+8% Velocidad de minado\n",
+				"color": "green"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_shovel"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.08,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_excavador_4": {
+		"title": "Excavador IV",
+		"description": [
+			{
+				"text": "Minero › Excavador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:cobblestone"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_excavador_5": {
+		"title": "Excavador V",
+		"description": [
+			{
+				"text": "Minero › Excavador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_pickaxe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_excavador_s2": {
+		"title": "Excavador · Apoyo",
+		"description": [
+			{
+				"text": "Minero › Excavador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_shovel"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_excavador_6": {
+		"title": "Veta a la vista",
+		"description": [
+			{
+				"text": "Minero › Excavador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+8% Velocidad de minado\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.5 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:tnt"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.08,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_excavador_7": {
+		"title": "Excavador VII",
+		"description": [
+			{
+				"text": "Minero › Excavador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_shovel"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_excavador_s3": {
+		"title": "Excavador · Apoyo",
+		"description": [
+			{
+				"text": "Minero › Excavador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.5 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_pickaxe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_excavador_8": {
+		"title": "Maestro excavador",
+		"description": [
+			{
+				"text": "Minero › Excavador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+15% Velocidad de minado\n",
+				"color": "green"
+			},
+			{
+				"text": "+4 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+2 Armadura\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima del Excavador.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Hito de oficio II",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:netherite_pickaxe"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.15,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s oficio_minero_2",
+					"lock_command": "kubejs stages remove @s oficio_minero_2"
+				}
+			}
+		],
+		"required_spent_points": 12
+	},
+	"minero_gemas_1": {
+		"title": "Buscador de gemas I",
+		"description": [
+			{
+				"text": "Minero › Buscador de gemas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:emerald"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_gemas_2": {
+		"title": "Buscador de gemas II",
+		"description": [
+			{
+				"text": "Minero › Buscador de gemas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_gemas_s1": {
+		"title": "Buscador de gemas · Apoyo",
+		"description": [
+			{
+				"text": "Minero › Buscador de gemas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:amethyst_shard"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_gemas_3": {
+		"title": "Instinto de gema",
+		"description": [
+			{
+				"text": "Minero › Buscador de gemas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.6 Suerte\n",
+				"color": "green"
+			},
+			{
+				"text": "+2% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lapis_lazuli"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.6,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_gemas_4": {
+		"title": "Buscador de gemas IV",
+		"description": [
+			{
+				"text": "Minero › Buscador de gemas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:amethyst_shard"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_gemas_5": {
+		"title": "Buscador de gemas V",
+		"description": [
+			{
+				"text": "Minero › Buscador de gemas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:emerald"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_gemas_s2": {
+		"title": "Buscador de gemas · Apoyo",
+		"description": [
+			{
+				"text": "Minero › Buscador de gemas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lapis_lazuli"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_gemas_6": {
+		"title": "Fortuna",
+		"description": [
+			{
+				"text": "Minero › Buscador de gemas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.6 Suerte\n",
+				"color": "green"
+			},
+			{
+				"text": "+2% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.6,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_gemas_7": {
+		"title": "Buscador de gemas VII",
+		"description": [
+			{
+				"text": "Minero › Buscador de gemas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lapis_lazuli"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_gemas_s3": {
+		"title": "Buscador de gemas · Apoyo",
+		"description": [
+			{
+				"text": "Minero › Buscador de gemas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:emerald"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"minero_gemas_8": {
+		"title": "Rey de las gemas",
+		"description": [
+			{
+				"text": "Minero › Buscador de gemas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.5 Suerte\n",
+				"color": "green"
+			},
+			{
+				"text": "+10% Experiencia ganada\n",
+				"color": "green"
+			},
+			{
+				"text": "+8% Velocidad de minado\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima del Buscador de gemas.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Hito de oficio II",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_block"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 1.5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.08,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s oficio_minero_2",
+					"lock_command": "kubejs stages remove @s oficio_minero_2"
+				}
+			}
+		],
+		"required_spent_points": 12
+	}
+}

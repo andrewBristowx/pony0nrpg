@@ -1,0 +1,263 @@
+{
+	"mago_f1": {
+		"x": 0,
+		"y": 0,
+		"definition": "mago_f1",
+		"root": true
+	},
+	"mago_f2": {
+		"x": 44,
+		"y": 0,
+		"definition": "mago_f2"
+	},
+	"mago_f2s": {
+		"x": 44,
+		"y": -38,
+		"definition": "mago_f2s"
+	},
+	"mago_f3": {
+		"x": 88,
+		"y": 0,
+		"definition": "mago_f3"
+	},
+	"mago_f4": {
+		"x": 132,
+		"y": 0,
+		"definition": "mago_f4"
+	},
+	"mago_f5": {
+		"x": 176,
+		"y": 0,
+		"definition": "mago_f5"
+	},
+	"mago_f5s": {
+		"x": 176,
+		"y": 38,
+		"definition": "mago_f5s"
+	},
+	"mago_f6": {
+		"x": 220,
+		"y": 0,
+		"definition": "mago_f6"
+	},
+	"mago_piromancia_1": {
+		"x": 276,
+		"y": -180,
+		"definition": "mago_piromancia_1"
+	},
+	"mago_piromancia_2": {
+		"x": 320,
+		"y": -180,
+		"definition": "mago_piromancia_2"
+	},
+	"mago_piromancia_s1": {
+		"x": 320,
+		"y": -218,
+		"definition": "mago_piromancia_s1"
+	},
+	"mago_piromancia_3": {
+		"x": 364,
+		"y": -180,
+		"definition": "mago_piromancia_3"
+	},
+	"mago_piromancia_4": {
+		"x": 408,
+		"y": -180,
+		"definition": "mago_piromancia_4"
+	},
+	"mago_piromancia_5": {
+		"x": 452,
+		"y": -180,
+		"definition": "mago_piromancia_5"
+	},
+	"mago_piromancia_s2": {
+		"x": 452,
+		"y": -142,
+		"definition": "mago_piromancia_s2"
+	},
+	"mago_piromancia_6": {
+		"x": 496,
+		"y": -180,
+		"definition": "mago_piromancia_6"
+	},
+	"mago_piromancia_7": {
+		"x": 540,
+		"y": -180,
+		"definition": "mago_piromancia_7"
+	},
+	"mago_piromancia_s3": {
+		"x": 540,
+		"y": -218,
+		"definition": "mago_piromancia_s3"
+	},
+	"mago_piromancia_8": {
+		"x": 584,
+		"y": -180,
+		"definition": "mago_piromancia_8"
+	},
+	"mago_criomancia_1": {
+		"x": 276,
+		"y": -60,
+		"definition": "mago_criomancia_1"
+	},
+	"mago_criomancia_2": {
+		"x": 320,
+		"y": -60,
+		"definition": "mago_criomancia_2"
+	},
+	"mago_criomancia_s1": {
+		"x": 320,
+		"y": -98,
+		"definition": "mago_criomancia_s1"
+	},
+	"mago_criomancia_3": {
+		"x": 364,
+		"y": -60,
+		"definition": "mago_criomancia_3"
+	},
+	"mago_criomancia_4": {
+		"x": 408,
+		"y": -60,
+		"definition": "mago_criomancia_4"
+	},
+	"mago_criomancia_5": {
+		"x": 452,
+		"y": -60,
+		"definition": "mago_criomancia_5"
+	},
+	"mago_criomancia_s2": {
+		"x": 452,
+		"y": -22,
+		"definition": "mago_criomancia_s2"
+	},
+	"mago_criomancia_6": {
+		"x": 496,
+		"y": -60,
+		"definition": "mago_criomancia_6"
+	},
+	"mago_criomancia_7": {
+		"x": 540,
+		"y": -60,
+		"definition": "mago_criomancia_7"
+	},
+	"mago_criomancia_s3": {
+		"x": 540,
+		"y": -98,
+		"definition": "mago_criomancia_s3"
+	},
+	"mago_criomancia_8": {
+		"x": 584,
+		"y": -60,
+		"definition": "mago_criomancia_8"
+	},
+	"mago_arcanismo_1": {
+		"x": 276,
+		"y": 60,
+		"definition": "mago_arcanismo_1"
+	},
+	"mago_arcanismo_2": {
+		"x": 320,
+		"y": 60,
+		"definition": "mago_arcanismo_2"
+	},
+	"mago_arcanismo_s1": {
+		"x": 320,
+		"y": 22,
+		"definition": "mago_arcanismo_s1"
+	},
+	"mago_arcanismo_3": {
+		"x": 364,
+		"y": 60,
+		"definition": "mago_arcanismo_3"
+	},
+	"mago_arcanismo_4": {
+		"x": 408,
+		"y": 60,
+		"definition": "mago_arcanismo_4"
+	},
+	"mago_arcanismo_5": {
+		"x": 452,
+		"y": 60,
+		"definition": "mago_arcanismo_5"
+	},
+	"mago_arcanismo_s2": {
+		"x": 452,
+		"y": 98,
+		"definition": "mago_arcanismo_s2"
+	},
+	"mago_arcanismo_6": {
+		"x": 496,
+		"y": 60,
+		"definition": "mago_arcanismo_6"
+	},
+	"mago_arcanismo_7": {
+		"x": 540,
+		"y": 60,
+		"definition": "mago_arcanismo_7"
+	},
+	"mago_arcanismo_s3": {
+		"x": 540,
+		"y": 22,
+		"definition": "mago_arcanismo_s3"
+	},
+	"mago_arcanismo_8": {
+		"x": 584,
+		"y": 60,
+		"definition": "mago_arcanismo_8"
+	},
+	"mago_oscuridad_1": {
+		"x": 276,
+		"y": 180,
+		"definition": "mago_oscuridad_1"
+	},
+	"mago_oscuridad_2": {
+		"x": 320,
+		"y": 180,
+		"definition": "mago_oscuridad_2"
+	},
+	"mago_oscuridad_s1": {
+		"x": 320,
+		"y": 142,
+		"definition": "mago_oscuridad_s1"
+	},
+	"mago_oscuridad_3": {
+		"x": 364,
+		"y": 180,
+		"definition": "mago_oscuridad_3"
+	},
+	"mago_oscuridad_4": {
+		"x": 408,
+		"y": 180,
+		"definition": "mago_oscuridad_4"
+	},
+	"mago_oscuridad_5": {
+		"x": 452,
+		"y": 180,
+		"definition": "mago_oscuridad_5"
+	},
+	"mago_oscuridad_s2": {
+		"x": 452,
+		"y": 218,
+		"definition": "mago_oscuridad_s2"
+	},
+	"mago_oscuridad_6": {
+		"x": 496,
+		"y": 180,
+		"definition": "mago_oscuridad_6"
+	},
+	"mago_oscuridad_7": {
+		"x": 540,
+		"y": 180,
+		"definition": "mago_oscuridad_7"
+	},
+	"mago_oscuridad_s3": {
+		"x": 540,
+		"y": 142,
+		"definition": "mago_oscuridad_s3"
+	},
+	"mago_oscuridad_8": {
+		"x": 584,
+		"y": 180,
+		"definition": "mago_oscuridad_8"
+	}
+}

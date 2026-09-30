@@ -1,0 +1,17 @@
+{
+	"level_limit": 30,
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "40 + 10 * level + 0.6 * level ^ 2"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:fish_item",
+			"data": {
+				"experience": "6"
+			}
+		}
+	]
+}

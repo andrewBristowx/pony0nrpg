@@ -1,0 +1,148 @@
+{
+	"level_limit": 30,
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "40 + 10 * level + 0.6 * level ^ 2"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:craft_item",
+			"data": {
+				"variables": {
+					"sword": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "#minecraft:swords"
+								}
+							}
+						]
+					},
+					"pick": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "#minecraft:pickaxes"
+								}
+							}
+						]
+					},
+					"axe": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "#minecraft:axes"
+								}
+							}
+						]
+					},
+					"shovel": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "#minecraft:shovels"
+								}
+							}
+						]
+					},
+					"hoe": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "#minecraft:hoes"
+								}
+							}
+						]
+					},
+					"armor": {
+						"operations": [
+							{
+								"type": "get_crafted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "#minecraft:trimmable_armor"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "sword",
+						"expression": "8"
+					},
+					{
+						"condition": "pick",
+						"expression": "6"
+					},
+					{
+						"condition": "axe",
+						"expression": "6"
+					},
+					{
+						"condition": "shovel",
+						"expression": "4"
+					},
+					{
+						"condition": "hoe",
+						"expression": "4"
+					},
+					{
+						"condition": "armor",
+						"expression": "10"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:smelt_item",
+			"data": {
+				"variables": {
+					"ingot": {
+						"operations": [
+							{
+								"type": "get_smelted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "#forge:ingots"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "ingot",
+						"expression": "3"
+					}
+				]
+			}
+		}
+	]
+}

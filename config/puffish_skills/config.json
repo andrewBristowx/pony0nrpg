@@ -2,6 +2,18 @@
 	"version": 3,
 	"show_warnings": true,
 	"categories": [
-		"habilidades"
+		"habilidades",
+		"oficio_minero",
+		"oficio_lenador",
+		"oficio_granjero",
+		"oficio_pescador",
+		"oficio_herrero",
+		"oficio_cocinero",
+		"oficio_encantador",
+		"ascension_guerrero",
+		"ascension_arquero",
+		"ascension_mago",
+		"ascension_ingeniero",
+		"ascension_asesino"
 	]
 }

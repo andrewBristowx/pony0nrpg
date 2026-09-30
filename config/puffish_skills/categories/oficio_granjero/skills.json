@@ -1,0 +1,153 @@
+{
+	"granjero_f1": {
+		"x": 0,
+		"y": 0,
+		"definition": "granjero_f1",
+		"root": true
+	},
+	"granjero_f2": {
+		"x": 44,
+		"y": 0,
+		"definition": "granjero_f2"
+	},
+	"granjero_f2s": {
+		"x": 44,
+		"y": -38,
+		"definition": "granjero_f2s"
+	},
+	"granjero_f3": {
+		"x": 88,
+		"y": 0,
+		"definition": "granjero_f3"
+	},
+	"granjero_f4": {
+		"x": 132,
+		"y": 0,
+		"definition": "granjero_f4"
+	},
+	"granjero_f5": {
+		"x": 176,
+		"y": 0,
+		"definition": "granjero_f5"
+	},
+	"granjero_f5s": {
+		"x": 176,
+		"y": 38,
+		"definition": "granjero_f5s"
+	},
+	"granjero_f6": {
+		"x": 220,
+		"y": 0,
+		"definition": "granjero_f6"
+	},
+	"granjero_cosechador_1": {
+		"x": 276,
+		"y": -60,
+		"definition": "granjero_cosechador_1"
+	},
+	"granjero_cosechador_2": {
+		"x": 320,
+		"y": -60,
+		"definition": "granjero_cosechador_2"
+	},
+	"granjero_cosechador_s1": {
+		"x": 320,
+		"y": -98,
+		"definition": "granjero_cosechador_s1"
+	},
+	"granjero_cosechador_3": {
+		"x": 364,
+		"y": -60,
+		"definition": "granjero_cosechador_3"
+	},
+	"granjero_cosechador_4": {
+		"x": 408,
+		"y": -60,
+		"definition": "granjero_cosechador_4"
+	},
+	"granjero_cosechador_5": {
+		"x": 452,
+		"y": -60,
+		"definition": "granjero_cosechador_5"
+	},
+	"granjero_cosechador_s2": {
+		"x": 452,
+		"y": -22,
+		"definition": "granjero_cosechador_s2"
+	},
+	"granjero_cosechador_6": {
+		"x": 496,
+		"y": -60,
+		"definition": "granjero_cosechador_6"
+	},
+	"granjero_cosechador_7": {
+		"x": 540,
+		"y": -60,
+		"definition": "granjero_cosechador_7"
+	},
+	"granjero_cosechador_s3": {
+		"x": 540,
+		"y": -98,
+		"definition": "granjero_cosechador_s3"
+	},
+	"granjero_cosechador_8": {
+		"x": 584,
+		"y": -60,
+		"definition": "granjero_cosechador_8"
+	},
+	"granjero_agricultor_1": {
+		"x": 276,
+		"y": 60,
+		"definition": "granjero_agricultor_1"
+	},
+	"granjero_agricultor_2": {
+		"x": 320,
+		"y": 60,
+		"definition": "granjero_agricultor_2"
+	},
+	"granjero_agricultor_s1": {
+		"x": 320,
+		"y": 22,
+		"definition": "granjero_agricultor_s1"
+	},
+	"granjero_agricultor_3": {
+		"x": 364,
+		"y": 60,
+		"definition": "granjero_agricultor_3"
+	},
+	"granjero_agricultor_4": {
+		"x": 408,
+		"y": 60,
+		"definition": "granjero_agricultor_4"
+	},
+	"granjero_agricultor_5": {
+		"x": 452,
+		"y": 60,
+		"definition": "granjero_agricultor_5"
+	},
+	"granjero_agricultor_s2": {
+		"x": 452,
+		"y": 98,
+		"definition": "granjero_agricultor_s2"
+	},
+	"granjero_agricultor_6": {
+		"x": 496,
+		"y": 60,
+		"definition": "granjero_agricultor_6"
+	},
+	"granjero_agricultor_7": {
+		"x": 540,
+		"y": 60,
+		"definition": "granjero_agricultor_7"
+	},
+	"granjero_agricultor_s3": {
+		"x": 540,
+		"y": 22,
+		"definition": "granjero_agricultor_s3"
+	},
+	"granjero_agricultor_8": {
+		"x": 584,
+		"y": 60,
+		"definition": "granjero_agricultor_8"
+	}
+}

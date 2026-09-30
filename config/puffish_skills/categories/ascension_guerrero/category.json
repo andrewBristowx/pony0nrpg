@@ -1,0 +1,14 @@
+{
+	"title": "Ascensión: Guerrero",
+	"description": "Se desbloquea al elegir la Ascensión de Guerrero. Los puntos se ganan completando las misiones de esta clase.",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "minecraft:iron_sword"
+		}
+	},
+	"background": "minecraft:textures/gui/advancements/backgrounds/nether.png",
+	"unlocked_by_default": false,
+	"spent_points_limit": 50,
+	"exclusive_root": false
+}

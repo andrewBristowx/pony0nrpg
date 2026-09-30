@@ -1,0 +1,1070 @@
+{
+	"cocinero_f1": {
+		"title": "Cocinero · Fundamentos I",
+		"description": [
+			{
+				"text": "Cocinero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Curación recibida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:furnace"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_f2": {
+		"title": "Cocinero · Fundamentos II",
+		"description": [
+			{
+				"text": "Cocinero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:cooked_beef"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_f2s": {
+		"title": "Cocinero · Soporte",
+		"description": [
+			{
+				"text": "Cocinero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Curación recibida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:cooked_beef"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_f3": {
+		"title": "Fuego lento",
+		"description": [
+			{
+				"text": "Cocinero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4% Curación recibida\n",
+				"color": "green"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:bread"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_f4": {
+		"title": "Cocinero · Fundamentos IV",
+		"description": [
+			{
+				"text": "Cocinero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Curación recibida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:cake"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_f5": {
+		"title": "Cocinero · Fundamentos V",
+		"description": [
+			{
+				"text": "Cocinero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:smoker"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_f5s": {
+		"title": "Cocinero · Soporte",
+		"description": [
+			{
+				"text": "Cocinero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Curación recibida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:smoker"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_f6": {
+		"title": "Buena sazón",
+		"description": [
+			{
+				"text": "Cocinero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4% Curación recibida\n",
+				"color": "green"
+			},
+			{
+				"text": "+1% Sobrecuración\n",
+				"color": "green"
+			},
+			{
+				"text": "Hito de oficio I (los desbloqueos llegan con KubeJS)",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_apple"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:overheal",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s oficio_cocinero_1",
+					"lock_command": "kubejs stages remove @s oficio_cocinero_1"
+				}
+			}
+		]
+	},
+	"cocinero_chef_1": {
+		"title": "Chef I",
+		"description": [
+			{
+				"text": "Cocinero › Chef\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Curación recibida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:cooked_porkchop"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_chef_2": {
+		"title": "Chef II",
+		"description": [
+			{
+				"text": "Cocinero › Chef\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:pumpkin_pie"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_chef_s1": {
+		"title": "Chef · Apoyo",
+		"description": [
+			{
+				"text": "Cocinero › Chef\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Curación recibida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_carrot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_chef_3": {
+		"title": "Plato del día",
+		"description": [
+			{
+				"text": "Cocinero › Chef\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Curación recibida\n",
+				"color": "green"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:cookie"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.06,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_chef_4": {
+		"title": "Chef IV",
+		"description": [
+			{
+				"text": "Cocinero › Chef\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Curación recibida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_carrot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_chef_5": {
+		"title": "Chef V",
+		"description": [
+			{
+				"text": "Cocinero › Chef\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:cooked_porkchop"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_chef_s2": {
+		"title": "Chef · Apoyo",
+		"description": [
+			{
+				"text": "Cocinero › Chef\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:cookie"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_chef_6": {
+		"title": "Receta secreta",
+		"description": [
+			{
+				"text": "Cocinero › Chef\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Curación recibida\n",
+				"color": "green"
+			},
+			{
+				"text": "+2% Sobrecuración",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:pumpkin_pie"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.06,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:overheal",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_chef_7": {
+		"title": "Chef VII",
+		"description": [
+			{
+				"text": "Cocinero › Chef\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Curación recibida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:cookie"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_chef_s3": {
+		"title": "Chef · Apoyo",
+		"description": [
+			{
+				"text": "Cocinero › Chef\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Sobrecuración",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:cooked_porkchop"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:overheal",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_chef_8": {
+		"title": "Gran chef",
+		"description": [
+			{
+				"text": "Cocinero › Chef\n",
+				"color": "gold"
+			},
+			{
+				"text": "+12% Curación recibida\n",
+				"color": "green"
+			},
+			{
+				"text": "+4 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+8% Sobrecuración\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima del Chef.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Hito de oficio II",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:enchanted_golden_apple"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.12,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:overheal",
+					"value": 0.08,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s oficio_cocinero_2",
+					"lock_command": "kubejs stages remove @s oficio_cocinero_2"
+				}
+			}
+		],
+		"required_spent_points": 12
+	},
+	"cocinero_gourmet_1": {
+		"title": "Gourmet I",
+		"description": [
+			{
+				"text": "Cocinero › Gourmet\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:cooked_salmon"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_gourmet_2": {
+		"title": "Gourmet II",
+		"description": [
+			{
+				"text": "Cocinero › Gourmet\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:honey_bottle"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_gourmet_s1": {
+		"title": "Gourmet · Apoyo",
+		"description": [
+			{
+				"text": "Cocinero › Gourmet\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:mushroom_stew"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_gourmet_3": {
+		"title": "Buen paladar",
+		"description": [
+			{
+				"text": "Cocinero › Gourmet\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+1% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:sweet_berries"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_gourmet_4": {
+		"title": "Gourmet IV",
+		"description": [
+			{
+				"text": "Cocinero › Gourmet\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:mushroom_stew"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_gourmet_5": {
+		"title": "Gourmet V",
+		"description": [
+			{
+				"text": "Cocinero › Gourmet\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:cooked_salmon"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_gourmet_s2": {
+		"title": "Gourmet · Apoyo",
+		"description": [
+			{
+				"text": "Cocinero › Gourmet\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:sweet_berries"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_gourmet_6": {
+		"title": "Menú degustación",
+		"description": [
+			{
+				"text": "Cocinero › Gourmet\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+2% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:honey_bottle"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_gourmet_7": {
+		"title": "Gourmet VII",
+		"description": [
+			{
+				"text": "Cocinero › Gourmet\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:sweet_berries"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_gourmet_s3": {
+		"title": "Gourmet · Apoyo",
+		"description": [
+			{
+				"text": "Cocinero › Gourmet\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:cooked_salmon"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"cocinero_gourmet_8": {
+		"title": "Maestro gourmet",
+		"description": [
+			{
+				"text": "Cocinero › Gourmet\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+4% Velocidad de movimiento\n",
+				"color": "green"
+			},
+			{
+				"text": "+8% Experiencia ganada\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima del Gourmet.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Hito de oficio II",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:cake"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.08,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s oficio_cocinero_2",
+					"lock_command": "kubejs stages remove @s oficio_cocinero_2"
+				}
+			}
+		],
+		"required_spent_points": 12
+	}
+}

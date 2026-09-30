@@ -1,0 +1,208 @@
+{
+	"arquero_f1": {
+		"x": 0,
+		"y": 0,
+		"definition": "arquero_f1",
+		"root": true
+	},
+	"arquero_f2": {
+		"x": 44,
+		"y": 0,
+		"definition": "arquero_f2"
+	},
+	"arquero_f2s": {
+		"x": 44,
+		"y": -38,
+		"definition": "arquero_f2s"
+	},
+	"arquero_f3": {
+		"x": 88,
+		"y": 0,
+		"definition": "arquero_f3"
+	},
+	"arquero_f4": {
+		"x": 132,
+		"y": 0,
+		"definition": "arquero_f4"
+	},
+	"arquero_f5": {
+		"x": 176,
+		"y": 0,
+		"definition": "arquero_f5"
+	},
+	"arquero_f5s": {
+		"x": 176,
+		"y": 38,
+		"definition": "arquero_f5s"
+	},
+	"arquero_f6": {
+		"x": 220,
+		"y": 0,
+		"definition": "arquero_f6"
+	},
+	"arquero_francotirador_1": {
+		"x": 276,
+		"y": -120,
+		"definition": "arquero_francotirador_1"
+	},
+	"arquero_francotirador_2": {
+		"x": 320,
+		"y": -120,
+		"definition": "arquero_francotirador_2"
+	},
+	"arquero_francotirador_s1": {
+		"x": 320,
+		"y": -158,
+		"definition": "arquero_francotirador_s1"
+	},
+	"arquero_francotirador_3": {
+		"x": 364,
+		"y": -120,
+		"definition": "arquero_francotirador_3"
+	},
+	"arquero_francotirador_4": {
+		"x": 408,
+		"y": -120,
+		"definition": "arquero_francotirador_4"
+	},
+	"arquero_francotirador_5": {
+		"x": 452,
+		"y": -120,
+		"definition": "arquero_francotirador_5"
+	},
+	"arquero_francotirador_s2": {
+		"x": 452,
+		"y": -82,
+		"definition": "arquero_francotirador_s2"
+	},
+	"arquero_francotirador_6": {
+		"x": 496,
+		"y": -120,
+		"definition": "arquero_francotirador_6"
+	},
+	"arquero_francotirador_7": {
+		"x": 540,
+		"y": -120,
+		"definition": "arquero_francotirador_7"
+	},
+	"arquero_francotirador_s3": {
+		"x": 540,
+		"y": -158,
+		"definition": "arquero_francotirador_s3"
+	},
+	"arquero_francotirador_8": {
+		"x": 584,
+		"y": -120,
+		"definition": "arquero_francotirador_8"
+	},
+	"arquero_explorador_1": {
+		"x": 276,
+		"y": 0,
+		"definition": "arquero_explorador_1"
+	},
+	"arquero_explorador_2": {
+		"x": 320,
+		"y": 0,
+		"definition": "arquero_explorador_2"
+	},
+	"arquero_explorador_s1": {
+		"x": 320,
+		"y": -38,
+		"definition": "arquero_explorador_s1"
+	},
+	"arquero_explorador_3": {
+		"x": 364,
+		"y": 0,
+		"definition": "arquero_explorador_3"
+	},
+	"arquero_explorador_4": {
+		"x": 408,
+		"y": 0,
+		"definition": "arquero_explorador_4"
+	},
+	"arquero_explorador_5": {
+		"x": 452,
+		"y": 0,
+		"definition": "arquero_explorador_5"
+	},
+	"arquero_explorador_s2": {
+		"x": 452,
+		"y": 38,
+		"definition": "arquero_explorador_s2"
+	},
+	"arquero_explorador_6": {
+		"x": 496,
+		"y": 0,
+		"definition": "arquero_explorador_6"
+	},
+	"arquero_explorador_7": {
+		"x": 540,
+		"y": 0,
+		"definition": "arquero_explorador_7"
+	},
+	"arquero_explorador_s3": {
+		"x": 540,
+		"y": -38,
+		"definition": "arquero_explorador_s3"
+	},
+	"arquero_explorador_8": {
+		"x": 584,
+		"y": 0,
+		"definition": "arquero_explorador_8"
+	},
+	"arquero_tirador_1": {
+		"x": 276,
+		"y": 120,
+		"definition": "arquero_tirador_1"
+	},
+	"arquero_tirador_2": {
+		"x": 320,
+		"y": 120,
+		"definition": "arquero_tirador_2"
+	},
+	"arquero_tirador_s1": {
+		"x": 320,
+		"y": 82,
+		"definition": "arquero_tirador_s1"
+	},
+	"arquero_tirador_3": {
+		"x": 364,
+		"y": 120,
+		"definition": "arquero_tirador_3"
+	},
+	"arquero_tirador_4": {
+		"x": 408,
+		"y": 120,
+		"definition": "arquero_tirador_4"
+	},
+	"arquero_tirador_5": {
+		"x": 452,
+		"y": 120,
+		"definition": "arquero_tirador_5"
+	},
+	"arquero_tirador_s2": {
+		"x": 452,
+		"y": 158,
+		"definition": "arquero_tirador_s2"
+	},
+	"arquero_tirador_6": {
+		"x": 496,
+		"y": 120,
+		"definition": "arquero_tirador_6"
+	},
+	"arquero_tirador_7": {
+		"x": 540,
+		"y": 120,
+		"definition": "arquero_tirador_7"
+	},
+	"arquero_tirador_s3": {
+		"x": 540,
+		"y": 82,
+		"definition": "arquero_tirador_s3"
+	},
+	"arquero_tirador_8": {
+		"x": 584,
+		"y": 120,
+		"definition": "arquero_tirador_8"
+	}
+}

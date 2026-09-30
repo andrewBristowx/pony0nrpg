@@ -1,0 +1,1070 @@
+{
+	"granjero_f1": {
+		"title": "Granjero · Fundamentos I",
+		"description": [
+			{
+				"text": "Granjero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:wheat_seeds"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_f2": {
+		"title": "Granjero · Fundamentos II",
+		"description": [
+			{
+				"text": "Granjero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Curación recibida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:wheat"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_f2s": {
+		"title": "Granjero · Soporte",
+		"description": [
+			{
+				"text": "Granjero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:wheat"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_f3": {
+		"title": "Manos verdes",
+		"description": [
+			{
+				"text": "Granjero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+2% Curación recibida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:carrot"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_f4": {
+		"title": "Granjero · Fundamentos IV",
+		"description": [
+			{
+				"text": "Granjero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:potato"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_f5": {
+		"title": "Granjero · Fundamentos V",
+		"description": [
+			{
+				"text": "Granjero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Curación recibida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:hay_block"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_f5s": {
+		"title": "Granjero · Soporte",
+		"description": [
+			{
+				"text": "Granjero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:hay_block"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_f6": {
+		"title": "Cosecha abundante",
+		"description": [
+			{
+				"text": "Granjero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.2 Suerte\n",
+				"color": "green"
+			},
+			{
+				"text": "Hito de oficio I (los desbloqueos llegan con KubeJS)",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_carrot"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s oficio_granjero_1",
+					"lock_command": "kubejs stages remove @s oficio_granjero_1"
+				}
+			}
+		]
+	},
+	"granjero_cosechador_1": {
+		"title": "Cosechador I",
+		"description": [
+			{
+				"text": "Granjero › Cosechador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Curación recibida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:wheat"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_cosechador_2": {
+		"title": "Cosechador II",
+		"description": [
+			{
+				"text": "Granjero › Cosechador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:bread"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_cosechador_s1": {
+		"title": "Cosechador · Apoyo",
+		"description": [
+			{
+				"text": "Granjero › Cosechador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Curación recibida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:pumpkin"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_cosechador_3": {
+		"title": "Buena cosecha",
+		"description": [
+			{
+				"text": "Granjero › Cosechador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Curación recibida\n",
+				"color": "green"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:melon_slice"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.06,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_cosechador_4": {
+		"title": "Cosechador IV",
+		"description": [
+			{
+				"text": "Granjero › Cosechador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Curación recibida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:pumpkin"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_cosechador_5": {
+		"title": "Cosechador V",
+		"description": [
+			{
+				"text": "Granjero › Cosechador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:wheat"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_cosechador_s2": {
+		"title": "Cosechador · Apoyo",
+		"description": [
+			{
+				"text": "Granjero › Cosechador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:melon_slice"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_cosechador_6": {
+		"title": "Despensa llena",
+		"description": [
+			{
+				"text": "Granjero › Cosechador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Curación recibida\n",
+				"color": "green"
+			},
+			{
+				"text": "+2% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:bread"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.06,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_cosechador_7": {
+		"title": "Cosechador VII",
+		"description": [
+			{
+				"text": "Granjero › Cosechador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Curación recibida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:melon_slice"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_cosechador_s3": {
+		"title": "Cosechador · Apoyo",
+		"description": [
+			{
+				"text": "Granjero › Cosechador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:wheat"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_cosechador_8": {
+		"title": "Señor de la cosecha",
+		"description": [
+			{
+				"text": "Granjero › Cosechador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+12% Curación recibida\n",
+				"color": "green"
+			},
+			{
+				"text": "+4 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+8% Experiencia ganada\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima del Cosechador.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Hito de oficio II",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_apple"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.12,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.08,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s oficio_granjero_2",
+					"lock_command": "kubejs stages remove @s oficio_granjero_2"
+				}
+			}
+		],
+		"required_spent_points": 12
+	},
+	"granjero_agricultor_1": {
+		"title": "Agricultor incansable I",
+		"description": [
+			{
+				"text": "Granjero › Agricultor incansable\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.5% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_hoe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.015,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_agricultor_2": {
+		"title": "Agricultor incansable II",
+		"description": [
+			{
+				"text": "Granjero › Agricultor incansable\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:sugar_cane"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_agricultor_s1": {
+		"title": "Agricultor incansable · Apoyo",
+		"description": [
+			{
+				"text": "Granjero › Agricultor incansable\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.5% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:carrot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.015,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_agricultor_3": {
+		"title": "Pies en la tierra",
+		"description": [
+			{
+				"text": "Granjero › Agricultor incansable\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Velocidad de movimiento\n",
+				"color": "green"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:beetroot"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_agricultor_4": {
+		"title": "Agricultor incansable IV",
+		"description": [
+			{
+				"text": "Granjero › Agricultor incansable\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.5% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:carrot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.015,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_agricultor_5": {
+		"title": "Agricultor incansable V",
+		"description": [
+			{
+				"text": "Granjero › Agricultor incansable\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_hoe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_agricultor_s2": {
+		"title": "Agricultor incansable · Apoyo",
+		"description": [
+			{
+				"text": "Granjero › Agricultor incansable\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:beetroot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_agricultor_6": {
+		"title": "Jornada larga",
+		"description": [
+			{
+				"text": "Granjero › Agricultor incansable\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Velocidad de movimiento\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.3 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:sugar_cane"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_agricultor_7": {
+		"title": "Agricultor incansable VII",
+		"description": [
+			{
+				"text": "Granjero › Agricultor incansable\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.5% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:beetroot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.015,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_agricultor_s3": {
+		"title": "Agricultor incansable · Apoyo",
+		"description": [
+			{
+				"text": "Granjero › Agricultor incansable\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_hoe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"granjero_agricultor_8": {
+		"title": "Maestro agricultor",
+		"description": [
+			{
+				"text": "Granjero › Agricultor incansable\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5% Velocidad de movimiento\n",
+				"color": "green"
+			},
+			{
+				"text": "+4 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+1 Suerte\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima del Agricultor.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Hito de oficio II",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:netherite_hoe"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s oficio_granjero_2",
+					"lock_command": "kubejs stages remove @s oficio_granjero_2"
+				}
+			}
+		],
+		"required_spent_points": 12
+	}
+}

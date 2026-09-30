@@ -1,0 +1,14 @@
+{
+	"title": "Ascensión: Arquero",
+	"description": "Se desbloquea al elegir la Ascensión de Arquero. Los puntos se ganan completando las misiones de esta clase.",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "minecraft:bow"
+		}
+	},
+	"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+	"unlocked_by_default": false,
+	"spent_points_limit": 50,
+	"exclusive_root": false
+}

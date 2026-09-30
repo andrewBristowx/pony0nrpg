@@ -1,0 +1,13 @@
+{
+	"title": "Herrero",
+	"description": "Sube fabricando herramientas, armas y armaduras, y fundiendo lingotes. Cada nivel da 1 punto.",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "minecraft:anvil"
+		}
+	},
+	"background": "minecraft:textures/gui/advancements/backgrounds/nether.png",
+	"unlocked_by_default": true,
+	"exclusive_root": false
+}

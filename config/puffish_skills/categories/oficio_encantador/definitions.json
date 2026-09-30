@@ -1,0 +1,1070 @@
+{
+	"encantador_f1": {
+		"title": "Encantador · Fundamentos I",
+		"description": [
+			{
+				"text": "Encantador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:enchanting_table"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"encantador_f2": {
+		"title": "Encantador · Fundamentos II",
+		"description": [
+			{
+				"text": "Encantador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.2 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lapis_lazuli"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"encantador_f2s": {
+		"title": "Encantador · Soporte",
+		"description": [
+			{
+				"text": "Encantador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lapis_lazuli"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"encantador_f3": {
+		"title": "Primera runa",
+		"description": [
+			{
+				"text": "Encantador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4% Experiencia ganada\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.2 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:book"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"encantador_f4": {
+		"title": "Encantador · Fundamentos IV",
+		"description": [
+			{
+				"text": "Encantador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:experience_bottle"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"encantador_f5": {
+		"title": "Encantador · Fundamentos V",
+		"description": [
+			{
+				"text": "Encantador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.2 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:enchanted_book"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"encantador_f5s": {
+		"title": "Encantador · Soporte",
+		"description": [
+			{
+				"text": "Encantador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:enchanted_book"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"encantador_f6": {
+		"title": "Mente clara",
+		"description": [
+			{
+				"text": "Encantador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4% Experiencia ganada\n",
+				"color": "green"
+			},
+			{
+				"text": "+10 Maná máximo\n",
+				"color": "green"
+			},
+			{
+				"text": "Hito de oficio I (los desbloqueos llegan con KubeJS)",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:end_crystal"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 10,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s oficio_encantador_1",
+					"lock_command": "kubejs stages remove @s oficio_encantador_1"
+				}
+			}
+		]
+	},
+	"encantador_erudito_1": {
+		"title": "Erudito I",
+		"description": [
+			{
+				"text": "Encantador › Erudito\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:book"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"encantador_erudito_2": {
+		"title": "Erudito II",
+		"description": [
+			{
+				"text": "Encantador › Erudito\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:writable_book"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"encantador_erudito_s1": {
+		"title": "Erudito · Apoyo",
+		"description": [
+			{
+				"text": "Encantador › Erudito\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:enchanted_book"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"encantador_erudito_3": {
+		"title": "Estudio profundo",
+		"description": [
+			{
+				"text": "Encantador › Erudito\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Experiencia ganada\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.3 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:experience_bottle"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.06,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"encantador_erudito_4": {
+		"title": "Erudito IV",
+		"description": [
+			{
+				"text": "Encantador › Erudito\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:enchanted_book"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"encantador_erudito_5": {
+		"title": "Erudito V",
+		"description": [
+			{
+				"text": "Encantador › Erudito\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:book"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"encantador_erudito_s2": {
+		"title": "Erudito · Apoyo",
+		"description": [
+			{
+				"text": "Encantador › Erudito\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:experience_bottle"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"encantador_erudito_6": {
+		"title": "Biblioteca propia",
+		"description": [
+			{
+				"text": "Encantador › Erudito\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Experiencia ganada\n",
+				"color": "green"
+			},
+			{
+				"text": "+10 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:writable_book"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.06,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"encantador_erudito_7": {
+		"title": "Erudito VII",
+		"description": [
+			{
+				"text": "Encantador › Erudito\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:experience_bottle"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"encantador_erudito_s3": {
+		"title": "Erudito · Apoyo",
+		"description": [
+			{
+				"text": "Encantador › Erudito\n",
+				"color": "gold"
+			},
+			{
+				"text": "+10 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:book"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"encantador_erudito_8": {
+		"title": "Gran erudito",
+		"description": [
+			{
+				"text": "Encantador › Erudito\n",
+				"color": "gold"
+			},
+			{
+				"text": "+15% Experiencia ganada\n",
+				"color": "green"
+			},
+			{
+				"text": "+1.5 Suerte\n",
+				"color": "green"
+			},
+			{
+				"text": "+50 Maná máximo\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima del Erudito.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Hito de oficio II",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:enchanted_book"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.15,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 1.5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 50,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s oficio_encantador_2",
+					"lock_command": "kubejs stages remove @s oficio_encantador_2"
+				}
+			}
+		],
+		"required_spent_points": 12
+	},
+	"encantador_arcanista_1": {
+		"title": "Arcanista I",
+		"description": [
+			{
+				"text": "Encantador › Arcanista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1% Poder de hechizo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:amethyst_shard"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"encantador_arcanista_2": {
+		"title": "Arcanista II",
+		"description": [
+			{
+				"text": "Encantador › Arcanista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+20 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:glowstone_dust"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 20,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"encantador_arcanista_s1": {
+		"title": "Arcanista · Apoyo",
+		"description": [
+			{
+				"text": "Encantador › Arcanista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1% Poder de hechizo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:nether_star"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"encantador_arcanista_3": {
+		"title": "Canalizar",
+		"description": [
+			{
+				"text": "Encantador › Arcanista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Poder de hechizo\n",
+				"color": "green"
+			},
+			{
+				"text": "+20 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:ender_pearl"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 20,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"encantador_arcanista_4": {
+		"title": "Arcanista IV",
+		"description": [
+			{
+				"text": "Encantador › Arcanista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1% Poder de hechizo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:nether_star"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"encantador_arcanista_5": {
+		"title": "Arcanista V",
+		"description": [
+			{
+				"text": "Encantador › Arcanista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+20 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:amethyst_shard"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 20,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"encantador_arcanista_s2": {
+		"title": "Arcanista · Apoyo",
+		"description": [
+			{
+				"text": "Encantador › Arcanista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+20 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:ender_pearl"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 20,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"encantador_arcanista_6": {
+		"title": "Resonancia",
+		"description": [
+			{
+				"text": "Encantador › Arcanista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Poder de hechizo\n",
+				"color": "green"
+			},
+			{
+				"text": "+1% Reducción de enfriamiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:glowstone_dust"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"encantador_arcanista_7": {
+		"title": "Arcanista VII",
+		"description": [
+			{
+				"text": "Encantador › Arcanista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1% Poder de hechizo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:ender_pearl"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"encantador_arcanista_s3": {
+		"title": "Arcanista · Apoyo",
+		"description": [
+			{
+				"text": "Encantador › Arcanista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1% Reducción de enfriamiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:amethyst_shard"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"encantador_arcanista_8": {
+		"title": "Gran arcanista",
+		"description": [
+			{
+				"text": "Encantador › Arcanista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Poder de hechizo\n",
+				"color": "green"
+			},
+			{
+				"text": "+100 Maná máximo\n",
+				"color": "green"
+			},
+			{
+				"text": "+4% Reducción de enfriamiento\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima del Arcanista.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Hito de oficio II",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:end_crystal"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.06,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 100,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.04,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s oficio_encantador_2",
+					"lock_command": "kubejs stages remove @s oficio_encantador_2"
+				}
+			}
+		],
+		"required_spent_points": 12
+	}
+}

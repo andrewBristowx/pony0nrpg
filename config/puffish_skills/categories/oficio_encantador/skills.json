@@ -1,0 +1,153 @@
+{
+	"encantador_f1": {
+		"x": 0,
+		"y": 0,
+		"definition": "encantador_f1",
+		"root": true
+	},
+	"encantador_f2": {
+		"x": 44,
+		"y": 0,
+		"definition": "encantador_f2"
+	},
+	"encantador_f2s": {
+		"x": 44,
+		"y": -38,
+		"definition": "encantador_f2s"
+	},
+	"encantador_f3": {
+		"x": 88,
+		"y": 0,
+		"definition": "encantador_f3"
+	},
+	"encantador_f4": {
+		"x": 132,
+		"y": 0,
+		"definition": "encantador_f4"
+	},
+	"encantador_f5": {
+		"x": 176,
+		"y": 0,
+		"definition": "encantador_f5"
+	},
+	"encantador_f5s": {
+		"x": 176,
+		"y": 38,
+		"definition": "encantador_f5s"
+	},
+	"encantador_f6": {
+		"x": 220,
+		"y": 0,
+		"definition": "encantador_f6"
+	},
+	"encantador_erudito_1": {
+		"x": 276,
+		"y": -60,
+		"definition": "encantador_erudito_1"
+	},
+	"encantador_erudito_2": {
+		"x": 320,
+		"y": -60,
+		"definition": "encantador_erudito_2"
+	},
+	"encantador_erudito_s1": {
+		"x": 320,
+		"y": -98,
+		"definition": "encantador_erudito_s1"
+	},
+	"encantador_erudito_3": {
+		"x": 364,
+		"y": -60,
+		"definition": "encantador_erudito_3"
+	},
+	"encantador_erudito_4": {
+		"x": 408,
+		"y": -60,
+		"definition": "encantador_erudito_4"
+	},
+	"encantador_erudito_5": {
+		"x": 452,
+		"y": -60,
+		"definition": "encantador_erudito_5"
+	},
+	"encantador_erudito_s2": {
+		"x": 452,
+		"y": -22,
+		"definition": "encantador_erudito_s2"
+	},
+	"encantador_erudito_6": {
+		"x": 496,
+		"y": -60,
+		"definition": "encantador_erudito_6"
+	},
+	"encantador_erudito_7": {
+		"x": 540,
+		"y": -60,
+		"definition": "encantador_erudito_7"
+	},
+	"encantador_erudito_s3": {
+		"x": 540,
+		"y": -98,
+		"definition": "encantador_erudito_s3"
+	},
+	"encantador_erudito_8": {
+		"x": 584,
+		"y": -60,
+		"definition": "encantador_erudito_8"
+	},
+	"encantador_arcanista_1": {
+		"x": 276,
+		"y": 60,
+		"definition": "encantador_arcanista_1"
+	},
+	"encantador_arcanista_2": {
+		"x": 320,
+		"y": 60,
+		"definition": "encantador_arcanista_2"
+	},
+	"encantador_arcanista_s1": {
+		"x": 320,
+		"y": 22,
+		"definition": "encantador_arcanista_s1"
+	},
+	"encantador_arcanista_3": {
+		"x": 364,
+		"y": 60,
+		"definition": "encantador_arcanista_3"
+	},
+	"encantador_arcanista_4": {
+		"x": 408,
+		"y": 60,
+		"definition": "encantador_arcanista_4"
+	},
+	"encantador_arcanista_5": {
+		"x": 452,
+		"y": 60,
+		"definition": "encantador_arcanista_5"
+	},
+	"encantador_arcanista_s2": {
+		"x": 452,
+		"y": 98,
+		"definition": "encantador_arcanista_s2"
+	},
+	"encantador_arcanista_6": {
+		"x": 496,
+		"y": 60,
+		"definition": "encantador_arcanista_6"
+	},
+	"encantador_arcanista_7": {
+		"x": 540,
+		"y": 60,
+		"definition": "encantador_arcanista_7"
+	},
+	"encantador_arcanista_s3": {
+		"x": 540,
+		"y": 22,
+		"definition": "encantador_arcanista_s3"
+	},
+	"encantador_arcanista_8": {
+		"x": 584,
+		"y": 60,
+		"definition": "encantador_arcanista_8"
+	}
+}

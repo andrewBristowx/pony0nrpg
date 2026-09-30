@@ -1,0 +1,1070 @@
+{
+	"herrero_f1": {
+		"title": "Herrero · Fundamentos I",
+		"description": [
+			{
+				"text": "Herrero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.5 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:anvil"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_f2": {
+		"title": "Herrero · Fundamentos II",
+		"description": [
+			{
+				"text": "Herrero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_f2s": {
+		"title": "Herrero · Soporte",
+		"description": [
+			{
+				"text": "Herrero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.5 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_f3": {
+		"title": "Yunque firme",
+		"description": [
+			{
+				"text": "Herrero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Armadura\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.3 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_f4": {
+		"title": "Herrero · Fundamentos IV",
+		"description": [
+			{
+				"text": "Herrero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.5 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_chestplate"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_f5": {
+		"title": "Herrero · Fundamentos V",
+		"description": [
+			{
+				"text": "Herrero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blast_furnace"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_f5s": {
+		"title": "Herrero · Soporte",
+		"description": [
+			{
+				"text": "Herrero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.5 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blast_furnace"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_f6": {
+		"title": "Martillo certero",
+		"description": [
+			{
+				"text": "Herrero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Armadura\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.2 Dureza de armadura\n",
+				"color": "green"
+			},
+			{
+				"text": "Hito de oficio I (los desbloqueos llegan con KubeJS)",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:netherite_ingot"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s oficio_herrero_1",
+					"lock_command": "kubejs stages remove @s oficio_herrero_1"
+				}
+			}
+		]
+	},
+	"herrero_armero_1": {
+		"title": "Armero I",
+		"description": [
+			{
+				"text": "Herrero › Armero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_chestplate"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_armero_2": {
+		"title": "Armero II",
+		"description": [
+			{
+				"text": "Herrero › Armero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Dureza de armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_helmet"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_armero_s1": {
+		"title": "Armero · Apoyo",
+		"description": [
+			{
+				"text": "Herrero › Armero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_chestplate"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_armero_3": {
+		"title": "Malla fina",
+		"description": [
+			{
+				"text": "Herrero › Armero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Armadura\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.3 Dureza de armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:shield"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_armero_4": {
+		"title": "Armero IV",
+		"description": [
+			{
+				"text": "Herrero › Armero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_chestplate"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_armero_5": {
+		"title": "Armero V",
+		"description": [
+			{
+				"text": "Herrero › Armero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Dureza de armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_chestplate"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_armero_s2": {
+		"title": "Armero · Apoyo",
+		"description": [
+			{
+				"text": "Herrero › Armero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Dureza de armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:shield"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_armero_6": {
+		"title": "Temple perfecto",
+		"description": [
+			{
+				"text": "Herrero › Armero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Armadura\n",
+				"color": "green"
+			},
+			{
+				"text": "+2% Resistencia al empuje",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_helmet"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_armero_7": {
+		"title": "Armero VII",
+		"description": [
+			{
+				"text": "Herrero › Armero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:shield"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_armero_s3": {
+		"title": "Armero · Apoyo",
+		"description": [
+			{
+				"text": "Herrero › Armero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Resistencia al empuje",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_chestplate"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_armero_8": {
+		"title": "Maestro armero",
+		"description": [
+			{
+				"text": "Herrero › Armero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3 Armadura\n",
+				"color": "green"
+			},
+			{
+				"text": "+1 Dureza de armadura\n",
+				"color": "green"
+			},
+			{
+				"text": "+8% Resistencia al empuje\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima del Armero.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Hito de oficio II",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:netherite_chestplate"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 3,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.08,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s oficio_herrero_2",
+					"lock_command": "kubejs stages remove @s oficio_herrero_2"
+				}
+			}
+		],
+		"required_spent_points": 12
+	},
+	"herrero_armas_1": {
+		"title": "Forjador de armas I",
+		"description": [
+			{
+				"text": "Herrero › Forjador de armas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.4 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_armas_2": {
+		"title": "Forjador de armas II",
+		"description": [
+			{
+				"text": "Herrero › Forjador de armas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.02 Velocidad de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_armas_s1": {
+		"title": "Forjador de armas · Apoyo",
+		"description": [
+			{
+				"text": "Herrero › Forjador de armas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.4 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blaze_powder"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_armas_3": {
+		"title": "Filo bien afilado",
+		"description": [
+			{
+				"text": "Herrero › Forjador de armas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.8 Daño de ataque\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.02 Velocidad de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_sword"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.8,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_armas_4": {
+		"title": "Forjador de armas IV",
+		"description": [
+			{
+				"text": "Herrero › Forjador de armas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.4 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blaze_powder"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_armas_5": {
+		"title": "Forjador de armas V",
+		"description": [
+			{
+				"text": "Herrero › Forjador de armas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.02 Velocidad de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_armas_s2": {
+		"title": "Forjador de armas · Apoyo",
+		"description": [
+			{
+				"text": "Herrero › Forjador de armas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.02 Velocidad de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_armas_6": {
+		"title": "Equilibrio",
+		"description": [
+			{
+				"text": "Herrero › Forjador de armas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.8 Daño de ataque\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.5 Perforación de armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_axe"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.8,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:armor_pierce",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_armas_7": {
+		"title": "Forjador de armas VII",
+		"description": [
+			{
+				"text": "Herrero › Forjador de armas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.4 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_armas_s3": {
+		"title": "Forjador de armas · Apoyo",
+		"description": [
+			{
+				"text": "Herrero › Forjador de armas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.5 Perforación de armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:armor_pierce",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"herrero_armas_8": {
+		"title": "Maestro forjador",
+		"description": [
+			{
+				"text": "Herrero › Forjador de armas\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.5 Daño de ataque\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.08 Velocidad de ataque\n",
+				"color": "green"
+			},
+			{
+				"text": "+2 Perforación de armadura\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima del Forjador de armas.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Hito de oficio II",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:netherite_sword"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 1.5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.08,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:armor_pierce",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s oficio_herrero_2",
+					"lock_command": "kubejs stages remove @s oficio_herrero_2"
+				}
+			}
+		],
+		"required_spent_points": 12
+	}
+}

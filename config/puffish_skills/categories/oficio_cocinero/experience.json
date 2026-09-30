@@ -1,0 +1,77 @@
+{
+	"level_limit": 30,
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "40 + 10 * level + 0.6 * level ^ 2"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:smelt_item",
+			"data": {
+				"variables": {
+					"meat": {
+						"operations": [
+							{
+								"type": "get_smelted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "#forge:cooked_meats"
+								}
+							}
+						]
+					},
+					"fish": {
+						"operations": [
+							{
+								"type": "get_smelted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "#forge:cooked_fishes"
+								}
+							}
+						]
+					},
+					"potato": {
+						"operations": [
+							{
+								"type": "get_smelted_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "minecraft:baked_potato"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"condition": "meat",
+						"expression": "4"
+					},
+					{
+						"condition": "fish",
+						"expression": "4"
+					},
+					{
+						"condition": "potato",
+						"expression": "3"
+					}
+				]
+			}
+		},
+		{
+			"type": "puffish_skills:eat_food",
+			"data": {
+				"experience": "1"
+			}
+		}
+	]
+}

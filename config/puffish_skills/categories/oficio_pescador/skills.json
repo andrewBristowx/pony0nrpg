@@ -1,0 +1,153 @@
+{
+	"pescador_f1": {
+		"x": 0,
+		"y": 0,
+		"definition": "pescador_f1",
+		"root": true
+	},
+	"pescador_f2": {
+		"x": 44,
+		"y": 0,
+		"definition": "pescador_f2"
+	},
+	"pescador_f2s": {
+		"x": 44,
+		"y": -38,
+		"definition": "pescador_f2s"
+	},
+	"pescador_f3": {
+		"x": 88,
+		"y": 0,
+		"definition": "pescador_f3"
+	},
+	"pescador_f4": {
+		"x": 132,
+		"y": 0,
+		"definition": "pescador_f4"
+	},
+	"pescador_f5": {
+		"x": 176,
+		"y": 0,
+		"definition": "pescador_f5"
+	},
+	"pescador_f5s": {
+		"x": 176,
+		"y": 38,
+		"definition": "pescador_f5s"
+	},
+	"pescador_f6": {
+		"x": 220,
+		"y": 0,
+		"definition": "pescador_f6"
+	},
+	"pescador_fortuna_1": {
+		"x": 276,
+		"y": -60,
+		"definition": "pescador_fortuna_1"
+	},
+	"pescador_fortuna_2": {
+		"x": 320,
+		"y": -60,
+		"definition": "pescador_fortuna_2"
+	},
+	"pescador_fortuna_s1": {
+		"x": 320,
+		"y": -98,
+		"definition": "pescador_fortuna_s1"
+	},
+	"pescador_fortuna_3": {
+		"x": 364,
+		"y": -60,
+		"definition": "pescador_fortuna_3"
+	},
+	"pescador_fortuna_4": {
+		"x": 408,
+		"y": -60,
+		"definition": "pescador_fortuna_4"
+	},
+	"pescador_fortuna_5": {
+		"x": 452,
+		"y": -60,
+		"definition": "pescador_fortuna_5"
+	},
+	"pescador_fortuna_s2": {
+		"x": 452,
+		"y": -22,
+		"definition": "pescador_fortuna_s2"
+	},
+	"pescador_fortuna_6": {
+		"x": 496,
+		"y": -60,
+		"definition": "pescador_fortuna_6"
+	},
+	"pescador_fortuna_7": {
+		"x": 540,
+		"y": -60,
+		"definition": "pescador_fortuna_7"
+	},
+	"pescador_fortuna_s3": {
+		"x": 540,
+		"y": -98,
+		"definition": "pescador_fortuna_s3"
+	},
+	"pescador_fortuna_8": {
+		"x": 584,
+		"y": -60,
+		"definition": "pescador_fortuna_8"
+	},
+	"pescador_lobo_1": {
+		"x": 276,
+		"y": 60,
+		"definition": "pescador_lobo_1"
+	},
+	"pescador_lobo_2": {
+		"x": 320,
+		"y": 60,
+		"definition": "pescador_lobo_2"
+	},
+	"pescador_lobo_s1": {
+		"x": 320,
+		"y": 22,
+		"definition": "pescador_lobo_s1"
+	},
+	"pescador_lobo_3": {
+		"x": 364,
+		"y": 60,
+		"definition": "pescador_lobo_3"
+	},
+	"pescador_lobo_4": {
+		"x": 408,
+		"y": 60,
+		"definition": "pescador_lobo_4"
+	},
+	"pescador_lobo_5": {
+		"x": 452,
+		"y": 60,
+		"definition": "pescador_lobo_5"
+	},
+	"pescador_lobo_s2": {
+		"x": 452,
+		"y": 98,
+		"definition": "pescador_lobo_s2"
+	},
+	"pescador_lobo_6": {
+		"x": 496,
+		"y": 60,
+		"definition": "pescador_lobo_6"
+	},
+	"pescador_lobo_7": {
+		"x": 540,
+		"y": 60,
+		"definition": "pescador_lobo_7"
+	},
+	"pescador_lobo_s3": {
+		"x": 540,
+		"y": 22,
+		"definition": "pescador_lobo_s3"
+	},
+	"pescador_lobo_8": {
+		"x": 584,
+		"y": 60,
+		"definition": "pescador_lobo_8"
+	}
+}

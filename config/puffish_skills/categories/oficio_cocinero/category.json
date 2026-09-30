@@ -1,0 +1,13 @@
+{
+	"title": "Cocinero",
+	"description": "Sube cocinando comida en hornos y ahumadores, y comiendo. Cada nivel da 1 punto.",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "minecraft:smoker"
+		}
+	},
+	"background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png",
+	"unlocked_by_default": true,
+	"exclusive_root": false
+}

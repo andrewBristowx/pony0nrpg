@@ -1,0 +1,1070 @@
+{
+	"pescador_f1": {
+		"title": "Pescador · Fundamentos I",
+		"description": [
+			{
+				"text": "Pescador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:fishing_rod"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_f2": {
+		"title": "Pescador · Fundamentos II",
+		"description": [
+			{
+				"text": "Pescador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Velocidad de nado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:cod"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:swim_speed",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_f2s": {
+		"title": "Pescador · Soporte",
+		"description": [
+			{
+				"text": "Pescador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:cod"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_f3": {
+		"title": "Buen anzuelo",
+		"description": [
+			{
+				"text": "Pescador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.6 Suerte\n",
+				"color": "green"
+			},
+			{
+				"text": "+3% Velocidad de nado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:salmon"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.6,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:swim_speed",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_f4": {
+		"title": "Pescador · Fundamentos IV",
+		"description": [
+			{
+				"text": "Pescador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:tropical_fish"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_f5": {
+		"title": "Pescador · Fundamentos V",
+		"description": [
+			{
+				"text": "Pescador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Velocidad de nado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:nautilus_shell"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:swim_speed",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_f5s": {
+		"title": "Pescador · Soporte",
+		"description": [
+			{
+				"text": "Pescador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:nautilus_shell"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_f6": {
+		"title": "Paciencia",
+		"description": [
+			{
+				"text": "Pescador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.6 Suerte\n",
+				"color": "green"
+			},
+			{
+				"text": "+1% Velocidad de movimiento\n",
+				"color": "green"
+			},
+			{
+				"text": "Hito de oficio I (los desbloqueos llegan con KubeJS)",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:heart_of_the_sea"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.6,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s oficio_pescador_1",
+					"lock_command": "kubejs stages remove @s oficio_pescador_1"
+				}
+			}
+		]
+	},
+	"pescador_fortuna_1": {
+		"title": "Pescador de fortuna I",
+		"description": [
+			{
+				"text": "Pescador › Pescador de fortuna\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.4 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:pufferfish"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_fortuna_2": {
+		"title": "Pescador de fortuna II",
+		"description": [
+			{
+				"text": "Pescador › Pescador de fortuna\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:name_tag"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_fortuna_s1": {
+		"title": "Pescador de fortuna · Apoyo",
+		"description": [
+			{
+				"text": "Pescador › Pescador de fortuna\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.4 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:nautilus_shell"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_fortuna_3": {
+		"title": "Captura rara",
+		"description": [
+			{
+				"text": "Pescador › Pescador de fortuna\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.8 Suerte\n",
+				"color": "green"
+			},
+			{
+				"text": "+2% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:saddle"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.8,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_fortuna_4": {
+		"title": "Pescador de fortuna IV",
+		"description": [
+			{
+				"text": "Pescador › Pescador de fortuna\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.4 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:nautilus_shell"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_fortuna_5": {
+		"title": "Pescador de fortuna V",
+		"description": [
+			{
+				"text": "Pescador › Pescador de fortuna\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:pufferfish"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_fortuna_s2": {
+		"title": "Pescador de fortuna · Apoyo",
+		"description": [
+			{
+				"text": "Pescador › Pescador de fortuna\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:saddle"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_fortuna_6": {
+		"title": "Tesoro del fondo",
+		"description": [
+			{
+				"text": "Pescador › Pescador de fortuna\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.8 Suerte\n",
+				"color": "green"
+			},
+			{
+				"text": "+1% Esquiva",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:name_tag"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.8,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_fortuna_7": {
+		"title": "Pescador de fortuna VII",
+		"description": [
+			{
+				"text": "Pescador › Pescador de fortuna\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.4 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:saddle"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_fortuna_s3": {
+		"title": "Pescador de fortuna · Apoyo",
+		"description": [
+			{
+				"text": "Pescador › Pescador de fortuna\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1% Esquiva",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:pufferfish"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_fortuna_8": {
+		"title": "Cazador de tesoros",
+		"description": [
+			{
+				"text": "Pescador › Pescador de fortuna\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Suerte\n",
+				"color": "green"
+			},
+			{
+				"text": "+10% Experiencia ganada\n",
+				"color": "green"
+			},
+			{
+				"text": "+4% Esquiva\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima del Pescador de fortuna.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Hito de oficio II",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:heart_of_the_sea"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s oficio_pescador_2",
+					"lock_command": "kubejs stages remove @s oficio_pescador_2"
+				}
+			}
+		],
+		"required_spent_points": 12
+	},
+	"pescador_lobo_1": {
+		"title": "Lobo de mar I",
+		"description": [
+			{
+				"text": "Pescador › Lobo de mar\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5% Velocidad de nado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:kelp"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:swim_speed",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_lobo_2": {
+		"title": "Lobo de mar II",
+		"description": [
+			{
+				"text": "Pescador › Lobo de mar\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:sea_pickle"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_lobo_s1": {
+		"title": "Lobo de mar · Apoyo",
+		"description": [
+			{
+				"text": "Pescador › Lobo de mar\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5% Velocidad de nado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:trident"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:swim_speed",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_lobo_3": {
+		"title": "Brazada larga",
+		"description": [
+			{
+				"text": "Pescador › Lobo de mar\n",
+				"color": "gold"
+			},
+			{
+				"text": "+10% Velocidad de nado\n",
+				"color": "green"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:prismarine_shard"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:swim_speed",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_lobo_4": {
+		"title": "Lobo de mar IV",
+		"description": [
+			{
+				"text": "Pescador › Lobo de mar\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5% Velocidad de nado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:trident"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:swim_speed",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_lobo_5": {
+		"title": "Lobo de mar V",
+		"description": [
+			{
+				"text": "Pescador › Lobo de mar\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:kelp"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_lobo_s2": {
+		"title": "Lobo de mar · Apoyo",
+		"description": [
+			{
+				"text": "Pescador › Lobo de mar\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:prismarine_shard"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_lobo_6": {
+		"title": "Piel salada",
+		"description": [
+			{
+				"text": "Pescador › Lobo de mar\n",
+				"color": "gold"
+			},
+			{
+				"text": "+10% Velocidad de nado\n",
+				"color": "green"
+			},
+			{
+				"text": "+2% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:sea_pickle"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:swim_speed",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_lobo_7": {
+		"title": "Lobo de mar VII",
+		"description": [
+			{
+				"text": "Pescador › Lobo de mar\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5% Velocidad de nado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:prismarine_shard"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:swim_speed",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_lobo_s3": {
+		"title": "Lobo de mar · Apoyo",
+		"description": [
+			{
+				"text": "Pescador › Lobo de mar\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:kelp"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pescador_lobo_8": {
+		"title": "Señor de los mares",
+		"description": [
+			{
+				"text": "Pescador › Lobo de mar\n",
+				"color": "gold"
+			},
+			{
+				"text": "+20% Velocidad de nado\n",
+				"color": "green"
+			},
+			{
+				"text": "+4 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+5% Velocidad de movimiento\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima del Lobo de mar.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Hito de oficio II",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:trident"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "forge:swim_speed",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s oficio_pescador_2",
+					"lock_command": "kubejs stages remove @s oficio_pescador_2"
+				}
+			}
+		],
+		"required_spent_points": 12
+	}
+}

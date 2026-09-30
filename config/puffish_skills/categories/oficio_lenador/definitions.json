@@ -1,0 +1,1070 @@
+{
+	"lenador_f1": {
+		"title": "Leñador · Fundamentos I",
+		"description": [
+			{
+				"text": "Leñador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_f2": {
+		"title": "Leñador · Fundamentos II",
+		"description": [
+			{
+				"text": "Leñador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:oak_log"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_f2s": {
+		"title": "Leñador · Soporte",
+		"description": [
+			{
+				"text": "Leñador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:oak_log"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_f3": {
+		"title": "Hacha firme",
+		"description": [
+			{
+				"text": "Leñador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.6 Daño de ataque\n",
+				"color": "green"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:stripped_oak_log"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.6,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_f4": {
+		"title": "Leñador · Fundamentos IV",
+		"description": [
+			{
+				"text": "Leñador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:spruce_log"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_f5": {
+		"title": "Leñador · Fundamentos V",
+		"description": [
+			{
+				"text": "Leñador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_f5s": {
+		"title": "Leñador · Soporte",
+		"description": [
+			{
+				"text": "Leñador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_f6": {
+		"title": "Brazos de leñador",
+		"description": [
+			{
+				"text": "Leñador › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.6 Daño de ataque\n",
+				"color": "green"
+			},
+			{
+				"text": "+1% Velocidad de movimiento\n",
+				"color": "green"
+			},
+			{
+				"text": "Hito de oficio I (los desbloqueos llegan con KubeJS)",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:apple"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.6,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s oficio_lenador_1",
+					"lock_command": "kubejs stages remove @s oficio_lenador_1"
+				}
+			}
+		]
+	},
+	"lenador_robusto_1": {
+		"title": "Leñador robusto I",
+		"description": [
+			{
+				"text": "Leñador › Leñador robusto\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:oak_log"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_robusto_2": {
+		"title": "Leñador robusto II",
+		"description": [
+			{
+				"text": "Leñador › Leñador robusto\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.5 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_chestplate"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_robusto_s1": {
+		"title": "Leñador robusto · Apoyo",
+		"description": [
+			{
+				"text": "Leñador › Leñador robusto\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:bread"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_robusto_3": {
+		"title": "Espalda ancha",
+		"description": [
+			{
+				"text": "Leñador › Leñador robusto\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.5 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_chestplate"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_robusto_4": {
+		"title": "Leñador robusto IV",
+		"description": [
+			{
+				"text": "Leñador › Leñador robusto\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:bread"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_robusto_5": {
+		"title": "Leñador robusto V",
+		"description": [
+			{
+				"text": "Leñador › Leñador robusto\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.5 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:oak_log"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_robusto_s2": {
+		"title": "Leñador robusto · Apoyo",
+		"description": [
+			{
+				"text": "Leñador › Leñador robusto\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.5 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_chestplate"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_robusto_6": {
+		"title": "Piel de corteza",
+		"description": [
+			{
+				"text": "Leñador › Leñador robusto\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+2% Resistencia al empuje",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_chestplate"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_robusto_7": {
+		"title": "Leñador robusto VII",
+		"description": [
+			{
+				"text": "Leñador › Leñador robusto\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_chestplate"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_robusto_s3": {
+		"title": "Leñador robusto · Apoyo",
+		"description": [
+			{
+				"text": "Leñador › Leñador robusto\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Resistencia al empuje",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:oak_log"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_robusto_8": {
+		"title": "Gigante del bosque",
+		"description": [
+			{
+				"text": "Leñador › Leñador robusto\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+2 Armadura\n",
+				"color": "green"
+			},
+			{
+				"text": "+10% Resistencia al empuje\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima del Leñador robusto.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Hito de oficio II",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:dark_oak_log"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 6,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s oficio_lenador_2",
+					"lock_command": "kubejs stages remove @s oficio_lenador_2"
+				}
+			}
+		],
+		"required_spent_points": 12
+	},
+	"lenador_talador_1": {
+		"title": "Talador I",
+		"description": [
+			{
+				"text": "Leñador › Talador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_talador_2": {
+		"title": "Talador II",
+		"description": [
+			{
+				"text": "Leñador › Talador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:stick"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_talador_s1": {
+		"title": "Talador · Apoyo",
+		"description": [
+			{
+				"text": "Leñador › Talador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_talador_3": {
+		"title": "Tala limpia",
+		"description": [
+			{
+				"text": "Leñador › Talador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+8% Velocidad de minado\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.3 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:oak_planks"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.08,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_talador_4": {
+		"title": "Talador IV",
+		"description": [
+			{
+				"text": "Leñador › Talador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_talador_5": {
+		"title": "Talador V",
+		"description": [
+			{
+				"text": "Leñador › Talador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_talador_s2": {
+		"title": "Talador · Apoyo",
+		"description": [
+			{
+				"text": "Leñador › Talador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:oak_planks"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_talador_6": {
+		"title": "Golpe de hacha",
+		"description": [
+			{
+				"text": "Leñador › Talador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+8% Velocidad de minado\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.03 Velocidad de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:stick"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.08,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_talador_7": {
+		"title": "Talador VII",
+		"description": [
+			{
+				"text": "Leñador › Talador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:oak_planks"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_talador_s3": {
+		"title": "Talador · Apoyo",
+		"description": [
+			{
+				"text": "Leñador › Talador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.03 Velocidad de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lenador_talador_8": {
+		"title": "Maestro talador",
+		"description": [
+			{
+				"text": "Leñador › Talador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+15% Velocidad de minado\n",
+				"color": "green"
+			},
+			{
+				"text": "+1 Daño de ataque\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.1 Velocidad de ataque\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima del Talador.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Hito de oficio II",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:netherite_axe"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.15,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s oficio_lenador_2",
+					"lock_command": "kubejs stages remove @s oficio_lenador_2"
+				}
+			}
+		],
+		"required_spent_points": 12
+	}
+}
