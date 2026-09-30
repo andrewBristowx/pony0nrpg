@@ -21,3 +21,5 @@ server/whitelist.json
 server/ops.json
 server/banned-*.json
 server/usercache.json
+server/*.rar
+server/*.zip

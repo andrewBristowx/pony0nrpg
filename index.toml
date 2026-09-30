@@ -611,6 +611,11 @@ hash = "b43f507cffbcc7178b184fa63b2d74fc6b2b8103c4d299ec5633ccf1f5abdafb"
 metafile = true
 
 [[files]]
+file = "options.txt"
+hash = "0827e0bf26e4ae81dc42864975472ea2e9ec9999bd9798af5d850ae223f2b091"
+preserve = true
+
+[[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
 hash = "31135d68099785a089f03c458fb5d1e8060a4ccec81dd3b8c36ae34ea4b9c121"
 metafile = true
