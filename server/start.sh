@@ -23,7 +23,13 @@ if [ -z "$START_SH_UPDATED" ]; then
   rm -f "$NEW"
 fi
 
-PACK_URL="https://raw.githubusercontent.com/andrewBristowx/pony0nrpg/main/pack.toml"
+# Rama del pack: "main" por defecto. Para probar una rama en el servidor, crea un archivo pack_branch.txt con su nombre
+# (p. ej. gremios); al borrarlo vuelve a main. El cliente (Prism) sigue con main.
+PACK_BRANCH="${PACK_BRANCH:-}"
+if [ -z "$PACK_BRANCH" ] && [ -f pack_branch.txt ]; then PACK_BRANCH="$(tr -d '[:space:]' < pack_branch.txt)"; fi
+PACK_BRANCH="${PACK_BRANCH:-main}"
+PACK_URL="https://raw.githubusercontent.com/andrewBristowx/pony0nrpg/${PACK_BRANCH}/pack.toml"
+echo "[start.sh] Rama del pack: ${PACK_BRANCH}"
 
 # ---- 1. actualización de mods/config -------------------------------------------------------------------------
 if [ -f packwiz-installer-bootstrap.jar ]; then
