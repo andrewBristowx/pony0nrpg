@@ -71,7 +71,7 @@ function puebloColocado(server, id) { return server.persistentData.contains('pue
 
 function colocarPueblo(server, id) {
   const Heightmap = Java.loadClass('net.minecraft.world.level.levelgen.Heightmap');
-  const level = server.overworld;
+  const level = server.overworld();
   const o = puebloOrigen(id);
   // cargar (y generar si hace falta) los chunks de la zona + margen
   for (var cx = (o.x - 2) >> 4; cx <= (o.x + PUEBLO_LADO + 2) >> 4; cx++)
@@ -187,10 +187,10 @@ ServerEvents.loaded((event) => {
     s.runCommandSilent('worldborder center 0 0');
     s.runCommandSilent('worldborder set ' + BORDE);
     s.persistentData.putBoolean('regiones_init', true);
-    // los cuatro pueblos se colocan solos la primera vez (con 2 segundos entre uno y otro para no bloquear el servidor); /pueblo colocar los rehace
-    Object.keys(GREMIOS).forEach((id, i) => s.scheduleInTicks(100 + i * 40, () => { if (!puebloColocado(s, id)) colocarPueblo(s, id); }));
     console.info('[gremios] borde del mundo fijado en ' + BORDE + ' x ' + BORDE);
   }
+  // los pueblos que falten se colocan solos al arrancar (2 segundos entre uno y otro para no bloquear el servidor); /pueblo colocar los rehace
+  Object.keys(GREMIOS).forEach((id, i) => s.scheduleInTicks(100 + i * 40, () => { if (!puebloColocado(s, id)) colocarPueblo(s, id); }));
 });
 
 PlayerEvents.tick((event) => {
