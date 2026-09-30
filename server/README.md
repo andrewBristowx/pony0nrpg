@@ -2,6 +2,10 @@
 
 **Sube a la carpeta `mods/` de tu hosting los 108 jars de [`server/mods/`](mods/)** (lista exacta en [`MODS.txt`](MODS.txt)). Para subirlos de una vez hay un zip: `dist/Pony0nRPG-server-mods.zip` (549 MB, jars planos; descomprímelo dentro de `mods/`). No hace falta instalar Forge ni nada más en tu PC.
 
+## Además de los mods: configuración del servidor
+
+Como el hosting no ejecuta packwiz, hay que subir **a mano** la configuración de habilidades, oficios y bloqueo de clase: `dist/Pony0nRPG-server-config.zip` (se regenera con `tools/make-server-config.ps1`). Descomprímelo en la **raíz** del servidor (crea `config/puffish_skills/` y `kubejs/`). Cada vez que cambie algo de esas carpetas hay que volver a subirlo.
+
 ## Qué pedir al hosting
 
 | | |
