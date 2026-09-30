@@ -61,7 +61,7 @@
           "compare_to": 0.75
         },
         {
-          "type": "origins:in_daylight"
+          "type": "origins:exposed_to_sun"
         }
       ]
     }

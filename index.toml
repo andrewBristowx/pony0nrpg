@@ -386,7 +386,7 @@ hash = "9aa9075ea53c3b393b54628485bf1c37e0f84b3588685b47169d650ac6da2ce2"
 
 [[files]]
 file = "kubejs/data/mythic/powers/kitsune_weakness.json"
-hash = "3b0fdb77d142e36e7495dbc82972a3a1d559df2b9e4dab14abcbee3e03561667"
+hash = "65e24bd0bbe4b3ad3832c83c0fcc38fb8b54edff5406aeaeaf194b3764447e31"
 
 [[files]]
 file = "kubejs/data/mythic/powers/mirage.json"
@@ -406,7 +406,7 @@ hash = "6abc8ad5a711f77c5e03eddbc57aff99beb56f74fbfa733086fba5c2f4f69f6e"
 
 [[files]]
 file = "kubejs/data/mythic/powers/phoenix_weakness.json"
-hash = "14728670ff2c636daed9036a78c0b4e4a43c635d4d2046bb53ad73e5174f56b6"
+hash = "6d50c9f21600519218434999b760e0964ab65b10193e502e1fbc2b0c0ec5acc6"
 
 [[files]]
 file = "kubejs/data/mythic/powers/plant_step.json"
@@ -438,7 +438,7 @@ hash = "9c9c8c60e6cdd42478f529d1e7e07e0b8fdb21abbe48917105b2c2c5fe186a49"
 
 [[files]]
 file = "kubejs/data/origins/origin_layers/origin.json"
-hash = "0e5d94d30c4a61c470208bcfc4ec39ae768d72fb12c83dffbe65250d27a30d87"
+hash = "8bfee89f477f72ce1871b51fdc59eef8221012ddc32f524ed3789f92c19eaac9"
 
 [[files]]
 file = "kubejs/data/pony0n/origin_layers/clase.json"

@@ -107,7 +107,10 @@
     },
     "condition": {
       "type": "origins:in_block",
-      "block": "minecraft:powder_snow"
+      "block_condition": {
+        "type": "origins:block",
+        "block": "minecraft:powder_snow"
+      }
     }
   },
   "drowning_amplifier": {

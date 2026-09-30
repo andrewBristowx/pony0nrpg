@@ -17,12 +17,12 @@ const out = (rel, data) => {
 
 // ---- razas ---------------------------------------------------------------------------------------------------
 // Se descartan: alfiq (gato), incubus (demonio), revenant (nigromante), plague_victim, pixie y fae (vuelo libre
-// desde el inicio) y mythic:valkyrie (duplicada con la de Medieval Origins).
+// desde el inicio), la Valquiria (sus alas necesitan Icarus, que no va con esta versión) y mythic:valkyrie.
 const RACES = [
   "origins:human",
   "medievalorigins:dwarf", "medievalorigins:high_elf", "medievalorigins:wood_elf", "medievalorigins:moon_elf",
   "medievalorigins:troll", "medievalorigins:ogre", "medievalorigins:goblin",
-  "medievalorigins:gorgon", "medievalorigins:siren", "medievalorigins:valkyrie", "medievalorigins:yeti",
+  "medievalorigins:gorgon", "medievalorigins:siren", "medievalorigins:yeti",
   "medievalorigins:banshee", "medievalorigins:arachnae",
   "mythic:kitsune", "mythic:djinn", "mythic:phoenix", "mythic:druid",
 ];
