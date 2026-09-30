@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "fin"
-	group: "FA1951BF2D35F839"
+	group: "7A1951BF2D35F839"
 	title: "10. El fin del mundo"
 	subtitle: ["El dragón del End, el equipo mítico y la puerta de la Ascensión."]
 	icon: "minecraft:dragon_head"
@@ -11,7 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "D6478AB6BCB0465D"
+			id: "56478AB6BCB0465D"
 			title: "El fin del mundo"
 			subtitle: "La última era"
 			description: [
@@ -31,7 +31,7 @@
 			]
 			rewards: [
 				{
-					id: "FC00B3AE394F5D1D"
+					id: "7C00B3AE394F5D1D"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 6000"
 					elevate_perms: true
@@ -46,14 +46,14 @@
 			]
 		}
 		{
-			id: "BC34EE86D9929279"
+			id: "3C34EE86D9929279"
 			title: "Ojos del End"
 			subtitle: "Encuentra la fortaleza"
 			description: ["Los ojos del End te guían hacia la fortaleza donde está el portal al End. Se hacen con una perla de ender y polvo de blaze."]
 			icon: "minecraft:ender_eye"
 			x: 2.5d
 			y: 0.5d
-			dependencies: ["D6478AB6BCB0465D"]
+			dependencies: ["56478AB6BCB0465D"]
 			tasks: [
 				{
 					id: "7279B33785324173"
@@ -71,7 +71,7 @@
 					silent: true
 				}
 				{
-					id: "B3C7C94291BBC235"
+					id: "33C7C94291BBC235"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 					count: 2
@@ -79,14 +79,14 @@
 			]
 		}
 		{
-			id: "F13ECEE45C2EAD8B"
+			id: "713ECEE45C2EAD8B"
 			title: "Portal al End"
 			subtitle: "Cruza"
 			description: ["Activa el portal con doce ojos del End. Al otro lado te esperan el dragón y los endermen."]
 			icon: "minecraft:ender_eye"
 			x: 4.5d
 			y: 0.5d
-			dependencies: ["BC34EE86D9929279"]
+			dependencies: ["3C34EE86D9929279"]
 			tasks: [
 				{
 					id: "623123D37365BE26"
@@ -118,10 +118,10 @@
 			icon: "minecraft:iron_sword"
 			x: 6.5d
 			y: 0.5d
-			dependencies: ["F13ECEE45C2EAD8B"]
+			dependencies: ["713ECEE45C2EAD8B"]
 			tasks: [
 				{
-					id: "C68EB362F51C615B"
+					id: "468EB362F51C615B"
 					type: "kill"
 					entity: "minecraft:ender_dragon"
 					value: 1L
@@ -129,14 +129,14 @@
 			]
 			rewards: [
 				{
-					id: "D6884284CB02E1D6"
+					id: "56884284CB02E1D6"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 12000"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "B119BA353EEDE4FD"
+					id: "3119BA353EEDE4FD"
 					type: "item"
 					item: "minecraft:dragon_egg"
 				}
@@ -149,7 +149,7 @@
 			]
 		}
 		{
-			id: "CBFBBAC1DD7AF59D"
+			id: "4BFBBAC1DD7AF59D"
 			title: "Élitros"
 			subtitle: "Vuela"
 			description: ["En las ciudades del End hay barcos con élitros. Con ellos y cohetes, el cielo es tuyo."]
@@ -181,7 +181,7 @@
 			]
 		}
 		{
-			id: "C2853AA259EA5044"
+			id: "42853AA259EA5044"
 			title: "Cajas shulker"
 			subtitle: "Almacenamiento móvil"
 			description: ["Las cajas shulker son la mejor forma de llevar equipo contigo."]
@@ -200,7 +200,7 @@
 			]
 			rewards: [
 				{
-					id: "E3911A3B7EAFCE03"
+					id: "63911A3B7EAFCE03"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 7000"
 					elevate_perms: true
@@ -209,7 +209,7 @@
 			]
 		}
 		{
-			id: "F127EBEC8782BE85"
+			id: "7127EBEC8782BE85"
 			title: "Baliza"
 			subtitle: "Bonificaciones de zona"
 			description: ["Con una estrella del Nether, obsidiana y cristal fabricas una baliza que da bonificaciones a todo tu equipo."]
@@ -220,7 +220,7 @@
 			dependencies: ["5D3FFEF92F1173B2"]
 			tasks: [
 				{
-					id: "E1B1E62074153F44"
+					id: "61B1E62074153F44"
 					type: "item"
 					item: "minecraft:beacon"
 				}
@@ -234,7 +234,7 @@
 					silent: true
 				}
 				{
-					id: "AA276360E80C09BA"
+					id: "2A276360E80C09BA"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 					count: 3
@@ -242,7 +242,7 @@
 			]
 		}
 		{
-			id: "853F39E834393EB2"
+			id: "053F39E834393EB2"
 			title: "Equipo mítico"
 			subtitle: "Fruto de tres dimensiones"
 			description: [
@@ -253,10 +253,10 @@
 			icon: "undergarden:forgotten_ingot"
 			x: 10.5d
 			y: 0.5d
-			dependencies: ["5D3FFEF92F1173B2", "CBFBBAC1DD7AF59D"]
+			dependencies: ["5D3FFEF92F1173B2", "4BFBBAC1DD7AF59D"]
 			tasks: [
 				{
-					id: "AA2A5A0FC646975F"
+					id: "2A2A5A0FC646975F"
 					type: "item"
 					item: "undergarden:forgotten_ingot"
 					count: 8L
@@ -270,7 +270,7 @@
 					consume_items: true
 				}
 				{
-					id: "F9BC02EC75C92EE2"
+					id: "79BC02EC75C92EE2"
 					type: "item"
 					item: "ad_astra:calorite_ingot"
 					count: 8L
@@ -305,7 +305,7 @@
 			icon: "minecraft:dragon_head"
 			x: 12.5d
 			y: 0.5d
-			dependencies: ["853F39E834393EB2"]
+			dependencies: ["053F39E834393EB2"]
 			tasks: [
 				{
 					id: "5A13A4A9364750B2"
@@ -314,21 +314,21 @@
 			]
 			rewards: [
 				{
-					id: "CAFD5A72FB69AE4C"
+					id: "4AFD5A72FB69AE4C"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 30000"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "BD04FD18BC888AE8"
+					id: "3D04FD18BC888AE8"
 					type: "command"
 					command: "/kubejs stages add {p} era_10"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "858605268B035060"
+					id: "058605268B035060"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 					count: 10

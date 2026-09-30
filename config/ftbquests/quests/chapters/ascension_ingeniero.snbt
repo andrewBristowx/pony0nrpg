@@ -2,11 +2,11 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ascension_ingeniero"
-	group: "FD609B87CC2A62AE"
+	group: "7D609B87CC2A62AE"
 	title: "Ascensión: Ingeniero"
 	subtitle: ["Puntos de Ascensión para Ingeniero"]
 	icon: "create:precision_mechanism"
-	id: "8A23F5912A5F28C7"
+	id: "0A23F5912A5F28C7"
 	order_index: 16
 	quest_links: [ ]
 	quests: [
@@ -40,7 +40,7 @@
 			]
 		}
 		{
-			id: "F259D202A3B8C5E8"
+			id: "7259D202A3B8C5E8"
 			title: "Elige la Ascensión de Ingeniero"
 			subtitle: "Desbloquea la pestaña"
 			description: [
@@ -54,20 +54,20 @@
 			dependencies: ["52A43C3AFE1F3B54"]
 			tasks: [
 				{
-					id: "A8A0C350385A097F"
+					id: "28A0C350385A097F"
 					type: "checkmark"
 				}
 			]
 			rewards: [
 				{
-					id: "94A2C49315CB1026"
+					id: "14A2C49315CB1026"
 					type: "command"
 					command: "/puffish_skills category unlock {p} ascension_ingeniero"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "E25CCE9BE203E3C8"
+					id: "625CCE9BE203E3C8"
 					type: "command"
 					command: "/puffish_skills points add {p} ascension_ingeniero 1"
 					elevate_perms: true
@@ -76,14 +76,14 @@
 			]
 		}
 		{
-			id: "9F0605D442843B55"
+			id: "1F0605D442843B55"
 			title: "Bóvedas rebosantes"
 			subtitle: "Almacenamiento"
 			description: ["Construye 8 bóvedas de Create."]
 			icon: "create:item_vault"
 			x: 4.5d
 			y: 0.5d
-			dependencies: ["F259D202A3B8C5E8"]
+			dependencies: ["7259D202A3B8C5E8"]
 			tasks: [
 				{
 					id: "537F9FE058D9BE6E"
@@ -94,14 +94,14 @@
 			]
 			rewards: [
 				{
-					id: "AAA2B24786BD2EEE"
+					id: "2AA2B24786BD2EEE"
 					type: "command"
 					command: "/puffish_skills points add {p} ascension_ingeniero 1"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "EFE52D857A155DCE"
+					id: "6FE52D857A155DCE"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 500"
 					elevate_perms: true
@@ -121,7 +121,7 @@
 			icon: "create:brass_sheet"
 			x: 6.5d
 			y: 0.5d
-			dependencies: ["9F0605D442843B55"]
+			dependencies: ["1F0605D442843B55"]
 			tasks: [
 				{
 					id: "07CB05C3A44A321A"
@@ -149,7 +149,7 @@
 			]
 		}
 		{
-			id: "855865679720C887"
+			id: "055865679720C887"
 			title: "Circuito supremo"
 			subtitle: "Mekanism"
 			description: ["Fabrica un circuito de control definitivo."]
@@ -159,7 +159,7 @@
 			dependencies: ["2E4918EB0D0CADC1"]
 			tasks: [
 				{
-					id: "DFE278D8DBFCDFE1"
+					id: "5FE278D8DBFCDFE1"
 					type: "item"
 					item: "mekanism:ultimate_control_circuit"
 				}
@@ -182,31 +182,31 @@
 			]
 		}
 		{
-			id: "90B960467FB7D032"
+			id: "10B960467FB7D032"
 			title: "Célula de 4K"
 			subtitle: "AE2"
 			description: ["Fabrica una célula de almacenamiento de 4K."]
 			icon: "ae2:item_storage_cell_4k"
 			x: 10.5d
 			y: 0.5d
-			dependencies: ["855865679720C887"]
+			dependencies: ["055865679720C887"]
 			tasks: [
 				{
-					id: "918786A000BFAD9A"
+					id: "118786A000BFAD9A"
 					type: "item"
 					item: "ae2:item_storage_cell_4k"
 				}
 			]
 			rewards: [
 				{
-					id: "FA360AA895048CA5"
+					id: "7A360AA895048CA5"
 					type: "command"
 					command: "/puffish_skills points add {p} ascension_ingeniero 1"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "9C098E12EEA0C1D7"
+					id: "1C098E12EEA0C1D7"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 500"
 					elevate_perms: true
@@ -215,24 +215,24 @@
 			]
 		}
 		{
-			id: "8062EC245C2A3F38"
+			id: "0062EC245C2A3F38"
 			title: "Obsidiana refinada"
 			subtitle: "Mekanism"
 			description: ["Consigue un lingote de obsidiana refinada."]
 			icon: "mekanism:ingot_refined_obsidian"
 			x: 12.5d
 			y: 0.5d
-			dependencies: ["90B960467FB7D032"]
+			dependencies: ["10B960467FB7D032"]
 			tasks: [
 				{
-					id: "C4D910338E230A9E"
+					id: "44D910338E230A9E"
 					type: "item"
 					item: "mekanism:ingot_refined_obsidian"
 				}
 			]
 			rewards: [
 				{
-					id: "D7B7C7110B6B24F3"
+					id: "57B7C7110B6B24F3"
 					type: "command"
 					command: "/puffish_skills points add {p} ascension_ingeniero 1"
 					elevate_perms: true
@@ -255,10 +255,10 @@
 			icon: "create:steam_engine"
 			x: 14.5d
 			y: 0.5d
-			dependencies: ["8062EC245C2A3F38"]
+			dependencies: ["0062EC245C2A3F38"]
 			tasks: [
 				{
-					id: "99191E60D9F3C5C3"
+					id: "19191E60D9F3C5C3"
 					type: "item"
 					item: "create:steam_engine"
 				}
@@ -298,7 +298,7 @@
 			]
 			rewards: [
 				{
-					id: "D3714F90BA0C619A"
+					id: "53714F90BA0C619A"
 					type: "command"
 					command: "/puffish_skills points add {p} ascension_ingeniero 2"
 					elevate_perms: true
@@ -331,7 +331,7 @@
 			]
 			rewards: [
 				{
-					id: "DD7664A4F5733A23"
+					id: "5D7664A4F5733A23"
 					type: "command"
 					command: "/puffish_skills points add {p} ascension_ingeniero 2"
 					elevate_perms: true

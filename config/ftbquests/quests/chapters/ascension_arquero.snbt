@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ascension_arquero"
-	group: "FD609B87CC2A62AE"
+	group: "7D609B87CC2A62AE"
 	title: "Ascensión: Arquero"
 	subtitle: ["Puntos de Ascensión para Arquero"]
 	icon: "minecraft:bow"
@@ -11,7 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "B02D602055F17560"
+			id: "302D602055F17560"
 			title: "La puerta de la Ascensión"
 			subtitle: "Se abre al terminar la campaña"
 			description: [
@@ -31,7 +31,7 @@
 			]
 			rewards: [
 				{
-					id: "AD1FAA8572458A35"
+					id: "2D1FAA8572458A35"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 100"
 					elevate_perms: true
@@ -40,7 +40,7 @@
 			]
 		}
 		{
-			id: "E90B3B0F267CADC9"
+			id: "690B3B0F267CADC9"
 			title: "Elige la Ascensión de Arquero"
 			subtitle: "Desbloquea la pestaña"
 			description: [
@@ -51,7 +51,7 @@
 			icon: "minecraft:bow"
 			x: 2.5d
 			y: 0.5d
-			dependencies: ["B02D602055F17560"]
+			dependencies: ["302D602055F17560"]
 			tasks: [
 				{
 					id: "21AE6080AB892064"
@@ -60,7 +60,7 @@
 			]
 			rewards: [
 				{
-					id: "EB1C0A837A88CB5F"
+					id: "6B1C0A837A88CB5F"
 					type: "command"
 					command: "/puffish_skills category unlock {p} ascension_arquero"
 					elevate_perms: true
@@ -83,10 +83,10 @@
 			icon: "minecraft:iron_sword"
 			x: 4.5d
 			y: 0.5d
-			dependencies: ["E90B3B0F267CADC9"]
+			dependencies: ["690B3B0F267CADC9"]
 			tasks: [
 				{
-					id: "FE301327A8846405"
+					id: "7E301327A8846405"
 					type: "kill"
 					entity: "minecraft:skeleton"
 					value: 200L
@@ -101,7 +101,7 @@
 					silent: true
 				}
 				{
-					id: "E7386D61A4F099F4"
+					id: "67386D61A4F099F4"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 500"
 					elevate_perms: true
@@ -120,7 +120,7 @@
 			dependencies: ["4674019A8475FB7A"]
 			tasks: [
 				{
-					id: "935739635EC245F6"
+					id: "135739635EC245F6"
 					type: "kill"
 					entity: "minecraft:phantom"
 					value: 30L
@@ -135,7 +135,7 @@
 					silent: true
 				}
 				{
-					id: "B5A6F406AD8C8E3F"
+					id: "35A6F406AD8C8E3F"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 500"
 					elevate_perms: true
@@ -168,7 +168,7 @@
 					silent: true
 				}
 				{
-					id: "DD4F17B7A414B0EF"
+					id: "5D4F17B7A414B0EF"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 500"
 					elevate_perms: true
@@ -177,7 +177,7 @@
 			]
 		}
 		{
-			id: "957396200984DCA3"
+			id: "157396200984DCA3"
 			title: "Flechas espectrales"
 			subtitle: "Munición"
 			description: ["Reúne 64 flechas espectrales."]
@@ -187,7 +187,7 @@
 			dependencies: ["30C4940823119B26"]
 			tasks: [
 				{
-					id: "D2F68B36D771694A"
+					id: "52F68B36D771694A"
 					type: "item"
 					item: "minecraft:spectral_arrow"
 					count: 64L
@@ -218,10 +218,10 @@
 			icon: "minecraft:iron_sword"
 			x: 12.5d
 			y: 0.5d
-			dependencies: ["957396200984DCA3"]
+			dependencies: ["157396200984DCA3"]
 			tasks: [
 				{
-					id: "A4845E19A8AEA17F"
+					id: "24845E19A8AEA17F"
 					type: "kill"
 					entity: "minecraft:ghast"
 					value: 10L
@@ -245,7 +245,7 @@
 			]
 		}
 		{
-			id: "A03132261B14BBF7"
+			id: "203132261B14BBF7"
 			title: "Corredor de largas distancias"
 			subtitle: "Movilidad"
 			description: ["Recorre una gran distancia a pie."]
@@ -255,7 +255,7 @@
 			dependencies: ["772705568398490D"]
 			tasks: [
 				{
-					id: "97E25AE6EA100478"
+					id: "17E25AE6EA100478"
 					type: "stat"
 					stat: "minecraft:walk_one_cm"
 					value: 500000
@@ -286,10 +286,10 @@
 			icon: "minecraft:iron_sword"
 			x: 16.5d
 			y: 0.5d
-			dependencies: ["A03132261B14BBF7"]
+			dependencies: ["203132261B14BBF7"]
 			tasks: [
 				{
-					id: "BBEDEA6D5DEDA69C"
+					id: "3BEDEA6D5DEDA69C"
 					type: "kill"
 					entity: "minecraft:blaze"
 					value: 50L
@@ -297,14 +297,14 @@
 			]
 			rewards: [
 				{
-					id: "ED9D89BE0949CE96"
+					id: "6D9D89BE0949CE96"
 					type: "command"
 					command: "/puffish_skills points add {p} ascension_arquero 1"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "932501481D8FE483"
+					id: "132501481D8FE483"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 500"
 					elevate_perms: true
@@ -313,7 +313,7 @@
 			]
 		}
 		{
-			id: "DDFBEB5533EF30EC"
+			id: "5DFBEB5533EF30EC"
 			title: "Maestría final"
 			subtitle: "Tier III"
 			description: ["Llega a la cima de un camino de Arquero (Tier III)."]
@@ -330,7 +330,7 @@
 			]
 			rewards: [
 				{
-					id: "9BCDDC8D2392FA6C"
+					id: "1BCDDC8D2392FA6C"
 					type: "command"
 					command: "/puffish_skills points add {p} ascension_arquero 2"
 					elevate_perms: true

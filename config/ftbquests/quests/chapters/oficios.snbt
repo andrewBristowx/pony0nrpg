@@ -6,7 +6,7 @@
 	title: "Oficios"
 	subtitle: ["Siete oficios que suben mientras haces sus tareas"]
 	icon: "minecraft:anvil"
-	id: "B01E0EAF688A58EC"
+	id: "301E0EAF688A58EC"
 	order_index: 12
 	quest_links: [ ]
 	quests: [
@@ -22,16 +22,16 @@
 			icon: "minecraft:anvil"
 			x: 0.5d
 			y: 0.5d
-			dependencies: ["D4EFDB76A048C766"]
+			dependencies: ["54EFDB76A048C766"]
 			tasks: [
 				{
-					id: "C71A5A84745AF34D"
+					id: "471A5A84745AF34D"
 					type: "checkmark"
 				}
 			]
 			rewards: [
 				{
-					id: "8D37AA4AAE22030D"
+					id: "0D37AA4AAE22030D"
 					type: "command"
 					command: "/puffish_skills experience add {p} oficio_minero 40"
 					elevate_perms: true
@@ -47,7 +47,7 @@
 			]
 		}
 		{
-			id: "C2FFB20DB6F69E69"
+			id: "42FFB20DB6F69E69"
 			title: "Minero: práctica"
 			subtitle: "Haz el trabajo"
 			description: ["Pica minerales: cada uno da experiencia de oficio. Consigue diamantes y esmeraldas."]
@@ -63,7 +63,7 @@
 					count: 3L
 				}
 				{
-					id: "B40468CBDFCCA7CA"
+					id: "340468CBDFCCA7CA"
 					type: "item"
 					item: "minecraft:emerald"
 					count: 3L
@@ -78,14 +78,14 @@
 					silent: true
 				}
 				{
-					id: "A7544B5858E8442D"
+					id: "27544B5858E8442D"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 120"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "ED4E6047AF5B4410"
+					id: "6D4E6047AF5B4410"
 					type: "item"
 					item: "minecraft:iron_pickaxe"
 				}
@@ -99,17 +99,17 @@
 			icon: "minecraft:nether_star"
 			x: 4.5d
 			y: 0.5d
-			dependencies: ["C2FFB20DB6F69E69"]
+			dependencies: ["42FFB20DB6F69E69"]
 			tasks: [
 				{
-					id: "FEB1DA58CB332ADE"
+					id: "7EB1DA58CB332ADE"
 					type: "stage"
 					stage: "oficio_minero_1"
 				}
 			]
 			rewards: [
 				{
-					id: "A6FAF1FBC6D15209"
+					id: "26FAF1FBC6D15209"
 					type: "command"
 					command: "/puffish_skills experience add {p} oficio_minero 100"
 					elevate_perms: true
@@ -148,7 +148,7 @@
 			]
 			rewards: [
 				{
-					id: "B13E7A99752AF4EE"
+					id: "313E7A99752AF4EE"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 500"
 					elevate_perms: true
@@ -163,7 +163,7 @@
 			]
 		}
 		{
-			id: "CD39F7FD4EA6A331"
+			id: "4D39F7FD4EA6A331"
 			title: "Oficio: Leñador"
 			subtitle: "Presentación"
 			description: [
@@ -174,7 +174,7 @@
 			icon: "minecraft:anvil"
 			x: 0.5d
 			y: 2d
-			dependencies: ["D4EFDB76A048C766"]
+			dependencies: ["54EFDB76A048C766"]
 			tasks: [
 				{
 					id: "6770E7BD84951CEB"
@@ -183,7 +183,7 @@
 			]
 			rewards: [
 				{
-					id: "8AEF06810FEE8155"
+					id: "0AEF06810FEE8155"
 					type: "command"
 					command: "/puffish_skills experience add {p} oficio_lenador 40"
 					elevate_perms: true
@@ -206,16 +206,16 @@
 			icon: "minecraft:oak_log"
 			x: 2.5d
 			y: 2d
-			dependencies: ["CD39F7FD4EA6A331"]
+			dependencies: ["4D39F7FD4EA6A331"]
 			tasks: [
 				{
-					id: "F3BF262998E46C24"
+					id: "73BF262998E46C24"
 					type: "item"
 					item: "minecraft:oak_log"
 					count: 32L
 				}
 				{
-					id: "90AF39618FF739C4"
+					id: "10AF39618FF739C4"
 					type: "item"
 					item: "minecraft:spruce_log"
 					count: 32L
@@ -261,7 +261,7 @@
 			]
 			rewards: [
 				{
-					id: "F2BFEE6EDC175A83"
+					id: "72BFEE6EDC175A83"
 					type: "command"
 					command: "/puffish_skills experience add {p} oficio_lenador 100"
 					elevate_perms: true
@@ -293,7 +293,7 @@
 			dependencies: ["0B92822CA033C654"]
 			tasks: [
 				{
-					id: "DEBD223AEE2E7F44"
+					id: "5EBD223AEE2E7F44"
 					type: "stage"
 					stage: "oficio_lenador_2"
 				}
@@ -307,7 +307,7 @@
 					silent: true
 				}
 				{
-					id: "E02826374814D49F"
+					id: "602826374814D49F"
 					type: "item"
 					item: "lightmanscurrency:coin_emerald"
 					count: 3
@@ -326,7 +326,7 @@
 			icon: "minecraft:anvil"
 			x: 0.5d
 			y: 3.5d
-			dependencies: ["D4EFDB76A048C766"]
+			dependencies: ["54EFDB76A048C766"]
 			tasks: [
 				{
 					id: "1F96DECD00A7924A"
@@ -335,7 +335,7 @@
 			]
 			rewards: [
 				{
-					id: "F7D9B55AA5DD922D"
+					id: "77D9B55AA5DD922D"
 					type: "command"
 					command: "/puffish_skills experience add {p} oficio_granjero 40"
 					elevate_perms: true
@@ -367,13 +367,13 @@
 					count: 32L
 				}
 				{
-					id: "C54E92A7B7318F5C"
+					id: "454E92A7B7318F5C"
 					type: "item"
 					item: "minecraft:carrot"
 					count: 16L
 				}
 				{
-					id: "F0293686D65C86DF"
+					id: "70293686D65C86DF"
 					type: "item"
 					item: "minecraft:potato"
 					count: 16L
@@ -381,7 +381,7 @@
 			]
 			rewards: [
 				{
-					id: "8F649F5447D33527"
+					id: "0F649F5447D33527"
 					type: "command"
 					command: "/puffish_skills experience add {p} oficio_granjero 120"
 					elevate_perms: true
@@ -402,7 +402,7 @@
 			]
 		}
 		{
-			id: "9046A50E44B352DF"
+			id: "1046A50E44B352DF"
 			title: "Granjero I"
 			subtitle: "Hito de oficio"
 			description: ["Sube en el árbol de Granjero hasta &6Fundamentos VI&r. Esto activa el hito Granjero I."]
@@ -412,14 +412,14 @@
 			dependencies: ["136FDA2F6D4631AD"]
 			tasks: [
 				{
-					id: "FBC9BBEF9108B3F1"
+					id: "7BC9BBEF9108B3F1"
 					type: "stage"
 					stage: "oficio_granjero_1"
 				}
 			]
 			rewards: [
 				{
-					id: "8B66FB21A12BEAA4"
+					id: "0B66FB21A12BEAA4"
 					type: "command"
 					command: "/puffish_skills experience add {p} oficio_granjero 100"
 					elevate_perms: true
@@ -441,31 +441,31 @@
 			]
 		}
 		{
-			id: "EF3FC198CEE5CC5D"
+			id: "6F3FC198CEE5CC5D"
 			title: "Granjero II"
 			subtitle: "Maestría"
 			description: ["Llega hasta la cima de uno de los dos caminos de Granjero. Es el hito de maestría del oficio."]
 			icon: "minecraft:nether_star"
 			x: 6.5d
 			y: 3.5d
-			dependencies: ["9046A50E44B352DF"]
+			dependencies: ["1046A50E44B352DF"]
 			tasks: [
 				{
-					id: "B45AF59BD10BB15D"
+					id: "345AF59BD10BB15D"
 					type: "stage"
 					stage: "oficio_granjero_2"
 				}
 			]
 			rewards: [
 				{
-					id: "99C70774B5390F80"
+					id: "19C70774B5390F80"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 500"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "B31380451333BF85"
+					id: "331380451333BF85"
 					type: "item"
 					item: "lightmanscurrency:coin_emerald"
 					count: 3
@@ -473,7 +473,7 @@
 			]
 		}
 		{
-			id: "F976B17565C51B4C"
+			id: "7976B17565C51B4C"
 			title: "Oficio: Pescador"
 			subtitle: "Presentación"
 			description: [
@@ -484,7 +484,7 @@
 			icon: "minecraft:anvil"
 			x: 0.5d
 			y: 5d
-			dependencies: ["D4EFDB76A048C766"]
+			dependencies: ["54EFDB76A048C766"]
 			tasks: [
 				{
 					id: "683EF383865C17AF"
@@ -493,7 +493,7 @@
 			]
 			rewards: [
 				{
-					id: "9F2EFB35053EA8EF"
+					id: "1F2EFB35053EA8EF"
 					type: "command"
 					command: "/puffish_skills experience add {p} oficio_pescador 40"
 					elevate_perms: true
@@ -516,7 +516,7 @@
 			icon: "minecraft:cod"
 			x: 2.5d
 			y: 5d
-			dependencies: ["F976B17565C51B4C"]
+			dependencies: ["7976B17565C51B4C"]
 			tasks: [
 				{
 					id: "277A27ED8C059BAB"
@@ -525,7 +525,7 @@
 					count: 8L
 				}
 				{
-					id: "A16EDACA3279CF8F"
+					id: "216EDACA3279CF8F"
 					type: "item"
 					item: "minecraft:salmon"
 					count: 8L
@@ -533,7 +533,7 @@
 			]
 			rewards: [
 				{
-					id: "A38675DBE2412C8A"
+					id: "238675DBE2412C8A"
 					type: "command"
 					command: "/puffish_skills experience add {p} oficio_pescador 120"
 					elevate_perms: true
@@ -564,28 +564,28 @@
 			dependencies: ["08ABD6C69F3F736F"]
 			tasks: [
 				{
-					id: "E02CED330DC4BF1D"
+					id: "602CED330DC4BF1D"
 					type: "stage"
 					stage: "oficio_pescador_1"
 				}
 			]
 			rewards: [
 				{
-					id: "9BD430F05121FBF6"
+					id: "1BD430F05121FBF6"
 					type: "command"
 					command: "/puffish_skills experience add {p} oficio_pescador 100"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "91F5EF4AC6E71CDC"
+					id: "11F5EF4AC6E71CDC"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 200"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "A863C58674CD145B"
+					id: "2863C58674CD145B"
 					type: "item"
 					item: "lightmanscurrency:coin_gold"
 					count: 2
@@ -610,14 +610,14 @@
 			]
 			rewards: [
 				{
-					id: "DAEF8E1D41F08F62"
+					id: "5AEF8E1D41F08F62"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 500"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "A67CCDC2D450071A"
+					id: "267CCDC2D450071A"
 					type: "item"
 					item: "lightmanscurrency:coin_emerald"
 					count: 3
@@ -636,10 +636,10 @@
 			icon: "minecraft:anvil"
 			x: 0.5d
 			y: 6.5d
-			dependencies: ["D4EFDB76A048C766"]
+			dependencies: ["54EFDB76A048C766"]
 			tasks: [
 				{
-					id: "89DD84CBB901BBC3"
+					id: "09DD84CBB901BBC3"
 					type: "checkmark"
 				}
 			]
@@ -661,7 +661,7 @@
 			]
 		}
 		{
-			id: "CC63238389AE1C80"
+			id: "4C63238389AE1C80"
 			title: "Herrero: práctica"
 			subtitle: "Haz el trabajo"
 			description: ["Fabrica armas y herramientas de hierro y funde lingotes."]
@@ -689,14 +689,14 @@
 			]
 			rewards: [
 				{
-					id: "936B33E3375FBDB3"
+					id: "136B33E3375FBDB3"
 					type: "command"
 					command: "/puffish_skills experience add {p} oficio_herrero 150"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "929ACB5665D93620"
+					id: "129ACB5665D93620"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 120"
 					elevate_perms: true
@@ -710,17 +710,17 @@
 			]
 		}
 		{
-			id: "96F0710C262B298C"
+			id: "16F0710C262B298C"
 			title: "Herrero I"
 			subtitle: "Hito de oficio"
 			description: ["Sube en el árbol de Herrero hasta &6Fundamentos VI&r. Esto activa el hito Herrero I."]
 			icon: "minecraft:nether_star"
 			x: 4.5d
 			y: 6.5d
-			dependencies: ["CC63238389AE1C80"]
+			dependencies: ["4C63238389AE1C80"]
 			tasks: [
 				{
-					id: "8020F02196223AAF"
+					id: "0020F02196223AAF"
 					type: "stage"
 					stage: "oficio_herrero_1"
 				}
@@ -756,7 +756,7 @@
 			icon: "minecraft:nether_star"
 			x: 6.5d
 			y: 6.5d
-			dependencies: ["96F0710C262B298C"]
+			dependencies: ["16F0710C262B298C"]
 			tasks: [
 				{
 					id: "6CB2C673AA197794"
@@ -773,7 +773,7 @@
 					silent: true
 				}
 				{
-					id: "B0A05FF0ABB606B2"
+					id: "30A05FF0ABB606B2"
 					type: "item"
 					item: "lightmanscurrency:coin_emerald"
 					count: 3
@@ -792,7 +792,7 @@
 			icon: "minecraft:anvil"
 			x: 0.5d
 			y: 8d
-			dependencies: ["D4EFDB76A048C766"]
+			dependencies: ["54EFDB76A048C766"]
 			tasks: [
 				{
 					id: "1C9F1AE9566375AD"
@@ -801,14 +801,14 @@
 			]
 			rewards: [
 				{
-					id: "8CB26B5C9BBD6BAA"
+					id: "0CB26B5C9BBD6BAA"
 					type: "command"
 					command: "/puffish_skills experience add {p} oficio_cocinero 40"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "95E7BAEEE75ABCFE"
+					id: "15E7BAEEE75ABCFE"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 60"
 					elevate_perms: true
@@ -817,7 +817,7 @@
 			]
 		}
 		{
-			id: "FF6561684F886B64"
+			id: "7F6561684F886B64"
 			title: "Cocinero: práctica"
 			subtitle: "Haz el trabajo"
 			description: ["Cocina carne y pescado, y prepara comida variada."]
@@ -827,19 +827,19 @@
 			dependencies: ["753F8FC0BE2F83E4"]
 			tasks: [
 				{
-					id: "E68688AC69FBEF75"
+					id: "668688AC69FBEF75"
 					type: "item"
 					item: "minecraft:cooked_beef"
 					count: 16L
 				}
 				{
-					id: "E661719EA57C11F6"
+					id: "6661719EA57C11F6"
 					type: "item"
 					item: "minecraft:cooked_porkchop"
 					count: 16L
 				}
 				{
-					id: "A60BA9DE7614D0F9"
+					id: "260BA9DE7614D0F9"
 					type: "item"
 					item: "minecraft:baked_potato"
 					count: 16L
@@ -861,7 +861,7 @@
 					silent: true
 				}
 				{
-					id: "DF8D81BA5714EF38"
+					id: "5F8D81BA5714EF38"
 					type: "item"
 					item: "minecraft:smoker"
 				}
@@ -875,24 +875,24 @@
 			icon: "minecraft:nether_star"
 			x: 4.5d
 			y: 8d
-			dependencies: ["FF6561684F886B64"]
+			dependencies: ["7F6561684F886B64"]
 			tasks: [
 				{
-					id: "BE535588EDFA9CF7"
+					id: "3E535588EDFA9CF7"
 					type: "stage"
 					stage: "oficio_cocinero_1"
 				}
 			]
 			rewards: [
 				{
-					id: "B2CFA87F0B38CC6A"
+					id: "32CFA87F0B38CC6A"
 					type: "command"
 					command: "/puffish_skills experience add {p} oficio_cocinero 100"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "E9767DEC3CBE46A9"
+					id: "69767DEC3CBE46A9"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 200"
 					elevate_perms: true
@@ -917,7 +917,7 @@
 			dependencies: ["1A893B25B04FC13D"]
 			tasks: [
 				{
-					id: "9E7F7D89D9B0A9D9"
+					id: "1E7F7D89D9B0A9D9"
 					type: "stage"
 					stage: "oficio_cocinero_2"
 				}
@@ -931,7 +931,7 @@
 					silent: true
 				}
 				{
-					id: "F99197915EE7B168"
+					id: "799197915EE7B168"
 					type: "item"
 					item: "lightmanscurrency:coin_emerald"
 					count: 3
@@ -939,7 +939,7 @@
 			]
 		}
 		{
-			id: "C57EB78696ACE273"
+			id: "457EB78696ACE273"
 			title: "Oficio: Encantador"
 			subtitle: "Presentación"
 			description: [
@@ -950,7 +950,7 @@
 			icon: "minecraft:anvil"
 			x: 0.5d
 			y: 9.5d
-			dependencies: ["D4EFDB76A048C766"]
+			dependencies: ["54EFDB76A048C766"]
 			tasks: [
 				{
 					id: "29864F64B8304780"
@@ -959,14 +959,14 @@
 			]
 			rewards: [
 				{
-					id: "947D450E7CB9DE13"
+					id: "147D450E7CB9DE13"
 					type: "command"
 					command: "/puffish_skills experience add {p} oficio_encantador 40"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "858DB57A27D64372"
+					id: "058DB57A27D64372"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 60"
 					elevate_perms: true
@@ -982,7 +982,7 @@
 			icon: "minecraft:enchanted_book"
 			x: 2.5d
 			y: 9.5d
-			dependencies: ["C57EB78696ACE273"]
+			dependencies: ["457EB78696ACE273"]
 			tasks: [
 				{
 					id: "75A3699AE2F6F7BB"
@@ -993,21 +993,21 @@
 			]
 			rewards: [
 				{
-					id: "E57AC48AAF3E33C6"
+					id: "657AC48AAF3E33C6"
 					type: "command"
 					command: "/puffish_skills experience add {p} oficio_encantador 150"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "C55C37A908486660"
+					id: "455C37A908486660"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 120"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "C0AE69EDB7DCA7B4"
+					id: "40AE69EDB7DCA7B4"
 					type: "item"
 					item: "minecraft:lapis_lazuli"
 					count: 32
@@ -1015,7 +1015,7 @@
 			]
 		}
 		{
-			id: "8AC405322A68F794"
+			id: "0AC405322A68F794"
 			title: "Encantador I"
 			subtitle: "Hito de oficio"
 			description: ["Sube en el árbol de Encantador hasta &6Fundamentos VI&r. Esto activa el hito Encantador I."]
@@ -1025,7 +1025,7 @@
 			dependencies: ["5C743ED0FE5620E5"]
 			tasks: [
 				{
-					id: "C9F85A42FAD730CF"
+					id: "49F85A42FAD730CF"
 					type: "stage"
 					stage: "oficio_encantador_1"
 				}
@@ -1046,7 +1046,7 @@
 					silent: true
 				}
 				{
-					id: "F6FB84C4D55B9EB6"
+					id: "76FB84C4D55B9EB6"
 					type: "item"
 					item: "lightmanscurrency:coin_gold"
 					count: 2
@@ -1061,10 +1061,10 @@
 			icon: "minecraft:nether_star"
 			x: 6.5d
 			y: 9.5d
-			dependencies: ["8AC405322A68F794"]
+			dependencies: ["0AC405322A68F794"]
 			tasks: [
 				{
-					id: "A4832711AE997FF7"
+					id: "24832711AE997FF7"
 					type: "stage"
 					stage: "oficio_encantador_2"
 				}

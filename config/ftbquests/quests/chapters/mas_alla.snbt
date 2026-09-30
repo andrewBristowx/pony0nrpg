@@ -2,16 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mas_alla"
-	group: "FA1951BF2D35F839"
+	group: "7A1951BF2D35F839"
 	title: "8. Más allá del mundo"
 	subtitle: ["Undergarden, Aether y el espacio: nuevas dimensiones y materiales."]
 	icon: "ad_astra:tier_1_rocket"
-	id: "C02B48C24882F324"
+	id: "402B48C24882F324"
 	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
-			id: "9B1494BEA9A64C90"
+			id: "1B1494BEA9A64C90"
 			title: "Más allá del mundo"
 			subtitle: "Dimensiones"
 			description: [
@@ -25,20 +25,20 @@
 			dependencies: ["252B5CC6604F1E2A"]
 			tasks: [
 				{
-					id: "CEDFC12303C88CED"
+					id: "4EDFC12303C88CED"
 					type: "checkmark"
 				}
 			]
 			rewards: [
 				{
-					id: "D17414ED6E26B2A6"
+					id: "517414ED6E26B2A6"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 2500"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "EA931EE3D14DFF9C"
+					id: "6A931EE3D14DFF9C"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 				}
@@ -52,17 +52,17 @@
 			icon: "undergarden:catalyst"
 			x: 2.5d
 			y: 0.5d
-			dependencies: ["9B1494BEA9A64C90"]
+			dependencies: ["1B1494BEA9A64C90"]
 			tasks: [
 				{
-					id: "A5C66A58B04D93BB"
+					id: "25C66A58B04D93BB"
 					type: "item"
 					item: "undergarden:catalyst"
 				}
 			]
 			rewards: [
 				{
-					id: "982F8EAE4072398C"
+					id: "182F8EAE4072398C"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 2800"
 					elevate_perms: true
@@ -71,7 +71,7 @@
 			]
 		}
 		{
-			id: "C8F04AAF3D8BDDA0"
+			id: "48F04AAF3D8BDDA0"
 			title: "Entra al Undergarden"
 			subtitle: "Bajo tierra"
 			description: ["Cruza el portal. Ten cuidado con los moradores y los devoradores."]
@@ -81,7 +81,7 @@
 			dependencies: ["6A1F3570BDB04DF6"]
 			tasks: [
 				{
-					id: "E3C4AAEEA2954C6F"
+					id: "63C4AAEEA2954C6F"
 					type: "dimension"
 					dimension: "undergarden:undergarden"
 				}
@@ -95,30 +95,30 @@
 					silent: true
 				}
 				{
-					id: "BC014F7B5123A68A"
+					id: "3C014F7B5123A68A"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 				}
 			]
 		}
 		{
-			id: "8BA57DB472D771CC"
+			id: "0BA57DB472D771CC"
 			title: "Cloggrum y Froststeel"
 			subtitle: "Metales nuevos"
 			description: ["El Undergarden tiene metales propios: cloggrum y froststeel. Con ellos fabricas equipo especial."]
 			icon: "undergarden:cloggrum_ingot"
 			x: 6.5d
 			y: 0.5d
-			dependencies: ["C8F04AAF3D8BDDA0"]
+			dependencies: ["48F04AAF3D8BDDA0"]
 			tasks: [
 				{
-					id: "ACB551B64D36D2BF"
+					id: "2CB551B64D36D2BF"
 					type: "item"
 					item: "undergarden:cloggrum_ingot"
 					count: 8L
 				}
 				{
-					id: "C3546674183B7089"
+					id: "43546674183B7089"
 					type: "item"
 					item: "undergarden:froststeel_ingot"
 					count: 4L
@@ -126,14 +126,14 @@
 			]
 			rewards: [
 				{
-					id: "D2BE36B33940E5FA"
+					id: "52BE36B33940E5FA"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 3200"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "B2D554328A35BC8F"
+					id: "32D554328A35BC8F"
 					type: "command"
 					command: "/puffish_skills experience add {p} oficio_herrero 300"
 					elevate_perms: true
@@ -142,17 +142,17 @@
 			]
 		}
 		{
-			id: "B1A87DBC8F9DA4E7"
+			id: "31A87DBC8F9DA4E7"
 			title: "El guardián olvidado"
 			subtitle: "Jefe del Undergarden"
 			description: ["El Forgotten Guardian custodia el portal más profundo. Su recompensa: el metal olvidado."]
 			icon: "undergarden:forgotten_ingot"
 			x: 8.5d
 			y: 0.5d
-			dependencies: ["8BA57DB472D771CC"]
+			dependencies: ["0BA57DB472D771CC"]
 			tasks: [
 				{
-					id: "C743A1437E57AB75"
+					id: "4743A1437E57AB75"
 					type: "kill"
 					entity: "undergarden:forgotten_guardian"
 					value: 1L
@@ -173,7 +173,7 @@
 					silent: true
 				}
 				{
-					id: "B71CBDB4B6B8B6E2"
+					id: "371CBDB4B6B8B6E2"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 					count: 2
@@ -188,7 +188,7 @@
 			icon: "aether:holystone"
 			x: 2.5d
 			y: 2d
-			dependencies: ["9B1494BEA9A64C90"]
+			dependencies: ["1B1494BEA9A64C90"]
 			tasks: [
 				{
 					id: "3C48251E5829AFE1"
@@ -208,7 +208,7 @@
 			]
 		}
 		{
-			id: "E08D0E74AE144739"
+			id: "608D0E74AE144739"
 			title: "Entra al Aether"
 			subtitle: "El cielo"
 			description: ["Cruza el portal. Cuidado con las caídas: al vacío del Aether no le importan tus corazones."]
@@ -218,7 +218,7 @@
 			dependencies: ["0CF5D43F82571F8E"]
 			tasks: [
 				{
-					id: "BE804702E84D7138"
+					id: "3E804702E84D7138"
 					type: "advancement"
 					advancement: "aether:enter_aether"
 					criterion: ""
@@ -240,17 +240,17 @@
 			]
 		}
 		{
-			id: "BCD87D472ED867E1"
+			id: "3CD87D472ED867E1"
 			title: "Zanita y gravitita"
 			subtitle: "Materiales del Aether"
 			description: ["La zanita es el mineral base del Aether: sirve para herramientas y armas. La gravitita necesita un altar."]
 			icon: "aether:zanite_gemstone"
 			x: 6.5d
 			y: 2d
-			dependencies: ["E08D0E74AE144739"]
+			dependencies: ["608D0E74AE144739"]
 			tasks: [
 				{
-					id: "B9D820F3A51CB22C"
+					id: "39D820F3A51CB22C"
 					type: "item"
 					item: "aether:zanite_gemstone"
 					count: 16L
@@ -287,10 +287,10 @@
 			icon: "minecraft:writable_book"
 			x: 8.5d
 			y: 2d
-			dependencies: ["BCD87D472ED867E1"]
+			dependencies: ["3CD87D472ED867E1"]
 			tasks: [
 				{
-					id: "D2F3AED21E431030"
+					id: "52F3AED21E431030"
 					type: "advancement"
 					advancement: "aether:bronze_dungeon"
 					criterion: ""
@@ -305,7 +305,7 @@
 					silent: true
 				}
 				{
-					id: "E9BF4F542268181E"
+					id: "69BF4F542268181E"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 					count: 2
@@ -313,7 +313,7 @@
 			]
 		}
 		{
-			id: "F87D568DFB6D92C8"
+			id: "787D568DFB6D92C8"
 			title: "Cohete"
 			subtitle: "Ad Astra"
 			description: [
@@ -324,10 +324,10 @@
 			icon: "ad_astra:nasa_workbench"
 			x: 2.5d
 			y: 3.5d
-			dependencies: ["9B1494BEA9A64C90"]
+			dependencies: ["1B1494BEA9A64C90"]
 			tasks: [
 				{
-					id: "C0FF72BD86EC320E"
+					id: "40FF72BD86EC320E"
 					type: "item"
 					item: "ad_astra:nasa_workbench"
 				}
@@ -339,7 +339,7 @@
 			]
 			rewards: [
 				{
-					id: "C56CA549566D22EF"
+					id: "456CA549566D22EF"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 3500"
 					elevate_perms: true
@@ -353,22 +353,22 @@
 			]
 		}
 		{
-			id: "925E7E3DF8BBF298"
+			id: "125E7E3DF8BBF298"
 			title: "Traje espacial"
 			subtitle: "Oxígeno"
 			description: ["En el espacio no hay aire. El traje espacial y el equipo de oxígeno te mantienen con vida."]
 			icon: "ad_astra:space_suit"
 			x: 4.5d
 			y: 3.5d
-			dependencies: ["F87D568DFB6D92C8"]
+			dependencies: ["787D568DFB6D92C8"]
 			tasks: [
 				{
-					id: "BD5EF0EEA6CBFF53"
+					id: "3D5EF0EEA6CBFF53"
 					type: "item"
 					item: "ad_astra:space_suit"
 				}
 				{
-					id: "C1538050AC3A34F4"
+					id: "41538050AC3A34F4"
 					type: "item"
 					item: "ad_astra:oxygen_gear"
 				}
@@ -396,7 +396,7 @@
 			icon: "minecraft:writable_book"
 			x: 6.5d
 			y: 3.5d
-			dependencies: ["925E7E3DF8BBF298"]
+			dependencies: ["125E7E3DF8BBF298"]
 			tasks: [
 				{
 					id: "47908F37C005B77D"
@@ -422,13 +422,13 @@
 			]
 		}
 		{
-			id: "99B0C33FC300E506"
+			id: "19B0C33FC300E506"
 			title: "Marte (opcional)"
 			subtitle: "Cohete tier 2"
 			description: ["Marte requiere un cohete de nivel 2. Aquí hay más minerales, y enemigos."]
 			icon: "minecraft:writable_book"
 			x: 8.5d
-			y: 3.5d
+			y: 5d
 			optional: true
 			dependencies: ["70A678CA815512E3"]
 			tasks: [
@@ -441,14 +441,14 @@
 			]
 			rewards: [
 				{
-					id: "8A5878597654982A"
+					id: "0A5878597654982A"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 4500"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "FF8442C79C092BE4"
+					id: "7F8442C79C092BE4"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 					count: 2
@@ -462,17 +462,17 @@
 			description: ["Los planetas tienen metales únicos: desh en la Luna, ostrum en Marte, calorita en Venus. Son la base del equipo espacial."]
 			icon: "ad_astra:desh_ingot"
 			x: 8.5d
-			y: 5d
+			y: 3.5d
 			dependencies: ["70A678CA815512E3"]
 			tasks: [
 				{
-					id: "F99AE485BD8B9E2F"
+					id: "799AE485BD8B9E2F"
 					type: "item"
 					item: "ad_astra:desh_ingot"
 					count: 16L
 				}
 				{
-					id: "E86868E6CB02589B"
+					id: "686868E6CB02589B"
 					type: "item"
 					item: "ad_astra:ostrum_ingot"
 					count: 8L
@@ -480,7 +480,7 @@
 			]
 			rewards: [
 				{
-					id: "C1F8ED1A62CA58B1"
+					id: "41F8ED1A62CA58B1"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 4000"
 					elevate_perms: true
@@ -496,7 +496,7 @@
 			]
 		}
 		{
-			id: "CD8B35492B3252A6"
+			id: "4D8B35492B3252A6"
 			title: "Materiales dimensionales"
 			subtitle: "Cierre del capítulo"
 			description: [
@@ -507,7 +507,7 @@
 			icon: "undergarden:forgotten_ingot"
 			x: 10.5d
 			y: 2d
-			dependencies: ["B1A87DBC8F9DA4E7", "289319CD0FB27F96", "752493E8C3ACAD7E"]
+			dependencies: ["31A87DBC8F9DA4E7", "289319CD0FB27F96", "752493E8C3ACAD7E"]
 			tasks: [
 				{
 					id: "3B5BEFF1ED0B9297"
@@ -517,7 +517,7 @@
 					consume_items: true
 				}
 				{
-					id: "D6337CF3986FB7ED"
+					id: "56337CF3986FB7ED"
 					type: "item"
 					item: "aether:zanite_gemstone"
 					count: 8L
@@ -533,14 +533,14 @@
 			]
 			rewards: [
 				{
-					id: "BD655251CB2B4212"
+					id: "3D655251CB2B4212"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 7000"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "9FF44F804C55D7F9"
+					id: "1FF44F804C55D7F9"
 					type: "command"
 					command: "/kubejs stages add {p} era_9"
 					elevate_perms: true

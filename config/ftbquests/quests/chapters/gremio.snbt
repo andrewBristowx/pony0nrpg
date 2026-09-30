@@ -6,12 +6,12 @@
 	title: "Gremio y economía"
 	subtitle: ["Encargos, rangos y monedas"]
 	icon: "lightmanscurrency:coin_gold"
-	id: "9BC158E2AE8F7AD4"
+	id: "1BC158E2AE8F7AD4"
 	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
-			id: "BB50558137D5DBEC"
+			id: "3B50558137D5DBEC"
 			title: "Gremio de aventureros"
 			subtitle: "Encargos con recompensa"
 			description: [
@@ -22,10 +22,10 @@
 			icon: "lightmanscurrency:coin_gold"
 			x: 0.5d
 			y: 0.5d
-			dependencies: ["D8586CCB7C53F57D"]
+			dependencies: ["58586CCB7C53F57D"]
 			tasks: [
 				{
-					id: "88D059B491A7230C"
+					id: "08D059B491A7230C"
 					type: "checkmark"
 				}
 			]
@@ -38,7 +38,7 @@
 					silent: true
 				}
 				{
-					id: "9DDD4B34976A0DDA"
+					id: "1DDD4B34976A0DDA"
 					type: "item"
 					item: "lightmanscurrency:coin_copper"
 					count: 30
@@ -46,7 +46,7 @@
 			]
 		}
 		{
-			id: "E5662E199EC48100"
+			id: "65662E199EC48100"
 			title: "Las monedas"
 			subtitle: "Lightman's Currency"
 			description: [
@@ -57,10 +57,10 @@
 			icon: "lightmanscurrency:coin_copper"
 			x: 2.5d
 			y: 0.5d
-			dependencies: ["BB50558137D5DBEC"]
+			dependencies: ["3B50558137D5DBEC"]
 			tasks: [
 				{
-					id: "A40DCC7F779FC076"
+					id: "240DCC7F779FC076"
 					type: "item"
 					item: "lightmanscurrency:coin_copper"
 					count: 10L
@@ -75,7 +75,7 @@
 					silent: true
 				}
 				{
-					id: "C13CEACEFAD7F163"
+					id: "413CEACEFAD7F163"
 					type: "item"
 					item: "lightmanscurrency:wallet_copper"
 				}
@@ -89,7 +89,7 @@
 			icon: "lightmanscurrency:atm"
 			x: 4.5d
 			y: 0.5d
-			dependencies: ["E5662E199EC48100"]
+			dependencies: ["65662E199EC48100"]
 			tasks: [
 				{
 					id: "0748DD2161F8C52E"
@@ -99,14 +99,14 @@
 			]
 			rewards: [
 				{
-					id: "E6F988A006493DCF"
+					id: "66F988A006493DCF"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 120"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "B995B2B5F96B84F9"
+					id: "3995B2B5F96B84F9"
 					type: "item"
 					item: "lightmanscurrency:coin_iron"
 					count: 5
@@ -114,7 +114,7 @@
 			]
 		}
 		{
-			id: "C085131512FB6F3A"
+			id: "4085131512FB6F3A"
 			title: "Tu primera tienda"
 			subtitle: "Comercio entre jugadores"
 			description: ["Un comerciante de objetos vende lo que pongas en su inventario al precio que fijes. Es la base de la economía del servidor."]
@@ -125,14 +125,14 @@
 			dependencies: ["10DE08BC1BF5BED6"]
 			tasks: [
 				{
-					id: "C74FFA58BC1CF6D2"
+					id: "474FFA58BC1CF6D2"
 					type: "item"
 					item: "lightmanscurrency:item_trader_server_sml"
 				}
 			]
 			rewards: [
 				{
-					id: "F78D9B3A29253616"
+					id: "778D9B3A29253616"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 150"
 					elevate_perms: true
@@ -147,14 +147,14 @@
 			]
 		}
 		{
-			id: "E8695456601ED108"
+			id: "68695456601ED108"
 			title: "Rango Novato"
 			subtitle: "Punto de partida"
 			description: ["Eres un aventurero del gremio. Los encargos de rango Novato son sencillos: mobs comunes cerca del spawn."]
 			icon: "lightmanscurrency:coin_gold"
 			x: 2.5d
 			y: 2d
-			dependencies: ["BB50558137D5DBEC"]
+			dependencies: ["3B50558137D5DBEC"]
 			tasks: [
 				{
 					id: "464373D4EC403594"
@@ -163,7 +163,7 @@
 			]
 			rewards: [
 				{
-					id: "E76A5524125A1F59"
+					id: "676A5524125A1F59"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 50"
 					elevate_perms: true
@@ -179,10 +179,10 @@
 			icon: "minecraft:iron_sword"
 			x: 4.5d
 			y: 2d
-			dependencies: ["E8695456601ED108"]
+			dependencies: ["68695456601ED108"]
 			tasks: [
 				{
-					id: "CB903A5283FD9702"
+					id: "4B903A5283FD9702"
 					type: "kill"
 					entity: "minecraft:zombie"
 					value: 30L
@@ -212,10 +212,10 @@
 			icon: "minecraft:iron_sword"
 			x: 4.5d
 			y: 3.5d
-			dependencies: ["E8695456601ED108"]
+			dependencies: ["68695456601ED108"]
 			tasks: [
 				{
-					id: "B1A16D745A376AF3"
+					id: "31A16D745A376AF3"
 					type: "kill"
 					entity: "minecraft:skeleton"
 					value: 25L
@@ -223,7 +223,7 @@
 			]
 			rewards: [
 				{
-					id: "9DDC5038CCC50DAA"
+					id: "1DDC5038CCC50DAA"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 160"
 					elevate_perms: true
@@ -245,7 +245,7 @@
 			icon: "minecraft:iron_sword"
 			x: 4.5d
 			y: 5d
-			dependencies: ["E8695456601ED108"]
+			dependencies: ["68695456601ED108"]
 			tasks: [
 				{
 					id: "38A473E81E1FE3F5"
@@ -256,14 +256,14 @@
 			]
 			rewards: [
 				{
-					id: "D8CCCE54E44F284D"
+					id: "58CCCE54E44F284D"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 160"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "91EDBF94F1D8D08E"
+					id: "11EDBF94F1D8D08E"
 					type: "item"
 					item: "lightmanscurrency:coin_iron"
 					count: 8
@@ -278,10 +278,10 @@
 			icon: "minecraft:nether_star"
 			x: 6.5d
 			y: 3.5d
-			dependencies: ["68C1A8BC88D5C2E1", "519FCDF1EBFE219E", "973E5CD212B18321"]
+			dependencies: ["68C1A8BC88D5C2E1", "519FCDF1EBFE219E", "173E5CD212B18321"]
 			tasks: [
 				{
-					id: "E5232E4CE71B2C27"
+					id: "65232E4CE71B2C27"
 					type: "stage"
 					stage: "rango_bronce"
 				}
@@ -303,7 +303,7 @@
 			]
 		}
 		{
-			id: "A7AEFFF6B8BB4F49"
+			id: "27AEFFF6B8BB4F49"
 			title: "Encargo: brujas"
 			subtitle: "Bronce"
 			description: ["Las brujas envenenan los pozos. Encuentra y elimina 5."]
@@ -313,7 +313,7 @@
 			dependencies: ["393A2A529C6BA469"]
 			tasks: [
 				{
-					id: "8068C0182F76D17A"
+					id: "0068C0182F76D17A"
 					type: "kill"
 					entity: "minecraft:witch"
 					value: 5L
@@ -336,7 +336,7 @@
 			]
 		}
 		{
-			id: "E71D50A4E90F37D0"
+			id: "671D50A4E90F37D0"
 			title: "Encargo: endermen"
 			subtitle: "Bronce"
 			description: ["Los endermen se llevan bloques del pueblo. Derrota 8 (no los mires a los ojos)."]
@@ -346,7 +346,7 @@
 			dependencies: ["393A2A529C6BA469"]
 			tasks: [
 				{
-					id: "B5BE633D4EE94959"
+					id: "35BE633D4EE94959"
 					type: "kill"
 					entity: "minecraft:enderman"
 					value: 8L
@@ -354,7 +354,7 @@
 			]
 			rewards: [
 				{
-					id: "E410E3CF7E002CA5"
+					id: "6410E3CF7E002CA5"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 320"
 					elevate_perms: true
@@ -369,7 +369,7 @@
 			]
 		}
 		{
-			id: "B036B9CC8E184204"
+			id: "3036B9CC8E184204"
 			title: "Encargo: blazes"
 			subtitle: "Bronce"
 			description: ["Las varas de blaze escasean. Elimina 10 blazes en una fortaleza del Nether."]
@@ -379,7 +379,7 @@
 			dependencies: ["393A2A529C6BA469", "275367E181852557"]
 			tasks: [
 				{
-					id: "FB54A2AD2BA9644B"
+					id: "7B54A2AD2BA9644B"
 					type: "kill"
 					entity: "minecraft:blaze"
 					value: 10L
@@ -394,7 +394,7 @@
 					silent: true
 				}
 				{
-					id: "D24E6DFCDFC5EB78"
+					id: "524E6DFCDFC5EB78"
 					type: "item"
 					item: "lightmanscurrency:coin_gold"
 					count: 3
@@ -402,7 +402,7 @@
 			]
 		}
 		{
-			id: "DF10D342CB4BCEB2"
+			id: "5F10D342CB4BCEB2"
 			title: "Rango Plata"
 			subtitle: "Prueba de valor"
 			description: [
@@ -413,7 +413,7 @@
 			icon: "minecraft:iron_sword"
 			x: 10.5d
 			y: 5d
-			dependencies: ["A7AEFFF6B8BB4F49", "E71D50A4E90F37D0", "B036B9CC8E184204"]
+			dependencies: ["27AEFFF6B8BB4F49", "671D50A4E90F37D0", "3036B9CC8E184204"]
 			tasks: [
 				{
 					id: "2CECA0CE9B12463D"
@@ -431,7 +431,7 @@
 					silent: true
 				}
 				{
-					id: "F97BE58CC117E8BF"
+					id: "797BE58CC117E8BF"
 					type: "command"
 					command: "/kubejs stages add {p} rango_plata"
 					elevate_perms: true

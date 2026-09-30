@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "aventurero"
-	group: "FA1951BF2D35F839"
+	group: "7A1951BF2D35F839"
 	title: "3. El aventurero"
 	subtitle: ["Clases, combate, mazmorras y tu primer miniboss. Entra al gremio."]
 	icon: "minecraft:iron_sword"
@@ -22,7 +22,7 @@
 			icon: "minecraft:iron_sword"
 			x: 0.5d
 			y: 0.5d
-			dependencies: ["F93319BF3F30FEC1"]
+			dependencies: ["793319BF3F30FEC1"]
 			tasks: [
 				{
 					id: "6E04A7DEAC543CF7"
@@ -80,7 +80,7 @@
 			]
 		}
 		{
-			id: "8B3A82BE13DF2E1B"
+			id: "0B3A82BE13DF2E1B"
 			title: "Equipo de Arquero"
 			subtitle: "Arco largo de hierro"
 			description: ["El arco largo tiene más alcance y potencia. Requiere Arquero (Tier I)."]
@@ -91,14 +91,14 @@
 			dependencies: ["089D27A3C570503E"]
 			tasks: [
 				{
-					id: "BD1D517F8AA50B08"
+					id: "3D1D517F8AA50B08"
 					type: "item"
 					item: "spartanweaponry:iron_longbow"
 				}
 			]
 			rewards: [
 				{
-					id: "C7F1525356485519"
+					id: "47F1525356485519"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 320"
 					elevate_perms: true
@@ -113,7 +113,7 @@
 			]
 		}
 		{
-			id: "9F16F986157B10A0"
+			id: "1F16F986157B10A0"
 			title: "Equipo de Mago"
 			subtitle: "Grimorio de hierro"
 			description: ["Los grimorios guardan hechizos y aumentan tu poder mágico. Requiere Mago (Tier I)."]
@@ -138,7 +138,7 @@
 					silent: true
 				}
 				{
-					id: "A6E561DE26904232"
+					id: "26E561DE26904232"
 					type: "item"
 					item: "irons_spellbooks:common_ink"
 					count: 4
@@ -146,7 +146,7 @@
 			]
 		}
 		{
-			id: "A2463BDBAC29BB2E"
+			id: "22463BDBAC29BB2E"
 			title: "Equipo de Asesino"
 			subtitle: "Daga de hierro"
 			description: ["Las armas ligeras son rápidas y dan críticos. Requieren Asesino (Tier I)."]
@@ -157,7 +157,7 @@
 			dependencies: ["089D27A3C570503E"]
 			tasks: [
 				{
-					id: "C2E54072EE3D7C0A"
+					id: "42E54072EE3D7C0A"
 					type: "item"
 					item: "spartanweaponry:iron_dagger"
 				}
@@ -171,7 +171,7 @@
 					silent: true
 				}
 				{
-					id: "D34AD261FEC1F825"
+					id: "534AD261FEC1F825"
 					type: "command"
 					command: "/puffish_skills experience add {p} oficio_herrero 80"
 					elevate_perms: true
@@ -205,7 +205,7 @@
 					silent: true
 				}
 				{
-					id: "DE8A042E853A5B15"
+					id: "5E8A042E853A5B15"
 					type: "item"
 					item: "sophisticatedbackpacks:magnet_upgrade"
 				}
@@ -226,9 +226,9 @@
 			dependency_requirement: "one_completed"
 			dependencies: [
 				"2C5539401072FC86"
-				"8B3A82BE13DF2E1B"
-				"9F16F986157B10A0"
-				"A2463BDBAC29BB2E"
+				"0B3A82BE13DF2E1B"
+				"1F16F986157B10A0"
+				"22463BDBAC29BB2E"
 				"7C8EA5D510588DD0"
 			]
 			tasks: [
@@ -239,7 +239,7 @@
 			]
 			rewards: [
 				{
-					id: "8F4212C4BA19C170"
+					id: "0F4212C4BA19C170"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 350"
 					elevate_perms: true
@@ -248,7 +248,7 @@
 			]
 		}
 		{
-			id: "CF73AC1BF3EE7841"
+			id: "4F73AC1BF3EE7841"
 			title: "Combate avanzado"
 			subtitle: "Better Combat"
 			description: [
@@ -268,7 +268,7 @@
 					value: 10L
 				}
 				{
-					id: "CB7F73512C9908D9"
+					id: "4B7F73512C9908D9"
 					type: "kill"
 					entity: "minecraft:creeper"
 					value: 5L
@@ -276,7 +276,7 @@
 			]
 			rewards: [
 				{
-					id: "FAB8665C1869E149"
+					id: "7AB8665C1869E149"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 340"
 					elevate_perms: true
@@ -297,7 +297,7 @@
 			icon: "minecraft:compass"
 			x: 4.5d
 			y: 8d
-			dependencies: ["CF73AC1BF3EE7841"]
+			dependencies: ["4F73AC1BF3EE7841"]
 			tasks: [
 				{
 					id: "267F23DA8204FC3B"
@@ -307,7 +307,7 @@
 			]
 			rewards: [
 				{
-					id: "BBFC0E18AB176460"
+					id: "3BFC0E18AB176460"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 380"
 					elevate_perms: true
@@ -328,12 +328,12 @@
 			description: ["Explora un templo o torre y sal con vida."]
 			icon: "minecraft:compass"
 			x: 4.5d
-			y: 9.5d
+			y: 11d
 			optional: true
-			dependencies: ["CF73AC1BF3EE7841"]
+			dependencies: ["4F73AC1BF3EE7841"]
 			tasks: [
 				{
-					id: "BD1DCD55F957CFF5"
+					id: "3D1DCD55F957CFF5"
 					type: "structure"
 					structure: "minecraft:desert_pyramid"
 				}
@@ -349,14 +349,14 @@
 			]
 		}
 		{
-			id: "D06D4C9C5CF61779"
+			id: "506D4C9C5CF61779"
 			title: "Portal al Nether"
 			subtitle: "Otra dimensión"
 			description: ["Construye un portal de obsidiana y enciéndelo. El Nether es peligroso: lleva armadura, armas y bloques para taparte."]
 			icon: "minecraft:writable_book"
 			x: 4.5d
-			y: 11d
-			dependencies: ["CF73AC1BF3EE7841"]
+			y: 9.5d
+			dependencies: ["4F73AC1BF3EE7841"]
 			tasks: [
 				{
 					id: "6D075955C6E33722"
@@ -367,7 +367,7 @@
 			]
 			rewards: [
 				{
-					id: "E5E35EB3C0BA647C"
+					id: "65E35EB3C0BA647C"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 420"
 					elevate_perms: true
@@ -380,7 +380,7 @@
 					count: 5
 				}
 				{
-					id: "B8CE939776A8D48C"
+					id: "38CE939776A8D48C"
 					type: "item"
 					item: "minecraft:golden_apple"
 					count: 2
@@ -394,11 +394,11 @@
 			description: ["Las fortalezas del Nether contienen blaze y cofres. Usa tu brújula del explorador para encontrar una."]
 			icon: "minecraft:writable_book"
 			x: 6.5d
-			y: 11d
-			dependencies: ["D06D4C9C5CF61779"]
+			y: 9.5d
+			dependencies: ["506D4C9C5CF61779"]
 			tasks: [
 				{
-					id: "B47E3C72577A2460"
+					id: "347E3C72577A2460"
 					type: "advancement"
 					advancement: "minecraft:nether/find_fortress"
 					criterion: ""
@@ -421,14 +421,14 @@
 			]
 		}
 		{
-			id: "FE538FA4FBF014EF"
+			id: "7E538FA4FBF014EF"
 			title: "Bastión"
 			subtitle: "Piglins"
 			description: ["Los bastiones tienen piglins y mucho oro. Ponte una pieza de oro para que no se enfaden."]
 			icon: "minecraft:writable_book"
 			x: 6.5d
-			y: 12.5d
-			dependencies: ["D06D4C9C5CF61779"]
+			y: 11d
+			dependencies: ["506D4C9C5CF61779"]
 			tasks: [
 				{
 					id: "4B6500437CCD724B"
@@ -464,12 +464,12 @@
 			]
 			icon: "minecraft:iron_sword"
 			x: 8.5d
-			y: 12.5d
+			y: 11d
 			dependency_requirement: "one_completed"
-			dependencies: ["275367E181852557", "FE538FA4FBF014EF"]
+			dependencies: ["275367E181852557", "7E538FA4FBF014EF"]
 			tasks: [
 				{
-					id: "AC632D47415D5D45"
+					id: "2C632D47415D5D45"
 					type: "kill"
 					entity: "minecraft:piglin_brute"
 					value: 1L
@@ -477,14 +477,14 @@
 			]
 			rewards: [
 				{
-					id: "FD688C24E51DA413"
+					id: "7D688C24E51DA413"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 600"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "ABE67668FF82D310"
+					id: "2BE67668FF82D310"
 					type: "item"
 					item: "lightmanscurrency:coin_emerald"
 					count: 2
@@ -492,7 +492,7 @@
 			]
 		}
 		{
-			id: "973E5CD212B18321"
+			id: "173E5CD212B18321"
 			title: "Rango Bronce"
 			subtitle: "Cierre del capítulo"
 			description: [
@@ -533,13 +533,13 @@
 					silent: true
 				}
 				{
-					id: "D54DD7464CC3353D"
+					id: "554DD7464CC3353D"
 					type: "item"
 					item: "lightmanscurrency:coin_emerald"
 					count: 3
 				}
 				{
-					id: "ED14C3EE6AA12F49"
+					id: "6D14C3EE6AA12F49"
 					type: "item"
 					item: "minecraft:diamond_sword"
 				}

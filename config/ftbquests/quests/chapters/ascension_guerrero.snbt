@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ascension_guerrero"
-	group: "FD609B87CC2A62AE"
+	group: "7D609B87CC2A62AE"
 	title: "Ascensión: Guerrero"
 	subtitle: ["Puntos de Ascensión para Guerrero"]
 	icon: "minecraft:netherite_sword"
@@ -11,7 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "892DEB68945D84C1"
+			id: "092DEB68945D84C1"
 			title: "La puerta de la Ascensión"
 			subtitle: "Se abre al terminar la campaña"
 			description: [
@@ -24,7 +24,7 @@
 			y: 0.5d
 			tasks: [
 				{
-					id: "8C419B8A61DC5CBF"
+					id: "0C419B8A61DC5CBF"
 					type: "stage"
 					stage: "era_10"
 				}
@@ -51,7 +51,7 @@
 			icon: "minecraft:netherite_sword"
 			x: 2.5d
 			y: 0.5d
-			dependencies: ["892DEB68945D84C1"]
+			dependencies: ["092DEB68945D84C1"]
 			tasks: [
 				{
 					id: "4BFF5A0DAE82E632"
@@ -67,7 +67,7 @@
 					silent: true
 				}
 				{
-					id: "A32CC2F54F5AA038"
+					id: "232CC2F54F5AA038"
 					type: "command"
 					command: "/puffish_skills points add {p} ascension_guerrero 1"
 					elevate_perms: true
@@ -76,7 +76,7 @@
 			]
 		}
 		{
-			id: "945E836B0ADE39A7"
+			id: "145E836B0ADE39A7"
 			title: "Fuerza bruta"
 			subtitle: "Mata sin descanso"
 			description: ["Acaba con 200 zombis: la fuerza se gana golpeando."]
@@ -117,7 +117,7 @@
 			icon: "minecraft:clock"
 			x: 6.5d
 			y: 0.5d
-			dependencies: ["945E836B0ADE39A7"]
+			dependencies: ["145E836B0ADE39A7"]
 			tasks: [
 				{
 					id: "3E6FCC1098076894"
@@ -128,14 +128,14 @@
 			]
 			rewards: [
 				{
-					id: "DD320A5D7573D40A"
+					id: "5D320A5D7573D40A"
 					type: "command"
 					command: "/puffish_skills points add {p} ascension_guerrero 1"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "F84616886CDA443F"
+					id: "784616886CDA443F"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 500"
 					elevate_perms: true
@@ -144,7 +144,7 @@
 			]
 		}
 		{
-			id: "802CFCCA2B4DCD8F"
+			id: "002CFCCA2B4DCD8F"
 			title: "Armadura completa"
 			subtitle: "Un titán de netherita"
 			description: ["Fabrica una armadura de netherita, aunque sea una pieza."]
@@ -154,21 +154,21 @@
 			dependencies: ["69B30B980486EE8F"]
 			tasks: [
 				{
-					id: "D651136620224244"
+					id: "5651136620224244"
 					type: "item"
 					item: "minecraft:netherite_chestplate"
 				}
 			]
 			rewards: [
 				{
-					id: "DD101D55534554DC"
+					id: "5D101D55534554DC"
 					type: "command"
 					command: "/puffish_skills points add {p} ascension_guerrero 1"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "CE5654AB6FB6B510"
+					id: "4E5654AB6FB6B510"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 500"
 					elevate_perms: true
@@ -184,17 +184,17 @@
 			icon: "simplyswords:netherite_claymore"
 			x: 10.5d
 			y: 0.5d
-			dependencies: ["802CFCCA2B4DCD8F"]
+			dependencies: ["002CFCCA2B4DCD8F"]
 			tasks: [
 				{
-					id: "C809E64585C69601"
+					id: "4809E64585C69601"
 					type: "item"
 					item: "simplyswords:netherite_claymore"
 				}
 			]
 			rewards: [
 				{
-					id: "B6AEBC00DA8272CB"
+					id: "36AEBC00DA8272CB"
 					type: "command"
 					command: "/puffish_skills points add {p} ascension_guerrero 1"
 					elevate_perms: true
@@ -210,7 +210,7 @@
 			]
 		}
 		{
-			id: "D8C24ED29B2FB89A"
+			id: "58C24ED29B2FB89A"
 			title: "Contra el Wither"
 			subtitle: "Prueba de valor"
 			description: ["Derrota al Wither. Prepara pociones, armadura encantada y un plan."]
@@ -228,14 +228,14 @@
 			]
 			rewards: [
 				{
-					id: "877977DB96FC6B3E"
+					id: "077977DB96FC6B3E"
 					type: "command"
 					command: "/puffish_skills points add {p} ascension_guerrero 2"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "FD365100A376B869"
+					id: "7D365100A376B869"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 500"
 					elevate_perms: true
@@ -251,7 +251,7 @@
 			icon: "minecraft:clock"
 			x: 14.5d
 			y: 0.5d
-			dependencies: ["D8C24ED29B2FB89A"]
+			dependencies: ["58C24ED29B2FB89A"]
 			tasks: [
 				{
 					id: "16A7B39FB13CEC21"
@@ -296,14 +296,14 @@
 			]
 			rewards: [
 				{
-					id: "B4F92D66717E998E"
+					id: "34F92D66717E998E"
 					type: "command"
 					command: "/puffish_skills points add {p} ascension_guerrero 1"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "C723A082754C07B5"
+					id: "4723A082754C07B5"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 500"
 					elevate_perms: true
@@ -312,7 +312,7 @@
 			]
 		}
 		{
-			id: "E1CC250482E30D57"
+			id: "61CC250482E30D57"
 			title: "Maestría final"
 			subtitle: "Tier III"
 			description: ["Llega a la cima de un camino de Guerrero (Tier III)."]
@@ -322,21 +322,21 @@
 			dependencies: ["6A34C1CD6FD08430"]
 			tasks: [
 				{
-					id: "E67F195DF9F1E1B6"
+					id: "667F195DF9F1E1B6"
 					type: "stage"
 					stage: "maestria_guerrero_3"
 				}
 			]
 			rewards: [
 				{
-					id: "8616E0D64E69B4B9"
+					id: "0616E0D64E69B4B9"
 					type: "command"
 					command: "/puffish_skills points add {p} ascension_guerrero 2"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "84C14406A7DFAF71"
+					id: "04C14406A7DFAF71"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 500"
 					elevate_perms: true

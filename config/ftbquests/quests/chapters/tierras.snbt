@@ -2,11 +2,11 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tierras"
-	group: "FA1951BF2D35F839"
+	group: "7A1951BF2D35F839"
 	title: "7. Las tierras olvidadas"
 	subtitle: ["Mazmorras enormes, cuevas imposibles y tu primer jefe de Cataclysm."]
 	icon: "cataclysm:monstrous_horn"
-	id: "C176596AE4EA0D36"
+	id: "4176596AE4EA0D36"
 	order_index: 7
 	quest_links: [ ]
 	quests: [
@@ -31,7 +31,7 @@
 			]
 			rewards: [
 				{
-					id: "A94CEAEE813C9142"
+					id: "294CEAEE813C9142"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 2000"
 					elevate_perms: true
@@ -46,7 +46,7 @@
 			]
 		}
 		{
-			id: "FA77B62A6C7BE745"
+			id: "7A77B62A6C7BE745"
 			title: "Fuerte ilagerino"
 			subtitle: "Estructura grande"
 			description: ["Los fuertes de los ilagers están llenos de enemigos y botín. Entra con buena armadura y no te separes de tu grupo."]
@@ -63,14 +63,14 @@
 			]
 			rewards: [
 				{
-					id: "EFC7E3BCD4AB4D84"
+					id: "6FC7E3BCD4AB4D84"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 2200"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "A7224CF087FF9BA2"
+					id: "27224CF087FF9BA2"
 					type: "item"
 					item: "lightmanscurrency:coin_diamond"
 					count: 2
@@ -88,7 +88,7 @@
 			dependencies: ["79D86D9AF1006A2E"]
 			tasks: [
 				{
-					id: "B0278B5EBE8D8D85"
+					id: "30278B5EBE8D8D85"
 					type: "structure"
 					structure: "dungeons_arise:coliseum"
 				}
@@ -102,7 +102,7 @@
 					silent: true
 				}
 				{
-					id: "FF7AF86EAD9C4ED9"
+					id: "7F7AF86EAD9C4ED9"
 					type: "item"
 					item: "lightmanscurrency:coin_diamond"
 					count: 2
@@ -110,25 +110,25 @@
 			]
 		}
 		{
-			id: "9B5C873368FF2ED3"
+			id: "1B5C873368FF2ED3"
 			title: "La fábrica antigua"
 			subtitle: "Cataclysm"
 			description: ["Una estructura de metal y engranajes de una civilización perdida. Custodia un jefe mecánico."]
 			icon: "minecraft:compass"
 			x: 2.5d
-			y: 3.5d
+			y: 5d
 			optional: true
 			dependencies: ["79D86D9AF1006A2E"]
 			tasks: [
 				{
-					id: "A69BDB89D7FF7973"
+					id: "269BDB89D7FF7973"
 					type: "structure"
 					structure: "cataclysm:ancient_factory"
 				}
 			]
 			rewards: [
 				{
-					id: "AD1159682187F752"
+					id: "2D1159682187F752"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 2200"
 					elevate_perms: true
@@ -137,13 +137,13 @@
 			]
 		}
 		{
-			id: "E220FA1EB73AACFF"
+			id: "6220FA1EB73AACFF"
 			title: "Ciudad hundida"
 			subtitle: "Bajo el mar"
 			description: ["Una ciudad sumergida con enemigos acuáticos. Lleva pociones de respiración y visión."]
 			icon: "minecraft:compass"
 			x: 2.5d
-			y: 5d
+			y: 6.5d
 			optional: true
 			dependencies: ["79D86D9AF1006A2E"]
 			tasks: [
@@ -155,7 +155,7 @@
 			]
 			rewards: [
 				{
-					id: "BC04997430E481FC"
+					id: "3C04997430E481FC"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 2200"
 					elevate_perms: true
@@ -164,17 +164,17 @@
 			]
 		}
 		{
-			id: "D7E6D29776E5BCBF"
+			id: "57E6D29776E5BCBF"
 			title: "Cuevas de Alex"
 			subtitle: "Biomas subterráneos"
 			description: ["Bajo la superficie hay cuevas de dinosaurios, caramelo, imanes y ácido. Cada una tiene sus propios enemigos y recompensas."]
 			icon: "minecraft:writable_book"
 			x: 2.5d
-			y: 6.5d
+			y: 3.5d
 			dependencies: ["79D86D9AF1006A2E"]
 			tasks: [
 				{
-					id: "E959D13697E64ADD"
+					id: "6959D13697E64ADD"
 					type: "advancement"
 					advancement: "alexscaves:alexscaves/discover_primordial_caves"
 					criterion: ""
@@ -182,7 +182,7 @@
 			]
 			rewards: [
 				{
-					id: "BEBCC7DC2F8B0E72"
+					id: "3EBCC7DC2F8B0E72"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 2300"
 					elevate_perms: true
@@ -208,7 +208,7 @@
 			dependencies: ["79D86D9AF1006A2E"]
 			tasks: [
 				{
-					id: "EF904EA52AA6126C"
+					id: "6F904EA52AA6126C"
 					type: "structure"
 					structure: "deeperdarker:ancient_temple"
 				}
@@ -236,7 +236,7 @@
 			icon: "minecraft:iron_sword"
 			x: 4.5d
 			y: 0.5d
-			dependencies: ["FA77B62A6C7BE745"]
+			dependencies: ["7A77B62A6C7BE745"]
 			tasks: [
 				{
 					id: "4A3A926A68222DCD"
@@ -247,21 +247,21 @@
 			]
 			rewards: [
 				{
-					id: "CD074EA00971860A"
+					id: "4D074EA00971860A"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 3000"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "D1C74212BF036F46"
+					id: "51C74212BF036F46"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 				}
 			]
 		}
 		{
-			id: "A9F9F8A3B2F1D7AC"
+			id: "29F9F8A3B2F1D7AC"
 			title: "El Frostmaw"
 			subtitle: "Jefe de las nieves"
 			description: ["Una criatura antigua del hielo. Necesitas fuego, armadura y paciencia."]
@@ -280,21 +280,21 @@
 			]
 			rewards: [
 				{
-					id: "82114DE08C785D5A"
+					id: "02114DE08C785D5A"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 3000"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "CC657BBDC8A27C3C"
+					id: "4C657BBDC8A27C3C"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 				}
 			]
 		}
 		{
-			id: "D8C05D5FEF793DAA"
+			id: "58C05D5FEF793DAA"
 			title: "La ciudadela en ruinas"
 			subtitle: "Cataclysm"
 			description: ["Una ciudadela quemada en el Nether alberga a Ignis, un caballero infernal. Prepárate con resistencia al fuego, armadura fuerte y un plan."]
@@ -311,7 +311,7 @@
 			]
 			rewards: [
 				{
-					id: "DA0705664D657EFA"
+					id: "5A0705664D657EFA"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 2500"
 					elevate_perms: true
@@ -320,7 +320,7 @@
 			]
 		}
 		{
-			id: "9FA71A4077662222"
+			id: "1FA71A4077662222"
 			title: "Ignis"
 			subtitle: "Primer jefe de Cataclysm"
 			description: [
@@ -331,10 +331,10 @@
 			icon: "minecraft:iron_sword"
 			x: 8.5d
 			y: 0.5d
-			dependencies: ["D8C05D5FEF793DAA"]
+			dependencies: ["58C05D5FEF793DAA"]
 			tasks: [
 				{
-					id: "9A9F2D7F10232305"
+					id: "1A9F2D7F10232305"
 					type: "kill"
 					entity: "cataclysm:ignis"
 					value: 1L
@@ -342,14 +342,14 @@
 			]
 			rewards: [
 				{
-					id: "9AB55E756A6D4555"
+					id: "1AB55E756A6D4555"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 4000"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "992EFCC93987B8B5"
+					id: "192EFCC93987B8B5"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 					count: 2
@@ -365,7 +365,7 @@
 			x: 10.5d
 			y: 0.5d
 			optional: true
-			dependencies: ["9FA71A4077662222"]
+			dependencies: ["1FA71A4077662222"]
 			tasks: [
 				{
 					id: "3B8A86977F6CEA2B"
@@ -383,7 +383,7 @@
 					silent: true
 				}
 				{
-					id: "B5229E518F2EF4FE"
+					id: "35229E518F2EF4FE"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 					count: 2
@@ -402,7 +402,7 @@
 			icon: "cataclysm:flame_eye"
 			x: 10.5d
 			y: 2d
-			dependencies: ["9FA71A4077662222", "D7E6D29776E5BCBF", "FA77B62A6C7BE745"]
+			dependencies: ["1FA71A4077662222", "57E6D29776E5BCBF", "7A77B62A6C7BE745"]
 			tasks: [
 				{
 					id: "4D2DDA19CCF632B4"
@@ -413,7 +413,7 @@
 			]
 			rewards: [
 				{
-					id: "C48DBF5804EA5C6A"
+					id: "448DBF5804EA5C6A"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 5000"
 					elevate_perms: true
@@ -427,7 +427,7 @@
 					silent: true
 				}
 				{
-					id: "FAD02C5CE3FACD0A"
+					id: "7AD02C5CE3FACD0A"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 					count: 3

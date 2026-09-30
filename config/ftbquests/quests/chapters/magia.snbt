@@ -2,16 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "magia"
-	group: "FA1951BF2D35F839"
+	group: "7A1951BF2D35F839"
 	title: "6. El despertar de la magia"
 	subtitle: ["Escuelas de hechizos, glifos, rituales y el Bosque Crepuscular."]
 	icon: "irons_spellbooks:iron_spell_book"
-	id: "A4FA102768BB3DEA"
+	id: "24FA102768BB3DEA"
 	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
-			id: "89D4E872F25DCFAF"
+			id: "09D4E872F25DCFAF"
 			title: "El despertar de la magia"
 			subtitle: "Dos caminos: Iron's y Ars"
 			description: [
@@ -24,7 +24,7 @@
 			icon: "irons_spellbooks:iron_spell_book"
 			x: 0.5d
 			y: 0.5d
-			dependencies: ["F4B3AE87BC788D84"]
+			dependencies: ["74B3AE87BC788D84"]
 			tasks: [
 				{
 					id: "048F106190BE74EC"
@@ -40,7 +40,7 @@
 					silent: true
 				}
 				{
-					id: "B476CE8C24765DEC"
+					id: "3476CE8C24765DEC"
 					type: "item"
 					item: "lightmanscurrency:coin_diamond"
 					count: 2
@@ -48,14 +48,14 @@
 			]
 		}
 		{
-			id: "FE1C55A4EEDEA50A"
+			id: "7E1C55A4EEDEA50A"
 			title: "Esencia arcana"
 			subtitle: "El material de la magia"
 			description: ["La esencia arcana se obtiene de enemigos mágicos y estructuras. Es la base de casi todo en Iron's Spells."]
 			icon: "irons_spellbooks:arcane_essence"
 			x: 2.5d
 			y: 0.5d
-			dependencies: ["89D4E872F25DCFAF"]
+			dependencies: ["09D4E872F25DCFAF"]
 			tasks: [
 				{
 					id: "0AF641C4D3E45898"
@@ -66,7 +66,7 @@
 			]
 			rewards: [
 				{
-					id: "FFBD06A1717C507D"
+					id: "7FBD06A1717C507D"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 1100"
 					elevate_perms: true
@@ -81,17 +81,17 @@
 			]
 		}
 		{
-			id: "FBDABBE645564FCF"
+			id: "7BDABBE645564FCF"
 			title: "Mesa de inscripción"
 			subtitle: "Grimorios y pergaminos"
 			description: ["En la mesa de inscripción puedes inscribir hechizos en un grimorio. Los pergaminos se usan una vez; los hechizos inscritos, siempre."]
 			icon: "irons_spellbooks:inscription_table"
 			x: 4.5d
 			y: 0.5d
-			dependencies: ["FE1C55A4EEDEA50A"]
+			dependencies: ["7E1C55A4EEDEA50A"]
 			tasks: [
 				{
-					id: "BA2C036B9D3D5ADC"
+					id: "3A2C036B9D3D5ADC"
 					type: "item"
 					item: "irons_spellbooks:inscription_table"
 				}
@@ -104,7 +104,7 @@
 			]
 			rewards: [
 				{
-					id: "D6FA18087F1C1154"
+					id: "56FA18087F1C1154"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 1200"
 					elevate_perms: true
@@ -119,7 +119,7 @@
 			]
 		}
 		{
-			id: "8231E0ACEAC208A9"
+			id: "0231E0ACEAC208A9"
 			title: "Runas de escuela"
 			subtitle: "Una por escuela"
 			description: [
@@ -130,16 +130,16 @@
 			icon: "irons_spellbooks:blank_rune"
 			x: 6.5d
 			y: 0.5d
-			dependencies: ["FBDABBE645564FCF"]
+			dependencies: ["7BDABBE645564FCF"]
 			tasks: [
 				{
-					id: "E1BFA4F8B59EE638"
+					id: "61BFA4F8B59EE638"
 					type: "item"
 					item: "irons_spellbooks:blank_rune"
 					count: 4L
 				}
 				{
-					id: "CC03A7F0F8092A65"
+					id: "4C03A7F0F8092A65"
 					type: "item"
 					item: "irons_spellbooks:arcane_ingot"
 					count: 2L
@@ -154,26 +154,26 @@
 					silent: true
 				}
 				{
-					id: "9E7E57CA6D1C8186"
+					id: "1E7E57CA6D1C8186"
 					type: "item"
 					item: "irons_spellbooks:fire_rune"
 				}
 				{
-					id: "E677673F7BA134EF"
+					id: "6677673F7BA134EF"
 					type: "item"
 					item: "irons_spellbooks:ice_rune"
 				}
 			]
 		}
 		{
-			id: "9C13CD93FC9EC170"
+			id: "1C13CD93FC9EC170"
 			title: "Yunque arcano"
 			subtitle: "Mejora y separa"
 			description: ["El yunque arcano mejora tus objetos mágicos y también sirve para destruirlos y recuperar materiales."]
 			icon: "irons_spellbooks:arcane_anvil"
 			x: 8.5d
 			y: 0.5d
-			dependencies: ["8231E0ACEAC208A9"]
+			dependencies: ["0231E0ACEAC208A9"]
 			tasks: [
 				{
 					id: "200B37EF2DFE1A7B"
@@ -183,7 +183,7 @@
 			]
 			rewards: [
 				{
-					id: "F236A222124EC7D1"
+					id: "7236A222124EC7D1"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 1300"
 					elevate_perms: true
@@ -192,17 +192,17 @@
 			]
 		}
 		{
-			id: "BC8BAE8FA9501974"
+			id: "3C8BAE8FA9501974"
 			title: "Tu grimorio"
 			subtitle: "Requiere Mago (Tier I o II)"
 			description: ["Un grimorio de oro o diamante guarda más hechizos. Cuando tengas el nodo &6Mago Tier II&r (Fundamentos VI) podrás usarlo."]
 			icon: "irons_spellbooks:gold_spell_book"
 			x: 6.5d
-			y: 2d
-			dependencies: ["FBDABBE645564FCF"]
+			y: 3.5d
+			dependencies: ["7BDABBE645564FCF"]
 			tasks: [
 				{
-					id: "8118C5229E3B92C4"
+					id: "0118C5229E3B92C4"
 					type: "item"
 					item: "irons_spellbooks:gold_spell_book"
 				}
@@ -216,7 +216,7 @@
 					silent: true
 				}
 				{
-					id: "ABE13C58C482F651"
+					id: "2BE13C58C482F651"
 					type: "item"
 					item: "irons_spellbooks:mana_ring"
 				}
@@ -229,9 +229,9 @@
 			description: ["Las armaduras de mago dan poder de escuela y maná. Requieren Mago (Tier II)."]
 			icon: "irons_spellbooks:pyromancer_chestplate"
 			x: 8.5d
-			y: 3.5d
+			y: 5d
 			optional: true
-			dependencies: ["BC8BAE8FA9501974"]
+			dependencies: ["3C8BAE8FA9501974"]
 			tasks: [
 				{
 					id: "1AED00C59518B4ED"
@@ -241,7 +241,7 @@
 			]
 			rewards: [
 				{
-					id: "E047AC77A4706F0A"
+					id: "6047AC77A4706F0A"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 1200"
 					elevate_perms: true
@@ -250,17 +250,17 @@
 			]
 		}
 		{
-			id: "A470FFA3588A8492"
+			id: "2470FFA3588A8492"
 			title: "Elige tu escuela"
 			subtitle: "Especialízate"
 			description: ["Gasta tus puntos en un camino del árbol de habilidades: Piromancia, Criomancia, Arcanismo u Oscuridad. Cada uno mejora la escuela correspondiente."]
 			icon: "minecraft:nether_star"
 			x: 8.5d
-			y: 2d
-			dependencies: ["BC8BAE8FA9501974", "8231E0ACEAC208A9"]
+			y: 3.5d
+			dependencies: ["3C8BAE8FA9501974", "0231E0ACEAC208A9"]
 			tasks: [
 				{
-					id: "A68595191BDD2F9C"
+					id: "268595191BDD2F9C"
 					type: "stage"
 					stage: "maestria_mago_2"
 				}
@@ -283,10 +283,10 @@
 			icon: "ars_nouveau:source_gem"
 			x: 2.5d
 			y: 2d
-			dependencies: ["89D4E872F25DCFAF"]
+			dependencies: ["09D4E872F25DCFAF"]
 			tasks: [
 				{
-					id: "8B7C47D58E2A9474"
+					id: "0B7C47D58E2A9474"
 					type: "item"
 					item: "ars_nouveau:source_gem"
 					count: 8L
@@ -300,14 +300,14 @@
 			]
 			rewards: [
 				{
-					id: "FE3C1DB7E72E0809"
+					id: "7E3C1DB7E72E0809"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 1100"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "EEAA8716B65E5590"
+					id: "6EAA8716B65E5590"
 					type: "item"
 					item: "ars_nouveau:magebloom_fiber"
 					count: 8
@@ -315,7 +315,7 @@
 			]
 		}
 		{
-			id: "B5D35989BB85CB9F"
+			id: "35D35989BB85CB9F"
 			title: "Libro de hechizos de Ars"
 			subtitle: "Novato"
 			description: ["Con el libro de hechizos creas tus propios hechizos combinando glifos. Cambias de hechizo con las teclas configuradas."]
@@ -325,7 +325,7 @@
 			dependencies: ["5311B003EDE93BA8"]
 			tasks: [
 				{
-					id: "AB4FC1D18F4DAD97"
+					id: "2B4FC1D18F4DAD97"
 					type: "item"
 					item: "ars_nouveau:novice_spell_book"
 				}
@@ -346,17 +346,17 @@
 			]
 		}
 		{
-			id: "B193519A7BAE7605"
+			id: "3193519A7BAE7605"
 			title: "Mesa de escriba"
 			subtitle: "Glifos"
 			description: ["La mesa de escriba te permite crear glifos con gemas de fuente. Empieza por los básicos: proyectil, impacto, curar."]
 			icon: "ars_nouveau:scribes_table"
 			x: 6.5d
-			y: 3.5d
-			dependencies: ["B5D35989BB85CB9F"]
+			y: 2d
+			dependencies: ["35D35989BB85CB9F"]
 			tasks: [
 				{
-					id: "C16A9FF46B9DAF89"
+					id: "416A9FF46B9DAF89"
 					type: "item"
 					item: "ars_nouveau:scribes_table"
 				}
@@ -372,24 +372,24 @@
 			]
 		}
 		{
-			id: "A8200153781D4878"
+			id: "28200153781D4878"
 			title: "Jarra de fuente"
 			subtitle: "Almacenar energía"
 			description: ["Una jarra de fuente almacena fuente para alimentar aparatos y rituales. Se rellena con enlaces de fuente."]
 			icon: "ars_nouveau:source_jar"
 			x: 8.5d
-			y: 5d
-			dependencies: ["B193519A7BAE7605"]
+			y: 2d
+			dependencies: ["3193519A7BAE7605"]
 			tasks: [
 				{
-					id: "A26604F9810F3981"
+					id: "226604F9810F3981"
 					type: "item"
 					item: "ars_nouveau:source_jar"
 				}
 			]
 			rewards: [
 				{
-					id: "8D20703150B26632"
+					id: "0D20703150B26632"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 1300"
 					elevate_perms: true
@@ -404,16 +404,16 @@
 			description: ["Con el aparato de encantamiento y pedestales arcanos creas objetos mágicos poderosos y mejoras tu equipo."]
 			icon: "ars_nouveau:enchanting_apparatus"
 			x: 10.5d
-			y: 5d
-			dependencies: ["A8200153781D4878"]
+			y: 2d
+			dependencies: ["28200153781D4878"]
 			tasks: [
 				{
-					id: "DCB53119A7FE9A93"
+					id: "5CB53119A7FE9A93"
 					type: "item"
 					item: "ars_nouveau:enchanting_apparatus"
 				}
 				{
-					id: "A1E52FE6800CBC61"
+					id: "21E52FE6800CBC61"
 					type: "item"
 					item: "ars_nouveau:arcane_pedestal"
 					count: 4L
@@ -428,20 +428,20 @@
 					silent: true
 				}
 				{
-					id: "B976E6CEF90624E0"
+					id: "3976E6CEF90624E0"
 					type: "item"
 					item: "ars_nouveau:arcane_core"
 				}
 			]
 		}
 		{
-			id: "8401A8164AC34D43"
+			id: "0401A8164AC34D43"
 			title: "Rituales"
 			subtitle: "Magia poderosa"
 			description: ["El brasero ritual hace magia colectiva: cambia el clima, hace crecer bosques o invoca criaturas. Lo primero: fabricar el brasero."]
 			icon: "ars_nouveau:ritual_brazier"
 			x: 12.5d
-			y: 5d
+			y: 2d
 			dependencies: ["4286BB6CC3A24313"]
 			tasks: [
 				{
@@ -467,12 +467,12 @@
 			description: ["Un familiar te acompaña y te da pequeñas bonificaciones. El starbuncle es el más popular."]
 			icon: "ars_nouveau:starbuncle_charm"
 			x: 14.5d
-			y: 5d
+			y: 2d
 			optional: true
-			dependencies: ["8401A8164AC34D43"]
+			dependencies: ["0401A8164AC34D43"]
 			tasks: [
 				{
-					id: "C740565A7D36D137"
+					id: "4740565A7D36D137"
 					type: "item"
 					item: "ars_nouveau:starbuncle_charm"
 				}
@@ -488,7 +488,7 @@
 			]
 		}
 		{
-			id: "F59D21FE67962C8F"
+			id: "759D21FE67962C8F"
 			title: "El Bosque Crepuscular"
 			subtitle: "Una dimensión nueva"
 			description: [
@@ -499,10 +499,10 @@
 			icon: "minecraft:writable_book"
 			x: 14.5d
 			y: 3.5d
-			dependencies: ["A470FFA3588A8492", "8401A8164AC34D43"]
+			dependencies: ["2470FFA3588A8492", "0401A8164AC34D43"]
 			tasks: [
 				{
-					id: "FE1FDDC30AC0AF4E"
+					id: "7E1FDDC30AC0AF4E"
 					type: "advancement"
 					advancement: "twilightforest:root"
 					criterion: ""
@@ -510,7 +510,7 @@
 			]
 			rewards: [
 				{
-					id: "8A20B653712DE371"
+					id: "0A20B653712DE371"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 1800"
 					elevate_perms: true
@@ -525,14 +525,14 @@
 			]
 		}
 		{
-			id: "F07C6F6EA7B5C3AC"
+			id: "707C6F6EA7B5C3AC"
 			title: "La Naga"
 			subtitle: "Primer jefe"
 			description: ["El Patio de la Naga guarda a la primera jefa del bosque. Derrótala para conseguir sus escamas y avanzar."]
 			icon: "minecraft:writable_book"
 			x: 16.5d
 			y: 3.5d
-			dependencies: ["F59D21FE67962C8F"]
+			dependencies: ["759D21FE67962C8F"]
 			tasks: [
 				{
 					id: "25FEAD0835E1C43B"
@@ -543,7 +543,7 @@
 			]
 			rewards: [
 				{
-					id: "8F8B8D3E5A3CB705"
+					id: "0F8B8D3E5A3CB705"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 2500"
 					elevate_perms: true
@@ -558,14 +558,14 @@
 			]
 		}
 		{
-			id: "EF714C6E42ED78D2"
+			id: "6F714C6E42ED78D2"
 			title: "La torre del Lich"
 			subtitle: "Segundo jefe"
 			description: ["Tras la Naga aguarda el Lich en su torre. Es un jefe de magia: prepara resistencia mágica y armas de distancia."]
 			icon: "minecraft:writable_book"
 			x: 18.5d
 			y: 3.5d
-			dependencies: ["F07C6F6EA7B5C3AC"]
+			dependencies: ["707C6F6EA7B5C3AC"]
 			tasks: [
 				{
 					id: "6A8352FBE7DFBEEF"
@@ -601,7 +601,7 @@
 			icon: "ars_nouveau:source_gem"
 			x: 18.5d
 			y: 5d
-			dependencies: ["F07C6F6EA7B5C3AC", "A470FFA3588A8492", "8401A8164AC34D43"]
+			dependencies: ["707C6F6EA7B5C3AC", "2470FFA3588A8492", "0401A8164AC34D43"]
 			tasks: [
 				{
 					id: "3DEA21680DCE23BD"
@@ -620,14 +620,14 @@
 					silent: true
 				}
 				{
-					id: "9DEF66A985B07343"
+					id: "1DEF66A985B07343"
 					type: "command"
 					command: "/kubejs stages add {p} era_7"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "CFA1F4C6C40FFEF5"
+					id: "4FA1F4C6C40FFEF5"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 				}

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ascension_mago"
-	group: "FD609B87CC2A62AE"
+	group: "7D609B87CC2A62AE"
 	title: "Ascensión: Mago"
 	subtitle: ["Puntos de Ascensión para Mago"]
 	icon: "minecraft:enchanted_book"
@@ -24,14 +24,14 @@
 			y: 0.5d
 			tasks: [
 				{
-					id: "D2D4CBC10607177A"
+					id: "52D4CBC10607177A"
 					type: "stage"
 					stage: "era_10"
 				}
 			]
 			rewards: [
 				{
-					id: "BBBBB7C2E4E9AAA3"
+					id: "3BBBB7C2E4E9AAA3"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 100"
 					elevate_perms: true
@@ -40,7 +40,7 @@
 			]
 		}
 		{
-			id: "F3F25F81C77B0851"
+			id: "73F25F81C77B0851"
 			title: "Elige la Ascensión de Mago"
 			subtitle: "Desbloquea la pestaña"
 			description: [
@@ -54,13 +54,13 @@
 			dependencies: ["51240FD0804A9114"]
 			tasks: [
 				{
-					id: "9DED05FF59FC86D0"
+					id: "1DED05FF59FC86D0"
 					type: "checkmark"
 				}
 			]
 			rewards: [
 				{
-					id: "F38A5846C1AECC90"
+					id: "738A5846C1AECC90"
 					type: "command"
 					command: "/puffish_skills category unlock {p} ascension_mago"
 					elevate_perms: true
@@ -83,7 +83,7 @@
 			icon: "minecraft:iron_sword"
 			x: 4.5d
 			y: 0.5d
-			dependencies: ["F3F25F81C77B0851"]
+			dependencies: ["73F25F81C77B0851"]
 			tasks: [
 				{
 					id: "3B98DCB1EDC455B0"
@@ -94,14 +94,14 @@
 			]
 			rewards: [
 				{
-					id: "B696F70128090863"
+					id: "3696F70128090863"
 					type: "command"
 					command: "/puffish_skills points add {p} ascension_mago 1"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "8F839A989B22712B"
+					id: "0F839A989B22712B"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 500"
 					elevate_perms: true
@@ -110,7 +110,7 @@
 			]
 		}
 		{
-			id: "980363084265B5E6"
+			id: "180363084265B5E6"
 			title: "Grimorio superior"
 			subtitle: "Un libro mayor"
 			description: ["Fabrica un grimorio de diamante."]
@@ -120,7 +120,7 @@
 			dependencies: ["7AB94966CEC6E3F9"]
 			tasks: [
 				{
-					id: "C796859AAD0F45C4"
+					id: "4796859AAD0F45C4"
 					type: "item"
 					item: "irons_spellbooks:diamond_spell_book"
 				}
@@ -134,7 +134,7 @@
 					silent: true
 				}
 				{
-					id: "A97D25DEE0379530"
+					id: "297D25DEE0379530"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 500"
 					elevate_perms: true
@@ -143,31 +143,31 @@
 			]
 		}
 		{
-			id: "8A415716A32C74ED"
+			id: "0A415716A32C74ED"
 			title: "Libro del archimago"
 			subtitle: "Ars Nouveau"
 			description: ["Consigue el libro de hechizos de archimago."]
 			icon: "ars_nouveau:archmage_spell_book"
 			x: 8.5d
 			y: 0.5d
-			dependencies: ["980363084265B5E6"]
+			dependencies: ["180363084265B5E6"]
 			tasks: [
 				{
-					id: "AA03C535BA54EB64"
+					id: "2A03C535BA54EB64"
 					type: "item"
 					item: "ars_nouveau:archmage_spell_book"
 				}
 			]
 			rewards: [
 				{
-					id: "9D3582E6FD963042"
+					id: "1D3582E6FD963042"
 					type: "command"
 					command: "/puffish_skills points add {p} ascension_mago 1"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "D7D51E7BDE26F464"
+					id: "57D51E7BDE26F464"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 500"
 					elevate_perms: true
@@ -183,17 +183,17 @@
 			icon: "irons_spellbooks:legendary_ink"
 			x: 10.5d
 			y: 0.5d
-			dependencies: ["8A415716A32C74ED"]
+			dependencies: ["0A415716A32C74ED"]
 			tasks: [
 				{
-					id: "E98F17F9FBEA6A56"
+					id: "698F17F9FBEA6A56"
 					type: "item"
 					item: "irons_spellbooks:legendary_ink"
 				}
 			]
 			rewards: [
 				{
-					id: "C1CCBDAE92D93BCD"
+					id: "41CCBDAE92D93BCD"
 					type: "command"
 					command: "/puffish_skills points add {p} ascension_mago 1"
 					elevate_perms: true
@@ -209,7 +209,7 @@
 			]
 		}
 		{
-			id: "BA05A3891EDCFF07"
+			id: "3A05A3891EDCFF07"
 			title: "Contra la Naga y el Lich"
 			subtitle: "Bosque Crepuscular"
 			description: ["Completa la torre del Lich."]
@@ -219,7 +219,7 @@
 			dependencies: ["393B4B73A9C0C5E3"]
 			tasks: [
 				{
-					id: "84F431EDB23117B3"
+					id: "04F431EDB23117B3"
 					type: "advancement"
 					advancement: "twilightforest:progress_lich"
 					criterion: ""
@@ -234,7 +234,7 @@
 					silent: true
 				}
 				{
-					id: "D0EF9A5913BF3D7D"
+					id: "50EF9A5913BF3D7D"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 500"
 					elevate_perms: true
@@ -243,17 +243,17 @@
 			]
 		}
 		{
-			id: "CCDE3021BA18106A"
+			id: "4CDE3021BA18106A"
 			title: "Fuego de blaze"
 			subtitle: "El Nether"
 			description: ["Derrota 40 blazes."]
 			icon: "minecraft:iron_sword"
 			x: 14.5d
 			y: 0.5d
-			dependencies: ["BA05A3891EDCFF07"]
+			dependencies: ["3A05A3891EDCFF07"]
 			tasks: [
 				{
-					id: "9C08F9DF19DDBA49"
+					id: "1C08F9DF19DDBA49"
 					type: "kill"
 					entity: "minecraft:blaze"
 					value: 40L
@@ -261,7 +261,7 @@
 			]
 			rewards: [
 				{
-					id: "B8F92B501AA9B9AA"
+					id: "38F92B501AA9B9AA"
 					type: "command"
 					command: "/puffish_skills points add {p} ascension_mago 1"
 					elevate_perms: true
@@ -277,17 +277,17 @@
 			]
 		}
 		{
-			id: "EFB49371B3732D55"
+			id: "6FB49371B3732D55"
 			title: "Contra el Wither"
 			subtitle: "Prueba mágica"
 			description: ["Derrota al Wither con magia."]
 			icon: "minecraft:iron_sword"
 			x: 16.5d
 			y: 0.5d
-			dependencies: ["CCDE3021BA18106A"]
+			dependencies: ["4CDE3021BA18106A"]
 			tasks: [
 				{
-					id: "97D6E14C8D47BD0A"
+					id: "17D6E14C8D47BD0A"
 					type: "kill"
 					entity: "minecraft:wither"
 					value: 1L
@@ -302,7 +302,7 @@
 					silent: true
 				}
 				{
-					id: "C48D8754D41B9A88"
+					id: "448D8754D41B9A88"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 500"
 					elevate_perms: true
@@ -311,31 +311,31 @@
 			]
 		}
 		{
-			id: "8D64DD1C0E759D96"
+			id: "0D64DD1C0E759D96"
 			title: "Maestría final"
 			subtitle: "Tier III"
 			description: ["Llega a la cima de un camino de Mago (Tier III)."]
 			icon: "minecraft:nether_star"
 			x: 18.5d
 			y: 0.5d
-			dependencies: ["EFB49371B3732D55"]
+			dependencies: ["6FB49371B3732D55"]
 			tasks: [
 				{
-					id: "F6D5369D0FBC5C78"
+					id: "76D5369D0FBC5C78"
 					type: "stage"
 					stage: "maestria_mago_3"
 				}
 			]
 			rewards: [
 				{
-					id: "B9F47F1A824B4D46"
+					id: "39F47F1A824B4D46"
 					type: "command"
 					command: "/puffish_skills points add {p} ascension_mago 2"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "B1357B4393E4E2D1"
+					id: "31357B4393E4E2D1"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 500"
 					elevate_perms: true

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "jefes"
-	group: "FA1951BF2D35F839"
+	group: "7A1951BF2D35F839"
 	title: "9. Los grandes jefes"
 	subtitle: ["Jefes del mundo, dragones y tu arma legendaria."]
 	icon: "cataclysm:the_incinerator"
@@ -22,10 +22,10 @@
 			icon: "cataclysm:the_incinerator"
 			x: 0.5d
 			y: 0.5d
-			dependencies: ["CD8B35492B3252A6"]
+			dependencies: ["4D8B35492B3252A6"]
 			tasks: [
 				{
-					id: "9901292A74B16DBB"
+					id: "1901292A74B16DBB"
 					type: "checkmark"
 				}
 			]
@@ -38,7 +38,7 @@
 					silent: true
 				}
 				{
-					id: "ACBE50ECA5C99E76"
+					id: "2CBE50ECA5C99E76"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 					count: 2
@@ -46,7 +46,7 @@
 			]
 		}
 		{
-			id: "A132A8381F48F638"
+			id: "2132A8381F48F638"
 			title: "El Harbinger"
 			subtitle: "Cataclysm"
 			description: ["Un coloso mecánico de una civilización antigua. Sus rayos y misiles te obligan a moverte sin parar."]
@@ -56,7 +56,7 @@
 			dependencies: ["69AE17FC4E72B712"]
 			tasks: [
 				{
-					id: "964A79AEE60AEFBD"
+					id: "164A79AEE60AEFBD"
 					type: "kill"
 					entity: "cataclysm:the_harbinger"
 					value: 1L
@@ -71,7 +71,7 @@
 					silent: true
 				}
 				{
-					id: "C56B6ABD337AD601"
+					id: "456B6ABD337AD601"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 					count: 3
@@ -79,7 +79,7 @@
 			]
 		}
 		{
-			id: "E10521C15254B921"
+			id: "610521C15254B921"
 			title: "Guardián del End"
 			subtitle: "Cataclysm"
 			description: ["Un guardián de cristal y vacío. Es rápido y su daño atraviesa armaduras."]
@@ -97,14 +97,14 @@
 			]
 			rewards: [
 				{
-					id: "B7D0F23B29B6ED80"
+					id: "37D0F23B29B6ED80"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 6000"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "BCFF5D02958E7A65"
+					id: "3CFF5D02958E7A65"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 					count: 3
@@ -112,13 +112,13 @@
 			]
 		}
 		{
-			id: "E0307F6540B895AB"
+			id: "60307F6540B895AB"
 			title: "El Leviatán"
 			subtitle: "Cataclysm"
 			description: ["El rey del abismo marino. Necesitas respiración submarina, buena visión y armas potentes."]
 			icon: "minecraft:iron_sword"
 			x: 2.5d
-			y: 3.5d
+			y: 6.5d
 			dependencies: ["69AE17FC4E72B712"]
 			tasks: [
 				{
@@ -130,14 +130,14 @@
 			]
 			rewards: [
 				{
-					id: "D8E0D572B0B5D34B"
+					id: "58E0D572B0B5D34B"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 6500"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "8CC5BCD3ABB4CBB9"
+					id: "0CC5BCD3ABB4CBB9"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 					count: 3
@@ -151,9 +151,9 @@
 			description: ["La reina de las tormentas del mar. Solo para quien ya venció al Leviatán."]
 			icon: "minecraft:iron_sword"
 			x: 4.5d
-			y: 5d
+			y: 6.5d
 			optional: true
-			dependencies: ["E0307F6540B895AB"]
+			dependencies: ["60307F6540B895AB"]
 			tasks: [
 				{
 					id: "7AA3BAB4FDB44DB2"
@@ -179,13 +179,13 @@
 			]
 		}
 		{
-			id: "C20C5FA204BC3F48"
+			id: "420C5FA204BC3F48"
 			title: "El Remanente Antiguo"
 			subtitle: "Cataclysm"
 			description: ["Un coloso del desierto. Ataca a distancia y abre el suelo bajo tus pies."]
 			icon: "minecraft:iron_sword"
 			x: 2.5d
-			y: 5d
+			y: 8d
 			dependencies: ["69AE17FC4E72B712"]
 			tasks: [
 				{
@@ -197,14 +197,14 @@
 			]
 			rewards: [
 				{
-					id: "80526581D87FC08B"
+					id: "00526581D87FC08B"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 6500"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "A5581D9599615C1E"
+					id: "25581D9599615C1E"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 					count: 3
@@ -218,7 +218,7 @@
 			description: ["El Lich invoca cometas y cráneos. Su arena es una torre; lleva armadura con protección mágica."]
 			icon: "minecraft:iron_sword"
 			x: 2.5d
-			y: 6.5d
+			y: 3.5d
 			dependencies: ["69AE17FC4E72B712"]
 			tasks: [
 				{
@@ -237,7 +237,7 @@
 					silent: true
 				}
 				{
-					id: "C3AC2994DBA0C477"
+					id: "43AC2994DBA0C477"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 					count: 3
@@ -251,11 +251,11 @@
 			description: ["El Wither ataca con calaveras que se lo llevan todo. Combátelo en un túnel bajo tierra."]
 			icon: "minecraft:iron_sword"
 			x: 2.5d
-			y: 8d
+			y: 5d
 			dependencies: ["69AE17FC4E72B712"]
 			tasks: [
 				{
-					id: "EA0217E6B32A3499"
+					id: "6A0217E6B32A3499"
 					type: "kill"
 					entity: "minecraft:wither"
 					value: 1L
@@ -263,14 +263,14 @@
 			]
 			rewards: [
 				{
-					id: "97B73DC7470ACDCD"
+					id: "17B73DC7470ACDCD"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 6000"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "F1B9A64DEF953E62"
+					id: "71B9A64DEF953E62"
 					type: "item"
 					item: "minecraft:nether_star"
 				}
@@ -288,7 +288,7 @@
 			dependencies: ["69AE17FC4E72B712"]
 			tasks: [
 				{
-					id: "D22F28A66ACF5C3A"
+					id: "522F28A66ACF5C3A"
 					type: "kill"
 					entity: "iceandfire:fire_dragon"
 					value: 1L
@@ -303,7 +303,7 @@
 					silent: true
 				}
 				{
-					id: "C348BABB3365A38D"
+					id: "4348BABB3365A38D"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 					count: 4
@@ -311,7 +311,7 @@
 			]
 		}
 		{
-			id: "A3B65706E7EC5F07"
+			id: "23B65706E7EC5F07"
 			title: "Dragón de hielo"
 			subtitle: "Ice and Fire"
 			description: ["El dragón de hielo se cura con nieve y ataca con aliento congelante."]
@@ -322,7 +322,7 @@
 			dependencies: ["69AE17FC4E72B712"]
 			tasks: [
 				{
-					id: "85F893DEA442C74D"
+					id: "05F893DEA442C74D"
 					type: "kill"
 					entity: "iceandfire:ice_dragon"
 					value: 1L
@@ -330,7 +330,7 @@
 			]
 			rewards: [
 				{
-					id: "A5E7196D35717EB1"
+					id: "25E7196D35717EB1"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 8000"
 					elevate_perms: true
@@ -356,7 +356,7 @@
 			dependencies: ["69AE17FC4E72B712"]
 			tasks: [
 				{
-					id: "E6DFD2A3EE5CDDFE"
+					id: "66DFD2A3EE5CDDFE"
 					type: "kill"
 					entity: "iceandfire:lightning_dragon"
 					value: 1L
@@ -364,14 +364,14 @@
 			]
 			rewards: [
 				{
-					id: "AA4B8253D10F2A98"
+					id: "2A4B8253D10F2A98"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 8000"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "F22A05BE44B867A8"
+					id: "722A05BE44B867A8"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 					count: 4
@@ -379,7 +379,7 @@
 			]
 		}
 		{
-			id: "A6CB2891FCED730B"
+			id: "26CB2891FCED730B"
 			title: "Arma legendaria"
 			subtitle: "Forja la tuya"
 			description: [
@@ -389,13 +389,13 @@
 			]
 			icon: "cataclysm:the_incinerator"
 			x: 4.5d
-			y: 3.5d
+			y: 5d
 			dependency_requirement: "one_completed"
 			dependencies: [
-				"A132A8381F48F638"
-				"E10521C15254B921"
-				"E0307F6540B895AB"
-				"C20C5FA204BC3F48"
+				"2132A8381F48F638"
+				"610521C15254B921"
+				"60307F6540B895AB"
+				"420C5FA204BC3F48"
 			]
 			tasks: [
 				{
@@ -427,9 +427,9 @@
 			description: ["La garra de las mareas se forja con el tridente del Leviatán."]
 			icon: "cataclysm:tidal_claws"
 			x: 4.5d
-			y: 6.5d
+			y: 8d
 			optional: true
-			dependencies: ["E0307F6540B895AB"]
+			dependencies: ["60307F6540B895AB"]
 			tasks: [
 				{
 					id: "011451309077F974"
@@ -448,15 +448,15 @@
 			]
 		}
 		{
-			id: "DD5EAC0EC65FBB08"
+			id: "5D5EAC0EC65FBB08"
 			title: "Renderizador de almas (opcional)"
 			subtitle: "Alternativa"
 			description: ["El renderizador de almas es un arma de energía oscura."]
 			icon: "cataclysm:soul_render"
 			x: 4.5d
-			y: 8d
+			y: 9.5d
 			optional: true
-			dependencies: ["C20C5FA204BC3F48"]
+			dependencies: ["420C5FA204BC3F48"]
 			tasks: [
 				{
 					id: "6AACC59AC8734D3F"
@@ -485,8 +485,8 @@
 			]
 			icon: "minecraft:nether_star"
 			x: 6.5d
-			y: 6.5d
-			dependencies: ["A6CB2891FCED730B", "20B83444BFFAE39C", "389B0A13226CA341"]
+			y: 5d
+			dependencies: ["26CB2891FCED730B", "20B83444BFFAE39C", "389B0A13226CA341"]
 			tasks: [
 				{
 					id: "078AC1BD90F35580"
@@ -512,7 +512,7 @@
 					silent: true
 				}
 				{
-					id: "C05649724DE924F6"
+					id: "405649724DE924F6"
 					type: "item"
 					item: "lightmanscurrency:coin_netherite"
 					count: 6

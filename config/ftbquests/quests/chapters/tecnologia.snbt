@@ -2,16 +2,16 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tecnologia"
-	group: "FA1951BF2D35F839"
+	group: "7A1951BF2D35F839"
 	title: "5. La era tecnológica"
 	subtitle: ["Electricidad, máquinas de proceso y redes de almacenamiento."]
 	icon: "mekanism:steel_casing"
-	id: "8ED56C9EADB59DA3"
+	id: "0ED56C9EADB59DA3"
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
-			id: "A172BC3B18A57A27"
+			id: "2172BC3B18A57A27"
 			title: "La era de la energía"
 			subtitle: "Contexto"
 			description: [
@@ -22,7 +22,7 @@
 			icon: "mekanism:steel_casing"
 			x: 0.5d
 			y: 0.5d
-			dependencies: ["AF5C488BE0D600A2"]
+			dependencies: ["2F5C488BE0D600A2"]
 			tasks: [
 				{
 					id: "0DBF839CD08BCA52"
@@ -38,7 +38,7 @@
 					silent: true
 				}
 				{
-					id: "D50C7A45BAF6F161"
+					id: "550C7A45BAF6F161"
 					type: "item"
 					item: "lightmanscurrency:coin_emerald"
 					count: 4
@@ -46,22 +46,22 @@
 			]
 		}
 		{
-			id: "862160E0F3BA21DB"
+			id: "062160E0F3BA21DB"
 			title: "Alternador y motor"
 			subtitle: "De fuerza a electricidad"
 			description: ["El alternador convierte fuerza rotatoria en electricidad. El motor eléctrico hace lo contrario: convierte electricidad en fuerza."]
 			icon: "createaddition:alternator"
 			x: 2.5d
 			y: 0.5d
-			dependencies: ["A172BC3B18A57A27"]
+			dependencies: ["2172BC3B18A57A27"]
 			tasks: [
 				{
-					id: "CFCB3B9CFB3966D3"
+					id: "4FCB3B9CFB3966D3"
 					type: "item"
 					item: "createaddition:alternator"
 				}
 				{
-					id: "EEAF021B644DBF5C"
+					id: "6EAF021B644DBF5C"
 					type: "item"
 					item: "createaddition:electric_motor"
 				}
@@ -83,23 +83,23 @@
 			]
 		}
 		{
-			id: "FCE9D77E5744EA27"
+			id: "7CE9D77E5744EA27"
 			title: "Cables y conectores"
 			subtitle: "Transporte de energía"
 			description: ["Los conectores unen máquinas con cable. Cuidado con la distancia y con la pérdida por hilo fino."]
 			icon: "createaddition:connector"
 			x: 4.5d
 			y: 0.5d
-			dependencies: ["862160E0F3BA21DB"]
+			dependencies: ["062160E0F3BA21DB"]
 			tasks: [
 				{
-					id: "C88C9C8081FDA768"
+					id: "488C9C8081FDA768"
 					type: "item"
 					item: "createaddition:connector"
 					count: 4L
 				}
 				{
-					id: "B692D0B94424E532"
+					id: "3692D0B94424E532"
 					type: "item"
 					item: "createaddition:copper_spool"
 					count: 2L
@@ -107,21 +107,21 @@
 			]
 			rewards: [
 				{
-					id: "D75AA96876660F67"
+					id: "575AA96876660F67"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 900"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "F67AB421D0E8005C"
+					id: "767AB421D0E8005C"
 					type: "item"
 					item: "createaddition:capacitor"
 				}
 			]
 		}
 		{
-			id: "9539C9153183A31C"
+			id: "1539C9153183A31C"
 			title: "Laminador (opcional)"
 			subtitle: "Hilos y varillas"
 			description: ["El laminador convierte placas en varillas y cables de distintos metales."]
@@ -129,7 +129,7 @@
 			x: 6.5d
 			y: 0.5d
 			optional: true
-			dependencies: ["FCE9D77E5744EA27"]
+			dependencies: ["7CE9D77E5744EA27"]
 			tasks: [
 				{
 					id: "2327866F3C85C6E3"
@@ -148,7 +148,7 @@
 			]
 		}
 		{
-			id: "F99D2CB2D4EDFB7A"
+			id: "799D2CB2D4EDFB7A"
 			title: "Energía intermedia"
 			subtitle: "Powah"
 			description: [
@@ -159,7 +159,7 @@
 			icon: "powah:furnator_starter"
 			x: 2.5d
 			y: 2d
-			dependencies: ["A172BC3B18A57A27"]
+			dependencies: ["2172BC3B18A57A27"]
 			tasks: [
 				{
 					id: "0E00DEC46A3F338A"
@@ -167,14 +167,14 @@
 					item: "powah:furnator_starter"
 				}
 				{
-					id: "E99AB4E45C1F42A3"
+					id: "699AB4E45C1F42A3"
 					type: "item"
 					item: "powah:energy_cell_starter"
 				}
 			]
 			rewards: [
 				{
-					id: "A2BB16C38930ED56"
+					id: "22BB16C38930ED56"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 900"
 					elevate_perms: true
@@ -188,17 +188,17 @@
 			]
 		}
 		{
-			id: "859B1B9A97096EC6"
+			id: "059B1B9A97096EC6"
 			title: "Batería Powah"
 			subtitle: "Almacenar"
 			description: ["Una celda de energía básica almacena mucho más. Mejora todo tu sistema con celdas mayores."]
 			icon: "powah:energy_cell_basic"
 			x: 4.5d
 			y: 3.5d
-			dependencies: ["F99D2CB2D4EDFB7A"]
+			dependencies: ["799D2CB2D4EDFB7A"]
 			tasks: [
 				{
-					id: "E910DFA2725883C8"
+					id: "6910DFA2725883C8"
 					type: "item"
 					item: "powah:energy_cell_basic"
 				}
@@ -214,7 +214,7 @@
 			]
 		}
 		{
-			id: "D7DB47F7D5C43B18"
+			id: "57DB47F7D5C43B18"
 			title: "Mekanism: primeras máquinas"
 			subtitle: "Procesamiento"
 			description: [
@@ -225,15 +225,15 @@
 			icon: "mekanism:enrichment_chamber"
 			x: 4.5d
 			y: 2d
-			dependencies: ["862160E0F3BA21DB"]
+			dependencies: ["062160E0F3BA21DB"]
 			tasks: [
 				{
-					id: "AB9C9A06EA79A429"
+					id: "2B9C9A06EA79A429"
 					type: "item"
 					item: "mekanism:enrichment_chamber"
 				}
 				{
-					id: "BD70B5DDE14A18B7"
+					id: "3D70B5DDE14A18B7"
 					type: "item"
 					item: "mekanism:basic_control_circuit"
 					count: 4L
@@ -241,14 +241,14 @@
 			]
 			rewards: [
 				{
-					id: "AE2058C28F3D7D10"
+					id: "2E2058C28F3D7D10"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 1000"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "8C92B89F2F90CF9B"
+					id: "0C92B89F2F90CF9B"
 					type: "item"
 					item: "mekanism:basic_universal_cable"
 					count: 8
@@ -263,7 +263,7 @@
 			icon: "mekanism:ingot_osmium"
 			x: 6.5d
 			y: 2d
-			dependencies: ["D7DB47F7D5C43B18"]
+			dependencies: ["57DB47F7D5C43B18"]
 			tasks: [
 				{
 					id: "77C3A4E7A07DD58B"
@@ -281,7 +281,7 @@
 					silent: true
 				}
 				{
-					id: "F6CBEED3251539C5"
+					id: "76CBEED3251539C5"
 					type: "command"
 					command: "/puffish_skills experience add {p} oficio_minero 200"
 					elevate_perms: true
@@ -290,7 +290,7 @@
 			]
 		}
 		{
-			id: "E36F8C4FF3D2A5BB"
+			id: "636F8C4FF3D2A5BB"
 			title: "Acero"
 			subtitle: "Infusión"
 			description: ["El infusor metalúrgico mezcla materiales; con él fabricas acero y aleaciones de infusión."]
@@ -300,7 +300,7 @@
 			dependencies: ["5C41BCBC32FB0AD0"]
 			tasks: [
 				{
-					id: "BB38CF6E941DBBCE"
+					id: "3B38CF6E941DBBCE"
 					type: "item"
 					item: "mekanism:metallurgic_infuser"
 				}
@@ -320,24 +320,24 @@
 					silent: true
 				}
 				{
-					id: "FA92BE2D460188D8"
+					id: "7A92BE2D460188D8"
 					type: "item"
 					item: "mekanism:steel_casing"
 				}
 			]
 		}
 		{
-			id: "B16E6C0F19F6AF4C"
+			id: "316E6C0F19F6AF4C"
 			title: "Triple procesado"
 			subtitle: "Multiplica tus minerales"
 			description: ["Con trituradora y cámara de purificación, cada mineral da varias veces más lingotes."]
 			icon: "mekanism:crusher"
 			x: 10.5d
 			y: 2d
-			dependencies: ["E36F8C4FF3D2A5BB"]
+			dependencies: ["636F8C4FF3D2A5BB"]
 			tasks: [
 				{
-					id: "9D73EA0E25C47587"
+					id: "1D73EA0E25C47587"
 					type: "item"
 					item: "mekanism:crusher"
 				}
@@ -364,22 +364,22 @@
 			]
 		}
 		{
-			id: "8F4D7DFC604A06EC"
+			id: "0F4D7DFC604A06EC"
 			title: "Cubos de energía"
 			subtitle: "Almacén de energía"
 			description: ["Los cubos de energía guardan grandes cantidades y se conectan con cables universales."]
 			icon: "mekanism:basic_energy_cube"
 			x: 10.5d
 			y: 3.5d
-			dependencies: ["E36F8C4FF3D2A5BB"]
+			dependencies: ["636F8C4FF3D2A5BB"]
 			tasks: [
 				{
-					id: "A7C95FB5FDF41FB7"
+					id: "27C95FB5FDF41FB7"
 					type: "item"
 					item: "mekanism:basic_energy_cube"
 				}
 				{
-					id: "AA458A29FF5796E2"
+					id: "2A458A29FF5796E2"
 					type: "item"
 					item: "mekanism:basic_universal_cable"
 					count: 16L
@@ -387,7 +387,7 @@
 			]
 			rewards: [
 				{
-					id: "E22EB258119CE3A5"
+					id: "622EB258119CE3A5"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 1000"
 					elevate_perms: true
@@ -396,7 +396,7 @@
 			]
 		}
 		{
-			id: "8B00B888A8B29A05"
+			id: "0B00B888A8B29A05"
 			title: "Robit (opcional)"
 			subtitle: "Tu robot personal"
 			description: ["El robit es un ayudante que recoge objetos y te sigue. Es muy básico, pero divertido."]
@@ -404,17 +404,17 @@
 			x: 12.5d
 			y: 3.5d
 			optional: true
-			dependencies: ["B16E6C0F19F6AF4C", "8F4D7DFC604A06EC"]
+			dependencies: ["316E6C0F19F6AF4C", "0F4D7DFC604A06EC"]
 			tasks: [
 				{
-					id: "CB18E26C401352D4"
+					id: "4B18E26C401352D4"
 					type: "item"
 					item: "mekanism:robit"
 				}
 			]
 			rewards: [
 				{
-					id: "C6AAA7C9896A05E8"
+					id: "46AAA7C9896A05E8"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 1200"
 					elevate_perms: true
@@ -423,7 +423,7 @@
 			]
 		}
 		{
-			id: "F6C4E233CB747E07"
+			id: "76C4E233CB747E07"
 			title: "AE2: cuarzo"
 			subtitle: "Sistema de almacenamiento"
 			description: [
@@ -434,7 +434,7 @@
 			icon: "ae2:certus_quartz_crystal"
 			x: 2.5d
 			y: 3.5d
-			dependencies: ["A172BC3B18A57A27"]
+			dependencies: ["2172BC3B18A57A27"]
 			tasks: [
 				{
 					id: "389AE081B67AA549"
@@ -450,7 +450,7 @@
 			]
 			rewards: [
 				{
-					id: "D58AFF69EAD510E1"
+					id: "558AFF69EAD510E1"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 1000"
 					elevate_perms: true
@@ -465,17 +465,17 @@
 			]
 		}
 		{
-			id: "BDA57587C5554562"
+			id: "3DA57587C5554562"
 			title: "Tu primera red"
 			subtitle: "Controlador y unidades"
 			description: ["Una red de ME necesita energía, un controlador, una unidad de disco y un terminal. Conecta todo con cables."]
 			icon: "ae2:controller"
 			x: 4.5d
 			y: 5d
-			dependencies: ["F6C4E233CB747E07"]
+			dependencies: ["76C4E233CB747E07"]
 			tasks: [
 				{
-					id: "E3DFEA880AF53C6B"
+					id: "63DFEA880AF53C6B"
 					type: "item"
 					item: "ae2:controller"
 				}
@@ -485,19 +485,19 @@
 					item: "ae2:drive"
 				}
 				{
-					id: "8600423E38FE726F"
+					id: "0600423E38FE726F"
 					type: "item"
 					item: "ae2:terminal"
 				}
 				{
-					id: "8E249B3C92BA5336"
+					id: "0E249B3C92BA5336"
 					type: "item"
 					item: "ae2:item_storage_cell_1k"
 				}
 			]
 			rewards: [
 				{
-					id: "98E9B3A670311FA7"
+					id: "18E9B3A670311FA7"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 1200"
 					elevate_perms: true
@@ -523,7 +523,7 @@
 			icon: "ae2:inscriber"
 			x: 6.5d
 			y: 5d
-			dependencies: ["BDA57587C5554562"]
+			dependencies: ["3DA57587C5554562"]
 			tasks: [
 				{
 					id: "4C314ABF4AC89193"
@@ -537,7 +537,7 @@
 					count: 4L
 				}
 				{
-					id: "E4908614D73106EE"
+					id: "64908614D73106EE"
 					type: "item"
 					item: "ae2:calculation_processor"
 					count: 4L
@@ -580,17 +580,17 @@
 					item: "ae2:pattern_provider"
 				}
 				{
-					id: "EDA83E4E648B3438"
+					id: "6DA83E4E648B3438"
 					type: "item"
 					item: "ae2:molecular_assembler"
 				}
 				{
-					id: "857FBABFB022FD0E"
+					id: "057FBABFB022FD0E"
 					type: "item"
 					item: "ae2:crafting_unit"
 				}
 				{
-					id: "BA58ADBD06BE514E"
+					id: "3A58ADBD06BE514E"
 					type: "item"
 					item: "ae2:pattern_encoding_terminal"
 				}
@@ -612,7 +612,7 @@
 			]
 		}
 		{
-			id: "C3AE9B374546359B"
+			id: "43AE9B374546359B"
 			title: "Recuerda: mecanismos de precisión"
 			subtitle: "De Create"
 			description: ["Los procesadores avanzados se apoyan en componentes de Create. Si no tienes mecanismos de precisión, vuelve al capítulo 4."]
@@ -620,7 +620,7 @@
 			x: 6.5d
 			y: 6.5d
 			optional: true
-			dependencies: ["BDA57587C5554562"]
+			dependencies: ["3DA57587C5554562"]
 			tasks: [
 				{
 					id: "56DB4B2508861AE3"
@@ -631,7 +631,7 @@
 			]
 			rewards: [
 				{
-					id: "A8B8FAC157DC6620"
+					id: "28B8FAC157DC6620"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 600"
 					elevate_perms: true
@@ -640,7 +640,7 @@
 			]
 		}
 		{
-			id: "F4B3AE87BC788D84"
+			id: "74B3AE87BC788D84"
 			title: "Energía estable, red estable"
 			subtitle: "Cierre del capítulo"
 			description: [
@@ -652,14 +652,14 @@
 			x: 12.5d
 			y: 5d
 			dependencies: [
-				"859B1B9A97096EC6"
-				"B16E6C0F19F6AF4C"
-				"8F4D7DFC604A06EC"
+				"059B1B9A97096EC6"
+				"316E6C0F19F6AF4C"
+				"0F4D7DFC604A06EC"
 				"5C0E20E716BD0168"
 			]
 			tasks: [
 				{
-					id: "A62487F109BBE1F7"
+					id: "262487F109BBE1F7"
 					type: "item"
 					item: "mekanism:teleportation_core"
 					consume_items: true
@@ -667,21 +667,21 @@
 			]
 			rewards: [
 				{
-					id: "ADE8D12097481738"
+					id: "2DE8D12097481738"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 2500"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "BC1D6B3F81A311E7"
+					id: "3C1D6B3F81A311E7"
 					type: "command"
 					command: "/kubejs stages add {p} era_magia"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "F547CE1F5DBFBA8C"
+					id: "7547CE1F5DBFBA8C"
 					type: "item"
 					item: "lightmanscurrency:coin_diamond"
 					count: 4

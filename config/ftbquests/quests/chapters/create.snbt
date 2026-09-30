@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create"
-	group: "FA1951BF2D35F839"
+	group: "7A1951BF2D35F839"
 	title: "4. La revolución de Create"
 	subtitle: ["Has aprendido a sobrevivir. Ahora descubre el poder de las máquinas."]
 	icon: "create:cogwheel"
@@ -22,7 +22,7 @@
 			icon: "create:cogwheel"
 			x: 0.5d
 			y: 0.5d
-			dependencies: ["973E5CD212B18321"]
+			dependencies: ["173E5CD212B18321"]
 			tasks: [
 				{
 					id: "1D07426AFBF53D46"
@@ -38,7 +38,7 @@
 					silent: true
 				}
 				{
-					id: "A3419F29CCBE28F3"
+					id: "23419F29CCBE28F3"
 					type: "item"
 					item: "lightmanscurrency:coin_gold"
 					count: 5
@@ -46,7 +46,7 @@
 			]
 		}
 		{
-			id: "90CC5F5EC097BEB8"
+			id: "10CC5F5EC097BEB8"
 			title: "Aleación de andesita"
 			subtitle: "El ingrediente base"
 			description: ["Casi todo en Create empieza con la aleación de andesita: pepitas de hierro + andesita en una mesa de trabajo."]
@@ -71,7 +71,7 @@
 					silent: true
 				}
 				{
-					id: "FB9A762BE3D80422"
+					id: "7B9A762BE3D80422"
 					type: "item"
 					item: "create:cogwheel"
 					count: 4
@@ -79,7 +79,7 @@
 			]
 		}
 		{
-			id: "F9E2BC60282EC470"
+			id: "79E2BC60282EC470"
 			title: "Movimiento"
 			subtitle: "Fuerza rotacional"
 			description: [
@@ -90,7 +90,7 @@
 			icon: "create:water_wheel"
 			x: 4.5d
 			y: 0.5d
-			dependencies: ["90CC5F5EC097BEB8"]
+			dependencies: ["10CC5F5EC097BEB8"]
 			tasks: [
 				{
 					id: "6171E75FA7F9B6DA"
@@ -123,7 +123,7 @@
 			x: 6.5d
 			y: 0.5d
 			optional: true
-			dependencies: ["F9E2BC60282EC470"]
+			dependencies: ["79E2BC60282EC470"]
 			tasks: [
 				{
 					id: "49338B910FBC7834"
@@ -133,7 +133,7 @@
 			]
 			rewards: [
 				{
-					id: "97039022DCDA47E6"
+					id: "17039022DCDA47E6"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 500"
 					elevate_perms: true
@@ -149,7 +149,7 @@
 			icon: "create:shaft"
 			x: 6.5d
 			y: 2d
-			dependencies: ["F9E2BC60282EC470"]
+			dependencies: ["79E2BC60282EC470"]
 			tasks: [
 				{
 					id: "3328A090E30CCAD5"
@@ -158,7 +158,7 @@
 					count: 8L
 				}
 				{
-					id: "F93EE2129DB944D7"
+					id: "793EE2129DB944D7"
 					type: "item"
 					item: "create:cogwheel"
 					count: 4L
@@ -183,7 +183,7 @@
 					silent: true
 				}
 				{
-					id: "E06DF55517177F3D"
+					id: "606DF55517177F3D"
 					type: "item"
 					item: "create:belt_connector"
 					count: 4
@@ -201,7 +201,7 @@
 			dependencies: ["344EF3DE8D7FA8CB"]
 			tasks: [
 				{
-					id: "9C69DD19C7D114DC"
+					id: "1C69DD19C7D114DC"
 					type: "item"
 					item: "create:mechanical_press"
 				}
@@ -214,14 +214,14 @@
 			]
 			rewards: [
 				{
-					id: "BA748BE3694B8ED0"
+					id: "3A748BE3694B8ED0"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 620"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "A951BDCD8F75F065"
+					id: "2951BDCD8F75F065"
 					type: "command"
 					command: "/puffish_skills experience add {p} oficio_herrero 60"
 					elevate_perms: true
@@ -230,7 +230,7 @@
 			]
 		}
 		{
-			id: "C18860FCA577E7F3"
+			id: "418860FCA577E7F3"
 			title: "Taladro mecánico"
 			subtitle: "Minado automático"
 			description: ["Un taladro rompe bloques por ti mientras recibe fuerza. Ponlo frente a una veta y recoge los objetos."]
@@ -247,7 +247,7 @@
 			]
 			rewards: [
 				{
-					id: "E1AF98B4EE1252DA"
+					id: "61AF98B4EE1252DA"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 640"
 					elevate_perms: true
@@ -261,7 +261,7 @@
 					silent: true
 				}
 				{
-					id: "F7F1B063D565AFF8"
+					id: "77F1B063D565AFF8"
 					type: "item"
 					item: "create:andesite_casing"
 					count: 4
@@ -279,7 +279,7 @@
 			dependencies: ["394BFF181A51BD26"]
 			tasks: [
 				{
-					id: "87AE49D4CF13B40C"
+					id: "07AE49D4CF13B40C"
 					type: "item"
 					item: "create:mechanical_saw"
 				}
@@ -293,7 +293,7 @@
 					silent: true
 				}
 				{
-					id: "C08C0ABDF8EEC1B7"
+					id: "408C0ABDF8EEC1B7"
 					type: "command"
 					command: "/puffish_skills experience add {p} oficio_lenador 80"
 					elevate_perms: true
@@ -302,7 +302,7 @@
 			]
 		}
 		{
-			id: "EA46316309EFB5CE"
+			id: "6A46316309EFB5CE"
 			title: "Cintas y embudos"
 			subtitle: "Logística"
 			description: [
@@ -313,16 +313,16 @@
 			icon: "create:belt_connector"
 			x: 12.5d
 			y: 3.5d
-			dependencies: ["C18860FCA577E7F3", "7254BDE4C260F5ED"]
+			dependencies: ["418860FCA577E7F3", "7254BDE4C260F5ED"]
 			tasks: [
 				{
-					id: "8B2E391D7CAFD64D"
+					id: "0B2E391D7CAFD64D"
 					type: "item"
 					item: "create:belt_connector"
 					count: 16L
 				}
 				{
-					id: "C0FB3281EABA7AEB"
+					id: "40FB3281EABA7AEB"
 					type: "item"
 					item: "create:andesite_funnel"
 					count: 4L
@@ -330,14 +330,14 @@
 			]
 			rewards: [
 				{
-					id: "85D1DD3FAEAA08F3"
+					id: "05D1DD3FAEAA08F3"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 660"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "FB818C9453771898"
+					id: "7B818C9453771898"
 					type: "item"
 					item: "create:chute"
 					count: 4
@@ -345,7 +345,7 @@
 			]
 		}
 		{
-			id: "827FECC1AC04A31E"
+			id: "027FECC1AC04A31E"
 			title: "Mezclador y cuenco"
 			subtitle: "Procesamiento"
 			description: [
@@ -356,7 +356,7 @@
 			icon: "create:basin"
 			x: 14.5d
 			y: 3.5d
-			dependencies: ["EA46316309EFB5CE"]
+			dependencies: ["6A46316309EFB5CE"]
 			tasks: [
 				{
 					id: "672060305BE52CD8"
@@ -364,7 +364,7 @@
 					item: "create:basin"
 				}
 				{
-					id: "D0401E1CCF97314B"
+					id: "50401E1CCF97314B"
 					type: "item"
 					item: "create:mechanical_mixer"
 				}
@@ -377,7 +377,7 @@
 			]
 			rewards: [
 				{
-					id: "C67BAFC4DCB58930"
+					id: "467BAFC4DCB58930"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 700"
 					elevate_perms: true
@@ -391,7 +391,7 @@
 			]
 		}
 		{
-			id: "E2DC0531E77E38C6"
+			id: "62DC0531E77E38C6"
 			title: "Fábrica de hierro"
 			subtitle: "Automatiza un recurso"
 			description: [
@@ -402,7 +402,7 @@
 			icon: "create:iron_sheet"
 			x: 16.5d
 			y: 3.5d
-			dependencies: ["827FECC1AC04A31E"]
+			dependencies: ["027FECC1AC04A31E"]
 			tasks: [
 				{
 					id: "07ABBE5E815A625F"
@@ -439,10 +439,10 @@
 			icon: "create:item_vault"
 			x: 14.5d
 			y: 5d
-			dependencies: ["EA46316309EFB5CE"]
+			dependencies: ["6A46316309EFB5CE"]
 			tasks: [
 				{
-					id: "F17402E88C02449A"
+					id: "717402E88C02449A"
 					type: "item"
 					item: "create:item_vault"
 					count: 2L
@@ -457,7 +457,7 @@
 					silent: true
 				}
 				{
-					id: "A80AF8829E5CE115"
+					id: "280AF8829E5CE115"
 					type: "item"
 					item: "sophisticatedbackpacks:stack_upgrade_tier_1"
 				}
@@ -475,10 +475,10 @@
 			icon: "create:brass_sheet"
 			x: 18.5d
 			y: 5d
-			dependencies: ["E2DC0531E77E38C6", "296BB18C21C4F723"]
+			dependencies: ["62DC0531E77E38C6", "296BB18C21C4F723"]
 			tasks: [
 				{
-					id: "F752893414E5A609"
+					id: "7752893414E5A609"
 					type: "item"
 					item: "create:brass_sheet"
 					count: 16L
@@ -490,7 +490,7 @@
 					count: 16L
 				}
 				{
-					id: "B3811B6EA8E34C1B"
+					id: "33811B6EA8E34C1B"
 					type: "item"
 					item: "create:precision_mechanism"
 					count: 2L
@@ -505,7 +505,7 @@
 					silent: true
 				}
 				{
-					id: "C8C515D780E8A2DE"
+					id: "48C515D780E8A2DE"
 					type: "item"
 					item: "lightmanscurrency:coin_emerald"
 					count: 3
@@ -513,7 +513,7 @@
 			]
 		}
 		{
-			id: "9139AC1E342CF15D"
+			id: "1139AC1E342CF15D"
 			title: "Desplegador (opcional)"
 			subtitle: "Manos mecánicas"
 			description: ["El desplegador usa objetos por ti: coloca bloques, ensambla piezas, hasta ataca."]
@@ -546,19 +546,19 @@
 			description: ["Una caldera con agua y calor alimenta motores de vapor que dan un montón de estrés."]
 			icon: "create:steam_engine"
 			x: 20.5d
-			y: 6.5d
+			y: 8d
 			optional: true
 			dependencies: ["1D06021BA9A4674C"]
 			tasks: [
 				{
-					id: "DAF5805826CE49FC"
+					id: "5AF5805826CE49FC"
 					type: "item"
 					item: "create:steam_engine"
 				}
 			]
 			rewards: [
 				{
-					id: "9ED842851C96EF74"
+					id: "1ED842851C96EF74"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 700"
 					elevate_perms: true
@@ -567,13 +567,13 @@
 			]
 		}
 		{
-			id: "BAA7712C85BA1956"
+			id: "3AA7712C85BA1956"
 			title: "Vías"
 			subtitle: "Steam 'n' Rails"
 			description: ["Los trenes de Create usan sus propias vías. Con Steam 'n' Rails tienes más tipos de vía y decoración."]
 			icon: "create:track"
 			x: 20.5d
-			y: 8d
+			y: 6.5d
 			dependencies: ["1D06021BA9A4674C"]
 			tasks: [
 				{
@@ -585,50 +585,50 @@
 			]
 			rewards: [
 				{
-					id: "CDA113DF5526D1FE"
+					id: "4DA113DF5526D1FE"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 800"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "E639E03D0675164B"
+					id: "6639E03D0675164B"
 					type: "item"
 					item: "create:controls"
 				}
 			]
 		}
 		{
-			id: "AC60C20D64A0E28C"
+			id: "2C60C20D64A0E28C"
 			title: "Estación de tren"
 			subtitle: "Movimiento a gran escala"
 			description: ["Coloca una estación, monta un vagón con controles y ponle nombre a tu tren. Un tren une tu base con tus fábricas y con el mundo."]
 			icon: "create:controls"
 			x: 22.5d
-			y: 8d
-			dependencies: ["BAA7712C85BA1956"]
+			y: 6.5d
+			dependencies: ["3AA7712C85BA1956"]
 			tasks: [
 				{
-					id: "ED595FE5E33072D9"
+					id: "6D595FE5E33072D9"
 					type: "item"
 					item: "create:controls"
 				}
 				{
-					id: "F14BA5C885E51A86"
+					id: "714BA5C885E51A86"
 					type: "item"
 					item: "create:track_station"
 				}
 			]
 			rewards: [
 				{
-					id: "E25C6DA417B77286"
+					id: "625C6DA417B77286"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 900"
 					elevate_perms: true
 					silent: true
 				}
 				{
-					id: "A37BB7AAD9DC8E76"
+					id: "237BB7AAD9DC8E76"
 					type: "item"
 					item: "lightmanscurrency:coin_emerald"
 					count: 4
@@ -636,7 +636,7 @@
 			]
 		}
 		{
-			id: "AF5C488BE0D600A2"
+			id: "2F5C488BE0D600A2"
 			title: "Fábrica completa"
 			subtitle: "Cierre del capítulo"
 			description: [
@@ -647,7 +647,7 @@
 			icon: "create:precision_mechanism"
 			x: 24.5d
 			y: 6.5d
-			dependencies: ["1D06021BA9A4674C", "AC60C20D64A0E28C"]
+			dependencies: ["1D06021BA9A4674C", "2C60C20D64A0E28C"]
 			tasks: [
 				{
 					id: "38F64B72EB793935"
@@ -659,7 +659,7 @@
 			]
 			rewards: [
 				{
-					id: "ACD9CB9B4B8A97D5"
+					id: "2CD9CB9B4B8A97D5"
 					type: "command"
 					command: "/puffish_skills experience add {p} habilidades 1200"
 					elevate_perms: true
@@ -673,7 +673,7 @@
 					silent: true
 				}
 				{
-					id: "CAC420EBFF5F95A6"
+					id: "4AC420EBFF5F95A6"
 					type: "item"
 					item: "lightmanscurrency:coin_diamond"
 					count: 2

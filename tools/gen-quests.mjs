@@ -40,7 +40,11 @@ const ser = (v, depth = 0) => {
   const entries = Object.entries(v).filter(([k]) => !k.startsWith("_"));
   return `{\n${entries.map(([k, x]) => `${pad}${k}: ${ser(x, depth + 1)}`).join("\n")}\n${end}}`;
 };
-const hid = (key) => createHash("sha1").update(key).digest("hex").slice(0, 16).toUpperCase();
+// IDs de 16 hex con el primer dígito entre 0 y 7 (FTB los lee como long CON signo: 8–F rompe las dependencias)
+const hid = (key) => {
+  const h = createHash("sha1").update(key).digest("hex").slice(0, 16).toUpperCase();
+  return (parseInt(h[0], 16) & 7).toString(16).toUpperCase() + h.slice(1);
+};
 
 // ---- carga de capítulos -------------------------------------------------------------------------------------
 const files = readdirSync(chaptersDir).filter((f) => f.endsWith(".mjs")).sort();
@@ -88,23 +92,33 @@ chapters.forEach((ch, ci) => {
     return layer[k];
   };
   ch.quests.forEach((qu) => depth(qu.k));
-  // filas: cada misión intenta quedar a la altura media de sus dependencias (líneas cortas y rectas);
-  // dentro de una capa se ordenan por esa altura y se separan 1,5 casillas
+  // orden en cada capa: barridos de baricentro (hacia delante y hacia atrás) para reducir cruces de líneas;
+  // después cada misión se sitúa a la altura media de sus dependencias, con 1,5 casillas de separación mínima
   const STEP = 1.5;
   const yOf = {};
   const layersSorted = [...new Set(Object.values(layer))].sort((a, b) => a - b);
-  for (const L of layersSorted) {
-    const members = ch.quests.filter((qu) => layer[qu.k] === L).map((qu, idx) => {
-      const local = (qu.deps || []).filter((d) => !d.includes(".") && yOf[d] !== undefined);
-      const pref = local.length ? local.reduce((a, d) => a + yOf[d], 0) / local.length : undefined;
-      return { qu, idx, pref };
-    });
-    members.sort((a, b) => (a.pref ?? 1e9 + a.idx) - (b.pref ?? 1e9 + b.idx) || a.idx - b.idx);
+  const localDeps = (qu) => (qu.deps || []).filter((d) => byKey[d]);
+  const children = {};
+  ch.quests.forEach((qu) => localDeps(qu).forEach((d) => (children[d] = children[d] || []).push(qu.k)));
+  const cols = layersSorted.map((L) => ch.quests.filter((qu) => layer[qu.k] === L).map((qu) => qu.k));
+  const posIn = () => { const p = {}; cols.forEach((c) => c.forEach((k, i) => { p[k] = i; })); return p; };
+  const sortBy = (col, neighbours, p) => {
+    const score = (k) => { const n = neighbours(k); return n.length ? n.reduce((t, x) => t + p[x], 0) / n.length : p[k]; };
+    const orig = Object.fromEntries(col.map((k, i) => [k, i]));
+    col.sort((x, y) => score(x) - score(y) || orig[x] - orig[y]);
+  };
+  for (let it = 0; it < 6; it++) {
+    for (let i = 1; i < cols.length; i++) sortBy(cols[i], (k) => localDeps(byKey[k]), posIn());
+    for (let i = cols.length - 2; i >= 0; i--) sortBy(cols[i], (k) => children[k] || [], posIn());
+  }
+  for (const col of cols) {
     let last = -Infinity;
-    for (const m of members) {
-      const want = m.pref === undefined ? (last === -Infinity ? 0 : last + STEP) : Math.round(m.pref / STEP) * STEP;
+    for (const k of col) {
+      const ds = localDeps(byKey[k]).filter((d) => yOf[d] !== undefined);
+      const pref = ds.length ? ds.reduce((t, d) => t + yOf[d], 0) / ds.length : undefined;
+      const want = pref === undefined ? (last === -Infinity ? 0 : last + STEP) : Math.round(pref / STEP) * STEP;
       const y = Math.max(want, last + STEP);
-      yOf[m.qu.k] = y; last = y;
+      yOf[k] = y; last = y;
     }
   }
   const minY = Math.min(...Object.values(yOf));
