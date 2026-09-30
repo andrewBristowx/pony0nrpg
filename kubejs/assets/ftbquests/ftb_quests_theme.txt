@@ -1,0 +1,4 @@
+[*]
+dependency_line_unselected_speed:   0.35
+dependency_line_uncompleted_color:  #FFCCA3A3
+dependency_line_thickness:          0.2

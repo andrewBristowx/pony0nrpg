@@ -325,6 +325,10 @@ file = "config/puffish_skills/config.json"
 hash = "b24dda248dfb52e18106446fa1988b3a35bd6b0e5a659bc6cd9afa613f3413d6"
 
 [[files]]
+file = "kubejs/assets/ftbquests/ftb_quests_theme.txt"
+hash = "b9648e40eb87fb7586dbf4ef9b972b2bc7286e4c38ff276aef1602ee272da148"
+
+[[files]]
 file = "kubejs/server_scripts/class_gating.js"
 hash = "1f9c7106ec0cdc933394e7f3a725d73211805eefd0cef1af8b95260d4ddbf24d"
 
