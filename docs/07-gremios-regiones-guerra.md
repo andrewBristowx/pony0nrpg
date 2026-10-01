@@ -102,10 +102,12 @@ elige el sitio de terreno más llano y sin agua (prefiere los cercanos a (±1500
 El Overworld es terreno normal (cuevas, minerales, biomas) pero **sin estructuras**: un datapack en `kubejs/data/<mod>/worldgen/structure_set/`
 (generado con `node tools/gen-no-structures.mjs`, 105 conjuntos) vacía aldeas, templos, mazmorras, torres y las estructuras de nova_structures (Dungeons and Taverns), idas, dungeons_arise, dungeoncrawl, betterdungeons, repurposed_structures,
 structory, cataclysm, irons_spellbooks, bosses_of_mass_destruction, mowziesmobs, apotheosis, iceandfire, deeperdarker y ars_nouveau.
-Se mantienen las fortalezas (acceso al End), el Nether/End, las dimensiones propias de los mods, los meteoritos de AE2, las cuevas de Alex's Caves y los
+Las que se añaden como *features* con biome modifiers (nidos y cuevas de Ice and Fire, mazmorras de jefe de Apotheosis, campamentos de Artifacts,
+pozos y mazmorras de Repurposed Structures) se desactivan con `forge:none`. Se mantienen las fortalezas (acceso al End), el Nether/End, las dimensiones propias de los mods, los meteoritos de AE2, las cuevas de Alex's Caves y los
 carteles de Supplementaries. Las estructuras y jefes pasarán al mundo de aventura (fase 3). Solo afecta a chunks nuevos: hay que **crear un mundo nuevo**.
 
-Alrededor de cada pueblo se hace una rampa de 16 bloques que lleva del nivel del pueblo al del terreno natural, así no quedan farallones.
+Alrededor de cada pueblo se hace una rampa irregular (hasta ~26 bloques, de ancho variable y esquinas redondeadas) que lleva del nivel del pueblo al del
+terreno natural; lejos del pueblo usa los bloques de superficie del terreno (arena, nieve…), así no queda un cuadrado verde.
 
 ## Solo mobs de vanilla en el Overworld
 

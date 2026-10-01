@@ -25,19 +25,19 @@ function inOverworld(entity) { return String(entity.level.dimension).indexOf('mi
 // ---- equipo de FTB Teams por gremio ---------------------------------------------------------------------------
 function joinGuildTeam(server, player, id) {
   try {
-    const JavaUUID = Java.loadClass('java.util.UUID');
-    const api = Java.loadClass('dev.ftb.mods.ftbteams.api.FTBTeamsAPI').api();
+    var uuidClase = Java.loadClass('java.util.UUID');
+    var api = Java.loadClass('dev.ftb.mods.ftbteams.api.FTBTeamsAPI').api();
     if (!api.isManagerLoaded()) return false;
-    const mgr = api.getManager();
-    const key = 'equipo_' + id;
+    var mgr = api.getManager();
+    var key = 'equipo_' + id;
 
     var team = null;
     if (server.persistentData.contains(key)) {
-      const opt = mgr.getTeamByID(JavaUUID.fromString(server.persistentData.getString(key)));
+      var opt = mgr.getTeamByID(uuidClase.fromString(server.persistentData.getString(key)));
       if (opt.isPresent()) team = opt.get();
     }
-    const mine = mgr.getTeamForPlayer(player);
-    const current = mine.isPresent() ? mine.get() : null;
+    var mine = mgr.getTeamForPlayer(player);
+    var current = mine.isPresent() ? mine.get() : null;
     if (team != null && current != null && String(current.getId()) === String(team.getId())) return true;
 
     // si ya estaba en otro equipo "de grupo", sale primero (un jugador solo puede estar en uno)
@@ -127,26 +127,43 @@ function limpiarPueblo(server, id, run) {
   rellenar(run, o.x - 1, o.z - 1, o.x + o.lado, o.z + o.lado, ref + 1, ref + 34, 'minecraft:air');
 }
 
-/** suaviza el terreno alrededor del pueblo: una rampa de 16 bloques que pasa de la altura del pueblo a la del terreno natural */
+/** ruido suave determinista en [-1, 1] para que el borde del terreno nivelado no sea una forma regular */
+function ruido(x, z) {
+  return (Math.sin(x * 0.11 + 1.3) + Math.sin(z * 0.09 + 4.1) + Math.sin((x + z) * 0.05) + Math.sin((x - z) * 0.07 + 2.2)) / 4;
+}
+
+/** suaviza el terreno alrededor del pueblo con una rampa irregular (hasta ~26 bloques, de ancho variable y con esquinas redondeadas) que pasa
+ *  de la altura del pueblo a la del terreno natural; fuera del césped cercano usa los mismos bloques de superficie del terreno (arena, nieve, etc.) */
 function suavizarBordes(level, x1, z1, x2, z2, ref) {
   const Heightmap = Java.loadClass('net.minecraft.world.level.levelgen.Heightmap');
   const BlockPos = Java.loadClass('net.minecraft.core.BlockPos');
   const Blocks = Java.loadClass('net.minecraft.world.level.block.Blocks');
   const aire = Blocks.AIR.defaultBlockState(), tierra = Blocks.DIRT.defaultBlockState(), cesped = Blocks.GRASS_BLOCK.defaultBlockState();
-  const ANCHO = 16;
+  const ANCHO = 26;
   for (var x = x1 - ANCHO; x <= x2 + ANCHO; x++) {
     for (var z = z1 - ANCHO; z <= z2 + ANCHO; z++) {
-      var d = Math.max(x1 - x, x - x2, z1 - z, z - z2);
-      if (d < 1) continue;                                  // dentro del pueblo: ya está hecho
+      var dx = Math.max(x1 - x, 0, x - x2), dz = Math.max(z1 - z, 0, z - z2);
+      var d = Math.sqrt(dx * dx + dz * dz);
+      if (d < 0.5) continue;                                 // dentro del pueblo: ya está hecho
+      var ancho = ANCHO * (0.65 + 0.35 * ruido(x, z));
+      if (d > ancho) continue;
       var natural = level.getHeight(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, x, z) - 1;
-      var t = d / (ANCHO + 1), s = t * t * (3 - 2 * t);
+      var sup = level.getBlockState(new BlockPos(x, natural, z));
+      var t = d / ancho, s = t * t * (3 - 2 * t);
       var objetivo = Math.round(ref + (natural - ref) * s);
       for (var y = objetivo + 1; y <= Math.max(natural, objetivo) + 24; y++) {   // quita relieve, troncos y hojas de encima
         var pos = new BlockPos(x, y, z);
         if (!level.getBlockState(pos).isAir()) level.setBlock(pos, aire, 2);
       }
-      for (var y2 = natural + 1; y2 < objetivo; y2++) level.setBlock(new BlockPos(x, y2, z), tierra, 2);   // rellena si el terreno está más bajo
-      if (objetivo !== natural) level.setBlock(new BlockPos(x, objetivo, z), cesped, 2);
+      var arenoso = sup.getBlock() === Blocks.SAND || sup.getBlock() === Blocks.RED_SAND;
+      var relleno = arenoso ? sup : tierra;
+      for (var y2 = natural + 1; y2 < objetivo; y2++) level.setBlock(new BlockPos(x, y2, z), relleno, 2);   // rellena si el terreno está más bajo
+      if (objetivo !== natural) {
+        var azar = Math.abs(Math.sin(x * 12.9898 + z * 78.233) * 43758.5453) % 1;
+        var cercaDelPueblo = d < 3 || azar > s * 1.4;         // cerca del pueblo, césped; lejos, mezcla hasta el bloque natural
+        var libre = sup.isAir() || !sup.getFluidState().isEmpty();
+        level.setBlock(new BlockPos(x, objetivo, z), (libre || cercaDelPueblo) ? cesped : sup, 2);
+      }
     }
   }
 }
@@ -159,8 +176,8 @@ function colocarPueblo(server, id) {
   const s = elegirSitio(level, id);
   const ox = s.cx - PUEBLO_MITAD, oz = s.cz - PUEBLO_MITAD;
   // cargar (y generar si hace falta) los chunks de la zona + margen
-  for (var cx = (ox - 20) >> 4; cx <= (ox + PUEBLO_LADO + 20) >> 4; cx++)
-    for (var cz = (oz - 20) >> 4; cz <= (oz + PUEBLO_LADO + 20) >> 4; cz++) level.getChunk(cx, cz);
+  for (var cx = (ox - 32) >> 4; cx <= (ox + PUEBLO_LADO + 32) >> 4; cx++)
+    for (var cz = (oz - 32) >> 4; cz <= (oz + PUEBLO_LADO + 32) >> 4; cz++) level.getChunk(cx, cz);
   // el suelo del pueblo queda a la altura media del terreno (en el mar, a nivel del agua)
   var suma = 0, n = 0;
   for (var i = 0; i < 5; i++) for (var j = 0; j < 5; j++) {

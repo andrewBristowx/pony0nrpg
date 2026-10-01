@@ -333,6 +333,30 @@ file = "kubejs/assets/medievalorigins/lang/es_es.json"
 hash = "a2df37fc0cf8740951eb9ad80ebff3adbeb847520c14a4ca357407e6c991d054"
 
 [[files]]
+file = "kubejs/data/apotheosis/forge/biome_modifier/boss_dungeon.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/apotheosis/forge/biome_modifier/boss_dungeon_2.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/apotheosis/forge/biome_modifier/boss_dungeon_2_deep.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/apotheosis/forge/biome_modifier/boss_dungeon_deep.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/apotheosis/forge/biome_modifier/rogue_spawner.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/apotheosis/forge/biome_modifier/rogue_spawner_deep.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
 file = "kubejs/data/apotheosis/worldgen/structure_set/tower_leaf.json"
 hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
 
@@ -351,6 +375,10 @@ hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
 [[files]]
 file = "kubejs/data/ars_nouveau/worldgen/structure_set/wilden_den_set.json"
 hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/artifacts/forge/biome_modifier/add_campsite.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
 
 [[files]]
 file = "kubejs/data/betterdungeons/worldgen/structure_set/skeleton_dungeons.json"
@@ -435,6 +463,14 @@ hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
 [[files]]
 file = "kubejs/data/dungeons_arise/worldgen/structure_set/minor_structures.json"
 hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/iceandfire/forge/biome_modifier/iaf_features.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/iceandfire/forge/biome_modifier/iaf_mob_spawns.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
 
 [[files]]
 file = "kubejs/data/iceandfire/worldgen/structure_set/gorgon_temple.json"
@@ -949,6 +985,86 @@ file = "kubejs/data/pony0n/structures/pueblo_tuliondor.nbt"
 hash = "e09ba0cb78ddc9bc6929b57a380a0d577d6bdafdc76be1a1e844a96e325feaea"
 
 [[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/badlands.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/dark_forest.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/deep.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/desert.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/icy.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/jungle.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/mushroom.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/ocean_cold.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/ocean_frozen.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/ocean_lukewarm.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/ocean_neutral.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/ocean_warm.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/snow.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/swamp.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/wells/badlands.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/wells/cherry.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/wells/forest.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/wells/mossy_stone.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/wells/mushroom.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/wells/snow.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
 file = "kubejs/data/repurposed_structures/worldgen/structure_set/ancient_cities_overworld.json"
 hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
 
@@ -1050,7 +1166,7 @@ hash = "0fc331847426e183a313ee71a7ff76705108208e9e36db966282a1c8d061648e"
 
 [[files]]
 file = "kubejs/server_scripts/gremios.js"
-hash = "840794cd5ef330b25f5e2602d5cd64ee8c232fa4fd601e47d2f71e1e53cf33c8"
+hash = "6a539c159bb63ab39b099d2eef886319a0ca7c98128d3870dd270434b1de83d0"
 
 [[files]]
 file = "kubejs/server_scripts/sin_mobs_de_mods.js"

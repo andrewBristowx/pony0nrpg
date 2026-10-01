@@ -40,4 +40,22 @@ for (const [ns, names] of Object.entries(SETS)) {
   mkdirSync(dir, { recursive: true });
   for (const name of names) { writeFileSync(`${dir}/${name}.json`, JSON.stringify(empty, null, 2) + "\n"); n++; }
 }
+// Estructuras que se añaden como "features" por biome modifiers (nidos de Ice and Fire, mazmorras del jefe de Apotheosis, campamentos de Artifacts, pozos y
+// mazmorras de Repurposed Structures): se desactivan con el tipo forge:none.
+const NONE = JSON.stringify({ type: "forge:none" }) + "\n";
+const MODS = {
+  iceandfire: ["iaf_features", "iaf_mob_spawns"],
+  apotheosis: ["boss_dungeon", "boss_dungeon_2", "boss_dungeon_2_deep", "boss_dungeon_deep", "rogue_spawner", "rogue_spawner_deep"],
+  artifacts: ["add_campsite"],
+  "repurposed_structures/dungeons": ["badlands", "dark_forest", "deep", "desert", "icy", "jungle", "mushroom", "ocean_cold", "ocean_frozen", "ocean_lukewarm", "ocean_neutral", "ocean_warm", "snow", "swamp"],
+  "repurposed_structures/wells": ["badlands", "cherry", "forest", "mossy_stone", "mushroom", "snow"],
+};
+let m = 0;
+for (const [k, names] of Object.entries(MODS)) {
+  const ns = k.split("/")[0], sub = k.split("/").slice(1).join("/");
+  const dir = `${root}/${ns}/forge/biome_modifier${sub ? "/" + sub : ""}`;
+  mkdirSync(dir, { recursive: true });
+  for (const name of names) { writeFileSync(`${dir}/${name}.json`, NONE); m++; }
+}
+console.log(`${m} biome modifiers desactivados`);
 console.log(`${n} conjuntos de estructuras vaciados en ${Object.keys(SETS).length} espacios de nombres`);
