@@ -906,19 +906,19 @@ hash = "9884a089d977b580dc0068b193504d3d7323aa86af73e689606836f9e3d017b2"
 
 [[files]]
 file = "kubejs/data/pony0n/structures/pueblo_huffleponyanos.nbt"
-hash = "e88d03704a69460971d2aefa22e64ed3dea704a6f85d4c9990a3aadbe164682e"
+hash = "07eb4472f568e8ae235ba8362e5ae8184fff3e63a7392b6fc29dbc2ea267a8b7"
 
 [[files]]
 file = "kubejs/data/pony0n/structures/pueblo_ravencachalotes.nbt"
-hash = "17db10b48afeb4a7f0a009bab02e6957010e10f87086573db53e06b0afc8f317"
+hash = "edbabaea12c1f6d5d99b1d81bf5c3938f8af19a6d9d598ec9ba3a0461ed4ce95"
 
 [[files]]
 file = "kubejs/data/pony0n/structures/pueblo_slytherion.nbt"
-hash = "8d6a5f793697507e30cd5800e5547fc11f7d2b5af134416e320c35deb0e1dff2"
+hash = "451ba795f53842f38c82f92020d6a1aafa4f5abc55c8a9fc7945810d1eca75ca"
 
 [[files]]
 file = "kubejs/data/pony0n/structures/pueblo_tuliondor.nbt"
-hash = "3010304c8aad935b10bfc8a72a6189a3a5c78c564883b14e53d8f2531c909907"
+hash = "e09ba0cb78ddc9bc6929b57a380a0d577d6bdafdc76be1a1e844a96e325feaea"
 
 [[files]]
 file = "kubejs/data/structory/worldgen/structure_set/mid_rare_ruin.json"
@@ -950,7 +950,11 @@ hash = "0fc331847426e183a313ee71a7ff76705108208e9e36db966282a1c8d061648e"
 
 [[files]]
 file = "kubejs/server_scripts/gremios.js"
-hash = "903f4e2184037a97bc14d6a4ade8dff6a8f57b06c01ab87b29f598ae4c0cbb97"
+hash = "20645babd7c700c157232d07caf9ecc1b0328e989c1ece349692f842491f0cb8"
+
+[[files]]
+file = "kubejs/server_scripts/sin_mobs_de_mods.js"
+hash = "df40254ad7ee89dc54a3f08c6970aaab7221464fd4477ebb34fadbcf0f2c7084"
 
 [[files]]
 file = "kubejs/startup_scripts/class_gating.js"

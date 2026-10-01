@@ -77,7 +77,7 @@ Nombres: **Slytheri0n**, **RavenCachalotes**, **Huffleponyanos**, **Tuliondor**.
 
 ## Pueblos iniciales (fase 1b)
 
-Cada gremio tiene un pueblo amurallado de **97 × 97 bloques** hecho con un generador propio (`tools/village/`), no un diseño al azar:
+Cada gremio tiene un pueblo amurallado de **129 × 129 bloques** (con calles, callejones, patios y mucho espacio verde entre edificios) hecho con un generador propio (`tools/village/`), no un diseño al azar:
 las técnicas (base de adoquín, esquinas de tronco, entramado de paredes, ventanas con contraventanas, tejado de escaleras a dos aguas
 con alero, chimenea) salen de estudiar las casas de aldea de vanilla con `dump.mjs` y de comparar renders (`preview.mjs`) antes de darlo por bueno.
 
@@ -92,8 +92,8 @@ Colores/material por gremio: Slytheri0n verde y roble oscuro, RavenCachalotes az
 **Comprobar:** `node tools/village/validate.mjs <archivo.nbt>` (cada bloque y propiedad existe en vanilla 1.20.1) y
 `node tools/village/preview.mjs <archivo.nbt> salida.png 8 <0-3>` para verlo desde los 4 ángulos (`CROP=x0,z0,x1,z1,ymax` recorta una zona).
 
-**Colocación:** al arrancar, el servidor coloca solo los pueblos que falten. Para cada gremio mira 9 posibles sitios alrededor de (±1500, ±1500),
-elige el de terreno más llano y sin agua, carga los chunks, despeja árboles y relieve, rellena huecos y agua debajo y pega la plantilla.
+**Colocación:** al arrancar, el servidor coloca solo los pueblos que falten. Para cada gremio explora **toda su región** (sin generar chunks, solo midiendo el relieve),
+elige el sitio de terreno más llano y sin agua (prefiere los cercanos a (±1500, ±1500)), carga los chunks, despeja árboles y relieve, rellena huecos y agua debajo y pega la plantilla.
 `/pueblo colocar <gremio|todos>` lo repite (quita antes el pueblo anterior) y `/pueblo estado` dice cuáles están hechos.
 `/gremio unir` teletransporta a la plaza del pueblo (al sur del pozo) y fija allí la reaparición.
 
@@ -106,6 +106,11 @@ Se mantienen las fortalezas (acceso al End), el Nether/End, las dimensiones prop
 carteles de Supplementaries. Las estructuras y jefes pasarán al mundo de aventura (fase 3). Solo afecta a chunks nuevos: hay que **crear un mundo nuevo**.
 
 Alrededor de cada pueblo se hace una rampa de 16 bloques que lleva del nivel del pueblo al del terreno natural, así no quedan farallones.
+
+## Solo mobs de vanilla en el Overworld
+
+`kubejs/server_scripts/sin_mobs_de_mods.js` cancela las apariciones naturales (naturales, de generación de chunk, patrullas, eventos) de mobs de otros mods en el Overworld.
+No afecta a invocaciones, huevos, spawners ni a las demás dimensiones. Lista de excepciones en `MOBS_MODS_PERMITIDOS`.
 
 ### Verificaciones pendientes
 - Que la unión automática al equipo de FTB Teams funcione (si falla, sale un aviso y el log del servidor explica por qué).

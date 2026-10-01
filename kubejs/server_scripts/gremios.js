@@ -58,10 +58,10 @@ function joinGuildTeam(server, player, id) {
 
 // ---- pueblos iniciales --------------------------------------------------------------------------------------------
 // Las plantillas (kubejs/data/pony0n/structures/pueblo_<gremio>.nbt) las genera tools/village/gen-village.mjs.
-// Miden 97 x 34 x 97 y su suelo está en y=3 de la plantilla (debajo hay 3 capas de tierra).
+// Miden 129 x 34 x 129 y su suelo está en y=3 de la plantilla (debajo hay 3 capas de tierra).
 // El sitio se elige dentro de la región del gremio, cerca de (±PUEBLO, ±PUEBLO), buscando el terreno más llano y sin agua.
-const PUEBLO_LADO = 97, PUEBLO_MITAD = 48, PUEBLO_SUELO = 3, PUEBLO_VERSION = 2;
-const PUEBLO_SPAWN = [48, 55];           // desplazamiento dentro de la plantilla donde aparece el jugador (plaza, al sur del pozo)
+const PUEBLO_LADO = 129, PUEBLO_MITAD = 64, PUEBLO_SUELO = 3, PUEBLO_VERSION = 3;
+const PUEBLO_SPAWN = [64, 70];           // desplazamiento dentro de la plantilla donde aparece el jugador (plaza, al sur del pozo)
 
 /** origen (esquina noroeste) del pueblo colocado; si hay uno antiguo (65x65, sin datos guardados) devuelve el que tenía */
 function puebloOrigen(server, id) {
@@ -80,24 +80,41 @@ function rellenar(run, x1, z1, x2, z2, y1, y2, bloque, reemplazo) {
     run('fill ' + x1 + ' ' + y + ' ' + z1 + ' ' + x2 + ' ' + Math.min(y + alto - 1, y2) + ' ' + z2 + ' ' + bloque + (reemplazo ? ' replace ' + reemplazo : ''));
 }
 
-/** busca, cerca del centro del gremio, el sitio más llano y seco para un pueblo de PUEBLO_LADO */
-function elegirSitio(level, id) {
+/** altura natural del terreno en (x,z) sin generar el chunk: [superficie (con agua), fondo] */
+function alturasNaturales(level, x, z) {
   const Heightmap = Java.loadClass('net.minecraft.world.level.levelgen.Heightmap');
-  const g = GREMIOS[id], tx = g.sx * PUEBLO, tz = g.sz * PUEBLO;
+  const gen = level.getChunkSource().getGenerator(), rs = level.getChunkSource().randomState();
+  return [gen.getBaseHeight(x, z, Heightmap.Types.WORLD_SURFACE_WG, level, rs), gen.getBaseHeight(x, z, Heightmap.Types.OCEAN_FLOOR_WG, level, rs)];
+}
+
+/** puntúa un sitio (menor = mejor): desnivel + agua. Muestrea una cuadrícula de n x n con separación paso */
+function puntuarSitio(level, cx, cz, n, paso) {
+  var min = 999, max = -999, agua = 0, mitad = (n - 1) / 2;
+  for (var i = 0; i < n; i++) for (var j = 0; j < n; j++) {
+    var h = alturasNaturales(level, cx + (i - mitad) * paso, cz + (j - mitad) * paso);
+    if (h[0] - h[1] >= 2 || h[0] <= 62) agua++;            // agua encima del fondo, o terreno bajo el nivel del mar
+    if (h[0] < min) min = h[0];
+    if (h[0] > max) max = h[0];
+  }
+  return { puntos: (max - min) + agua * 8, rango: max - min, agua: agua };
+}
+
+/** busca en TODA la región del gremio el sitio más llano y seco para un pueblo de PUEBLO_LADO (con rampa); prefiere los cercanos a (±PUEBLO, ±PUEBLO) */
+function elegirSitio(level, id) {
+  const g = GREMIOS[id];
   var mejor = null;
-  for (var dx = -96; dx <= 96; dx += 96) for (var dz = -96; dz <= 96; dz += 96) {
-    var cx = tx + dx, cz = tz + dz;
-    var min = 999, max = -999, agua = 0;
-    for (var i = -2; i <= 2; i++) for (var j = -2; j <= 2; j++) {
-      var x = cx + i * 24, z = cz + j * 24;
-      var sup = level.getHeight(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, x, z);
-      var suelo = level.getHeight(Heightmap.Types.OCEAN_FLOOR, x, z);
-      if (sup - suelo >= 3 && sup <= 64) agua++;          // columna con agua profunda
-      if (sup < min) min = sup;
-      if (sup > max) max = sup;
-    }
-    var puntos = (max - min) + agua * 6 + (Math.abs(dx) + Math.abs(dz)) * 0.03;
-    if (mejor === null || puntos < mejor.puntos) mejor = { cx: cx, cz: cz, puntos: puntos, rango: max - min };
+  function probar(cx, cz, n, paso) {
+    var p = puntuarSitio(level, cx, cz, n, paso);
+    var total = p.puntos + (Math.abs(Math.abs(cx) - PUEBLO) + Math.abs(Math.abs(cz) - PUEBLO)) * 0.004;
+    if (mejor === null || total < mejor.total) mejor = { cx: cx, cz: cz, total: total, rango: p.rango, agua: p.agua };
+  }
+  // búsqueda gruesa por toda la región (|x|,|z| entre 260 y 2800: fuera de la zona neutral y del borde)
+  for (var ax = 260; ax <= 2800; ax += 100) for (var az = 260; az <= 2800; az += 100) probar(g.sx * ax, g.sz * az, 3, 56);
+  // refinado alrededor del mejor
+  const c0 = { x: mejor.cx, z: mejor.cz };
+  for (var dx = -72; dx <= 72; dx += 24) for (var dz = -72; dz <= 72; dz += 24) {
+    var nx = c0.x + dx, nz = c0.z + dz;
+    if (Math.abs(nx) >= 260 && Math.abs(nx) <= 2800 && Math.abs(nz) >= 260 && Math.abs(nz) <= 2800) probar(nx, nz, 5, 32);
   }
   return mejor;
 }
@@ -147,7 +164,7 @@ function colocarPueblo(server, id) {
   // el suelo del pueblo queda a la altura media del terreno (en el mar, a nivel del agua)
   var suma = 0, n = 0;
   for (var i = 0; i < 5; i++) for (var j = 0; j < 5; j++) {
-    suma += level.getHeight(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, ox + 8 + i * 20, oz + 8 + j * 20); n++;
+    suma += level.getHeight(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, ox + 10 + i * 27, oz + 10 + j * 27); n++;
   }
   const ref = Math.max(Math.round(suma / n) - 1, 63);
   const x1 = ox - 1, x2 = ox + PUEBLO_LADO, z1 = oz - 1, z2 = oz + PUEBLO_LADO;
@@ -163,7 +180,7 @@ function colocarPueblo(server, id) {
   const pd = server.persistentData;
   pd.putInt('pueblo_' + id + '_x', ox); pd.putInt('pueblo_' + id + '_z', oz); pd.putInt('pueblo_' + id + '_y', ref);
   pd.putInt('pueblo_' + id + '_lado', PUEBLO_LADO); pd.putInt('pueblo_' + id + '_v', PUEBLO_VERSION);
-  console.info('[gremios] pueblo de ' + id + ' colocado en ' + ox + ',' + (ref - PUEBLO_SUELO) + ',' + oz + ' (desnivel del terreno ' + s.rango + ')');
+  console.info('[gremios] pueblo de ' + id + ' colocado en ' + ox + ',' + (ref - PUEBLO_SUELO) + ',' + oz + ' (desnivel ' + s.rango + ', columnas con agua ' + s.agua + ')');
   return ref;
 }
 

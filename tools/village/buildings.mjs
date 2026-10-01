@@ -128,10 +128,14 @@ export function house(v, P, x0, z0, w, d, o = {}) {
       windowAt(wx, wz, s);
     }
   }
-  if (floors === 2) {   // escalera interior a la planta alta
+  if (floors === 2) {   // escalera interior a la planta alta: de un solo ancho, pegada a la pared oeste, con baranda en el hueco
     const sxp = x0 + 1, szp = z0 + 1;
-    // 5 peldaños: el último sustituye al suelo de la planta alta (su cara superior queda a la altura del suelo de arriba)
-    for (let i = 0; i < 5; i++) { if (i < 4) { v.set(sxp + i, y0 + 5, szp, null); v.set(sxp + i, y0 + 5, szp + 1, null); } for (const dz of [0, 1]) v.set(sxp + i, y0 + 1 + i, szp + dz, stairs(P.floor, "east")); }
+    // 5 peldaños (suben hacia el sur): el último sustituye al suelo de la planta alta, así su cara superior queda a la altura del suelo de arriba
+    for (let i = 0; i < 5; i++) {
+      v.set(sxp, y0 + 1 + i, szp + i, stairs(P.floor, "south"));
+      if (i < 4) { v.set(sxp, y0 + 5, szp + i, null); v.set(sxp + 1, y0 + 6, szp + i, fence(P.trim)); }   // hueco y baranda
+    }
+    v.set(sxp + 1, y0 + 6, szp + 4, fence(P.trim));   // la baranda llega hasta el último peldaño (que queda libre para subir)
   }
   // chimenea
   if (o.chimney !== false) {
