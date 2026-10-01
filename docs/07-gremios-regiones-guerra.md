@@ -97,6 +97,16 @@ elige el de terreno más llano y sin agua, carga los chunks, despeja árboles y 
 `/pueblo colocar <gremio|todos>` lo repite (quita antes el pueblo anterior) y `/pueblo estado` dice cuáles están hechos.
 `/gremio unir` teletransporta a la plaza del pueblo (al sur del pozo) y fija allí la reaparición.
 
+## Mundo de construcción sin estructuras
+
+El Overworld es terreno normal (cuevas, minerales, biomas) pero **sin estructuras**: un datapack en `kubejs/data/<mod>/worldgen/structure_set/`
+(generado con `node tools/gen-no-structures.mjs`, 81 conjuntos) vacía aldeas, templos, mazmorras, torres y las estructuras de nova_structures, idas,
+structory, cataclysm, irons_spellbooks, bosses_of_mass_destruction, mowziesmobs, apotheosis, iceandfire, deeperdarker y ars_nouveau.
+Se mantienen las fortalezas (acceso al End), el Nether/End, las dimensiones propias de los mods, los meteoritos de AE2, las cuevas de Alex's Caves y los
+carteles de Supplementaries. Las estructuras y jefes pasarán al mundo de aventura (fase 3). Solo afecta a chunks nuevos: hay que **crear un mundo nuevo**.
+
+Alrededor de cada pueblo se hace una rampa de 16 bloques que lleva del nivel del pueblo al del terreno natural, así no quedan farallones.
+
 ### Verificaciones pendientes
 - Que la unión automática al equipo de FTB Teams funcione (si falla, sale un aviso y el log del servidor explica por qué).
 - Que los reclamos de FTB Chunks no permitan salirse de la región.

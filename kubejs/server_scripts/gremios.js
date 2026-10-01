@@ -110,6 +110,30 @@ function limpiarPueblo(server, id, run) {
   rellenar(run, o.x - 1, o.z - 1, o.x + o.lado, o.z + o.lado, ref + 1, ref + 34, 'minecraft:air');
 }
 
+/** suaviza el terreno alrededor del pueblo: una rampa de 16 bloques que pasa de la altura del pueblo a la del terreno natural */
+function suavizarBordes(level, x1, z1, x2, z2, ref) {
+  const Heightmap = Java.loadClass('net.minecraft.world.level.levelgen.Heightmap');
+  const BlockPos = Java.loadClass('net.minecraft.core.BlockPos');
+  const Blocks = Java.loadClass('net.minecraft.world.level.block.Blocks');
+  const aire = Blocks.AIR.defaultBlockState(), tierra = Blocks.DIRT.defaultBlockState(), cesped = Blocks.GRASS_BLOCK.defaultBlockState();
+  const ANCHO = 16;
+  for (var x = x1 - ANCHO; x <= x2 + ANCHO; x++) {
+    for (var z = z1 - ANCHO; z <= z2 + ANCHO; z++) {
+      var d = Math.max(x1 - x, x - x2, z1 - z, z - z2);
+      if (d < 1) continue;                                  // dentro del pueblo: ya está hecho
+      var natural = level.getHeight(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, x, z) - 1;
+      var t = d / (ANCHO + 1), s = t * t * (3 - 2 * t);
+      var objetivo = Math.round(ref + (natural - ref) * s);
+      for (var y = objetivo + 1; y <= Math.max(natural, objetivo) + 24; y++) {   // quita relieve, troncos y hojas de encima
+        var pos = new BlockPos(x, y, z);
+        if (!level.getBlockState(pos).isAir()) level.setBlock(pos, aire, 2);
+      }
+      for (var y2 = natural + 1; y2 < objetivo; y2++) level.setBlock(new BlockPos(x, y2, z), tierra, 2);   // rellena si el terreno está más bajo
+      if (objetivo !== natural) level.setBlock(new BlockPos(x, objetivo, z), cesped, 2);
+    }
+  }
+}
+
 function colocarPueblo(server, id) {
   const Heightmap = Java.loadClass('net.minecraft.world.level.levelgen.Heightmap');
   const level = server.overworld();
@@ -118,8 +142,8 @@ function colocarPueblo(server, id) {
   const s = elegirSitio(level, id);
   const ox = s.cx - PUEBLO_MITAD, oz = s.cz - PUEBLO_MITAD;
   // cargar (y generar si hace falta) los chunks de la zona + margen
-  for (var cx = (ox - 2) >> 4; cx <= (ox + PUEBLO_LADO + 2) >> 4; cx++)
-    for (var cz = (oz - 2) >> 4; cz <= (oz + PUEBLO_LADO + 2) >> 4; cz++) level.getChunk(cx, cz);
+  for (var cx = (ox - 20) >> 4; cx <= (ox + PUEBLO_LADO + 20) >> 4; cx++)
+    for (var cz = (oz - 20) >> 4; cz <= (oz + PUEBLO_LADO + 20) >> 4; cz++) level.getChunk(cx, cz);
   // el suelo del pueblo queda a la altura media del terreno (en el mar, a nivel del agua)
   var suma = 0, n = 0;
   for (var i = 0; i < 5; i++) for (var j = 0; j < 5; j++) {
@@ -135,6 +159,7 @@ function colocarPueblo(server, id) {
   });
   // 3) colocar la plantilla (su suelo queda en y=ref)
   run('place template pony0n:pueblo_' + id + ' ' + ox + ' ' + (ref - PUEBLO_SUELO) + ' ' + oz);
+  suavizarBordes(level, x1, z1, x2, z2, ref);
   const pd = server.persistentData;
   pd.putInt('pueblo_' + id + '_x', ox); pd.putInt('pueblo_' + id + '_z', oz); pd.putInt('pueblo_' + id + '_y', ref);
   pd.putInt('pueblo_' + id + '_lado', PUEBLO_LADO); pd.putInt('pueblo_' + id + '_v', PUEBLO_VERSION);
