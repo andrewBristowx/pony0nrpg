@@ -353,6 +353,22 @@ file = "kubejs/data/ars_nouveau/worldgen/structure_set/wilden_den_set.json"
 hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
 
 [[files]]
+file = "kubejs/data/betterdungeons/worldgen/structure_set/skeleton_dungeons.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/betterdungeons/worldgen/structure_set/small_dungeons.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/betterdungeons/worldgen/structure_set/spider_dungeons.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/betterdungeons/worldgen/structure_set/zombie_dungeons.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
 file = "kubejs/data/bosses_of_mass_destruction/worldgen/structure_set/gauntlet_arena.json"
 hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
 
@@ -406,6 +422,18 @@ hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
 
 [[files]]
 file = "kubejs/data/deeperdarker/worldgen/structure_set/ancient_temple.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/dungeoncrawl/worldgen/structure_set/dungeons.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/dungeons_arise/worldgen/structure_set/major_structures.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/dungeons_arise/worldgen/structure_set/minor_structures.json"
 hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
 
 [[files]]
@@ -919,6 +947,78 @@ hash = "451ba795f53842f38c82f92020d6a1aafa4f5abc55c8a9fc7945810d1eca75ca"
 [[files]]
 file = "kubejs/data/pony0n/structures/pueblo_tuliondor.nbt"
 hash = "e09ba0cb78ddc9bc6929b57a380a0d577d6bdafdc76be1a1e844a96e325feaea"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/ancient_cities_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/bastions_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/cities_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/fortresses_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/igloos_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/mansions_mangrove.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/mansions_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/mineshafts_ocean.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/mineshafts_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/monuments_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/outposts_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/pyramids_mushroom.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/pyramids_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/ruins_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/temples_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/villages_mushroom.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/villages_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/witch_huts_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
 
 [[files]]
 file = "kubejs/data/structory/worldgen/structure_set/mid_rare_ruin.json"

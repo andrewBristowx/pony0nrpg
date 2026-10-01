@@ -100,7 +100,7 @@ elige el sitio de terreno más llano y sin agua (prefiere los cercanos a (±1500
 ## Mundo de construcción sin estructuras
 
 El Overworld es terreno normal (cuevas, minerales, biomas) pero **sin estructuras**: un datapack en `kubejs/data/<mod>/worldgen/structure_set/`
-(generado con `node tools/gen-no-structures.mjs`, 81 conjuntos) vacía aldeas, templos, mazmorras, torres y las estructuras de nova_structures, idas,
+(generado con `node tools/gen-no-structures.mjs`, 105 conjuntos) vacía aldeas, templos, mazmorras, torres y las estructuras de nova_structures (Dungeons and Taverns), idas, dungeons_arise, dungeoncrawl, betterdungeons, repurposed_structures,
 structory, cataclysm, irons_spellbooks, bosses_of_mass_destruction, mowziesmobs, apotheosis, iceandfire, deeperdarker y ars_nouveau.
 Se mantienen las fortalezas (acceso al End), el Nether/End, las dimensiones propias de los mods, los meteoritos de AE2, las cuevas de Alex's Caves y los
 carteles de Supplementaries. Las estructuras y jefes pasarán al mundo de aventura (fase 3). Solo afecta a chunks nuevos: hay que **crear un mundo nuevo**.

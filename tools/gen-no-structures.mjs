@@ -23,6 +23,12 @@ const SETS = {
   iceandfire: ["gorgon_temple", "graveyard", "mausoleum"],
   deeperdarker: ["ancient_temple"],
   ars_nouveau: ["wilden_den_set"],
+  dungeoncrawl: ["dungeons"],
+  dungeons_arise: ["major_structures", "minor_structures"],
+  betterdungeons: ["skeleton_dungeons", "small_dungeons", "spider_dungeons", "zombie_dungeons"],
+  repurposed_structures: ["ancient_cities_overworld", "bastions_overworld", "cities_overworld", "fortresses_overworld", "igloos_overworld", "mansions_mangrove",
+    "mansions_overworld", "mineshafts_ocean", "mineshafts_overworld", "monuments_overworld", "outposts_overworld", "pyramids_mushroom", "pyramids_overworld",
+    "ruins_overworld", "temples_overworld", "villages_mushroom", "villages_overworld", "witch_huts_overworld"],
 };
 
 const root = "kubejs/data";
