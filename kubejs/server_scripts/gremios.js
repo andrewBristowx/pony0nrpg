@@ -25,7 +25,7 @@ function inOverworld(entity) { return String(entity.level.dimension).indexOf('mi
 // ---- equipo de FTB Teams por gremio ---------------------------------------------------------------------------
 function joinGuildTeam(server, player, id) {
   try {
-    const UUID = Java.loadClass('java.util.UUID');
+    const JavaUUID = Java.loadClass('java.util.UUID');
     const api = Java.loadClass('dev.ftb.mods.ftbteams.api.FTBTeamsAPI').api();
     if (!api.isManagerLoaded()) return false;
     const mgr = api.getManager();
@@ -33,7 +33,7 @@ function joinGuildTeam(server, player, id) {
 
     var team = null;
     if (server.persistentData.contains(key)) {
-      const opt = mgr.getTeamByID(UUID.fromString(server.persistentData.getString(key)));
+      const opt = mgr.getTeamByID(JavaUUID.fromString(server.persistentData.getString(key)));
       if (opt.isPresent()) team = opt.get();
     }
     const mine = mgr.getTeamForPlayer(player);
