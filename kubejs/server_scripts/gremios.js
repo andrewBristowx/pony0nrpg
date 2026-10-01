@@ -58,50 +58,94 @@ function joinGuildTeam(server, player, id) {
 
 // ---- pueblos iniciales --------------------------------------------------------------------------------------------
 // Las plantillas (kubejs/data/pony0n/structures/pueblo_<gremio>.nbt) las genera tools/village/gen-village.mjs.
-// Miden 65 x 26 x 65 y su suelo está en y=3 de la plantilla (debajo hay 3 capas de tierra). Se colocan centradas en (±PUEBLO, ±PUEBLO).
-const PUEBLO_LADO = 65, PUEBLO_SUELO = 3;
-const PUEBLO_SPAWN = [32, 37];           // desplazamiento dentro de la plantilla donde aparece el jugador (plaza, junto al pozo)
+// Miden 97 x 34 x 97 y su suelo está en y=3 de la plantilla (debajo hay 3 capas de tierra).
+// El sitio se elige dentro de la región del gremio, cerca de (±PUEBLO, ±PUEBLO), buscando el terreno más llano y sin agua.
+const PUEBLO_LADO = 97, PUEBLO_MITAD = 48, PUEBLO_SUELO = 3, PUEBLO_VERSION = 2;
+const PUEBLO_SPAWN = [48, 55];           // desplazamiento dentro de la plantilla donde aparece el jugador (plaza, al sur del pozo)
 
-function puebloOrigen(id) {
+/** origen (esquina noroeste) del pueblo colocado; si hay uno antiguo (65x65, sin datos guardados) devuelve el que tenía */
+function puebloOrigen(server, id) {
+  const pd = server.persistentData;
+  if (pd.contains('pueblo_' + id + '_x')) return { x: pd.getInt('pueblo_' + id + '_x'), z: pd.getInt('pueblo_' + id + '_z'), lado: pd.getInt('pueblo_' + id + '_lado') };
   const g = GREMIOS[id];
-  return { x: g.sx * PUEBLO - 32, z: g.sz * PUEBLO - 32 };
+  return { x: g.sx * PUEBLO - 32, z: g.sz * PUEBLO - 32, lado: 65 };
 }
 
-function puebloColocado(server, id) { return server.persistentData.contains('pueblo_' + id + '_y'); }
+function puebloColocado(server, id) { return server.persistentData.getInt('pueblo_' + id + '_v') >= PUEBLO_VERSION; }
+
+/** /fill por tramos (el límite de /fill es 32768 bloques por orden) */
+function rellenar(run, x1, z1, x2, z2, y1, y2, bloque, reemplazo) {
+  const alto = Math.max(1, Math.floor(32000 / ((x2 - x1 + 1) * (z2 - z1 + 1))));
+  for (var y = y1; y <= y2; y += alto)
+    run('fill ' + x1 + ' ' + y + ' ' + z1 + ' ' + x2 + ' ' + Math.min(y + alto - 1, y2) + ' ' + z2 + ' ' + bloque + (reemplazo ? ' replace ' + reemplazo : ''));
+}
+
+/** busca, cerca del centro del gremio, el sitio más llano y seco para un pueblo de PUEBLO_LADO */
+function elegirSitio(level, id) {
+  const Heightmap = Java.loadClass('net.minecraft.world.level.levelgen.Heightmap');
+  const g = GREMIOS[id], tx = g.sx * PUEBLO, tz = g.sz * PUEBLO;
+  var mejor = null;
+  for (var dx = -96; dx <= 96; dx += 96) for (var dz = -96; dz <= 96; dz += 96) {
+    var cx = tx + dx, cz = tz + dz;
+    var min = 999, max = -999, agua = 0;
+    for (var i = -2; i <= 2; i++) for (var j = -2; j <= 2; j++) {
+      var x = cx + i * 24, z = cz + j * 24;
+      var sup = level.getHeight(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, x, z);
+      var suelo = level.getHeight(Heightmap.Types.OCEAN_FLOOR, x, z);
+      if (sup - suelo >= 3 && sup <= 64) agua++;          // columna con agua profunda
+      if (sup < min) min = sup;
+      if (sup > max) max = sup;
+    }
+    var puntos = (max - min) + agua * 6 + (Math.abs(dx) + Math.abs(dz)) * 0.03;
+    if (mejor === null || puntos < mejor.puntos) mejor = { cx: cx, cz: cz, puntos: puntos, rango: max - min };
+  }
+  return mejor;
+}
+
+/** quita un pueblo ya colocado (solo lo construido sobre el suelo) para poder volver a colocarlo */
+function limpiarPueblo(server, id, run) {
+  const pd = server.persistentData;
+  if (!pd.contains('pueblo_' + id + '_y')) return;
+  const o = puebloOrigen(server, id), ref = pd.getInt('pueblo_' + id + '_y');
+  rellenar(run, o.x - 1, o.z - 1, o.x + o.lado, o.z + o.lado, ref + 1, ref + 34, 'minecraft:air');
+}
 
 function colocarPueblo(server, id) {
   const Heightmap = Java.loadClass('net.minecraft.world.level.levelgen.Heightmap');
   const level = server.overworld();
-  const o = puebloOrigen(id);
-  // cargar (y generar si hace falta) los chunks de la zona + margen
-  for (var cx = (o.x - 2) >> 4; cx <= (o.x + PUEBLO_LADO + 2) >> 4; cx++)
-    for (var cz = (o.z - 2) >> 4; cz <= (o.z + PUEBLO_LADO + 2) >> 4; cz++) level.getChunk(cx, cz);
-  // altura del suelo en el centro (sin contar hojas); en el mar se usa el nivel del agua
-  const h = level.getHeight(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, o.x + 32, o.z + 32);
-  const ref = Math.max(h - 1, 63);
-  const x1 = o.x - 1, x2 = o.x + PUEBLO_LADO, z1 = o.z - 1, z2 = o.z + PUEBLO_LADO;
   const run = (c) => server.runCommandSilent('execute in minecraft:overworld run ' + c);
-  // 1) despejar árboles y relieve sobre el suelo del pueblo (por tramos de 7 capas: el límite de /fill es 32768 bloques)
-  for (var y = ref + 1; y <= ref + 30; y += 7)
-    run('fill ' + x1 + ' ' + y + ' ' + z1 + ' ' + x2 + ' ' + Math.min(y + 6, ref + 30) + ' ' + z2 + ' minecraft:air');
-  // 2) rellenar huecos y agua por debajo para que el pueblo no quede colgando
-  for (var yy = ref - 4; yy > ref - 25; yy -= 7) {
-    var lo = Math.max(yy - 6, ref - 25);
-    ["minecraft:air", "minecraft:water", "minecraft:lava"].forEach(function (blk) {
-      run('fill ' + x1 + ' ' + lo + ' ' + z1 + ' ' + x2 + ' ' + yy + ' ' + z2 + ' minecraft:dirt replace ' + blk);
-    });
+  limpiarPueblo(server, id, run);
+  const s = elegirSitio(level, id);
+  const ox = s.cx - PUEBLO_MITAD, oz = s.cz - PUEBLO_MITAD;
+  // cargar (y generar si hace falta) los chunks de la zona + margen
+  for (var cx = (ox - 2) >> 4; cx <= (ox + PUEBLO_LADO + 2) >> 4; cx++)
+    for (var cz = (oz - 2) >> 4; cz <= (oz + PUEBLO_LADO + 2) >> 4; cz++) level.getChunk(cx, cz);
+  // el suelo del pueblo queda a la altura media del terreno (en el mar, a nivel del agua)
+  var suma = 0, n = 0;
+  for (var i = 0; i < 5; i++) for (var j = 0; j < 5; j++) {
+    suma += level.getHeight(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, ox + 8 + i * 20, oz + 8 + j * 20); n++;
   }
+  const ref = Math.max(Math.round(suma / n) - 1, 63);
+  const x1 = ox - 1, x2 = ox + PUEBLO_LADO, z1 = oz - 1, z2 = oz + PUEBLO_LADO;
+  // 1) despejar árboles y relieve sobre el suelo del pueblo
+  rellenar(run, x1, z1, x2, z2, ref + 1, ref + 34, 'minecraft:air');
+  // 2) rellenar huecos y agua por debajo para que el pueblo no quede colgando
+  ['minecraft:air', 'minecraft:water', 'minecraft:lava'].forEach(function (blk) {
+    rellenar(run, x1, z1, x2, z2, ref - 25, ref - 4, 'minecraft:dirt', blk);
+  });
   // 3) colocar la plantilla (su suelo queda en y=ref)
-  run('place template pony0n:pueblo_' + id + ' ' + o.x + ' ' + (ref - PUEBLO_SUELO) + ' ' + o.z);
-  server.persistentData.putInt('pueblo_' + id + '_y', ref);
-  console.info('[gremios] pueblo de ' + id + ' colocado en ' + o.x + ',' + (ref - PUEBLO_SUELO) + ',' + o.z);
+  run('place template pony0n:pueblo_' + id + ' ' + ox + ' ' + (ref - PUEBLO_SUELO) + ' ' + oz);
+  const pd = server.persistentData;
+  pd.putInt('pueblo_' + id + '_x', ox); pd.putInt('pueblo_' + id + '_z', oz); pd.putInt('pueblo_' + id + '_y', ref);
+  pd.putInt('pueblo_' + id + '_lado', PUEBLO_LADO); pd.putInt('pueblo_' + id + '_v', PUEBLO_VERSION);
+  console.info('[gremios] pueblo de ' + id + ' colocado en ' + ox + ',' + (ref - PUEBLO_SUELO) + ',' + oz + ' (desnivel del terreno ' + s.rango + ')');
   return ref;
 }
 
 /** posición de aparición dentro del pueblo de un gremio, o null si aún no se colocó */
 function puebloSpawn(server, id) {
   if (!puebloColocado(server, id)) return null;
-  const o = puebloOrigen(id);
+  const o = puebloOrigen(server, id);
   return { x: o.x + PUEBLO_SPAWN[0] + 0.5, y: server.persistentData.getInt('pueblo_' + id + '_y') + 1, z: o.z + PUEBLO_SPAWN[1] + 0.5 };
 }
 

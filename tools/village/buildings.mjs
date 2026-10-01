@@ -40,7 +40,7 @@ export function gableRoof(v, P, x0, z0, x1, z1, yBase, ridge, over = 1) {
 }
 
 /** fronton (triángulo de pared bajo el tejado) en los dos extremos de la cumbrera */
-function gables(v, P, x0, z0, x1, z1, yBase, ridge, heights, window) {
+export function gables(v, P, x0, z0, x1, z1, yBase, ridge, heights, window) {
   const ends = ridge === "x" ? [x0, x1] : [z0, z1];
   for (const e of ends) {
     for (const { pos, y } of heights) {
@@ -111,7 +111,7 @@ export function house(v, P, x0, z0, w, d, o = {}) {
   const side = dd === "north" || dd === "south" ? [[1, 0], [-1, 0]] : [[0, 1], [0, -1]];
   for (const [sx_, sz_] of side) v.set(doorPos[0] + sx_ + dx, y0 + 3, doorPos[1] + sz_ + dz, wallTorch(dd));
 
-  const winLevels = floors === 2 ? [y0 + 2, y0 + 6] : [y0 + 2];
+  const winLevels = o.winY ? o.winY.map((k) => y0 + k) : floors === 2 ? [y0 + 2, y0 + 6] : [y0 + 2];
   const windowAt = (wx, wz, facing) => {   // facing = hacia fuera
     for (const yy of winLevels) {
       v.set(wx, yy, wz, glassPane()); v.set(wx, yy + 1, wz, glassPane());

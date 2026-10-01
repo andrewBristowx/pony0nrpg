@@ -77,22 +77,25 @@ Nombres: **Slytheri0n**, **RavenCachalotes**, **Huffleponyanos**, **Tuliondor**.
 
 ## Pueblos iniciales (fase 1b)
 
-Cada gremio tiene un pueblo amurallado de 65 × 65 bloques hecho con un generador propio (`tools/village/`), no un diseño al azar:
+Cada gremio tiene un pueblo amurallado de **97 × 97 bloques** hecho con un generador propio (`tools/village/`), no un diseño al azar:
 las técnicas (base de adoquín, esquinas de tronco, entramado de paredes, ventanas con contraventanas, tejado de escaleras a dos aguas
 con alero, chimenea) salen de estudiar las casas de aldea de vanilla con `dump.mjs` y de comparar renders (`preview.mjs`) antes de darlo por bueno.
 
-**Contenido:** muralla con almenas y 3 puertas (sur, este, oeste), 4 torres de esquina con escalera y tejado, plaza con pozo, 4 mástiles con el
-estandarte del gremio y farolas, **Salón del gremio** al norte (tarima, alfombra, estandartes; ahí va el NPC guía), **taberna** de 2 plantas con camas,
-**herrería** abierta (yunque, hornos, amoladora), 6 casas amuebladas (camas, cofres, mesa, estantes, chimenea), 3 puestos de mercado y 2 granjas.
+**Contenido:** muralla con almenas, 3 puertas (sur, este y oeste) y 12 torres; plaza con pozo, 4 mástiles con el estandarte del gremio y farolas;
+**Gran Salón del gremio** al norte (29 × 21, nave alta con pilares, arañas de luces, tarima para el NPC guía, 2 chimeneas, mesas largas, galerías
+laterales con escalera, estantes y escritorios, y pórtico de entrada); **taberna** de 2 plantas con camas; **herrería** abierta; 12 casas amuebladas
+(camas, cofres, mesa con sillas, estantes, chimenea, luz; las de 2 plantas también arriba); mercado con 12 puestos en dos filas; cuartel y campo de
+entrenamiento; 2 granjas y un corral. Todo tiene luz suficiente para que no aparezcan monstruos dentro.
 Colores/material por gremio: Slytheri0n verde y roble oscuro, RavenCachalotes azul y abeto, Huffleponyanos amarillo y roble, Tuliondor rojo y ladrillo.
 
 **Regenerar:** `node tools/village/gen-village.mjs all` → `kubejs/data/pony0n/structures/pueblo_<gremio>.nbt`.
 **Comprobar:** `node tools/village/validate.mjs <archivo.nbt>` (cada bloque y propiedad existe en vanilla 1.20.1) y
 `node tools/village/preview.mjs <archivo.nbt> salida.png 8 <0-3>` para verlo desde los 4 ángulos (`CROP=x0,z0,x1,z1,ymax` recorta una zona).
 
-**Colocación:** la primera vez que carga un mundo nuevo, el servidor coloca los 4 pueblos solo en (±1500, ±1500): carga los chunks, despeja árboles,
-rellena huecos y agua debajo y pega la plantilla. `/pueblo colocar <gremio|todos>` lo repite y `/pueblo estado` dice cuáles están hechos.
-`/gremio unir` ahora teletransporta a la plaza del pueblo (junto al pozo) y fija allí la reaparición.
+**Colocación:** al arrancar, el servidor coloca solo los pueblos que falten. Para cada gremio mira 9 posibles sitios alrededor de (±1500, ±1500),
+elige el de terreno más llano y sin agua, carga los chunks, despeja árboles y relieve, rellena huecos y agua debajo y pega la plantilla.
+`/pueblo colocar <gremio|todos>` lo repite (quita antes el pueblo anterior) y `/pueblo estado` dice cuáles están hechos.
+`/gremio unir` teletransporta a la plaza del pueblo (al sur del pozo) y fija allí la reaparición.
 
 ### Verificaciones pendientes
 - Que la unión automática al equipo de FTB Teams funcione (si falla, sale un aviso y el log del servidor explica por qué).
