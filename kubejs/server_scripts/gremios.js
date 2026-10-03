@@ -99,8 +99,9 @@ function puntuarSitio(level, cx, cz, n, paso) {
   return { puntos: (max - min) + agua * 8, rango: max - min, agua: agua };
 }
 
-/** busca en TODA la región del gremio el sitio más llano y seco para un pueblo de PUEBLO_LADO (con rampa); prefiere los cercanos a (±PUEBLO, ±PUEBLO) */
-function elegirSitio(level, id) {
+/** busca en TODA la región del gremio el sitio más llano y seco para un pueblo de PUEBLO_LADO (con rampa); prefiere los cercanos a (±PUEBLO, ±PUEBLO).
+ *  La búsqueda se reparte en varios ticks (unos pocos sitios por tick) para no bloquear el servidor; al terminar llama a alTerminar(mejor). */
+function elegirSitio(server, level, id, alTerminar) {
   const g = GREMIOS[id];
   var mejor = null;
   function probar(cx, cz, n, paso) {
@@ -108,15 +109,28 @@ function elegirSitio(level, id) {
     var total = p.puntos + (Math.abs(Math.abs(cx) - PUEBLO) + Math.abs(Math.abs(cz) - PUEBLO)) * 0.004;
     if (mejor === null || total < mejor.total) mejor = { cx: cx, cz: cz, total: total, rango: p.rango, agua: p.agua };
   }
-  // búsqueda gruesa por toda la región (|x|,|z| entre 260 y 2800: fuera de la zona neutral y del borde)
-  for (var ax = 260; ax <= 2800; ax += 100) for (var az = 260; az <= 2800; az += 100) probar(g.sx * ax, g.sz * az, 3, 56);
-  // refinado alrededor del mejor
-  const c0 = { x: mejor.cx, z: mejor.cz };
-  for (var dx = -72; dx <= 72; dx += 24) for (var dz = -72; dz <= 72; dz += 24) {
-    var nx = c0.x + dx, nz = c0.z + dz;
-    if (Math.abs(nx) >= 260 && Math.abs(nx) <= 2800 && Math.abs(nz) >= 260 && Math.abs(nz) <= 2800) probar(nx, nz, 5, 32);
+  // por tramos: procesa lista[i..] a SITIOS_POR_TICK por tick y luego llama a siguiente()
+  function porTramos(lista, n, paso, porTick, siguiente) {
+    var i = 0;
+    (function tramo() {
+      var fin = Math.min(i + porTick, lista.length);
+      for (; i < fin; i++) probar(lista[i][0], lista[i][1], n, paso);
+      if (i < lista.length) server.scheduleInTicks(1, tramo); else siguiente();
+    })();
   }
-  return mejor;
+  // búsqueda gruesa por toda la región (|x|,|z| entre 260 y 2800: fuera de la zona neutral y del borde)
+  const gruesa = [];
+  for (var ax = 260; ax <= 2800; ax += 100) for (var az = 260; az <= 2800; az += 100) gruesa.push([g.sx * ax, g.sz * az]);
+  porTramos(gruesa, 3, 56, 10, function () {
+    // refinado alrededor del mejor
+    const c0 = { x: mejor.cx, z: mejor.cz };
+    const fina = [];
+    for (var dx = -72; dx <= 72; dx += 24) for (var dz = -72; dz <= 72; dz += 24) {
+      var nx = c0.x + dx, nz = c0.z + dz;
+      if (Math.abs(nx) >= 260 && Math.abs(nx) <= 2800 && Math.abs(nz) >= 260 && Math.abs(nz) <= 2800) fina.push([nx, nz]);
+    }
+    porTramos(fina, 5, 32, 4, function () { alTerminar(mejor); });
+  });
 }
 
 /** quita un pueblo ya colocado (solo lo construido sobre el suelo) para poder volver a colocarlo */
@@ -168,16 +182,42 @@ function suavizarBordes(level, x1, z1, x2, z2, ref) {
   }
 }
 
-function colocarPueblo(server, id) {
-  const Heightmap = Java.loadClass('net.minecraft.world.level.levelgen.Heightmap');
+/** Coloca el pueblo de un gremio SIN bloquear el servidor (alTerminar es opcional):
+ *  1) elige el sitio por tramos; 2) pide los chunks de la zona con /forceload (carga y generación en segundo plano) y espera a que estén listos;
+ *  3) con los chunks ya listos, construye (fill, plantilla, rampa) y suelta el forceload. Nunca se llama a level.getChunk (bloquea el tick). */
+function colocarPueblo(server, id, alTerminar) {
   const level = server.overworld();
   const run = (c) => server.runCommandSilent('execute in minecraft:overworld run ' + c);
   limpiarPueblo(server, id, run);
-  const s = elegirSitio(level, id);
-  const ox = s.cx - PUEBLO_MITAD, oz = s.cz - PUEBLO_MITAD;
-  // cargar (y generar si hace falta) los chunks de la zona + margen
-  for (var cx = (ox - 32) >> 4; cx <= (ox + PUEBLO_LADO + 32) >> 4; cx++)
-    for (var cz = (oz - 32) >> 4; cz <= (oz + PUEBLO_LADO + 32) >> 4; cz++) level.getChunk(cx, cz);
+  elegirSitio(server, level, id, function (s) {
+    const ox = s.cx - PUEBLO_MITAD, oz = s.cz - PUEBLO_MITAD;
+    const cx0 = (ox - 32) >> 4, cx1 = (ox + PUEBLO_LADO + 32) >> 4, cz0 = (oz - 32) >> 4, cz1 = (oz + PUEBLO_LADO + 32) >> 4;
+    const zona = cx0 * 16 + ' ' + cz0 * 16 + ' ' + (cx1 * 16 + 15) + ' ' + (cz1 * 16 + 15);
+    run('forceload add ' + zona);
+    var esperas = 0;
+    (function esperar() {
+      var faltan = 0;
+      for (var cx = cx0; cx <= cx1; cx++) for (var cz = cz0; cz <= cz1; cz++) if (!level.hasChunk(cx, cz)) faltan++;
+      if (faltan > 0) {
+        if (++esperas > 180) {   // 3 minutos (un sondeo por segundo)
+          run('forceload remove ' + zona);
+          console.error('[gremios] pueblo de ' + id + ': faltaron ' + faltan + ' chunks tras 3 minutos; se reintentará con /pueblo colocar ' + id);
+          if (alTerminar) alTerminar(false);
+          return;
+        }
+        server.scheduleInTicks(20, esperar);
+        return;
+      }
+      construirPueblo(server, level, run, id, s, ox, oz);
+      run('forceload remove ' + zona);
+      if (alTerminar) alTerminar(true);
+    })();
+  });
+}
+
+/** construcción síncrona del pueblo; solo se llama con todos los chunks de la zona ya cargados */
+function construirPueblo(server, level, run, id, s, ox, oz) {
+  const Heightmap = Java.loadClass('net.minecraft.world.level.levelgen.Heightmap');
   // el suelo del pueblo queda a la altura media del terreno (en el mar, a nivel del agua)
   var suma = 0, n = 0;
   for (var i = 0; i < 5; i++) for (var j = 0; j < 5; j++) {
@@ -198,7 +238,15 @@ function colocarPueblo(server, id) {
   pd.putInt('pueblo_' + id + '_x', ox); pd.putInt('pueblo_' + id + '_z', oz); pd.putInt('pueblo_' + id + '_y', ref);
   pd.putInt('pueblo_' + id + '_lado', PUEBLO_LADO); pd.putInt('pueblo_' + id + '_v', PUEBLO_VERSION);
   console.info('[gremios] pueblo de ' + id + ' colocado en ' + ox + ',' + (ref - PUEBLO_SUELO) + ',' + oz + ' (desnivel ' + s.rango + ', columnas con agua ' + s.agua + ')');
-  return ref;
+}
+
+/** coloca uno detrás de otro (en serie) los pueblos de la lista */
+function colocarPueblos(server, ids, alTerminar) {
+  var k = 0;
+  (function siguiente() {
+    if (k >= ids.length) { if (alTerminar) alTerminar(); return; }
+    colocarPueblo(server, ids[k++], function () { server.scheduleInTicks(40, siguiente); });
+  })();
 }
 
 /** posición de aparición dentro del pueblo de un gremio, o null si aún no se colocó */
@@ -223,9 +271,9 @@ ServerEvents.commandRegistry((event) => {
           for (var i = 0; i < ids.length; i++) {
             if (!GREMIOS[ids[i]]) { ctx.source.sendFailure(Text.of('Gremio desconocido: ' + ids[i])); return 0; }
           }
-          ctx.source.sendSuccess(() => Text.of('Colocando ' + ids.length + ' pueblo(s); puede tardar unos segundos…'), false);
-          ids.forEach((g) => colocarPueblo(ctx.source.server, g));
-          ctx.source.sendSuccess(() => Text.green('Listo.'), false);
+          ctx.source.sendSuccess(() => Text.of('Colocando ' + ids.length + ' pueblo(s) en segundo plano; tarda unos minutos y avisa en el chat al terminar (progreso en el log).'), false);
+          const server = ctx.source.server;
+          colocarPueblos(server, ids, () => server.tell(Text.green('[gremios] Pueblos colocados.')));
           return 1;
         })))
     .then(Commands.literal('estado').executes((ctx) => {
@@ -293,12 +341,10 @@ ServerEvents.loaded((event) => {
     s.persistentData.putBoolean('regiones_init', true);
     console.info('[gremios] borde del mundo fijado en ' + BORDE + ' x ' + BORDE);
   }
-  // Los pueblos NO se colocan solos al arrancar: colocarPueblo carga ~80 chunks por pueblo de forma bloqueante en el hilo del servidor
-  // y, con chunks sin generar, el ServerHangWatchdog mata el servidor (crash 2026-10-03: un tick de 60 s) y se repetiría en cada reinicio.
-  // Procedimiento: pregenerar la zona con Chunky y luego /pueblo colocar <gremio|todos> (con los chunks ya generados solo lee de disco).
-  Object.keys(GREMIOS).forEach((id) => {
-    if (!puebloColocado(s, id)) console.info('[gremios] pueblo de ' + id + ' pendiente: pregenera su zona con Chunky y usa /pueblo colocar ' + id);
-  });
+  // los pueblos que falten se colocan solos al arrancar, en segundo plano (la búsqueda va por tramos y los chunks se cargan con /forceload,
+  // así que el tick nunca se bloquea); /pueblo colocar los rehace
+  const pendientes = Object.keys(GREMIOS).filter((id) => !puebloColocado(s, id));
+  if (pendientes.length) s.scheduleInTicks(200, () => colocarPueblos(s, pendientes));
 });
 
 PlayerEvents.tick((event) => {
