@@ -11,6 +11,24 @@
 	quest_links: [ ]
 	quests: [
 		{
+			id: "6D421A8C0E9FDFDD"
+			title: "Tu clase: Mago"
+			subtitle: "Se completa sola"
+			description: ["Este capítulo solo aparece si tu clase es Mago. Se completa solo al elegir la clase (stage &6origen_mago&r)."]
+			icon: "minecraft:nether_star"
+			x: 0.5d
+			y: 0.5d
+			invisible: true
+			invisible_until_tasks: 1
+			tasks: [
+				{
+					id: "00688ADBAAFAF500"
+					type: "gamestage"
+					stage: "origen_mago"
+				}
+			]
+		}
+		{
 			id: "51240FD0804A9114"
 			title: "La puerta de la Ascensión"
 			subtitle: "Se abre al terminar la campaña"
@@ -20,8 +38,10 @@
 				"Esta misión se completa sola cuando terminas la campaña (stage &6era_10&r)."
 			]
 			icon: "minecraft:nether_star"
-			x: 0.5d
+			x: 2.5d
 			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["6D421A8C0E9FDFDD"]
 			tasks: [
 				{
 					id: "52D4CBC10607177A"
@@ -49,8 +69,9 @@
 				"Al recoger el premio se desbloquea la pestaña de Ascensión de esta clase en el árbol de habilidades (&6K&r)."
 			]
 			icon: "minecraft:enchanted_book"
-			x: 2.5d
+			x: 4.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["51240FD0804A9114"]
 			tasks: [
 				{
@@ -81,8 +102,9 @@
 			subtitle: "Práctica"
 			description: ["Elimina 20 brujas."]
 			icon: "minecraft:iron_sword"
-			x: 4.5d
+			x: 6.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["73F25F81C77B0851"]
 			tasks: [
 				{
@@ -115,8 +137,9 @@
 			subtitle: "Un libro mayor"
 			description: ["Fabrica un grimorio de diamante."]
 			icon: "irons_spellbooks:diamond_spell_book"
-			x: 6.5d
+			x: 8.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["7AB94966CEC6E3F9"]
 			tasks: [
 				{
@@ -148,8 +171,9 @@
 			subtitle: "Ars Nouveau"
 			description: ["Consigue el libro de hechizos de archimago."]
 			icon: "ars_nouveau:archmage_spell_book"
-			x: 8.5d
+			x: 10.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["180363084265B5E6"]
 			tasks: [
 				{
@@ -181,8 +205,9 @@
 			subtitle: "El arte de escribir"
 			description: ["Consigue tinta legendaria para tus pergaminos."]
 			icon: "irons_spellbooks:legendary_ink"
-			x: 10.5d
+			x: 12.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["0A415716A32C74ED"]
 			tasks: [
 				{
@@ -214,8 +239,9 @@
 			subtitle: "Bosque Crepuscular"
 			description: ["Completa la torre del Lich."]
 			icon: "minecraft:writable_book"
-			x: 12.5d
+			x: 14.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["393B4B73A9C0C5E3"]
 			tasks: [
 				{
@@ -248,8 +274,9 @@
 			subtitle: "El Nether"
 			description: ["Derrota 40 blazes."]
 			icon: "minecraft:iron_sword"
-			x: 14.5d
+			x: 16.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["3A05A3891EDCFF07"]
 			tasks: [
 				{
@@ -282,8 +309,9 @@
 			subtitle: "Prueba mágica"
 			description: ["Derrota al Wither con magia."]
 			icon: "minecraft:iron_sword"
-			x: 16.5d
+			x: 18.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["4CDE3021BA18106A"]
 			tasks: [
 				{
@@ -316,8 +344,9 @@
 			subtitle: "Tier III"
 			description: ["Llega a la cima de un camino de Mago (Tier III)."]
 			icon: "minecraft:nether_star"
-			x: 18.5d
+			x: 20.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["6FB49371B3732D55"]
 			tasks: [
 				{

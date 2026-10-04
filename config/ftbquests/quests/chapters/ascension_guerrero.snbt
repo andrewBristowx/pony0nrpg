@@ -11,6 +11,24 @@
 	quest_links: [ ]
 	quests: [
 		{
+			id: "098FFF97E4066AA8"
+			title: "Tu clase: Guerrero"
+			subtitle: "Se completa sola"
+			description: ["Este capítulo solo aparece si tu clase es Guerrero. Se completa solo al elegir la clase (stage &6origen_guerrero&r)."]
+			icon: "minecraft:nether_star"
+			x: 0.5d
+			y: 0.5d
+			invisible: true
+			invisible_until_tasks: 1
+			tasks: [
+				{
+					id: "36951A2B5E61BCCB"
+					type: "gamestage"
+					stage: "origen_guerrero"
+				}
+			]
+		}
+		{
 			id: "092DEB68945D84C1"
 			title: "La puerta de la Ascensión"
 			subtitle: "Se abre al terminar la campaña"
@@ -20,8 +38,10 @@
 				"Esta misión se completa sola cuando terminas la campaña (stage &6era_10&r)."
 			]
 			icon: "minecraft:nether_star"
-			x: 0.5d
+			x: 2.5d
 			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["098FFF97E4066AA8"]
 			tasks: [
 				{
 					id: "0C419B8A61DC5CBF"
@@ -49,8 +69,9 @@
 				"Al recoger el premio se desbloquea la pestaña de Ascensión de esta clase en el árbol de habilidades (&6K&r)."
 			]
 			icon: "minecraft:netherite_sword"
-			x: 2.5d
+			x: 4.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["092DEB68945D84C1"]
 			tasks: [
 				{
@@ -81,8 +102,9 @@
 			subtitle: "Mata sin descanso"
 			description: ["Acaba con 200 zombis: la fuerza se gana golpeando."]
 			icon: "minecraft:iron_sword"
-			x: 4.5d
+			x: 6.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["0146B7675CB1ADB3"]
 			tasks: [
 				{
@@ -115,8 +137,9 @@
 			subtitle: "Bloquea el daño"
 			description: ["Bloquea daño con tu escudo hasta acumular una gran cantidad."]
 			icon: "minecraft:clock"
-			x: 6.5d
+			x: 8.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["145E836B0ADE39A7"]
 			tasks: [
 				{
@@ -149,8 +172,9 @@
 			subtitle: "Un titán de netherita"
 			description: ["Fabrica una armadura de netherita, aunque sea una pieza."]
 			icon: "minecraft:netherite_chestplate"
-			x: 8.5d
+			x: 10.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["69B30B980486EE8F"]
 			tasks: [
 				{
@@ -182,8 +206,9 @@
 			subtitle: "El mandoble definitivo"
 			description: ["Forja un mandoble de netherita."]
 			icon: "simplyswords:netherite_claymore"
-			x: 10.5d
+			x: 12.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["002CFCCA2B4DCD8F"]
 			tasks: [
 				{
@@ -215,8 +240,9 @@
 			subtitle: "Prueba de valor"
 			description: ["Derrota al Wither. Prepara pociones, armadura encantada y un plan."]
 			icon: "minecraft:iron_sword"
-			x: 12.5d
+			x: 14.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["24EAA068F8A60EE9"]
 			tasks: [
 				{
@@ -249,8 +275,9 @@
 			subtitle: "Recibe golpes"
 			description: ["Resiste un gran volumen de daño acumulado."]
 			icon: "minecraft:clock"
-			x: 14.5d
+			x: 16.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["58C24ED29B2FB89A"]
 			tasks: [
 				{
@@ -283,8 +310,9 @@
 			subtitle: "Raid"
 			description: ["Acaba con 10 devastadores."]
 			icon: "minecraft:iron_sword"
-			x: 16.5d
+			x: 18.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["4D33E6006674E5B8"]
 			tasks: [
 				{
@@ -317,8 +345,9 @@
 			subtitle: "Tier III"
 			description: ["Llega a la cima de un camino de Guerrero (Tier III)."]
 			icon: "minecraft:nether_star"
-			x: 18.5d
+			x: 20.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["6A34C1CD6FD08430"]
 			tasks: [
 				{

@@ -11,6 +11,24 @@
 	quest_links: [ ]
 	quests: [
 		{
+			id: "5D57FD29E0B152AD"
+			title: "Tu clase: Arquero"
+			subtitle: "Se completa sola"
+			description: ["Este capítulo solo aparece si tu clase es Arquero. Se completa solo al elegir la clase (stage &6origen_arquero&r)."]
+			icon: "minecraft:nether_star"
+			x: 0.5d
+			y: 0.5d
+			invisible: true
+			invisible_until_tasks: 1
+			tasks: [
+				{
+					id: "184D3479B04BDF87"
+					type: "gamestage"
+					stage: "origen_arquero"
+				}
+			]
+		}
+		{
 			id: "302D602055F17560"
 			title: "La puerta de la Ascensión"
 			subtitle: "Se abre al terminar la campaña"
@@ -20,8 +38,10 @@
 				"Esta misión se completa sola cuando terminas la campaña (stage &6era_10&r)."
 			]
 			icon: "minecraft:nether_star"
-			x: 0.5d
+			x: 2.5d
 			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["5D57FD29E0B152AD"]
 			tasks: [
 				{
 					id: "35B56C084A402BBB"
@@ -49,8 +69,9 @@
 				"Al recoger el premio se desbloquea la pestaña de Ascensión de esta clase en el árbol de habilidades (&6K&r)."
 			]
 			icon: "minecraft:bow"
-			x: 2.5d
+			x: 4.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["302D602055F17560"]
 			tasks: [
 				{
@@ -81,8 +102,9 @@
 			subtitle: "Tiros certeros"
 			description: ["Derrota 200 esqueletos con tu arco."]
 			icon: "minecraft:iron_sword"
-			x: 4.5d
+			x: 6.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["690B3B0F267CADC9"]
 			tasks: [
 				{
@@ -115,8 +137,9 @@
 			subtitle: "Los cielos"
 			description: ["Derriba 30 fantasmas."]
 			icon: "minecraft:iron_sword"
-			x: 6.5d
+			x: 8.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["4674019A8475FB7A"]
 			tasks: [
 				{
@@ -149,8 +172,9 @@
 			subtitle: "Materiales nobles"
 			description: ["Fabrica un arco largo de diamante."]
 			icon: "spartanweaponry:diamond_longbow"
-			x: 8.5d
+			x: 10.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["101EC6A0A52230CD"]
 			tasks: [
 				{
@@ -182,8 +206,9 @@
 			subtitle: "Munición"
 			description: ["Reúne 64 flechas espectrales."]
 			icon: "minecraft:spectral_arrow"
-			x: 10.5d
+			x: 12.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["30C4940823119B26"]
 			tasks: [
 				{
@@ -216,8 +241,9 @@
 			subtitle: "Dispara a la bola"
 			description: ["Derrota 10 ghasts, de lejos."]
 			icon: "minecraft:iron_sword"
-			x: 12.5d
+			x: 14.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["157396200984DCA3"]
 			tasks: [
 				{
@@ -250,8 +276,9 @@
 			subtitle: "Movilidad"
 			description: ["Recorre una gran distancia a pie."]
 			icon: "minecraft:clock"
-			x: 14.5d
+			x: 16.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["772705568398490D"]
 			tasks: [
 				{
@@ -284,8 +311,9 @@
 			subtitle: "El Nether"
 			description: ["Derrota 50 blazes."]
 			icon: "minecraft:iron_sword"
-			x: 16.5d
+			x: 18.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["203132261B14BBF7"]
 			tasks: [
 				{
@@ -318,8 +346,9 @@
 			subtitle: "Tier III"
 			description: ["Llega a la cima de un camino de Arquero (Tier III)."]
 			icon: "minecraft:nether_star"
-			x: 18.5d
+			x: 20.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["160CFE7745F3D189"]
 			tasks: [
 				{

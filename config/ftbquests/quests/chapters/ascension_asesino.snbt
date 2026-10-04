@@ -11,6 +11,24 @@
 	quest_links: [ ]
 	quests: [
 		{
+			id: "66D0478B47B22F23"
+			title: "Tu clase: Asesino"
+			subtitle: "Se completa sola"
+			description: ["Este capítulo solo aparece si tu clase es Asesino. Se completa solo al elegir la clase (stage &6origen_asesino&r)."]
+			icon: "minecraft:nether_star"
+			x: 0.5d
+			y: 0.5d
+			invisible: true
+			invisible_until_tasks: 1
+			tasks: [
+				{
+					id: "321DF4326F28D460"
+					type: "gamestage"
+					stage: "origen_asesino"
+				}
+			]
+		}
+		{
 			id: "2FDD4763FF6AD543"
 			title: "La puerta de la Ascensión"
 			subtitle: "Se abre al terminar la campaña"
@@ -20,8 +38,10 @@
 				"Esta misión se completa sola cuando terminas la campaña (stage &6era_10&r)."
 			]
 			icon: "minecraft:nether_star"
-			x: 0.5d
+			x: 2.5d
 			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["66D0478B47B22F23"]
 			tasks: [
 				{
 					id: "373A6502D99A5E99"
@@ -49,8 +69,9 @@
 				"Al recoger el premio se desbloquea la pestaña de Ascensión de esta clase en el árbol de habilidades (&6K&r)."
 			]
 			icon: "minecraft:netherite_axe"
-			x: 2.5d
+			x: 4.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["2FDD4763FF6AD543"]
 			tasks: [
 				{
@@ -81,8 +102,9 @@
 			subtitle: "Endermen"
 			description: ["Derrota 50 endermen."]
 			icon: "minecraft:iron_sword"
-			x: 4.5d
+			x: 6.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["0677E94D84609E2A"]
 			tasks: [
 				{
@@ -115,8 +137,9 @@
 			subtitle: "Esqueletos"
 			description: ["Derrota 40 esqueletos del Wither."]
 			icon: "minecraft:iron_sword"
-			x: 6.5d
+			x: 8.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["1BA06F3334BBE69A"]
 			tasks: [
 				{
@@ -149,8 +172,9 @@
 			subtitle: "El filo silencioso"
 			description: ["Forja una daga de netherita."]
 			icon: "spartanweaponry:netherite_dagger"
-			x: 8.5d
+			x: 10.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["4DA9B35585558D64"]
 			tasks: [
 				{
@@ -182,8 +206,9 @@
 			subtitle: "Phantoms"
 			description: ["Derrota 30 fantasmas."]
 			icon: "minecraft:iron_sword"
-			x: 10.5d
+			x: 12.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["3AB31AB884E68CBB"]
 			tasks: [
 				{
@@ -216,8 +241,9 @@
 			subtitle: "Agáchate y avanza"
 			description: ["Recorre una larga distancia agachado."]
 			icon: "minecraft:clock"
-			x: 12.5d
+			x: 14.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["22FC1EAC5A3C7C74"]
 			tasks: [
 				{
@@ -250,8 +276,9 @@
 			subtitle: "Raid"
 			description: ["Acaba con 10 devastadores."]
 			icon: "minecraft:iron_sword"
-			x: 14.5d
+			x: 16.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["4B6E99E64A76084A"]
 			tasks: [
 				{
@@ -284,8 +311,9 @@
 			subtitle: "Prueba final"
 			description: ["Derrota al Wither."]
 			icon: "minecraft:iron_sword"
-			x: 16.5d
+			x: 18.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["1A0F690529AF3FB4"]
 			tasks: [
 				{
@@ -318,8 +346,9 @@
 			subtitle: "Tier III"
 			description: ["Llega a la cima de un camino de Asesino (Tier III)."]
 			icon: "minecraft:nether_star"
-			x: 18.5d
+			x: 20.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["7B3C727C6ACE4E37"]
 			tasks: [
 				{

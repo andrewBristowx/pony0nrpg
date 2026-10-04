@@ -3,20 +3,25 @@ import { T, R } from "../../quest-dsl.mjs";
 // Ascensión: un capítulo por clase. Cada misión da 1 punto (o más) en la categoría ascension_<clase> de Pufferfish.
 // Desbloqueo: la primera misión exige el stage "era_10" (campaña completada). Para probar: /kubejs stages add @s era_10
 // Cada clase tiene ahora ~10 misiones; el árbol admite hasta 50 puntos, así que estos capítulos crecerán.
+// Visibilidad: solo se ve el capítulo de TU clase. "clase" es invisible hasta que el jugador tiene el stage origen_<clase> (lo da Origins al elegirla)
+// y todas las demás misiones no se ven si sus dependencias no se ven (FTB Quests oculta un capítulo sin misiones visibles).
 const asc = (cls, name, icon, intro, quests) => ({
   key: `ascension_${cls}`, order: 20, group: "ascension", icon,
   title: `Ascensión: ${name}`,
   sub: `Puntos de Ascensión para ${name}`,
   quests: [
-    { k: "puerta", t: `La puerta de la Ascensión`, sub: "Se abre al terminar la campaña",
+    { k: "clase", t: `Tu clase: ${name}`, sub: "Se completa sola", invisible: true,
+      d: [`Este capítulo solo aparece si tu clase es ${name}. Se completa solo al elegir la clase (stage &6origen_${cls}&r).`],
+      tasks: [T.stage(`origen_${cls}`)], rewards: [] },
+    { k: "puerta", t: `La puerta de la Ascensión`, sub: "Se abre al terminar la campaña", deps: ["clase"], hideUntilDepsVisible: true,
       d: ["La Ascensión es el camino después del nivel 100: cada misión de tu clase te da puntos de Ascensión, con bonos pequeños y permanentes.",
           "Esta misión se completa sola cuando terminas la campaña (stage &6era_10&r)."],
       tasks: [T.stage("era_10")], rewards: [R.skill(100)] },
-    { k: "elige", t: `Elige la Ascensión de ${name}`, sub: "Desbloquea la pestaña", deps: ["puerta"],
+    { k: "elige", t: `Elige la Ascensión de ${name}`, sub: "Desbloquea la pestaña", deps: ["puerta"], hideUntilDepsVisible: true,
       d: [intro, "Al recoger el premio se desbloquea la pestaña de Ascensión de esta clase en el árbol de habilidades (&6K&r)."],
       tasks: [T.check()], rewards: [R.unlockAsc(cls), R.asc(cls, 1)] },
     ...quests.map((q, i) => ({
-      k: `m${i + 1}`, t: q.t, sub: q.sub, d: q.d, tasks: q.tasks,
+      k: `m${i + 1}`, t: q.t, sub: q.sub, d: q.d, tasks: q.tasks, hideUntilDepsVisible: true,
       deps: [i === 0 ? "elige" : `m${i}`],
       rewards: [R.asc(cls, q.pts || 1), R.skill(500), ...(q.extra || [])],
     })),

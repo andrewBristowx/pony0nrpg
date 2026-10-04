@@ -11,6 +11,24 @@
 	quest_links: [ ]
 	quests: [
 		{
+			id: "00BA7EEBC930266B"
+			title: "Tu clase: Ingeniero"
+			subtitle: "Se completa sola"
+			description: ["Este capítulo solo aparece si tu clase es Ingeniero. Se completa solo al elegir la clase (stage &6origen_ingeniero&r)."]
+			icon: "minecraft:nether_star"
+			x: 0.5d
+			y: 0.5d
+			invisible: true
+			invisible_until_tasks: 1
+			tasks: [
+				{
+					id: "23ACFAF4B6831565"
+					type: "gamestage"
+					stage: "origen_ingeniero"
+				}
+			]
+		}
+		{
 			id: "52A43C3AFE1F3B54"
 			title: "La puerta de la Ascensión"
 			subtitle: "Se abre al terminar la campaña"
@@ -20,8 +38,10 @@
 				"Esta misión se completa sola cuando terminas la campaña (stage &6era_10&r)."
 			]
 			icon: "minecraft:nether_star"
-			x: 0.5d
+			x: 2.5d
 			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["00BA7EEBC930266B"]
 			tasks: [
 				{
 					id: "436E87AB3C5FF8A3"
@@ -49,8 +69,9 @@
 				"Al recoger el premio se desbloquea la pestaña de Ascensión de esta clase en el árbol de habilidades (&6K&r)."
 			]
 			icon: "create:precision_mechanism"
-			x: 2.5d
+			x: 4.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["52A43C3AFE1F3B54"]
 			tasks: [
 				{
@@ -81,8 +102,9 @@
 			subtitle: "Almacenamiento"
 			description: ["Construye 8 bóvedas de Create."]
 			icon: "create:item_vault"
-			x: 4.5d
+			x: 6.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["7259D202A3B8C5E8"]
 			tasks: [
 				{
@@ -119,8 +141,9 @@
 				"Se consumen al entregar."
 			]
 			icon: "create:brass_sheet"
-			x: 6.5d
+			x: 8.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["1F0605D442843B55"]
 			tasks: [
 				{
@@ -154,8 +177,9 @@
 			subtitle: "Mekanism"
 			description: ["Fabrica un circuito de control definitivo."]
 			icon: "mekanism:ultimate_control_circuit"
-			x: 8.5d
+			x: 10.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["2E4918EB0D0CADC1"]
 			tasks: [
 				{
@@ -187,8 +211,9 @@
 			subtitle: "AE2"
 			description: ["Fabrica una célula de almacenamiento de 4K."]
 			icon: "ae2:item_storage_cell_4k"
-			x: 10.5d
+			x: 12.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["055865679720C887"]
 			tasks: [
 				{
@@ -220,8 +245,9 @@
 			subtitle: "Mekanism"
 			description: ["Consigue un lingote de obsidiana refinada."]
 			icon: "mekanism:ingot_refined_obsidian"
-			x: 12.5d
+			x: 14.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["10B960467FB7D032"]
 			tasks: [
 				{
@@ -253,8 +279,9 @@
 			subtitle: "Create"
 			description: ["Construye un motor de vapor."]
 			icon: "create:steam_engine"
-			x: 14.5d
+			x: 16.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["0062EC245C2A3F38"]
 			tasks: [
 				{
@@ -286,8 +313,9 @@
 			subtitle: "Baliza"
 			description: ["Construye una baliza."]
 			icon: "minecraft:beacon"
-			x: 16.5d
+			x: 18.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["2DEAC55CA05D38C9"]
 			tasks: [
 				{
@@ -319,8 +347,9 @@
 			subtitle: "Tier III"
 			description: ["Llega a la cima de un camino de Ingeniero (Tier III)."]
 			icon: "minecraft:nether_star"
-			x: 18.5d
+			x: 20.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["6EBC59CAF79FAB55"]
 			tasks: [
 				{
