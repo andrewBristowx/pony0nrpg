@@ -557,6 +557,14 @@ file = "kubejs/server_scripts/fixes.js"
 hash = "0fc331847426e183a313ee71a7ff76705108208e9e36db966282a1c8d061648e"
 
 [[files]]
+file = "kubejs/server_scripts/gremios.js"
+hash = "9c5b6eaba61dc3ab76041e03360a31ac0f532bd1dbafb36ee551376ec95b0165"
+
+[[files]]
+file = "kubejs/server_scripts/sin_mobs_de_mods.js"
+hash = "df40254ad7ee89dc54a3f08c6970aaab7221464fd4477ebb34fadbcf0f2c7084"
+
+[[files]]
 file = "kubejs/startup_scripts/class_gating.js"
 hash = "3e35c4c424702165cc00257aa84930701ce351e9f06cf9c80bf49e9e39baea91"
 
