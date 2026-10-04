@@ -25,7 +25,7 @@
 			tasks: [
 				{
 					id: "373A6502D99A5E99"
-					type: "stage"
+					type: "gamestage"
 					stage: "era_10"
 				}
 			]
@@ -324,7 +324,7 @@
 			tasks: [
 				{
 					id: "67186C10AA68011D"
-					type: "stage"
+					type: "gamestage"
 					stage: "maestria_asesino_3"
 				}
 			]

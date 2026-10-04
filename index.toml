@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CLAUDE.md"
-hash = "ee288f411f6746c26146abced57e6f613281bc7ab8db6c2f5d901dc805350375"
+hash = "20b96d902269aef4aa64c1e98bb7ed8988dedc3e3fb3ab71d73d4944a3f16ac1"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -10,23 +10,23 @@ hash = "4805b03d6d8ba55454487eb11f791adb7d961d920c3f942ab0a6d2427c3b48a5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascension_arquero.snbt"
-hash = "65c5579239f582c5c8c58ab6420ee000200d754901a8905899e033d5df35373c"
+hash = "9cd6c900556b8b869b00241e7bc725f57b30a5f2c3211fb8ae70a0e8ee270c18"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascension_asesino.snbt"
-hash = "9aee47be5ff08fa5a58c7511e116fa551d73a3d8e57483c91d3c26ac0cf1f9ae"
+hash = "fbef311ea04caa629f73ae6e7c11acc95c168a9bc7ffec42104756555d1718b5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascension_guerrero.snbt"
-hash = "77520fe58a9811fe7c7a2b8c155f5bbb0ba274215ea597460980fb6f08265ee9"
+hash = "d44db4a66fe2cd4776bb2364ad0d9ca962ea16beced5efb9109fcca9d46c81d2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascension_ingeniero.snbt"
-hash = "b2da21530fdf878150d6742be0f8bcee0de2fe6fc33813b07ced00f397a0b04d"
+hash = "6fc52591a79639af18e6d6d89000f9a2c0d214e4423fb755fcffdc970683e53c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascension_mago.snbt"
-hash = "2d9adab818fe51bdce8fc9c545e8dc36f6a4ccaedc7cdfefadecb62132597c91"
+hash = "9f7ccac641af79848b1504765f373e8cceaf1c9863342a0505742d292b735d1d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/aventurero.snbt"
@@ -38,7 +38,7 @@ hash = "0bffbd0233929490eced69b09248cd6a06a3a51adc087c453c4ceb7b95ec4e4f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/comienzo.snbt"
-hash = "e9c39d02c91d72dbe6569394f45ef6c9a8c65adea029a5e000a413da8e0a7674"
+hash = "1833d928951ebf43900dfec5106e04c8fd58a1add60547e4510a05f81ed9c31c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
@@ -50,7 +50,7 @@ hash = "02346ad3e5c4adc8c7daf4b1e699a3c54d52a8de471aa12556151a6968c3a3de"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gremio.snbt"
-hash = "d03cc8b4d9adab5c296603c260da17e5adad7d95fdf2e9c2a67d7eaee9956594"
+hash = "ffbcef5e6bb8ad3a39007c0e5d0630c9223af6eda22186dc6c366953a9759250"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/jefes.snbt"
@@ -58,7 +58,7 @@ hash = "b6a350c9f9bd1f2626ec1c038514c0fa4491d338c85ec77287d2f94dfb5937c8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magia.snbt"
-hash = "4d77d19ae08068788975a5adca74d95ce4744e1b3b8100525474260cda7233e8"
+hash = "a9a7320d987e855d7921e4778d9c0c0bc0099d70636d4862241f989fb34001e2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mas_alla.snbt"
@@ -66,23 +66,23 @@ hash = "0825b03da7163dec3c758325c76c44aa0db212d3c92161009250c7498e9d071f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oficios.snbt"
-hash = "89b4795fea1abdc57a2d7031a3b298ba1ca2576a8b45fa55c21429db27e90226"
+hash = "deed083feaaa30b8d142d49fc585dff214fc992538ca68f22df5147fb3c5251c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rol_dps.snbt"
-hash = "0e12202c9c829f59fcfa24eb4d5f920a869fbb8eccf5b15d0f417676325278fb"
+hash = "40ee2dfe3637c49b3ed13400cdcd074ad15ba46dbfd82017bce58d29e1b2886f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rol_healer.snbt"
-hash = "a1ebc45875ee3d8152fea468bd3efe15c8d396e131d6a5d5da0cb4dc720fdff5"
+hash = "62c85c7c9df94b3459826f207df706a019d64a3fe6106ecc90a351a8c88b8017"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rol_soporte.snbt"
-hash = "cd1d2ad9e2d316dd7afc21d50f2084f94e10ae209ac8240950c1169600d07e13"
+hash = "8c452cac9f857e36371d7156e6ebdf547ada2cb35d5a88f6db995c85f37721b7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rol_tanque.snbt"
-hash = "4a7d04c522f3755e76fd7682f3b88ea65e0bf4d667e5174b13ca701757a6419e"
+hash = "416e5d12108c0de6af1bafc90d5a94443cba0c7bbece4ebb6f8ce1260c331dc4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/secretos.snbt"
@@ -1194,7 +1194,7 @@ hash = "8bf9b65711c7c59847e3e10a4a8f4eb5bd0a8205388af30ea67ca4059474ab30"
 
 [[files]]
 file = "kubejs/server_scripts/gremio_roles.js"
-hash = "99092cf9d5f7b0c6f60e4092da11c20a26edc98e6d6b33ab6a0323e60657530e"
+hash = "78669786cb0e580a1968899997fbe581c6ca162946ae7e7e3372cf3805fba715"
 
 [[files]]
 file = "kubejs/server_scripts/gremio_roles_tabla.js"
@@ -1207,6 +1207,10 @@ hash = "256253d84ecdc9f905910d89d222d6be2574a3d1e2561a8702e201788d8f9058"
 [[files]]
 file = "kubejs/server_scripts/sin_mobs_de_mods.js"
 hash = "df40254ad7ee89dc54a3f08c6970aaab7221464fd4477ebb34fadbcf0f2c7084"
+
+[[files]]
+file = "kubejs/server_scripts/stages_tags.js"
+hash = "f757bd8ed3c8231f187f650b9fa0e058d79f283dd7201c41d61e92f7cc0c1c8f"
 
 [[files]]
 file = "kubejs/startup_scripts/class_gating.js"

@@ -147,4 +147,5 @@ No afecta a invocaciones, huevos, spawners ni a las demás dimensiones. Lista de
 - Comandos: `/rol`, `/rol hablar <rol> <jugador>` (lo usa el NPC), `/rol confirmar <rol>`, y para operadores `/rol reset <jugador>`, `/rol recompensa <rol> <nivel> <jugador>`, `/rol npcs`.
 - Nota: los objetos de nivel alto siguen sujetos al bloqueo de equipo por clase (`class_gating.js`).
 - Sin probar con jugadores reales: el clic en el NPC (puede que un operador vea el menú de configuración de Easy NPC en vez del diálogo: probar con una cuenta sin op), el botón de confirmar en el chat y la entrega de pergaminos de Iron's Spells.
+- **Visibilidad de los capítulos de rol**: cada jugador solo ve el capítulo de SU rol (el juramento es invisible hasta tener el rol y el resto de misiones dependen de él). Las tareas "stage" de FTB Quests se corrigieron al tipo `gamestage` y `stages_tags.js` copia los stages de KubeJS a etiquetas (que es lo que FTB Quests lee). Comprobado con el FTB Quests real (`tools/test/zz_quests.js`).
 

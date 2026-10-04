@@ -282,7 +282,7 @@
 			tasks: [
 				{
 					id: "65232E4CE71B2C27"
-					type: "stage"
+					type: "gamestage"
 					stage: "rango_bronce"
 				}
 			]

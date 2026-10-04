@@ -25,7 +25,7 @@
 			tasks: [
 				{
 					id: "436E87AB3C5FF8A3"
-					type: "stage"
+					type: "gamestage"
 					stage: "era_10"
 				}
 			]
@@ -325,7 +325,7 @@
 			tasks: [
 				{
 					id: "6E50B94B04B8402C"
-					type: "stage"
+					type: "gamestage"
 					stage: "maestria_ingeniero_3"
 				}
 			]

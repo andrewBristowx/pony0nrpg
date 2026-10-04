@@ -64,7 +64,7 @@ for (const ch of chapters) for (const qu of ch.quests) {
 
 // icono de la misión: explícito (ic) > primer objeto de una tarea > por tipo de tarea > icono del capítulo
 const TYPE_ICON = { kill: "minecraft:iron_sword", stat: "minecraft:clock", structure: "minecraft:compass", biome: "minecraft:map",
-  advancement: "minecraft:writable_book", dimension: "minecraft:ender_eye", stage: "minecraft:nether_star" };
+  advancement: "minecraft:writable_book", dimension: "minecraft:ender_eye", gamestage: "minecraft:nether_star" };
 const questIcon = (qu, ch) => {
   if (qu.ic) return qu.ic;
   const t = (qu.tasks || []);
@@ -150,6 +150,9 @@ chapters.forEach((ch, ci) => {
       icon: questIcon(qu, ch), x: { __double: x }, y: { __double: y },
       ...(qu.shape ? { shape: qu.shape } : {}), ...(qu.size ? { size: { __double: qu.size } } : {}),
       ...(qu.opt ? { optional: true } : {}), ...(qu.any ? { dependency_requirement: "one_completed" } : {}),
+      // visibilidad: invisible = no se ve hasta completar N tareas (true = 1); hideUntilDepsVisible = no se ve si sus dependencias no se ven
+      ...(qu.invisible ? { invisible: true, invisible_until_tasks: qu.invisible === true ? 1 : qu.invisible } : {}),
+      ...(qu.hideUntilDepsVisible ? { hide_until_deps_visible: true } : {}),
       ...(deps.length ? { dependencies: deps } : {}),
       tasks, ...(rewards.length ? { rewards } : {}),
     };

@@ -2,6 +2,9 @@ import { T, R } from "../../quest-dsl.mjs";
 
 // Roles de combate: un capítulo por rol (Tanque, DPS, Healer, Soporte). Cada capítulo se desbloquea solo cuando el jugador elige ese rol con el
 // maestro de rol de su pueblo (stage rol_<id>, que da /rol confirmar en kubejs/server_scripts/gremio_roles.js); quien eligió otro rol no puede avanzar.
+// Visibilidad: el juramento es invisible hasta que se completa su tarea (tener el rol) y las demás misiones no se ven si sus dependencias no se ven,
+// así un jugador solo ve el capítulo de SU rol (FTB Quests oculta los capítulos sin misiones visibles).
+// OJO: la tarea "stage" de FTB Quests comprueba ETIQUETAS de entidad (/tag), no los stages de KubeJS; kubejs/server_scripts/stages_tags.js los sincroniza.
 // Cada misión (1..8) da XP y llama a /rol recompensa <rol> <nivel> {p}: objetos y mejoras de atributos SEGUN LA CLASE del jugador
 // (tablas en kubejs/server_scripts/gremio_roles_tabla.js). Las misiones se vuelven más difíciles y el equipo, mejor.
 const rol = (id, nombre, icon, intro, misiones) => ({
@@ -9,13 +12,13 @@ const rol = (id, nombre, icon, intro, misiones) => ({
   title: `Rol: ${nombre}`,
   sub: `Misiones del ${nombre}`,
   quests: [
-    { k: "juramento", t: `Juramento del ${nombre}`, sub: "Elige tu rol", deps: ["bienvenida.listo"],
+    { k: "juramento", t: `Juramento del ${nombre}`, sub: "Elige tu rol", invisible: true,   // sin dependencias: FTB Quests no avanza tareas de una mision si sus dependencias no estan completas
       d: [intro,
           `Habla con el maestro de rol de tu pueblo (junto a la plaza). Al confirmar el rol de ${nombre}, esta misión se completa sola (stage &6rol_${id}&r).`,
           "&cEl rol no se puede cambiar&r: solo podrás hacer las misiones de este capítulo."],
       tasks: [T.stage(`rol_${id}`)], rewards: [R.skill(100)] },
     ...misiones.map((m, i) => ({
-      k: `n${i + 1}`, t: m.t, sub: `${nombre} · nivel ${i + 1}`, deps: [i === 0 ? "juramento" : `n${i}`],
+      k: `n${i + 1}`, t: m.t, sub: `${nombre} · nivel ${i + 1}`, deps: [i === 0 ? "juramento" : `n${i}`], hideUntilDepsVisible: true,
       d: [...m.d, "Recompensa: equipo y una mejora permanente para tu rol, según tu clase."],
       tasks: m.tasks,
       rewards: [R.skill(150 + 100 * i), R.cmd(`/rol recompensa ${id} ${i + 1} {p}`)],

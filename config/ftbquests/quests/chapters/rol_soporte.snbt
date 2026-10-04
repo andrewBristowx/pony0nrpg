@@ -24,11 +24,12 @@
 			icon: "minecraft:nether_star"
 			x: 0.5d
 			y: 0.5d
-			dependencies: ["58586CCB7C53F57D"]
+			invisible: true
+			invisible_until_tasks: 1
 			tasks: [
 				{
 					id: "1EB77A3009FB944B"
-					type: "stage"
+					type: "gamestage"
 					stage: "rol_soporte"
 				}
 			]
@@ -54,6 +55,7 @@
 			icon: "minecraft:bread"
 			x: 2.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["6252DF5DEB8A776A"]
 			tasks: [
 				{
@@ -92,6 +94,7 @@
 			icon: "minecraft:clock"
 			x: 4.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["2BC04AFEC00E92D3"]
 			tasks: [
 				{
@@ -130,6 +133,7 @@
 			icon: "minecraft:firework_rocket"
 			x: 6.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["6102A0CC5D042B3D"]
 			tasks: [
 				{
@@ -168,6 +172,7 @@
 			icon: "minecraft:clock"
 			x: 8.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["34E9EA4FDD9669B6"]
 			tasks: [
 				{
@@ -206,6 +211,7 @@
 			icon: "minecraft:ender_chest"
 			x: 10.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["1B701A706BC536BD"]
 			tasks: [
 				{
@@ -243,6 +249,7 @@
 			icon: "minecraft:shulker_shell"
 			x: 12.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["1C38ECFB1E2870CF"]
 			tasks: [
 				{
@@ -281,6 +288,7 @@
 			icon: "minecraft:clock"
 			x: 14.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["6DBA03D7654F49D0"]
 			tasks: [
 				{
@@ -319,6 +327,7 @@
 			icon: "minecraft:conduit"
 			x: 16.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["370CDD6AC2A14F19"]
 			tasks: [
 				{

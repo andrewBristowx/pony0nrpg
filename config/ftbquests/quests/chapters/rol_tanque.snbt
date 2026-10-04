@@ -24,11 +24,12 @@
 			icon: "minecraft:nether_star"
 			x: 0.5d
 			y: 0.5d
-			dependencies: ["58586CCB7C53F57D"]
+			invisible: true
+			invisible_until_tasks: 1
 			tasks: [
 				{
 					id: "6B85D5B5913236A4"
-					type: "stage"
+					type: "gamestage"
 					stage: "rol_tanque"
 				}
 			]
@@ -54,6 +55,7 @@
 			icon: "minecraft:clock"
 			x: 2.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["3DE5EF79ECE55520"]
 			tasks: [
 				{
@@ -92,6 +94,7 @@
 			icon: "minecraft:clock"
 			x: 4.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["460A0C2A64254116"]
 			tasks: [
 				{
@@ -130,6 +133,7 @@
 			icon: "minecraft:iron_sword"
 			x: 6.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["60609283152CF8F8"]
 			tasks: [
 				{
@@ -168,6 +172,7 @@
 			icon: "minecraft:clock"
 			x: 8.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["2076B60899DF7B98"]
 			tasks: [
 				{
@@ -208,6 +213,7 @@
 			icon: "minecraft:clock"
 			x: 10.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["79A4118E6640D7F9"]
 			tasks: [
 				{
@@ -252,6 +258,7 @@
 			icon: "minecraft:iron_sword"
 			x: 12.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["1651DD3611658DB7"]
 			tasks: [
 				{
@@ -290,6 +297,7 @@
 			icon: "minecraft:clock"
 			x: 14.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["7DB8503D9AF70F8B"]
 			tasks: [
 				{
@@ -334,6 +342,7 @@
 			icon: "minecraft:iron_sword"
 			x: 16.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["1563508C1ECD0761"]
 			tasks: [
 				{

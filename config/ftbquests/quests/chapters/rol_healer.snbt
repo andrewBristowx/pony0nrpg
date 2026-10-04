@@ -24,11 +24,12 @@
 			icon: "minecraft:nether_star"
 			x: 0.5d
 			y: 0.5d
-			dependencies: ["58586CCB7C53F57D"]
+			invisible: true
+			invisible_until_tasks: 1
 			tasks: [
 				{
 					id: "53E80AC977EBBE7A"
-					type: "stage"
+					type: "gamestage"
 					stage: "rol_healer"
 				}
 			]
@@ -54,6 +55,7 @@
 			icon: "minecraft:golden_apple"
 			x: 2.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["67D73265F181BA2C"]
 			tasks: [
 				{
@@ -92,6 +94,7 @@
 			icon: "minecraft:brewing_stand"
 			x: 4.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["5B8F157BC179389C"]
 			tasks: [
 				{
@@ -129,6 +132,7 @@
 			icon: "minecraft:writable_book"
 			x: 6.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["4BEA1C7737EADE56"]
 			tasks: [
 				{
@@ -167,6 +171,7 @@
 			icon: "minecraft:glistering_melon_slice"
 			x: 8.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["5F64D5D0E93F65B3"]
 			tasks: [
 				{
@@ -205,6 +210,7 @@
 			icon: "minecraft:ghast_tear"
 			x: 10.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["6F044BDA7E9C46CF"]
 			tasks: [
 				{
@@ -243,6 +249,7 @@
 			icon: "minecraft:golden_apple"
 			x: 12.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["0738F7C93016D4EA"]
 			tasks: [
 				{
@@ -281,6 +288,7 @@
 			icon: "irons_spellbooks:greater_healing_potion"
 			x: 14.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["003229495888B531"]
 			tasks: [
 				{
@@ -319,6 +327,7 @@
 			icon: "minecraft:beacon"
 			x: 16.5d
 			y: 0.5d
+			hide_until_deps_visible: true
 			dependencies: ["7C7C60A5FCA76286"]
 			tasks: [
 				{

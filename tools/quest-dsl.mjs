@@ -17,7 +17,7 @@ export const T = {
   stat: (stat, n = 1) => ({ type: "stat", stat, value: n }),
   structure: (structure) => ({ type: "structure", structure, _structure: structure }),
   biome: (biome) => ({ type: "biome", biome, _biome: biome }),
-  stage: (stage) => ({ type: "stage", stage }),
+  stage: (stage) => ({ type: "gamestage", stage }),   // en FTB Quests 2001.4 el tipo se llama "gamestage" ("stage" se carga como tarea personalizada y nunca se completa)
 };
 
 const cmd = (command) => ({ type: "command", command, elevate_perms: true, silent: true });

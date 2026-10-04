@@ -147,6 +147,7 @@ function confirmar(p, rol) {
   if (!clase || rolesPermitidos(clase).indexOf(rol) < 0) { decir(p, Text.red('Tu clase no puede elegir ese rol.')); return 0; }
   p.persistentData.remove('rolPropuesto');
   p.stages.add('rol_' + rol);
+  p.addTag('rol_' + rol);   // FTB Quests lee etiquetas, no stages de KubeJS (ver stages_tags.js)
   decir(p, Text.green('¡Ahora eres ').append(global.ROLES[rol].color(nombreRol(rol))).append(Text.green('! Abre el libro de misiones (capítulo de tu rol) para progresar.')));
   p.server.tell(Text.empty().append(Text.of('')).append(Text.gray('')).append(Text.yellow(p.username + ' ha elegido el camino del ')).append(global.ROLES[rol].color(nombreRol(rol))).append(Text.yellow('.')));
   darRecompensa(p, rol, 0);
@@ -192,7 +193,7 @@ ServerEvents.commandRegistry((event) => {
       .then(Commands.argument('jugador', Arguments.PLAYER.create(event))
         .executes((ctx) => {
           const p = Arguments.PLAYER.getResult(ctx, 'jugador');
-          Object.keys(global.ROLES).forEach((id) => p.stages.remove('rol_' + id));
+          Object.keys(global.ROLES).forEach((id) => { p.stages.remove('rol_' + id); p.removeTag('rol_' + id); });
           p.persistentData.remove('rolPropuesto');
           if (global.refrescarGremio) global.refrescarGremio(p);
           ctx.source.sendSuccess(() => Text.green('Rol de ' + p.username + ' reiniciado (las mejoras de atributos ya entregadas se conservan).'), false);

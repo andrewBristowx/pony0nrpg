@@ -103,7 +103,7 @@
 			tasks: [
 				{
 					id: "7EB1DA58CB332ADE"
-					type: "stage"
+					type: "gamestage"
 					stage: "oficio_minero_1"
 				}
 			]
@@ -142,7 +142,7 @@
 			tasks: [
 				{
 					id: "164315A6412CAF4F"
-					type: "stage"
+					type: "gamestage"
 					stage: "oficio_minero_2"
 				}
 			]
@@ -255,7 +255,7 @@
 			tasks: [
 				{
 					id: "3CFAC904D7B1E9A6"
-					type: "stage"
+					type: "gamestage"
 					stage: "oficio_lenador_1"
 				}
 			]
@@ -294,7 +294,7 @@
 			tasks: [
 				{
 					id: "5EBD223AEE2E7F44"
-					type: "stage"
+					type: "gamestage"
 					stage: "oficio_lenador_2"
 				}
 			]
@@ -413,7 +413,7 @@
 			tasks: [
 				{
 					id: "7BC9BBEF9108B3F1"
-					type: "stage"
+					type: "gamestage"
 					stage: "oficio_granjero_1"
 				}
 			]
@@ -452,7 +452,7 @@
 			tasks: [
 				{
 					id: "345AF59BD10BB15D"
-					type: "stage"
+					type: "gamestage"
 					stage: "oficio_granjero_2"
 				}
 			]
@@ -565,7 +565,7 @@
 			tasks: [
 				{
 					id: "602CED330DC4BF1D"
-					type: "stage"
+					type: "gamestage"
 					stage: "oficio_pescador_1"
 				}
 			]
@@ -604,7 +604,7 @@
 			tasks: [
 				{
 					id: "26E357BB00105144"
-					type: "stage"
+					type: "gamestage"
 					stage: "oficio_pescador_2"
 				}
 			]
@@ -721,7 +721,7 @@
 			tasks: [
 				{
 					id: "0020F02196223AAF"
-					type: "stage"
+					type: "gamestage"
 					stage: "oficio_herrero_1"
 				}
 			]
@@ -760,7 +760,7 @@
 			tasks: [
 				{
 					id: "6CB2C673AA197794"
-					type: "stage"
+					type: "gamestage"
 					stage: "oficio_herrero_2"
 				}
 			]
@@ -879,7 +879,7 @@
 			tasks: [
 				{
 					id: "3E535588EDFA9CF7"
-					type: "stage"
+					type: "gamestage"
 					stage: "oficio_cocinero_1"
 				}
 			]
@@ -918,7 +918,7 @@
 			tasks: [
 				{
 					id: "1E7F7D89D9B0A9D9"
-					type: "stage"
+					type: "gamestage"
 					stage: "oficio_cocinero_2"
 				}
 			]
@@ -1026,7 +1026,7 @@
 			tasks: [
 				{
 					id: "49F85A42FAD730CF"
-					type: "stage"
+					type: "gamestage"
 					stage: "oficio_encantador_1"
 				}
 			]
@@ -1065,7 +1065,7 @@
 			tasks: [
 				{
 					id: "24832711AE997FF7"
-					type: "stage"
+					type: "gamestage"
 					stage: "oficio_encantador_2"
 				}
 			]

@@ -427,7 +427,7 @@
 			tasks: [
 				{
 					id: "3B1DA8963A7AD987"
-					type: "stage"
+					type: "gamestage"
 					stage: "clase_guerrero"
 				}
 			]
@@ -454,7 +454,7 @@
 			tasks: [
 				{
 					id: "60507A46026F0CDE"
-					type: "stage"
+					type: "gamestage"
 					stage: "clase_arquero"
 				}
 			]
@@ -481,7 +481,7 @@
 			tasks: [
 				{
 					id: "7273944CE12EB042"
-					type: "stage"
+					type: "gamestage"
 					stage: "clase_mago"
 				}
 			]
@@ -508,7 +508,7 @@
 			tasks: [
 				{
 					id: "09D4F91A8CD2A69B"
-					type: "stage"
+					type: "gamestage"
 					stage: "clase_ingeniero"
 				}
 			]
@@ -535,7 +535,7 @@
 			tasks: [
 				{
 					id: "68DA5FDC71A99104"
-					type: "stage"
+					type: "gamestage"
 					stage: "clase_asesino"
 				}
 			]

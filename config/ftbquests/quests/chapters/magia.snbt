@@ -261,7 +261,7 @@
 			tasks: [
 				{
 					id: "268595191BDD2F9C"
-					type: "stage"
+					type: "gamestage"
 					stage: "maestria_mago_2"
 				}
 			]

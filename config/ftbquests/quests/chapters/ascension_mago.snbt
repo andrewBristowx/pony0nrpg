@@ -25,7 +25,7 @@
 			tasks: [
 				{
 					id: "52D4CBC10607177A"
-					type: "stage"
+					type: "gamestage"
 					stage: "era_10"
 				}
 			]
@@ -322,7 +322,7 @@
 			tasks: [
 				{
 					id: "76D5369D0FBC5C78"
-					type: "stage"
+					type: "gamestage"
 					stage: "maestria_mago_3"
 				}
 			]
