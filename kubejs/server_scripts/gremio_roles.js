@@ -64,11 +64,33 @@ function crearScroll(hechizo, nivel) {
   try {
     var Registro = Java.loadClass('io.redspace.ironsspellbooks.api.registry.SpellRegistry');
     var Contenedor = Java.loadClass('io.redspace.ironsspellbooks.api.spells.ISpellContainer');
-    var spell = Registro.getSpell(hechizo);
+    var spell = Registro['getSpell(java.lang.String)'](String(hechizo));   // sin la firma, Rhino no sabe elegir entre getSpell(String) y getSpell(ResourceLocation)
     Contenedor.set(stack, Contenedor.createScrollContainer(spell, nivel, stack));
   } catch (e) { console.error('[roles] no se pudo crear el pergamino ' + hechizo + ': ' + e); return Item.of('minecraft:air'); }
   return stack;
 }
+
+/** el jugador aprende un hechizo (stage hech_<hechizo>: sin el no se puede lanzar, ver class_gating.js) y recibe su pergamino; devuelve el texto del aviso */
+function aprenderHechizo(p, hechizo, nivel) {
+  var info = global.HECHIZOS && global.HECHIZOS[hechizo];
+  var nuevo = !p.stages.has('hech_' + hechizo);
+  p.stages.add('hech_' + hechizo);
+  var stack = crearScroll('irons_spellbooks:' + hechizo, nivel || 1);
+  if (!stack.isEmpty()) p.give(stack);
+  var nombre = info ? info[0] : hechizo;
+  decir(p, Text.lightPurple((nuevo ? 'Hechizo aprendido: ' : 'Pergamino entregado: ')).append(Text.white('«' + nombre + '» (nivel ' + (nivel || 1) + ')')).append(Text.gray(info ? ' — ' + info[1] : '')));
+  return nombre;
+}
+global.aprenderHechizo = aprenderHechizo;
+global.crearScroll = crearScroll;
+
+/** hechizos que da un rol/clase/nivel segun HECHIZOS_ROL; cada entrada es 'hechizo' o ['hechizo', nivelDelPergamino] */
+function hechizosDe(rol, clase, nivel) {
+  var t = global.HECHIZOS_ROL || {};
+  var lista = (t[rol] && t[rol][clase] && t[rol][clase][nivel]) || [];
+  return lista.map((e) => Array.isArray(e) ? [e[0], e[1] || 1] : [e, 1]);
+}
+global.hechizosDe = hechizosDe;
 
 function darRecompensa(p, rol, nivel) {
   var clase = claseDe(p);
@@ -76,8 +98,7 @@ function darRecompensa(p, rol, nivel) {
   var items = (tabla[rol] && tabla[rol][clase] && tabla[rol][clase][nivel]) || [];
   var dados = [];
   items.forEach((it) => {
-    // ['id', cantidad]  o  ['scroll', 'irons_spellbooks:hechizo', nivelDelHechizo]
-    var stack = it[0] === 'scroll' ? crearScroll(it[1], it[2] || 1) : Item.of(it[0], it[1]);
+    var stack = Item.of(it[0], it[1]);
     if (stack.isEmpty()) { console.error('[roles] objeto desconocido en RECOMPENSAS_ROL: ' + it[0] + ' ' + (it[1] || '')); return; }
     p.give(stack);
     dados.push((stack.count > 1 ? stack.count + 'x ' : '') + stack.hoverName.string);
@@ -89,6 +110,7 @@ function darRecompensa(p, rol, nivel) {
     p.server.runCommandSilent('attribute ' + p.username + ' ' + m[0] + ' modifier remove ' + uuid);   // idempotente: repetir la mision no acumula
     p.server.runCommandSilent('attribute ' + p.username + ' ' + m[0] + ' modifier add ' + uuid + ' "rol_' + rol + '_' + nivel + '" ' + m[1] + ' ' + (m[2] || 'add'));
   });
+  hechizosDe(rol, clase, nivel).forEach((h) => aprenderHechizo(p, h[0], h[1]));
   if (dados.length) decir(p, Text.green('Recompensa de ' + nombreRol(rol) + ' (' + NOMBRE_CLASE[clase] + '): ').append(Text.white(dados.join(', '))));
   if (mejoras.length) decir(p, Text.aqua('Mejora permanente de ' + nombreRol(rol) + ' aplicada.'));
 }

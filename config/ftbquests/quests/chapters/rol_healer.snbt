@@ -20,6 +20,12 @@
 				"Habla con el maestro de rol de tu pueblo (junto a la plaza). Al confirmar el rol de Healer, esta misión se completa sola (stage &6rol_healer&r)."
 				""
 				"&cEl rol no se puede cambiar&r: solo podrás hacer las misiones de este capítulo."
+				""
+				"&dHechizos de inicio&r:"
+				""
+				"&dMago&r: &bCurar&r."
+				""
+				"&7Los hechizos solo se consiguen por progresión (no hay pergaminos en cofres ni se fabrican). Usa /hechizo para ver los tuyos."
 			]
 			icon: "minecraft:nether_star"
 			x: 0.5d
@@ -51,6 +57,10 @@
 				"Un healer siempre lleva algo con que curar. Consigue 2 manzanas doradas."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dMago&r: &bPurificar&r."
 			]
 			icon: "minecraft:golden_apple"
 			x: 2.5d
@@ -90,6 +100,10 @@
 				"Las pociones curan al grupo. Consigue un soporte para pociones."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dMago&r: &bCírculo de curación&r."
 			]
 			icon: "minecraft:brewing_stand"
 			x: 4.5d
@@ -167,6 +181,10 @@
 				"Reúne rodajas de sandía brillante para pociones de curación."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dMago&r: &bFortificar&r."
 			]
 			icon: "minecraft:glistering_melon_slice"
 			x: 8.5d
@@ -206,6 +224,10 @@
 				"La regeneración necesita lágrimas de ghast. Reúne 4."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dMago&r: &bCuración mayor&r."
 			]
 			icon: "minecraft:ghast_tear"
 			x: 10.5d
@@ -245,6 +267,10 @@
 				"Ten a mano una buena reserva para emergencias."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dMago&r: &bFuego fatuo&r."
 			]
 			icon: "minecraft:golden_apple"
 			x: 12.5d
@@ -284,6 +310,10 @@
 				"Consigue pociones de curación mayores de Iron's Spells."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dMago&r: &bBendición de vida&r."
 			]
 			icon: "irons_spellbooks:greater_healing_potion"
 			x: 14.5d
@@ -323,6 +353,10 @@
 				"Un healer maestro levanta un faro para su grupo. Consigue una baliza."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dMago&r: &bEscudo arcano&r, &bCuración mayor&r (nv 3)."
 			]
 			icon: "minecraft:beacon"
 			x: 16.5d

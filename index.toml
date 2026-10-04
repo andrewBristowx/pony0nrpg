@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CLAUDE.md"
-hash = "d962df9385576a3e26d8b4aeba3d22fef58e8f568e7aba478a7e870284a1a2e5"
+hash = "760e84d821522eb2842788ba7edf528b031d33d0cc76e7d0bd4a76293114b8ef"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -70,19 +70,19 @@ hash = "de8d07fce7194070bd141be93422644d465013b347ddf74218be148152421a6e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rol_dps.snbt"
-hash = "5ba683b709cb939f2997b1819761fb955878a95b754a79d83e7dbb2befb8def5"
+hash = "c094ed400027fa8d011da2fe4093c7595313ba2b9a037b5be6c3c0d3687a035c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rol_healer.snbt"
-hash = "417308ce574bea965bae2cc9592b35862f033e50c5e04bd8c77aca3a8708b15d"
+hash = "06f5766fd706595d1faee6a728fb72f0bc43e9debfc61123f40cee5a763d3827"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rol_soporte.snbt"
-hash = "14c501da2a1dea1f9c1be47647dbfd7b28eb9349c02ed6bff1476bcb8216f691"
+hash = "c763a4de688ca83741f1954ab148b1fde20b29f5ee05384acedc6799faccd49a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rol_tanque.snbt"
-hash = "7a2e3c44f9c84afab3ab2bf56e174598e015290d516daea09b955b4512489504"
+hash = "27d7380ff6dfff9019a4163f5d277230f25926982ba946f2ad03808ff80dd4a1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/secretos.snbt"
@@ -607,6 +607,58 @@ hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
 [[files]]
 file = "kubejs/data/idas/worldgen/structure_set/idas_underground_rare.json"
 hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/loot_modifiers/chest_loot/ancient_city_modifier.json"
+hash = "65d32f03da8a490432c8fe5cac8f2f5f5f56a706cf0b093b6b31195895fa7de9"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/loot_modifiers/chest_loot/compat_generic_loot_modifier.json"
+hash = "f4767a6c917dd95a65c271cb9259565f1f12bfe545a4426427b46d0086d6d670"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/loot_modifiers/chest_loot/compat_good_loot_modifier.json"
+hash = "a552cd5de90f6f99fad6ec1d1081800fb57bc1ca1193758433b4a55076f17d38"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/loot_modifiers/chest_loot/compat_treasure_loot_modifier.json"
+hash = "c0475925eca8a214b8582e7b33edb06b4fffc7270dbc84974f912e4e2357617f"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/loot_modifiers/chest_loot/end_city_modifier.json"
+hash = "a0db152dd3c06d1f4f9057f89965d1aeb6ebceba9ada307f974818a6c998d3e8"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/loot_modifiers/chest_loot/nether_loot_modifier.json"
+hash = "71ff1c1125711e38162b9eac88dc3918266718022ef9a7e5ecb408fdb192e130"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/loot_modifiers/chest_loot/stronghold_library_modifier.json"
+hash = "9ce92a3ae34b2ba2a48a40f71293f285e4d170a60026081bd1f38d2d0504827d"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/loot_modifiers/chest_loot/vanilla_generic_loot_modifier.json"
+hash = "f4767a6c917dd95a65c271cb9259565f1f12bfe545a4426427b46d0086d6d670"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/loot_modifiers/entity_drops/blaze_modifier.json"
+hash = "48eedf85edcdd48e5e1692e59552cf56f40a6417a28282d4638f29806e1120c4"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/loot_modifiers/entity_drops/ender_dragon_modifier.json"
+hash = "b40fa4228e01063a08b398531c77d76deb76ad049ca4f530b22eb7506b53899c"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/loot_modifiers/entity_drops/evoker_modifier.json"
+hash = "ac97fe59f740ad4df62b85577395f95f62cf08ab2cacdc734188a2200e15bdf7"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/loot_modifiers/entity_drops/hoglin_modifier.json"
+hash = "6565bfee9e7ba19bb0eec55f226f4cfd80ea6f88dd5df7322418d3fd2ffab233"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/loot_modifiers/entity_drops/stray_modifier.json"
+hash = "e32e729e317ab19d9bcf439d5989cd4daff7bcd5d6b1fe2d4e15d585be18d308"
 
 [[files]]
 file = "kubejs/data/irons_spellbooks/worldgen/structure_set/ancient_battleground.json"
@@ -1266,7 +1318,7 @@ hash = "1f9c7106ec0cdc933394e7f3a725d73211805eefd0cef1af8b95260d4ddbf24d"
 
 [[files]]
 file = "kubejs/server_scripts/fixes.js"
-hash = "0fc331847426e183a313ee71a7ff76705108208e9e36db966282a1c8d061648e"
+hash = "873502d1a8f0817148cc8d9a06550bd77b4dd6d02ef7e9d3dd01562aad3754fd"
 
 [[files]]
 file = "kubejs/server_scripts/gremio_chat.js"
@@ -1274,11 +1326,11 @@ hash = "8bf9b65711c7c59847e3e10a4a8f4eb5bd0a8205388af30ea67ca4059474ab30"
 
 [[files]]
 file = "kubejs/server_scripts/gremio_roles.js"
-hash = "78669786cb0e580a1968899997fbe581c6ca162946ae7e7e3372cf3805fba715"
+hash = "31418e559c00ed1a1ae3ce367cbe7e63cbcfb13f7c1eca7b8d1564c7e6ef7d38"
 
 [[files]]
 file = "kubejs/server_scripts/gremio_roles_tabla.js"
-hash = "e9300ce6a9fcc1a415ea820472b647e50b9f3a02da4cc3acb0623e556cf76ca0"
+hash = "3bd91b097f6e009c48a9873d30d73175a978a0cf5bd55f72361363554b931e87"
 
 [[files]]
 file = "kubejs/server_scripts/gremios.js"
@@ -1287,6 +1339,10 @@ hash = "256253d84ecdc9f905910d89d222d6be2574a3d1e2561a8702e201788d8f9058"
 [[files]]
 file = "kubejs/server_scripts/habilidades.js"
 hash = "7261af989c442407661353af0e0b1ebf9e14e35c1f34a813dd45e67950b79e9a"
+
+[[files]]
+file = "kubejs/server_scripts/hechizos.js"
+hash = "bdd7877e168185d99c17f46ef5f224a3f00995d4617a469cc2a36cefc21d4509"
 
 [[files]]
 file = "kubejs/server_scripts/sin_mobs_de_mods.js"
@@ -1298,11 +1354,15 @@ hash = "f757bd8ed3c8231f187f650b9fa0e058d79f283dd7201c41d61e92f7cc0c1c8f"
 
 [[files]]
 file = "kubejs/startup_scripts/class_gating.js"
-hash = "3e35c4c424702165cc00257aa84930701ce351e9f06cf9c80bf49e9e39baea91"
+hash = "c0ef8f6f12cbe64d4b1e311b680a5339c56d6f0fcbc9bf6f78ecff74f17b9f49"
 
 [[files]]
 file = "kubejs/startup_scripts/gremio_nombres.js"
 hash = "8db84897d3468d24b22719e093804535a5698d9ff982e548559ce97dacb4cd82"
+
+[[files]]
+file = "kubejs/startup_scripts/hechizos_datos.js"
+hash = "d02d0f2d53be262073c403ba446f270904d83a8c5229e844ab925e37d3d1556d"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"

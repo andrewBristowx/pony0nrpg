@@ -36,6 +36,8 @@ const RX = {
 
 /** Devuelve { classes: [...], tier } si el objeto es de clase, o null si es libre. */
 function classify(id) {
+  // Los libros de hechizos de Iron's son solo un contenedor: el limite ahora es QUE hechizos has aprendido (ver el evento de abajo), no la clase.
+  if (/^irons_spellbooks:\w+_spell_book$/.test(id)) return null;
   if (RX.mageT3.test(id)) return { classes: ['mago'], tier: 3 };
   if (RX.mageT1.test(id)) return { classes: ['mago'], tier: 1 };
   if (RX.mageT2.test(id)) return { classes: ['mago'], tier: 2 };
@@ -105,13 +107,20 @@ ForgeEvents.onEvent('net.minecraftforge.event.entity.player.AttackEntityEvent', 
   }
 });
 
-// Lanzar hechizos (bastones, grimorios, pergaminos de Iron's Spells): siempre hace falta ser Mago (Tier I)
+// Lanzar hechizos (libros, bastones, pergaminos de Iron's Spells): solo los que el jugador ha APRENDIDO (stage hech_<hechizo>, que da la
+// progresion de rol: /rol recompensa). Da igual de donde salga el pergamino o el libro: sin haber aprendido el hechizo no se lanza.
+// Se dejan pasar el modo creativo y el origen COMMAND (administradores).
 ForgeEvents.onEvent('io.redspace.ironsspellbooks.api.events.SpellPreCastEvent', (event) => {
-  const player = event.getEntity();
-  if (player && !isCreative(player) && !hasTier(player, 'mago', 1)) {
-    player.setStatusMessage(Text.red('Necesitas Mago I (árbol de Habilidades) para lanzar hechizos.'));
+  try {
+    var player = event.getEntity();
+    if (!player || isCreative(player)) return;
+    if (String(event.getCastSource()) === 'COMMAND') return;
+    var id = String(event.getSpellId()), path = id.substring(id.indexOf(':') + 1);
+    if (global.hechizoAprendido(player, path)) return;
+    var info = global.HECHIZOS && global.HECHIZOS[path];
+    player.setStatusMessage(Text.red('No has aprendido ' + (info ? '«' + info[0] + '»' : 'este hechizo') + ': los hechizos se consiguen con tu progresión (misiones de rol).'));
     event.setCanceled(true);
-  }
+  } catch (e) { console.error('[class_gating] SpellPreCastEvent: ' + e); }
 });
 
 // ---- compartido con server_scripts/class_gating.js ---------------------------------------------------------

@@ -1,4 +1,27 @@
+import fs from "node:fs";
+import vm from "node:vm";
+import { fileURLToPath } from "node:url";
 import { T, R } from "../../quest-dsl.mjs";
+
+// Hechizos que da cada nivel (HECHIZOS_ROL en gremio_roles_tabla.js) con nombre y descripcion (hechizos_datos.js): se leen de esos archivos para que
+// las descripciones de las misiones no se desincronicen de lo que realmente se entrega.
+const kube = (f) => fileURLToPath(new URL("../../../kubejs/" + f, import.meta.url));
+const ctx = { global: {}, console };
+vm.createContext(ctx);
+vm.runInContext(fs.readFileSync(kube("startup_scripts/hechizos_datos.js"), "utf8"), ctx);
+vm.runInContext(fs.readFileSync(kube("server_scripts/gremio_roles_tabla.js"), "utf8").replace(/^const /gm, "var "), ctx);
+const NOMBRE_CLASE = { guerrero: "Guerrero", arquero: "Arquero", mago: "Mago", asesino: "Asesino", ingeniero: "Ingeniero" };
+/** lineas de descripcion con los hechizos que se aprenden en ese nivel de ese rol, por clase */
+const hechizosNivel = (rolId, nivel) => {
+  const porClase = ctx.global.HECHIZOS_ROL[rolId] || {};
+  const lineas = [];
+  for (const [clase, niveles] of Object.entries(porClase)) {
+    const lista = (niveles[nivel] || []).map((e) => (Array.isArray(e) ? e : [e, 1]));
+    if (!lista.length) continue;
+    lineas.push(`&d${NOMBRE_CLASE[clase]}&r: ` + lista.map(([id, lvl]) => `&b${ctx.global.HECHIZOS[id][0]}&r${lvl > 1 ? ` (nv ${lvl})` : ""}`).join(", ") + ".");
+  }
+  return lineas;
+};
 
 // Roles de combate: un capítulo por rol (Tanque, DPS, Healer, Soporte). Cada capítulo se desbloquea solo cuando el jugador elige ese rol con el
 // maestro de rol de su pueblo (stage rol_<id>, que da /rol confirmar en kubejs/server_scripts/gremio_roles.js); quien eligió otro rol no puede avanzar.
@@ -15,11 +38,14 @@ const rol = (id, nombre, icon, intro, misiones) => ({
     { k: "juramento", t: `Juramento del ${nombre}`, sub: "Elige tu rol", invisible: true,   // sin dependencias: FTB Quests no avanza tareas de una mision si sus dependencias no estan completas
       d: [intro,
           `Habla con el maestro de rol de tu pueblo (junto a la plaza). Al confirmar el rol de ${nombre}, esta misión se completa sola (stage &6rol_${id}&r).`,
-          "&cEl rol no se puede cambiar&r: solo podrás hacer las misiones de este capítulo."],
+          "&cEl rol no se puede cambiar&r: solo podrás hacer las misiones de este capítulo.",
+          ...(hechizosNivel(id, 0).length ? ["&dHechizos de inicio&r:", ...hechizosNivel(id, 0)] : []),
+          "&7Los hechizos solo se consiguen por progresión (no hay pergaminos en cofres ni se fabrican). Usa /hechizo para ver los tuyos."],
       tasks: [T.stage(`rol_${id}`)], rewards: [R.skill(100)] },
     ...misiones.map((m, i) => ({
       k: `n${i + 1}`, t: m.t, sub: `${nombre} · nivel ${i + 1}`, deps: [i === 0 ? "juramento" : `n${i}`], hideUntilDepsVisible: true,
-      d: [...m.d, "Recompensa: equipo y una mejora permanente para tu rol, según tu clase."],
+      d: [...m.d, "Recompensa: equipo y una mejora permanente para tu rol, según tu clase.",
+          ...(hechizosNivel(id, i + 1).length ? ["&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):", ...hechizosNivel(id, i + 1)] : [])],
       tasks: m.tasks,
       rewards: [R.skill(150 + 100 * i), R.cmd(`/rol recompensa ${id} ${i + 1} {p}`)],
     })),

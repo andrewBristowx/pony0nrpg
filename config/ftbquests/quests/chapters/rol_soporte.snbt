@@ -20,6 +20,8 @@
 				"Habla con el maestro de rol de tu pueblo (junto a la plaza). Al confirmar el rol de Soporte, esta misión se completa sola (stage &6rol_soporte&r)."
 				""
 				"&cEl rol no se puede cambiar&r: solo podrás hacer las misiones de este capítulo."
+				""
+				"&7Los hechizos solo se consiguen por progresión (no hay pergaminos en cofres ni se fabrican). Usa /hechizo para ver los tuyos."
 			]
 			icon: "minecraft:nether_star"
 			x: 0.5d
@@ -51,6 +53,12 @@
 				"Un buen soporte alimenta al grupo. Prepara 32 panes."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dArquero&r: &bPrisa&r."
+				""
+				"&dIngeniero&r: &bPrisa&r."
 			]
 			icon: "minecraft:bread"
 			x: 2.5d
@@ -90,6 +98,12 @@
 				"Comercia con aldeanos para conseguir lo que el grupo necesita."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dArquero&r: &bVisión planar&r."
+				""
+				"&dIngeniero&r: &bVisión planar&r."
 			]
 			icon: "minecraft:clock"
 			x: 4.5d
@@ -129,6 +143,12 @@
 				"Los cohetes sirven de señal y de transporte. Prepara 32."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dArquero&r: &bEvasión&r."
+				""
+				"&dIngeniero&r: &bTelequinesis&r."
 			]
 			icon: "minecraft:firework_rocket"
 			x: 6.5d
@@ -168,6 +188,12 @@
 				"Abre el camino al grupo: recorre una gran distancia a pie."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dArquero&r: &bFortificar&r."
+				""
+				"&dIngeniero&r: &bEscudo arcano&r."
 			]
 			icon: "minecraft:clock"
 			x: 8.5d
@@ -207,6 +233,12 @@
 				"Un cofre del Ender te permite llevar tus cosas a todas partes."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dArquero&r: &bTeletransporte&r."
+				""
+				"&dIngeniero&r: &bFortificar&r."
 			]
 			icon: "minecraft:ender_chest"
 			x: 10.5d
@@ -245,6 +277,12 @@
 				"Consigue caparazones de shulker para hacer cajas de carga."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dArquero&r: &bTelequinesis&r."
+				""
+				"&dIngeniero&r: &bTeletransporte&r."
 			]
 			icon: "minecraft:shulker_shell"
 			x: 12.5d
@@ -284,6 +322,12 @@
 				"Haz muchos tratos con aldeanos."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dArquero&r: &bPurificar&r."
+				""
+				"&dIngeniero&r: &bPurificar&r."
 			]
 			icon: "minecraft:clock"
 			x: 14.5d
@@ -323,6 +367,12 @@
 				"Un soporte maestro consigue un conducto. Reúne lo necesario y fabrícalo."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dArquero&r: &bInvisibilidad&r."
+				""
+				"&dIngeniero&r: &bCírculo de curación&r."
 			]
 			icon: "minecraft:conduit"
 			x: 16.5d

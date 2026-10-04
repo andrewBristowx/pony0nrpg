@@ -20,6 +20,12 @@
 				"Habla con el maestro de rol de tu pueblo (junto a la plaza). Al confirmar el rol de Tanque, esta misión se completa sola (stage &6rol_tanque&r)."
 				""
 				"&cEl rol no se puede cambiar&r: solo podrás hacer las misiones de este capítulo."
+				""
+				"&dHechizos de inicio&r:"
+				""
+				"&dGuerrero&r: &bPiel de roble&r."
+				""
+				"&7Los hechizos solo se consiguen por progresión (no hay pergaminos en cofres ni se fabrican). Usa /hechizo para ver los tuyos."
 			]
 			icon: "minecraft:nether_star"
 			x: 0.5d
@@ -90,6 +96,10 @@
 				"Bloquear es mejor que curarse. Bloquea daño con tu escudo."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bFortificar&r."
 			]
 			icon: "minecraft:clock"
 			x: 4.5d
@@ -129,6 +139,10 @@
 				"Los saqueadores atacan en grupo. Elimina a 12 sin retroceder."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bChivo expiatorio&r."
 			]
 			icon: "minecraft:iron_sword"
 			x: 6.5d
@@ -168,6 +182,10 @@
 				"Resiste un volumen de daño mucho mayor."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bEscudo arcano&r."
 			]
 			icon: "minecraft:clock"
 			x: 8.5d
@@ -209,6 +227,10 @@
 				"Eliminar a 10 esqueletos wither."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bPisotón&r."
 			]
 			icon: "minecraft:clock"
 			x: 10.5d
@@ -254,6 +276,10 @@
 				"Los vindicadores cargan con hacha. Derrota a 15."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bParada cardiaca&r."
 			]
 			icon: "minecraft:iron_sword"
 			x: 12.5d
@@ -293,6 +319,10 @@
 				"Resiste y bloquea de forma sostenida."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bRaíces&r."
 			]
 			icon: "minecraft:clock"
 			x: 14.5d
@@ -338,6 +368,10 @@
 				"Un tanque de verdad se planta ante el peor enemigo del Overworld. Derrota al Wither."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bOnda de choque&r."
 			]
 			icon: "minecraft:iron_sword"
 			x: 16.5d
