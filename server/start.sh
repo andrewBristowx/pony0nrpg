@@ -41,6 +41,10 @@ else
   echo "[start.sh] No esta packwiz-installer-bootstrap.jar: se arranca sin actualizar."
 fi
 
+# ---- 1a. limpieza: los archivos "archive-*.tar.gz" que crea el panel al archivar una carpeta y quedan dentro de kubejs/ ------
+# KubeJS aborta el arranque ("Invalid file name: Uppercase 'T' ...") si encuentra uno en kubejs/data; se borran antes de arrancar.
+find kubejs -type f -name 'archive-*.tar.gz' -print -delete 2>/dev/null | sed 's/^/[start.sh] Borrado (rompe KubeJS): /'
+
 # ---- 1b. Forge: se instala solo a la version que fija pack.toml (la misma que el cliente de Prism) ---------------
 # packwiz solo gestiona mods y archivos, no el loader; aqui se baja el instalador oficial de Forge y se ejecuta --installServer
 # si falta esa version. Para forzar otra: variable FORGE_VERSION (p. ej. 47.4.23). Necesita Java 17 y acceso a maven.minecraftforge.net.
