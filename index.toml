@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "CLAUDE.md"
+hash = "ee288f411f6746c26146abced57e6f613281bc7ab8db6c2f5d901dc805350375"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "4805b03d6d8ba55454487eb11f791adb7d961d920c3f942ab0a6d2427c3b48a5"
 
@@ -63,6 +67,22 @@ hash = "0825b03da7163dec3c758325c76c44aa0db212d3c92161009250c7498e9d071f"
 [[files]]
 file = "config/ftbquests/quests/chapters/oficios.snbt"
 hash = "89b4795fea1abdc57a2d7031a3b298ba1ca2576a8b45fa55c21429db27e90226"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/rol_dps.snbt"
+hash = "0e12202c9c829f59fcfa24eb4d5f920a869fbb8eccf5b15d0f417676325278fb"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/rol_healer.snbt"
+hash = "a1ebc45875ee3d8152fea468bd3efe15c8d396e131d6a5d5da0cb4dc720fdff5"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/rol_soporte.snbt"
+hash = "cd1d2ad9e2d316dd7afc21d50f2084f94e10ae209ac8240950c1169600d07e13"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/rol_tanque.snbt"
+hash = "4a7d04c522f3755e76fd7682f3b88ea65e0bf4d667e5174b13ca701757a6419e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/secretos.snbt"
@@ -1170,11 +1190,19 @@ hash = "0fc331847426e183a313ee71a7ff76705108208e9e36db966282a1c8d061648e"
 
 [[files]]
 file = "kubejs/server_scripts/gremio_chat.js"
-hash = "22761f80f3bfb1128f00dcb54b2cbf816ba1d1dcb5d222f3746ea0c4ea88d173"
+hash = "8bf9b65711c7c59847e3e10a4a8f4eb5bd0a8205388af30ea67ca4059474ab30"
+
+[[files]]
+file = "kubejs/server_scripts/gremio_roles.js"
+hash = "99092cf9d5f7b0c6f60e4092da11c20a26edc98e6d6b33ab6a0323e60657530e"
+
+[[files]]
+file = "kubejs/server_scripts/gremio_roles_tabla.js"
+hash = "e9300ce6a9fcc1a415ea820472b647e50b9f3a02da4cc3acb0623e556cf76ca0"
 
 [[files]]
 file = "kubejs/server_scripts/gremios.js"
-hash = "c27a988cb1e897c5f9b16b888e9c409b84c396539845fc6b77908582825dcc55"
+hash = "256253d84ecdc9f905910d89d222d6be2574a3d1e2561a8702e201788d8f9058"
 
 [[files]]
 file = "kubejs/server_scripts/sin_mobs_de_mods.js"
@@ -1186,7 +1214,7 @@ hash = "3e35c4c424702165cc00257aa84930701ce351e9f06cf9c80bf49e9e39baea91"
 
 [[files]]
 file = "kubejs/startup_scripts/gremio_nombres.js"
-hash = "68beaae91587cf58f7d35177ebca95713b2787e7b99060a11da6f413008e9150"
+hash = "8db84897d3468d24b22719e093804535a5698d9ff982e548559ce97dacb4cd82"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"

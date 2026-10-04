@@ -138,3 +138,13 @@ No afecta a invocaciones, huevos, spawners ni a las demás dimensiones. Lista de
 - Nota de Rhino: dentro de un `try` no se puede usar `const`/`let` ("redeclaration of var"); se usa `var`.
 - Pendiente: rangos por nivel/misiones (Novato → Maestro) y roles de combate (Tanque, Sanador…) como segunda etiqueta.
 
+## 11. Roles de combate y maestros de rol (implementado)
+
+- **Roles**: Tanque, DPS, Healer, Soporte. Se muestran junto al nombre (`[Gremio] Nombre [Rol]`) en el chat y el TAB. Cada jugador elige **uno, de forma definitiva**.
+- **Qué rol puede cada clase** (editable en `ROLES_POR_CLASE`, `gremio_roles.js`): Guerrero tanque/DPS · Arquero DPS/soporte · Mago healer/DPS · Asesino solo DPS · Ingeniero soporte/DPS.
+- **Maestros de rol**: 4 NPC de Easy NPC por pueblo (skins de caballero `KNIGHT_01`, `KNIGHT_02`, `SECURITY_01` y el mago `MAGE_01`) en fila al sur de la plaza. Clic -> explican el rol; si tu clase puede, piden CONFIRMAR (botón en el chat); si no, dicen qué roles puede tu clase. `/rol npcs` los recoloca.
+- **Misiones de rol** (FTB Quests, `tools/quests/chapters/12_roles.mjs`): un capítulo por rol, juramento + 8 misiones progresivas; solo avanza quien tiene ese rol (stage `rol_<id>`). Cada misión llama a `/rol recompensa` y da objetos y una mejora permanente de atributos **según la clase**: tablas en `gremio_roles_tabla.js` (IDs comprobados contra los jars).
+- Comandos: `/rol`, `/rol hablar <rol> <jugador>` (lo usa el NPC), `/rol confirmar <rol>`, y para operadores `/rol reset <jugador>`, `/rol recompensa <rol> <nivel> <jugador>`, `/rol npcs`.
+- Nota: los objetos de nivel alto siguen sujetos al bloqueo de equipo por clase (`class_gating.js`).
+- Sin probar con jugadores reales: el clic en el NPC (puede que un operador vea el menú de configuración de Easy NPC en vez del diálogo: probar con una cuenta sin op), el botón de confirmar en el chat y la entrega de pergaminos de Iron's Spells.
+

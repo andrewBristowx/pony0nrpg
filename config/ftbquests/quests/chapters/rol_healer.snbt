@@ -1,0 +1,348 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rol_healer"
+	group: "5677092D8B6DEB7B"
+	title: "Rol: Healer"
+	subtitle: ["Misiones del Healer"]
+	icon: "minecraft:golden_apple"
+	id: "49938D92483904AD"
+	order_index: 20
+	quest_links: [ ]
+	quests: [
+		{
+			id: "67D73265F181BA2C"
+			title: "Juramento del Healer"
+			subtitle: "Elige tu rol"
+			description: [
+				"El Healer mantiene vivo al grupo. Este camino te da pergaminos y libros de curación, el equipo de sacerdote y mejoras de maná, curación y recuperación. Solo los magos pueden ser Healer."
+				""
+				"Habla con el maestro de rol de tu pueblo (junto a la plaza). Al confirmar el rol de Healer, esta misión se completa sola (stage &6rol_healer&r)."
+				""
+				"&cEl rol no se puede cambiar&r: solo podrás hacer las misiones de este capítulo."
+			]
+			icon: "minecraft:nether_star"
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["58586CCB7C53F57D"]
+			tasks: [
+				{
+					id: "53E80AC977EBBE7A"
+					type: "stage"
+					stage: "rol_healer"
+				}
+			]
+			rewards: [
+				{
+					id: "4DB20A6224403399"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 100"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "5B8F157BC179389C"
+			title: "Primeros auxilios"
+			subtitle: "Healer · nivel 1"
+			description: [
+				"Un healer siempre lleva algo con que curar. Consigue 2 manzanas doradas."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:golden_apple"
+			x: 2.5d
+			y: 0.5d
+			dependencies: ["67D73265F181BA2C"]
+			tasks: [
+				{
+					id: "40D67391A463A7AA"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "5E59834B55BB8B12"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 150"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "7FA5E63EB9458F2A"
+					type: "command"
+					command: "/rol recompensa healer 1 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "4BEA1C7737EADE56"
+			title: "Alquimia básica"
+			subtitle: "Healer · nivel 2"
+			description: [
+				"Las pociones curan al grupo. Consigue un soporte para pociones."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:brewing_stand"
+			x: 4.5d
+			y: 0.5d
+			dependencies: ["5B8F157BC179389C"]
+			tasks: [
+				{
+					id: "0FCCE4057D86A294"
+					type: "item"
+					item: "minecraft:brewing_stand"
+				}
+			]
+			rewards: [
+				{
+					id: "13E330C2FE811412"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 250"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "4665263FCF7E1880"
+					type: "command"
+					command: "/rol recompensa healer 2 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "5F64D5D0E93F65B3"
+			title: "Sanar al enfermo"
+			subtitle: "Healer · nivel 3"
+			description: [
+				"Cura a un aldeano zombi."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:writable_book"
+			x: 6.5d
+			y: 0.5d
+			dependencies: ["4BEA1C7737EADE56"]
+			tasks: [
+				{
+					id: "03B28AC4E67D3E3F"
+					type: "advancement"
+					advancement: "minecraft:story/cure_zombie_villager"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "76B349B8D9A66215"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 350"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "311EDE0CF9951C7E"
+					type: "command"
+					command: "/rol recompensa healer 3 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "6F044BDA7E9C46CF"
+			title: "Ingredientes de curación"
+			subtitle: "Healer · nivel 4"
+			description: [
+				"Reúne rodajas de sandía brillante para pociones de curación."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:glistering_melon_slice"
+			x: 8.5d
+			y: 0.5d
+			dependencies: ["5F64D5D0E93F65B3"]
+			tasks: [
+				{
+					id: "6240C75939ACE56C"
+					type: "item"
+					item: "minecraft:glistering_melon_slice"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "05EF5F65A0E51369"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 450"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "5B9EC41808728078"
+					type: "command"
+					command: "/rol recompensa healer 4 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "0738F7C93016D4EA"
+			title: "Lágrimas de ghast"
+			subtitle: "Healer · nivel 5"
+			description: [
+				"La regeneración necesita lágrimas de ghast. Reúne 4."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:ghast_tear"
+			x: 10.5d
+			y: 0.5d
+			dependencies: ["6F044BDA7E9C46CF"]
+			tasks: [
+				{
+					id: "3C0F1A9FEDE5EEAD"
+					type: "item"
+					item: "minecraft:ghast_tear"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "762625477A91ED5C"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 550"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "06706C3735F642C5"
+					type: "command"
+					command: "/rol recompensa healer 5 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "003229495888B531"
+			title: "Reserva de curación"
+			subtitle: "Healer · nivel 6"
+			description: [
+				"Ten a mano una buena reserva para emergencias."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:golden_apple"
+			x: 12.5d
+			y: 0.5d
+			dependencies: ["0738F7C93016D4EA"]
+			tasks: [
+				{
+					id: "295C30CBC8202E9D"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "701729F4EA581746"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 650"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "401846B61E1D56A1"
+					type: "command"
+					command: "/rol recompensa healer 6 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "7C7C60A5FCA76286"
+			title: "Pociones mayores"
+			subtitle: "Healer · nivel 7"
+			description: [
+				"Consigue pociones de curación mayores de Iron's Spells."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "irons_spellbooks:greater_healing_potion"
+			x: 14.5d
+			y: 0.5d
+			dependencies: ["003229495888B531"]
+			tasks: [
+				{
+					id: "3941F9374BD848D0"
+					type: "item"
+					item: "irons_spellbooks:greater_healing_potion"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "3C0D7A8CAFF84FAC"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 750"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "28107FDFFBA2A442"
+					type: "command"
+					command: "/rol recompensa healer 7 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "7EECC8424C3D9BE3"
+			title: "Faro de esperanza"
+			subtitle: "Healer · nivel 8"
+			description: [
+				"Un healer maestro levanta un faro para su grupo. Consigue una baliza."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:beacon"
+			x: 16.5d
+			y: 0.5d
+			dependencies: ["7C7C60A5FCA76286"]
+			tasks: [
+				{
+					id: "5941DE52477234F9"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+			]
+			rewards: [
+				{
+					id: "0985E02FB519B904"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 850"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "6ADE70056A4BE82B"
+					type: "command"
+					command: "/rol recompensa healer 8 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+	]
+}

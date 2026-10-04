@@ -14,7 +14,7 @@ Hablar con el usuario en **español**. El usuario es el dueño del servidor; no 
 2. **Rhino (KubeJS 2001.6.5)**: `const`/`let` dentro de un `try { }` da "redeclaration of var". Dentro de `try` usar `var`. Tampoco `const` en bucles.
 3. Los archivos de `kubejs/data` y `kubejs/assets` van en minúsculas (KubeJS aborta si ve una mayúscula). Los `archive-*.tar.gz` del panel dentro de `kubejs/` rompen el arranque (start.sh los borra).
 4. Scripts de arranque (`startup_scripts`) corren también en el cliente: todo en `try/catch` y sin depender de datos del servidor.
-5. Cada archivo de script tiene su propio ámbito; compartir con `global.algo`.
+5. Cada archivo de script tiene su propio ámbito; compartir con `global.algo`. **Nunca guardar `null` en `global`** (Rhino lanza NullPointerException al leerlo): usar `false`/`undefined`.
 
 ## Cómo probar sin el hosting
 `ACEPTO_EULA=1 tools/test-kubejs.sh` levanta un Forge mínimo (KubeJS + Rhino + Architectury + Easy NPC) con los scripts del repo y un `tools/test/zz_test.js` (jugador simulado `FakePlayer`: nombre, TAB, funciones). No sirve para chat real ni clics de NPC: eso se prueba en el servidor y se pide el log.

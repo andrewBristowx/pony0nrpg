@@ -1,0 +1,350 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rol_dps"
+	group: "5677092D8B6DEB7B"
+	title: "Rol: DPS"
+	subtitle: ["Misiones del DPS"]
+	icon: "minecraft:diamond_sword"
+	id: "70E251907E818AC2"
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2BCC33F458089F22"
+			title: "Juramento del DPS"
+			subtitle: "Elige tu rol"
+			description: [
+				"El DPS elimina las amenazas lo más rápido posible. Este camino te da armas, flechas o hechizos ofensivos (según tu clase) y mejoras de daño, velocidad y críticos."
+				""
+				"Habla con el maestro de rol de tu pueblo (junto a la plaza). Al confirmar el rol de DPS, esta misión se completa sola (stage &6rol_dps&r)."
+				""
+				"&cEl rol no se puede cambiar&r: solo podrás hacer las misiones de este capítulo."
+			]
+			icon: "minecraft:nether_star"
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["58586CCB7C53F57D"]
+			tasks: [
+				{
+					id: "1BE60B3258806000"
+					type: "stage"
+					stage: "rol_dps"
+				}
+			]
+			rewards: [
+				{
+					id: "5127EFDA67AA3FCF"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 100"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "092491BBB1D74B05"
+			title: "Primeras bajas"
+			subtitle: "DPS · nivel 1"
+			description: [
+				"Un DPS cuenta sus bajas. Elimina mobs."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:clock"
+			x: 2.5d
+			y: 0.5d
+			dependencies: ["2BCC33F458089F22"]
+			tasks: [
+				{
+					id: "3D42DA604E14714A"
+					type: "stat"
+					stat: "minecraft:mob_kills"
+					value: 100
+				}
+			]
+			rewards: [
+				{
+					id: "663D3B7AC180A8C1"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 150"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "77E94E73D3121A69"
+					type: "command"
+					command: "/rol recompensa dps 1 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "40A16DFA54026B9F"
+			title: "Daño constante"
+			subtitle: "DPS · nivel 2"
+			description: [
+				"Acumula daño infligido."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:clock"
+			x: 4.5d
+			y: 0.5d
+			dependencies: ["092491BBB1D74B05"]
+			tasks: [
+				{
+					id: "05A1FD675BA449D9"
+					type: "stat"
+					stat: "minecraft:damage_dealt"
+					value: 2000
+				}
+			]
+			rewards: [
+				{
+					id: "62F214C6C649A03C"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 250"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "518A84E5BD4E138A"
+					type: "command"
+					command: "/rol recompensa dps 2 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "7322931EDC4D2F5E"
+			title: "Fuego contra fuego"
+			subtitle: "DPS · nivel 3"
+			description: [
+				"Los blazes protegen las fortalezas. Derrota a 15."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:iron_sword"
+			x: 6.5d
+			y: 0.5d
+			dependencies: ["40A16DFA54026B9F"]
+			tasks: [
+				{
+					id: "291528EA280F8286"
+					type: "kill"
+					entity: "minecraft:blaze"
+					value: 15L
+				}
+			]
+			rewards: [
+				{
+					id: "128C4A19C88A2960"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 350"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "6BD7078C3E92E20C"
+					type: "command"
+					command: "/rol recompensa dps 3 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "26514A5BBB5610D7"
+			title: "Máquina de matar"
+			subtitle: "DPS · nivel 4"
+			description: [
+				"Mucho más daño acumulado."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:clock"
+			x: 8.5d
+			y: 0.5d
+			dependencies: ["7322931EDC4D2F5E"]
+			tasks: [
+				{
+					id: "56984B14867956C4"
+					type: "stat"
+					stat: "minecraft:damage_dealt"
+					value: 10000
+				}
+			]
+			rewards: [
+				{
+					id: "5ECDA9C1FB00F451"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 450"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "0942018FFF49D32D"
+					type: "command"
+					command: "/rol recompensa dps 4 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "0CC855B50BB43894"
+			title: "Huesos negros"
+			subtitle: "DPS · nivel 5"
+			description: [
+				"Los esqueletos wither son rápidos y letales. Elimina a 20."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:iron_sword"
+			x: 10.5d
+			y: 0.5d
+			dependencies: ["26514A5BBB5610D7"]
+			tasks: [
+				{
+					id: "2C81D458B7DB81F2"
+					type: "kill"
+					entity: "minecraft:wither_skeleton"
+					value: 20L
+				}
+			]
+			rewards: [
+				{
+					id: "008A39CF06103960"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 550"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "3BB1A99291250979"
+					type: "command"
+					command: "/rol recompensa dps 5 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "19D908E0A571B11F"
+			title: "Cazador de ojos"
+			subtitle: "DPS · nivel 6"
+			description: [
+				"Los endermen exigen precisión. Derrota a 30."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:iron_sword"
+			x: 12.5d
+			y: 0.5d
+			dependencies: ["0CC855B50BB43894"]
+			tasks: [
+				{
+					id: "11F650BCBEA3D044"
+					type: "kill"
+					entity: "minecraft:enderman"
+					value: 30L
+				}
+			]
+			rewards: [
+				{
+					id: "1BBA07169A2ED000"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 650"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "72FE0C0724199697"
+					type: "command"
+					command: "/rol recompensa dps 6 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "7F07015BEA95FC02"
+			title: "Tormenta de acero"
+			subtitle: "DPS · nivel 7"
+			description: [
+				"Una cifra de daño de leyenda."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:clock"
+			x: 14.5d
+			y: 0.5d
+			dependencies: ["19D908E0A571B11F"]
+			tasks: [
+				{
+					id: "09DD4659919869E1"
+					type: "stat"
+					stat: "minecraft:damage_dealt"
+					value: 50000
+				}
+			]
+			rewards: [
+				{
+					id: "29BC6259618EB628"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 750"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "0CAB739937F16C77"
+					type: "command"
+					command: "/rol recompensa dps 7 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "646026D51BC7B0D5"
+			title: "Verdugo"
+			subtitle: "DPS · nivel 8"
+			description: [
+				"Demuestra tu potencia contra el Wither."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:iron_sword"
+			x: 16.5d
+			y: 0.5d
+			dependencies: ["7F07015BEA95FC02"]
+			tasks: [
+				{
+					id: "0F6AE7DCAA4C596A"
+					type: "kill"
+					entity: "minecraft:wither"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "5C82751433EEE539"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 850"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "1445D62259A8C734"
+					type: "command"
+					command: "/rol recompensa dps 8 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+	]
+}

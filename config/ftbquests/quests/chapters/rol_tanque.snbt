@@ -1,0 +1,364 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rol_tanque"
+	group: "5677092D8B6DEB7B"
+	title: "Rol: Tanque"
+	subtitle: ["Misiones del Tanque"]
+	icon: "minecraft:shield"
+	id: "5B3CF9407B212762"
+	order_index: 18
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3DE5EF79ECE55520"
+			title: "Juramento del Tanque"
+			subtitle: "Elige tu rol"
+			description: [
+				"El Tanque aguanta los golpes en primera línea para que el grupo pueda actuar. Este camino te da armaduras pesadas, escudos y mejoras de vida, armadura y resistencia al empuje."
+				""
+				"Habla con el maestro de rol de tu pueblo (junto a la plaza). Al confirmar el rol de Tanque, esta misión se completa sola (stage &6rol_tanque&r)."
+				""
+				"&cEl rol no se puede cambiar&r: solo podrás hacer las misiones de este capítulo."
+			]
+			icon: "minecraft:nether_star"
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["58586CCB7C53F57D"]
+			tasks: [
+				{
+					id: "6B85D5B5913236A4"
+					type: "stage"
+					stage: "rol_tanque"
+				}
+			]
+			rewards: [
+				{
+					id: "21DD937E58B9E4FD"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 100"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "460A0C2A64254116"
+			title: "Primera línea"
+			subtitle: "Tanque · nivel 1"
+			description: [
+				"Un tanque se acostumbra a recibir golpes. Acumula daño recibido."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:clock"
+			x: 2.5d
+			y: 0.5d
+			dependencies: ["3DE5EF79ECE55520"]
+			tasks: [
+				{
+					id: "4F77A6AC3FC29C7E"
+					type: "stat"
+					stat: "minecraft:damage_taken"
+					value: 500
+				}
+			]
+			rewards: [
+				{
+					id: "7AE32697CD957831"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 150"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "33BB52CD5418AE59"
+					type: "command"
+					command: "/rol recompensa tanque 1 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "60609283152CF8F8"
+			title: "Detrás del escudo"
+			subtitle: "Tanque · nivel 2"
+			description: [
+				"Bloquear es mejor que curarse. Bloquea daño con tu escudo."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:clock"
+			x: 4.5d
+			y: 0.5d
+			dependencies: ["460A0C2A64254116"]
+			tasks: [
+				{
+					id: "21AAFAB61D57D8E6"
+					type: "stat"
+					stat: "minecraft:damage_blocked_by_shield"
+					value: 300
+				}
+			]
+			rewards: [
+				{
+					id: "3A1835E3531EA781"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 250"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "6B4B50C9A371E5D0"
+					type: "command"
+					command: "/rol recompensa tanque 2 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "2076B60899DF7B98"
+			title: "Contra los saqueadores"
+			subtitle: "Tanque · nivel 3"
+			description: [
+				"Los saqueadores atacan en grupo. Elimina a 12 sin retroceder."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:iron_sword"
+			x: 6.5d
+			y: 0.5d
+			dependencies: ["60609283152CF8F8"]
+			tasks: [
+				{
+					id: "123208C065220767"
+					type: "kill"
+					entity: "minecraft:pillager"
+					value: 12L
+				}
+			]
+			rewards: [
+				{
+					id: "208951530E134490"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 350"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "389217BAE888C1D8"
+					type: "command"
+					command: "/rol recompensa tanque 3 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "79A4118E6640D7F9"
+			title: "Piel de roca"
+			subtitle: "Tanque · nivel 4"
+			description: [
+				"Resiste un volumen de daño mucho mayor."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:clock"
+			x: 8.5d
+			y: 0.5d
+			dependencies: ["2076B60899DF7B98"]
+			tasks: [
+				{
+					id: "61359CAFBADF1F4D"
+					type: "stat"
+					stat: "minecraft:damage_taken"
+					value: 3000
+				}
+			]
+			rewards: [
+				{
+					id: "2840F47B8501E46A"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 450"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "0A731351771B652C"
+					type: "command"
+					command: "/rol recompensa tanque 4 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "1651DD3611658DB7"
+			title: "Muro del Nether"
+			subtitle: "Tanque · nivel 5"
+			description: [
+				"Bloquea más daño y derrota esqueletos del Nether, que golpean fuerte."
+				""
+				"Eliminar a 10 esqueletos wither."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:clock"
+			x: 10.5d
+			y: 0.5d
+			dependencies: ["79A4118E6640D7F9"]
+			tasks: [
+				{
+					id: "29DBC85C5123DD7A"
+					type: "stat"
+					stat: "minecraft:damage_blocked_by_shield"
+					value: 2000
+				}
+				{
+					id: "61F5C42303C68AD1"
+					type: "kill"
+					entity: "minecraft:wither_skeleton"
+					value: 10L
+				}
+			]
+			rewards: [
+				{
+					id: "64DCCD7D191D6DE9"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 550"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "2698C9AC3A946862"
+					type: "command"
+					command: "/rol recompensa tanque 5 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "7DB8503D9AF70F8B"
+			title: "Rompe la carga"
+			subtitle: "Tanque · nivel 6"
+			description: [
+				"Los vindicadores cargan con hacha. Derrota a 15."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:iron_sword"
+			x: 12.5d
+			y: 0.5d
+			dependencies: ["1651DD3611658DB7"]
+			tasks: [
+				{
+					id: "5A5AECBF38401C00"
+					type: "kill"
+					entity: "minecraft:vindicator"
+					value: 15L
+				}
+			]
+			rewards: [
+				{
+					id: "614D8968AAF8C030"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 650"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "01F921021A994AAC"
+					type: "command"
+					command: "/rol recompensa tanque 6 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "1563508C1ECD0761"
+			title: "Inamovible"
+			subtitle: "Tanque · nivel 7"
+			description: [
+				"Resiste y bloquea de forma sostenida."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:clock"
+			x: 14.5d
+			y: 0.5d
+			dependencies: ["7DB8503D9AF70F8B"]
+			tasks: [
+				{
+					id: "4FEE1589BB5010C0"
+					type: "stat"
+					stat: "minecraft:damage_taken"
+					value: 8000
+				}
+				{
+					id: "458E98D057FEC222"
+					type: "stat"
+					stat: "minecraft:damage_blocked_by_shield"
+					value: 5000
+				}
+			]
+			rewards: [
+				{
+					id: "43A5F7663EFFECB5"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 750"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "4D8FCE2E1792502B"
+					type: "command"
+					command: "/rol recompensa tanque 7 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "65AFCD467BCD84D9"
+			title: "El guardián final"
+			subtitle: "Tanque · nivel 8"
+			description: [
+				"Un tanque de verdad se planta ante el peor enemigo del Overworld. Derrota al Wither."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+			]
+			icon: "minecraft:iron_sword"
+			x: 16.5d
+			y: 0.5d
+			dependencies: ["1563508C1ECD0761"]
+			tasks: [
+				{
+					id: "238E287C6077C852"
+					type: "kill"
+					entity: "minecraft:wither"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "64F726614D5F35EF"
+					type: "command"
+					command: "/puffish_skills experience add {p} habilidades 850"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "4DEA3832CB1045F6"
+					type: "command"
+					command: "/rol recompensa tanque 8 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+	]
+}

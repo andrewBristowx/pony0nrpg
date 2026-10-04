@@ -10,6 +10,7 @@ set -euo pipefail
 REPO="$(cd "$(dirname "$0")/.." && pwd)"
 DIR="${1:-/tmp/pony-mini}"
 TEST="${2:-$REPO/tools/test/zz_test.js}"
+TEST="$(cd "$(dirname "$TEST")" && pwd)/$(basename "$TEST")"   # ruta absoluta (luego se cambia de carpeta)
 FORGE_VER="$(sed -n 's/^forge *= *"\(.*\)"/\1/p' "$REPO/pack.toml")"
 FORGE="1.20.1-$FORGE_VER"
 [ "${ACEPTO_EULA:-}" = "1" ] || { echo "Pon ACEPTO_EULA=1 para aceptar la EULA de Mojang en el servidor de prueba."; exit 1; }

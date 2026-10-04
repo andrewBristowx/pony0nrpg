@@ -27,8 +27,15 @@ const ROL_INFO = {
   soporte: { maestro: 'Intendente', cargo: 'Maestro de Soporte', desc: 'Apoyo: potencias al grupo con provisiones, herramientas, movilidad y utilidades. Mejoras: velocidad, suerte y resistencia.' },
 };
 
+/** envia un mensaje al jugador (con eco al log si global.TEST_ECO, para las pruebas de tools/test-kubejs.sh) */
+function decir(p, componente) {
+  p.tell(componente);
+  if (global.TEST_ECO) console.info('[eco ' + p.username + '] ' + componente.getString());
+}
+
 // ---- clase y rol del jugador -----------------------------------------------------------------------------------------
 function claseDe(p) {
+  if (global.TEST_CLASE) return global.TEST_CLASE;   // solo lo pone tools/test: en produccion es undefined
   for (var i = 0; i < CLASES.length; i++) if (p.stages.has('origen_' + CLASES[i])) return CLASES[i];
   return null;
 }
@@ -39,8 +46,7 @@ const lista = (ids) => ids.map(nombreRol).join(' o ');
 // ---- recompensas por clase, rol y nivel ------------------------------------------------------------------------------
 // RECOMPENSAS[rol][clase][nivel] = [ [id, cantidad], ... ]      MEJORAS[rol][nivel] = [ [atributo, cantidad, operacion], ... ]
 // Nivel 0 = kit de inicio al confirmar el rol; niveles 1..N = una por mision del capitulo de ese rol. Las mejoras son acumulativas.
-const RECOMPENSAS = global.RECOMPENSAS_ROL || {};
-const MEJORAS = global.MEJORAS_ROL || {};
+// (las tablas viven en gremio_roles_tabla.js y se leen al usarlas: no depende del orden de carga de los scripts)
 
 /** UUID determinista a partir de una clave (para que cada mejora de atributo tenga el suyo y no se duplique) */
 function uuidDe(clave) {
@@ -52,24 +58,39 @@ function uuidDe(clave) {
   return x.slice(0, 8) + '-' + x.slice(8, 12) + '-' + x.slice(12, 16) + '-' + x.slice(16, 20) + '-' + x.slice(20, 32);
 }
 
+/** pergamino de Iron's Spells con un hechizo (API del propio mod; si falla, devuelve ItemStack vacio) */
+function crearScroll(hechizo, nivel) {
+  var stack = Item.of('irons_spellbooks:scroll');
+  try {
+    var Registro = Java.loadClass('io.redspace.ironsspellbooks.api.registry.SpellRegistry');
+    var Contenedor = Java.loadClass('io.redspace.ironsspellbooks.api.spells.ISpellContainer');
+    var spell = Registro.getSpell(hechizo);
+    Contenedor.set(stack, Contenedor.createScrollContainer(spell, nivel, stack));
+  } catch (e) { console.error('[roles] no se pudo crear el pergamino ' + hechizo + ': ' + e); return Item.of('minecraft:air'); }
+  return stack;
+}
+
 function darRecompensa(p, rol, nivel) {
   var clase = claseDe(p);
-  var items = (RECOMPENSAS[rol] && RECOMPENSAS[rol][clase] && RECOMPENSAS[rol][clase][nivel]) || [];
+  var tabla = global.RECOMPENSAS_ROL || {}, mejorasTabla = global.MEJORAS_ROL || {};
+  var items = (tabla[rol] && tabla[rol][clase] && tabla[rol][clase][nivel]) || [];
   var dados = [];
   items.forEach((it) => {
-    var stack = it[2] ? Item.of(it[0], it[1], it[2]) : Item.of(it[0], it[1]);
-    if (stack.isEmpty()) { console.error('[roles] objeto desconocido en RECOMPENSAS: ' + it[0]); return; }
+    // ['id', cantidad]  o  ['scroll', 'irons_spellbooks:hechizo', nivelDelHechizo]
+    var stack = it[0] === 'scroll' ? crearScroll(it[1], it[2] || 1) : Item.of(it[0], it[1]);
+    if (stack.isEmpty()) { console.error('[roles] objeto desconocido en RECOMPENSAS_ROL: ' + it[0] + ' ' + (it[1] || '')); return; }
     p.give(stack);
-    dados.push((it[1] > 1 ? it[1] + 'x ' : '') + stack.hoverName.string);
+    dados.push((stack.count > 1 ? stack.count + 'x ' : '') + stack.hoverName.string);
   });
-  var mejoras = (MEJORAS[rol] && MEJORAS[rol][nivel]) || [];
+  var porClase = mejorasTabla[rol] && (mejorasTabla[rol][clase] || mejorasTabla[rol]['*']);
+  var mejoras = (porClase && porClase[nivel]) || [];
   mejoras.forEach((m) => {
-    var op = m[2] || 'add';
-    p.server.runCommandSilent('attribute ' + p.username + ' ' + m[0] + ' modifier remove ' + uuidDe('rol:' + rol + ':' + nivel + ':' + m[0]));
-    p.server.runCommandSilent('attribute ' + p.username + ' ' + m[0] + ' modifier add ' + uuidDe('rol:' + rol + ':' + nivel + ':' + m[0]) + ' "rol_' + rol + '_' + nivel + '" ' + m[1] + ' ' + op);
+    var uuid = uuidDe('rol:' + rol + ':' + nivel + ':' + m[0]);
+    p.server.runCommandSilent('attribute ' + p.username + ' ' + m[0] + ' modifier remove ' + uuid);   // idempotente: repetir la mision no acumula
+    p.server.runCommandSilent('attribute ' + p.username + ' ' + m[0] + ' modifier add ' + uuid + ' "rol_' + rol + '_' + nivel + '" ' + m[1] + ' ' + (m[2] || 'add'));
   });
-  if (dados.length) p.tell(Text.green('Recompensa de ' + nombreRol(rol) + ' (' + NOMBRE_CLASE[clase] + '): ').append(Text.white(dados.join(', '))));
-  if (mejoras.length) p.tell(Text.aqua('Mejora permanente de ' + nombreRol(rol) + ' aplicada.'));
+  if (dados.length) decir(p, Text.green('Recompensa de ' + nombreRol(rol) + ' (' + NOMBRE_CLASE[clase] + '): ').append(Text.white(dados.join(', '))));
+  if (mejoras.length) decir(p, Text.aqua('Mejora permanente de ' + nombreRol(rol) + ' aplicada.'));
 }
 
 // ---- maestros de rol (NPC de Easy NPC) ---------------------------------------------------------------------------------
@@ -90,7 +111,7 @@ global.npcRolSnbt = (rol) => {
   return '{Tags:["pony0n_rol_npc","pony0n_rol_' + rol + '"],CustomName:\'' + nombre.replace(/'/g, "\\'") + '\',CustomNameVisible:1b,Invulnerable:1b,PersistenceRequired:1b,'
     + 'ArmorItems:[' + armor + '],HandItems:[' + stackSnbt(d.mano[0]) + ',' + stackSnbt(d.mano[1]) + '],'
     + 'Attributes:[{Name:"minecraft:generic.movement_speed",Base:0.0d},{Name:"minecraft:generic.knockback_resistance",Base:1.0d}],'
-    + 'EasyNPCVersion:3,SkinData:{Name:"' + d.skin + '"},VariantType:"' + d.skin + '",'
+    + 'Rotation:[180.0f,0.0f],EasyNPCVersion:3,SkinData:{Name:"' + d.skin + '"},VariantType:"' + d.skin + '",'
     + 'ObjectiveData:{HasObjectives:1b,ObjectiveDataSet:[{Type:"LOOK_AT_PLAYER"}]},'
     + 'ActionData:{ActionEventSet:{ON_INTERACTION:[{Cmd:"/rol hablar ' + rol + ' @initiator",Type:"COMMAND"}]}}}';
 };
@@ -102,31 +123,31 @@ function hablar(p, rol) {
   var info = ROL_INFO[rol], clase = claseDe(p), actual = global.rolDe(p);
   var cab = global.ROLES[rol].color('[' + info.maestro + '] ');
   if (actual) {
-    if (actual === rol) p.tell(cab.append(Text.white('Ya recorres el camino del ' + nombreRol(rol) + '. Abre el libro de misiones: el capítulo de tu rol te guía y te da mejores equipos y mejoras.')));
-    else p.tell(cab.append(Text.white('Elegiste el camino del ' + nombreRol(actual) + ' y no se puede cambiar. Tus misiones están en su capítulo.')));
+    if (actual === rol) decir(p, cab.append(Text.white('Ya recorres el camino del ' + nombreRol(rol) + '. Abre el libro de misiones: el capítulo de tu rol te guía y te da mejores equipos y mejoras.')));
+    else decir(p, cab.append(Text.white('Elegiste el camino del ' + nombreRol(actual) + ' y no se puede cambiar. Tus misiones están en su capítulo.')));
     return;
   }
-  if (!clase) { p.tell(cab.append(Text.white('Primero elige tu clase (Guerrero, Arquero, Mago, Asesino o Ingeniero). Vuelve cuando la tengas.'))); return; }
+  if (!clase) { decir(p, cab.append(Text.white('Primero elige tu clase (Guerrero, Arquero, Mago, Asesino o Ingeniero). Vuelve cuando la tengas.'))); return; }
   var permitidos = rolesPermitidos(clase);
   if (permitidos.indexOf(rol) < 0) {
-    p.tell(cab.append(Text.white('Un ' + NOMBRE_CLASE[clase] + ' no puede ser ' + nombreRol(rol) + '. Tu clase puede ser: ' + lista(permitidos) + '. Busca al maestro de ese rol.')));
+    decir(p, cab.append(Text.white('Un ' + NOMBRE_CLASE[clase] + ' no puede ser ' + nombreRol(rol) + '. Tu clase puede ser: ' + lista(permitidos) + '. Busca al maestro de ese rol.')));
     return;
   }
   p.persistentData.putString('rolPropuesto', rol);
-  p.tell(cab.append(Text.white(info.desc)));
-  p.tell(Text.yellow('¿Seguro que quieres ser ').append(global.ROLES[rol].color(nombreRol(rol))).append(Text.yellow('? ')).append(Text.red('NO PODRÁS CAMBIARLO')).append(Text.yellow(' y solo podrás hacer sus misiones. ')));
-  p.tell(Text.green('[CONFIRMAR]').bold().clickRunCommand('/rol confirmar ' + rol).hover(Text.of('Elegir ' + nombreRol(rol) + ' para siempre'))
+  decir(p, cab.append(Text.white(info.desc)));
+  decir(p, Text.yellow('¿Seguro que quieres ser ').append(global.ROLES[rol].color(nombreRol(rol))).append(Text.yellow('? ')).append(Text.red('NO PODRÁS CAMBIARLO')).append(Text.yellow(' y solo podrás hacer sus misiones. ')));
+  decir(p, Text.green('[CONFIRMAR]').bold().clickRunCommand('/rol confirmar ' + rol).hover(Text.of('Elegir ' + nombreRol(rol) + ' para siempre'))
     .append(Text.of('   ')).append(Text.gray('[Pensarlo]').hover(Text.of('Cierra el dialogo; vuelve a hablar con el maestro cuando quieras'))));
 }
 
 function confirmar(p, rol) {
-  if (global.rolDe(p)) { p.tell(Text.red('Ya tienes un rol y no se puede cambiar.')); return 0; }
-  if (String(p.persistentData.getString('rolPropuesto')) !== rol) { p.tell(Text.red('Habla primero con el maestro de ese rol.')); return 0; }
+  if (global.rolDe(p)) { decir(p, Text.red('Ya tienes un rol y no se puede cambiar.')); return 0; }
+  if (String(p.persistentData.getString('rolPropuesto')) !== rol) { decir(p, Text.red('Habla primero con el maestro de ese rol.')); return 0; }
   var clase = claseDe(p);
-  if (!clase || rolesPermitidos(clase).indexOf(rol) < 0) { p.tell(Text.red('Tu clase no puede elegir ese rol.')); return 0; }
+  if (!clase || rolesPermitidos(clase).indexOf(rol) < 0) { decir(p, Text.red('Tu clase no puede elegir ese rol.')); return 0; }
   p.persistentData.remove('rolPropuesto');
   p.stages.add('rol_' + rol);
-  p.tell(Text.green('¡Ahora eres ').append(global.ROLES[rol].color(nombreRol(rol))).append(Text.green('! Abre el libro de misiones (capítulo de tu rol) para progresar.')));
+  decir(p, Text.green('¡Ahora eres ').append(global.ROLES[rol].color(nombreRol(rol))).append(Text.green('! Abre el libro de misiones (capítulo de tu rol) para progresar.')));
   p.server.tell(Text.empty().append(Text.of('')).append(Text.gray('')).append(Text.yellow(p.username + ' ha elegido el camino del ')).append(global.ROLES[rol].color(nombreRol(rol))).append(Text.yellow('.')));
   darRecompensa(p, rol, 0);
   if (global.refrescarGremio) global.refrescarGremio(p);
@@ -146,9 +167,9 @@ ServerEvents.commandRegistry((event) => {
       const p = soloJugador(ctx);
       if (!p) return 0;
       const r = global.rolDe(p), c = claseDe(p);
-      if (r) p.tell(Text.of('Tu rol: ').append(global.ROLES[r].color(nombreRol(r))).append(Text.of(' (' + (c ? NOMBRE_CLASE[c] : 'sin clase') + ')')));
-      else if (c) p.tell(Text.of('Aún no tienes rol. Como ' + NOMBRE_CLASE[c] + ' puedes ser: ' + lista(rolesPermitidos(c)) + '. Habla con el maestro de rol de tu pueblo.'));
-      else p.tell(Text.of('Elige primero tu clase; después podrás elegir un rol con los maestros de tu pueblo.'));
+      if (r) decir(p, Text.of('Tu rol: ').append(global.ROLES[r].color(nombreRol(r))).append(Text.of(' (' + (c ? NOMBRE_CLASE[c] : 'sin clase') + ')')));
+      else if (c) decir(p, Text.of('Aún no tienes rol. Como ' + NOMBRE_CLASE[c] + ' puedes ser: ' + lista(rolesPermitidos(c)) + '. Habla con el maestro de rol de tu pueblo.'));
+      else decir(p, Text.of('Elige primero tu clase; después podrás elegir un rol con los maestros de tu pueblo.'));
       return 1;
     })
     .then(Commands.literal('hablar')
@@ -196,3 +217,5 @@ ServerEvents.commandRegistry((event) => {
         return 1;
       })));
 });
+
+global.rolSistema = { hablar: hablar, confirmar: confirmar, darRecompensa: darRecompensa, claseDe: claseDe };   // expuesto para pruebas
