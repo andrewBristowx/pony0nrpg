@@ -1,7 +1,7 @@
 // Gremios, regiones y modo guerra (docs/07-gremios-regiones-guerra.md).
 //  - 4 gremios = 4 cuadrantes del mapa alrededor de (0, 0), más una zona neutral central.
 //  - Elegir gremio (capa de Origins pony0n:gremio) ejecuta /gremio unir: stage, equipo de FTB Teams, región y reaparición.
-//  - En paz nadie sale de su región (salvo operadores); en guerra se quitan los límites y se permite PvP entre gremios.
+//  - En paz nadie sale de su región (salvo operadores; quien entra en otra vuelve a la plaza de su pueblo); en guerra se quitan los límites y se permite PvP entre gremios.
 //  - PvP: nunca dentro del mismo gremio; en el Overworld solo en guerra; en las demás dimensiones siempre entre gremios distintos.
 // Comandos (operador):  /guerra on | off | estado     /gremio unir <gremio> <jugador>
 //   /pueblo estado | colocar <gremio|bazar|todos> | ir <gremio|bazar>     /limite ir <gremio|norte|sur|este|oeste>
@@ -384,11 +384,16 @@ PlayerEvents.tick((event) => {
   const sx = x < 0 ? -1 : 1, sz = z < 0 ? -1 : 1;
   if (sx === g.sx && sz === g.sz) return;          // su región
 
-  // devolverlo al borde de su propia región (a 5 bloques de la línea)
-  const tx = sx === g.sx ? x : g.sx * 5;
-  const tz = sz === g.sz ? z : g.sz * 5;
-  p.server.runCommandSilent('execute as ' + p.username + ' in minecraft:overworld run spreadplayers ' + Math.round(tx) + ' ' + Math.round(tz) + ' 0 3 false @s');
-  p.setStatusMessage(Text.red('Territorio de otro gremio: no puedes entrar en tiempos de paz.'));
+  // devolverlo a la plaza de su pueblo; si aún no está colocado, al borde de su propia región (a 5 bloques de la línea)
+  const sp = puebloSpawn(p.server, id);
+  if (sp) {
+    p.server.runCommandSilent('execute in minecraft:overworld run tp ' + p.username + ' ' + sp.x + ' ' + sp.y + ' ' + sp.z);
+  } else {
+    const tx = sx === g.sx ? x : g.sx * 5;
+    const tz = sz === g.sz ? z : g.sz * 5;
+    p.server.runCommandSilent('execute as ' + p.username + ' in minecraft:overworld run spreadplayers ' + Math.round(tx) + ' ' + Math.round(tz) + ' 0 3 false @s');
+  }
+  p.setStatusMessage(Text.red('Territorio de otro gremio: no puedes entrar en tiempos de paz. Vuelves a tu pueblo.'));
 });
 
 // ---- PvP -------------------------------------------------------------------------------------------------------

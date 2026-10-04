@@ -1170,7 +1170,7 @@ hash = "0fc331847426e183a313ee71a7ff76705108208e9e36db966282a1c8d061648e"
 
 [[files]]
 file = "kubejs/server_scripts/gremios.js"
-hash = "6a63248c4ba380e2aeaa21728669e54f9109296b0bc5a96b79a842b6dec96ae8"
+hash = "d68b19456de5b59e31c55eb200ffb4317c5cf92c669b4cc122694103c13e2b45"
 
 [[files]]
 file = "kubejs/server_scripts/sin_mobs_de_mods.js"
