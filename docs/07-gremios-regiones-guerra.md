@@ -130,3 +130,11 @@ No afecta a invocaciones, huevos, spawners ni a las demás dimensiones. Lista de
 - `/pueblo ir <gremio|bazar>` teletransporta a la plaza; `/pueblo estado` muestra las coordenadas. `/limite ir <gremio|norte|sur|este|oeste>` lleva al borde del mundo (a 10 bloques).
 - Pendiente de decidir: ¿PvP prohibido dentro del bazar aunque haya guerra? Hoy el bazar sigue las reglas generales (PvP solo en guerra).
 
+## 10. Chat de gremio y TAB (implementado)
+
+- **Nombre con etiqueta** en el chat, el TAB y sobre la cabeza: `[Slytheri0n] Nombre` (etiqueta en el color del gremio: verde, azul, amarillo, rojo). Sin gremio, solo el nombre. `startup_scripts/gremio_nombres.js` (colores en `GREMIO_ESTILO`).
+- **TAB**: cabecera "Servidor de Pony0n" y pie con los 4 gremios.
+- **Chat global** (por defecto) y **chat de gremio** (solo lo ven los del mismo gremio, todo en el color del gremio): `/gc <mensaje>`, `/g <mensaje>` (global) y `/chat gremio|global|estado` para elegir el chat por defecto. `server_scripts/gremio_chat.js`.
+- Nota de Rhino: dentro de un `try` no se puede usar `const`/`let` ("redeclaration of var"); se usa `var`.
+- Pendiente: rangos por nivel/misiones (Novato → Maestro) y roles de combate (Tanque, Sanador…) como segunda etiqueta.
+

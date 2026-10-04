@@ -349,6 +349,7 @@ ServerEvents.commandRegistry((event) => {
             }
             server.runCommandSilent('execute as ' + n + ' at ' + n + ' run spawnpoint @s ~ ~ ~');
 
+            if (global.refrescarGremio) global.refrescarGremio(player);   // etiqueta de gremio en chat y TAB (gremio_chat.js)
             player.tell(Text.gold('Ahora perteneces al gremio ' + g.nombre + '.'));
             if (!inTeam) player.tell(Text.yellow('No se pudo unirte a su equipo automáticamente; avisa a un administrador.'));
             return 1;
