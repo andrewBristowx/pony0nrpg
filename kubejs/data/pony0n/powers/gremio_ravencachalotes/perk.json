@@ -1,0 +1,17 @@
+{
+  "type": "origins:attribute",
+  "name": "Ingenio",
+  "description": "+50 de maná máximo y +5 % de poder de hechizo.",
+  "modifiers": [
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "operation": "addition",
+      "value": 50
+    },
+    {
+      "attribute": "irons_spellbooks:spell_power",
+      "operation": "multiply_base",
+      "value": 0.05
+    }
+  ]
+}

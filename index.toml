@@ -333,8 +333,296 @@ file = "kubejs/assets/medievalorigins/lang/es_es.json"
 hash = "a2df37fc0cf8740951eb9ad80ebff3adbeb847520c14a4ca357407e6c991d054"
 
 [[files]]
+file = "kubejs/data/apotheosis/forge/biome_modifier/boss_dungeon.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/apotheosis/forge/biome_modifier/boss_dungeon_2.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/apotheosis/forge/biome_modifier/boss_dungeon_2_deep.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/apotheosis/forge/biome_modifier/boss_dungeon_deep.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/apotheosis/forge/biome_modifier/rogue_spawner.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/apotheosis/forge/biome_modifier/rogue_spawner_deep.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/apotheosis/worldgen/structure_set/tower_leaf.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/apotheosis/worldgen/structure_set/tower_main.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/apotheosis/worldgen/structure_set/tower_sand.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/apotheosis/worldgen/structure_set/tower_spruce.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/ars_nouveau/worldgen/structure_set/wilden_den_set.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/artifacts/forge/biome_modifier/add_campsite.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/betterdungeons/worldgen/structure_set/skeleton_dungeons.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/betterdungeons/worldgen/structure_set/small_dungeons.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/betterdungeons/worldgen/structure_set/spider_dungeons.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/betterdungeons/worldgen/structure_set/zombie_dungeons.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/bosses_of_mass_destruction/worldgen/structure_set/gauntlet_arena.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/bosses_of_mass_destruction/worldgen/structure_set/lich_tower.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/bosses_of_mass_destruction/worldgen/structure_set/obsidilith_arena.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/bosses_of_mass_destruction/worldgen/structure_set/void_blossom.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/cataclysm/worldgen/structure_set/abandoned_structures.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/cataclysm/worldgen/structure_set/acropolis.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/cataclysm/worldgen/structure_set/amethyst_nest.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/cataclysm/worldgen/structure_set/ancient_factory.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/cataclysm/worldgen/structure_set/cursed_pyramid.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/cataclysm/worldgen/structure_set/desert_structures.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/cataclysm/worldgen/structure_set/frosted_prison.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/cataclysm/worldgen/structure_set/ruined_citadel.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/cataclysm/worldgen/structure_set/sunken_city.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/deeperdarker/worldgen/structure_set/ancient_temple.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/dungeoncrawl/worldgen/structure_set/dungeons.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/dungeons_arise/worldgen/structure_set/major_structures.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/dungeons_arise/worldgen/structure_set/minor_structures.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/iceandfire/forge/biome_modifier/iaf_features.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/iceandfire/forge/biome_modifier/iaf_mob_spawns.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/iceandfire/worldgen/structure_set/gorgon_temple.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/iceandfire/worldgen/structure_set/graveyard.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/iceandfire/worldgen/structure_set/mausoleum.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/idas_common.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/idas_ocean.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/idas_rare.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/idas_small.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/idas_underground.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/idas_underground_rare.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/worldgen/structure_set/ancient_battleground.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/worldgen/structure_set/catacombs.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/worldgen/structure_set/citadel.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/worldgen/structure_set/evoker_fort.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/worldgen/structure_set/ice_spider_den.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/worldgen/structure_set/impaled_icebreaker.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/worldgen/structure_set/mangrove_hut.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/worldgen/structure_set/mountain_tower.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/worldgen/structure_set/pyromancer_tower.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
 file = "kubejs/data/medievalorigins/origin_layers/magic_subclasses.json"
 hash = "5c6c166db3e21e42ff700a001712fa0cda156373503949abe3adf6b8cc92deaa"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/ancient_cities.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/buried_treasures.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/desert_pyramids.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/igloos.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/jungle_temples.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/mineshafts.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/ocean_monuments.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/ocean_ruins.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/pillager_outposts.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/ruined_portals.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/shipwrecks.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/swamp_huts.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/trail_ruins.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/villages.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/woodland_mansions.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/mowziesmobs/worldgen/structure_set/frostmaw_spawns.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/mowziesmobs/worldgen/structure_set/monasteries.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/mowziesmobs/worldgen/structure_set/umvuthana_groves.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/mowziesmobs/worldgen/structure_set/wrought_chambers.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
 
 [[files]]
 file = "kubejs/data/mythic/origins/djinn.json"
@@ -437,6 +725,86 @@ file = "kubejs/data/mythic/powers/wish_magic.json"
 hash = "ebbecb715dd5ed63e1d7ba09949deca1e964c6e4830de204bcf00c7dcf40d4a8"
 
 [[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/badlands_miner_outpost.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/bunker.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/conduit_ruin.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/creeping_crypt.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/desert_ruins.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/firewatch_towers.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/illager_camp.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/illager_hideout.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/jungle_ruins.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/mangrove_witch_hut.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/ruin_town.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/stray_fort.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/taverns.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/undead_crypt.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/underground_house.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/villages_jungle.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/villages_swamp.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/wells.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/wild_ruin.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/nova_structures/worldgen/structure_set/witch_villa.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
 file = "kubejs/data/origins/origin_layers/origin.json"
 hash = "cdace903603bc2fa747e54c99dacae592cd309d77a69ab4e133e74b9f19ced59"
 
@@ -445,12 +813,32 @@ file = "kubejs/data/pony0n/origin_layers/clase.json"
 hash = "e4c961ac0ea9eed850cb26c9aaada7b2dac68abca70c46e686e54f94614821c3"
 
 [[files]]
+file = "kubejs/data/pony0n/origin_layers/gremio.json"
+hash = "02b2693ada0e9c8f642df21093c19fbb81abc3480569e334544f5b3e734e94c0"
+
+[[files]]
 file = "kubejs/data/pony0n/origins/arquero.json"
 hash = "77e39cd90aa069a6fa7bc6e2b6ce90d68a42a6c505e9441f4dc4f373371a1b20"
 
 [[files]]
 file = "kubejs/data/pony0n/origins/asesino.json"
 hash = "85ce94061cfd78159fc6d22c4b87284f1ecf39075e7ef17afe9b7933c342e048"
+
+[[files]]
+file = "kubejs/data/pony0n/origins/gremio_huffleponyanos.json"
+hash = "71e146d28e8c93d438000f621bb03c4739480ccf89409c83d4d820c96663a05d"
+
+[[files]]
+file = "kubejs/data/pony0n/origins/gremio_ravencachalotes.json"
+hash = "1b50ac360bfe79949cd06c36d3a229832aecb26027dcb661c356500cefbd886c"
+
+[[files]]
+file = "kubejs/data/pony0n/origins/gremio_slytherion.json"
+hash = "0523057958180f909422045fef45668c265f6268d11753763ea2c276759e660f"
+
+[[files]]
+file = "kubejs/data/pony0n/origins/gremio_tuliondor.json"
+hash = "ce28ea925bcc3cfcf80ab926fdfceeed8a2f0fa3c89d62dbffa95818e8192f80"
 
 [[files]]
 file = "kubejs/data/pony0n/origins/guerrero.json"
@@ -499,6 +887,38 @@ hash = "4d3fa4dcbd997b2b6a2d6bf906f285064835f81d4001b8e9e6194cb3e497b909"
 [[files]]
 file = "kubejs/data/pony0n/powers/asesino/sin_armadura.json"
 hash = "bf8832af162659331d00af158f9d0853673a90bea4fe8850b038402cae390d3d"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/gremio_huffleponyanos/perk.json"
+hash = "9da8ff9a3bf50b1611754da68be80def1abeec4bb169aede33866cf85b11bcb7"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/gremio_huffleponyanos/unir.json"
+hash = "65918ba4b9f18bc2e9a104de4a6e3c2480bffd75e36a7b1542967057e1aa995d"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/gremio_ravencachalotes/perk.json"
+hash = "7a7fda7d408fc51efac429b6664ea18686cb5129074b67fed2f582592c2b491e"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/gremio_ravencachalotes/unir.json"
+hash = "83e32b1216dcf7ed8496ebe2643c7286a7273017b47284e57e4210a49ab3287b"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/gremio_slytherion/perk.json"
+hash = "79a13aa121a87794c3623052c21c6beafb3eddceaeb2588236f0e416685de75e"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/gremio_slytherion/unir.json"
+hash = "5c5d8119d9bbe3f085ccb05aa641b392ba1b20d27a53420e5f0e9ce5013e4f0e"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/gremio_tuliondor/perk.json"
+hash = "3e17cd63388c6e6e4b3e2ce379f71ba40cf5b03b5b291e543ba96591fccfbed9"
+
+[[files]]
+file = "kubejs/data/pony0n/powers/gremio_tuliondor/unir.json"
+hash = "be6447572e44ba20151f9b14592bcbacc10d0cad91b34dd10d7caac78cabae4b"
 
 [[files]]
 file = "kubejs/data/pony0n/powers/guerrero/furia.json"
@@ -563,6 +983,178 @@ hash = "451ba795f53842f38c82f92020d6a1aafa4f5abc55c8a9fc7945810d1eca75ca"
 [[files]]
 file = "kubejs/data/pony0n/structures/pueblo_tuliondor.nbt"
 hash = "e09ba0cb78ddc9bc6929b57a380a0d577d6bdafdc76be1a1e844a96e325feaea"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/badlands.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/dark_forest.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/deep.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/desert.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/icy.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/jungle.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/mushroom.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/ocean_cold.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/ocean_frozen.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/ocean_lukewarm.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/ocean_neutral.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/ocean_warm.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/snow.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/dungeons/swamp.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/wells/badlands.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/wells/cherry.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/wells/forest.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/wells/mossy_stone.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/wells/mushroom.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/forge/biome_modifier/wells/snow.json"
+hash = "dadbf21b18c54636de3ed840393b6c5ca05ec286f51a1e80208a80a9b362af1e"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/ancient_cities_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/bastions_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/cities_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/fortresses_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/igloos_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/mansions_mangrove.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/mansions_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/mineshafts_ocean.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/mineshafts_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/monuments_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/outposts_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/pyramids_mushroom.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/pyramids_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/ruins_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/temples_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/villages_mushroom.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/villages_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/repurposed_structures/worldgen/structure_set/witch_huts_overworld.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/structory/worldgen/structure_set/mid_rare_ruin.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/structory/worldgen/structure_set/old_manor.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/structory/worldgen/structure_set/outcast_villager.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/structory/worldgen/structure_set/ruin.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
+
+[[files]]
+file = "kubejs/data/structory/worldgen/structure_set/ruin_quiet.json"
+hash = "90eda849aea06f836b4ad93baff41bac6365a8dd0f584d8ded621d9d2c394229"
 
 [[files]]
 file = "kubejs/server_scripts/class_gating.js"

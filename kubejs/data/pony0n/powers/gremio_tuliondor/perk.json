@@ -1,0 +1,17 @@
+{
+  "type": "origins:attribute",
+  "name": "Valor",
+  "description": "+5 % de daño de ataque y +10 % de resistencia al empuje.",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "multiply_base",
+      "value": 0.05
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "operation": "addition",
+      "value": 0.1
+    }
+  ]
+}

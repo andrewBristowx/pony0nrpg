@@ -1,0 +1,17 @@
+{
+  "order": -10,
+  "enabled": true,
+  "name": "Gremio",
+  "missing_name": "Gremio",
+  "missing_description": "Elige un gremio",
+  "origins": [
+    "pony0n:gremio_slytherion",
+    "pony0n:gremio_ravencachalotes",
+    "pony0n:gremio_huffleponyanos",
+    "pony0n:gremio_tuliondor"
+  ],
+  "gui_title": {
+    "view_origin": "Tu gremio",
+    "choose_origin": "Elige tu gremio"
+  }
+}

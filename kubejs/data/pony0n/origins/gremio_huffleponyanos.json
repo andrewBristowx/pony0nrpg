@@ -1,0 +1,13 @@
+{
+  "name": "Huffleponyanos",
+  "description": "Lealtad y trabajo duro. Los Huffleponyanos cuidan de su gente y resisten más. Su región es el suroeste del mapa.",
+  "icon": {
+    "item": "minecraft:yellow_banner"
+  },
+  "impact": 1,
+  "order": 3,
+  "powers": [
+    "pony0n:gremio_huffleponyanos/perk",
+    "pony0n:gremio_huffleponyanos/unir"
+  ]
+}

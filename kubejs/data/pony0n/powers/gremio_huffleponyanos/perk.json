@@ -1,0 +1,17 @@
+{
+  "type": "origins:attribute",
+  "name": "Lealtad",
+  "description": "+1 corazón y +5 % de curación recibida.",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "operation": "addition",
+      "value": 2
+    },
+    {
+      "attribute": "attributeslib:healing_received",
+      "operation": "addition",
+      "value": 0.05
+    }
+  ]
+}

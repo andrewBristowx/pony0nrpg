@@ -1,0 +1,13 @@
+{
+  "name": "Slytheri0n",
+  "description": "Ambición y astucia. Los Slytheri0n aprenden más de todo lo que hacen. Su región es el noroeste del mapa.",
+  "icon": {
+    "item": "minecraft:green_banner"
+  },
+  "impact": 1,
+  "order": 1,
+  "powers": [
+    "pony0n:gremio_slytherion/perk",
+    "pony0n:gremio_slytherion/unir"
+  ]
+}

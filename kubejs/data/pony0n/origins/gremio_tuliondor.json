@@ -1,0 +1,13 @@
+{
+  "name": "Tuliondor",
+  "description": "Valor y honor. Los Tuliondor golpean primero y no retroceden. Su región es el sureste del mapa.",
+  "icon": {
+    "item": "minecraft:red_banner"
+  },
+  "impact": 1,
+  "order": 4,
+  "powers": [
+    "pony0n:gremio_tuliondor/perk",
+    "pony0n:gremio_tuliondor/unir"
+  ]
+}
