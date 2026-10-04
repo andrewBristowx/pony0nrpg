@@ -80,57 +80,36 @@ function rellenar(run, x1, z1, x2, z2, y1, y2, bloque, reemplazo) {
     run('fill ' + x1 + ' ' + y + ' ' + z1 + ' ' + x2 + ' ' + Math.min(y + alto - 1, y2) + ' ' + z2 + ' ' + bloque + (reemplazo ? ' replace ' + reemplazo : ''));
 }
 
-/** altura natural del terreno en (x,z) sin generar el chunk: [superficie (con agua), fondo] */
-function alturasNaturales(level, x, z) {
-  const Heightmap = Java.loadClass('net.minecraft.world.level.levelgen.Heightmap');
-  const gen = level.getChunkSource().getGenerator(), rs = level.getChunkSource().randomState();
-  return [gen.getBaseHeight(x, z, Heightmap.Types.WORLD_SURFACE_WG, level, rs), gen.getBaseHeight(x, z, Heightmap.Types.OCEAN_FLOOR_WG, level, rs)];
+/** ¿el punto es tierra firme apta para un pueblo? Solo mira el BIOMA (barato). NO usar ChunkGenerator.getBaseHeight: cada llamada construye un
+ *  NoiseChunk entero y en este pack (muchas funciones de densidad) tarda cientos de ms; ~180 llamadas en un tick colgaron el servidor (crash 17:36). */
+const BIOMAS_NO_APTOS = /ocean|river|beach|shore|peak|mountain|slope|jagged|stony|windswept|badlands|swamp|mangrove|lake|cave|lush|dripstone|deep_dark|void/;
+function biomaApto(level, gen, rs, x, z) {
+  const bioma = String(gen.getBiomeSource().getNoiseBiome(x >> 2, 16, z >> 2, rs.sampler()).unwrapKey().get().location());
+  return !BIOMAS_NO_APTOS.test(bioma);
 }
 
-/** puntúa un sitio (menor = mejor): desnivel + agua. Muestrea una cuadrícula de n x n con separación paso */
-function puntuarSitio(level, cx, cz, n, paso) {
-  var min = 999, max = -999, agua = 0, mitad = (n - 1) / 2;
-  for (var i = 0; i < n; i++) for (var j = 0; j < n; j++) {
-    var h = alturasNaturales(level, cx + (i - mitad) * paso, cz + (j - mitad) * paso);
-    if (h[0] - h[1] >= 2 || h[0] <= 62) agua++;            // agua encima del fondo, o terreno bajo el nivel del mar
-    if (h[0] < min) min = h[0];
-    if (h[0] > max) max = h[0];
-  }
-  return { puntos: (max - min) + agua * 8, rango: max - min, agua: agua };
-}
-
-/** busca en TODA la región del gremio el sitio más llano y seco para un pueblo de PUEBLO_LADO (con rampa); prefiere los cercanos a (±PUEBLO, ±PUEBLO).
- *  La búsqueda se reparte en varios ticks (unos pocos sitios por tick) para no bloquear el servidor; al terminar llama a alTerminar(mejor). */
+/** busca en la región del gremio el sitio de tierra firme (3x3 puntos separados 56 bloques, todos de bioma apto) más cercano a (±PUEBLO, ±PUEBLO).
+ *  Los candidatos se prueban por tramos (unos pocos por tick); al terminar llama a alTerminar(sitio). Si ninguno sirve, usa (±PUEBLO, ±PUEBLO). */
 function elegirSitio(server, level, id, alTerminar) {
   const g = GREMIOS[id];
-  var mejor = null;
-  function probar(cx, cz, n, paso) {
-    var p = puntuarSitio(level, cx, cz, n, paso);
-    var total = p.puntos + (Math.abs(Math.abs(cx) - PUEBLO) + Math.abs(Math.abs(cz) - PUEBLO)) * 0.004;
-    if (mejor === null || total < mejor.total) mejor = { cx: cx, cz: cz, total: total, rango: p.rango, agua: p.agua };
+  const gen = level.getChunkSource().getGenerator(), rs = level.getChunkSource().randomState();
+  const candidatos = [];
+  for (var ax = 260; ax <= 2800; ax += 60) for (var az = 260; az <= 2800; az += 60) {
+    candidatos.push({ cx: g.sx * ax, cz: g.sz * az, d: Math.abs(ax - PUEBLO) + Math.abs(az - PUEBLO) });
   }
-  // por tramos: procesa lista[i..] a SITIOS_POR_TICK por tick y luego llama a siguiente()
-  function porTramos(lista, n, paso, porTick, siguiente) {
-    var i = 0;
-    (function tramo() {
-      var fin = Math.min(i + porTick, lista.length);
-      for (; i < fin; i++) probar(lista[i][0], lista[i][1], n, paso);
-      if (i < lista.length) server.scheduleInTicks(1, tramo); else siguiente();
-    })();
-  }
-  // búsqueda gruesa por toda la región (|x|,|z| entre 260 y 2800: fuera de la zona neutral y del borde)
-  const gruesa = [];
-  for (var ax = 260; ax <= 2800; ax += 100) for (var az = 260; az <= 2800; az += 100) gruesa.push([g.sx * ax, g.sz * az]);
-  porTramos(gruesa, 3, 56, 10, function () {
-    // refinado alrededor del mejor
-    const c0 = { x: mejor.cx, z: mejor.cz };
-    const fina = [];
-    for (var dx = -72; dx <= 72; dx += 24) for (var dz = -72; dz <= 72; dz += 24) {
-      var nx = c0.x + dx, nz = c0.z + dz;
-      if (Math.abs(nx) >= 260 && Math.abs(nx) <= 2800 && Math.abs(nz) >= 260 && Math.abs(nz) <= 2800) fina.push([nx, nz]);
+  candidatos.sort(function (p, q) { return p.d - q.d; });
+  var i = 0;
+  (function tramo() {
+    const fin = Math.min(i + 20, candidatos.length);
+    for (; i < fin; i++) {
+      var c = candidatos[i], ok = true;
+      for (var u = -1; u <= 1 && ok; u++) for (var v = -1; v <= 1 && ok; v++) ok = biomaApto(level, gen, rs, c.cx + u * 56, c.cz + v * 56);
+      if (ok) { alTerminar({ cx: c.cx, cz: c.cz, rango: 0, agua: 0 }); return; }
     }
-    porTramos(fina, 5, 32, 4, function () { alTerminar(mejor); });
-  });
+    if (i < candidatos.length) { server.scheduleInTicks(1, tramo); return; }
+    console.error('[gremios] ' + id + ': ningún sitio de tierra firme en la región; se usa (' + g.sx * PUEBLO + ', ' + g.sz * PUEBLO + ')');
+    alTerminar({ cx: g.sx * PUEBLO, cz: g.sz * PUEBLO, rango: 0, agua: 0 });
+  })();
 }
 
 /** quita un pueblo ya colocado (solo lo construido sobre el suelo) para poder volver a colocarlo */
@@ -237,7 +216,7 @@ function construirPueblo(server, level, run, id, s, ox, oz) {
   const pd = server.persistentData;
   pd.putInt('pueblo_' + id + '_x', ox); pd.putInt('pueblo_' + id + '_z', oz); pd.putInt('pueblo_' + id + '_y', ref);
   pd.putInt('pueblo_' + id + '_lado', PUEBLO_LADO); pd.putInt('pueblo_' + id + '_v', PUEBLO_VERSION);
-  console.info('[gremios] pueblo de ' + id + ' colocado en ' + ox + ',' + (ref - PUEBLO_SUELO) + ',' + oz + ' (desnivel ' + s.rango + ', columnas con agua ' + s.agua + ')');
+  console.info('[gremios] pueblo de ' + id + ' colocado en ' + ox + ',' + (ref - PUEBLO_SUELO) + ',' + oz + ' (suelo a y=' + ref + ')');
 }
 
 /** coloca uno detrás de otro (en serie) los pueblos de la lista */
