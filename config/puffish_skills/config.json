@@ -2,7 +2,11 @@
 	"version": 3,
 	"show_warnings": true,
 	"categories": [
-		"habilidades",
+		"habilidades_guerrero",
+		"habilidades_arquero",
+		"habilidades_mago",
+		"habilidades_ingeniero",
+		"habilidades_asesino",
 		"oficio_minero",
 		"oficio_lenador",
 		"oficio_granjero",

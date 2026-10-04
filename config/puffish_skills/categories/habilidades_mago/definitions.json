@@ -1,0 +1,2162 @@
+{
+	"mago_f1": {
+		"title": "Mago · Fundamentos I",
+		"description": [
+			{
+				"text": "Mago › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+25 Maná máximo\n",
+				"color": "green"
+			},
+			{
+				"text": "Equipo de Mago: Tier I",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lapis_lazuli"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s clase_mago",
+					"lock_command": "kubejs stages remove @s clase_mago"
+				}
+			}
+		]
+	},
+	"mago_f2": {
+		"title": "Mago · Fundamentos II",
+		"description": [
+			{
+				"text": "Mago › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1% Poder de hechizo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:amethyst_shard"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_f2s": {
+		"title": "Mago · Soporte",
+		"description": [
+			{
+				"text": "Mago › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+25 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:amethyst_shard"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_f3": {
+		"title": "Mente despierta",
+		"description": [
+			{
+				"text": "Mago › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+50 Maná máximo\n",
+				"color": "green"
+			},
+			{
+				"text": "+1% Poder de hechizo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:clock"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 50,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_f4": {
+		"title": "Mago · Fundamentos IV",
+		"description": [
+			{
+				"text": "Mago › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+25 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lapis_block"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_f5": {
+		"title": "Mago · Fundamentos V",
+		"description": [
+			{
+				"text": "Mago › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1% Poder de hechizo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:book"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_power",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_f5s": {
+		"title": "Mago · Soporte",
+		"description": [
+			{
+				"text": "Mago › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+25 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:book"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_f6": {
+		"title": "Canal arcano",
+		"description": [
+			{
+				"text": "Mago › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+50 Maná máximo\n",
+				"color": "green"
+			},
+			{
+				"text": "+1% Reducción de enfriamiento\n",
+				"color": "green"
+			},
+			{
+				"text": "Equipo de Mago: Tier II",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:enchanted_book"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 50,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.01,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_mago_2",
+					"lock_command": "kubejs stages remove @s maestria_mago_2"
+				}
+			}
+		]
+	},
+	"mago_piromancia_1": {
+		"title": "Piromancia I",
+		"description": [
+			{
+				"text": "Mago › Piromancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Poder de fuego",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blaze_powder"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_piromancia_2": {
+		"title": "Piromancia II",
+		"description": [
+			{
+				"text": "Mago › Piromancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+25 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:fire_charge"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_piromancia_s1": {
+		"title": "Piromancia · Apoyo",
+		"description": [
+			{
+				"text": "Mago › Piromancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+25 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blaze_rod"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_piromancia_3": {
+		"title": "Llama viva",
+		"description": [
+			{
+				"text": "Mago › Piromancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Poder de fuego\n",
+				"color": "green"
+			},
+			{
+				"text": "+25 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:magma_cream"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 0.06,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_piromancia_4": {
+		"title": "Piromancia IV",
+		"description": [
+			{
+				"text": "Mago › Piromancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Poder de fuego",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blaze_rod"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_piromancia_5": {
+		"title": "Piromancia V",
+		"description": [
+			{
+				"text": "Mago › Piromancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+25 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lava_bucket"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_piromancia_s2": {
+		"title": "Piromancia · Apoyo",
+		"description": [
+			{
+				"text": "Mago › Piromancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:fire_charge"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_piromancia_6": {
+		"title": "Combustión",
+		"description": [
+			{
+				"text": "Mago › Piromancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Poder de fuego\n",
+				"color": "green"
+			},
+			{
+				"text": "+2% Reducción de tiempo de lanzamiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blaze_powder"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 0.06,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cast_time_reduction",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_piromancia_7": {
+		"title": "Piromancia VII",
+		"description": [
+			{
+				"text": "Mago › Piromancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Poder de fuego",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:fire_charge"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_piromancia_8": {
+		"title": "Piromancia VIII",
+		"description": [
+			{
+				"text": "Mago › Piromancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+25 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:magma_cream"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_piromancia_s3": {
+		"title": "Piromancia · Apoyo",
+		"description": [
+			{
+				"text": "Mago › Piromancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+25 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lava_bucket"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_piromancia_9": {
+		"title": "Infierno",
+		"description": [
+			{
+				"text": "Mago › Piromancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Poder de fuego\n",
+				"color": "green"
+			},
+			{
+				"text": "+3% Poder de fuego",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blaze_rod"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 0.06,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_piromancia_10": {
+		"title": "Archipiromante",
+		"description": [
+			{
+				"text": "Mago › Piromancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+15% Poder de fuego\n",
+				"color": "green"
+			},
+			{
+				"text": "+100 Maná máximo\n",
+				"color": "green"
+			},
+			{
+				"text": "+5% Reducción de enfriamiento\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima de la Piromancia: el fuego te obedece.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Mago: Tier III",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lava_bucket"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 0.15,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 100,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_mago_3",
+					"lock_command": "kubejs stages remove @s maestria_mago_3"
+				}
+			}
+		],
+		"required_spent_points": 30
+	},
+	"mago_criomancia_1": {
+		"title": "Criomancia I",
+		"description": [
+			{
+				"text": "Mago › Criomancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Poder de hielo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:snowball"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_criomancia_2": {
+		"title": "Criomancia II",
+		"description": [
+			{
+				"text": "Mago › Criomancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+25 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:packed_ice"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_criomancia_s1": {
+		"title": "Criomancia · Apoyo",
+		"description": [
+			{
+				"text": "Mago › Criomancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+25 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:powder_snow_bucket"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_criomancia_3": {
+		"title": "Escarcha",
+		"description": [
+			{
+				"text": "Mago › Criomancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Poder de hielo\n",
+				"color": "green"
+			},
+			{
+				"text": "+25 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blue_ice"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 0.06,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_criomancia_4": {
+		"title": "Criomancia IV",
+		"description": [
+			{
+				"text": "Mago › Criomancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Poder de hielo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:powder_snow_bucket"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_criomancia_5": {
+		"title": "Criomancia V",
+		"description": [
+			{
+				"text": "Mago › Criomancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+25 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:prismarine_shard"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_criomancia_s2": {
+		"title": "Criomancia · Apoyo",
+		"description": [
+			{
+				"text": "Mago › Criomancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:packed_ice"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_criomancia_6": {
+		"title": "Ventisca",
+		"description": [
+			{
+				"text": "Mago › Criomancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Poder de hielo\n",
+				"color": "green"
+			},
+			{
+				"text": "+2% Resistencia a hechizos",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:snowball"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 0.06,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_resist",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_criomancia_7": {
+		"title": "Criomancia VII",
+		"description": [
+			{
+				"text": "Mago › Criomancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Poder de hielo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:packed_ice"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_criomancia_8": {
+		"title": "Criomancia VIII",
+		"description": [
+			{
+				"text": "Mago › Criomancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+25 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blue_ice"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_criomancia_s3": {
+		"title": "Criomancia · Apoyo",
+		"description": [
+			{
+				"text": "Mago › Criomancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+25 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:prismarine_shard"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_criomancia_9": {
+		"title": "Cero absoluto",
+		"description": [
+			{
+				"text": "Mago › Criomancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Poder de hielo\n",
+				"color": "green"
+			},
+			{
+				"text": "+3% Poder de hielo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:powder_snow_bucket"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 0.06,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_criomancia_10": {
+		"title": "Señor del hielo",
+		"description": [
+			{
+				"text": "Mago › Criomancia\n",
+				"color": "gold"
+			},
+			{
+				"text": "+15% Poder de hielo\n",
+				"color": "green"
+			},
+			{
+				"text": "+100 Maná máximo\n",
+				"color": "green"
+			},
+			{
+				"text": "+5% Resistencia a hechizos\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima de la Criomancia: el invierno eterno.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Mago: Tier III",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blue_ice"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 0.15,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 100,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:spell_resist",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_mago_3",
+					"lock_command": "kubejs stages remove @s maestria_mago_3"
+				}
+			}
+		],
+		"required_spent_points": 30
+	},
+	"mago_arcanismo_1": {
+		"title": "Arcanismo I",
+		"description": [
+			{
+				"text": "Mago › Arcanismo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Poder de evocación",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:amethyst_cluster"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_arcanismo_2": {
+		"title": "Arcanismo II",
+		"description": [
+			{
+				"text": "Mago › Arcanismo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Poder sagrado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:nether_star"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_arcanismo_s1": {
+		"title": "Arcanismo · Apoyo",
+		"description": [
+			{
+				"text": "Mago › Arcanismo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+25 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:glowstone_dust"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_arcanismo_3": {
+		"title": "Runa",
+		"description": [
+			{
+				"text": "Mago › Arcanismo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Poder de evocación\n",
+				"color": "green"
+			},
+			{
+				"text": "+3% Poder sagrado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:experience_bottle"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 0.06,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_arcanismo_4": {
+		"title": "Arcanismo IV",
+		"description": [
+			{
+				"text": "Mago › Arcanismo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Poder de evocación",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:glowstone_dust"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_arcanismo_5": {
+		"title": "Arcanismo V",
+		"description": [
+			{
+				"text": "Mago › Arcanismo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Poder sagrado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:end_crystal"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_arcanismo_s2": {
+		"title": "Arcanismo · Apoyo",
+		"description": [
+			{
+				"text": "Mago › Arcanismo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5% Regeneración de maná",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:nether_star"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 0.05,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_arcanismo_6": {
+		"title": "Sabiduría arcana",
+		"description": [
+			{
+				"text": "Mago › Arcanismo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Poder de evocación\n",
+				"color": "green"
+			},
+			{
+				"text": "+2% Reducción de enfriamiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:amethyst_cluster"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 0.06,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:cooldown_reduction",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_arcanismo_7": {
+		"title": "Arcanismo VII",
+		"description": [
+			{
+				"text": "Mago › Arcanismo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Poder de evocación",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:nether_star"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_arcanismo_8": {
+		"title": "Arcanismo VIII",
+		"description": [
+			{
+				"text": "Mago › Arcanismo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Poder sagrado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:experience_bottle"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_arcanismo_s3": {
+		"title": "Arcanismo · Apoyo",
+		"description": [
+			{
+				"text": "Mago › Arcanismo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+25 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:end_crystal"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_arcanismo_9": {
+		"title": "Canalizar",
+		"description": [
+			{
+				"text": "Mago › Arcanismo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Poder de evocación\n",
+				"color": "green"
+			},
+			{
+				"text": "+3% Poder de evocación",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:glowstone_dust"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 0.06,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_arcanismo_10": {
+		"title": "Archimago",
+		"description": [
+			{
+				"text": "Mago › Arcanismo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+10% Poder de evocación\n",
+				"color": "green"
+			},
+			{
+				"text": "+10% Poder sagrado\n",
+				"color": "green"
+			},
+			{
+				"text": "+15% Regeneración de maná\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima del Arcanismo: escudos, curación y magia pura.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Mago: Tier III",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:end_crystal"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_spell_power",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 0.15,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_mago_3",
+					"lock_command": "kubejs stages remove @s maestria_mago_3"
+				}
+			}
+		],
+		"required_spent_points": 30
+	},
+	"mago_oscuridad_1": {
+		"title": "Oscuridad I",
+		"description": [
+			{
+				"text": "Mago › Oscuridad\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Poder del vacío",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:ender_pearl"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_oscuridad_2": {
+		"title": "Oscuridad II",
+		"description": [
+			{
+				"text": "Mago › Oscuridad\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Poder de sangre",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:fermented_spider_eye"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_oscuridad_s1": {
+		"title": "Oscuridad · Apoyo",
+		"description": [
+			{
+				"text": "Mago › Oscuridad\n",
+				"color": "gold"
+			},
+			{
+				"text": "+25 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:ender_eye"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_oscuridad_3": {
+		"title": "Vacío",
+		"description": [
+			{
+				"text": "Mago › Oscuridad\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Poder del vacío\n",
+				"color": "green"
+			},
+			{
+				"text": "+3% Poder de sangre",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:echo_shard"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": 0.06,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_oscuridad_4": {
+		"title": "Oscuridad IV",
+		"description": [
+			{
+				"text": "Mago › Oscuridad\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Poder del vacío",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:ender_eye"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_oscuridad_5": {
+		"title": "Oscuridad V",
+		"description": [
+			{
+				"text": "Mago › Oscuridad\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Poder de sangre",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:sculk_catalyst"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_oscuridad_s2": {
+		"title": "Oscuridad · Apoyo",
+		"description": [
+			{
+				"text": "Mago › Oscuridad\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:fermented_spider_eye"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_oscuridad_6": {
+		"title": "Pacto de sangre",
+		"description": [
+			{
+				"text": "Mago › Oscuridad\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Poder del vacío\n",
+				"color": "green"
+			},
+			{
+				"text": "+3% Poder ancestral",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:ender_pearl"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": 0.06,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:eldritch_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_oscuridad_7": {
+		"title": "Oscuridad VII",
+		"description": [
+			{
+				"text": "Mago › Oscuridad\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Poder del vacío",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:fermented_spider_eye"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_oscuridad_8": {
+		"title": "Oscuridad VIII",
+		"description": [
+			{
+				"text": "Mago › Oscuridad\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Poder de sangre",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:echo_shard"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_oscuridad_s3": {
+		"title": "Oscuridad · Apoyo",
+		"description": [
+			{
+				"text": "Mago › Oscuridad\n",
+				"color": "gold"
+			},
+			{
+				"text": "+25 Maná máximo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:sculk_catalyst"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 25,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mago_oscuridad_9": {
+		"title": "Locura",
+		"description": [
+			{
+				"text": "Mago › Oscuridad\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Poder del vacío\n",
+				"color": "green"
+			},
+			{
+				"text": "+3% Poder del vacío",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:ender_eye"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": 0.06,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": 0.03,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"mago_oscuridad_10": {
+		"title": "Señor de las sombras",
+		"description": [
+			{
+				"text": "Mago › Oscuridad\n",
+				"color": "gold"
+			},
+			{
+				"text": "+10% Poder del vacío\n",
+				"color": "green"
+			},
+			{
+				"text": "+10% Poder de sangre\n",
+				"color": "green"
+			},
+			{
+				"text": "+10% Poder ancestral\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima de la Oscuridad: poder a cualquier precio.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Mago: Tier III",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:dragon_egg"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_spell_power",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:eldritch_spell_power",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_mago_3",
+					"lock_command": "kubejs stages remove @s maestria_mago_3"
+				}
+			}
+		],
+		"required_spent_points": 30
+	}
+}

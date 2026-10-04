@@ -150,3 +150,9 @@ No afecta a invocaciones, huevos, spawners ni a las demás dimensiones. Lista de
 - **Visibilidad de los capítulos de rol**: cada jugador solo ve el capítulo de SU rol (el juramento es invisible hasta tener el rol y el resto de misiones dependen de él). Las tareas "stage" de FTB Quests se corrigieron al tipo `gamestage` y `stages_tags.js` copia los stages de KubeJS a etiquetas (que es lo que FTB Quests lee). Comprobado con el FTB Quests real (`tools/test/zz_quests.js`).
 - **Ascensión**: los capítulos de FTB Quests de Ascensión también se ven solo para quien tiene esa clase (misión inicial invisible que se completa con el stage `origen_<clase>`). Comprobado con `tools/test/zz_quests_asc.js`. En el árbol de Habilidades (Pufferfish) las categorías de Ascensión ya están ocultas hasta desbloquearlas con la misión "Elige la Ascensión". La categoría principal "Habilidades" es una sola para todas las clases (puntos y nivel compartidos): Pufferfish no permite ocultar partes de un árbol, solo categorías enteras.
 
+## 12. Habilidades: una categoría por clase (implementado)
+
+- Pufferfish's Skills solo oculta **categorías enteras**, no partes de un árbol. Por eso la categoría única "Habilidades" se partió en **5 categorías** (`habilidades_<clase>`), bloqueadas por defecto y desbloqueadas al elegir la clase: cada jugador ve solo el árbol de la suya. Cada clase tiene **su propio nivel (1–100) y sus puntos**; ya no hay pool compartido entre clases.
+- `kubejs/server_scripts/habilidades.js`: desbloquea la categoría de tu clase al entrar y cada 5 s (stage `origen_<clase>`) y define `/skillxp <jugador> <xp>`, que las misiones de FTB Quests usan (286 recompensas) para dar XP a la categoría de tu clase. Si aún no tienes clase, la XP queda pendiente y se aplica al elegirla.
+- Generador: `tools/gen-skills.mjs`. Nota: el progreso hecho en la antigua categoría "Habilidades" se pierde (hay que repartir los puntos de nuevo).
+

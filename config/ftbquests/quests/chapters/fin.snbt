@@ -33,7 +33,7 @@
 				{
 					id: "7C00B3AE394F5D1D"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 6000"
+					command: "/skillxp {p} 6000"
 					elevate_perms: true
 					silent: true
 				}
@@ -66,7 +66,7 @@
 				{
 					id: "5C161DFF37050997"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 7000"
+					command: "/skillxp {p} 7000"
 					elevate_perms: true
 					silent: true
 				}
@@ -98,7 +98,7 @@
 				{
 					id: "43B5EC8763A80E35"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 8000"
+					command: "/skillxp {p} 8000"
 					elevate_perms: true
 					silent: true
 				}
@@ -131,7 +131,7 @@
 				{
 					id: "56884284CB02E1D6"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 12000"
+					command: "/skillxp {p} 12000"
 					elevate_perms: true
 					silent: true
 				}
@@ -168,7 +168,7 @@
 				{
 					id: "2C57C50D4FF6AF44"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 9000"
+					command: "/skillxp {p} 9000"
 					elevate_perms: true
 					silent: true
 				}
@@ -202,7 +202,7 @@
 				{
 					id: "63911A3B7EAFCE03"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 7000"
+					command: "/skillxp {p} 7000"
 					elevate_perms: true
 					silent: true
 				}
@@ -229,7 +229,7 @@
 				{
 					id: "2F67AB511FAA39B8"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 9000"
+					command: "/skillxp {p} 9000"
 					elevate_perms: true
 					silent: true
 				}
@@ -281,7 +281,7 @@
 				{
 					id: "083659E5E71CB4AA"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 20000"
+					command: "/skillxp {p} 20000"
 					elevate_perms: true
 					silent: true
 				}
@@ -316,7 +316,7 @@
 				{
 					id: "4AFD5A72FB69AE4C"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 30000"
+					command: "/skillxp {p} 30000"
 					elevate_perms: true
 					silent: true
 				}

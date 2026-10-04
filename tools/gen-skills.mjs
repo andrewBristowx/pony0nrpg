@@ -1,9 +1,11 @@
 // Genera config/puffish_skills/ (Pufferfish's Skills 0.19.x, config version 3) a partir de las tablas de abajo.
 // Uso:  node tools/gen-skills.mjs
 //
-// Decisión S1: nivel y puntos son POR CATEGORÍA en Pufferfish. Para combinar clases con un único pool de puntos
-// y un nivel 1–100, todas las clases viven en UNA categoría ("habilidades"). Los oficios son categorías propias
-// (su nivel sube con las tareas del oficio) y la Ascensión tiene una categoría por clase (puntos por misiones).
+// Decisión S1 (revisada): nivel y puntos son POR CATEGORÍA en Pufferfish, y una categoría no puede ocultar partes de su árbol.
+// Para que cada jugador vea SOLO su clase, cada clase tiene su propia categoría ("habilidades_<clase>", nivel 1–100 y puntos propios),
+// bloqueada por defecto y desbloqueada al elegir la clase (kubejs/server_scripts/habilidades.js). La XP de misiones va a la categoría de
+// la clase del jugador con /skillxp. Los oficios son categorías propias (su nivel sube con las tareas del oficio) y la Ascensión tiene una
+// categoría por clase (puntos por misiones).
 import { mkdirSync, writeFileSync, rmSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -265,23 +267,17 @@ const writeCategory = (id, b, category, experience) => {
 const itemIcon = (item) => ({ type: "item", data: { item } });
 
 // ============================================================================================================
-// 1) HABILIDADES: nivel global 1–100, puntos compartidos, todas las clases
+// 1) HABILIDADES: una categoría por clase, cada una con nivel 1–100 y puntos propios; solo se ve la de tu clase
 // ============================================================================================================
 {
-  const b = makeBuilder("normal");
   // Stages de clase (los usa kubejs/server_scripts/class_gating.js): I = raíz, II = Fundamentos VI, III = cimas de camino
   const classStages = (cls) => ({
     [`${cls.id}_f1`]: { id: `clase_${cls.id}`, text: `Equipo de ${cls.name}: Tier I` },
     [`${cls.id}_f6`]: { id: `maestria_${cls.id}_2`, text: `Equipo de ${cls.name}: Tier II` },
     ...Object.fromEntries(cls.lanes.map((l) => [`${cls.id}_${l.id}_10`, { id: `maestria_${cls.id}_3`, text: `Equipo de ${cls.name}: Tier III` }])),
   });
-  classes.forEach((cls, ci) => buildBand(b, ci * BAND_GAP, { ...cls, stages: classStages(cls) }, { trunkN: 6, laneN: 10, capSpent: 30 }));
-  writeCategory("habilidades", b, {
-    title: "Habilidades",
-    description: "Sube de nivel y reparte tus puntos entre las clases. Puedes llenar una a fondo o combinar varias.",
-    icon: itemIcon("minecraft:nether_star"), background: BG("stone"), unlocked_by_default: true, exclusive_root: false,
-  }, {
-    // Curva de docs/03: XP del nivel n al n+1 = 60 + 12n + 0.9n^2 (a calibrar). Misiones/exploración dan XP por comando.
+  const habilidadesExperience = {
+    // Curva de docs/03: XP del nivel n al n+1 = 60 + 12n + 0.9n^2 (a calibrar). Misiones/exploración dan XP por comando (/skillxp).
     level_limit: 100,
     experience_per_level: { type: "expression", data: { expression: "60 + 12 * level + 0.9 * level ^ 2" } },
     sources: [
@@ -298,6 +294,15 @@ const itemIcon = (item) => ({ type: "item", data: { item } });
         experience: "1 + hardness",
       } },
     ],
+  };
+  classes.forEach((cls) => {
+    const b = makeBuilder("normal");
+    buildBand(b, 0, { ...cls, stages: classStages(cls) }, { trunkN: 6, laneN: 10, capSpent: 30 });
+    writeCategory(`habilidades_${cls.id}`, b, {
+      title: `Habilidades: ${cls.name}`,
+      description: `Tu árbol de ${cls.name}. Sube de nivel y reparte tus puntos entre sus caminos. Se desbloquea al elegir la clase.`,
+      icon: itemIcon(cls.icon), background: BG("stone"), unlocked_by_default: false, exclusive_root: false,
+    }, habilidadesExperience);
   });
 }
 

@@ -53,7 +53,7 @@
 				{
 					id: "3BBBB7C2E4E9AAA3"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 100"
+					command: "/skillxp {p} 100"
 					elevate_perms: true
 					silent: true
 				}
@@ -125,7 +125,7 @@
 				{
 					id: "0F839A989B22712B"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 500"
+					command: "/skillxp {p} 500"
 					elevate_perms: true
 					silent: true
 				}
@@ -159,7 +159,7 @@
 				{
 					id: "297D25DEE0379530"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 500"
+					command: "/skillxp {p} 500"
 					elevate_perms: true
 					silent: true
 				}
@@ -193,7 +193,7 @@
 				{
 					id: "57D51E7BDE26F464"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 500"
+					command: "/skillxp {p} 500"
 					elevate_perms: true
 					silent: true
 				}
@@ -227,7 +227,7 @@
 				{
 					id: "5D6B27B28DEC5018"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 500"
+					command: "/skillxp {p} 500"
 					elevate_perms: true
 					silent: true
 				}
@@ -262,7 +262,7 @@
 				{
 					id: "50EF9A5913BF3D7D"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 500"
+					command: "/skillxp {p} 500"
 					elevate_perms: true
 					silent: true
 				}
@@ -297,7 +297,7 @@
 				{
 					id: "3004ED0D474C77C1"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 500"
+					command: "/skillxp {p} 500"
 					elevate_perms: true
 					silent: true
 				}
@@ -332,7 +332,7 @@
 				{
 					id: "448D8754D41B9A88"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 500"
+					command: "/skillxp {p} 500"
 					elevate_perms: true
 					silent: true
 				}
@@ -366,7 +366,7 @@
 				{
 					id: "31357B4393E4E2D1"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 500"
+					command: "/skillxp {p} 500"
 					elevate_perms: true
 					silent: true
 				}

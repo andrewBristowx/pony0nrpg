@@ -35,7 +35,7 @@
 				{
 					id: "107B90B6E34BF9E5"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 1000"
+					command: "/skillxp {p} 1000"
 					elevate_perms: true
 					silent: true
 				}
@@ -68,7 +68,7 @@
 				{
 					id: "7FBD06A1717C507D"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 1100"
+					command: "/skillxp {p} 1100"
 					elevate_perms: true
 					silent: true
 				}
@@ -106,7 +106,7 @@
 				{
 					id: "56FA18087F1C1154"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 1200"
+					command: "/skillxp {p} 1200"
 					elevate_perms: true
 					silent: true
 				}
@@ -149,7 +149,7 @@
 				{
 					id: "15E1994574EE1573"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 1200"
+					command: "/skillxp {p} 1200"
 					elevate_perms: true
 					silent: true
 				}
@@ -185,7 +185,7 @@
 				{
 					id: "7236A222124EC7D1"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 1300"
+					command: "/skillxp {p} 1300"
 					elevate_perms: true
 					silent: true
 				}
@@ -211,7 +211,7 @@
 				{
 					id: "2A17BF79CB94525D"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 1300"
+					command: "/skillxp {p} 1300"
 					elevate_perms: true
 					silent: true
 				}
@@ -243,7 +243,7 @@
 				{
 					id: "6047AC77A4706F0A"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 1200"
+					command: "/skillxp {p} 1200"
 					elevate_perms: true
 					silent: true
 				}
@@ -269,7 +269,7 @@
 				{
 					id: "293E8B5CB3976A17"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 1500"
+					command: "/skillxp {p} 1500"
 					elevate_perms: true
 					silent: true
 				}
@@ -302,7 +302,7 @@
 				{
 					id: "7E3C1DB7E72E0809"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 1100"
+					command: "/skillxp {p} 1100"
 					elevate_perms: true
 					silent: true
 				}
@@ -334,7 +334,7 @@
 				{
 					id: "27D5200D5B877BC1"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 1200"
+					command: "/skillxp {p} 1200"
 					elevate_perms: true
 					silent: true
 				}
@@ -365,7 +365,7 @@
 				{
 					id: "6D70462F91DF2702"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 1300"
+					command: "/skillxp {p} 1300"
 					elevate_perms: true
 					silent: true
 				}
@@ -391,7 +391,7 @@
 				{
 					id: "0D20703150B26632"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 1300"
+					command: "/skillxp {p} 1300"
 					elevate_perms: true
 					silent: true
 				}
@@ -423,7 +423,7 @@
 				{
 					id: "4EEC176A53882A38"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 1500"
+					command: "/skillxp {p} 1500"
 					elevate_perms: true
 					silent: true
 				}
@@ -454,7 +454,7 @@
 				{
 					id: "535BA5717FEA33E7"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 1500"
+					command: "/skillxp {p} 1500"
 					elevate_perms: true
 					silent: true
 				}
@@ -481,7 +481,7 @@
 				{
 					id: "3CAA6ACA54E8F6C1"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 1200"
+					command: "/skillxp {p} 1200"
 					elevate_perms: true
 					silent: true
 				}
@@ -512,7 +512,7 @@
 				{
 					id: "0A20B653712DE371"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 1800"
+					command: "/skillxp {p} 1800"
 					elevate_perms: true
 					silent: true
 				}
@@ -545,7 +545,7 @@
 				{
 					id: "0F8B8D3E5A3CB705"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 2500"
+					command: "/skillxp {p} 2500"
 					elevate_perms: true
 					silent: true
 				}
@@ -578,7 +578,7 @@
 				{
 					id: "3969A8B02E4DDCB8"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 3000"
+					command: "/skillxp {p} 3000"
 					elevate_perms: true
 					silent: true
 				}
@@ -615,7 +615,7 @@
 				{
 					id: "5D8D9D5C43C03F3D"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 3500"
+					command: "/skillxp {p} 3500"
 					elevate_perms: true
 					silent: true
 				}

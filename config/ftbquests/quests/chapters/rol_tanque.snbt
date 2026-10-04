@@ -37,7 +37,7 @@
 				{
 					id: "21DD937E58B9E4FD"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 100"
+					command: "/skillxp {p} 100"
 					elevate_perms: true
 					silent: true
 				}
@@ -69,7 +69,7 @@
 				{
 					id: "7AE32697CD957831"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 150"
+					command: "/skillxp {p} 150"
 					elevate_perms: true
 					silent: true
 				}
@@ -108,7 +108,7 @@
 				{
 					id: "3A1835E3531EA781"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 250"
+					command: "/skillxp {p} 250"
 					elevate_perms: true
 					silent: true
 				}
@@ -147,7 +147,7 @@
 				{
 					id: "208951530E134490"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 350"
+					command: "/skillxp {p} 350"
 					elevate_perms: true
 					silent: true
 				}
@@ -186,7 +186,7 @@
 				{
 					id: "2840F47B8501E46A"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 450"
+					command: "/skillxp {p} 450"
 					elevate_perms: true
 					silent: true
 				}
@@ -233,7 +233,7 @@
 				{
 					id: "64DCCD7D191D6DE9"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 550"
+					command: "/skillxp {p} 550"
 					elevate_perms: true
 					silent: true
 				}
@@ -272,7 +272,7 @@
 				{
 					id: "614D8968AAF8C030"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 650"
+					command: "/skillxp {p} 650"
 					elevate_perms: true
 					silent: true
 				}
@@ -317,7 +317,7 @@
 				{
 					id: "43A5F7663EFFECB5"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 750"
+					command: "/skillxp {p} 750"
 					elevate_perms: true
 					silent: true
 				}
@@ -356,7 +356,7 @@
 				{
 					id: "64F726614D5F35EF"
 					type: "command"
-					command: "/puffish_skills experience add {p} habilidades 850"
+					command: "/skillxp {p} 850"
 					elevate_perms: true
 					silent: true
 				}

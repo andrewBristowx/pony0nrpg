@@ -1,0 +1,1694 @@
+{
+	"arquero_f1": {
+		"title": "Arquero · Fundamentos I",
+		"description": [
+			{
+				"text": "Arquero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Daño de flecha\n",
+				"color": "green"
+			},
+			{
+				"text": "Equipo de Arquero: Tier I",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:arrow"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s clase_arquero",
+					"lock_command": "kubejs stages remove @s clase_arquero"
+				}
+			}
+		]
+	},
+	"arquero_f2": {
+		"title": "Arquero · Fundamentos II",
+		"description": [
+			{
+				"text": "Arquero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_boots"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_f2s": {
+		"title": "Arquero · Soporte",
+		"description": [
+			{
+				"text": "Arquero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Daño de flecha",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_boots"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_f3": {
+		"title": "Pulso firme",
+		"description": [
+			{
+				"text": "Arquero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4% Daño de flecha\n",
+				"color": "green"
+			},
+			{
+				"text": "+1% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:bow"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_f4": {
+		"title": "Arquero · Fundamentos IV",
+		"description": [
+			{
+				"text": "Arquero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Daño de flecha",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:feather"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_f5": {
+		"title": "Arquero · Fundamentos V",
+		"description": [
+			{
+				"text": "Arquero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:crossbow"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_f5s": {
+		"title": "Arquero · Soporte",
+		"description": [
+			{
+				"text": "Arquero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Daño de flecha",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:crossbow"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_f6": {
+		"title": "Ojo entrenado",
+		"description": [
+			{
+				"text": "Arquero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4% Daño de flecha\n",
+				"color": "green"
+			},
+			{
+				"text": "+3% Velocidad de tensado\n",
+				"color": "green"
+			},
+			{
+				"text": "Equipo de Arquero: Tier II",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:spyglass"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:draw_speed",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_arquero_2",
+					"lock_command": "kubejs stages remove @s maestria_arquero_2"
+				}
+			}
+		]
+	},
+	"arquero_francotirador_1": {
+		"title": "Francotirador I",
+		"description": [
+			{
+				"text": "Arquero › Francotirador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Daño de flecha",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:spectral_arrow"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_francotirador_2": {
+		"title": "Francotirador II",
+		"description": [
+			{
+				"text": "Arquero › Francotirador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Probabilidad de crítico",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:spyglass"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_francotirador_s1": {
+		"title": "Francotirador · Apoyo",
+		"description": [
+			{
+				"text": "Arquero › Francotirador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:target"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_francotirador_3": {
+		"title": "Ojo de águila",
+		"description": [
+			{
+				"text": "Arquero › Francotirador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Daño de flecha\n",
+				"color": "green"
+			},
+			{
+				"text": "+2% Probabilidad de crítico",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:tipped_arrow"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.06,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_francotirador_4": {
+		"title": "Francotirador IV",
+		"description": [
+			{
+				"text": "Arquero › Francotirador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Daño de flecha",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:target"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_francotirador_5": {
+		"title": "Francotirador V",
+		"description": [
+			{
+				"text": "Arquero › Francotirador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Probabilidad de crítico",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:arrow"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_francotirador_s2": {
+		"title": "Francotirador · Apoyo",
+		"description": [
+			{
+				"text": "Arquero › Francotirador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1% Probabilidad de crítico",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:spyglass"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_francotirador_6": {
+		"title": "Disparo perforante",
+		"description": [
+			{
+				"text": "Arquero › Francotirador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Daño de flecha\n",
+				"color": "green"
+			},
+			{
+				"text": "+5% Velocidad de flecha",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:spectral_arrow"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.06,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_velocity",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_francotirador_7": {
+		"title": "Francotirador VII",
+		"description": [
+			{
+				"text": "Arquero › Francotirador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Daño de flecha",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:spyglass"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_francotirador_8": {
+		"title": "Francotirador VIII",
+		"description": [
+			{
+				"text": "Arquero › Francotirador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Probabilidad de crítico",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:tipped_arrow"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_francotirador_s3": {
+		"title": "Francotirador · Apoyo",
+		"description": [
+			{
+				"text": "Arquero › Francotirador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:arrow"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_francotirador_9": {
+		"title": "Tiro mortal",
+		"description": [
+			{
+				"text": "Arquero › Francotirador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Daño de flecha\n",
+				"color": "green"
+			},
+			{
+				"text": "+3% Daño de flecha",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:target"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.06,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_francotirador_10": {
+		"title": "Ojo del cazador",
+		"description": [
+			{
+				"text": "Arquero › Francotirador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+12% Daño de flecha\n",
+				"color": "green"
+			},
+			{
+				"text": "+20% Daño crítico\n",
+				"color": "green"
+			},
+			{
+				"text": "+20% Velocidad de flecha\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima del Francotirador: un tiro, una baja.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Arquero: Tier III",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:target"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.12,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_velocity",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_arquero_3",
+					"lock_command": "kubejs stages remove @s maestria_arquero_3"
+				}
+			}
+		],
+		"required_spent_points": 30
+	},
+	"arquero_explorador_1": {
+		"title": "Explorador I",
+		"description": [
+			{
+				"text": "Arquero › Explorador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_boots"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_explorador_2": {
+		"title": "Explorador II",
+		"description": [
+			{
+				"text": "Arquero › Explorador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.5% Esquiva",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:compass"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.015,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_explorador_s1": {
+		"title": "Explorador · Apoyo",
+		"description": [
+			{
+				"text": "Arquero › Explorador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:oak_sapling"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_explorador_3": {
+		"title": "Rastreador",
+		"description": [
+			{
+				"text": "Arquero › Explorador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4% Velocidad de movimiento\n",
+				"color": "green"
+			},
+			{
+				"text": "+1.5% Esquiva",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:rabbit_foot"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.015,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_explorador_4": {
+		"title": "Explorador IV",
+		"description": [
+			{
+				"text": "Arquero › Explorador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:oak_sapling"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_explorador_5": {
+		"title": "Explorador V",
+		"description": [
+			{
+				"text": "Arquero › Explorador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.5% Esquiva",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:map"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.015,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_explorador_s2": {
+		"title": "Explorador · Apoyo",
+		"description": [
+			{
+				"text": "Arquero › Explorador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:compass"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_explorador_6": {
+		"title": "Pies de viento",
+		"description": [
+			{
+				"text": "Arquero › Explorador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4% Velocidad de movimiento\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.3 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_boots"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_explorador_7": {
+		"title": "Explorador VII",
+		"description": [
+			{
+				"text": "Arquero › Explorador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:compass"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_explorador_8": {
+		"title": "Explorador VIII",
+		"description": [
+			{
+				"text": "Arquero › Explorador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.5% Esquiva",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:rabbit_foot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.015,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_explorador_s3": {
+		"title": "Explorador · Apoyo",
+		"description": [
+			{
+				"text": "Arquero › Explorador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:map"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_explorador_9": {
+		"title": "Sentido del bosque",
+		"description": [
+			{
+				"text": "Arquero › Explorador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4% Velocidad de movimiento\n",
+				"color": "green"
+			},
+			{
+				"text": "+2% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:oak_sapling"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_explorador_10": {
+		"title": "Espíritu del bosque",
+		"description": [
+			{
+				"text": "Arquero › Explorador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Velocidad de movimiento\n",
+				"color": "green"
+			},
+			{
+				"text": "+5% Esquiva\n",
+				"color": "green"
+			},
+			{
+				"text": "+1 Suerte\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima del Explorador: nadie te alcanza.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Arquero: Tier III",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:rabbit_foot"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.06,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_arquero_3",
+					"lock_command": "kubejs stages remove @s maestria_arquero_3"
+				}
+			}
+		],
+		"required_spent_points": 30
+	},
+	"arquero_tirador_1": {
+		"title": "Tirador veloz I",
+		"description": [
+			{
+				"text": "Arquero › Tirador veloz\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4% Velocidad de tensado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:crossbow"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:draw_speed",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_tirador_2": {
+		"title": "Tirador veloz II",
+		"description": [
+			{
+				"text": "Arquero › Tirador veloz\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5% Velocidad de flecha",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:bow"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_velocity",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_tirador_s1": {
+		"title": "Tirador veloz · Apoyo",
+		"description": [
+			{
+				"text": "Arquero › Tirador veloz\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:flint"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_tirador_3": {
+		"title": "Recarga rápida",
+		"description": [
+			{
+				"text": "Arquero › Tirador veloz\n",
+				"color": "gold"
+			},
+			{
+				"text": "+8% Velocidad de tensado\n",
+				"color": "green"
+			},
+			{
+				"text": "+5% Velocidad de flecha",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:string"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:draw_speed",
+					"value": 0.08,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_velocity",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_tirador_4": {
+		"title": "Tirador veloz IV",
+		"description": [
+			{
+				"text": "Arquero › Tirador veloz\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4% Velocidad de tensado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:flint"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:draw_speed",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_tirador_5": {
+		"title": "Tirador veloz V",
+		"description": [
+			{
+				"text": "Arquero › Tirador veloz\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5% Velocidad de flecha",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:arrow"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_velocity",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_tirador_s2": {
+		"title": "Tirador veloz · Apoyo",
+		"description": [
+			{
+				"text": "Arquero › Tirador veloz\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:bow"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_tirador_6": {
+		"title": "Cadencia",
+		"description": [
+			{
+				"text": "Arquero › Tirador veloz\n",
+				"color": "gold"
+			},
+			{
+				"text": "+8% Velocidad de tensado\n",
+				"color": "green"
+			},
+			{
+				"text": "+1 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:crossbow"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:draw_speed",
+					"value": 0.08,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_tirador_7": {
+		"title": "Tirador veloz VII",
+		"description": [
+			{
+				"text": "Arquero › Tirador veloz\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4% Velocidad de tensado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:bow"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:draw_speed",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_tirador_8": {
+		"title": "Tirador veloz VIII",
+		"description": [
+			{
+				"text": "Arquero › Tirador veloz\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5% Velocidad de flecha",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:string"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_velocity",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_tirador_s3": {
+		"title": "Tirador veloz · Apoyo",
+		"description": [
+			{
+				"text": "Arquero › Tirador veloz\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:arrow"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_tirador_9": {
+		"title": "Ráfaga",
+		"description": [
+			{
+				"text": "Arquero › Tirador veloz\n",
+				"color": "gold"
+			},
+			{
+				"text": "+8% Velocidad de tensado\n",
+				"color": "green"
+			},
+			{
+				"text": "+4% Velocidad de tensado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:flint"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:draw_speed",
+					"value": 0.08,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:draw_speed",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arquero_tirador_10": {
+		"title": "Lluvia de flechas",
+		"description": [
+			{
+				"text": "Arquero › Tirador veloz\n",
+				"color": "gold"
+			},
+			{
+				"text": "+15% Velocidad de tensado\n",
+				"color": "green"
+			},
+			{
+				"text": "+10% Daño de flecha\n",
+				"color": "green"
+			},
+			{
+				"text": "+5% Probabilidad de crítico\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima del Tirador veloz: el cielo se llena de flechas.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Arquero: Tier III",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:tipped_arrow"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:draw_speed",
+					"value": 0.15,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_arquero_3",
+					"lock_command": "kubejs stages remove @s maestria_arquero_3"
+				}
+			}
+		],
+		"required_spent_points": 30
+	}
+}

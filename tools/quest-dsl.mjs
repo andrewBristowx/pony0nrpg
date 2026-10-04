@@ -26,8 +26,8 @@ const COINS = { cobre: "lightmanscurrency:coin_copper", hierro: "lightmanscurren
 export const R = {
   item: (id, n = 1) => ({ type: "item", item: id, ...(n > 1 ? { count: n } : {}), _item: id }),
   xp: (n) => ({ type: "xp", xp: n }),
-  // XP de la categoría "habilidades" (nivel global de Pufferfish's Skills)
-  skill: (n) => cmd(`/puffish_skills experience add {p} habilidades ${n}`),
+  // XP de habilidades: /skillxp (kubejs/server_scripts/habilidades.js) la manda a la categoría de la clase del jugador (habilidades_<clase>)
+  skill: (n) => cmd(`/skillxp {p} ${n}`),
   // XP de un oficio (categoría oficio_<id>)
   job: (job, n) => cmd(`/puffish_skills experience add {p} oficio_${job} ${n}`),
   // Monedas de Lightman's Currency: R.coins({ cobre: 50 }) -> un premio por tipo de moneda

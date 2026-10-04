@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CLAUDE.md"
-hash = "20b96d902269aef4aa64c1e98bb7ed8988dedc3e3fb3ab71d73d4944a3f16ac1"
+hash = "d962df9385576a3e26d8b4aeba3d22fef58e8f568e7aba478a7e870284a1a2e5"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -10,91 +10,91 @@ hash = "4805b03d6d8ba55454487eb11f791adb7d961d920c3f942ab0a6d2427c3b48a5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascension_arquero.snbt"
-hash = "e4fcce5f51d32062a74742432a7c620f6a39d3e169c2ad7643ec04132dd561b7"
+hash = "ad907eb93471cc03f0a63edb42fced34fd50aa062c1e6ad69c8696dca46b07c6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascension_asesino.snbt"
-hash = "b2b7ac413dbab9aadf9a719c8033f3569fe41d9369ab59b9d28e88b7768f826b"
+hash = "529036a661c1882c44df36c2ec7f9ca48f74e0106073b9bed30240fbe1561a40"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascension_guerrero.snbt"
-hash = "3375f42a8565929fa5403cc99943e6dd5045b3b1d8c5d0f021f50d61b954457b"
+hash = "db2767169d71f49c9fbcf9e21e816121f76e7042d955006aba36e0a1b1ffb0d7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascension_ingeniero.snbt"
-hash = "e2c31e2389fa3736bd484ca2cb980a90213ca6fa728c729645571ac0716e04d4"
+hash = "cdd97c8526c88c7a1be46d5b948fcae3778457b90c0e554258c4c47a3864c588"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascension_mago.snbt"
-hash = "dca8c8643cf736a63509d382a7613893d40e778144d74c7fcfd609575e8e3d42"
+hash = "67c52fa60346780b6c8d18540a9be354b2a17a3f1034513959c6b723d04f19ef"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/aventurero.snbt"
-hash = "0996ecb3186f4cf9d2561e67f305b0d7f0bb07641ef14968da1f428c622a6f87"
+hash = "17f065812280d4e5034ceac5055dbc37164489b94995e051f428a7650424e48c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bienvenida.snbt"
-hash = "0bffbd0233929490eced69b09248cd6a06a3a51adc087c453c4ceb7b95ec4e4f"
+hash = "09917eb581f255e1e593eb99b243bbc976f271bcaa7f96fa5ed21980ec9fcdae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/comienzo.snbt"
-hash = "1833d928951ebf43900dfec5106e04c8fd58a1add60547e4510a05f81ed9c31c"
+hash = "baae34bf23547ac3e363aeb16b55d469923d8fff40a8c5e804ba776534a61187"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "dbddcb2c1e2d907a6bf05e34fc1fb24a22d6888a1bd6adcf4ba74612d4f49cf9"
+hash = "7f2150eb3b2ed879c38821b2974018d933ceda07ed39fa852e9c556f8cfa5ea3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fin.snbt"
-hash = "02346ad3e5c4adc8c7daf4b1e699a3c54d52a8de471aa12556151a6968c3a3de"
+hash = "c7e7a24a1a2059317a95fef0dbe1717a43c1c4f980d25e0deac93308726618d0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gremio.snbt"
-hash = "ffbcef5e6bb8ad3a39007c0e5d0630c9223af6eda22186dc6c366953a9759250"
+hash = "cddb78fc84d8c3d8d831ffb825a4a7829541a595dbe6847e428fa604f0fab8b9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/jefes.snbt"
-hash = "b6a350c9f9bd1f2626ec1c038514c0fa4491d338c85ec77287d2f94dfb5937c8"
+hash = "5add518b14110b1cf58bf42b4b5b33dbcd9a16f0b4db62c7b1d336b83fe3feca"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magia.snbt"
-hash = "a9a7320d987e855d7921e4778d9c0c0bc0099d70636d4862241f989fb34001e2"
+hash = "860635736d47829e8fe51068e65b580265ce7279749c6ad9b9739fe2aab850be"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mas_alla.snbt"
-hash = "0825b03da7163dec3c758325c76c44aa0db212d3c92161009250c7498e9d071f"
+hash = "4bcfe0ecb29c17a0148f3ed73143b3abd3fc31e9ccfd59ba1338b9015a32d14f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oficios.snbt"
-hash = "deed083feaaa30b8d142d49fc585dff214fc992538ca68f22df5147fb3c5251c"
+hash = "de8d07fce7194070bd141be93422644d465013b347ddf74218be148152421a6e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rol_dps.snbt"
-hash = "40ee2dfe3637c49b3ed13400cdcd074ad15ba46dbfd82017bce58d29e1b2886f"
+hash = "5ba683b709cb939f2997b1819761fb955878a95b754a79d83e7dbb2befb8def5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rol_healer.snbt"
-hash = "62c85c7c9df94b3459826f207df706a019d64a3fe6106ecc90a351a8c88b8017"
+hash = "417308ce574bea965bae2cc9592b35862f033e50c5e04bd8c77aca3a8708b15d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rol_soporte.snbt"
-hash = "8c452cac9f857e36371d7156e6ebdf547ada2cb35d5a88f6db995c85f37721b7"
+hash = "14c501da2a1dea1f9c1be47647dbfd7b28eb9349c02ed6bff1476bcb8216f691"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rol_tanque.snbt"
-hash = "416e5d12108c0de6af1bafc90d5a94443cba0c7bbece4ebb6f8ce1260c331dc4"
+hash = "7a2e3c44f9c84afab3ab2bf56e174598e015290d516daea09b955b4512489504"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/secretos.snbt"
-hash = "753f96052a59c971a190ecc5eb3977ab7695508da677e673dc3254ed5ccffded"
+hash = "1afecff8e862cd877ce81632d703a31948e2fe7ea0059b414b2e938c0d802033"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tecnologia.snbt"
-hash = "231aa34d4dd3177c5779c51d4ae55098f639caf1af9fa9fb50122d5dcc00c385"
+hash = "0ba2e58ab4e1c460291deff627e1be9ca4ae1d29546d886eccc0675bd54d6a97"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tierras.snbt"
-hash = "109325bbed1d0d6af259d96fc9302ffafb7205f9001d27260196fa1f1bd8f642"
+hash = "afdf12c65215cb92117b9f50e429a7bb1ae6a5c910b1ca50ccd193266d4c05ec"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -181,24 +181,104 @@ file = "config/puffish_skills/categories/ascension_mago/skills.json"
 hash = "09599a700ca2e05d9d5448e7a2fc100af8c9a849ae47da6b17b9699505cce886"
 
 [[files]]
-file = "config/puffish_skills/categories/habilidades/category.json"
-hash = "e3d094b2cbb9070c4023ea6e8b928bf64498d8e0d404b4a6d8d84c594c26d9d4"
+file = "config/puffish_skills/categories/habilidades_arquero/category.json"
+hash = "972c0e3985c4def688f1676461ab9fe586059952169325021c394eb45efc651a"
 
 [[files]]
-file = "config/puffish_skills/categories/habilidades/connections.json"
-hash = "248e306497764d9ac78a97bfe3421240d392a8eff585be1e73f05201b0a951c4"
+file = "config/puffish_skills/categories/habilidades_arquero/connections.json"
+hash = "af92417b0cf8ae80d0ba4a1a586d01d6f8e0ef0135e958a717742244e649b33c"
 
 [[files]]
-file = "config/puffish_skills/categories/habilidades/definitions.json"
-hash = "d159cda61abd54f4e3765fb2248ef0f971c78fc4d4ba18e3174951b2a33016db"
+file = "config/puffish_skills/categories/habilidades_arquero/definitions.json"
+hash = "ac1b4c5335de69d5d1150cd9b9346dea6aad965d207c97e3f4b94846102fc033"
 
 [[files]]
-file = "config/puffish_skills/categories/habilidades/experience.json"
+file = "config/puffish_skills/categories/habilidades_arquero/experience.json"
 hash = "da5a5ce1e5328de92f1cef7438a07df63a3462cde1c64f976e4492e4de4d8344"
 
 [[files]]
-file = "config/puffish_skills/categories/habilidades/skills.json"
-hash = "d400fd7ef1d43e61d64c4f603ff187f2cc081a4eaecb59d9e3ec71ebf4644681"
+file = "config/puffish_skills/categories/habilidades_arquero/skills.json"
+hash = "5190a936175ea353d567c83809628029b5e8dbac3bc0012102f84448264372f2"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades_asesino/category.json"
+hash = "700693cded2bea121396f97b081e3a2c6520049187b0a43106c899e3053c1789"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades_asesino/connections.json"
+hash = "e197471627f42ae62bde85a43eb1abaede634ea0af17f2a1e87e836e0772df99"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades_asesino/definitions.json"
+hash = "a24b72d89f52980620b2ec30083cc61a9c3a34c60c7715b5e1a06c4962c3f19d"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades_asesino/experience.json"
+hash = "da5a5ce1e5328de92f1cef7438a07df63a3462cde1c64f976e4492e4de4d8344"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades_asesino/skills.json"
+hash = "308e99f639594af3ec8de0972516c46ed53c76b5d9bfe1ba75a4294898fae44f"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades_guerrero/category.json"
+hash = "a8c910272f69a52caa82f223694c0e1738ca036c553898d6a204c90e879bc254"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades_guerrero/connections.json"
+hash = "8b0915f3887c4120f1d59a4e9ce8a59abfc002d936498f03801e56b8ae6e034a"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades_guerrero/definitions.json"
+hash = "cff2f390456a4fa4ecd93e2cec9f3c0267ff98c2f9f5583d29beace81ca5b932"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades_guerrero/experience.json"
+hash = "da5a5ce1e5328de92f1cef7438a07df63a3462cde1c64f976e4492e4de4d8344"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades_guerrero/skills.json"
+hash = "87a250683e43a0934da403d33e236d34be57cc966fbebb1de211d689ad9944d8"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades_ingeniero/category.json"
+hash = "b883d4d896bca568414718e682d467d929d764337a1039d2eee6ffefc47af39e"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades_ingeniero/connections.json"
+hash = "81f38a7400b8af3f1b98570cdf1f26f5c04ba4e3227b587a04262f625d40ee7a"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades_ingeniero/definitions.json"
+hash = "62978de45d74e78dfc625bd7ad1a17da359d758d996b8111e265e05e5a025f39"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades_ingeniero/experience.json"
+hash = "da5a5ce1e5328de92f1cef7438a07df63a3462cde1c64f976e4492e4de4d8344"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades_ingeniero/skills.json"
+hash = "ffa0fce833bc2b6fad31add921bf2c416024411583e315600ca208009103f4c4"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades_mago/category.json"
+hash = "08ecfc91590d8add7246efe2c32744d46c2077bb7d029b9928decb26541bb329"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades_mago/connections.json"
+hash = "553f32a47e65ffadc0af02c79b9e6c25d6eb2cfd2d6d806e23a227df390a3b26"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades_mago/definitions.json"
+hash = "352dd18fa0a2925cbb15e8b4f5ee3fbde83c1e140c595b8e7be4ac4648626a69"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades_mago/experience.json"
+hash = "da5a5ce1e5328de92f1cef7438a07df63a3462cde1c64f976e4492e4de4d8344"
+
+[[files]]
+file = "config/puffish_skills/categories/habilidades_mago/skills.json"
+hash = "4dbabc4a6bf23528b05820e09b7836134dcc8f3f94c198cf42f2cf5d899feac6"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_cocinero/category.json"
@@ -342,7 +422,7 @@ hash = "f6f7713ddce3d879a1a8d64803212dc78d177ab16e9bc3fd324a65d792d6ec08"
 
 [[files]]
 file = "config/puffish_skills/config.json"
-hash = "b24dda248dfb52e18106446fa1988b3a35bd6b0e5a659bc6cd9afa613f3413d6"
+hash = "b5acbeccd5de8a5cb4f453c64bb702ad40b78a77d3516b57f1a95068c1a27219"
 
 [[files]]
 file = "kubejs/assets/ftbquests/ftb_quests_theme.txt"
@@ -1203,6 +1283,10 @@ hash = "e9300ce6a9fcc1a415ea820472b647e50b9f3a02da4cc3acb0623e556cf76ca0"
 [[files]]
 file = "kubejs/server_scripts/gremios.js"
 hash = "256253d84ecdc9f905910d89d222d6be2574a3d1e2561a8702e201788d8f9058"
+
+[[files]]
+file = "kubejs/server_scripts/habilidades.js"
+hash = "7261af989c442407661353af0e0b1ebf9e14e35c1f34a813dd45e67950b79e9a"
 
 [[files]]
 file = "kubejs/server_scripts/sin_mobs_de_mods.js"

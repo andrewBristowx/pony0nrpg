@@ -25,4 +25,4 @@ Hablar con el usuario en **español**. El usuario es el dueño del servidor; no 
 - `tools/gen-quests.mjs` genera `config/ftbquests` desde `tools/quests/chapters/*.mjs` (necesita `tools/.ids.json`: `node tools/build-id-index.mjs`). `gen-skills.mjs`, `gen-origins.mjs` análogos.
 
 ## Estado de gremios (docs/07)
-Hecho: gremios, regiones, guerra, pueblos, bazar, `/pueblo`, `/limite`, chat global y de gremio (`/gc`, `/g`, `/chat`), TAB. Ver `docs/08-estado-y-pendientes.md`.
+Hecho: gremios, regiones, guerra, pueblos, bazar, `/pueblo`, `/limite`, chat global y de gremio (`/gc`, `/g`, `/chat`), TAB, roles, habilidades por clase (`habilidades_<clase>`, XP con `/skillxp`). Ver `docs/08-estado-y-pendientes.md`.

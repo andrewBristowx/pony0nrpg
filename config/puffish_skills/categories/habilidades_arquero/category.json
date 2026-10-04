@@ -1,0 +1,13 @@
+{
+	"title": "Habilidades: Arquero",
+	"description": "Tu árbol de Arquero. Sube de nivel y reparte tus puntos entre sus caminos. Se desbloquea al elegir la clase.",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "minecraft:bow"
+		}
+	},
+	"background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+	"unlocked_by_default": false,
+	"exclusive_root": false
+}

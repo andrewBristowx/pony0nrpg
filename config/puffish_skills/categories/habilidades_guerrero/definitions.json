@@ -1,0 +1,1694 @@
+{
+	"guerrero_f1": {
+		"title": "Guerrero · Fundamentos I",
+		"description": [
+			{
+				"text": "Guerrero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "Equipo de Guerrero: Tier I",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:apple"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s clase_guerrero",
+					"lock_command": "kubejs stages remove @s clase_guerrero"
+				}
+			}
+		]
+	},
+	"guerrero_f2": {
+		"title": "Guerrero · Fundamentos II",
+		"description": [
+			{
+				"text": "Guerrero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.5 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_f2s": {
+		"title": "Guerrero · Soporte",
+		"description": [
+			{
+				"text": "Guerrero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_f3": {
+		"title": "Temple de acero",
+		"description": [
+			{
+				"text": "Guerrero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.5 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_chestplate"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_f4": {
+		"title": "Guerrero · Fundamentos IV",
+		"description": [
+			{
+				"text": "Guerrero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_apple"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_f5": {
+		"title": "Guerrero · Fundamentos V",
+		"description": [
+			{
+				"text": "Guerrero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.5 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:shield"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_f5s": {
+		"title": "Guerrero · Soporte",
+		"description": [
+			{
+				"text": "Guerrero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:shield"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_f6": {
+		"title": "Voluntad de guerrero",
+		"description": [
+			{
+				"text": "Guerrero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+1 Armadura\n",
+				"color": "green"
+			},
+			{
+				"text": "Equipo de Guerrero: Tier II",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_sword"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_guerrero_2",
+					"lock_command": "kubejs stages remove @s maestria_guerrero_2"
+				}
+			}
+		]
+	},
+	"guerrero_baluarte_1": {
+		"title": "Baluarte I",
+		"description": [
+			{
+				"text": "Guerrero › Baluarte\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_chestplate"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_baluarte_2": {
+		"title": "Baluarte II",
+		"description": [
+			{
+				"text": "Guerrero › Baluarte\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:shield"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_baluarte_s1": {
+		"title": "Baluarte · Apoyo",
+		"description": [
+			{
+				"text": "Guerrero › Baluarte\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5% Resistencia al empuje",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:chainmail_chestplate"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_baluarte_3": {
+		"title": "Muro de escudos",
+		"description": [
+			{
+				"text": "Guerrero › Baluarte\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Armadura\n",
+				"color": "green"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_helmet"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_baluarte_4": {
+		"title": "Baluarte IV",
+		"description": [
+			{
+				"text": "Guerrero › Baluarte\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:chainmail_chestplate"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_baluarte_5": {
+		"title": "Baluarte V",
+		"description": [
+			{
+				"text": "Guerrero › Baluarte\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_leggings"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_baluarte_s2": {
+		"title": "Baluarte · Apoyo",
+		"description": [
+			{
+				"text": "Guerrero › Baluarte\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:shield"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_baluarte_6": {
+		"title": "Coloso",
+		"description": [
+			{
+				"text": "Guerrero › Baluarte\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Armadura\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.5 Dureza de armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_chestplate"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_baluarte_7": {
+		"title": "Baluarte VII",
+		"description": [
+			{
+				"text": "Guerrero › Baluarte\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:shield"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_baluarte_8": {
+		"title": "Baluarte VIII",
+		"description": [
+			{
+				"text": "Guerrero › Baluarte\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_helmet"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_baluarte_s3": {
+		"title": "Baluarte · Apoyo",
+		"description": [
+			{
+				"text": "Guerrero › Baluarte\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5% Resistencia al empuje",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_leggings"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.knockback_resistance",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_baluarte_9": {
+		"title": "Inquebrantable",
+		"description": [
+			{
+				"text": "Guerrero › Baluarte\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Armadura\n",
+				"color": "green"
+			},
+			{
+				"text": "+1 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:chainmail_chestplate"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_baluarte_10": {
+		"title": "Titán",
+		"description": [
+			{
+				"text": "Guerrero › Baluarte\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+2 Armadura\n",
+				"color": "green"
+			},
+			{
+				"text": "+1 Dureza de armadura\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima del Baluarte: el muro que no cae.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Guerrero: Tier III",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:netherite_chestplate"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 6,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor_toughness",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_guerrero_3",
+					"lock_command": "kubejs stages remove @s maestria_guerrero_3"
+				}
+			}
+		],
+		"required_spent_points": 30
+	},
+	"guerrero_berserker_1": {
+		"title": "Berserker I",
+		"description": [
+			{
+				"text": "Guerrero › Berserker\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.5 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_berserker_2": {
+		"title": "Berserker II",
+		"description": [
+			{
+				"text": "Guerrero › Berserker\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Probabilidad de crítico",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_berserker_s1": {
+		"title": "Berserker · Apoyo",
+		"description": [
+			{
+				"text": "Guerrero › Berserker\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_berserker_3": {
+		"title": "Furia",
+		"description": [
+			{
+				"text": "Guerrero › Berserker\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Daño de ataque\n",
+				"color": "green"
+			},
+			{
+				"text": "+2% Probabilidad de crítico",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blaze_powder"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_berserker_4": {
+		"title": "Berserker IV",
+		"description": [
+			{
+				"text": "Guerrero › Berserker\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.5 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_berserker_5": {
+		"title": "Berserker V",
+		"description": [
+			{
+				"text": "Guerrero › Berserker\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Probabilidad de crítico",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:flint"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_berserker_s2": {
+		"title": "Berserker · Apoyo",
+		"description": [
+			{
+				"text": "Guerrero › Berserker\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1% Probabilidad de crítico",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_berserker_6": {
+		"title": "Frenesí",
+		"description": [
+			{
+				"text": "Guerrero › Berserker\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Daño de ataque\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.05 Velocidad de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_axe"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_berserker_7": {
+		"title": "Berserker VII",
+		"description": [
+			{
+				"text": "Guerrero › Berserker\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.5 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_berserker_8": {
+		"title": "Berserker VIII",
+		"description": [
+			{
+				"text": "Guerrero › Berserker\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Probabilidad de crítico",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blaze_powder"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_berserker_s3": {
+		"title": "Berserker · Apoyo",
+		"description": [
+			{
+				"text": "Guerrero › Berserker\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:flint"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_berserker_9": {
+		"title": "Carnicero",
+		"description": [
+			{
+				"text": "Guerrero › Berserker\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Daño de ataque\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.5 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_berserker_10": {
+		"title": "Señor de la guerra",
+		"description": [
+			{
+				"text": "Guerrero › Berserker\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.5 Daño de ataque\n",
+				"color": "green"
+			},
+			{
+				"text": "+20% Daño crítico\n",
+				"color": "green"
+			},
+			{
+				"text": "+3% Robo de vida\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima del Berserker: cada golpe cuenta.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Guerrero: Tier III",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:netherite_axe"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 1.5,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:life_steal",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_guerrero_3",
+					"lock_command": "kubejs stages remove @s maestria_guerrero_3"
+				}
+			}
+		],
+		"required_spent_points": 30
+	},
+	"guerrero_paladin_1": {
+		"title": "Paladín I",
+		"description": [
+			{
+				"text": "Guerrero › Paladín\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Curación recibida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_apple"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_paladin_2": {
+		"title": "Paladín II",
+		"description": [
+			{
+				"text": "Guerrero › Paladín\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:glistering_melon_slice"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_paladin_s1": {
+		"title": "Paladín · Apoyo",
+		"description": [
+			{
+				"text": "Guerrero › Paladín\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:totem_of_undying"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_paladin_3": {
+		"title": "Bendición",
+		"description": [
+			{
+				"text": "Guerrero › Paladín\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Curación recibida\n",
+				"color": "green"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_chestplate"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.06,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_paladin_4": {
+		"title": "Paladín IV",
+		"description": [
+			{
+				"text": "Guerrero › Paladín\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Curación recibida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:totem_of_undying"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_paladin_5": {
+		"title": "Paladín V",
+		"description": [
+			{
+				"text": "Guerrero › Paladín\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_paladin_s2": {
+		"title": "Paladín · Apoyo",
+		"description": [
+			{
+				"text": "Guerrero › Paladín\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:glistering_melon_slice"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_paladin_6": {
+		"title": "Juramento",
+		"description": [
+			{
+				"text": "Guerrero › Paladín\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Curación recibida\n",
+				"color": "green"
+			},
+			{
+				"text": "+2% Sobrecuración",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_apple"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.06,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:overheal",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_paladin_7": {
+		"title": "Paladín VII",
+		"description": [
+			{
+				"text": "Guerrero › Paladín\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Curación recibida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:glistering_melon_slice"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_paladin_8": {
+		"title": "Paladín VIII",
+		"description": [
+			{
+				"text": "Guerrero › Paladín\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_chestplate"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_paladin_s3": {
+		"title": "Paladín · Apoyo",
+		"description": [
+			{
+				"text": "Guerrero › Paladín\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_paladin_9": {
+		"title": "Égida",
+		"description": [
+			{
+				"text": "Guerrero › Paladín\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Curación recibida\n",
+				"color": "green"
+			},
+			{
+				"text": "+3% Curación recibida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:totem_of_undying"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.06,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"guerrero_paladin_10": {
+		"title": "Paladín eterno",
+		"description": [
+			{
+				"text": "Guerrero › Paladín\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+10% Curación recibida\n",
+				"color": "green"
+			},
+			{
+				"text": "+3% Robo de vida\n",
+				"color": "green"
+			},
+			{
+				"text": "Cima del Paladín: la luz que sostiene al grupo.\n",
+				"color": "gray",
+				"italic": true
+			},
+			{
+				"text": "Equipo de Guerrero: Tier III",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:enchanted_golden_apple"
+			}
+		},
+		"frame": "challenge",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:healing_received",
+					"value": 0.1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:life_steal",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_guerrero_3",
+					"lock_command": "kubejs stages remove @s maestria_guerrero_3"
+				}
+			}
+		],
+		"required_spent_points": 30
+	}
+}
