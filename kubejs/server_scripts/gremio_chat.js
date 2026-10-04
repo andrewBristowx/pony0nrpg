@@ -5,7 +5,7 @@
 //      /gc <mensaje>            un mensaje al chat de tu gremio
 //      /g <mensaje>             un mensaje al chat global (util si tu chat por defecto es el de gremio)
 //      /chat gremio | global    cambia el chat por defecto (se guarda con el jugador); /chat estado lo muestra
-//  - TAB: cabecera "Servidor de Pony0n", pie con los 4 gremios, y cada jugador como "[Gremio] Nombre".
+//  - TAB: cabecera "Servidor de Pony0n", pie con los 4 gremios y "Gracias holy.gg", y cada jugador como "[Gremio] Nombre [Rol]".
 
 const MODO_CHAT = 'modoChat';   // en player.persistentData: '' / 'global' (por defecto) o 'gremio'
 
@@ -21,6 +21,7 @@ global.refrescarGremio = (player) => {
       if (i > 0) pie.append(Text.darkGray(' | '));
       pie.append(global.GREMIO_ESTILO[id].color(global.GREMIO_ESTILO[id].nombre));
     });
+    pie.append(Text.of('\n')).append(Text.gold('Gracias holy.gg'));
     player.setTabListHeaderFooter(Text.gold('Servidor de Pony0n').bold(), pie);
   } catch (e) { console.error('[gremio_chat] refrescarGremio: ' + e); }
 };
