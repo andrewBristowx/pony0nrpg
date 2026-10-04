@@ -549,6 +549,22 @@ file = "kubejs/data/pony0n/powers/mago/sangre_arcana.json"
 hash = "9884a089d977b580dc0068b193504d3d7323aa86af73e689606836f9e3d017b2"
 
 [[files]]
+file = "kubejs/data/pony0n/structures/pueblo_huffleponyanos.nbt"
+hash = "07eb4472f568e8ae235ba8362e5ae8184fff3e63a7392b6fc29dbc2ea267a8b7"
+
+[[files]]
+file = "kubejs/data/pony0n/structures/pueblo_ravencachalotes.nbt"
+hash = "edbabaea12c1f6d5d99b1d81bf5c3938f8af19a6d9d598ec9ba3a0461ed4ce95"
+
+[[files]]
+file = "kubejs/data/pony0n/structures/pueblo_slytherion.nbt"
+hash = "451ba795f53842f38c82f92020d6a1aafa4f5abc55c8a9fc7945810d1eca75ca"
+
+[[files]]
+file = "kubejs/data/pony0n/structures/pueblo_tuliondor.nbt"
+hash = "e09ba0cb78ddc9bc6929b57a380a0d577d6bdafdc76be1a1e844a96e325feaea"
+
+[[files]]
 file = "kubejs/server_scripts/class_gating.js"
 hash = "1f9c7106ec0cdc933394e7f3a725d73211805eefd0cef1af8b95260d4ddbf24d"
 
