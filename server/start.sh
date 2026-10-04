@@ -83,13 +83,28 @@ if descargar "${RAW_BASE}index.toml" ./.index.toml.tmp 30; then
     L="$(sha256sum "$F" 2>/dev/null | cut -d' ' -f1)"
     if [ "$L" != "$H" ]; then
       mkdir -p "$(dirname "$F")"
-      if descargar "${RAW_BASE}${F}" "${F}.tmp" 60 && [ "$(sha256sum "${F}.tmp" | cut -d' ' -f1)" = "$H" ]; then
+      if { descargar "${RAW_BASE}${F}" "${F}.tmp" 60 || descargar "${RAW_BASE}${F}" "${F}.tmp" 60; } && [ "$(sha256sum "${F}.tmp" | cut -d' ' -f1)" = "$H" ]; then
         mv -f "${F}.tmp" "$F"; echo "[start.sh] Actualizado desde GitHub: $F"
       else
         rm -f "${F}.tmp"; echo "[start.sh] AVISO: no se pudo actualizar $F"
       fi
     fi
   done
+  # KubeJS carga TODOS los .js de las carpetas de scripts: las copias subidas a mano ("gremios (1).js", versiones viejas...) que no estan
+  # en el indice se APARTAN (no se borran) a kubejs/_fuera_del_pack/, porque pueden ejecutar codigo antiguo (p. ej. el que cuelga el servidor).
+  sed -n 's/^file = "\(kubejs\/.*\)"$/\1/p' ./.index.toml.tmp > ./.index.files.tmp
+  if [ -s ./.index.files.tmp ]; then
+    find kubejs/server_scripts kubejs/startup_scripts kubejs/client_scripts -type f -name '*.js' 2>/dev/null |
+    while IFS= read -r F; do
+      [ "$(basename "$F")" = "example.js" ] && continue
+      if ! grep -qxF "$F" ./.index.files.tmp; then
+        DEST="kubejs/_fuera_del_pack/$(printf '%s' "$F" | tr '/ ' '__')"
+        mkdir -p kubejs/_fuera_del_pack && mv -f "$F" "$DEST" &&
+          echo "[start.sh] Apartado (no esta en el pack): $F -> $DEST"
+      fi
+    done
+  fi
+  rm -f ./.index.files.tmp
 else
   echo "[start.sh] AVISO: no se pudo leer index.toml; se omite la comprobacion de kubejs/."
 fi
