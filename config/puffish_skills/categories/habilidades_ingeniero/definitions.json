@@ -287,6 +287,168 @@
 			}
 		]
 	},
+	"ingeniero_f7": {
+		"title": "Ingeniero · Fundamentos VII",
+		"description": [
+			{
+				"text": "Ingeniero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_pickaxe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_f8": {
+		"title": "Ingeniero · Fundamentos VIII",
+		"description": [
+			{
+				"text": "Ingeniero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:apple"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_f8s": {
+		"title": "Ingeniero · Soporte",
+		"description": [
+			{
+				"text": "Ingeniero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:apple"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_f9": {
+		"title": "Manos de obrero II",
+		"description": [
+			{
+				"text": "Ingeniero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+6% Velocidad de minado\n",
+				"color": "green"
+			},
+			{
+				"text": "+3% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.06,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_f10": {
+		"title": "Ingeniero · Fundamentos X",
+		"description": [
+			{
+				"text": "Ingeniero › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_helmet"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
 	"ingeniero_minero_1": {
 		"title": "Minero I",
 		"description": [
@@ -479,36 +641,6 @@
 			}
 		]
 	},
-	"ingeniero_minero_s2": {
-		"title": "Minero · Apoyo",
-		"description": [
-			{
-				"text": "Ingeniero › Minero\n",
-				"color": "gold"
-			},
-			{
-				"text": "+0.3 Suerte",
-				"color": "green"
-			}
-		],
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:raw_iron"
-			}
-		},
-		"frame": "task",
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.luck",
-					"value": 0.3,
-					"operation": "addition"
-				}
-			}
-		]
-	},
 	"ingeniero_minero_6": {
 		"title": "Manos de piedra",
 		"description": [
@@ -546,6 +678,36 @@
 				"data": {
 					"attribute": "generic.max_health",
 					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_s2": {
+		"title": "Minero · Apoyo",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.3 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.3,
 					"operation": "addition"
 				}
 			}
@@ -611,36 +773,6 @@
 			}
 		]
 	},
-	"ingeniero_minero_s3": {
-		"title": "Minero · Apoyo",
-		"description": [
-			{
-				"text": "Ingeniero › Minero\n",
-				"color": "gold"
-			},
-			{
-				"text": "+2 Vida máxima",
-				"color": "green"
-			}
-		],
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:tnt"
-			}
-		},
-		"frame": "task",
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.max_health",
-					"value": 2,
-					"operation": "addition"
-				}
-			}
-		]
-	},
 	"ingeniero_minero_9": {
 		"title": "Corazón de la montaña",
 		"description": [
@@ -684,6 +816,840 @@
 		]
 	},
 	"ingeniero_minero_10": {
+		"title": "Minero X",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4% Velocidad de minado\n",
+				"color": "green"
+			},
+			{
+				"text": "Equipo de Ingeniero: Tier III",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:tnt"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.04,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_ingeniero_3",
+					"lock_command": "kubejs stages remove @s maestria_ingeniero_3"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_s3": {
+		"title": "Minero · Apoyo",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:raw_iron"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_11": {
+		"title": "Minero XI",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.42 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_pickaxe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.42,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_12": {
+		"title": "Veta rica II",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+11.2% Velocidad de minado\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.42 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:raw_iron"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.112,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.42,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_13": {
+		"title": "Minero XIII",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5.6% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.056,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_14": {
+		"title": "Minero XIV",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.42 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_pickaxe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.42,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_s4": {
+		"title": "Minero · Apoyo",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2.8 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_pickaxe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2.8,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_15": {
+		"title": "Manos de piedra II",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+11.2% Velocidad de minado\n",
+				"color": "green"
+			},
+			{
+				"text": "+1.4 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:tnt"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.112,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1.4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_16": {
+		"title": "Minero XVI",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5.6% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_pickaxe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.056,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_17": {
+		"title": "Minero XVII",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.42 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:raw_iron"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.42,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_18": {
+		"title": "Corazón de la montaña II",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+11.2% Velocidad de minado\n",
+				"color": "green"
+			},
+			{
+				"text": "+5.6% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.112,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.056,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_s5": {
+		"title": "Minero · Apoyo",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.42 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:tnt"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.42,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_19": {
+		"title": "Minero XIX",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5.6% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_pickaxe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.056,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_20": {
+		"title": "Minero XX",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.42 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:tnt"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.42,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_21": {
+		"title": "Veta rica III",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+14.4% Velocidad de minado\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.54 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_pickaxe"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.144,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.54,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_22": {
+		"title": "Minero XXII",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+7.2% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:raw_iron"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.072,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_s6": {
+		"title": "Minero · Apoyo",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3.6 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_pickaxe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 3.6,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_23": {
+		"title": "Minero XXIII",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.54 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.54,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_24": {
+		"title": "Manos de piedra III",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+14.4% Velocidad de minado\n",
+				"color": "green"
+			},
+			{
+				"text": "+1.8 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_pickaxe"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.144,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 1.8,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_25": {
+		"title": "Minero XXV",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+7.2% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:tnt"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.072,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_26": {
+		"title": "Minero XXVI",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.54 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_pickaxe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.54,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_s7": {
+		"title": "Minero · Apoyo",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3.6 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 3.6,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_27": {
+		"title": "Corazón de la montaña III",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+14.4% Velocidad de minado\n",
+				"color": "green"
+			},
+			{
+				"text": "+7.2% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:raw_iron"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.144,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.072,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_28": {
+		"title": "Minero XXVIII",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+7.2% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.072,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_29": {
+		"title": "Minero XXIX",
+		"description": [
+			{
+				"text": "Ingeniero › Minero\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.54 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_pickaxe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.54,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_minero_30": {
 		"title": "Maestro minero",
 		"description": [
 			{
@@ -703,12 +1669,7 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima del Minero: la roca se aparta.\n",
-				"color": "gray",
-				"italic": true
-			},
-			{
-				"text": "Equipo de Ingeniero: Tier III",
+				"text": "Cima del Minero: la roca se aparta.",
 				"color": "gray",
 				"italic": true
 			}
@@ -744,16 +1705,9 @@
 					"value": 4,
 					"operation": "addition"
 				}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"unlock_command": "kubejs stages add @s maestria_ingeniero_3",
-					"lock_command": "kubejs stages remove @s maestria_ingeniero_3"
-				}
 			}
 		],
-		"required_spent_points": 30
+		"required_spent_points": 45
 	},
 	"ingeniero_inventor_1": {
 		"title": "Inventor I",
@@ -947,36 +1901,6 @@
 			}
 		]
 	},
-	"ingeniero_inventor_s2": {
-		"title": "Inventor · Apoyo",
-		"description": [
-			{
-				"text": "Ingeniero › Inventor\n",
-				"color": "gold"
-			},
-			{
-				"text": "+2% Experiencia ganada",
-				"color": "green"
-			}
-		],
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:comparator"
-			}
-		},
-		"frame": "task",
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "attributeslib:experience_gained",
-					"value": 0.02,
-					"operation": "addition"
-				}
-			}
-		]
-	},
 	"ingeniero_inventor_6": {
 		"title": "Mente brillante",
 		"description": [
@@ -1014,6 +1938,36 @@
 				"data": {
 					"attribute": "generic.attack_speed",
 					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_s2": {
+		"title": "Inventor · Apoyo",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:clock"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.02,
 					"operation": "addition"
 				}
 			}
@@ -1079,36 +2033,6 @@
 			}
 		]
 	},
-	"ingeniero_inventor_s3": {
-		"title": "Inventor · Apoyo",
-		"description": [
-			{
-				"text": "Ingeniero › Inventor\n",
-				"color": "gold"
-			},
-			{
-				"text": "+2 Vida máxima",
-				"color": "green"
-			}
-		],
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:observer"
-			}
-		},
-		"frame": "task",
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.max_health",
-					"value": 2,
-					"operation": "addition"
-				}
-			}
-		]
-	},
 	"ingeniero_inventor_9": {
 		"title": "Idea genial",
 		"description": [
@@ -1152,6 +2076,840 @@
 		]
 	},
 	"ingeniero_inventor_10": {
+		"title": "Inventor X",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3% Experiencia ganada\n",
+				"color": "green"
+			},
+			{
+				"text": "Equipo de Ingeniero: Tier III",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:observer"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_ingeniero_3",
+					"lock_command": "kubejs stages remove @s maestria_ingeniero_3"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_s3": {
+		"title": "Inventor · Apoyo",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:comparator"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_11": {
+		"title": "Inventor XI",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.42 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.42,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_12": {
+		"title": "Ojo de artesano II",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+8.4% Experiencia ganada\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.42 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:comparator"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.084,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.42,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_13": {
+		"title": "Inventor XIII",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4.2% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:clock"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.042,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_14": {
+		"title": "Inventor XIV",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.42 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:experience_bottle"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.42,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_s4": {
+		"title": "Inventor · Apoyo",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2.8 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2.8,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_15": {
+		"title": "Mente brillante II",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+8.4% Experiencia ganada\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.042 Velocidad de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:observer"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.084,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.042,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_16": {
+		"title": "Inventor XVI",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4.2% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.042,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_17": {
+		"title": "Inventor XVII",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.42 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:comparator"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.42,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_18": {
+		"title": "Idea genial II",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+8.4% Experiencia ganada\n",
+				"color": "green"
+			},
+			{
+				"text": "+4.2% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:clock"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.084,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.042,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_s5": {
+		"title": "Inventor · Apoyo",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2.8% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:observer"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.028,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_19": {
+		"title": "Inventor XIX",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+4.2% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:experience_bottle"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.042,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_20": {
+		"title": "Inventor XX",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.42 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:observer"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.42,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_21": {
+		"title": "Ojo de artesano III",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+10.8% Experiencia ganada\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.54 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.108,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.54,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_22": {
+		"title": "Inventor XXII",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5.4% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:comparator"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.054,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_s6": {
+		"title": "Inventor · Apoyo",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3.6 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:experience_bottle"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 3.6,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_23": {
+		"title": "Inventor XXIII",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.54 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:clock"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.54,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_24": {
+		"title": "Mente brillante III",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+10.8% Experiencia ganada\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.054 Velocidad de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:experience_bottle"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.108,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.054,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_25": {
+		"title": "Inventor XXV",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5.4% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:observer"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.054,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_26": {
+		"title": "Inventor XXVI",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.54 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.54,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_s7": {
+		"title": "Inventor · Apoyo",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3.6 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:clock"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 3.6,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_27": {
+		"title": "Idea genial III",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+10.8% Experiencia ganada\n",
+				"color": "green"
+			},
+			{
+				"text": "+5.4% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:comparator"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.108,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.054,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_28": {
+		"title": "Inventor XXVIII",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5.4% Experiencia ganada",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:clock"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.054,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_29": {
+		"title": "Inventor XXIX",
+		"description": [
+			{
+				"text": "Ingeniero › Inventor\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.54 Suerte",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:experience_bottle"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.luck",
+					"value": 0.54,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_inventor_30": {
 		"title": "Inventor",
 		"description": [
 			{
@@ -1171,12 +2929,7 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima del Inventor: todo problema tiene solución.\n",
-				"color": "gray",
-				"italic": true
-			},
-			{
-				"text": "Equipo de Ingeniero: Tier III",
+				"text": "Cima del Inventor: todo problema tiene solución.",
 				"color": "gray",
 				"italic": true
 			}
@@ -1212,16 +2965,9 @@
 					"value": 0.1,
 					"operation": "addition"
 				}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"unlock_command": "kubejs stages add @s maestria_ingeniero_3",
-					"lock_command": "kubejs stages remove @s maestria_ingeniero_3"
-				}
 			}
 		],
-		"required_spent_points": 30
+		"required_spent_points": 45
 	},
 	"ingeniero_zapador_1": {
 		"title": "Zapador I",
@@ -1415,36 +3161,6 @@
 			}
 		]
 	},
-	"ingeniero_zapador_s2": {
-		"title": "Zapador · Apoyo",
-		"description": [
-			{
-				"text": "Ingeniero › Zapador\n",
-				"color": "gold"
-			},
-			{
-				"text": "+2 Vida máxima",
-				"color": "green"
-			}
-		],
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:iron_boots"
-			}
-		},
-		"frame": "task",
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.max_health",
-					"value": 2,
-					"operation": "addition"
-				}
-			}
-		]
-	},
 	"ingeniero_zapador_6": {
 		"title": "Pies firmes",
 		"description": [
@@ -1482,6 +3198,36 @@
 				"data": {
 					"attribute": "generic.movement_speed",
 					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_s2": {
+		"title": "Zapador · Apoyo",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_leggings"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
 					"operation": "addition"
 				}
 			}
@@ -1547,36 +3293,6 @@
 			}
 		]
 	},
-	"ingeniero_zapador_s3": {
-		"title": "Zapador · Apoyo",
-		"description": [
-			{
-				"text": "Ingeniero › Zapador\n",
-				"color": "gold"
-			},
-			{
-				"text": "+2% Velocidad de minado",
-				"color": "green"
-			}
-		],
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:shield"
-			}
-		},
-		"frame": "task",
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "attributeslib:mining_speed",
-					"value": 0.02,
-					"operation": "addition"
-				}
-			}
-		]
-	},
 	"ingeniero_zapador_9": {
 		"title": "Casco de minero",
 		"description": [
@@ -1620,6 +3336,840 @@
 		]
 	},
 	"ingeniero_zapador_10": {
+		"title": "Zapador X",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "Equipo de Ingeniero: Tier III",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:shield"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_ingeniero_3",
+					"lock_command": "kubejs stages remove @s maestria_ingeniero_3"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_s3": {
+		"title": "Zapador · Apoyo",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_boots"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_11": {
+		"title": "Zapador XI",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.4 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_helmet"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1.4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_12": {
+		"title": "Espeleólogo II",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5.6 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+1.4 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_boots"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 5.6,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1.4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_13": {
+		"title": "Zapador XIII",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2.8 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_leggings"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2.8,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_14": {
+		"title": "Zapador XIV",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.4 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lantern"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1.4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_s4": {
+		"title": "Zapador · Apoyo",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2.8% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_helmet"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.028,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_15": {
+		"title": "Pies firmes II",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5.6 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+2.8% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:shield"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 5.6,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.028,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_16": {
+		"title": "Zapador XVI",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2.8 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_helmet"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2.8,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_17": {
+		"title": "Zapador XVII",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.4 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_boots"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1.4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_18": {
+		"title": "Casco de minero II",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5.6 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+2.8 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_leggings"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 5.6,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2.8,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_s5": {
+		"title": "Zapador · Apoyo",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2.8 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:shield"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2.8,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_19": {
+		"title": "Zapador XIX",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2.8 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lantern"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2.8,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_20": {
+		"title": "Zapador XX",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.4 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:shield"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1.4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_21": {
+		"title": "Espeleólogo III",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+7.2 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+1.8 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_helmet"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 7.2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1.8,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_22": {
+		"title": "Zapador XXII",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3.6 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_boots"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 3.6,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_s6": {
+		"title": "Zapador · Apoyo",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3.6% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lantern"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.036,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_23": {
+		"title": "Zapador XXIII",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.8 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_leggings"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1.8,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_24": {
+		"title": "Pies firmes III",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+7.2 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+3.6% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lantern"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 7.2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.036,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_25": {
+		"title": "Zapador XXV",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3.6 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:shield"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 3.6,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_26": {
+		"title": "Zapador XXVI",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.8 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_helmet"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1.8,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_s7": {
+		"title": "Zapador · Apoyo",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3.6% Velocidad de minado",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_leggings"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:mining_speed",
+					"value": 0.036,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_27": {
+		"title": "Casco de minero III",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+7.2 Vida máxima\n",
+				"color": "green"
+			},
+			{
+				"text": "+3.6 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_boots"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 7.2,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 3.6,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_28": {
+		"title": "Zapador XXVIII",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3.6 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_leggings"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 3.6,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_29": {
+		"title": "Zapador XXIX",
+		"description": [
+			{
+				"text": "Ingeniero › Zapador\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.8 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:lantern"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1.8,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"ingeniero_zapador_30": {
 		"title": "Zapador",
 		"description": [
 			{
@@ -1639,12 +4189,7 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima del Zapador: bajo tierra eres inmune al miedo.\n",
-				"color": "gray",
-				"italic": true
-			},
-			{
-				"text": "Equipo de Ingeniero: Tier III",
+				"text": "Cima del Zapador: bajo tierra eres inmune al miedo.",
 				"color": "gray",
 				"italic": true
 			}
@@ -1680,15 +4225,8 @@
 					"value": 0.05,
 					"operation": "addition"
 				}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"unlock_command": "kubejs stages add @s maestria_ingeniero_3",
-					"lock_command": "kubejs stages remove @s maestria_ingeniero_3"
-				}
 			}
 		],
-		"required_spent_points": 30
+		"required_spent_points": 45
 	}
 }

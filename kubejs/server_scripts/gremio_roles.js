@@ -110,6 +110,13 @@ function darRecompensa(p, rol, nivel) {
     p.server.runCommandSilent('attribute ' + p.username + ' ' + m[0] + ' modifier remove ' + uuid);   // idempotente: repetir la mision no acumula
     p.server.runCommandSilent('attribute ' + p.username + ' ' + m[0] + ' modifier add ' + uuid + ' "rol_' + rol + '_' + nivel + '" ' + m[1] + ' ' + (m[2] || 'add'));
   });
+  // equipo de rol con atributos (gremio_equipo.js): una parte de la panoplia por nivel
+  var equipo = global.equipoDeNivel ? global.equipoDeNivel(rol, clase, nivel) : [];
+  equipo.forEach((stack) => {
+    if (stack.isEmpty()) { console.error('[roles] no se pudo crear el equipo de rol (nivel ' + nivel + ')'); return; }
+    p.give(stack);
+    dados.push(stack.hoverName.string);
+  });
   hechizosDe(rol, clase, nivel).forEach((h) => aprenderHechizo(p, h[0], h[1]));
   if (dados.length) decir(p, Text.green('Recompensa de ' + nombreRol(rol) + ' (' + NOMBRE_CLASE[clase] + '): ').append(Text.white(dados.join(', '))));
   if (mejoras.length) decir(p, Text.aqua('Mejora permanente de ' + nombreRol(rol) + ' aplicada.'));

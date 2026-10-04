@@ -31,6 +31,26 @@
 			],
 			[
 				"guerrero_f6",
+				"guerrero_f7"
+			],
+			[
+				"guerrero_f7",
+				"guerrero_f8"
+			],
+			[
+				"guerrero_f8",
+				"guerrero_f8s"
+			],
+			[
+				"guerrero_f8",
+				"guerrero_f9"
+			],
+			[
+				"guerrero_f9",
+				"guerrero_f10"
+			],
+			[
+				"guerrero_f10",
 				"guerrero_baluarte_1"
 			],
 			[
@@ -55,11 +75,11 @@
 			],
 			[
 				"guerrero_baluarte_5",
-				"guerrero_baluarte_s2"
+				"guerrero_baluarte_6"
 			],
 			[
-				"guerrero_baluarte_5",
-				"guerrero_baluarte_6"
+				"guerrero_baluarte_6",
+				"guerrero_baluarte_s2"
 			],
 			[
 				"guerrero_baluarte_6",
@@ -71,10 +91,6 @@
 			],
 			[
 				"guerrero_baluarte_8",
-				"guerrero_baluarte_s3"
-			],
-			[
-				"guerrero_baluarte_8",
 				"guerrero_baluarte_9"
 			],
 			[
@@ -82,7 +98,107 @@
 				"guerrero_baluarte_10"
 			],
 			[
-				"guerrero_f6",
+				"guerrero_baluarte_10",
+				"guerrero_baluarte_s3"
+			],
+			[
+				"guerrero_baluarte_10",
+				"guerrero_baluarte_11"
+			],
+			[
+				"guerrero_baluarte_11",
+				"guerrero_baluarte_12"
+			],
+			[
+				"guerrero_baluarte_12",
+				"guerrero_baluarte_13"
+			],
+			[
+				"guerrero_baluarte_13",
+				"guerrero_baluarte_14"
+			],
+			[
+				"guerrero_baluarte_14",
+				"guerrero_baluarte_s4"
+			],
+			[
+				"guerrero_baluarte_14",
+				"guerrero_baluarte_15"
+			],
+			[
+				"guerrero_baluarte_15",
+				"guerrero_baluarte_16"
+			],
+			[
+				"guerrero_baluarte_16",
+				"guerrero_baluarte_17"
+			],
+			[
+				"guerrero_baluarte_17",
+				"guerrero_baluarte_18"
+			],
+			[
+				"guerrero_baluarte_18",
+				"guerrero_baluarte_s5"
+			],
+			[
+				"guerrero_baluarte_18",
+				"guerrero_baluarte_19"
+			],
+			[
+				"guerrero_baluarte_19",
+				"guerrero_baluarte_20"
+			],
+			[
+				"guerrero_baluarte_20",
+				"guerrero_baluarte_21"
+			],
+			[
+				"guerrero_baluarte_21",
+				"guerrero_baluarte_22"
+			],
+			[
+				"guerrero_baluarte_22",
+				"guerrero_baluarte_s6"
+			],
+			[
+				"guerrero_baluarte_22",
+				"guerrero_baluarte_23"
+			],
+			[
+				"guerrero_baluarte_23",
+				"guerrero_baluarte_24"
+			],
+			[
+				"guerrero_baluarte_24",
+				"guerrero_baluarte_25"
+			],
+			[
+				"guerrero_baluarte_25",
+				"guerrero_baluarte_26"
+			],
+			[
+				"guerrero_baluarte_26",
+				"guerrero_baluarte_s7"
+			],
+			[
+				"guerrero_baluarte_26",
+				"guerrero_baluarte_27"
+			],
+			[
+				"guerrero_baluarte_27",
+				"guerrero_baluarte_28"
+			],
+			[
+				"guerrero_baluarte_28",
+				"guerrero_baluarte_29"
+			],
+			[
+				"guerrero_baluarte_29",
+				"guerrero_baluarte_30"
+			],
+			[
+				"guerrero_f10",
 				"guerrero_berserker_1"
 			],
 			[
@@ -107,11 +223,11 @@
 			],
 			[
 				"guerrero_berserker_5",
-				"guerrero_berserker_s2"
+				"guerrero_berserker_6"
 			],
 			[
-				"guerrero_berserker_5",
-				"guerrero_berserker_6"
+				"guerrero_berserker_6",
+				"guerrero_berserker_s2"
 			],
 			[
 				"guerrero_berserker_6",
@@ -123,10 +239,6 @@
 			],
 			[
 				"guerrero_berserker_8",
-				"guerrero_berserker_s3"
-			],
-			[
-				"guerrero_berserker_8",
 				"guerrero_berserker_9"
 			],
 			[
@@ -134,7 +246,107 @@
 				"guerrero_berserker_10"
 			],
 			[
-				"guerrero_f6",
+				"guerrero_berserker_10",
+				"guerrero_berserker_s3"
+			],
+			[
+				"guerrero_berserker_10",
+				"guerrero_berserker_11"
+			],
+			[
+				"guerrero_berserker_11",
+				"guerrero_berserker_12"
+			],
+			[
+				"guerrero_berserker_12",
+				"guerrero_berserker_13"
+			],
+			[
+				"guerrero_berserker_13",
+				"guerrero_berserker_14"
+			],
+			[
+				"guerrero_berserker_14",
+				"guerrero_berserker_s4"
+			],
+			[
+				"guerrero_berserker_14",
+				"guerrero_berserker_15"
+			],
+			[
+				"guerrero_berserker_15",
+				"guerrero_berserker_16"
+			],
+			[
+				"guerrero_berserker_16",
+				"guerrero_berserker_17"
+			],
+			[
+				"guerrero_berserker_17",
+				"guerrero_berserker_18"
+			],
+			[
+				"guerrero_berserker_18",
+				"guerrero_berserker_s5"
+			],
+			[
+				"guerrero_berserker_18",
+				"guerrero_berserker_19"
+			],
+			[
+				"guerrero_berserker_19",
+				"guerrero_berserker_20"
+			],
+			[
+				"guerrero_berserker_20",
+				"guerrero_berserker_21"
+			],
+			[
+				"guerrero_berserker_21",
+				"guerrero_berserker_22"
+			],
+			[
+				"guerrero_berserker_22",
+				"guerrero_berserker_s6"
+			],
+			[
+				"guerrero_berserker_22",
+				"guerrero_berserker_23"
+			],
+			[
+				"guerrero_berserker_23",
+				"guerrero_berserker_24"
+			],
+			[
+				"guerrero_berserker_24",
+				"guerrero_berserker_25"
+			],
+			[
+				"guerrero_berserker_25",
+				"guerrero_berserker_26"
+			],
+			[
+				"guerrero_berserker_26",
+				"guerrero_berserker_s7"
+			],
+			[
+				"guerrero_berserker_26",
+				"guerrero_berserker_27"
+			],
+			[
+				"guerrero_berserker_27",
+				"guerrero_berserker_28"
+			],
+			[
+				"guerrero_berserker_28",
+				"guerrero_berserker_29"
+			],
+			[
+				"guerrero_berserker_29",
+				"guerrero_berserker_30"
+			],
+			[
+				"guerrero_f10",
 				"guerrero_paladin_1"
 			],
 			[
@@ -159,11 +371,11 @@
 			],
 			[
 				"guerrero_paladin_5",
-				"guerrero_paladin_s2"
+				"guerrero_paladin_6"
 			],
 			[
-				"guerrero_paladin_5",
-				"guerrero_paladin_6"
+				"guerrero_paladin_6",
+				"guerrero_paladin_s2"
 			],
 			[
 				"guerrero_paladin_6",
@@ -175,15 +387,111 @@
 			],
 			[
 				"guerrero_paladin_8",
-				"guerrero_paladin_s3"
-			],
-			[
-				"guerrero_paladin_8",
 				"guerrero_paladin_9"
 			],
 			[
 				"guerrero_paladin_9",
 				"guerrero_paladin_10"
+			],
+			[
+				"guerrero_paladin_10",
+				"guerrero_paladin_s3"
+			],
+			[
+				"guerrero_paladin_10",
+				"guerrero_paladin_11"
+			],
+			[
+				"guerrero_paladin_11",
+				"guerrero_paladin_12"
+			],
+			[
+				"guerrero_paladin_12",
+				"guerrero_paladin_13"
+			],
+			[
+				"guerrero_paladin_13",
+				"guerrero_paladin_14"
+			],
+			[
+				"guerrero_paladin_14",
+				"guerrero_paladin_s4"
+			],
+			[
+				"guerrero_paladin_14",
+				"guerrero_paladin_15"
+			],
+			[
+				"guerrero_paladin_15",
+				"guerrero_paladin_16"
+			],
+			[
+				"guerrero_paladin_16",
+				"guerrero_paladin_17"
+			],
+			[
+				"guerrero_paladin_17",
+				"guerrero_paladin_18"
+			],
+			[
+				"guerrero_paladin_18",
+				"guerrero_paladin_s5"
+			],
+			[
+				"guerrero_paladin_18",
+				"guerrero_paladin_19"
+			],
+			[
+				"guerrero_paladin_19",
+				"guerrero_paladin_20"
+			],
+			[
+				"guerrero_paladin_20",
+				"guerrero_paladin_21"
+			],
+			[
+				"guerrero_paladin_21",
+				"guerrero_paladin_22"
+			],
+			[
+				"guerrero_paladin_22",
+				"guerrero_paladin_s6"
+			],
+			[
+				"guerrero_paladin_22",
+				"guerrero_paladin_23"
+			],
+			[
+				"guerrero_paladin_23",
+				"guerrero_paladin_24"
+			],
+			[
+				"guerrero_paladin_24",
+				"guerrero_paladin_25"
+			],
+			[
+				"guerrero_paladin_25",
+				"guerrero_paladin_26"
+			],
+			[
+				"guerrero_paladin_26",
+				"guerrero_paladin_s7"
+			],
+			[
+				"guerrero_paladin_26",
+				"guerrero_paladin_27"
+			],
+			[
+				"guerrero_paladin_27",
+				"guerrero_paladin_28"
+			],
+			[
+				"guerrero_paladin_28",
+				"guerrero_paladin_29"
+			],
+			[
+				"guerrero_paladin_29",
+				"guerrero_paladin_30"
 			]
 		]
 	}

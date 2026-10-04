@@ -31,6 +31,26 @@
 			],
 			[
 				"arquero_f6",
+				"arquero_f7"
+			],
+			[
+				"arquero_f7",
+				"arquero_f8"
+			],
+			[
+				"arquero_f8",
+				"arquero_f8s"
+			],
+			[
+				"arquero_f8",
+				"arquero_f9"
+			],
+			[
+				"arquero_f9",
+				"arquero_f10"
+			],
+			[
+				"arquero_f10",
 				"arquero_francotirador_1"
 			],
 			[
@@ -55,11 +75,11 @@
 			],
 			[
 				"arquero_francotirador_5",
-				"arquero_francotirador_s2"
+				"arquero_francotirador_6"
 			],
 			[
-				"arquero_francotirador_5",
-				"arquero_francotirador_6"
+				"arquero_francotirador_6",
+				"arquero_francotirador_s2"
 			],
 			[
 				"arquero_francotirador_6",
@@ -71,10 +91,6 @@
 			],
 			[
 				"arquero_francotirador_8",
-				"arquero_francotirador_s3"
-			],
-			[
-				"arquero_francotirador_8",
 				"arquero_francotirador_9"
 			],
 			[
@@ -82,7 +98,107 @@
 				"arquero_francotirador_10"
 			],
 			[
-				"arquero_f6",
+				"arquero_francotirador_10",
+				"arquero_francotirador_s3"
+			],
+			[
+				"arquero_francotirador_10",
+				"arquero_francotirador_11"
+			],
+			[
+				"arquero_francotirador_11",
+				"arquero_francotirador_12"
+			],
+			[
+				"arquero_francotirador_12",
+				"arquero_francotirador_13"
+			],
+			[
+				"arquero_francotirador_13",
+				"arquero_francotirador_14"
+			],
+			[
+				"arquero_francotirador_14",
+				"arquero_francotirador_s4"
+			],
+			[
+				"arquero_francotirador_14",
+				"arquero_francotirador_15"
+			],
+			[
+				"arquero_francotirador_15",
+				"arquero_francotirador_16"
+			],
+			[
+				"arquero_francotirador_16",
+				"arquero_francotirador_17"
+			],
+			[
+				"arquero_francotirador_17",
+				"arquero_francotirador_18"
+			],
+			[
+				"arquero_francotirador_18",
+				"arquero_francotirador_s5"
+			],
+			[
+				"arquero_francotirador_18",
+				"arquero_francotirador_19"
+			],
+			[
+				"arquero_francotirador_19",
+				"arquero_francotirador_20"
+			],
+			[
+				"arquero_francotirador_20",
+				"arquero_francotirador_21"
+			],
+			[
+				"arquero_francotirador_21",
+				"arquero_francotirador_22"
+			],
+			[
+				"arquero_francotirador_22",
+				"arquero_francotirador_s6"
+			],
+			[
+				"arquero_francotirador_22",
+				"arquero_francotirador_23"
+			],
+			[
+				"arquero_francotirador_23",
+				"arquero_francotirador_24"
+			],
+			[
+				"arquero_francotirador_24",
+				"arquero_francotirador_25"
+			],
+			[
+				"arquero_francotirador_25",
+				"arquero_francotirador_26"
+			],
+			[
+				"arquero_francotirador_26",
+				"arquero_francotirador_s7"
+			],
+			[
+				"arquero_francotirador_26",
+				"arquero_francotirador_27"
+			],
+			[
+				"arquero_francotirador_27",
+				"arquero_francotirador_28"
+			],
+			[
+				"arquero_francotirador_28",
+				"arquero_francotirador_29"
+			],
+			[
+				"arquero_francotirador_29",
+				"arquero_francotirador_30"
+			],
+			[
+				"arquero_f10",
 				"arquero_explorador_1"
 			],
 			[
@@ -107,11 +223,11 @@
 			],
 			[
 				"arquero_explorador_5",
-				"arquero_explorador_s2"
+				"arquero_explorador_6"
 			],
 			[
-				"arquero_explorador_5",
-				"arquero_explorador_6"
+				"arquero_explorador_6",
+				"arquero_explorador_s2"
 			],
 			[
 				"arquero_explorador_6",
@@ -123,10 +239,6 @@
 			],
 			[
 				"arquero_explorador_8",
-				"arquero_explorador_s3"
-			],
-			[
-				"arquero_explorador_8",
 				"arquero_explorador_9"
 			],
 			[
@@ -134,7 +246,107 @@
 				"arquero_explorador_10"
 			],
 			[
-				"arquero_f6",
+				"arquero_explorador_10",
+				"arquero_explorador_s3"
+			],
+			[
+				"arquero_explorador_10",
+				"arquero_explorador_11"
+			],
+			[
+				"arquero_explorador_11",
+				"arquero_explorador_12"
+			],
+			[
+				"arquero_explorador_12",
+				"arquero_explorador_13"
+			],
+			[
+				"arquero_explorador_13",
+				"arquero_explorador_14"
+			],
+			[
+				"arquero_explorador_14",
+				"arquero_explorador_s4"
+			],
+			[
+				"arquero_explorador_14",
+				"arquero_explorador_15"
+			],
+			[
+				"arquero_explorador_15",
+				"arquero_explorador_16"
+			],
+			[
+				"arquero_explorador_16",
+				"arquero_explorador_17"
+			],
+			[
+				"arquero_explorador_17",
+				"arquero_explorador_18"
+			],
+			[
+				"arquero_explorador_18",
+				"arquero_explorador_s5"
+			],
+			[
+				"arquero_explorador_18",
+				"arquero_explorador_19"
+			],
+			[
+				"arquero_explorador_19",
+				"arquero_explorador_20"
+			],
+			[
+				"arquero_explorador_20",
+				"arquero_explorador_21"
+			],
+			[
+				"arquero_explorador_21",
+				"arquero_explorador_22"
+			],
+			[
+				"arquero_explorador_22",
+				"arquero_explorador_s6"
+			],
+			[
+				"arquero_explorador_22",
+				"arquero_explorador_23"
+			],
+			[
+				"arquero_explorador_23",
+				"arquero_explorador_24"
+			],
+			[
+				"arquero_explorador_24",
+				"arquero_explorador_25"
+			],
+			[
+				"arquero_explorador_25",
+				"arquero_explorador_26"
+			],
+			[
+				"arquero_explorador_26",
+				"arquero_explorador_s7"
+			],
+			[
+				"arquero_explorador_26",
+				"arquero_explorador_27"
+			],
+			[
+				"arquero_explorador_27",
+				"arquero_explorador_28"
+			],
+			[
+				"arquero_explorador_28",
+				"arquero_explorador_29"
+			],
+			[
+				"arquero_explorador_29",
+				"arquero_explorador_30"
+			],
+			[
+				"arquero_f10",
 				"arquero_tirador_1"
 			],
 			[
@@ -159,11 +371,11 @@
 			],
 			[
 				"arquero_tirador_5",
-				"arquero_tirador_s2"
+				"arquero_tirador_6"
 			],
 			[
-				"arquero_tirador_5",
-				"arquero_tirador_6"
+				"arquero_tirador_6",
+				"arquero_tirador_s2"
 			],
 			[
 				"arquero_tirador_6",
@@ -175,15 +387,111 @@
 			],
 			[
 				"arquero_tirador_8",
-				"arquero_tirador_s3"
-			],
-			[
-				"arquero_tirador_8",
 				"arquero_tirador_9"
 			],
 			[
 				"arquero_tirador_9",
 				"arquero_tirador_10"
+			],
+			[
+				"arquero_tirador_10",
+				"arquero_tirador_s3"
+			],
+			[
+				"arquero_tirador_10",
+				"arquero_tirador_11"
+			],
+			[
+				"arquero_tirador_11",
+				"arquero_tirador_12"
+			],
+			[
+				"arquero_tirador_12",
+				"arquero_tirador_13"
+			],
+			[
+				"arquero_tirador_13",
+				"arquero_tirador_14"
+			],
+			[
+				"arquero_tirador_14",
+				"arquero_tirador_s4"
+			],
+			[
+				"arquero_tirador_14",
+				"arquero_tirador_15"
+			],
+			[
+				"arquero_tirador_15",
+				"arquero_tirador_16"
+			],
+			[
+				"arquero_tirador_16",
+				"arquero_tirador_17"
+			],
+			[
+				"arquero_tirador_17",
+				"arquero_tirador_18"
+			],
+			[
+				"arquero_tirador_18",
+				"arquero_tirador_s5"
+			],
+			[
+				"arquero_tirador_18",
+				"arquero_tirador_19"
+			],
+			[
+				"arquero_tirador_19",
+				"arquero_tirador_20"
+			],
+			[
+				"arquero_tirador_20",
+				"arquero_tirador_21"
+			],
+			[
+				"arquero_tirador_21",
+				"arquero_tirador_22"
+			],
+			[
+				"arquero_tirador_22",
+				"arquero_tirador_s6"
+			],
+			[
+				"arquero_tirador_22",
+				"arquero_tirador_23"
+			],
+			[
+				"arquero_tirador_23",
+				"arquero_tirador_24"
+			],
+			[
+				"arquero_tirador_24",
+				"arquero_tirador_25"
+			],
+			[
+				"arquero_tirador_25",
+				"arquero_tirador_26"
+			],
+			[
+				"arquero_tirador_26",
+				"arquero_tirador_s7"
+			],
+			[
+				"arquero_tirador_26",
+				"arquero_tirador_27"
+			],
+			[
+				"arquero_tirador_27",
+				"arquero_tirador_28"
+			],
+			[
+				"arquero_tirador_28",
+				"arquero_tirador_29"
+			],
+			[
+				"arquero_tirador_29",
+				"arquero_tirador_30"
 			]
 		]
 	}

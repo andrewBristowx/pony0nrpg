@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CLAUDE.md"
-hash = "760e84d821522eb2842788ba7edf528b031d33d0cc76e7d0bd4a76293114b8ef"
+hash = "fc8f5b1b64ac60fe9745666b337c93e83f184166f97504f05a4d0c1bdd2dc8fa"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -70,19 +70,19 @@ hash = "de8d07fce7194070bd141be93422644d465013b347ddf74218be148152421a6e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rol_dps.snbt"
-hash = "c094ed400027fa8d011da2fe4093c7595313ba2b9a037b5be6c3c0d3687a035c"
+hash = "3a9a8028da4e5188498312c9fb5379da2ba261fc8ddb32a4a6775dd79a9817c6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rol_healer.snbt"
-hash = "06f5766fd706595d1faee6a728fb72f0bc43e9debfc61123f40cee5a763d3827"
+hash = "836ca77bad13e5b7360fcc214c7e92e2e5d7d5e3236d2fb0ed7fdc400ea723f2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rol_soporte.snbt"
-hash = "c763a4de688ca83741f1954ab148b1fde20b29f5ee05384acedc6799faccd49a"
+hash = "bc8c25612c11574d881d5834ffa718d4fb5cd1b9bc724aba3ead4c1893595cbc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rol_tanque.snbt"
-hash = "27d7380ff6dfff9019a4163f5d277230f25926982ba946f2ad03808ff80dd4a1"
+hash = "8042d44989f2970643e5608528fb4a0e246c6cf86a39ae98eb6bf423a4e9faca"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/secretos.snbt"
@@ -182,103 +182,103 @@ hash = "09599a700ca2e05d9d5448e7a2fc100af8c9a849ae47da6b17b9699505cce886"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_arquero/category.json"
-hash = "972c0e3985c4def688f1676461ab9fe586059952169325021c394eb45efc651a"
+hash = "d16cd508fede3c192fdcf63ce65fe57628573195de2ceb53e483553ae2b89069"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_arquero/connections.json"
-hash = "af92417b0cf8ae80d0ba4a1a586d01d6f8e0ef0135e958a717742244e649b33c"
+hash = "8bc510e2fbf0c2596ef8de272469e5d6500cca3fa8bdec30226ecee982fe85e9"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_arquero/definitions.json"
-hash = "ac1b4c5335de69d5d1150cd9b9346dea6aad965d207c97e3f4b94846102fc033"
+hash = "e2cbd4dcb9ebbfd6a755081599acae10a6238fe03a6871ccd9fac34ee3d1886e"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_arquero/experience.json"
-hash = "da5a5ce1e5328de92f1cef7438a07df63a3462cde1c64f976e4492e4de4d8344"
+hash = "b7970ce5dcbb838ac2bcd1f5ffd209f0aca37a76ff0a03146e0c9bc72d799a45"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_arquero/skills.json"
-hash = "5190a936175ea353d567c83809628029b5e8dbac3bc0012102f84448264372f2"
+hash = "680b8c5a34b0d5a5db1b3d927880095f204d45a552858e1e2b558906fa3f1cea"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_asesino/category.json"
-hash = "700693cded2bea121396f97b081e3a2c6520049187b0a43106c899e3053c1789"
+hash = "74c3562ebc466985603e479f8cf4a0992915a95040767713c7748309ab1e3557"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_asesino/connections.json"
-hash = "e197471627f42ae62bde85a43eb1abaede634ea0af17f2a1e87e836e0772df99"
+hash = "0b03fe61b51f12ca0884a29ec6d8fa614ab8380811906129291e33a60dc069c5"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_asesino/definitions.json"
-hash = "a24b72d89f52980620b2ec30083cc61a9c3a34c60c7715b5e1a06c4962c3f19d"
+hash = "fd08861364e03f1545a35a554c9f49c2c1d7f15a1c7f287c46651cb65fe5e8fd"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_asesino/experience.json"
-hash = "da5a5ce1e5328de92f1cef7438a07df63a3462cde1c64f976e4492e4de4d8344"
+hash = "b7970ce5dcbb838ac2bcd1f5ffd209f0aca37a76ff0a03146e0c9bc72d799a45"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_asesino/skills.json"
-hash = "308e99f639594af3ec8de0972516c46ed53c76b5d9bfe1ba75a4294898fae44f"
+hash = "32231b22c0142010f01168a3fbc86eda2039efce961f21a69a6f78d9edc00c9f"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_guerrero/category.json"
-hash = "a8c910272f69a52caa82f223694c0e1738ca036c553898d6a204c90e879bc254"
+hash = "ba639ea94cf96f55864af309977700b819274b16fcbedc82b6d19cc55b5d6cf2"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_guerrero/connections.json"
-hash = "8b0915f3887c4120f1d59a4e9ce8a59abfc002d936498f03801e56b8ae6e034a"
+hash = "8e13b66094630889feac45e8f7434a3104dbd669c05200c8126e02e0f4f8d423"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_guerrero/definitions.json"
-hash = "cff2f390456a4fa4ecd93e2cec9f3c0267ff98c2f9f5583d29beace81ca5b932"
+hash = "70ba637af5cf5fd00aeb0d554ae7054683f28a45eb1bf87cbba6b88589842239"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_guerrero/experience.json"
-hash = "da5a5ce1e5328de92f1cef7438a07df63a3462cde1c64f976e4492e4de4d8344"
+hash = "b7970ce5dcbb838ac2bcd1f5ffd209f0aca37a76ff0a03146e0c9bc72d799a45"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_guerrero/skills.json"
-hash = "87a250683e43a0934da403d33e236d34be57cc966fbebb1de211d689ad9944d8"
+hash = "6ff0d6497ee3a966b6b8469f6c4cabe86ab7b81c010687a666fa104665cc20ca"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_ingeniero/category.json"
-hash = "b883d4d896bca568414718e682d467d929d764337a1039d2eee6ffefc47af39e"
+hash = "3389af73a2ab1cd30640fd4c5cab32adf46599ddc60ebc0441807bc4c2b397dd"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_ingeniero/connections.json"
-hash = "81f38a7400b8af3f1b98570cdf1f26f5c04ba4e3227b587a04262f625d40ee7a"
+hash = "a7ddd997935417c9a1693858cf103cf06bbc56df8cc999b48abbc13fa9070309"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_ingeniero/definitions.json"
-hash = "62978de45d74e78dfc625bd7ad1a17da359d758d996b8111e265e05e5a025f39"
+hash = "5e983cafdb35272adc12bbf7163a431dd4b1f038a3f43d1c9bdc0a517b6ae879"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_ingeniero/experience.json"
-hash = "da5a5ce1e5328de92f1cef7438a07df63a3462cde1c64f976e4492e4de4d8344"
+hash = "b7970ce5dcbb838ac2bcd1f5ffd209f0aca37a76ff0a03146e0c9bc72d799a45"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_ingeniero/skills.json"
-hash = "ffa0fce833bc2b6fad31add921bf2c416024411583e315600ca208009103f4c4"
+hash = "45026ac9e8c433b452e94e2acedc864602a8f3a066f493eba8cbd7fbc04ff121"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_mago/category.json"
-hash = "08ecfc91590d8add7246efe2c32744d46c2077bb7d029b9928decb26541bb329"
+hash = "6ae78b8c53e4e674babb5f9f729a79bc24582dfb16aa47559f636eb425097711"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_mago/connections.json"
-hash = "553f32a47e65ffadc0af02c79b9e6c25d6eb2cfd2d6d806e23a227df390a3b26"
+hash = "da8876cc23236e8b89591637075b4b126bb052cf96246214777b26fbd76cc8d0"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_mago/definitions.json"
-hash = "352dd18fa0a2925cbb15e8b4f5ee3fbde83c1e140c595b8e7be4ac4648626a69"
+hash = "9663e13704268a00c7e2727d0628da58a95847e3729f11432d3e55bc426c37db"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_mago/experience.json"
-hash = "da5a5ce1e5328de92f1cef7438a07df63a3462cde1c64f976e4492e4de4d8344"
+hash = "b7970ce5dcbb838ac2bcd1f5ffd209f0aca37a76ff0a03146e0c9bc72d799a45"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_mago/skills.json"
-hash = "4dbabc4a6bf23528b05820e09b7836134dcc8f3f94c198cf42f2cf5d899feac6"
+hash = "cecda99fa0a94603618094cbf17d0fda718bf66b373e137d669825403925f06e"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_cocinero/category.json"
@@ -1325,12 +1325,16 @@ file = "kubejs/server_scripts/gremio_chat.js"
 hash = "8bf9b65711c7c59847e3e10a4a8f4eb5bd0a8205388af30ea67ca4059474ab30"
 
 [[files]]
+file = "kubejs/server_scripts/gremio_equipo.js"
+hash = "effe85f5f4bf9c2426457a4ac8d1e77931fb9ab3e9022f2f9bdf45e0bd5c6fa2"
+
+[[files]]
 file = "kubejs/server_scripts/gremio_roles.js"
-hash = "31418e559c00ed1a1ae3ce367cbe7e63cbcfb13f7c1eca7b8d1564c7e6ef7d38"
+hash = "04b134a369717fa2a3d3acfca57b46bd1d25464391af0499f1219faf82025a66"
 
 [[files]]
 file = "kubejs/server_scripts/gremio_roles_tabla.js"
-hash = "3bd91b097f6e009c48a9873d30d73175a978a0cf5bd55f72361363554b931e87"
+hash = "7c3dc44b3079714a7a1e79d356f4c27157e585f61a36650bc83e8c312b4eaa6e"
 
 [[files]]
 file = "kubejs/server_scripts/gremios.js"

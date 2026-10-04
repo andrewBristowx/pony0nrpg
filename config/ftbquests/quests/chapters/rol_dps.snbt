@@ -29,7 +29,7 @@
 			]
 			icon: "minecraft:nether_star"
 			x: 0.5d
-			y: 0.5d
+			y: 2d
 			invisible: true
 			invisible_until_tasks: 1
 			tasks: [
@@ -58,6 +58,18 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier I (Aprendiz)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Espada de recluta."
+				""
+				"&dArquero&r: Arco de cazador."
+				""
+				"&dMago&r: Báculo de brasas."
+				""
+				"&dAsesino&r: Daga de sombra."
+				""
+				"&dIngeniero&r: Ballesta de taller."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
 				"&dGuerrero&r: &bPrisa&r."
@@ -72,7 +84,7 @@
 			]
 			icon: "minecraft:clock"
 			x: 2.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["2BCC33F458089F22"]
 			tasks: [
@@ -109,6 +121,18 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier I (Aprendiz)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Coraza del Berserker."
+				""
+				"&dArquero&r: Coraza del Cazador."
+				""
+				"&dMago&r: Túnica del Piromante."
+				""
+				"&dAsesino&r: Túnica de la Sombra."
+				""
+				"&dIngeniero&r: Coraza del Artillero."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
 				"&dGuerrero&r: &bGolpe flamígero&r."
@@ -123,7 +147,7 @@
 			]
 			icon: "minecraft:clock"
 			x: 4.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["092491BBB1D74B05"]
 			tasks: [
@@ -160,6 +184,18 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier I (Aprendiz)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Casco del Berserker y Pantalones del Berserker."
+				""
+				"&dArquero&r: Casco del Cazador y Pantalones del Cazador."
+				""
+				"&dMago&r: Capucha del Piromante y Pantalones del Piromante."
+				""
+				"&dAsesino&r: Capucha de la Sombra y Pantalones de la Sombra."
+				""
+				"&dIngeniero&r: Casco del Artillero y Pantalones del Artillero."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
 				"&dGuerrero&r: &bCarga&r."
@@ -174,7 +210,7 @@
 			]
 			icon: "minecraft:iron_sword"
 			x: 6.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["40A16DFA54026B9F"]
 			tasks: [
@@ -211,6 +247,18 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier I (Aprendiz)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Botas del Berserker."
+				""
+				"&dArquero&r: Botas del Cazador."
+				""
+				"&dMago&r: Calzado del Piromante."
+				""
+				"&dAsesino&r: Calzado de la Sombra."
+				""
+				"&dIngeniero&r: Botas del Artillero."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
 				"&dGuerrero&r: &bCarrera ardiente&r."
@@ -225,7 +273,7 @@
 			]
 			icon: "minecraft:clock"
 			x: 8.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["7322931EDC4D2F5E"]
 			tasks: [
@@ -262,6 +310,18 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier II (Veterano)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Hoja del veterano."
+				""
+				"&dArquero&r: Arco del rastreador."
+				""
+				"&dMago&r: Báculo ígneo."
+				""
+				"&dAsesino&r: Estoque de sombra."
+				""
+				"&dIngeniero&r: Ballesta de resorte."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
 				"&dGuerrero&r: &bGolpes con eco&r."
@@ -276,7 +336,7 @@
 			]
 			icon: "minecraft:iron_sword"
 			x: 10.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["26514A5BBB5610D7"]
 			tasks: [
@@ -313,6 +373,18 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier II (Veterano)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Coraza del Berserker."
+				""
+				"&dArquero&r: Coraza del Cazador."
+				""
+				"&dMago&r: Túnica del Piromante."
+				""
+				"&dAsesino&r: Túnica de la Sombra."
+				""
+				"&dIngeniero&r: Coraza del Artillero."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
 				"&dGuerrero&r: &bPisotón&r."
@@ -327,7 +399,7 @@
 			]
 			icon: "minecraft:iron_sword"
 			x: 12.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["0CC855B50BB43894"]
 			tasks: [
@@ -364,6 +436,18 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier II (Veterano)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Casco del Berserker y Pantalones del Berserker."
+				""
+				"&dArquero&r: Casco del Cazador y Pantalones del Cazador."
+				""
+				"&dMago&r: Capucha del Piromante y Pantalones del Piromante."
+				""
+				"&dAsesino&r: Capucha de la Sombra y Pantalones de la Sombra."
+				""
+				"&dIngeniero&r: Casco del Artillero y Pantalones del Artillero."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
 				"&dGuerrero&r: &bOleada de calor&r."
@@ -378,7 +462,7 @@
 			]
 			icon: "minecraft:clock"
 			x: 14.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["19D908E0A571B11F"]
 			tasks: [
@@ -415,6 +499,18 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier II (Veterano)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Botas del Berserker."
+				""
+				"&dArquero&r: Botas del Cazador."
+				""
+				"&dMago&r: Calzado del Piromante."
+				""
+				"&dAsesino&r: Calzado de la Sombra."
+				""
+				"&dIngeniero&r: Botas del Artillero."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
 				"&dGuerrero&r: &bOnda de choque&r."
@@ -429,7 +525,7 @@
 			]
 			icon: "minecraft:iron_sword"
 			x: 16.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["7F07015BEA95FC02"]
 			tasks: [
@@ -452,6 +548,510 @@
 					id: "1445D62259A8C734"
 					type: "command"
 					command: "/rol recompensa dps 8 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "3FCBBE332D505EE8"
+			title: "Garras de hielo"
+			subtitle: "DPS · nivel 9"
+			description: [
+				"Derrota a Frostmaw, la bestia de las nieves de Mowzie's Mobs."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier III (Campeón)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Mandoble del campeón."
+				""
+				"&dArquero&r: Arco del montero."
+				""
+				"&dMago&r: Cetro del Piromante."
+				""
+				"&dAsesino&r: Hoja del Verdugo."
+				""
+				"&dIngeniero&r: Ballesta de asedio."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bPrisa&r (nv 3)."
+				""
+				"&dArquero&r: &bFlecha venenosa&r (nv 3)."
+				""
+				"&dMago&r: &bFlecha de fuego&r (nv 3)."
+				""
+				"&dAsesino&r: &bTajo sombrío&r (nv 3)."
+				""
+				"&dIngeniero&r: &bElectrocutar&r (nv 3)."
+			]
+			icon: "minecraft:iron_sword"
+			x: 16.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["646026D51BC7B0D5"]
+			tasks: [
+				{
+					id: "398330A835D06AF9"
+					type: "kill"
+					entity: "mowziesmobs:frostmaw"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "755DE7ADE71D4B7B"
+					type: "command"
+					command: "/skillxp {p} 1200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "60A1E894EA0CD669"
+					type: "command"
+					command: "/rol recompensa dps 9 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "2D94550DD7572C68"
+			title: "El silencio"
+			subtitle: "DPS · nivel 10"
+			description: [
+				"Derrota al Warden de las ciudades antiguas."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier III (Campeón)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Coraza del Berserker."
+				""
+				"&dArquero&r: Coraza del Cazador."
+				""
+				"&dMago&r: Túnica del Piromante."
+				""
+				"&dAsesino&r: Túnica de la Sombra."
+				""
+				"&dIngeniero&r: Coraza del Artillero."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bGolpe flamígero&r (nv 3)."
+				""
+				"&dArquero&r: &bPrisa&r (nv 3)."
+				""
+				"&dMago&r: &bBola de fuego&r (nv 3)."
+				""
+				"&dAsesino&r: &bPaso de sangre&r (nv 3)."
+				""
+				"&dIngeniero&r: &bCarga&r (nv 3)."
+			]
+			icon: "minecraft:iron_sword"
+			x: 14.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["3FCBBE332D505EE8"]
+			tasks: [
+				{
+					id: "67259EE831477E66"
+					type: "kill"
+					entity: "minecraft:warden"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "3AEC0BB2B02DD677"
+					type: "command"
+					command: "/skillxp {p} 1700"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "3F83C9CB93C20D00"
+					type: "command"
+					command: "/rol recompensa dps 10 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "5AE8110127D3C021"
+			title: "Cazador de dragones"
+			subtitle: "DPS · nivel 11"
+			description: [
+				"Derrota al Ender Dragon."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier III (Campeón)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Casco del Berserker y Pantalones del Berserker."
+				""
+				"&dArquero&r: Casco del Cazador y Pantalones del Cazador."
+				""
+				"&dMago&r: Capucha del Piromante y Pantalones del Piromante."
+				""
+				"&dAsesino&r: Capucha de la Sombra y Pantalones de la Sombra."
+				""
+				"&dIngeniero&r: Casco del Artillero y Pantalones del Artillero."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bCarga&r (nv 3)."
+				""
+				"&dArquero&r: &bInvisibilidad&r."
+				""
+				"&dMago&r: &bLanza de rayo&r."
+				""
+				"&dAsesino&r: &bInvisibilidad&r (nv 3)."
+				""
+				"&dIngeniero&r: &bLanza de rayo&r (nv 3)."
+			]
+			icon: "minecraft:iron_sword"
+			x: 12.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["2D94550DD7572C68"]
+			tasks: [
+				{
+					id: "6B3D4A5B0E864729"
+					type: "kill"
+					entity: "minecraft:ender_dragon"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "3104737AADC7FEA4"
+					type: "command"
+					command: "/skillxp {p} 2200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "6427371A694EFCFB"
+					type: "command"
+					command: "/rol recompensa dps 11 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "464C32F08CD1E81A"
+			title: "Cenizas de Ignis"
+			subtitle: "DPS · nivel 12"
+			description: [
+				"Derrota a Ignis, el caballero del fuego de Cataclysm."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier III (Campeón)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Botas del Berserker."
+				""
+				"&dArquero&r: Botas del Cazador."
+				""
+				"&dMago&r: Calzado del Piromante."
+				""
+				"&dAsesino&r: Calzado de la Sombra."
+				""
+				"&dIngeniero&r: Botas del Artillero."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bAspecto de la araña&r."
+				""
+				"&dArquero&r: &bLluvia de flechas&r (nv 5)."
+				""
+				"&dMago&r: &bRayo&r (nv 3)."
+				""
+				"&dAsesino&r: &bGolpes con eco&r (nv 3)."
+				""
+				"&dIngeniero&r: &bCadena de rayos&r (nv 3)."
+			]
+			icon: "minecraft:iron_sword"
+			x: 10.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["5AE8110127D3C021"]
+			tasks: [
+				{
+					id: "307CA24CCF741E3D"
+					type: "kill"
+					entity: "cataclysm:ignis"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "2F0278063D3D4E83"
+					type: "command"
+					command: "/skillxp {p} 2700"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "4E0C0BEA5464415A"
+					type: "command"
+					command: "/rol recompensa dps 12 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "2994289764E87C15"
+			title: "Heraldo del fin"
+			subtitle: "DPS · nivel 13"
+			description: [
+				"Derrota a The Harbinger de Cataclysm."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier IV (Legendario)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Hoja del Señor de la Guerra."
+				""
+				"&dArquero&r: Arco del Ojo Infinito."
+				""
+				"&dMago&r: Cetro del Archimago."
+				""
+				"&dAsesino&r: Colmillo del Fantasma."
+				""
+				"&dIngeniero&r: Cañón de precisión."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bCarrera ardiente&r (nv 3)."
+				""
+				"&dArquero&r: &bEvasión&r (nv 3)."
+				""
+				"&dMago&r: &bMuro de fuego&r (nv 3)."
+				""
+				"&dAsesino&r: &bCarrera ardiente&r."
+				""
+				"&dIngeniero&r: &bRáfaga&r (nv 3)."
+			]
+			icon: "minecraft:iron_sword"
+			x: 8.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["464C32F08CD1E81A"]
+			tasks: [
+				{
+					id: "2C7D04C57483057A"
+					type: "kill"
+					entity: "cataclysm:the_harbinger"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "22AB41EAD44E627C"
+					type: "command"
+					command: "/skillxp {p} 3200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "0E9D31954883B2FD"
+					type: "command"
+					command: "/rol recompensa dps 13 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "0CDBEDB14D2AEE09"
+			title: "Rey no-muerto"
+			subtitle: "DPS · nivel 14"
+			description: [
+				"Derrota al Lich de Bosses of Mass Destruction."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier IV (Legendario)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Coraza del Berserker."
+				""
+				"&dArquero&r: Coraza del Cazador."
+				""
+				"&dMago&r: Túnica del Piromante."
+				""
+				"&dAsesino&r: Túnica de la Sombra."
+				""
+				"&dIngeniero&r: Coraza del Artillero."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bGolpes con eco&r (nv 3)."
+				""
+				"&dArquero&r: &bGolpes con eco&r (nv 3)."
+				""
+				"&dMago&r: &bCadena de rayos&r (nv 3)."
+				""
+				"&dAsesino&r: &bEvasión&r (nv 3)."
+				""
+				"&dIngeniero&r: &bBola de rayos&r (nv 3)."
+			]
+			icon: "minecraft:iron_sword"
+			x: 6.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["2994289764E87C15"]
+			tasks: [
+				{
+					id: "0F7FE8DD61D50C0C"
+					type: "kill"
+					entity: "bosses_of_mass_destruction:lich"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "4586B3541B5FBA03"
+					type: "command"
+					command: "/skillxp {p} 3700"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "7AA07AF7EA4A5685"
+					type: "command"
+					command: "/rol recompensa dps 14 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "420EC5FC5BCFE5A3"
+			title: "Dragón de fuego"
+			subtitle: "DPS · nivel 15"
+			description: [
+				"Derrota a un dragón de fuego de Ice and Fire."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier IV (Legendario)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Casco del Berserker y Pantalones del Berserker."
+				""
+				"&dArquero&r: Casco del Cazador y Pantalones del Cazador."
+				""
+				"&dMago&r: Capucha del Piromante y Pantalones del Piromante."
+				""
+				"&dAsesino&r: Capucha de la Sombra y Pantalones de la Sombra."
+				""
+				"&dIngeniero&r: Casco del Artillero y Pantalones del Artillero."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bOleada de calor&r (nv 3)."
+				""
+				"&dArquero&r: &bTeletransporte&r."
+				""
+				"&dMago&r: &bTelequinesis&r."
+				""
+				"&dAsesino&r: &bTeletransporte&r (nv 3)."
+				""
+				"&dIngeniero&r: &bOnda de choque&r."
+			]
+			icon: "minecraft:iron_sword"
+			x: 4.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["0CDBEDB14D2AEE09"]
+			tasks: [
+				{
+					id: "387776BFEB361C22"
+					type: "kill"
+					entity: "iceandfire:fire_dragon"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "6E6CB929DB771C7B"
+					type: "command"
+					command: "/skillxp {p} 4200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "4E1D01E0366B272D"
+					type: "command"
+					command: "/rol recompensa dps 15 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "432690808B032F57"
+			title: "Reina de las mareas"
+			subtitle: "DPS · nivel 16"
+			description: [
+				"La última prueba del DPS: derrota a Scylla de Cataclysm."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier IV (Legendario)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Botas del Berserker."
+				""
+				"&dArquero&r: Botas del Cazador."
+				""
+				"&dMago&r: Calzado del Piromante."
+				""
+				"&dAsesino&r: Calzado de la Sombra."
+				""
+				"&dIngeniero&r: Botas del Artillero."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bOnda de choque&r (nv 3)."
+				""
+				"&dArquero&r: &bLluvia de flechas&r (nv 6)."
+				""
+				"&dMago&r: &bBola de fuego&r (nv 5), &bTormenta eléctrica&r (nv 3)."
+				""
+				"&dAsesino&r: &bManto abisal&r (nv 3)."
+				""
+				"&dIngeniero&r: &bTormenta eléctrica&r (nv 3)."
+			]
+			icon: "minecraft:iron_sword"
+			x: 2.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["420EC5FC5BCFE5A3"]
+			tasks: [
+				{
+					id: "16C415D68B83D301"
+					type: "kill"
+					entity: "cataclysm:scylla"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "63B9BC58EE10F488"
+					type: "command"
+					command: "/skillxp {p} 4700"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "722666EC01A09BFF"
+					type: "command"
+					command: "/rol recompensa dps 16 {p}"
 					elevate_perms: true
 					silent: true
 				}

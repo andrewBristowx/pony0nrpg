@@ -29,7 +29,7 @@
 			]
 			icon: "minecraft:nether_star"
 			x: 0.5d
-			y: 0.5d
+			y: 2d
 			invisible: true
 			invisible_until_tasks: 1
 			tasks: [
@@ -58,13 +58,17 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier I (Aprendiz)&r con atributos para tu rol:"
+				""
+				"&dMago&r: Cayado de sanador."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
 				"&dMago&r: &bPurificar&r."
 			]
 			icon: "minecraft:golden_apple"
 			x: 2.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["67D73265F181BA2C"]
 			tasks: [
@@ -101,13 +105,17 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier I (Aprendiz)&r con atributos para tu rol:"
+				""
+				"&dMago&r: Túnica del Sanador."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
 				"&dMago&r: &bCírculo de curación&r."
 			]
 			icon: "minecraft:brewing_stand"
 			x: 4.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["5B8F157BC179389C"]
 			tasks: [
@@ -142,10 +150,14 @@
 				"Cura a un aldeano zombi."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier I (Aprendiz)&r con atributos para tu rol:"
+				""
+				"&dMago&r: Capucha del Sanador y Pantalones del Sanador."
 			]
 			icon: "minecraft:writable_book"
 			x: 6.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["4BEA1C7737EADE56"]
 			tasks: [
@@ -182,13 +194,17 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier I (Aprendiz)&r con atributos para tu rol:"
+				""
+				"&dMago&r: Calzado del Sanador."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
 				"&dMago&r: &bFortificar&r."
 			]
 			icon: "minecraft:glistering_melon_slice"
 			x: 8.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["5F64D5D0E93F65B3"]
 			tasks: [
@@ -225,13 +241,17 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier II (Veterano)&r con atributos para tu rol:"
+				""
+				"&dMago&r: Báculo de luz."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
 				"&dMago&r: &bCuración mayor&r."
 			]
 			icon: "minecraft:ghast_tear"
 			x: 10.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["6F044BDA7E9C46CF"]
 			tasks: [
@@ -268,13 +288,17 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier II (Veterano)&r con atributos para tu rol:"
+				""
+				"&dMago&r: Túnica del Sanador."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
 				"&dMago&r: &bFuego fatuo&r."
 			]
 			icon: "minecraft:golden_apple"
 			x: 12.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["0738F7C93016D4EA"]
 			tasks: [
@@ -311,13 +335,17 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier II (Veterano)&r con atributos para tu rol:"
+				""
+				"&dMago&r: Capucha del Sanador y Pantalones del Sanador."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
 				"&dMago&r: &bBendición de vida&r."
 			]
 			icon: "irons_spellbooks:greater_healing_potion"
 			x: 14.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["003229495888B531"]
 			tasks: [
@@ -354,13 +382,17 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier II (Veterano)&r con atributos para tu rol:"
+				""
+				"&dMago&r: Calzado del Sanador."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
-				"&dMago&r: &bEscudo arcano&r, &bCuración mayor&r (nv 3)."
+				"&dMago&r: &bEscudo arcano&r."
 			]
 			icon: "minecraft:beacon"
 			x: 16.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["7C7C60A5FCA76286"]
 			tasks: [
@@ -382,6 +414,381 @@
 					id: "6ADE70056A4BE82B"
 					type: "command"
 					command: "/rol recompensa healer 8 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "230980B9D3F87E00"
+			title: "Segunda oportunidad"
+			subtitle: "Healer · nivel 9"
+			description: [
+				"Los tótems devuelven la vida. Reúne 3 tótems de la inmortalidad (los jefes de las mansiones los sueltan; pídelos a tu grupo si hace falta)."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier III (Campeón)&r con atributos para tu rol:"
+				""
+				"&dMago&r: Cetro de vida."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dMago&r: &bCurar&r (nv 5)."
+			]
+			icon: "minecraft:totem_of_undying"
+			x: 16.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["7EECC8424C3D9BE3"]
+			tasks: [
+				{
+					id: "1DDD2593DE569B85"
+					type: "item"
+					item: "minecraft:totem_of_undying"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "384DFE5CB88F82BC"
+					type: "command"
+					command: "/skillxp {p} 1200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "7FB2B2BD9DA5ECA3"
+					type: "command"
+					command: "/rol recompensa healer 9 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "0910C53046DD8587"
+			title: "Esencia arcana"
+			subtitle: "Healer · nivel 10"
+			description: [
+				"La curación avanzada pide magia pura. Reúne 8 esencias arcanas."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier III (Campeón)&r con atributos para tu rol:"
+				""
+				"&dMago&r: Túnica del Sanador."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dMago&r: &bCurar&r (nv 8)."
+			]
+			icon: "irons_spellbooks:arcane_essence"
+			x: 14.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["230980B9D3F87E00"]
+			tasks: [
+				{
+					id: "70F1E0E5DE9C929C"
+					type: "item"
+					item: "irons_spellbooks:arcane_essence"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "2E2CC891116B2EBD"
+					type: "command"
+					command: "/skillxp {p} 1700"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "3F5469A725112F01"
+					type: "command"
+					command: "/rol recompensa healer 10 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "3890C5D2CC552BF8"
+			title: "Ojos del Fin"
+			subtitle: "Healer · nivel 11"
+			description: [
+				"Reúne 12 ojos de Ender para guiar al grupo hasta el Fin."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier III (Campeón)&r con atributos para tu rol:"
+				""
+				"&dMago&r: Capucha del Sanador y Pantalones del Sanador."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dMago&r: &bCírculo de curación&r (nv 3)."
+			]
+			icon: "minecraft:ender_eye"
+			x: 12.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["0910C53046DD8587"]
+			tasks: [
+				{
+					id: "26C871751FF74F4F"
+					type: "item"
+					item: "minecraft:ender_eye"
+					count: 12L
+				}
+			]
+			rewards: [
+				{
+					id: "3B013B48644AF088"
+					type: "command"
+					command: "/skillxp {p} 2200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "078CDBEED11D6D45"
+					type: "command"
+					command: "/rol recompensa healer 11 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "4704CBAA43A7C0CB"
+			title: "Cajas de sanación"
+			subtitle: "Healer · nivel 12"
+			description: [
+				"Consigue 4 caparazones de shulker: las ciudades del Fin los guardan."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier III (Campeón)&r con atributos para tu rol:"
+				""
+				"&dMago&r: Calzado del Sanador."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dMago&r: &bFortificar&r (nv 3)."
+			]
+			icon: "minecraft:shulker_shell"
+			x: 10.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["3890C5D2CC552BF8"]
+			tasks: [
+				{
+					id: "01C3DA14B67A173A"
+					type: "item"
+					item: "minecraft:shulker_shell"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "51C8B63CF6C2C515"
+					type: "command"
+					command: "/skillxp {p} 2700"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "1143FD305B23D267"
+					type: "command"
+					command: "/rol recompensa healer 12 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "2CE2C48FB1BD5033"
+			title: "Aliento de dragón"
+			subtitle: "Healer · nivel 13"
+			description: [
+				"Recoge 4 frascos de aliento de dragón (hace falta que tu grupo pelee con el Ender Dragon)."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier IV (Legendario)&r con atributos para tu rol:"
+				""
+				"&dMago&r: Cetro de la Aurora."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dMago&r: &bFuego fatuo&r (nv 3)."
+			]
+			icon: "minecraft:dragon_breath"
+			x: 8.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["4704CBAA43A7C0CB"]
+			tasks: [
+				{
+					id: "56C8F5A62DB9A368"
+					type: "item"
+					item: "minecraft:dragon_breath"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "44E7B78205D24A2F"
+					type: "command"
+					command: "/skillxp {p} 3200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "049427BE46688928"
+					type: "command"
+					command: "/rol recompensa healer 13 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "005AD5F3FEBF61FB"
+			title: "Metal de los olvidados"
+			subtitle: "Healer · nivel 14"
+			description: [
+				"Consigue 4 lingotes olvidados en los Subterráneos."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier IV (Legendario)&r con atributos para tu rol:"
+				""
+				"&dMago&r: Túnica del Sanador."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dMago&r: &bFuego fatuo&r (nv 5)."
+			]
+			icon: "undergarden:forgotten_ingot"
+			x: 6.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["2CE2C48FB1BD5033"]
+			tasks: [
+				{
+					id: "36AB1685C960476C"
+					type: "item"
+					item: "undergarden:forgotten_ingot"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "3D33FFACBF1EBED9"
+					type: "command"
+					command: "/skillxp {p} 3700"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "355AF6898084EBF9"
+					type: "command"
+					command: "/rol recompensa healer 14 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "5E5AD0F97DA55310"
+			title: "Estrellas del Wither"
+			subtitle: "Healer · nivel 15"
+			description: [
+				"Reúne 2 estrellas del Nether: el grupo te las consigue y tú las proteges."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier IV (Legendario)&r con atributos para tu rol:"
+				""
+				"&dMago&r: Capucha del Sanador y Pantalones del Sanador."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dMago&r: &bBendición de vida&r (nv 3)."
+			]
+			icon: "minecraft:nether_star"
+			x: 4.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["005AD5F3FEBF61FB"]
+			tasks: [
+				{
+					id: "0AE708ADE2DD1613"
+					type: "item"
+					item: "minecraft:nether_star"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "67E841535C9B1714"
+					type: "command"
+					command: "/skillxp {p} 4200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "76167E8F66CCF126"
+					type: "command"
+					command: "/rol recompensa healer 15 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "4F9752BD690F2A6A"
+			title: "Alas del sanador"
+			subtitle: "Healer · nivel 16"
+			description: [
+				"La última prueba del Healer: consigue unas élitros para llegar a todo el grupo."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier IV (Legendario)&r con atributos para tu rol:"
+				""
+				"&dMago&r: Calzado del Sanador."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dMago&r: &bCírculo de curación&r (nv 5), &bEscudo arcano&r (nv 3)."
+			]
+			icon: "minecraft:elytra"
+			x: 2.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["5E5AD0F97DA55310"]
+			tasks: [
+				{
+					id: "1EAF2F416D4ECB53"
+					type: "item"
+					item: "minecraft:elytra"
+				}
+			]
+			rewards: [
+				{
+					id: "56EC8E0844814C18"
+					type: "command"
+					command: "/skillxp {p} 4700"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "52B6F0FAC71D086B"
+					type: "command"
+					command: "/rol recompensa healer 16 {p}"
 					elevate_perms: true
 					silent: true
 				}

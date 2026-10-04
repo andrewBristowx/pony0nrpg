@@ -31,6 +31,26 @@
 			],
 			[
 				"asesino_f6",
+				"asesino_f7"
+			],
+			[
+				"asesino_f7",
+				"asesino_f8"
+			],
+			[
+				"asesino_f8",
+				"asesino_f8s"
+			],
+			[
+				"asesino_f8",
+				"asesino_f9"
+			],
+			[
+				"asesino_f9",
+				"asesino_f10"
+			],
+			[
+				"asesino_f10",
 				"asesino_sombra_1"
 			],
 			[
@@ -55,11 +75,11 @@
 			],
 			[
 				"asesino_sombra_5",
-				"asesino_sombra_s2"
+				"asesino_sombra_6"
 			],
 			[
-				"asesino_sombra_5",
-				"asesino_sombra_6"
+				"asesino_sombra_6",
+				"asesino_sombra_s2"
 			],
 			[
 				"asesino_sombra_6",
@@ -71,10 +91,6 @@
 			],
 			[
 				"asesino_sombra_8",
-				"asesino_sombra_s3"
-			],
-			[
-				"asesino_sombra_8",
 				"asesino_sombra_9"
 			],
 			[
@@ -82,7 +98,107 @@
 				"asesino_sombra_10"
 			],
 			[
-				"asesino_f6",
+				"asesino_sombra_10",
+				"asesino_sombra_s3"
+			],
+			[
+				"asesino_sombra_10",
+				"asesino_sombra_11"
+			],
+			[
+				"asesino_sombra_11",
+				"asesino_sombra_12"
+			],
+			[
+				"asesino_sombra_12",
+				"asesino_sombra_13"
+			],
+			[
+				"asesino_sombra_13",
+				"asesino_sombra_14"
+			],
+			[
+				"asesino_sombra_14",
+				"asesino_sombra_s4"
+			],
+			[
+				"asesino_sombra_14",
+				"asesino_sombra_15"
+			],
+			[
+				"asesino_sombra_15",
+				"asesino_sombra_16"
+			],
+			[
+				"asesino_sombra_16",
+				"asesino_sombra_17"
+			],
+			[
+				"asesino_sombra_17",
+				"asesino_sombra_18"
+			],
+			[
+				"asesino_sombra_18",
+				"asesino_sombra_s5"
+			],
+			[
+				"asesino_sombra_18",
+				"asesino_sombra_19"
+			],
+			[
+				"asesino_sombra_19",
+				"asesino_sombra_20"
+			],
+			[
+				"asesino_sombra_20",
+				"asesino_sombra_21"
+			],
+			[
+				"asesino_sombra_21",
+				"asesino_sombra_22"
+			],
+			[
+				"asesino_sombra_22",
+				"asesino_sombra_s6"
+			],
+			[
+				"asesino_sombra_22",
+				"asesino_sombra_23"
+			],
+			[
+				"asesino_sombra_23",
+				"asesino_sombra_24"
+			],
+			[
+				"asesino_sombra_24",
+				"asesino_sombra_25"
+			],
+			[
+				"asesino_sombra_25",
+				"asesino_sombra_26"
+			],
+			[
+				"asesino_sombra_26",
+				"asesino_sombra_s7"
+			],
+			[
+				"asesino_sombra_26",
+				"asesino_sombra_27"
+			],
+			[
+				"asesino_sombra_27",
+				"asesino_sombra_28"
+			],
+			[
+				"asesino_sombra_28",
+				"asesino_sombra_29"
+			],
+			[
+				"asesino_sombra_29",
+				"asesino_sombra_30"
+			],
+			[
+				"asesino_f10",
 				"asesino_duelista_1"
 			],
 			[
@@ -107,11 +223,11 @@
 			],
 			[
 				"asesino_duelista_5",
-				"asesino_duelista_s2"
+				"asesino_duelista_6"
 			],
 			[
-				"asesino_duelista_5",
-				"asesino_duelista_6"
+				"asesino_duelista_6",
+				"asesino_duelista_s2"
 			],
 			[
 				"asesino_duelista_6",
@@ -123,10 +239,6 @@
 			],
 			[
 				"asesino_duelista_8",
-				"asesino_duelista_s3"
-			],
-			[
-				"asesino_duelista_8",
 				"asesino_duelista_9"
 			],
 			[
@@ -134,7 +246,107 @@
 				"asesino_duelista_10"
 			],
 			[
-				"asesino_f6",
+				"asesino_duelista_10",
+				"asesino_duelista_s3"
+			],
+			[
+				"asesino_duelista_10",
+				"asesino_duelista_11"
+			],
+			[
+				"asesino_duelista_11",
+				"asesino_duelista_12"
+			],
+			[
+				"asesino_duelista_12",
+				"asesino_duelista_13"
+			],
+			[
+				"asesino_duelista_13",
+				"asesino_duelista_14"
+			],
+			[
+				"asesino_duelista_14",
+				"asesino_duelista_s4"
+			],
+			[
+				"asesino_duelista_14",
+				"asesino_duelista_15"
+			],
+			[
+				"asesino_duelista_15",
+				"asesino_duelista_16"
+			],
+			[
+				"asesino_duelista_16",
+				"asesino_duelista_17"
+			],
+			[
+				"asesino_duelista_17",
+				"asesino_duelista_18"
+			],
+			[
+				"asesino_duelista_18",
+				"asesino_duelista_s5"
+			],
+			[
+				"asesino_duelista_18",
+				"asesino_duelista_19"
+			],
+			[
+				"asesino_duelista_19",
+				"asesino_duelista_20"
+			],
+			[
+				"asesino_duelista_20",
+				"asesino_duelista_21"
+			],
+			[
+				"asesino_duelista_21",
+				"asesino_duelista_22"
+			],
+			[
+				"asesino_duelista_22",
+				"asesino_duelista_s6"
+			],
+			[
+				"asesino_duelista_22",
+				"asesino_duelista_23"
+			],
+			[
+				"asesino_duelista_23",
+				"asesino_duelista_24"
+			],
+			[
+				"asesino_duelista_24",
+				"asesino_duelista_25"
+			],
+			[
+				"asesino_duelista_25",
+				"asesino_duelista_26"
+			],
+			[
+				"asesino_duelista_26",
+				"asesino_duelista_s7"
+			],
+			[
+				"asesino_duelista_26",
+				"asesino_duelista_27"
+			],
+			[
+				"asesino_duelista_27",
+				"asesino_duelista_28"
+			],
+			[
+				"asesino_duelista_28",
+				"asesino_duelista_29"
+			],
+			[
+				"asesino_duelista_29",
+				"asesino_duelista_30"
+			],
+			[
+				"asesino_f10",
 				"asesino_verdugo_1"
 			],
 			[
@@ -159,11 +371,11 @@
 			],
 			[
 				"asesino_verdugo_5",
-				"asesino_verdugo_s2"
+				"asesino_verdugo_6"
 			],
 			[
-				"asesino_verdugo_5",
-				"asesino_verdugo_6"
+				"asesino_verdugo_6",
+				"asesino_verdugo_s2"
 			],
 			[
 				"asesino_verdugo_6",
@@ -175,15 +387,111 @@
 			],
 			[
 				"asesino_verdugo_8",
-				"asesino_verdugo_s3"
-			],
-			[
-				"asesino_verdugo_8",
 				"asesino_verdugo_9"
 			],
 			[
 				"asesino_verdugo_9",
 				"asesino_verdugo_10"
+			],
+			[
+				"asesino_verdugo_10",
+				"asesino_verdugo_s3"
+			],
+			[
+				"asesino_verdugo_10",
+				"asesino_verdugo_11"
+			],
+			[
+				"asesino_verdugo_11",
+				"asesino_verdugo_12"
+			],
+			[
+				"asesino_verdugo_12",
+				"asesino_verdugo_13"
+			],
+			[
+				"asesino_verdugo_13",
+				"asesino_verdugo_14"
+			],
+			[
+				"asesino_verdugo_14",
+				"asesino_verdugo_s4"
+			],
+			[
+				"asesino_verdugo_14",
+				"asesino_verdugo_15"
+			],
+			[
+				"asesino_verdugo_15",
+				"asesino_verdugo_16"
+			],
+			[
+				"asesino_verdugo_16",
+				"asesino_verdugo_17"
+			],
+			[
+				"asesino_verdugo_17",
+				"asesino_verdugo_18"
+			],
+			[
+				"asesino_verdugo_18",
+				"asesino_verdugo_s5"
+			],
+			[
+				"asesino_verdugo_18",
+				"asesino_verdugo_19"
+			],
+			[
+				"asesino_verdugo_19",
+				"asesino_verdugo_20"
+			],
+			[
+				"asesino_verdugo_20",
+				"asesino_verdugo_21"
+			],
+			[
+				"asesino_verdugo_21",
+				"asesino_verdugo_22"
+			],
+			[
+				"asesino_verdugo_22",
+				"asesino_verdugo_s6"
+			],
+			[
+				"asesino_verdugo_22",
+				"asesino_verdugo_23"
+			],
+			[
+				"asesino_verdugo_23",
+				"asesino_verdugo_24"
+			],
+			[
+				"asesino_verdugo_24",
+				"asesino_verdugo_25"
+			],
+			[
+				"asesino_verdugo_25",
+				"asesino_verdugo_26"
+			],
+			[
+				"asesino_verdugo_26",
+				"asesino_verdugo_s7"
+			],
+			[
+				"asesino_verdugo_26",
+				"asesino_verdugo_27"
+			],
+			[
+				"asesino_verdugo_27",
+				"asesino_verdugo_28"
+			],
+			[
+				"asesino_verdugo_28",
+				"asesino_verdugo_29"
+			],
+			[
+				"asesino_verdugo_29",
+				"asesino_verdugo_30"
 			]
 		]
 	}

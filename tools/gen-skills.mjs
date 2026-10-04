@@ -72,7 +72,13 @@ const reward = (key, v, mode) => {
 // ---- clases -----------------------------------------------------------------------------------------
 // stats: [clave, valor por nodo normal]. Los nodos "notables" (3, 6, 9) dan el doble del stat principal + un stat extra.
 // cap: cima del camino (3 stats). icons: se reparten por los 10 nodos. spurs: nodos laterales pequeños.
-const roman = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
+const toRoman = (n) => { const t = [[10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"]]; let r = ""; for (const [v, sym] of t) while (n >= v) { r += sym; n -= v; } return r; };
+const roman = Array.from({ length: 40 }, (_, i) => toRoman(i + 1));
+// Los caminos de Habilidades tienen 30 nodos: los 10 primeros valen 1x, los 10 siguientes TIER2x y el resto TIER3x (el camino cuesta mas, rinde mas)
+const tierMult = (k) => (k <= 10 ? 1 : k <= 20 ? 1.4 : 1.8);
+const scaleStats = (stats, m) => (m === 1 ? stats : stats.map(([key, v]) => [key, Number((v * m).toFixed(4))]));
+// nombre de un nodo notable: los 3 primeros llevan nombre propio; los siguientes repiten los nombres con numeral (Furia II, Frenesi II...)
+const notableName = (names, idx) => (idx < names.length ? names[idx] : `${names[idx % names.length]} ${toRoman(Math.floor(idx / names.length) + 1)}`);
 const classes = [
   {
     id: "guerrero", name: "Guerrero", icon: "minecraft:iron_sword",
@@ -207,7 +213,8 @@ const makeBuilder = (mode) => {
 function buildBand(b, y0, cls, opts) {
   const { trunkN, laneN, capSpent, prefix = "" } = opts;
   const stages = cls.stages || {};
-  const spurAt = laneN >= 10 ? [2, 5, 8] : [2, 5, 7];
+  // nodos laterales ("apoyo"): 3 en caminos cortos; en los largos uno cada 4 nodos
+  const spurAt = laneN > 12 ? Array.from({ length: Math.floor((laneN - 2) / 4) }, (_, i) => 2 + 4 * i) : laneN >= 10 ? [2, 5, 8] : [2, 5, 7];
   let prev = null;
   for (let k = 1; k <= trunkN; k++) {
     const id = `${cls.id}_f${k}`;
@@ -216,14 +223,14 @@ function buildBand(b, y0, cls, opts) {
     const stats = notable ? [[ts[0][0], ts[0][1] * 2], ts[(k / 3) % ts.length]] : [ts[(k - 1) % ts.length]];
     b.node({
       id, x: (k - 1) * TRUNK_STEP, y: y0, root: k === 1, frame: notable ? "goal" : "task",
-      title: notable ? cls.trunk.notables[k / 3 - 1] : `${cls.name} · Fundamentos ${roman[k - 1]}`,
-      path: `${prefix}${cls.name} › Fundamentos`, icon: cls.trunk.icons[k - 1], stats, stage: stages[id],
+      title: notable ? notableName(cls.trunk.notables, k / 3 - 1) : `${cls.name} · Fundamentos ${roman[k - 1]}`,
+      path: `${prefix}${cls.name} › Fundamentos`, icon: cls.trunk.icons[(k - 1) % cls.trunk.icons.length], stats, stage: stages[id],
     });
     if (prev) b.link(prev, id);
     prev = id;
-    if (k === 2 || k === 5) {
+    if (k === 2 || k === 5 || (trunkN > 8 && k === 8)) {
       const sid = `${id}s`;
-      b.node({ id: sid, x: (k - 1) * TRUNK_STEP, y: y0 + (k === 2 ? -SPUR : SPUR), frame: "task", title: `${cls.name} · Soporte`, path: `${prefix}${cls.name} › Fundamentos`, icon: cls.trunk.icons[k - 1], stats: [ts[(k + 1) % ts.length]] });
+      b.node({ id: sid, x: (k - 1) * TRUNK_STEP, y: y0 + (k === 5 ? SPUR : -SPUR), frame: "task", title: `${cls.name} · Soporte`, path: `${prefix}${cls.name} › Fundamentos`, icon: cls.trunk.icons[(k - 1) % cls.trunk.icons.length], stats: [ts[(k + 1) % ts.length]] });
       b.link(id, sid);
     }
   }
@@ -235,17 +242,17 @@ function buildBand(b, y0, cls, opts) {
     for (let k = 1; k <= laneN; k++) {
       const id = `${cls.id}_${lane.id}_${k}`, x = laneX0 + (k - 1) * LANE_STEP;
       const isCap = k === laneN, notable = !isCap && k % 3 === 0;
-      const ls = lane.stats, icon = lane.icons[(k - 1) % lane.icons.length];
+      const ls = lane.stats, icon = lane.icons[(k - 1) % lane.icons.length], m = laneN > 12 ? tierMult(k) : 1;
       if (isCap) b.node({ id, x, y: ly, frame: "challenge", title: lane.cap.title, path, icon: lane.cap.icon, stats: lane.cap.stats, lore: lane.cap.lore, requiredSpent: capSpent, stage: stages[id] });
-      else if (notable) b.node({ id, x, y: ly, frame: "goal", title: lane.notables[k / 3 - 1], path, icon, stats: [[ls[0][0], ls[0][1] * 2], ls[(k / 3) % ls.length]] });
-      else b.node({ id, x, y: ly, frame: "task", title: `${lane.name} ${roman[k - 1]}`, path, icon, stats: [ls[(k - 1) % ls.length]] });
+      else if (notable) b.node({ id, x, y: ly, frame: "goal", title: notableName(lane.notables, k / 3 - 1), path, icon, stats: scaleStats([[ls[0][0], ls[0][1] * 2], ls[(k / 3) % ls.length]], m), stage: stages[id] });
+      else b.node({ id, x, y: ly, frame: "task", title: `${lane.name} ${roman[k - 1]}`, path, icon, stats: scaleStats([ls[(k - 1) % ls.length]], m), stage: stages[id] });
       b.link(p, id);
       p = id;
       const si = spurAt.indexOf(k);
       if (si >= 0) {
         const sid = `${cls.id}_${lane.id}_s${si + 1}`;
         const sp = lane.spurs || ls;
-        b.node({ id: sid, x, y: ly + (si % 2 === 0 ? -SPUR : SPUR), frame: "task", title: `${lane.name} · Apoyo`, path, icon: lane.icons[(k + 1) % lane.icons.length], stats: [sp[si % sp.length]] });
+        b.node({ id: sid, x, y: ly + (si % 2 === 0 ? -SPUR : SPUR), frame: "task", title: `${lane.name} · Apoyo`, path, icon: lane.icons[(k + 1) % lane.icons.length], stats: scaleStats([sp[si % sp.length]], m) });
         b.link(id, sid);
       }
     }
@@ -270,16 +277,16 @@ const itemIcon = (item) => ({ type: "item", data: { item } });
 // 1) HABILIDADES: una categoría por clase, cada una con nivel 1–100 y puntos propios; solo se ve la de tu clase
 // ============================================================================================================
 {
-  // Stages de clase (los usa kubejs/server_scripts/class_gating.js): I = raíz, II = Fundamentos VI, III = cimas de camino
+  // Stages de clase (los usa kubejs/startup_scripts/class_gating.js): I = raíz, II = Fundamentos VI, III = nodo 10 de cualquier camino
   const classStages = (cls) => ({
     [`${cls.id}_f1`]: { id: `clase_${cls.id}`, text: `Equipo de ${cls.name}: Tier I` },
     [`${cls.id}_f6`]: { id: `maestria_${cls.id}_2`, text: `Equipo de ${cls.name}: Tier II` },
     ...Object.fromEntries(cls.lanes.map((l) => [`${cls.id}_${l.id}_10`, { id: `maestria_${cls.id}_3`, text: `Equipo de ${cls.name}: Tier III` }])),
   });
   const habilidadesExperience = {
-    // Curva de docs/03: XP del nivel n al n+1 = 60 + 12n + 0.9n^2 (a calibrar). Misiones/exploración dan XP por comando (/skillxp).
+    // XP del nivel n al n+1 = 50 + 10n + 0.6n^2 (nivel 100 ≈ 260.000 XP en total: matar jefes y las misiones dan mucha). Misiones: /skillxp.
     level_limit: 100,
-    experience_per_level: { type: "expression", data: { expression: "60 + 12 * level + 0.9 * level ^ 2" } },
+    experience_per_level: { type: "expression", data: { expression: "50 + 10 * level + 0.6 * level ^ 2" } },
     sources: [
       { type: "puffish_skills:kill_entity", data: {
         variables: {
@@ -297,10 +304,11 @@ const itemIcon = (item) => ({ type: "item", data: { item } });
   };
   classes.forEach((cls) => {
     const b = makeBuilder("normal");
-    buildBand(b, 0, { ...cls, stages: classStages(cls) }, { trunkN: 6, laneN: 10, capSpent: 30 });
+    // 10 de Fundamentos + caminos de 30 nodos (+ apoyos): ~120-170 nodos por clase para 100 puntos (nivel 100): hay que elegir
+    buildBand(b, 0, { ...cls, stages: classStages(cls) }, { trunkN: 10, laneN: 30, capSpent: 45 });
     writeCategory(`habilidades_${cls.id}`, b, {
       title: `Habilidades: ${cls.name}`,
-      description: `Tu árbol de ${cls.name}. Sube de nivel y reparte tus puntos entre sus caminos. Se desbloquea al elegir la clase.`,
+      description: `Tu árbol de ${cls.name}: nivel 1 a 100, un punto por nivel. No alcanzan los puntos para todo: elige tus caminos. Se desbloquea al elegir la clase.`,
       icon: itemIcon(cls.icon), background: BG("stone"), unlocked_by_default: false, exclusive_root: false,
     }, habilidadesExperience);
   });

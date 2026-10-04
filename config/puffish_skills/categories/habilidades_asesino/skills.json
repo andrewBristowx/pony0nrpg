@@ -40,199 +40,584 @@
 		"y": 0,
 		"definition": "asesino_f6"
 	},
+	"asesino_f7": {
+		"x": 264,
+		"y": 0,
+		"definition": "asesino_f7"
+	},
+	"asesino_f8": {
+		"x": 308,
+		"y": 0,
+		"definition": "asesino_f8"
+	},
+	"asesino_f8s": {
+		"x": 308,
+		"y": -38,
+		"definition": "asesino_f8s"
+	},
+	"asesino_f9": {
+		"x": 352,
+		"y": 0,
+		"definition": "asesino_f9"
+	},
+	"asesino_f10": {
+		"x": 396,
+		"y": 0,
+		"definition": "asesino_f10"
+	},
 	"asesino_sombra_1": {
-		"x": 276,
+		"x": 452,
 		"y": -120,
 		"definition": "asesino_sombra_1"
 	},
 	"asesino_sombra_2": {
-		"x": 320,
+		"x": 496,
 		"y": -120,
 		"definition": "asesino_sombra_2"
 	},
 	"asesino_sombra_s1": {
-		"x": 320,
+		"x": 496,
 		"y": -158,
 		"definition": "asesino_sombra_s1"
 	},
 	"asesino_sombra_3": {
-		"x": 364,
+		"x": 540,
 		"y": -120,
 		"definition": "asesino_sombra_3"
 	},
 	"asesino_sombra_4": {
-		"x": 408,
+		"x": 584,
 		"y": -120,
 		"definition": "asesino_sombra_4"
 	},
 	"asesino_sombra_5": {
-		"x": 452,
+		"x": 628,
 		"y": -120,
 		"definition": "asesino_sombra_5"
 	},
-	"asesino_sombra_s2": {
-		"x": 452,
-		"y": -82,
-		"definition": "asesino_sombra_s2"
-	},
 	"asesino_sombra_6": {
-		"x": 496,
+		"x": 672,
 		"y": -120,
 		"definition": "asesino_sombra_6"
 	},
+	"asesino_sombra_s2": {
+		"x": 672,
+		"y": -82,
+		"definition": "asesino_sombra_s2"
+	},
 	"asesino_sombra_7": {
-		"x": 540,
+		"x": 716,
 		"y": -120,
 		"definition": "asesino_sombra_7"
 	},
 	"asesino_sombra_8": {
-		"x": 584,
+		"x": 760,
 		"y": -120,
 		"definition": "asesino_sombra_8"
 	},
-	"asesino_sombra_s3": {
-		"x": 584,
-		"y": -158,
-		"definition": "asesino_sombra_s3"
-	},
 	"asesino_sombra_9": {
-		"x": 628,
+		"x": 804,
 		"y": -120,
 		"definition": "asesino_sombra_9"
 	},
 	"asesino_sombra_10": {
-		"x": 672,
+		"x": 848,
 		"y": -120,
 		"definition": "asesino_sombra_10"
 	},
+	"asesino_sombra_s3": {
+		"x": 848,
+		"y": -158,
+		"definition": "asesino_sombra_s3"
+	},
+	"asesino_sombra_11": {
+		"x": 892,
+		"y": -120,
+		"definition": "asesino_sombra_11"
+	},
+	"asesino_sombra_12": {
+		"x": 936,
+		"y": -120,
+		"definition": "asesino_sombra_12"
+	},
+	"asesino_sombra_13": {
+		"x": 980,
+		"y": -120,
+		"definition": "asesino_sombra_13"
+	},
+	"asesino_sombra_14": {
+		"x": 1024,
+		"y": -120,
+		"definition": "asesino_sombra_14"
+	},
+	"asesino_sombra_s4": {
+		"x": 1024,
+		"y": -82,
+		"definition": "asesino_sombra_s4"
+	},
+	"asesino_sombra_15": {
+		"x": 1068,
+		"y": -120,
+		"definition": "asesino_sombra_15"
+	},
+	"asesino_sombra_16": {
+		"x": 1112,
+		"y": -120,
+		"definition": "asesino_sombra_16"
+	},
+	"asesino_sombra_17": {
+		"x": 1156,
+		"y": -120,
+		"definition": "asesino_sombra_17"
+	},
+	"asesino_sombra_18": {
+		"x": 1200,
+		"y": -120,
+		"definition": "asesino_sombra_18"
+	},
+	"asesino_sombra_s5": {
+		"x": 1200,
+		"y": -158,
+		"definition": "asesino_sombra_s5"
+	},
+	"asesino_sombra_19": {
+		"x": 1244,
+		"y": -120,
+		"definition": "asesino_sombra_19"
+	},
+	"asesino_sombra_20": {
+		"x": 1288,
+		"y": -120,
+		"definition": "asesino_sombra_20"
+	},
+	"asesino_sombra_21": {
+		"x": 1332,
+		"y": -120,
+		"definition": "asesino_sombra_21"
+	},
+	"asesino_sombra_22": {
+		"x": 1376,
+		"y": -120,
+		"definition": "asesino_sombra_22"
+	},
+	"asesino_sombra_s6": {
+		"x": 1376,
+		"y": -82,
+		"definition": "asesino_sombra_s6"
+	},
+	"asesino_sombra_23": {
+		"x": 1420,
+		"y": -120,
+		"definition": "asesino_sombra_23"
+	},
+	"asesino_sombra_24": {
+		"x": 1464,
+		"y": -120,
+		"definition": "asesino_sombra_24"
+	},
+	"asesino_sombra_25": {
+		"x": 1508,
+		"y": -120,
+		"definition": "asesino_sombra_25"
+	},
+	"asesino_sombra_26": {
+		"x": 1552,
+		"y": -120,
+		"definition": "asesino_sombra_26"
+	},
+	"asesino_sombra_s7": {
+		"x": 1552,
+		"y": -158,
+		"definition": "asesino_sombra_s7"
+	},
+	"asesino_sombra_27": {
+		"x": 1596,
+		"y": -120,
+		"definition": "asesino_sombra_27"
+	},
+	"asesino_sombra_28": {
+		"x": 1640,
+		"y": -120,
+		"definition": "asesino_sombra_28"
+	},
+	"asesino_sombra_29": {
+		"x": 1684,
+		"y": -120,
+		"definition": "asesino_sombra_29"
+	},
+	"asesino_sombra_30": {
+		"x": 1728,
+		"y": -120,
+		"definition": "asesino_sombra_30"
+	},
 	"asesino_duelista_1": {
-		"x": 276,
+		"x": 452,
 		"y": 0,
 		"definition": "asesino_duelista_1"
 	},
 	"asesino_duelista_2": {
-		"x": 320,
+		"x": 496,
 		"y": 0,
 		"definition": "asesino_duelista_2"
 	},
 	"asesino_duelista_s1": {
-		"x": 320,
+		"x": 496,
 		"y": -38,
 		"definition": "asesino_duelista_s1"
 	},
 	"asesino_duelista_3": {
-		"x": 364,
+		"x": 540,
 		"y": 0,
 		"definition": "asesino_duelista_3"
 	},
 	"asesino_duelista_4": {
-		"x": 408,
+		"x": 584,
 		"y": 0,
 		"definition": "asesino_duelista_4"
 	},
 	"asesino_duelista_5": {
-		"x": 452,
+		"x": 628,
 		"y": 0,
 		"definition": "asesino_duelista_5"
 	},
-	"asesino_duelista_s2": {
-		"x": 452,
-		"y": 38,
-		"definition": "asesino_duelista_s2"
-	},
 	"asesino_duelista_6": {
-		"x": 496,
+		"x": 672,
 		"y": 0,
 		"definition": "asesino_duelista_6"
 	},
+	"asesino_duelista_s2": {
+		"x": 672,
+		"y": 38,
+		"definition": "asesino_duelista_s2"
+	},
 	"asesino_duelista_7": {
-		"x": 540,
+		"x": 716,
 		"y": 0,
 		"definition": "asesino_duelista_7"
 	},
 	"asesino_duelista_8": {
-		"x": 584,
+		"x": 760,
 		"y": 0,
 		"definition": "asesino_duelista_8"
 	},
-	"asesino_duelista_s3": {
-		"x": 584,
-		"y": -38,
-		"definition": "asesino_duelista_s3"
-	},
 	"asesino_duelista_9": {
-		"x": 628,
+		"x": 804,
 		"y": 0,
 		"definition": "asesino_duelista_9"
 	},
 	"asesino_duelista_10": {
-		"x": 672,
+		"x": 848,
 		"y": 0,
 		"definition": "asesino_duelista_10"
 	},
+	"asesino_duelista_s3": {
+		"x": 848,
+		"y": -38,
+		"definition": "asesino_duelista_s3"
+	},
+	"asesino_duelista_11": {
+		"x": 892,
+		"y": 0,
+		"definition": "asesino_duelista_11"
+	},
+	"asesino_duelista_12": {
+		"x": 936,
+		"y": 0,
+		"definition": "asesino_duelista_12"
+	},
+	"asesino_duelista_13": {
+		"x": 980,
+		"y": 0,
+		"definition": "asesino_duelista_13"
+	},
+	"asesino_duelista_14": {
+		"x": 1024,
+		"y": 0,
+		"definition": "asesino_duelista_14"
+	},
+	"asesino_duelista_s4": {
+		"x": 1024,
+		"y": 38,
+		"definition": "asesino_duelista_s4"
+	},
+	"asesino_duelista_15": {
+		"x": 1068,
+		"y": 0,
+		"definition": "asesino_duelista_15"
+	},
+	"asesino_duelista_16": {
+		"x": 1112,
+		"y": 0,
+		"definition": "asesino_duelista_16"
+	},
+	"asesino_duelista_17": {
+		"x": 1156,
+		"y": 0,
+		"definition": "asesino_duelista_17"
+	},
+	"asesino_duelista_18": {
+		"x": 1200,
+		"y": 0,
+		"definition": "asesino_duelista_18"
+	},
+	"asesino_duelista_s5": {
+		"x": 1200,
+		"y": -38,
+		"definition": "asesino_duelista_s5"
+	},
+	"asesino_duelista_19": {
+		"x": 1244,
+		"y": 0,
+		"definition": "asesino_duelista_19"
+	},
+	"asesino_duelista_20": {
+		"x": 1288,
+		"y": 0,
+		"definition": "asesino_duelista_20"
+	},
+	"asesino_duelista_21": {
+		"x": 1332,
+		"y": 0,
+		"definition": "asesino_duelista_21"
+	},
+	"asesino_duelista_22": {
+		"x": 1376,
+		"y": 0,
+		"definition": "asesino_duelista_22"
+	},
+	"asesino_duelista_s6": {
+		"x": 1376,
+		"y": 38,
+		"definition": "asesino_duelista_s6"
+	},
+	"asesino_duelista_23": {
+		"x": 1420,
+		"y": 0,
+		"definition": "asesino_duelista_23"
+	},
+	"asesino_duelista_24": {
+		"x": 1464,
+		"y": 0,
+		"definition": "asesino_duelista_24"
+	},
+	"asesino_duelista_25": {
+		"x": 1508,
+		"y": 0,
+		"definition": "asesino_duelista_25"
+	},
+	"asesino_duelista_26": {
+		"x": 1552,
+		"y": 0,
+		"definition": "asesino_duelista_26"
+	},
+	"asesino_duelista_s7": {
+		"x": 1552,
+		"y": -38,
+		"definition": "asesino_duelista_s7"
+	},
+	"asesino_duelista_27": {
+		"x": 1596,
+		"y": 0,
+		"definition": "asesino_duelista_27"
+	},
+	"asesino_duelista_28": {
+		"x": 1640,
+		"y": 0,
+		"definition": "asesino_duelista_28"
+	},
+	"asesino_duelista_29": {
+		"x": 1684,
+		"y": 0,
+		"definition": "asesino_duelista_29"
+	},
+	"asesino_duelista_30": {
+		"x": 1728,
+		"y": 0,
+		"definition": "asesino_duelista_30"
+	},
 	"asesino_verdugo_1": {
-		"x": 276,
+		"x": 452,
 		"y": 120,
 		"definition": "asesino_verdugo_1"
 	},
 	"asesino_verdugo_2": {
-		"x": 320,
+		"x": 496,
 		"y": 120,
 		"definition": "asesino_verdugo_2"
 	},
 	"asesino_verdugo_s1": {
-		"x": 320,
+		"x": 496,
 		"y": 82,
 		"definition": "asesino_verdugo_s1"
 	},
 	"asesino_verdugo_3": {
-		"x": 364,
+		"x": 540,
 		"y": 120,
 		"definition": "asesino_verdugo_3"
 	},
 	"asesino_verdugo_4": {
-		"x": 408,
+		"x": 584,
 		"y": 120,
 		"definition": "asesino_verdugo_4"
 	},
 	"asesino_verdugo_5": {
-		"x": 452,
+		"x": 628,
 		"y": 120,
 		"definition": "asesino_verdugo_5"
 	},
-	"asesino_verdugo_s2": {
-		"x": 452,
-		"y": 158,
-		"definition": "asesino_verdugo_s2"
-	},
 	"asesino_verdugo_6": {
-		"x": 496,
+		"x": 672,
 		"y": 120,
 		"definition": "asesino_verdugo_6"
 	},
+	"asesino_verdugo_s2": {
+		"x": 672,
+		"y": 158,
+		"definition": "asesino_verdugo_s2"
+	},
 	"asesino_verdugo_7": {
-		"x": 540,
+		"x": 716,
 		"y": 120,
 		"definition": "asesino_verdugo_7"
 	},
 	"asesino_verdugo_8": {
-		"x": 584,
+		"x": 760,
 		"y": 120,
 		"definition": "asesino_verdugo_8"
 	},
-	"asesino_verdugo_s3": {
-		"x": 584,
-		"y": 82,
-		"definition": "asesino_verdugo_s3"
-	},
 	"asesino_verdugo_9": {
-		"x": 628,
+		"x": 804,
 		"y": 120,
 		"definition": "asesino_verdugo_9"
 	},
 	"asesino_verdugo_10": {
-		"x": 672,
+		"x": 848,
 		"y": 120,
 		"definition": "asesino_verdugo_10"
+	},
+	"asesino_verdugo_s3": {
+		"x": 848,
+		"y": 82,
+		"definition": "asesino_verdugo_s3"
+	},
+	"asesino_verdugo_11": {
+		"x": 892,
+		"y": 120,
+		"definition": "asesino_verdugo_11"
+	},
+	"asesino_verdugo_12": {
+		"x": 936,
+		"y": 120,
+		"definition": "asesino_verdugo_12"
+	},
+	"asesino_verdugo_13": {
+		"x": 980,
+		"y": 120,
+		"definition": "asesino_verdugo_13"
+	},
+	"asesino_verdugo_14": {
+		"x": 1024,
+		"y": 120,
+		"definition": "asesino_verdugo_14"
+	},
+	"asesino_verdugo_s4": {
+		"x": 1024,
+		"y": 158,
+		"definition": "asesino_verdugo_s4"
+	},
+	"asesino_verdugo_15": {
+		"x": 1068,
+		"y": 120,
+		"definition": "asesino_verdugo_15"
+	},
+	"asesino_verdugo_16": {
+		"x": 1112,
+		"y": 120,
+		"definition": "asesino_verdugo_16"
+	},
+	"asesino_verdugo_17": {
+		"x": 1156,
+		"y": 120,
+		"definition": "asesino_verdugo_17"
+	},
+	"asesino_verdugo_18": {
+		"x": 1200,
+		"y": 120,
+		"definition": "asesino_verdugo_18"
+	},
+	"asesino_verdugo_s5": {
+		"x": 1200,
+		"y": 82,
+		"definition": "asesino_verdugo_s5"
+	},
+	"asesino_verdugo_19": {
+		"x": 1244,
+		"y": 120,
+		"definition": "asesino_verdugo_19"
+	},
+	"asesino_verdugo_20": {
+		"x": 1288,
+		"y": 120,
+		"definition": "asesino_verdugo_20"
+	},
+	"asesino_verdugo_21": {
+		"x": 1332,
+		"y": 120,
+		"definition": "asesino_verdugo_21"
+	},
+	"asesino_verdugo_22": {
+		"x": 1376,
+		"y": 120,
+		"definition": "asesino_verdugo_22"
+	},
+	"asesino_verdugo_s6": {
+		"x": 1376,
+		"y": 158,
+		"definition": "asesino_verdugo_s6"
+	},
+	"asesino_verdugo_23": {
+		"x": 1420,
+		"y": 120,
+		"definition": "asesino_verdugo_23"
+	},
+	"asesino_verdugo_24": {
+		"x": 1464,
+		"y": 120,
+		"definition": "asesino_verdugo_24"
+	},
+	"asesino_verdugo_25": {
+		"x": 1508,
+		"y": 120,
+		"definition": "asesino_verdugo_25"
+	},
+	"asesino_verdugo_26": {
+		"x": 1552,
+		"y": 120,
+		"definition": "asesino_verdugo_26"
+	},
+	"asesino_verdugo_s7": {
+		"x": 1552,
+		"y": 82,
+		"definition": "asesino_verdugo_s7"
+	},
+	"asesino_verdugo_27": {
+		"x": 1596,
+		"y": 120,
+		"definition": "asesino_verdugo_27"
+	},
+	"asesino_verdugo_28": {
+		"x": 1640,
+		"y": 120,
+		"definition": "asesino_verdugo_28"
+	},
+	"asesino_verdugo_29": {
+		"x": 1684,
+		"y": 120,
+		"definition": "asesino_verdugo_29"
+	},
+	"asesino_verdugo_30": {
+		"x": 1728,
+		"y": 120,
+		"definition": "asesino_verdugo_30"
 	}
 }

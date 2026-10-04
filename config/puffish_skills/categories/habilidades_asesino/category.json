@@ -1,6 +1,6 @@
 {
 	"title": "Habilidades: Asesino",
-	"description": "Tu árbol de Asesino. Sube de nivel y reparte tus puntos entre sus caminos. Se desbloquea al elegir la clase.",
+	"description": "Tu árbol de Asesino: nivel 1 a 100, un punto por nivel. No alcanzan los puntos para todo: elige tus caminos. Se desbloquea al elegir la clase.",
 	"icon": {
 		"type": "item",
 		"data": {

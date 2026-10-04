@@ -40,199 +40,584 @@
 		"y": 0,
 		"definition": "guerrero_f6"
 	},
+	"guerrero_f7": {
+		"x": 264,
+		"y": 0,
+		"definition": "guerrero_f7"
+	},
+	"guerrero_f8": {
+		"x": 308,
+		"y": 0,
+		"definition": "guerrero_f8"
+	},
+	"guerrero_f8s": {
+		"x": 308,
+		"y": -38,
+		"definition": "guerrero_f8s"
+	},
+	"guerrero_f9": {
+		"x": 352,
+		"y": 0,
+		"definition": "guerrero_f9"
+	},
+	"guerrero_f10": {
+		"x": 396,
+		"y": 0,
+		"definition": "guerrero_f10"
+	},
 	"guerrero_baluarte_1": {
-		"x": 276,
+		"x": 452,
 		"y": -120,
 		"definition": "guerrero_baluarte_1"
 	},
 	"guerrero_baluarte_2": {
-		"x": 320,
+		"x": 496,
 		"y": -120,
 		"definition": "guerrero_baluarte_2"
 	},
 	"guerrero_baluarte_s1": {
-		"x": 320,
+		"x": 496,
 		"y": -158,
 		"definition": "guerrero_baluarte_s1"
 	},
 	"guerrero_baluarte_3": {
-		"x": 364,
+		"x": 540,
 		"y": -120,
 		"definition": "guerrero_baluarte_3"
 	},
 	"guerrero_baluarte_4": {
-		"x": 408,
+		"x": 584,
 		"y": -120,
 		"definition": "guerrero_baluarte_4"
 	},
 	"guerrero_baluarte_5": {
-		"x": 452,
+		"x": 628,
 		"y": -120,
 		"definition": "guerrero_baluarte_5"
 	},
-	"guerrero_baluarte_s2": {
-		"x": 452,
-		"y": -82,
-		"definition": "guerrero_baluarte_s2"
-	},
 	"guerrero_baluarte_6": {
-		"x": 496,
+		"x": 672,
 		"y": -120,
 		"definition": "guerrero_baluarte_6"
 	},
+	"guerrero_baluarte_s2": {
+		"x": 672,
+		"y": -82,
+		"definition": "guerrero_baluarte_s2"
+	},
 	"guerrero_baluarte_7": {
-		"x": 540,
+		"x": 716,
 		"y": -120,
 		"definition": "guerrero_baluarte_7"
 	},
 	"guerrero_baluarte_8": {
-		"x": 584,
+		"x": 760,
 		"y": -120,
 		"definition": "guerrero_baluarte_8"
 	},
-	"guerrero_baluarte_s3": {
-		"x": 584,
-		"y": -158,
-		"definition": "guerrero_baluarte_s3"
-	},
 	"guerrero_baluarte_9": {
-		"x": 628,
+		"x": 804,
 		"y": -120,
 		"definition": "guerrero_baluarte_9"
 	},
 	"guerrero_baluarte_10": {
-		"x": 672,
+		"x": 848,
 		"y": -120,
 		"definition": "guerrero_baluarte_10"
 	},
+	"guerrero_baluarte_s3": {
+		"x": 848,
+		"y": -158,
+		"definition": "guerrero_baluarte_s3"
+	},
+	"guerrero_baluarte_11": {
+		"x": 892,
+		"y": -120,
+		"definition": "guerrero_baluarte_11"
+	},
+	"guerrero_baluarte_12": {
+		"x": 936,
+		"y": -120,
+		"definition": "guerrero_baluarte_12"
+	},
+	"guerrero_baluarte_13": {
+		"x": 980,
+		"y": -120,
+		"definition": "guerrero_baluarte_13"
+	},
+	"guerrero_baluarte_14": {
+		"x": 1024,
+		"y": -120,
+		"definition": "guerrero_baluarte_14"
+	},
+	"guerrero_baluarte_s4": {
+		"x": 1024,
+		"y": -82,
+		"definition": "guerrero_baluarte_s4"
+	},
+	"guerrero_baluarte_15": {
+		"x": 1068,
+		"y": -120,
+		"definition": "guerrero_baluarte_15"
+	},
+	"guerrero_baluarte_16": {
+		"x": 1112,
+		"y": -120,
+		"definition": "guerrero_baluarte_16"
+	},
+	"guerrero_baluarte_17": {
+		"x": 1156,
+		"y": -120,
+		"definition": "guerrero_baluarte_17"
+	},
+	"guerrero_baluarte_18": {
+		"x": 1200,
+		"y": -120,
+		"definition": "guerrero_baluarte_18"
+	},
+	"guerrero_baluarte_s5": {
+		"x": 1200,
+		"y": -158,
+		"definition": "guerrero_baluarte_s5"
+	},
+	"guerrero_baluarte_19": {
+		"x": 1244,
+		"y": -120,
+		"definition": "guerrero_baluarte_19"
+	},
+	"guerrero_baluarte_20": {
+		"x": 1288,
+		"y": -120,
+		"definition": "guerrero_baluarte_20"
+	},
+	"guerrero_baluarte_21": {
+		"x": 1332,
+		"y": -120,
+		"definition": "guerrero_baluarte_21"
+	},
+	"guerrero_baluarte_22": {
+		"x": 1376,
+		"y": -120,
+		"definition": "guerrero_baluarte_22"
+	},
+	"guerrero_baluarte_s6": {
+		"x": 1376,
+		"y": -82,
+		"definition": "guerrero_baluarte_s6"
+	},
+	"guerrero_baluarte_23": {
+		"x": 1420,
+		"y": -120,
+		"definition": "guerrero_baluarte_23"
+	},
+	"guerrero_baluarte_24": {
+		"x": 1464,
+		"y": -120,
+		"definition": "guerrero_baluarte_24"
+	},
+	"guerrero_baluarte_25": {
+		"x": 1508,
+		"y": -120,
+		"definition": "guerrero_baluarte_25"
+	},
+	"guerrero_baluarte_26": {
+		"x": 1552,
+		"y": -120,
+		"definition": "guerrero_baluarte_26"
+	},
+	"guerrero_baluarte_s7": {
+		"x": 1552,
+		"y": -158,
+		"definition": "guerrero_baluarte_s7"
+	},
+	"guerrero_baluarte_27": {
+		"x": 1596,
+		"y": -120,
+		"definition": "guerrero_baluarte_27"
+	},
+	"guerrero_baluarte_28": {
+		"x": 1640,
+		"y": -120,
+		"definition": "guerrero_baluarte_28"
+	},
+	"guerrero_baluarte_29": {
+		"x": 1684,
+		"y": -120,
+		"definition": "guerrero_baluarte_29"
+	},
+	"guerrero_baluarte_30": {
+		"x": 1728,
+		"y": -120,
+		"definition": "guerrero_baluarte_30"
+	},
 	"guerrero_berserker_1": {
-		"x": 276,
+		"x": 452,
 		"y": 0,
 		"definition": "guerrero_berserker_1"
 	},
 	"guerrero_berserker_2": {
-		"x": 320,
+		"x": 496,
 		"y": 0,
 		"definition": "guerrero_berserker_2"
 	},
 	"guerrero_berserker_s1": {
-		"x": 320,
+		"x": 496,
 		"y": -38,
 		"definition": "guerrero_berserker_s1"
 	},
 	"guerrero_berserker_3": {
-		"x": 364,
+		"x": 540,
 		"y": 0,
 		"definition": "guerrero_berserker_3"
 	},
 	"guerrero_berserker_4": {
-		"x": 408,
+		"x": 584,
 		"y": 0,
 		"definition": "guerrero_berserker_4"
 	},
 	"guerrero_berserker_5": {
-		"x": 452,
+		"x": 628,
 		"y": 0,
 		"definition": "guerrero_berserker_5"
 	},
-	"guerrero_berserker_s2": {
-		"x": 452,
-		"y": 38,
-		"definition": "guerrero_berserker_s2"
-	},
 	"guerrero_berserker_6": {
-		"x": 496,
+		"x": 672,
 		"y": 0,
 		"definition": "guerrero_berserker_6"
 	},
+	"guerrero_berserker_s2": {
+		"x": 672,
+		"y": 38,
+		"definition": "guerrero_berserker_s2"
+	},
 	"guerrero_berserker_7": {
-		"x": 540,
+		"x": 716,
 		"y": 0,
 		"definition": "guerrero_berserker_7"
 	},
 	"guerrero_berserker_8": {
-		"x": 584,
+		"x": 760,
 		"y": 0,
 		"definition": "guerrero_berserker_8"
 	},
-	"guerrero_berserker_s3": {
-		"x": 584,
-		"y": -38,
-		"definition": "guerrero_berserker_s3"
-	},
 	"guerrero_berserker_9": {
-		"x": 628,
+		"x": 804,
 		"y": 0,
 		"definition": "guerrero_berserker_9"
 	},
 	"guerrero_berserker_10": {
-		"x": 672,
+		"x": 848,
 		"y": 0,
 		"definition": "guerrero_berserker_10"
 	},
+	"guerrero_berserker_s3": {
+		"x": 848,
+		"y": -38,
+		"definition": "guerrero_berserker_s3"
+	},
+	"guerrero_berserker_11": {
+		"x": 892,
+		"y": 0,
+		"definition": "guerrero_berserker_11"
+	},
+	"guerrero_berserker_12": {
+		"x": 936,
+		"y": 0,
+		"definition": "guerrero_berserker_12"
+	},
+	"guerrero_berserker_13": {
+		"x": 980,
+		"y": 0,
+		"definition": "guerrero_berserker_13"
+	},
+	"guerrero_berserker_14": {
+		"x": 1024,
+		"y": 0,
+		"definition": "guerrero_berserker_14"
+	},
+	"guerrero_berserker_s4": {
+		"x": 1024,
+		"y": 38,
+		"definition": "guerrero_berserker_s4"
+	},
+	"guerrero_berserker_15": {
+		"x": 1068,
+		"y": 0,
+		"definition": "guerrero_berserker_15"
+	},
+	"guerrero_berserker_16": {
+		"x": 1112,
+		"y": 0,
+		"definition": "guerrero_berserker_16"
+	},
+	"guerrero_berserker_17": {
+		"x": 1156,
+		"y": 0,
+		"definition": "guerrero_berserker_17"
+	},
+	"guerrero_berserker_18": {
+		"x": 1200,
+		"y": 0,
+		"definition": "guerrero_berserker_18"
+	},
+	"guerrero_berserker_s5": {
+		"x": 1200,
+		"y": -38,
+		"definition": "guerrero_berserker_s5"
+	},
+	"guerrero_berserker_19": {
+		"x": 1244,
+		"y": 0,
+		"definition": "guerrero_berserker_19"
+	},
+	"guerrero_berserker_20": {
+		"x": 1288,
+		"y": 0,
+		"definition": "guerrero_berserker_20"
+	},
+	"guerrero_berserker_21": {
+		"x": 1332,
+		"y": 0,
+		"definition": "guerrero_berserker_21"
+	},
+	"guerrero_berserker_22": {
+		"x": 1376,
+		"y": 0,
+		"definition": "guerrero_berserker_22"
+	},
+	"guerrero_berserker_s6": {
+		"x": 1376,
+		"y": 38,
+		"definition": "guerrero_berserker_s6"
+	},
+	"guerrero_berserker_23": {
+		"x": 1420,
+		"y": 0,
+		"definition": "guerrero_berserker_23"
+	},
+	"guerrero_berserker_24": {
+		"x": 1464,
+		"y": 0,
+		"definition": "guerrero_berserker_24"
+	},
+	"guerrero_berserker_25": {
+		"x": 1508,
+		"y": 0,
+		"definition": "guerrero_berserker_25"
+	},
+	"guerrero_berserker_26": {
+		"x": 1552,
+		"y": 0,
+		"definition": "guerrero_berserker_26"
+	},
+	"guerrero_berserker_s7": {
+		"x": 1552,
+		"y": -38,
+		"definition": "guerrero_berserker_s7"
+	},
+	"guerrero_berserker_27": {
+		"x": 1596,
+		"y": 0,
+		"definition": "guerrero_berserker_27"
+	},
+	"guerrero_berserker_28": {
+		"x": 1640,
+		"y": 0,
+		"definition": "guerrero_berserker_28"
+	},
+	"guerrero_berserker_29": {
+		"x": 1684,
+		"y": 0,
+		"definition": "guerrero_berserker_29"
+	},
+	"guerrero_berserker_30": {
+		"x": 1728,
+		"y": 0,
+		"definition": "guerrero_berserker_30"
+	},
 	"guerrero_paladin_1": {
-		"x": 276,
+		"x": 452,
 		"y": 120,
 		"definition": "guerrero_paladin_1"
 	},
 	"guerrero_paladin_2": {
-		"x": 320,
+		"x": 496,
 		"y": 120,
 		"definition": "guerrero_paladin_2"
 	},
 	"guerrero_paladin_s1": {
-		"x": 320,
+		"x": 496,
 		"y": 82,
 		"definition": "guerrero_paladin_s1"
 	},
 	"guerrero_paladin_3": {
-		"x": 364,
+		"x": 540,
 		"y": 120,
 		"definition": "guerrero_paladin_3"
 	},
 	"guerrero_paladin_4": {
-		"x": 408,
+		"x": 584,
 		"y": 120,
 		"definition": "guerrero_paladin_4"
 	},
 	"guerrero_paladin_5": {
-		"x": 452,
+		"x": 628,
 		"y": 120,
 		"definition": "guerrero_paladin_5"
 	},
-	"guerrero_paladin_s2": {
-		"x": 452,
-		"y": 158,
-		"definition": "guerrero_paladin_s2"
-	},
 	"guerrero_paladin_6": {
-		"x": 496,
+		"x": 672,
 		"y": 120,
 		"definition": "guerrero_paladin_6"
 	},
+	"guerrero_paladin_s2": {
+		"x": 672,
+		"y": 158,
+		"definition": "guerrero_paladin_s2"
+	},
 	"guerrero_paladin_7": {
-		"x": 540,
+		"x": 716,
 		"y": 120,
 		"definition": "guerrero_paladin_7"
 	},
 	"guerrero_paladin_8": {
-		"x": 584,
+		"x": 760,
 		"y": 120,
 		"definition": "guerrero_paladin_8"
 	},
-	"guerrero_paladin_s3": {
-		"x": 584,
-		"y": 82,
-		"definition": "guerrero_paladin_s3"
-	},
 	"guerrero_paladin_9": {
-		"x": 628,
+		"x": 804,
 		"y": 120,
 		"definition": "guerrero_paladin_9"
 	},
 	"guerrero_paladin_10": {
-		"x": 672,
+		"x": 848,
 		"y": 120,
 		"definition": "guerrero_paladin_10"
+	},
+	"guerrero_paladin_s3": {
+		"x": 848,
+		"y": 82,
+		"definition": "guerrero_paladin_s3"
+	},
+	"guerrero_paladin_11": {
+		"x": 892,
+		"y": 120,
+		"definition": "guerrero_paladin_11"
+	},
+	"guerrero_paladin_12": {
+		"x": 936,
+		"y": 120,
+		"definition": "guerrero_paladin_12"
+	},
+	"guerrero_paladin_13": {
+		"x": 980,
+		"y": 120,
+		"definition": "guerrero_paladin_13"
+	},
+	"guerrero_paladin_14": {
+		"x": 1024,
+		"y": 120,
+		"definition": "guerrero_paladin_14"
+	},
+	"guerrero_paladin_s4": {
+		"x": 1024,
+		"y": 158,
+		"definition": "guerrero_paladin_s4"
+	},
+	"guerrero_paladin_15": {
+		"x": 1068,
+		"y": 120,
+		"definition": "guerrero_paladin_15"
+	},
+	"guerrero_paladin_16": {
+		"x": 1112,
+		"y": 120,
+		"definition": "guerrero_paladin_16"
+	},
+	"guerrero_paladin_17": {
+		"x": 1156,
+		"y": 120,
+		"definition": "guerrero_paladin_17"
+	},
+	"guerrero_paladin_18": {
+		"x": 1200,
+		"y": 120,
+		"definition": "guerrero_paladin_18"
+	},
+	"guerrero_paladin_s5": {
+		"x": 1200,
+		"y": 82,
+		"definition": "guerrero_paladin_s5"
+	},
+	"guerrero_paladin_19": {
+		"x": 1244,
+		"y": 120,
+		"definition": "guerrero_paladin_19"
+	},
+	"guerrero_paladin_20": {
+		"x": 1288,
+		"y": 120,
+		"definition": "guerrero_paladin_20"
+	},
+	"guerrero_paladin_21": {
+		"x": 1332,
+		"y": 120,
+		"definition": "guerrero_paladin_21"
+	},
+	"guerrero_paladin_22": {
+		"x": 1376,
+		"y": 120,
+		"definition": "guerrero_paladin_22"
+	},
+	"guerrero_paladin_s6": {
+		"x": 1376,
+		"y": 158,
+		"definition": "guerrero_paladin_s6"
+	},
+	"guerrero_paladin_23": {
+		"x": 1420,
+		"y": 120,
+		"definition": "guerrero_paladin_23"
+	},
+	"guerrero_paladin_24": {
+		"x": 1464,
+		"y": 120,
+		"definition": "guerrero_paladin_24"
+	},
+	"guerrero_paladin_25": {
+		"x": 1508,
+		"y": 120,
+		"definition": "guerrero_paladin_25"
+	},
+	"guerrero_paladin_26": {
+		"x": 1552,
+		"y": 120,
+		"definition": "guerrero_paladin_26"
+	},
+	"guerrero_paladin_s7": {
+		"x": 1552,
+		"y": 82,
+		"definition": "guerrero_paladin_s7"
+	},
+	"guerrero_paladin_27": {
+		"x": 1596,
+		"y": 120,
+		"definition": "guerrero_paladin_27"
+	},
+	"guerrero_paladin_28": {
+		"x": 1640,
+		"y": 120,
+		"definition": "guerrero_paladin_28"
+	},
+	"guerrero_paladin_29": {
+		"x": 1684,
+		"y": 120,
+		"definition": "guerrero_paladin_29"
+	},
+	"guerrero_paladin_30": {
+		"x": 1728,
+		"y": 120,
+		"definition": "guerrero_paladin_30"
 	}
 }

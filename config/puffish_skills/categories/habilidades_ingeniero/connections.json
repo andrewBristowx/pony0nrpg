@@ -31,6 +31,26 @@
 			],
 			[
 				"ingeniero_f6",
+				"ingeniero_f7"
+			],
+			[
+				"ingeniero_f7",
+				"ingeniero_f8"
+			],
+			[
+				"ingeniero_f8",
+				"ingeniero_f8s"
+			],
+			[
+				"ingeniero_f8",
+				"ingeniero_f9"
+			],
+			[
+				"ingeniero_f9",
+				"ingeniero_f10"
+			],
+			[
+				"ingeniero_f10",
 				"ingeniero_minero_1"
 			],
 			[
@@ -55,11 +75,11 @@
 			],
 			[
 				"ingeniero_minero_5",
-				"ingeniero_minero_s2"
+				"ingeniero_minero_6"
 			],
 			[
-				"ingeniero_minero_5",
-				"ingeniero_minero_6"
+				"ingeniero_minero_6",
+				"ingeniero_minero_s2"
 			],
 			[
 				"ingeniero_minero_6",
@@ -71,10 +91,6 @@
 			],
 			[
 				"ingeniero_minero_8",
-				"ingeniero_minero_s3"
-			],
-			[
-				"ingeniero_minero_8",
 				"ingeniero_minero_9"
 			],
 			[
@@ -82,7 +98,107 @@
 				"ingeniero_minero_10"
 			],
 			[
-				"ingeniero_f6",
+				"ingeniero_minero_10",
+				"ingeniero_minero_s3"
+			],
+			[
+				"ingeniero_minero_10",
+				"ingeniero_minero_11"
+			],
+			[
+				"ingeniero_minero_11",
+				"ingeniero_minero_12"
+			],
+			[
+				"ingeniero_minero_12",
+				"ingeniero_minero_13"
+			],
+			[
+				"ingeniero_minero_13",
+				"ingeniero_minero_14"
+			],
+			[
+				"ingeniero_minero_14",
+				"ingeniero_minero_s4"
+			],
+			[
+				"ingeniero_minero_14",
+				"ingeniero_minero_15"
+			],
+			[
+				"ingeniero_minero_15",
+				"ingeniero_minero_16"
+			],
+			[
+				"ingeniero_minero_16",
+				"ingeniero_minero_17"
+			],
+			[
+				"ingeniero_minero_17",
+				"ingeniero_minero_18"
+			],
+			[
+				"ingeniero_minero_18",
+				"ingeniero_minero_s5"
+			],
+			[
+				"ingeniero_minero_18",
+				"ingeniero_minero_19"
+			],
+			[
+				"ingeniero_minero_19",
+				"ingeniero_minero_20"
+			],
+			[
+				"ingeniero_minero_20",
+				"ingeniero_minero_21"
+			],
+			[
+				"ingeniero_minero_21",
+				"ingeniero_minero_22"
+			],
+			[
+				"ingeniero_minero_22",
+				"ingeniero_minero_s6"
+			],
+			[
+				"ingeniero_minero_22",
+				"ingeniero_minero_23"
+			],
+			[
+				"ingeniero_minero_23",
+				"ingeniero_minero_24"
+			],
+			[
+				"ingeniero_minero_24",
+				"ingeniero_minero_25"
+			],
+			[
+				"ingeniero_minero_25",
+				"ingeniero_minero_26"
+			],
+			[
+				"ingeniero_minero_26",
+				"ingeniero_minero_s7"
+			],
+			[
+				"ingeniero_minero_26",
+				"ingeniero_minero_27"
+			],
+			[
+				"ingeniero_minero_27",
+				"ingeniero_minero_28"
+			],
+			[
+				"ingeniero_minero_28",
+				"ingeniero_minero_29"
+			],
+			[
+				"ingeniero_minero_29",
+				"ingeniero_minero_30"
+			],
+			[
+				"ingeniero_f10",
 				"ingeniero_inventor_1"
 			],
 			[
@@ -107,11 +223,11 @@
 			],
 			[
 				"ingeniero_inventor_5",
-				"ingeniero_inventor_s2"
+				"ingeniero_inventor_6"
 			],
 			[
-				"ingeniero_inventor_5",
-				"ingeniero_inventor_6"
+				"ingeniero_inventor_6",
+				"ingeniero_inventor_s2"
 			],
 			[
 				"ingeniero_inventor_6",
@@ -123,10 +239,6 @@
 			],
 			[
 				"ingeniero_inventor_8",
-				"ingeniero_inventor_s3"
-			],
-			[
-				"ingeniero_inventor_8",
 				"ingeniero_inventor_9"
 			],
 			[
@@ -134,7 +246,107 @@
 				"ingeniero_inventor_10"
 			],
 			[
-				"ingeniero_f6",
+				"ingeniero_inventor_10",
+				"ingeniero_inventor_s3"
+			],
+			[
+				"ingeniero_inventor_10",
+				"ingeniero_inventor_11"
+			],
+			[
+				"ingeniero_inventor_11",
+				"ingeniero_inventor_12"
+			],
+			[
+				"ingeniero_inventor_12",
+				"ingeniero_inventor_13"
+			],
+			[
+				"ingeniero_inventor_13",
+				"ingeniero_inventor_14"
+			],
+			[
+				"ingeniero_inventor_14",
+				"ingeniero_inventor_s4"
+			],
+			[
+				"ingeniero_inventor_14",
+				"ingeniero_inventor_15"
+			],
+			[
+				"ingeniero_inventor_15",
+				"ingeniero_inventor_16"
+			],
+			[
+				"ingeniero_inventor_16",
+				"ingeniero_inventor_17"
+			],
+			[
+				"ingeniero_inventor_17",
+				"ingeniero_inventor_18"
+			],
+			[
+				"ingeniero_inventor_18",
+				"ingeniero_inventor_s5"
+			],
+			[
+				"ingeniero_inventor_18",
+				"ingeniero_inventor_19"
+			],
+			[
+				"ingeniero_inventor_19",
+				"ingeniero_inventor_20"
+			],
+			[
+				"ingeniero_inventor_20",
+				"ingeniero_inventor_21"
+			],
+			[
+				"ingeniero_inventor_21",
+				"ingeniero_inventor_22"
+			],
+			[
+				"ingeniero_inventor_22",
+				"ingeniero_inventor_s6"
+			],
+			[
+				"ingeniero_inventor_22",
+				"ingeniero_inventor_23"
+			],
+			[
+				"ingeniero_inventor_23",
+				"ingeniero_inventor_24"
+			],
+			[
+				"ingeniero_inventor_24",
+				"ingeniero_inventor_25"
+			],
+			[
+				"ingeniero_inventor_25",
+				"ingeniero_inventor_26"
+			],
+			[
+				"ingeniero_inventor_26",
+				"ingeniero_inventor_s7"
+			],
+			[
+				"ingeniero_inventor_26",
+				"ingeniero_inventor_27"
+			],
+			[
+				"ingeniero_inventor_27",
+				"ingeniero_inventor_28"
+			],
+			[
+				"ingeniero_inventor_28",
+				"ingeniero_inventor_29"
+			],
+			[
+				"ingeniero_inventor_29",
+				"ingeniero_inventor_30"
+			],
+			[
+				"ingeniero_f10",
 				"ingeniero_zapador_1"
 			],
 			[
@@ -159,11 +371,11 @@
 			],
 			[
 				"ingeniero_zapador_5",
-				"ingeniero_zapador_s2"
+				"ingeniero_zapador_6"
 			],
 			[
-				"ingeniero_zapador_5",
-				"ingeniero_zapador_6"
+				"ingeniero_zapador_6",
+				"ingeniero_zapador_s2"
 			],
 			[
 				"ingeniero_zapador_6",
@@ -175,15 +387,111 @@
 			],
 			[
 				"ingeniero_zapador_8",
-				"ingeniero_zapador_s3"
-			],
-			[
-				"ingeniero_zapador_8",
 				"ingeniero_zapador_9"
 			],
 			[
 				"ingeniero_zapador_9",
 				"ingeniero_zapador_10"
+			],
+			[
+				"ingeniero_zapador_10",
+				"ingeniero_zapador_s3"
+			],
+			[
+				"ingeniero_zapador_10",
+				"ingeniero_zapador_11"
+			],
+			[
+				"ingeniero_zapador_11",
+				"ingeniero_zapador_12"
+			],
+			[
+				"ingeniero_zapador_12",
+				"ingeniero_zapador_13"
+			],
+			[
+				"ingeniero_zapador_13",
+				"ingeniero_zapador_14"
+			],
+			[
+				"ingeniero_zapador_14",
+				"ingeniero_zapador_s4"
+			],
+			[
+				"ingeniero_zapador_14",
+				"ingeniero_zapador_15"
+			],
+			[
+				"ingeniero_zapador_15",
+				"ingeniero_zapador_16"
+			],
+			[
+				"ingeniero_zapador_16",
+				"ingeniero_zapador_17"
+			],
+			[
+				"ingeniero_zapador_17",
+				"ingeniero_zapador_18"
+			],
+			[
+				"ingeniero_zapador_18",
+				"ingeniero_zapador_s5"
+			],
+			[
+				"ingeniero_zapador_18",
+				"ingeniero_zapador_19"
+			],
+			[
+				"ingeniero_zapador_19",
+				"ingeniero_zapador_20"
+			],
+			[
+				"ingeniero_zapador_20",
+				"ingeniero_zapador_21"
+			],
+			[
+				"ingeniero_zapador_21",
+				"ingeniero_zapador_22"
+			],
+			[
+				"ingeniero_zapador_22",
+				"ingeniero_zapador_s6"
+			],
+			[
+				"ingeniero_zapador_22",
+				"ingeniero_zapador_23"
+			],
+			[
+				"ingeniero_zapador_23",
+				"ingeniero_zapador_24"
+			],
+			[
+				"ingeniero_zapador_24",
+				"ingeniero_zapador_25"
+			],
+			[
+				"ingeniero_zapador_25",
+				"ingeniero_zapador_26"
+			],
+			[
+				"ingeniero_zapador_26",
+				"ingeniero_zapador_s7"
+			],
+			[
+				"ingeniero_zapador_26",
+				"ingeniero_zapador_27"
+			],
+			[
+				"ingeniero_zapador_27",
+				"ingeniero_zapador_28"
+			],
+			[
+				"ingeniero_zapador_28",
+				"ingeniero_zapador_29"
+			],
+			[
+				"ingeniero_zapador_29",
+				"ingeniero_zapador_30"
 			]
 		]
 	}

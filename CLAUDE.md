@@ -20,6 +20,8 @@ Hablar con el usuario en **español**. El usuario es el dueño del servidor; no 
 7. **Rhino + Java sobrecargado**: `SpellRegistry.getSpell("irons_spellbooks:x")` falla con "choice of Java method ... is ambiguous" (String/ResourceLocation); llama con la firma: `Registro['getSpell(java.lang.String)'](id)`.
 8. **Hechizos solo por progresión**: no añadir pergaminos a cofres/recetas; se dan desde `HECHIZOS_ROL` (ver `docs/08`). Un mod nuevo que añada botín con pergaminos hay que anularlo igual (`tools/gen-no-scrolls.mjs`).
 
+9. **Objetos con NBT en KubeJS**: `Item.of('id{nbt}')` no interpreta el NBT (lanza ResourceLocationException); usa `Item.of(id)` y `stack.nbt = Java.loadClass('net.minecraft.nbt.TagParser').parseTag(snbt)`. Los modificadores de atributo en NBT necesitan `UUID` no nulo y distinto por pieza, y el NBT sustituye los atributos base del objeto (ver `gremio_equipo.js`). Strings que llegan de Java pueden no tener los métodos de JS: envuélvelos con `String(x)`.
+
 ## Cómo probar sin el hosting
 `ACEPTO_EULA=1 tools/test-kubejs.sh` levanta un Forge mínimo (KubeJS + Rhino + Architectury + Easy NPC) con los scripts del repo y un `tools/test/zz_test.js` (jugador simulado `FakePlayer`: nombre, TAB, funciones). No sirve para chat real ni clics de NPC: eso se prueba en el servidor y se pide el log. Para probar hechizos con Iron's Spells: `tools/test-hechizos.sh`. Para probar FTB Quests (carga de capítulos, visibilidad con `ServerQuestFile.INSTANCE`) añade a `mods/` del servidor de prueba los jars `ftb-quests-forge`, `ftb-library-forge` y `ftb-teams-forge` de `https://maven.ftb.dev/releases/dev/ftb/mods/` y copia `config/ftbquests` (ver `tools/test/zz_quests.js`).
 
@@ -28,4 +30,4 @@ Hablar con el usuario en **español**. El usuario es el dueño del servidor; no 
 - `tools/gen-quests.mjs` genera `config/ftbquests` desde `tools/quests/chapters/*.mjs` (necesita `tools/.ids.json`: `node tools/build-id-index.mjs`). `gen-skills.mjs`, `gen-origins.mjs` análogos.
 
 ## Estado de gremios (docs/07)
-Hecho: gremios, regiones, guerra, pueblos, bazar, `/pueblo`, `/limite`, chat global y de gremio (`/gc`, `/g`, `/chat`), TAB, roles, habilidades por clase (`habilidades_<clase>`, XP con `/skillxp`). Ver `docs/08-estado-y-pendientes.md`.
+Hecho: gremios, regiones, guerra, pueblos, bazar, `/pueblo`, `/limite`, chat global y de gremio (`/gc`, `/g`, `/chat`), TAB, roles (16 misiones, equipo con atributos por rol/clase, hechizos por progresión), habilidades por clase hasta nivel 100 (`habilidades_<clase>`, XP con `/skillxp`). Ver `docs/08-estado-y-pendientes.md`.

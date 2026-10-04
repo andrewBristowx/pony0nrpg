@@ -287,6 +287,168 @@
 			}
 		]
 	},
+	"asesino_f7": {
+		"title": "Asesino · Fundamentos VII",
+		"description": [
+			{
+				"text": "Asesino › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.5 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_f8": {
+		"title": "Asesino · Fundamentos VIII",
+		"description": [
+			{
+				"text": "Asesino › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.03 Velocidad de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:sugar"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_f8s": {
+		"title": "Asesino · Soporte",
+		"description": [
+			{
+				"text": "Asesino › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.5 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:sugar"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_f9": {
+		"title": "Filo afilado II",
+		"description": [
+			{
+				"text": "Asesino › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Daño de ataque\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.5 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_boots"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_f10": {
+		"title": "Asesino · Fundamentos X",
+		"description": [
+			{
+				"text": "Asesino › Fundamentos\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.5 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:flint"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.5,
+					"operation": "addition"
+				}
+			}
+		]
+	},
 	"asesino_sombra_1": {
 		"title": "Sombra I",
 		"description": [
@@ -479,36 +641,6 @@
 			}
 		]
 	},
-	"asesino_sombra_s2": {
-		"title": "Sombra · Apoyo",
-		"description": [
-			{
-				"text": "Asesino › Sombra\n",
-				"color": "gold"
-			},
-			{
-				"text": "+1% Esquiva",
-				"color": "green"
-			}
-		],
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:ink_sac"
-			}
-		},
-		"frame": "task",
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "attributeslib:dodge_chance",
-					"value": 0.01,
-					"operation": "addition"
-				}
-			}
-		]
-	},
 	"asesino_sombra_6": {
 		"title": "Velo",
 		"description": [
@@ -546,6 +678,36 @@
 				"data": {
 					"attribute": "attributeslib:crit_chance",
 					"value": 0.02,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_s2": {
+		"title": "Sombra · Apoyo",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1% Esquiva",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:phantom_membrane"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.01,
 					"operation": "addition"
 				}
 			}
@@ -611,36 +773,6 @@
 			}
 		]
 	},
-	"asesino_sombra_s3": {
-		"title": "Sombra · Apoyo",
-		"description": [
-			{
-				"text": "Asesino › Sombra\n",
-				"color": "gold"
-			},
-			{
-				"text": "+2 Vida máxima",
-				"color": "green"
-			}
-		],
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:rabbit_foot"
-			}
-		},
-		"frame": "task",
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.max_health",
-					"value": 2,
-					"operation": "addition"
-				}
-			}
-		]
-	},
 	"asesino_sombra_9": {
 		"title": "Desvanecer",
 		"description": [
@@ -684,6 +816,840 @@
 		]
 	},
 	"asesino_sombra_10": {
+		"title": "Sombra X",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2% Esquiva\n",
+				"color": "green"
+			},
+			{
+				"text": "Equipo de Asesino: Tier III",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:rabbit_foot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.02,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_asesino_3",
+					"lock_command": "kubejs stages remove @s maestria_asesino_3"
+				}
+			}
+		]
+	},
+	"asesino_sombra_s3": {
+		"title": "Sombra · Apoyo",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:ink_sac"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_11": {
+		"title": "Sombra XI",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2.8% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:black_dye"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.028,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_12": {
+		"title": "Paso silencioso II",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5.6% Esquiva\n",
+				"color": "green"
+			},
+			{
+				"text": "+2.8% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:ink_sac"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.056,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.028,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_13": {
+		"title": "Sombra XIII",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2.8% Esquiva",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:phantom_membrane"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.028,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_14": {
+		"title": "Sombra XIV",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2.8% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_boots"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.028,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_s4": {
+		"title": "Sombra · Apoyo",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2.8 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:black_dye"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2.8,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_15": {
+		"title": "Velo II",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5.6% Esquiva\n",
+				"color": "green"
+			},
+			{
+				"text": "+2.8% Probabilidad de crítico",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:rabbit_foot"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.056,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.028,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_16": {
+		"title": "Sombra XVI",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2.8% Esquiva",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:black_dye"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.028,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_17": {
+		"title": "Sombra XVII",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2.8% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:ink_sac"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.028,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_18": {
+		"title": "Desvanecer II",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+5.6% Esquiva\n",
+				"color": "green"
+			},
+			{
+				"text": "+2.8% Esquiva",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:phantom_membrane"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.056,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.028,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_s5": {
+		"title": "Sombra · Apoyo",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.4% Esquiva",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:rabbit_foot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.014,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_19": {
+		"title": "Sombra XIX",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2.8% Esquiva",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_boots"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.028,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_20": {
+		"title": "Sombra XX",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2.8% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:rabbit_foot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.028,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_21": {
+		"title": "Paso silencioso III",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+7.2% Esquiva\n",
+				"color": "green"
+			},
+			{
+				"text": "+3.6% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:black_dye"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.072,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.036,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_22": {
+		"title": "Sombra XXII",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3.6% Esquiva",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:ink_sac"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.036,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_s6": {
+		"title": "Sombra · Apoyo",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3.6 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_boots"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 3.6,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_23": {
+		"title": "Sombra XXIII",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3.6% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:phantom_membrane"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.036,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_24": {
+		"title": "Velo III",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+7.2% Esquiva\n",
+				"color": "green"
+			},
+			{
+				"text": "+3.6% Probabilidad de crítico",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_boots"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.072,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.036,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_25": {
+		"title": "Sombra XXV",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3.6% Esquiva",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:rabbit_foot"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.036,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_26": {
+		"title": "Sombra XXVI",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3.6% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:black_dye"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.036,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_s7": {
+		"title": "Sombra · Apoyo",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3.6 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:phantom_membrane"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 3.6,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_27": {
+		"title": "Desvanecer III",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+7.2% Esquiva\n",
+				"color": "green"
+			},
+			{
+				"text": "+3.6% Esquiva",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:ink_sac"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.072,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.036,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_28": {
+		"title": "Sombra XXVIII",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3.6% Esquiva",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:phantom_membrane"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.036,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_29": {
+		"title": "Sombra XXIX",
+		"description": [
+			{
+				"text": "Asesino › Sombra\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3.6% Velocidad de movimiento",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:leather_boots"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.036,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_sombra_30": {
 		"title": "Fantasma",
 		"description": [
 			{
@@ -703,12 +1669,7 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima de la Sombra: no te ven, no te tocan.\n",
-				"color": "gray",
-				"italic": true
-			},
-			{
-				"text": "Equipo de Asesino: Tier III",
+				"text": "Cima de la Sombra: no te ven, no te tocan.",
 				"color": "gray",
 				"italic": true
 			}
@@ -744,16 +1705,9 @@
 					"value": 0.06,
 					"operation": "addition"
 				}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"unlock_command": "kubejs stages add @s maestria_asesino_3",
-					"lock_command": "kubejs stages remove @s maestria_asesino_3"
-				}
 			}
 		],
-		"required_spent_points": 30
+		"required_spent_points": 45
 	},
 	"asesino_duelista_1": {
 		"title": "Duelista I",
@@ -947,36 +1901,6 @@
 			}
 		]
 	},
-	"asesino_duelista_s2": {
-		"title": "Duelista · Apoyo",
-		"description": [
-			{
-				"text": "Asesino › Duelista\n",
-				"color": "gold"
-			},
-			{
-				"text": "+1 Armadura",
-				"color": "green"
-			}
-		],
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:sugar"
-			}
-		},
-		"frame": "task",
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.armor",
-					"value": 1,
-					"operation": "addition"
-				}
-			}
-		]
-	},
 	"asesino_duelista_6": {
 		"title": "Contragolpe",
 		"description": [
@@ -1013,6 +1937,36 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "attributeslib:armor_pierce",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_s2": {
+		"title": "Duelista · Apoyo",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_nugget"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
 					"value": 1,
 					"operation": "addition"
 				}
@@ -1079,36 +2033,6 @@
 			}
 		]
 	},
-	"asesino_duelista_s3": {
-		"title": "Duelista · Apoyo",
-		"description": [
-			{
-				"text": "Asesino › Duelista\n",
-				"color": "gold"
-			},
-			{
-				"text": "+2 Vida máxima",
-				"color": "green"
-			}
-		],
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:blaze_rod"
-			}
-		},
-		"frame": "task",
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.max_health",
-					"value": 2,
-					"operation": "addition"
-				}
-			}
-		]
-	},
 	"asesino_duelista_9": {
 		"title": "Danza de espadas",
 		"description": [
@@ -1152,6 +2076,840 @@
 		]
 	},
 	"asesino_duelista_10": {
+		"title": "Duelista X",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.05 Velocidad de ataque\n",
+				"color": "green"
+			},
+			{
+				"text": "Equipo de Asesino: Tier III",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blaze_rod"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_asesino_3",
+					"lock_command": "kubejs stages remove @s maestria_asesino_3"
+				}
+			}
+		]
+	},
+	"asesino_duelista_s3": {
+		"title": "Duelista · Apoyo",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:sugar"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_11": {
+		"title": "Duelista XI",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.7 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.7,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_12": {
+		"title": "Estocada II",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.14 Velocidad de ataque\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.7 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:sugar"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.14,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.7,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_13": {
+		"title": "Duelista XIII",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.07 Velocidad de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_nugget"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.07,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_14": {
+		"title": "Duelista XIV",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.7 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.7,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_s4": {
+		"title": "Duelista · Apoyo",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2.8 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2.8,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_15": {
+		"title": "Contragolpe II",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.14 Velocidad de ataque\n",
+				"color": "green"
+			},
+			{
+				"text": "+1.4 Perforación de armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blaze_rod"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.14,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:armor_pierce",
+					"value": 1.4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_16": {
+		"title": "Duelista XVI",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.07 Velocidad de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.07,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_17": {
+		"title": "Duelista XVII",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.7 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:sugar"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.7,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_18": {
+		"title": "Danza de espadas II",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.14 Velocidad de ataque\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.07 Velocidad de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_nugget"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.14,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.07,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_s5": {
+		"title": "Duelista · Apoyo",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.4 Armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blaze_rod"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.armor",
+					"value": 1.4,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_19": {
+		"title": "Duelista XIX",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.07 Velocidad de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.07,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_20": {
+		"title": "Duelista XX",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.7 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blaze_rod"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.7,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_21": {
+		"title": "Estocada III",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.18 Velocidad de ataque\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.9 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.18,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.9,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_22": {
+		"title": "Duelista XXII",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.09 Velocidad de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:sugar"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.09,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_s6": {
+		"title": "Duelista · Apoyo",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3.6 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 3.6,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_23": {
+		"title": "Duelista XXIII",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.9 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_nugget"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.9,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_24": {
+		"title": "Contragolpe III",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.18 Velocidad de ataque\n",
+				"color": "green"
+			},
+			{
+				"text": "+1.8 Perforación de armadura",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_sword"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.18,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:armor_pierce",
+					"value": 1.8,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_25": {
+		"title": "Duelista XXV",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.09 Velocidad de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:blaze_rod"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.09,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_26": {
+		"title": "Duelista XXVI",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.9 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.9,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_s7": {
+		"title": "Duelista · Apoyo",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3.6 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_nugget"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 3.6,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_27": {
+		"title": "Danza de espadas III",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.18 Velocidad de ataque\n",
+				"color": "green"
+			},
+			{
+				"text": "+0.09 Velocidad de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:sugar"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.18,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.09,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_28": {
+		"title": "Duelista XXVIII",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.09 Velocidad de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_nugget"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.09,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_29": {
+		"title": "Duelista XXIX",
+		"description": [
+			{
+				"text": "Asesino › Duelista\n",
+				"color": "gold"
+			},
+			{
+				"text": "+0.9 Daño de ataque",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_sword"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_damage",
+					"value": 0.9,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_duelista_30": {
 		"title": "Maestro de esgrima",
 		"description": [
 			{
@@ -1171,12 +2929,7 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima del Duelista: la espada más rápida.\n",
-				"color": "gray",
-				"italic": true
-			},
-			{
-				"text": "Equipo de Asesino: Tier III",
+				"text": "Cima del Duelista: la espada más rápida.",
 				"color": "gray",
 				"italic": true
 			}
@@ -1212,16 +2965,9 @@
 					"value": 3,
 					"operation": "addition"
 				}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"unlock_command": "kubejs stages add @s maestria_asesino_3",
-					"lock_command": "kubejs stages remove @s maestria_asesino_3"
-				}
 			}
 		],
-		"required_spent_points": 30
+		"required_spent_points": 45
 	},
 	"asesino_verdugo_1": {
 		"title": "Verdugo I",
@@ -1415,36 +3161,6 @@
 			}
 		]
 	},
-	"asesino_verdugo_s2": {
-		"title": "Verdugo · Apoyo",
-		"description": [
-			{
-				"text": "Asesino › Verdugo\n",
-				"color": "gold"
-			},
-			{
-				"text": "+1% Robo de vida",
-				"color": "green"
-			}
-		],
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:spider_eye"
-			}
-		},
-		"frame": "task",
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "attributeslib:life_steal",
-					"value": 0.01,
-					"operation": "addition"
-				}
-			}
-		]
-	},
 	"asesino_verdugo_6": {
 		"title": "Sed",
 		"description": [
@@ -1481,6 +3197,36 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "attributeslib:current_hp_damage",
+					"value": 0.01,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_s2": {
+		"title": "Verdugo · Apoyo",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1% Robo de vida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:life_steal",
 					"value": 0.01,
 					"operation": "addition"
 				}
@@ -1547,36 +3293,6 @@
 			}
 		]
 	},
-	"asesino_verdugo_s3": {
-		"title": "Verdugo · Apoyo",
-		"description": [
-			{
-				"text": "Asesino › Verdugo\n",
-				"color": "gold"
-			},
-			{
-				"text": "+2 Vida máxima",
-				"color": "green"
-			}
-		],
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:wither_skeleton_skull"
-			}
-		},
-		"frame": "task",
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.max_health",
-					"value": 2,
-					"operation": "addition"
-				}
-			}
-		]
-	},
 	"asesino_verdugo_9": {
 		"title": "Ejecución",
 		"description": [
@@ -1620,6 +3336,840 @@
 		]
 	},
 	"asesino_verdugo_10": {
+		"title": "Verdugo X",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+8% Daño crítico\n",
+				"color": "green"
+			},
+			{
+				"text": "Equipo de Asesino: Tier III",
+				"color": "gray",
+				"italic": true
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:wither_skeleton_skull"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.08,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"unlock_command": "kubejs stages add @s maestria_asesino_3",
+					"lock_command": "kubejs stages remove @s maestria_asesino_3"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_s3": {
+		"title": "Verdugo · Apoyo",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:spider_eye"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_11": {
+		"title": "Verdugo XI",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.4% Robo de vida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:netherite_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:life_steal",
+					"value": 0.014,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_12": {
+		"title": "Golpe letal II",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+22.4% Daño crítico\n",
+				"color": "green"
+			},
+			{
+				"text": "+1.4% Robo de vida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:spider_eye"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.224,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:life_steal",
+					"value": 0.014,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_13": {
+		"title": "Verdugo XIII",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+11.2% Daño crítico",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.112,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_14": {
+		"title": "Verdugo XIV",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.4% Robo de vida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:life_steal",
+					"value": 0.014,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_s4": {
+		"title": "Verdugo · Apoyo",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+2.8 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:netherite_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2.8,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_15": {
+		"title": "Sed II",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+22.4% Daño crítico\n",
+				"color": "green"
+			},
+			{
+				"text": "+1.4% Daño según vida del objetivo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:wither_skeleton_skull"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.224,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:current_hp_damage",
+					"value": 0.014,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_16": {
+		"title": "Verdugo XVI",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+11.2% Daño crítico",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:netherite_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.112,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_17": {
+		"title": "Verdugo XVII",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.4% Robo de vida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:spider_eye"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:life_steal",
+					"value": 0.014,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_18": {
+		"title": "Ejecución II",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+22.4% Daño crítico\n",
+				"color": "green"
+			},
+			{
+				"text": "+11.2% Daño crítico",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.224,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.112,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_s5": {
+		"title": "Verdugo · Apoyo",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.4% Robo de vida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:wither_skeleton_skull"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:life_steal",
+					"value": 0.014,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_19": {
+		"title": "Verdugo XIX",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+11.2% Daño crítico",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.112,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_20": {
+		"title": "Verdugo XX",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.4% Robo de vida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:wither_skeleton_skull"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:life_steal",
+					"value": 0.014,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_21": {
+		"title": "Golpe letal III",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+28.8% Daño crítico\n",
+				"color": "green"
+			},
+			{
+				"text": "+1.8% Robo de vida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:netherite_axe"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.288,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:life_steal",
+					"value": 0.018,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_22": {
+		"title": "Verdugo XXII",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+14.4% Daño crítico",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:spider_eye"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.144,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_s6": {
+		"title": "Verdugo · Apoyo",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3.6 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 3.6,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_23": {
+		"title": "Verdugo XXIII",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.8% Robo de vida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:life_steal",
+					"value": 0.018,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_24": {
+		"title": "Sed III",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+28.8% Daño crítico\n",
+				"color": "green"
+			},
+			{
+				"text": "+1.8% Daño según vida del objetivo",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_axe"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.288,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:current_hp_damage",
+					"value": 0.018,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_25": {
+		"title": "Verdugo XXV",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+14.4% Daño crítico",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:wither_skeleton_skull"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.144,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_26": {
+		"title": "Verdugo XXVI",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.8% Robo de vida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:netherite_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:life_steal",
+					"value": 0.018,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_s7": {
+		"title": "Verdugo · Apoyo",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+3.6 Vida máxima",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 3.6,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_27": {
+		"title": "Ejecución III",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+28.8% Daño crítico\n",
+				"color": "green"
+			},
+			{
+				"text": "+14.4% Daño crítico",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:spider_eye"
+			}
+		},
+		"frame": "goal",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.288,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.144,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_28": {
+		"title": "Verdugo XXVIII",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+14.4% Daño crítico",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.144,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_29": {
+		"title": "Verdugo XXIX",
+		"description": [
+			{
+				"text": "Asesino › Verdugo\n",
+				"color": "gold"
+			},
+			{
+				"text": "+1.8% Robo de vida",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_axe"
+			}
+		},
+		"frame": "task",
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:life_steal",
+					"value": 0.018,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"asesino_verdugo_30": {
 		"title": "Verdugo",
 		"description": [
 			{
@@ -1639,12 +4189,7 @@
 				"color": "green"
 			},
 			{
-				"text": "Cima del Verdugo: el final de todo enemigo.\n",
-				"color": "gray",
-				"italic": true
-			},
-			{
-				"text": "Equipo de Asesino: Tier III",
+				"text": "Cima del Verdugo: el final de todo enemigo.",
 				"color": "gray",
 				"italic": true
 			}
@@ -1680,15 +4225,8 @@
 					"value": 0.05,
 					"operation": "addition"
 				}
-			},
-			{
-				"type": "puffish_skills:command",
-				"data": {
-					"unlock_command": "kubejs stages add @s maestria_asesino_3",
-					"lock_command": "kubejs stages remove @s maestria_asesino_3"
-				}
 			}
 		],
-		"required_spent_points": 30
+		"required_spent_points": 45
 	}
 }

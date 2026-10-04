@@ -29,7 +29,7 @@
 			]
 			icon: "minecraft:nether_star"
 			x: 0.5d
-			y: 0.5d
+			y: 2d
 			invisible: true
 			invisible_until_tasks: 1
 			tasks: [
@@ -57,10 +57,14 @@
 				"Un tanque se acostumbra a recibir golpes. Acumula daño recibido."
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier I (Aprendiz)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Hacha de guardia."
 			]
 			icon: "minecraft:clock"
 			x: 2.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["3DE5EF79ECE55520"]
 			tasks: [
@@ -97,13 +101,17 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier I (Aprendiz)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Peto del Centinela."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
 				"&dGuerrero&r: &bFortificar&r."
 			]
 			icon: "minecraft:clock"
 			x: 4.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["460A0C2A64254116"]
 			tasks: [
@@ -140,13 +148,17 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier I (Aprendiz)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Yelmo del Centinela y Grebas del Centinela."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
 				"&dGuerrero&r: &bChivo expiatorio&r."
 			]
 			icon: "minecraft:iron_sword"
 			x: 6.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["60609283152CF8F8"]
 			tasks: [
@@ -183,13 +195,17 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier I (Aprendiz)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Botas del Centinela."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
 				"&dGuerrero&r: &bEscudo arcano&r."
 			]
 			icon: "minecraft:clock"
 			x: 8.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["2076B60899DF7B98"]
 			tasks: [
@@ -228,13 +244,17 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier II (Veterano)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Maza de vanguardia."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
 				"&dGuerrero&r: &bPisotón&r."
 			]
 			icon: "minecraft:clock"
 			x: 10.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["79A4118E6640D7F9"]
 			tasks: [
@@ -277,13 +297,17 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier II (Veterano)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Peto del Centinela."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
 				"&dGuerrero&r: &bParada cardiaca&r."
 			]
 			icon: "minecraft:iron_sword"
 			x: 12.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["1651DD3611658DB7"]
 			tasks: [
@@ -320,13 +344,17 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier II (Veterano)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Yelmo del Centinela y Grebas del Centinela."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
 				"&dGuerrero&r: &bRaíces&r."
 			]
 			icon: "minecraft:clock"
 			x: 14.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["7DB8503D9AF70F8B"]
 			tasks: [
@@ -369,13 +397,17 @@
 				""
 				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
 				""
+				"&6Equipo de rol Tier II (Veterano)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Botas del Centinela."
+				""
 				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
 				""
 				"&dGuerrero&r: &bOnda de choque&r."
 			]
 			icon: "minecraft:iron_sword"
 			x: 16.5d
-			y: 0.5d
+			y: 2d
 			hide_until_deps_visible: true
 			dependencies: ["1563508C1ECD0761"]
 			tasks: [
@@ -398,6 +430,388 @@
 					id: "4DEA3832CB1045F6"
 					type: "command"
 					command: "/rol recompensa tanque 8 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "7061A17C5E84F653"
+			title: "Contra el coloso de hierro"
+			subtitle: "Tanque · nivel 9"
+			description: [
+				"Aguanta el martillo del Ferrous Wroughtnaut y derrótalo."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier III (Campeón)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Martillo de asedio."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bPiel de roble&r (nv 3)."
+			]
+			icon: "minecraft:iron_sword"
+			x: 16.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["65AFCD467BCD84D9"]
+			tasks: [
+				{
+					id: "4276E50F65400188"
+					type: "kill"
+					entity: "mowziesmobs:ferrous_wroughtnaut"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "504078E83B7373C7"
+					type: "command"
+					command: "/skillxp {p} 1200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "5121FFBE259EC7E5"
+					type: "command"
+					command: "/rol recompensa tanque 9 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "768F6BEFF4EDD047"
+			title: "Guardián caído"
+			subtitle: "Tanque · nivel 10"
+			description: [
+				"Los Subterráneos esconden un guardián olvidado. Derrótalo."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier III (Campeón)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Peto del Centinela."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bPisotón&r (nv 3)."
+			]
+			icon: "minecraft:iron_sword"
+			x: 14.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["7061A17C5E84F653"]
+			tasks: [
+				{
+					id: "65A74A68FF690D7B"
+					type: "kill"
+					entity: "undergarden:forgotten_guardian"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "6F0BA026A5E09A43"
+					type: "command"
+					command: "/skillxp {p} 1700"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "5909DFA76EF53704"
+					type: "command"
+					command: "/rol recompensa tanque 10 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "6A43C12D465DA5AC"
+			title: "El silencio"
+			subtitle: "Tanque · nivel 11"
+			description: [
+				"En las ciudades antiguas duerme un guardián que no perdona. Derrota al Warden."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier III (Campeón)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Yelmo del Centinela y Grebas del Centinela."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bFortificar&r (nv 3)."
+			]
+			icon: "minecraft:iron_sword"
+			x: 12.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["768F6BEFF4EDD047"]
+			tasks: [
+				{
+					id: "400B5A7BF7C8B107"
+					type: "kill"
+					entity: "minecraft:warden"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "51A8D434D08356CF"
+					type: "command"
+					command: "/skillxp {p} 2200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "337779C3993C8DE2"
+					type: "command"
+					command: "/rol recompensa tanque 11 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "17F2E95FC17B98E0"
+			title: "Muralla viviente"
+			subtitle: "Tanque · nivel 12"
+			description: [
+				"Un tanque de leyenda: acumula daño recibido y bloqueado a lo largo de toda tu aventura."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier III (Campeón)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Botas del Centinela."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bParada cardiaca&r (nv 3)."
+			]
+			icon: "minecraft:clock"
+			x: 10.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["6A43C12D465DA5AC"]
+			tasks: [
+				{
+					id: "00C9A97146768950"
+					type: "stat"
+					stat: "minecraft:damage_taken"
+					value: 30000
+				}
+				{
+					id: "66092BBC5DF2B20E"
+					type: "stat"
+					stat: "minecraft:damage_blocked_by_shield"
+					value: 20000
+				}
+			]
+			rewards: [
+				{
+					id: "0F631933F75C3356"
+					type: "command"
+					command: "/skillxp {p} 2700"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "1B9F9311EBCC7D2E"
+					type: "command"
+					command: "/rol recompensa tanque 12 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "17C43D24DD5D65C7"
+			title: "Ante la monstruosidad"
+			subtitle: "Tanque · nivel 13"
+			description: [
+				"Planta cara a la Netherite Monstrosity de Cataclysm."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier IV (Legendario)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Hacha del Coloso."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bRáfaga&r."
+			]
+			icon: "minecraft:iron_sword"
+			x: 8.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["17F2E95FC17B98E0"]
+			tasks: [
+				{
+					id: "370FB5541CA9D359"
+					type: "kill"
+					entity: "cataclysm:netherite_monstrosity"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "7739A068FC14F6CB"
+					type: "command"
+					command: "/skillxp {p} 3200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "631F7497A7316A19"
+					type: "command"
+					command: "/rol recompensa tanque 13 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "3016D6DA900F5264"
+			title: "El señor del Fin"
+			subtitle: "Tanque · nivel 14"
+			description: [
+				"Aguanta el aliento del dragón y derrótalo: Ender Dragon."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier IV (Legendario)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Peto del Centinela."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bOnda de choque&r (nv 3)."
+			]
+			icon: "minecraft:iron_sword"
+			x: 6.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["17C43D24DD5D65C7"]
+			tasks: [
+				{
+					id: "6B4D9F3763529878"
+					type: "kill"
+					entity: "minecraft:ender_dragon"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "59866AD1DCF57B4C"
+					type: "command"
+					command: "/skillxp {p} 3700"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "7A1A19C7A624475B"
+					type: "command"
+					command: "/rol recompensa tanque 14 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "2557966AC9AE3145"
+			title: "Guardián del abismo"
+			subtitle: "Tanque · nivel 15"
+			description: [
+				"Derrota al Ender Guardian de Cataclysm."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier IV (Legendario)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Yelmo del Centinela y Grebas del Centinela."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bChivo expiatorio&r (nv 3)."
+			]
+			icon: "minecraft:iron_sword"
+			x: 4.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["3016D6DA900F5264"]
+			tasks: [
+				{
+					id: "6AD04677CFA72C7F"
+					type: "kill"
+					entity: "cataclysm:ender_guardian"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "4A64ABA57E1267C9"
+					type: "command"
+					command: "/skillxp {p} 4200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "53E03F512E5530B3"
+					type: "command"
+					command: "/rol recompensa tanque 15 {p}"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "53DBF349B51ED1B7"
+			title: "Titán inquebrantable"
+			subtitle: "Tanque · nivel 16"
+			description: [
+				"La última prueba del Tanque: derrota al Ancient Remnant."
+				""
+				"Recompensa: equipo y una mejora permanente para tu rol, según tu clase."
+				""
+				"&6Equipo de rol Tier IV (Legendario)&r con atributos para tu rol:"
+				""
+				"&dGuerrero&r: Botas del Centinela."
+				""
+				"&dHechizos que aprendes&r (según tu clase; te llega el pergamino, inscríbelo en un libro de hechizos):"
+				""
+				"&dGuerrero&r: &bRaíces&r (nv 3), &bEscudo arcano&r (nv 3)."
+			]
+			icon: "minecraft:iron_sword"
+			x: 2.5d
+			y: 4.5d
+			hide_until_deps_visible: true
+			dependencies: ["2557966AC9AE3145"]
+			tasks: [
+				{
+					id: "495CF5FD9D2B96BE"
+					type: "kill"
+					entity: "cataclysm:ancient_remnant"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "673658B95EEAB21A"
+					type: "command"
+					command: "/skillxp {p} 4700"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "3279AA342F51A21C"
+					type: "command"
+					command: "/rol recompensa tanque 16 {p}"
 					elevate_perms: true
 					silent: true
 				}

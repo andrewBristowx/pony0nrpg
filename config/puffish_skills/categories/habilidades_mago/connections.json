@@ -31,6 +31,26 @@
 			],
 			[
 				"mago_f6",
+				"mago_f7"
+			],
+			[
+				"mago_f7",
+				"mago_f8"
+			],
+			[
+				"mago_f8",
+				"mago_f8s"
+			],
+			[
+				"mago_f8",
+				"mago_f9"
+			],
+			[
+				"mago_f9",
+				"mago_f10"
+			],
+			[
+				"mago_f10",
 				"mago_piromancia_1"
 			],
 			[
@@ -55,11 +75,11 @@
 			],
 			[
 				"mago_piromancia_5",
-				"mago_piromancia_s2"
+				"mago_piromancia_6"
 			],
 			[
-				"mago_piromancia_5",
-				"mago_piromancia_6"
+				"mago_piromancia_6",
+				"mago_piromancia_s2"
 			],
 			[
 				"mago_piromancia_6",
@@ -71,10 +91,6 @@
 			],
 			[
 				"mago_piromancia_8",
-				"mago_piromancia_s3"
-			],
-			[
-				"mago_piromancia_8",
 				"mago_piromancia_9"
 			],
 			[
@@ -82,7 +98,107 @@
 				"mago_piromancia_10"
 			],
 			[
-				"mago_f6",
+				"mago_piromancia_10",
+				"mago_piromancia_s3"
+			],
+			[
+				"mago_piromancia_10",
+				"mago_piromancia_11"
+			],
+			[
+				"mago_piromancia_11",
+				"mago_piromancia_12"
+			],
+			[
+				"mago_piromancia_12",
+				"mago_piromancia_13"
+			],
+			[
+				"mago_piromancia_13",
+				"mago_piromancia_14"
+			],
+			[
+				"mago_piromancia_14",
+				"mago_piromancia_s4"
+			],
+			[
+				"mago_piromancia_14",
+				"mago_piromancia_15"
+			],
+			[
+				"mago_piromancia_15",
+				"mago_piromancia_16"
+			],
+			[
+				"mago_piromancia_16",
+				"mago_piromancia_17"
+			],
+			[
+				"mago_piromancia_17",
+				"mago_piromancia_18"
+			],
+			[
+				"mago_piromancia_18",
+				"mago_piromancia_s5"
+			],
+			[
+				"mago_piromancia_18",
+				"mago_piromancia_19"
+			],
+			[
+				"mago_piromancia_19",
+				"mago_piromancia_20"
+			],
+			[
+				"mago_piromancia_20",
+				"mago_piromancia_21"
+			],
+			[
+				"mago_piromancia_21",
+				"mago_piromancia_22"
+			],
+			[
+				"mago_piromancia_22",
+				"mago_piromancia_s6"
+			],
+			[
+				"mago_piromancia_22",
+				"mago_piromancia_23"
+			],
+			[
+				"mago_piromancia_23",
+				"mago_piromancia_24"
+			],
+			[
+				"mago_piromancia_24",
+				"mago_piromancia_25"
+			],
+			[
+				"mago_piromancia_25",
+				"mago_piromancia_26"
+			],
+			[
+				"mago_piromancia_26",
+				"mago_piromancia_s7"
+			],
+			[
+				"mago_piromancia_26",
+				"mago_piromancia_27"
+			],
+			[
+				"mago_piromancia_27",
+				"mago_piromancia_28"
+			],
+			[
+				"mago_piromancia_28",
+				"mago_piromancia_29"
+			],
+			[
+				"mago_piromancia_29",
+				"mago_piromancia_30"
+			],
+			[
+				"mago_f10",
 				"mago_criomancia_1"
 			],
 			[
@@ -107,11 +223,11 @@
 			],
 			[
 				"mago_criomancia_5",
-				"mago_criomancia_s2"
+				"mago_criomancia_6"
 			],
 			[
-				"mago_criomancia_5",
-				"mago_criomancia_6"
+				"mago_criomancia_6",
+				"mago_criomancia_s2"
 			],
 			[
 				"mago_criomancia_6",
@@ -123,10 +239,6 @@
 			],
 			[
 				"mago_criomancia_8",
-				"mago_criomancia_s3"
-			],
-			[
-				"mago_criomancia_8",
 				"mago_criomancia_9"
 			],
 			[
@@ -134,7 +246,107 @@
 				"mago_criomancia_10"
 			],
 			[
-				"mago_f6",
+				"mago_criomancia_10",
+				"mago_criomancia_s3"
+			],
+			[
+				"mago_criomancia_10",
+				"mago_criomancia_11"
+			],
+			[
+				"mago_criomancia_11",
+				"mago_criomancia_12"
+			],
+			[
+				"mago_criomancia_12",
+				"mago_criomancia_13"
+			],
+			[
+				"mago_criomancia_13",
+				"mago_criomancia_14"
+			],
+			[
+				"mago_criomancia_14",
+				"mago_criomancia_s4"
+			],
+			[
+				"mago_criomancia_14",
+				"mago_criomancia_15"
+			],
+			[
+				"mago_criomancia_15",
+				"mago_criomancia_16"
+			],
+			[
+				"mago_criomancia_16",
+				"mago_criomancia_17"
+			],
+			[
+				"mago_criomancia_17",
+				"mago_criomancia_18"
+			],
+			[
+				"mago_criomancia_18",
+				"mago_criomancia_s5"
+			],
+			[
+				"mago_criomancia_18",
+				"mago_criomancia_19"
+			],
+			[
+				"mago_criomancia_19",
+				"mago_criomancia_20"
+			],
+			[
+				"mago_criomancia_20",
+				"mago_criomancia_21"
+			],
+			[
+				"mago_criomancia_21",
+				"mago_criomancia_22"
+			],
+			[
+				"mago_criomancia_22",
+				"mago_criomancia_s6"
+			],
+			[
+				"mago_criomancia_22",
+				"mago_criomancia_23"
+			],
+			[
+				"mago_criomancia_23",
+				"mago_criomancia_24"
+			],
+			[
+				"mago_criomancia_24",
+				"mago_criomancia_25"
+			],
+			[
+				"mago_criomancia_25",
+				"mago_criomancia_26"
+			],
+			[
+				"mago_criomancia_26",
+				"mago_criomancia_s7"
+			],
+			[
+				"mago_criomancia_26",
+				"mago_criomancia_27"
+			],
+			[
+				"mago_criomancia_27",
+				"mago_criomancia_28"
+			],
+			[
+				"mago_criomancia_28",
+				"mago_criomancia_29"
+			],
+			[
+				"mago_criomancia_29",
+				"mago_criomancia_30"
+			],
+			[
+				"mago_f10",
 				"mago_arcanismo_1"
 			],
 			[
@@ -159,11 +371,11 @@
 			],
 			[
 				"mago_arcanismo_5",
-				"mago_arcanismo_s2"
+				"mago_arcanismo_6"
 			],
 			[
-				"mago_arcanismo_5",
-				"mago_arcanismo_6"
+				"mago_arcanismo_6",
+				"mago_arcanismo_s2"
 			],
 			[
 				"mago_arcanismo_6",
@@ -175,10 +387,6 @@
 			],
 			[
 				"mago_arcanismo_8",
-				"mago_arcanismo_s3"
-			],
-			[
-				"mago_arcanismo_8",
 				"mago_arcanismo_9"
 			],
 			[
@@ -186,7 +394,107 @@
 				"mago_arcanismo_10"
 			],
 			[
-				"mago_f6",
+				"mago_arcanismo_10",
+				"mago_arcanismo_s3"
+			],
+			[
+				"mago_arcanismo_10",
+				"mago_arcanismo_11"
+			],
+			[
+				"mago_arcanismo_11",
+				"mago_arcanismo_12"
+			],
+			[
+				"mago_arcanismo_12",
+				"mago_arcanismo_13"
+			],
+			[
+				"mago_arcanismo_13",
+				"mago_arcanismo_14"
+			],
+			[
+				"mago_arcanismo_14",
+				"mago_arcanismo_s4"
+			],
+			[
+				"mago_arcanismo_14",
+				"mago_arcanismo_15"
+			],
+			[
+				"mago_arcanismo_15",
+				"mago_arcanismo_16"
+			],
+			[
+				"mago_arcanismo_16",
+				"mago_arcanismo_17"
+			],
+			[
+				"mago_arcanismo_17",
+				"mago_arcanismo_18"
+			],
+			[
+				"mago_arcanismo_18",
+				"mago_arcanismo_s5"
+			],
+			[
+				"mago_arcanismo_18",
+				"mago_arcanismo_19"
+			],
+			[
+				"mago_arcanismo_19",
+				"mago_arcanismo_20"
+			],
+			[
+				"mago_arcanismo_20",
+				"mago_arcanismo_21"
+			],
+			[
+				"mago_arcanismo_21",
+				"mago_arcanismo_22"
+			],
+			[
+				"mago_arcanismo_22",
+				"mago_arcanismo_s6"
+			],
+			[
+				"mago_arcanismo_22",
+				"mago_arcanismo_23"
+			],
+			[
+				"mago_arcanismo_23",
+				"mago_arcanismo_24"
+			],
+			[
+				"mago_arcanismo_24",
+				"mago_arcanismo_25"
+			],
+			[
+				"mago_arcanismo_25",
+				"mago_arcanismo_26"
+			],
+			[
+				"mago_arcanismo_26",
+				"mago_arcanismo_s7"
+			],
+			[
+				"mago_arcanismo_26",
+				"mago_arcanismo_27"
+			],
+			[
+				"mago_arcanismo_27",
+				"mago_arcanismo_28"
+			],
+			[
+				"mago_arcanismo_28",
+				"mago_arcanismo_29"
+			],
+			[
+				"mago_arcanismo_29",
+				"mago_arcanismo_30"
+			],
+			[
+				"mago_f10",
 				"mago_oscuridad_1"
 			],
 			[
@@ -211,11 +519,11 @@
 			],
 			[
 				"mago_oscuridad_5",
-				"mago_oscuridad_s2"
+				"mago_oscuridad_6"
 			],
 			[
-				"mago_oscuridad_5",
-				"mago_oscuridad_6"
+				"mago_oscuridad_6",
+				"mago_oscuridad_s2"
 			],
 			[
 				"mago_oscuridad_6",
@@ -227,15 +535,111 @@
 			],
 			[
 				"mago_oscuridad_8",
-				"mago_oscuridad_s3"
-			],
-			[
-				"mago_oscuridad_8",
 				"mago_oscuridad_9"
 			],
 			[
 				"mago_oscuridad_9",
 				"mago_oscuridad_10"
+			],
+			[
+				"mago_oscuridad_10",
+				"mago_oscuridad_s3"
+			],
+			[
+				"mago_oscuridad_10",
+				"mago_oscuridad_11"
+			],
+			[
+				"mago_oscuridad_11",
+				"mago_oscuridad_12"
+			],
+			[
+				"mago_oscuridad_12",
+				"mago_oscuridad_13"
+			],
+			[
+				"mago_oscuridad_13",
+				"mago_oscuridad_14"
+			],
+			[
+				"mago_oscuridad_14",
+				"mago_oscuridad_s4"
+			],
+			[
+				"mago_oscuridad_14",
+				"mago_oscuridad_15"
+			],
+			[
+				"mago_oscuridad_15",
+				"mago_oscuridad_16"
+			],
+			[
+				"mago_oscuridad_16",
+				"mago_oscuridad_17"
+			],
+			[
+				"mago_oscuridad_17",
+				"mago_oscuridad_18"
+			],
+			[
+				"mago_oscuridad_18",
+				"mago_oscuridad_s5"
+			],
+			[
+				"mago_oscuridad_18",
+				"mago_oscuridad_19"
+			],
+			[
+				"mago_oscuridad_19",
+				"mago_oscuridad_20"
+			],
+			[
+				"mago_oscuridad_20",
+				"mago_oscuridad_21"
+			],
+			[
+				"mago_oscuridad_21",
+				"mago_oscuridad_22"
+			],
+			[
+				"mago_oscuridad_22",
+				"mago_oscuridad_s6"
+			],
+			[
+				"mago_oscuridad_22",
+				"mago_oscuridad_23"
+			],
+			[
+				"mago_oscuridad_23",
+				"mago_oscuridad_24"
+			],
+			[
+				"mago_oscuridad_24",
+				"mago_oscuridad_25"
+			],
+			[
+				"mago_oscuridad_25",
+				"mago_oscuridad_26"
+			],
+			[
+				"mago_oscuridad_26",
+				"mago_oscuridad_s7"
+			],
+			[
+				"mago_oscuridad_26",
+				"mago_oscuridad_27"
+			],
+			[
+				"mago_oscuridad_27",
+				"mago_oscuridad_28"
+			],
+			[
+				"mago_oscuridad_28",
+				"mago_oscuridad_29"
+			],
+			[
+				"mago_oscuridad_29",
+				"mago_oscuridad_30"
 			]
 		]
 	}

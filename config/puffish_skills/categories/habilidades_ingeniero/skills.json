@@ -40,199 +40,584 @@
 		"y": 0,
 		"definition": "ingeniero_f6"
 	},
+	"ingeniero_f7": {
+		"x": 264,
+		"y": 0,
+		"definition": "ingeniero_f7"
+	},
+	"ingeniero_f8": {
+		"x": 308,
+		"y": 0,
+		"definition": "ingeniero_f8"
+	},
+	"ingeniero_f8s": {
+		"x": 308,
+		"y": -38,
+		"definition": "ingeniero_f8s"
+	},
+	"ingeniero_f9": {
+		"x": 352,
+		"y": 0,
+		"definition": "ingeniero_f9"
+	},
+	"ingeniero_f10": {
+		"x": 396,
+		"y": 0,
+		"definition": "ingeniero_f10"
+	},
 	"ingeniero_minero_1": {
-		"x": 276,
+		"x": 452,
 		"y": -120,
 		"definition": "ingeniero_minero_1"
 	},
 	"ingeniero_minero_2": {
-		"x": 320,
+		"x": 496,
 		"y": -120,
 		"definition": "ingeniero_minero_2"
 	},
 	"ingeniero_minero_s1": {
-		"x": 320,
+		"x": 496,
 		"y": -158,
 		"definition": "ingeniero_minero_s1"
 	},
 	"ingeniero_minero_3": {
-		"x": 364,
+		"x": 540,
 		"y": -120,
 		"definition": "ingeniero_minero_3"
 	},
 	"ingeniero_minero_4": {
-		"x": 408,
+		"x": 584,
 		"y": -120,
 		"definition": "ingeniero_minero_4"
 	},
 	"ingeniero_minero_5": {
-		"x": 452,
+		"x": 628,
 		"y": -120,
 		"definition": "ingeniero_minero_5"
 	},
-	"ingeniero_minero_s2": {
-		"x": 452,
-		"y": -82,
-		"definition": "ingeniero_minero_s2"
-	},
 	"ingeniero_minero_6": {
-		"x": 496,
+		"x": 672,
 		"y": -120,
 		"definition": "ingeniero_minero_6"
 	},
+	"ingeniero_minero_s2": {
+		"x": 672,
+		"y": -82,
+		"definition": "ingeniero_minero_s2"
+	},
 	"ingeniero_minero_7": {
-		"x": 540,
+		"x": 716,
 		"y": -120,
 		"definition": "ingeniero_minero_7"
 	},
 	"ingeniero_minero_8": {
-		"x": 584,
+		"x": 760,
 		"y": -120,
 		"definition": "ingeniero_minero_8"
 	},
-	"ingeniero_minero_s3": {
-		"x": 584,
-		"y": -158,
-		"definition": "ingeniero_minero_s3"
-	},
 	"ingeniero_minero_9": {
-		"x": 628,
+		"x": 804,
 		"y": -120,
 		"definition": "ingeniero_minero_9"
 	},
 	"ingeniero_minero_10": {
-		"x": 672,
+		"x": 848,
 		"y": -120,
 		"definition": "ingeniero_minero_10"
 	},
+	"ingeniero_minero_s3": {
+		"x": 848,
+		"y": -158,
+		"definition": "ingeniero_minero_s3"
+	},
+	"ingeniero_minero_11": {
+		"x": 892,
+		"y": -120,
+		"definition": "ingeniero_minero_11"
+	},
+	"ingeniero_minero_12": {
+		"x": 936,
+		"y": -120,
+		"definition": "ingeniero_minero_12"
+	},
+	"ingeniero_minero_13": {
+		"x": 980,
+		"y": -120,
+		"definition": "ingeniero_minero_13"
+	},
+	"ingeniero_minero_14": {
+		"x": 1024,
+		"y": -120,
+		"definition": "ingeniero_minero_14"
+	},
+	"ingeniero_minero_s4": {
+		"x": 1024,
+		"y": -82,
+		"definition": "ingeniero_minero_s4"
+	},
+	"ingeniero_minero_15": {
+		"x": 1068,
+		"y": -120,
+		"definition": "ingeniero_minero_15"
+	},
+	"ingeniero_minero_16": {
+		"x": 1112,
+		"y": -120,
+		"definition": "ingeniero_minero_16"
+	},
+	"ingeniero_minero_17": {
+		"x": 1156,
+		"y": -120,
+		"definition": "ingeniero_minero_17"
+	},
+	"ingeniero_minero_18": {
+		"x": 1200,
+		"y": -120,
+		"definition": "ingeniero_minero_18"
+	},
+	"ingeniero_minero_s5": {
+		"x": 1200,
+		"y": -158,
+		"definition": "ingeniero_minero_s5"
+	},
+	"ingeniero_minero_19": {
+		"x": 1244,
+		"y": -120,
+		"definition": "ingeniero_minero_19"
+	},
+	"ingeniero_minero_20": {
+		"x": 1288,
+		"y": -120,
+		"definition": "ingeniero_minero_20"
+	},
+	"ingeniero_minero_21": {
+		"x": 1332,
+		"y": -120,
+		"definition": "ingeniero_minero_21"
+	},
+	"ingeniero_minero_22": {
+		"x": 1376,
+		"y": -120,
+		"definition": "ingeniero_minero_22"
+	},
+	"ingeniero_minero_s6": {
+		"x": 1376,
+		"y": -82,
+		"definition": "ingeniero_minero_s6"
+	},
+	"ingeniero_minero_23": {
+		"x": 1420,
+		"y": -120,
+		"definition": "ingeniero_minero_23"
+	},
+	"ingeniero_minero_24": {
+		"x": 1464,
+		"y": -120,
+		"definition": "ingeniero_minero_24"
+	},
+	"ingeniero_minero_25": {
+		"x": 1508,
+		"y": -120,
+		"definition": "ingeniero_minero_25"
+	},
+	"ingeniero_minero_26": {
+		"x": 1552,
+		"y": -120,
+		"definition": "ingeniero_minero_26"
+	},
+	"ingeniero_minero_s7": {
+		"x": 1552,
+		"y": -158,
+		"definition": "ingeniero_minero_s7"
+	},
+	"ingeniero_minero_27": {
+		"x": 1596,
+		"y": -120,
+		"definition": "ingeniero_minero_27"
+	},
+	"ingeniero_minero_28": {
+		"x": 1640,
+		"y": -120,
+		"definition": "ingeniero_minero_28"
+	},
+	"ingeniero_minero_29": {
+		"x": 1684,
+		"y": -120,
+		"definition": "ingeniero_minero_29"
+	},
+	"ingeniero_minero_30": {
+		"x": 1728,
+		"y": -120,
+		"definition": "ingeniero_minero_30"
+	},
 	"ingeniero_inventor_1": {
-		"x": 276,
+		"x": 452,
 		"y": 0,
 		"definition": "ingeniero_inventor_1"
 	},
 	"ingeniero_inventor_2": {
-		"x": 320,
+		"x": 496,
 		"y": 0,
 		"definition": "ingeniero_inventor_2"
 	},
 	"ingeniero_inventor_s1": {
-		"x": 320,
+		"x": 496,
 		"y": -38,
 		"definition": "ingeniero_inventor_s1"
 	},
 	"ingeniero_inventor_3": {
-		"x": 364,
+		"x": 540,
 		"y": 0,
 		"definition": "ingeniero_inventor_3"
 	},
 	"ingeniero_inventor_4": {
-		"x": 408,
+		"x": 584,
 		"y": 0,
 		"definition": "ingeniero_inventor_4"
 	},
 	"ingeniero_inventor_5": {
-		"x": 452,
+		"x": 628,
 		"y": 0,
 		"definition": "ingeniero_inventor_5"
 	},
-	"ingeniero_inventor_s2": {
-		"x": 452,
-		"y": 38,
-		"definition": "ingeniero_inventor_s2"
-	},
 	"ingeniero_inventor_6": {
-		"x": 496,
+		"x": 672,
 		"y": 0,
 		"definition": "ingeniero_inventor_6"
 	},
+	"ingeniero_inventor_s2": {
+		"x": 672,
+		"y": 38,
+		"definition": "ingeniero_inventor_s2"
+	},
 	"ingeniero_inventor_7": {
-		"x": 540,
+		"x": 716,
 		"y": 0,
 		"definition": "ingeniero_inventor_7"
 	},
 	"ingeniero_inventor_8": {
-		"x": 584,
+		"x": 760,
 		"y": 0,
 		"definition": "ingeniero_inventor_8"
 	},
-	"ingeniero_inventor_s3": {
-		"x": 584,
-		"y": -38,
-		"definition": "ingeniero_inventor_s3"
-	},
 	"ingeniero_inventor_9": {
-		"x": 628,
+		"x": 804,
 		"y": 0,
 		"definition": "ingeniero_inventor_9"
 	},
 	"ingeniero_inventor_10": {
-		"x": 672,
+		"x": 848,
 		"y": 0,
 		"definition": "ingeniero_inventor_10"
 	},
+	"ingeniero_inventor_s3": {
+		"x": 848,
+		"y": -38,
+		"definition": "ingeniero_inventor_s3"
+	},
+	"ingeniero_inventor_11": {
+		"x": 892,
+		"y": 0,
+		"definition": "ingeniero_inventor_11"
+	},
+	"ingeniero_inventor_12": {
+		"x": 936,
+		"y": 0,
+		"definition": "ingeniero_inventor_12"
+	},
+	"ingeniero_inventor_13": {
+		"x": 980,
+		"y": 0,
+		"definition": "ingeniero_inventor_13"
+	},
+	"ingeniero_inventor_14": {
+		"x": 1024,
+		"y": 0,
+		"definition": "ingeniero_inventor_14"
+	},
+	"ingeniero_inventor_s4": {
+		"x": 1024,
+		"y": 38,
+		"definition": "ingeniero_inventor_s4"
+	},
+	"ingeniero_inventor_15": {
+		"x": 1068,
+		"y": 0,
+		"definition": "ingeniero_inventor_15"
+	},
+	"ingeniero_inventor_16": {
+		"x": 1112,
+		"y": 0,
+		"definition": "ingeniero_inventor_16"
+	},
+	"ingeniero_inventor_17": {
+		"x": 1156,
+		"y": 0,
+		"definition": "ingeniero_inventor_17"
+	},
+	"ingeniero_inventor_18": {
+		"x": 1200,
+		"y": 0,
+		"definition": "ingeniero_inventor_18"
+	},
+	"ingeniero_inventor_s5": {
+		"x": 1200,
+		"y": -38,
+		"definition": "ingeniero_inventor_s5"
+	},
+	"ingeniero_inventor_19": {
+		"x": 1244,
+		"y": 0,
+		"definition": "ingeniero_inventor_19"
+	},
+	"ingeniero_inventor_20": {
+		"x": 1288,
+		"y": 0,
+		"definition": "ingeniero_inventor_20"
+	},
+	"ingeniero_inventor_21": {
+		"x": 1332,
+		"y": 0,
+		"definition": "ingeniero_inventor_21"
+	},
+	"ingeniero_inventor_22": {
+		"x": 1376,
+		"y": 0,
+		"definition": "ingeniero_inventor_22"
+	},
+	"ingeniero_inventor_s6": {
+		"x": 1376,
+		"y": 38,
+		"definition": "ingeniero_inventor_s6"
+	},
+	"ingeniero_inventor_23": {
+		"x": 1420,
+		"y": 0,
+		"definition": "ingeniero_inventor_23"
+	},
+	"ingeniero_inventor_24": {
+		"x": 1464,
+		"y": 0,
+		"definition": "ingeniero_inventor_24"
+	},
+	"ingeniero_inventor_25": {
+		"x": 1508,
+		"y": 0,
+		"definition": "ingeniero_inventor_25"
+	},
+	"ingeniero_inventor_26": {
+		"x": 1552,
+		"y": 0,
+		"definition": "ingeniero_inventor_26"
+	},
+	"ingeniero_inventor_s7": {
+		"x": 1552,
+		"y": -38,
+		"definition": "ingeniero_inventor_s7"
+	},
+	"ingeniero_inventor_27": {
+		"x": 1596,
+		"y": 0,
+		"definition": "ingeniero_inventor_27"
+	},
+	"ingeniero_inventor_28": {
+		"x": 1640,
+		"y": 0,
+		"definition": "ingeniero_inventor_28"
+	},
+	"ingeniero_inventor_29": {
+		"x": 1684,
+		"y": 0,
+		"definition": "ingeniero_inventor_29"
+	},
+	"ingeniero_inventor_30": {
+		"x": 1728,
+		"y": 0,
+		"definition": "ingeniero_inventor_30"
+	},
 	"ingeniero_zapador_1": {
-		"x": 276,
+		"x": 452,
 		"y": 120,
 		"definition": "ingeniero_zapador_1"
 	},
 	"ingeniero_zapador_2": {
-		"x": 320,
+		"x": 496,
 		"y": 120,
 		"definition": "ingeniero_zapador_2"
 	},
 	"ingeniero_zapador_s1": {
-		"x": 320,
+		"x": 496,
 		"y": 82,
 		"definition": "ingeniero_zapador_s1"
 	},
 	"ingeniero_zapador_3": {
-		"x": 364,
+		"x": 540,
 		"y": 120,
 		"definition": "ingeniero_zapador_3"
 	},
 	"ingeniero_zapador_4": {
-		"x": 408,
+		"x": 584,
 		"y": 120,
 		"definition": "ingeniero_zapador_4"
 	},
 	"ingeniero_zapador_5": {
-		"x": 452,
+		"x": 628,
 		"y": 120,
 		"definition": "ingeniero_zapador_5"
 	},
-	"ingeniero_zapador_s2": {
-		"x": 452,
-		"y": 158,
-		"definition": "ingeniero_zapador_s2"
-	},
 	"ingeniero_zapador_6": {
-		"x": 496,
+		"x": 672,
 		"y": 120,
 		"definition": "ingeniero_zapador_6"
 	},
+	"ingeniero_zapador_s2": {
+		"x": 672,
+		"y": 158,
+		"definition": "ingeniero_zapador_s2"
+	},
 	"ingeniero_zapador_7": {
-		"x": 540,
+		"x": 716,
 		"y": 120,
 		"definition": "ingeniero_zapador_7"
 	},
 	"ingeniero_zapador_8": {
-		"x": 584,
+		"x": 760,
 		"y": 120,
 		"definition": "ingeniero_zapador_8"
 	},
-	"ingeniero_zapador_s3": {
-		"x": 584,
-		"y": 82,
-		"definition": "ingeniero_zapador_s3"
-	},
 	"ingeniero_zapador_9": {
-		"x": 628,
+		"x": 804,
 		"y": 120,
 		"definition": "ingeniero_zapador_9"
 	},
 	"ingeniero_zapador_10": {
-		"x": 672,
+		"x": 848,
 		"y": 120,
 		"definition": "ingeniero_zapador_10"
+	},
+	"ingeniero_zapador_s3": {
+		"x": 848,
+		"y": 82,
+		"definition": "ingeniero_zapador_s3"
+	},
+	"ingeniero_zapador_11": {
+		"x": 892,
+		"y": 120,
+		"definition": "ingeniero_zapador_11"
+	},
+	"ingeniero_zapador_12": {
+		"x": 936,
+		"y": 120,
+		"definition": "ingeniero_zapador_12"
+	},
+	"ingeniero_zapador_13": {
+		"x": 980,
+		"y": 120,
+		"definition": "ingeniero_zapador_13"
+	},
+	"ingeniero_zapador_14": {
+		"x": 1024,
+		"y": 120,
+		"definition": "ingeniero_zapador_14"
+	},
+	"ingeniero_zapador_s4": {
+		"x": 1024,
+		"y": 158,
+		"definition": "ingeniero_zapador_s4"
+	},
+	"ingeniero_zapador_15": {
+		"x": 1068,
+		"y": 120,
+		"definition": "ingeniero_zapador_15"
+	},
+	"ingeniero_zapador_16": {
+		"x": 1112,
+		"y": 120,
+		"definition": "ingeniero_zapador_16"
+	},
+	"ingeniero_zapador_17": {
+		"x": 1156,
+		"y": 120,
+		"definition": "ingeniero_zapador_17"
+	},
+	"ingeniero_zapador_18": {
+		"x": 1200,
+		"y": 120,
+		"definition": "ingeniero_zapador_18"
+	},
+	"ingeniero_zapador_s5": {
+		"x": 1200,
+		"y": 82,
+		"definition": "ingeniero_zapador_s5"
+	},
+	"ingeniero_zapador_19": {
+		"x": 1244,
+		"y": 120,
+		"definition": "ingeniero_zapador_19"
+	},
+	"ingeniero_zapador_20": {
+		"x": 1288,
+		"y": 120,
+		"definition": "ingeniero_zapador_20"
+	},
+	"ingeniero_zapador_21": {
+		"x": 1332,
+		"y": 120,
+		"definition": "ingeniero_zapador_21"
+	},
+	"ingeniero_zapador_22": {
+		"x": 1376,
+		"y": 120,
+		"definition": "ingeniero_zapador_22"
+	},
+	"ingeniero_zapador_s6": {
+		"x": 1376,
+		"y": 158,
+		"definition": "ingeniero_zapador_s6"
+	},
+	"ingeniero_zapador_23": {
+		"x": 1420,
+		"y": 120,
+		"definition": "ingeniero_zapador_23"
+	},
+	"ingeniero_zapador_24": {
+		"x": 1464,
+		"y": 120,
+		"definition": "ingeniero_zapador_24"
+	},
+	"ingeniero_zapador_25": {
+		"x": 1508,
+		"y": 120,
+		"definition": "ingeniero_zapador_25"
+	},
+	"ingeniero_zapador_26": {
+		"x": 1552,
+		"y": 120,
+		"definition": "ingeniero_zapador_26"
+	},
+	"ingeniero_zapador_s7": {
+		"x": 1552,
+		"y": 82,
+		"definition": "ingeniero_zapador_s7"
+	},
+	"ingeniero_zapador_27": {
+		"x": 1596,
+		"y": 120,
+		"definition": "ingeniero_zapador_27"
+	},
+	"ingeniero_zapador_28": {
+		"x": 1640,
+		"y": 120,
+		"definition": "ingeniero_zapador_28"
+	},
+	"ingeniero_zapador_29": {
+		"x": 1684,
+		"y": 120,
+		"definition": "ingeniero_zapador_29"
+	},
+	"ingeniero_zapador_30": {
+		"x": 1728,
+		"y": 120,
+		"definition": "ingeniero_zapador_30"
 	}
 }

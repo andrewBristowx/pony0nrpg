@@ -23,12 +23,12 @@ const NETH = ['minecraft:netherite_upgrade_smithing_template', 2], INGOT = (n) =
 global.RECOMPENSAS_ROL = {
   tanque: {
     guerrero: [
-      [['minecraft:shield', 1], ['minecraft:iron_chestplate', 1], ['minecraft:cooked_beef', 16], MESA, LIBRO('copper')],
-      [['spartanweaponry:iron_flanged_mace', 1], ['minecraft:iron_leggings', 1]],
-      [['minecraft:iron_helmet', 1], ['minecraft:iron_boots', 1], ['artifacts:thorn_pendant', 1]],
-      [['spartanweaponry:diamond_flanged_mace', 1], ['minecraft:diamond_helmet', 1]],
-      [['minecraft:diamond_chestplate', 1], ['minecraft:diamond_leggings', 1], ['artifacts:cross_necklace', 1], LIBRO('iron')],
-      [['spartanweaponry:diamond_battle_hammer', 1], ['minecraft:diamond_boots', 1]],
+      [['minecraft:shield', 1], ['minecraft:cooked_beef', 16], MESA, LIBRO('copper')],
+      [['spartanweaponry:iron_flanged_mace', 1]],
+      [, ['artifacts:thorn_pendant', 1]],
+      [['spartanweaponry:diamond_flanged_mace', 1]],
+      [, ['artifacts:cross_necklace', 1], LIBRO('iron')],
+      [['spartanweaponry:diamond_battle_hammer', 1]],
       [['artifacts:crystal_heart', 1], INGOT(2), LIBRO('gold')],
       [NETH, INGOT(4)],
       [['simplyswords:netherite_greathammer', 1], TOTEM],
@@ -37,12 +37,12 @@ global.RECOMPENSAS_ROL = {
   dps: {
     guerrero: [
       [['spartanweaponry:iron_greatsword', 1], ['minecraft:golden_apple', 2], MESA, LIBRO('copper')],
-      [['spartanweaponry:iron_battleaxe', 1], ['minecraft:iron_chestplate', 1]],
-      [['artifacts:power_glove', 1], ['minecraft:iron_leggings', 1]],
+      [['spartanweaponry:iron_battleaxe', 1]],
+      [['artifacts:power_glove', 1]],
       [['spartanweaponry:diamond_greatsword', 1]],
-      [['simplyswords:diamond_claymore', 1], ['minecraft:diamond_chestplate', 1], LIBRO('iron')],
-      [['artifacts:vampiric_glove', 1], ['minecraft:diamond_leggings', 1]],
-      [['spartanweaponry:diamond_battleaxe', 1], ['minecraft:diamond_boots', 1], ['minecraft:diamond_helmet', 1], LIBRO('gold')],
+      [['simplyswords:diamond_claymore', 1], LIBRO('iron')],
+      [['artifacts:vampiric_glove', 1]],
+      [['spartanweaponry:diamond_battleaxe', 1], LIBRO('gold')],
       [NETH, INGOT(4)],
       [['simplyswords:netherite_claymore', 1], TOTEM],
     ],
@@ -63,15 +63,15 @@ global.RECOMPENSAS_ROL = {
       [['irons_spellbooks:rare_ink', 4]],
       [['irons_spellbooks:pyromancer_chestplate', 1], LIBRO('iron')],
       [['irons_spellbooks:pyromancer_leggings', 1], ['irons_spellbooks:pyromancer_boots', 1]],
-      [['irons_spellbooks:pyromancer_helmet', 1], ['irons_spellbooks:affinity_ring_fire', 1]],
+      [['irons_spellbooks:pyromancer_helmet', 1], ['irons_spellbooks:fireward_ring', 1]],
       [LIBRO('gold'), ['irons_spellbooks:cast_time_ring', 1]],
       [['irons_spellbooks:cooldown_ring', 1], ['irons_spellbooks:epic_ink', 4]],
       [['irons_spellbooks:diamond_spell_book', 1], ['irons_spellbooks:pyrium_staff', 1]],
     ],
     asesino: [
       [['spartanweaponry:iron_dagger', 1], ['spartanweaponry:iron_throwing_knife', 16], MESA, LIBRO('copper')],
-      [['spartanweaponry:iron_rapier', 1], ['minecraft:leather_chestplate', 1]],
-      [['artifacts:scarf_of_invisibility', 1], ['minecraft:leather_leggings', 1]],
+      [['spartanweaponry:iron_rapier', 1]],
+      [['artifacts:scarf_of_invisibility', 1]],
       [['spartanweaponry:diamond_dagger', 1], ['spartanweaponry:diamond_throwing_knife', 16]],
       [['simplyswords:diamond_katana', 1], ['artifacts:feral_claws', 1], LIBRO('iron')],
       [['artifacts:vampiric_glove', 1], ['spartanweaponry:diamond_rapier', 1]],
@@ -98,8 +98,8 @@ global.RECOMPENSAS_ROL = {
       [['irons_spellbooks:rare_ink', 4]],
       [['irons_spellbooks:priest_chestplate', 1], LIBRO('iron')],
       [['irons_spellbooks:priest_leggings', 1], ['irons_spellbooks:priest_boots', 1]],
-      [['irons_spellbooks:priest_helmet', 1], ['irons_spellbooks:affinity_ring_holy', 1]],
-      [LIBRO('gold'), ['irons_spellbooks:mana_ring', 1], ['irons_spellbooks:greater_healing_potion', 4]],
+      [['irons_spellbooks:priest_helmet', 1], ['irons_spellbooks:mana_ring', 1]],
+      [LIBRO('gold'), ['irons_spellbooks:cast_time_ring', 1], ['irons_spellbooks:greater_healing_potion', 4]],
       [['irons_spellbooks:cooldown_ring', 1], ['irons_spellbooks:epic_ink', 4]],
       [['irons_spellbooks:diamond_spell_book', 1], ['irons_spellbooks:concentration_amulet', 1]],
     ],
@@ -146,7 +146,7 @@ global.HECHIZOS_ROL = {
     ingeniero:[[], ['charge'], ['electrocute'], ['haste'], ['gust'], ['lightning_lance'], ['chain_lightning'], ['ball_lightning'], ['thunderstorm']],
   },
   healer: {
-    mago: [['heal'], ['cleanse'], ['healing_circle'], [], ['fortify'], ['greater_heal'], ['wisp'], ['blessing_of_life'], ['shield', ['greater_heal', 3]]],
+    mago: [['heal'], ['cleanse'], ['healing_circle'], [], ['fortify'], ['greater_heal'], ['wisp'], ['blessing_of_life'], ['shield']],
   },
   soporte: {
     arquero:  [[], ['haste'], ['planar_sight'], ['evasion'], ['fortify'], ['teleport'], ['telekinesis'], ['cleanse'], ['invisibility']],
@@ -190,3 +190,52 @@ global.MEJORAS_ROL = {
     '*': [[], [[mov, 0.03, 'multiply_base']], [[luck, 0.5]], [[hp, 2]], [[xp, 0.05]], [[mov, 0.03, 'multiply_base']], [[luck, 0.5]], [[hp, 2]], [[mov, 0.04, 'multiply_base'], [luck, 0.5]]],
   },
 };
+
+// ---- niveles 9..16 (segunda mitad del capitulo de rol: jefes y materiales) -------------------------------------------------
+// El equipo de rol con atributos (tiers III y IV) lo da gremio_equipo.js; aqui: objetos sueltos, mejoras de atributos y hechizos mejorados.
+(function () {
+  // objetos extra por nivel, iguales para todos los roles
+  var EXTRA = { 9: [['minecraft:golden_apple', 8]], 10: [['minecraft:netherite_ingot', 2]], 12: [TOTEM], 13: [['minecraft:golden_apple', 8]],
+    14: [['minecraft:netherite_ingot', 3]], 16: [['minecraft:enchanted_golden_apple', 2], TOTEM] };
+  var R = global.RECOMPENSAS_ROL;
+  Object.keys(R).forEach(function (rol) {
+    Object.keys(R[rol]).forEach(function (clase) {
+      var arr = R[rol][clase];
+      for (var n = 9; n <= 16; n++) arr[n] = (EXTRA[n] || []).slice();
+      if (clase === 'mago') {
+        arr[10].push(['irons_spellbooks:legendary_ink', 4]);
+        arr[16].push(LIBRO('netherite'));
+      } else {
+        arr[12].push(LIBRO('diamond'));
+        arr[16].push(LIBRO('netherite'));
+      }
+      if (rol === 'healer') { arr[10].push(['irons_spellbooks:greater_healing_potion', 4]); arr[14].push(['irons_spellbooks:greater_healing_potion', 4]); }
+    });
+  });
+
+  // mejoras de atributos: los niveles 9..16 repiten las de los niveles 1..8 con un 50 % mas
+  var M = global.MEJORAS_ROL;
+  Object.keys(M).forEach(function (rol) {
+    Object.keys(M[rol]).forEach(function (clase) {
+      var arr = M[rol][clase];
+      for (var n = 9; n <= 16; n++) arr[n] = (arr[n - 8] || []).map(function (m) { return [m[0], Number((m[1] * 1.5).toFixed(4)), m[2]]; });
+    });
+  });
+
+  // hechizos: pergaminos de mayor nivel de los ya aprendidos y alguno nuevo
+  var EXT = {
+    'tanque/guerrero': [[['oakskin', 3]], [['stomp', 3]], [['fortify', 3]], [['heartstop', 3]], ['gust'], [['shockwave', 3]], [['scapegoat', 3]], [['root', 3], ['shield', 3]]],
+    'dps/guerrero':    [[['haste', 3]], [['flaming_strike', 3]], [['charge', 3]], ['spider_aspect'], [['burning_dash', 3]], [['echoing_strikes', 3]], [['heat_surge', 3]], [['shockwave', 3]]],
+    'dps/arquero':     [[['poison_arrow', 3]], [['haste', 3]], ['invisibility'], [['arrow_volley', 5]], [['evasion', 3]], [['echoing_strikes', 3]], ['teleport'], [['arrow_volley', 6]]],
+    'dps/mago':        [[['firebolt', 3]], [['fireball', 3]], ['lightning_lance'], [['lightning_bolt', 3]], [['wall_of_fire', 3]], [['chain_lightning', 3]], ['telekinesis'], [['fireball', 5], ['thunderstorm', 3]]],
+    'dps/asesino':     [[['shadow_slash', 3]], [['blood_step', 3]], [['invisibility', 3]], [['echoing_strikes', 3]], ['burning_dash'], [['evasion', 3]], [['teleport', 3]], [['abyssal_shroud', 3]]],
+    'dps/ingeniero':   [[['electrocute', 3]], [['charge', 3]], [['lightning_lance', 3]], [['chain_lightning', 3]], [['gust', 3]], [['ball_lightning', 3]], ['shockwave'], [['thunderstorm', 3]]],
+    'healer/mago':     [[['heal', 5]], [['heal', 8]], [['healing_circle', 3]], [['fortify', 3]], [['wisp', 3]], [['wisp', 5]], [['blessing_of_life', 3]], [['healing_circle', 5], ['shield', 3]]],
+    'soporte/arquero': [[['haste', 3]], [['planar_sight', 3]], [['fortify', 3]], [['evasion', 3]], [['teleport', 3]], [['fortify', 5]], [['telekinesis', 3]], [['invisibility', 3]]],
+    'soporte/ingeniero': [[['haste', 3]], [['shield', 3]], [['planar_sight', 3]], [['fortify', 3]], [['telekinesis', 3]], [['teleport', 3]], [['teleport', 5]], [['healing_circle', 3]]],
+  };
+  Object.keys(EXT).forEach(function (k) {
+    var parts = k.split('/'), arr = global.HECHIZOS_ROL[parts[0]][parts[1]];
+    EXT[k].forEach(function (lista, i) { arr[9 + i] = lista; });
+  });
+})();
