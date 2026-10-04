@@ -314,6 +314,7 @@ ServerEvents.commandRegistry((event) => {
 // ---- mundo: borde y límites entre regiones ---------------------------------------------------------------------
 ServerEvents.loaded((event) => {
   const s = event.server;
+  console.info('[gremios] script v3 cargado (sitio del pueblo por bioma, sin getBaseHeight)');
   if (!s.persistentData.getBoolean('regiones_init')) {
     s.runCommandSilent('worldborder center 0 0');
     s.runCommandSilent('worldborder set ' + BORDE);
