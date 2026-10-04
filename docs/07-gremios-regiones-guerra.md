@@ -123,3 +123,10 @@ No afecta a invocaciones, huevos, spawners ni a las demás dimensiones. Lista de
 
 - Frecuencia de reinicio del mundo de aventura (ahora a demanda).
 - Qué mods de dimensiones/mazmorras se añaden y cuándo (fase 3).
+
+## 9. Bazar neutral y comandos de revisión (implementado)
+
+- **Bazar** de 129 x 129 en el centro del mapa (0, 0), dentro de la zona neutral: muralla con 4 puertas, fuente central, dos avenidas con puestos de mercado en los colores de los 4 gremios y una casa de embajada de cada gremio en su esquina. Generado con `tools/village/gen-bazar.mjs` (`pony0n:bazar`) y colocado solo al arrancar si falta (o con `/pueblo colocar bazar`).
+- `/pueblo ir <gremio|bazar>` teletransporta a la plaza; `/pueblo estado` muestra las coordenadas. `/limite ir <gremio|norte|sur|este|oeste>` lleva al borde del mundo (a 10 bloques).
+- Pendiente de decidir: ¿PvP prohibido dentro del bazar aunque haya guerra? Hoy el bazar sigue las reglas generales (PvP solo en guerra).
+

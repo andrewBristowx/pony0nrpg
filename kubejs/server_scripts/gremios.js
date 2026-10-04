@@ -4,6 +4,8 @@
 //  - En paz nadie sale de su región (salvo operadores); en guerra se quitan los límites y se permite PvP entre gremios.
 //  - PvP: nunca dentro del mismo gremio; en el Overworld solo en guerra; en las demás dimensiones siempre entre gremios distintos.
 // Comandos (operador):  /guerra on | off | estado     /gremio unir <gremio> <jugador>
+//   /pueblo estado | colocar <gremio|bazar|todos> | ir <gremio|bazar>     /limite ir <gremio|norte|sur|este|oeste>
+//  - Bazar neutral (plantilla pony0n:bazar, tools/village/gen-bazar.mjs) en el centro (0, 0), dentro de la zona neutral; se coloca solo al arrancar.
 
 const GREMIOS = {
   slytherion:      { nombre: 'Slytheri0n',      sx: -1, sz: -1 },   // noroeste
@@ -61,6 +63,10 @@ function joinGuildTeam(server, player, id) {
 // Miden 129 x 34 x 129 y su suelo está en y=3 de la plantilla (debajo hay 3 capas de tierra).
 // El sitio se elige dentro de la región del gremio, cerca de (±PUEBLO, ±PUEBLO), buscando el terreno más llano y sin agua.
 const PUEBLO_LADO = 129, PUEBLO_MITAD = 64, PUEBLO_SUELO = 3, PUEBLO_VERSION = 3;
+const BAZAR = 'bazar';                   // el bazar neutral del centro del mapa (tools/village/gen-bazar.mjs): misma talla y suelo que un pueblo, sitio fijo (0, 0)
+const BAZAR_SPAWN = [64, 80];            // sobre la avenida sur del bazar, fuera del brocal de la fuente
+const PUEBLOS = Object.keys(GREMIOS).concat([BAZAR]);   // todo lo que /pueblo sabe colocar
+const plantillaDe = (id) => 'pony0n:' + (id === BAZAR ? 'bazar' : 'pueblo_' + id);
 const PUEBLO_SPAWN = [64, 70];           // desplazamiento dentro de la plantilla donde aparece el jugador (plaza, al sur del pozo)
 
 /** origen (esquina noroeste) del pueblo colocado; si hay uno antiguo (65x65, sin datos guardados) devuelve el que tenía */
@@ -168,7 +174,8 @@ function colocarPueblo(server, id, alTerminar) {
   const level = server.overworld();
   const run = (c) => server.runCommandSilent('execute in minecraft:overworld run ' + c);
   limpiarPueblo(server, id, run);
-  elegirSitio(server, level, id, function (s) {
+  const elegir = id === BAZAR ? function (srv, lvl, i, cb) { cb({ cx: 0, cz: 0 }); } : elegirSitio;   // el bazar va siempre en el centro
+  elegir(server, level, id, function (s) {
     const ox = s.cx - PUEBLO_MITAD, oz = s.cz - PUEBLO_MITAD;
     const cx0 = (ox - 32) >> 4, cx1 = (ox + PUEBLO_LADO + 32) >> 4, cz0 = (oz - 32) >> 4, cz1 = (oz + PUEBLO_LADO + 32) >> 4;
     const zona = cx0 * 16 + ' ' + cz0 * 16 + ' ' + (cx1 * 16 + 15) + ' ' + (cz1 * 16 + 15);
@@ -211,7 +218,7 @@ function construirPueblo(server, level, run, id, s, ox, oz) {
     rellenar(run, x1, z1, x2, z2, ref - 25, ref - 4, 'minecraft:dirt', blk);
   });
   // 3) colocar la plantilla (su suelo queda en y=ref)
-  run('place template pony0n:pueblo_' + id + ' ' + ox + ' ' + (ref - PUEBLO_SUELO) + ' ' + oz);
+  run('place template ' + plantillaDe(id) + ' ' + ox + ' ' + (ref - PUEBLO_SUELO) + ' ' + oz);
   suavizarBordes(level, x1, z1, x2, z2, ref);
   const pd = server.persistentData;
   pd.putInt('pueblo_' + id + '_x', ox); pd.putInt('pueblo_' + id + '_z', oz); pd.putInt('pueblo_' + id + '_y', ref);
@@ -232,7 +239,8 @@ function colocarPueblos(server, ids, alTerminar) {
 function puebloSpawn(server, id) {
   if (!puebloColocado(server, id)) return null;
   const o = puebloOrigen(server, id);
-  return { x: o.x + PUEBLO_SPAWN[0] + 0.5, y: server.persistentData.getInt('pueblo_' + id + '_y') + 1, z: o.z + PUEBLO_SPAWN[1] + 0.5 };
+  const off = id === BAZAR ? BAZAR_SPAWN : PUEBLO_SPAWN;
+  return { x: o.x + off[0] + 0.5, y: server.persistentData.getInt('pueblo_' + id + '_y') + 1, z: o.z + off[1] + 0.5 };
 }
 
 // ---- comandos -------------------------------------------------------------------------------------------------
@@ -246,9 +254,9 @@ ServerEvents.commandRegistry((event) => {
       .then(Commands.argument('gremio', Arguments.STRING.create(event))
         .executes((ctx) => {
           const id = String(Arguments.STRING.getResult(ctx, 'gremio')).toLowerCase();
-          const ids = id === 'todos' ? Object.keys(GREMIOS) : [id];
+          const ids = id === 'todos' ? PUEBLOS : [id];
           for (var i = 0; i < ids.length; i++) {
-            if (!GREMIOS[ids[i]]) { ctx.source.sendFailure(Text.of('Gremio desconocido: ' + ids[i])); return 0; }
+            if (PUEBLOS.indexOf(ids[i]) < 0) { ctx.source.sendFailure(Text.of('Desconocido: ' + ids[i] + ' (' + PUEBLOS.join(', ') + ', todos)')); return 0; }
           }
           ctx.source.sendSuccess(() => Text.of('Colocando ' + ids.length + ' pueblo(s) en segundo plano; tarda unos minutos y avisa en el chat al terminar (progreso en el log).'), false);
           const server = ctx.source.server;
@@ -259,22 +267,42 @@ ServerEvents.commandRegistry((event) => {
       .then(Commands.argument('gremio', Arguments.STRING.create(event))
         .executes((ctx) => {
           const id = String(Arguments.STRING.getResult(ctx, 'gremio')).toLowerCase();
-          if (!GREMIOS[id]) { ctx.source.sendFailure(Text.of('Gremio desconocido: ' + id + ' (' + Object.keys(GREMIOS).join(', ') + ')')); return 0; }
+          if (PUEBLOS.indexOf(id) < 0) { ctx.source.sendFailure(Text.of('Desconocido: ' + id + ' (' + PUEBLOS.join(', ') + ')')); return 0; }
           const server = ctx.source.server, player = ctx.source.player;
           if (!player) { ctx.source.sendFailure(Text.of('Solo un jugador puede usar /pueblo ir.')); return 0; }
           const sp = puebloSpawn(server, id);
           if (!sp) { ctx.source.sendFailure(Text.of('El pueblo de ' + id + ' aún no está colocado (mira /pueblo estado).')); return 0; }
           server.runCommandSilent('execute in minecraft:overworld run tp ' + player.username + ' ' + sp.x + ' ' + sp.y + ' ' + sp.z);
-          ctx.source.sendSuccess(() => Text.green('Teletransportado al pueblo de ' + GREMIOS[id].nombre + '.'), false);
+          ctx.source.sendSuccess(() => Text.green('Teletransportado a ' + (id === BAZAR ? 'el bazar' : 'el pueblo de ' + GREMIOS[id].nombre) + '.'), false);
           return 1;
         })))
     .then(Commands.literal('estado').executes((ctx) => {
-      Object.keys(GREMIOS).forEach((id) => {
+      PUEBLOS.forEach((id) => {
         const sp = puebloSpawn(ctx.source.server, id);
         ctx.source.sendSuccess(() => Text.of(id + ': ' + (sp ? 'colocado, plaza en ' + Math.floor(sp.x) + ' ' + Math.floor(sp.y) + ' ' + Math.floor(sp.z) : 'pendiente')), false);
       });
       return 1;
     })));
+
+  // /limite ir <gremio|norte|sur|este|oeste>: teletransporta al borde del mundo (a 10 bloques) para revisarlo; gremio = la esquina exterior de su región
+  const MITAD = BORDE / 2 - 10;
+  const destinoLimite = (d) => {
+    if (GREMIOS[d]) return [GREMIOS[d].sx * MITAD, GREMIOS[d].sz * MITAD];
+    return { norte: [0, -MITAD], sur: [0, MITAD], este: [MITAD, 0], oeste: [-MITAD, 0] }[d] || null;
+  };
+  event.register(Commands.literal('limite')
+    .requires((src) => src.hasPermission(2))
+    .then(Commands.literal('ir')
+      .then(Commands.argument('destino', Arguments.STRING.create(event))
+        .executes((ctx) => {
+          const d = String(Arguments.STRING.getResult(ctx, 'destino')).toLowerCase();
+          const t = destinoLimite(d), player = ctx.source.player;
+          if (!t) { ctx.source.sendFailure(Text.of('Destinos: ' + Object.keys(GREMIOS).join(', ') + ', norte, sur, este, oeste')); return 0; }
+          if (!player) { ctx.source.sendFailure(Text.of('Solo un jugador puede usar /limite ir.')); return 0; }
+          ctx.source.sendSuccess(() => Text.of('Yendo al límite (' + t[0] + ', ' + t[1] + '); si el terreno no está generado puede tardar unos segundos…'), false);
+          ctx.source.server.runCommandSilent('execute as ' + player.username + ' in minecraft:overworld run spreadplayers ' + t[0] + ' ' + t[1] + ' 0 2 false @s');
+          return 1;
+        }))));
 
   const setWar = (server, on) => {
     server.persistentData.putBoolean('guerra', on);
@@ -339,7 +367,7 @@ ServerEvents.loaded((event) => {
   }
   // los pueblos que falten se colocan solos al arrancar, en segundo plano (la búsqueda va por tramos y los chunks se cargan con /forceload,
   // así que el tick nunca se bloquea); /pueblo colocar los rehace
-  const pendientes = Object.keys(GREMIOS).filter((id) => !puebloColocado(s, id));
+  const pendientes = PUEBLOS.filter((id) => !puebloColocado(s, id));
   if (pendientes.length) s.scheduleInTicks(200, () => colocarPueblos(s, pendientes));
 });
 

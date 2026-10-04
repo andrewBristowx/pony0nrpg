@@ -969,6 +969,10 @@ file = "kubejs/data/pony0n/powers/mago/sangre_arcana.json"
 hash = "9884a089d977b580dc0068b193504d3d7323aa86af73e689606836f9e3d017b2"
 
 [[files]]
+file = "kubejs/data/pony0n/structures/bazar.nbt"
+hash = "50f8f9dc29482a0387319aa0622b879ecf8a9f0fb4c76d45c43462b7cc3baab7"
+
+[[files]]
 file = "kubejs/data/pony0n/structures/pueblo_huffleponyanos.nbt"
 hash = "07eb4472f568e8ae235ba8362e5ae8184fff3e63a7392b6fc29dbc2ea267a8b7"
 
@@ -1166,7 +1170,7 @@ hash = "0fc331847426e183a313ee71a7ff76705108208e9e36db966282a1c8d061648e"
 
 [[files]]
 file = "kubejs/server_scripts/gremios.js"
-hash = "c3bdc0b5020099ff65734aebfcafbab35b85dc42f5911b317b175609be7680c5"
+hash = "6a63248c4ba380e2aeaa21728669e54f9109296b0bc5a96b79a842b6dec96ae8"
 
 [[files]]
 file = "kubejs/server_scripts/sin_mobs_de_mods.js"
