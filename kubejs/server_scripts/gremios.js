@@ -255,8 +255,24 @@ ServerEvents.commandRegistry((event) => {
           colocarPueblos(server, ids, () => server.tell(Text.green('[gremios] Pueblos colocados.')));
           return 1;
         })))
+    .then(Commands.literal('ir')       // /pueblo ir <gremio>: teletransporta al operador a la plaza del pueblo (para revisarlos)
+      .then(Commands.argument('gremio', Arguments.STRING.create(event))
+        .executes((ctx) => {
+          const id = String(Arguments.STRING.getResult(ctx, 'gremio')).toLowerCase();
+          if (!GREMIOS[id]) { ctx.source.sendFailure(Text.of('Gremio desconocido: ' + id + ' (' + Object.keys(GREMIOS).join(', ') + ')')); return 0; }
+          const server = ctx.source.server, player = ctx.source.player;
+          if (!player) { ctx.source.sendFailure(Text.of('Solo un jugador puede usar /pueblo ir.')); return 0; }
+          const sp = puebloSpawn(server, id);
+          if (!sp) { ctx.source.sendFailure(Text.of('El pueblo de ' + id + ' aún no está colocado (mira /pueblo estado).')); return 0; }
+          server.runCommandSilent('execute in minecraft:overworld run tp ' + player.username + ' ' + sp.x + ' ' + sp.y + ' ' + sp.z);
+          ctx.source.sendSuccess(() => Text.green('Teletransportado al pueblo de ' + GREMIOS[id].nombre + '.'), false);
+          return 1;
+        })))
     .then(Commands.literal('estado').executes((ctx) => {
-      Object.keys(GREMIOS).forEach((id) => ctx.source.sendSuccess(() => Text.of(id + ': ' + (puebloColocado(ctx.source.server, id) ? 'colocado' : 'pendiente')), false));
+      Object.keys(GREMIOS).forEach((id) => {
+        const sp = puebloSpawn(ctx.source.server, id);
+        ctx.source.sendSuccess(() => Text.of(id + ': ' + (sp ? 'colocado, plaza en ' + Math.floor(sp.x) + ' ' + Math.floor(sp.y) + ' ' + Math.floor(sp.z) : 'pendiente')), false);
+      });
       return 1;
     })));
 
