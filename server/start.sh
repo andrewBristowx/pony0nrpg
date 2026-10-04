@@ -73,6 +73,28 @@ if [ ! -f "$FORGE_ARGS" ]; then
   rm -f "$FORGE_INST" "${FORGE_INST}.log"
 fi
 
+# ---- 1c. red de seguridad: los archivos de kubejs/ deben ser identicos a los del indice del pack ----------------------
+# Si packwiz no actualiza un script (copia subida a mano, cache, fallo de red...), se compara el SHA-256 con index.toml y se descarga
+# directamente de GitHub lo que no coincida. Asi el servidor nunca arranca con un script distinto al de la rama del pack.
+RAW_BASE="${PACK_URL%pack.toml}"
+if descargar "${RAW_BASE}index.toml" ./.index.toml.tmp 30; then
+  awk '/^file = "kubejs\//{f=$3; gsub(/"/,"",f)} /^hash = /{if(f!=""){h=$3; gsub(/"/,"",h); print f, h; f=""}}' ./.index.toml.tmp |
+  while read -r F H; do
+    L="$(sha256sum "$F" 2>/dev/null | cut -d' ' -f1)"
+    if [ "$L" != "$H" ]; then
+      mkdir -p "$(dirname "$F")"
+      if descargar "${RAW_BASE}${F}" "${F}.tmp" 60 && [ "$(sha256sum "${F}.tmp" | cut -d' ' -f1)" = "$H" ]; then
+        mv -f "${F}.tmp" "$F"; echo "[start.sh] Actualizado desde GitHub: $F"
+      else
+        rm -f "${F}.tmp"; echo "[start.sh] AVISO: no se pudo actualizar $F"
+      fi
+    fi
+  done
+else
+  echo "[start.sh] AVISO: no se pudo leer index.toml; se omite la comprobacion de kubejs/."
+fi
+rm -f ./.index.toml.tmp
+
 # ---- 2. memoria: 75 % del limite del contenedor, con tope de 12 GB (mas heap no mejora el TPS) --------------
 LIMIT_MB="${SERVER_MEMORY:-0}"
 if [ "$LIMIT_MB" -gt 0 ] 2>/dev/null; then HEAP_MB=$(( LIMIT_MB * 75 / 100 )); else HEAP_MB=12288; fi
