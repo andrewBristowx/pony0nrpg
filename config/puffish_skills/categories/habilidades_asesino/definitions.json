@@ -612,24 +612,29 @@
 		]
 	},
 	"asesino_sombra_5": {
-		"title": "Sombra V",
+		"title": "Hechizo: Invisibilidad",
 		"description": [
 			{
 				"text": "Asesino › Sombra\n",
 				"color": "gold"
 			},
 			{
-				"text": "+2% Velocidad de movimiento",
+				"text": "+2% Velocidad de movimiento\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Invisibilidad» (nivel 1) y recibes su pergamino. Invisible un momento: los mobs pierden el aggro. Se rompe al hacer daño.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:rabbit_foot"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -888,24 +893,29 @@
 		]
 	},
 	"asesino_sombra_11": {
-		"title": "Sombra XI",
+		"title": "Hechizo: Evasión",
 		"description": [
 			{
 				"text": "Asesino › Sombra\n",
 				"color": "gold"
 			},
 			{
-				"text": "+2.8% Velocidad de movimiento",
+				"text": "+2.8% Velocidad de movimiento\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Evasión» (nivel 2) y recibes su pergamino. Al ser atacado te teletransportas cerca y evitas el daño (limitado).",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:black_dye"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1122,24 +1132,29 @@
 		]
 	},
 	"asesino_sombra_17": {
-		"title": "Sombra XVII",
+		"title": "Hechizo: Paso de sangre",
 		"description": [
 			{
 				"text": "Asesino › Sombra\n",
 				"color": "gold"
 			},
 			{
-				"text": "+2.8% Velocidad de movimiento",
+				"text": "+2.8% Velocidad de movimiento\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Paso de sangre» (nivel 3) y recibes su pergamino. Te teletransportas a donde miras, o justo detrás del objetivo, y quedas invisible un instante.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:ink_sac"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1386,24 +1401,29 @@
 		]
 	},
 	"asesino_sombra_23": {
-		"title": "Sombra XXIII",
+		"title": "Hechizo: Manto abisal",
 		"description": [
 			{
 				"text": "Asesino › Sombra\n",
 				"color": "gold"
 			},
 			{
-				"text": "+3.6% Velocidad de movimiento",
+				"text": "+3.6% Velocidad de movimiento\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Manto abisal» (nivel 3) y recibes su pergamino. Esquivas cualquier ataque durante un breve tiempo.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:phantom_membrane"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1872,24 +1892,29 @@
 		]
 	},
 	"asesino_duelista_5": {
-		"title": "Duelista V",
+		"title": "Hechizo: Tajo sombrío",
 		"description": [
 			{
 				"text": "Asesino › Duelista\n",
 				"color": "gold"
 			},
 			{
-				"text": "+0.5 Daño de ataque",
+				"text": "+0.5 Daño de ataque\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Tajo sombrío» (nivel 1) y recibes su pergamino. Embestida con un corte arcano; escala con el daño de tu arma.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:blaze_rod"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -2148,24 +2173,29 @@
 		]
 	},
 	"asesino_duelista_11": {
-		"title": "Duelista XI",
+		"title": "Hechizo: Prisa",
 		"description": [
 			{
 				"text": "Asesino › Duelista\n",
 				"color": "gold"
 			},
 			{
-				"text": "+0.7 Daño de ataque",
+				"text": "+0.7 Daño de ataque\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Prisa» (nivel 2) y recibes su pergamino. Más velocidad de movimiento y de ataque durante un rato (a ti o a un objetivo).",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:iron_sword"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -2382,24 +2412,29 @@
 		]
 	},
 	"asesino_duelista_17": {
-		"title": "Duelista XVII",
+		"title": "Hechizo: Golpes con eco",
 		"description": [
 			{
 				"text": "Asesino › Duelista\n",
 				"color": "gold"
 			},
 			{
-				"text": "+0.7 Daño de ataque",
+				"text": "+0.7 Daño de ataque\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Golpes con eco» (nivel 3) y recibes su pergamino. Tus ataques no mágicos crean un eco: una espada espectral o una flecha mágica.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:sugar"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -2646,24 +2681,29 @@
 		]
 	},
 	"asesino_duelista_23": {
-		"title": "Duelista XXIII",
+		"title": "Hechizo: Carrera ardiente",
 		"description": [
 			{
 				"text": "Asesino › Duelista\n",
 				"color": "gold"
 			},
 			{
-				"text": "+0.9 Daño de ataque",
+				"text": "+0.9 Daño de ataque\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Carrera ardiente» (nivel 3) y recibes su pergamino. Te lanzas hacia delante abrasando a quien cruzas.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:iron_nugget"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -3132,24 +3172,29 @@
 		]
 	},
 	"asesino_verdugo_5": {
-		"title": "Verdugo V",
+		"title": "Hechizo: Tajo de sangre",
 		"description": [
 			{
 				"text": "Asesino › Verdugo\n",
 				"color": "gold"
 			},
 			{
-				"text": "+1% Robo de vida",
+				"text": "+1% Robo de vida\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Tajo de sangre» (nivel 1) y recibes su pergamino. Un corte de energía de sangre que daña a las criaturas delante de ti.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:wither_skeleton_skull"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -3408,24 +3453,29 @@
 		]
 	},
 	"asesino_verdugo_11": {
-		"title": "Verdugo XI",
+		"title": "Hechizo: Acupuntura",
 		"description": [
 			{
 				"text": "Asesino › Verdugo\n",
 				"color": "gold"
 			},
 			{
-				"text": "+1.4% Robo de vida",
+				"text": "+1.4% Robo de vida\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Acupuntura» (nivel 2) y recibes su pergamino. Agujas que dañan y debilitan al objetivo.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:netherite_axe"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -3642,24 +3692,29 @@
 		]
 	},
 	"asesino_verdugo_17": {
-		"title": "Verdugo XVII",
+		"title": "Hechizo: Rayo de absorción",
 		"description": [
 			{
 				"text": "Asesino › Verdugo\n",
 				"color": "gold"
 			},
 			{
-				"text": "+1.4% Robo de vida",
+				"text": "+1.4% Robo de vida\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Rayo de absorción» (nivel 3) y recibes su pergamino. Un haz que drena la vida del objetivo.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:spider_eye"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -3906,24 +3961,29 @@
 		]
 	},
 	"asesino_verdugo_23": {
-		"title": "Verdugo XXIII",
+		"title": "Hechizo: Devorar",
 		"description": [
 			{
 				"text": "Asesino › Verdugo\n",
 				"color": "gold"
 			},
 			{
-				"text": "+1.8% Robo de vida",
+				"text": "+1.8% Robo de vida\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Devorar» (nivel 3) y recibes su pergamino. Muerde al objetivo y recuperas vida.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:redstone"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",

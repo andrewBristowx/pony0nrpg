@@ -6,7 +6,8 @@
 // bloqueada por defecto y desbloqueada al elegir la clase (kubejs/server_scripts/habilidades.js). La XP de misiones va a la categoría de
 // la clase del jugador con /skillxp. Los oficios son categorías propias (su nivel sube con las tareas del oficio) y la Ascensión tiene una
 // categoría por clase (puntos por misiones).
-import { mkdirSync, writeFileSync, rmSync } from "node:fs";
+import { mkdirSync, writeFileSync, rmSync, readFileSync } from "node:fs";
+import vm from "node:vm";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -85,15 +86,15 @@ const classes = [
     trunk: { icons: ["minecraft:apple", "minecraft:iron_sword", "minecraft:iron_chestplate", "minecraft:golden_apple", "minecraft:shield", "minecraft:diamond_sword"],
              stats: [["hp", 2], ["dmg", 0.5], ["arm", 1]], notables: ["Temple de acero", "Voluntad de guerrero"] },
     lanes: [
-      { id: "baluarte", name: "Baluarte", icons: ["minecraft:iron_chestplate", "minecraft:shield", "minecraft:iron_helmet", "minecraft:chainmail_chestplate", "minecraft:iron_leggings"],
+      { id: "baluarte", name: "Baluarte", spells: [['oakskin', 1], ['stomp', 2], ['shield', 3], ['earthquake', 3]], icons: ["minecraft:iron_chestplate", "minecraft:shield", "minecraft:iron_helmet", "minecraft:chainmail_chestplate", "minecraft:iron_leggings"],
         stats: [["arm", 1], ["hp", 2], ["tgh", 0.5]], notables: ["Muro de escudos", "Coloso", "Inquebrantable"],
         cap: { title: "Titán", icon: "minecraft:netherite_chestplate", stats: [["hp", 6], ["arm", 2], ["tgh", 1]], lore: "Cima del Baluarte: el muro que no cae." },
         spurs: [["kbr", 0.05], ["hp", 2], ["kbr", 0.05]] },
-      { id: "berserker", name: "Berserker", icons: ["minecraft:iron_axe", "minecraft:redstone", "minecraft:blaze_powder", "minecraft:iron_sword", "minecraft:flint"],
+      { id: "berserker", name: "Berserker", spells: [['haste', 1], ['flaming_strike', 2], ['blood_slash', 3], ['shockwave', 3]], icons: ["minecraft:iron_axe", "minecraft:redstone", "minecraft:blaze_powder", "minecraft:iron_sword", "minecraft:flint"],
         stats: [["dmg", 0.5], ["crit", 0.02], ["aspd", 0.05]], notables: ["Furia", "Frenesí", "Carnicero"],
         cap: { title: "Señor de la guerra", icon: "minecraft:netherite_axe", stats: [["dmg", 1.5], ["critd", 0.2], ["life", 0.03]], lore: "Cima del Berserker: cada golpe cuenta." },
         spurs: [["hp", 2], ["crit", 0.01], ["hp", 2]] },
-      { id: "paladin", name: "Paladín", icons: ["minecraft:golden_apple", "minecraft:glistering_melon_slice", "minecraft:golden_chestplate", "minecraft:totem_of_undying", "minecraft:golden_sword"],
+      { id: "paladin", name: "Paladín", spells: [['divine_smite', 1], ['heal', 2], ['cloud_of_regeneration', 3], ['sunbeam', 3]], icons: ["minecraft:golden_apple", "minecraft:glistering_melon_slice", "minecraft:golden_chestplate", "minecraft:totem_of_undying", "minecraft:golden_sword"],
         stats: [["heal", 0.03], ["hp", 2], ["over", 0.02]], notables: ["Bendición", "Juramento", "Égida"],
         cap: { title: "Paladín eterno", icon: "minecraft:enchanted_golden_apple", stats: [["hp", 4], ["heal", 0.1], ["life", 0.03]], lore: "Cima del Paladín: la luz que sostiene al grupo." },
         spurs: [["arm", 1], ["hp", 2], ["arm", 1]] },
@@ -104,15 +105,15 @@ const classes = [
     trunk: { icons: ["minecraft:arrow", "minecraft:leather_boots", "minecraft:bow", "minecraft:feather", "minecraft:crossbow", "minecraft:spyglass"],
              stats: [["admg", 0.02], ["move", 0.01], ["draw", 0.03]], notables: ["Pulso firme", "Ojo entrenado"] },
     lanes: [
-      { id: "francotirador", name: "Francotirador", icons: ["minecraft:spectral_arrow", "minecraft:spyglass", "minecraft:tipped_arrow", "minecraft:target", "minecraft:arrow"],
+      { id: "francotirador", name: "Francotirador", spells: [['magic_arrow', 1], ['poison_arrow', 2], ['fire_arrow', 3], ['arrow_volley', 3]], icons: ["minecraft:spectral_arrow", "minecraft:spyglass", "minecraft:tipped_arrow", "minecraft:target", "minecraft:arrow"],
         stats: [["admg", 0.03], ["crit", 0.02], ["avel", 0.05]], notables: ["Ojo de águila", "Disparo perforante", "Tiro mortal"],
         cap: { title: "Ojo del cazador", icon: "minecraft:target", stats: [["admg", 0.12], ["critd", 0.2], ["avel", 0.2]], lore: "Cima del Francotirador: un tiro, una baja." },
         spurs: [["hp", 2], ["crit", 0.01], ["hp", 2]] },
-      { id: "explorador", name: "Explorador", icons: ["minecraft:leather_boots", "minecraft:compass", "minecraft:rabbit_foot", "minecraft:oak_sapling", "minecraft:map"],
+      { id: "explorador", name: "Explorador", spells: [['haste', 1], ['planar_sight', 2], ['evasion', 3], ['teleport', 3]], icons: ["minecraft:leather_boots", "minecraft:compass", "minecraft:rabbit_foot", "minecraft:oak_sapling", "minecraft:map"],
         stats: [["move", 0.02], ["dodge", 0.015], ["luck", 0.3]], notables: ["Rastreador", "Pies de viento", "Sentido del bosque"],
         cap: { title: "Espíritu del bosque", icon: "minecraft:rabbit_foot", stats: [["move", 0.06], ["dodge", 0.05], ["luck", 1]], lore: "Cima del Explorador: nadie te alcanza." },
         spurs: [["hp", 2], ["arm", 1], ["hp", 2]] },
-      { id: "tirador", name: "Tirador veloz", icons: ["minecraft:crossbow", "minecraft:bow", "minecraft:string", "minecraft:flint", "minecraft:arrow"],
+      { id: "tirador", name: "Tirador veloz", spells: [['echoing_strikes', 1], ['gust', 2], ['spider_aspect', 3], ['arrow_volley', 4]], icons: ["minecraft:crossbow", "minecraft:bow", "minecraft:string", "minecraft:flint", "minecraft:arrow"],
         stats: [["draw", 0.04], ["avel", 0.05], ["hp", 1]], notables: ["Recarga rápida", "Cadencia", "Ráfaga"],
         cap: { title: "Lluvia de flechas", icon: "minecraft:tipped_arrow", stats: [["draw", 0.15], ["admg", 0.1], ["crit", 0.05]], lore: "Cima del Tirador veloz: el cielo se llena de flechas." },
         spurs: [["hp", 2], ["move", 0.01], ["hp", 2]] },
@@ -123,19 +124,19 @@ const classes = [
     trunk: { icons: ["minecraft:lapis_lazuli", "minecraft:amethyst_shard", "minecraft:clock", "minecraft:lapis_block", "minecraft:book", "minecraft:enchanted_book"],
              stats: [["mana", 25], ["spower", 0.01], ["cdr", 0.01]], notables: ["Mente despierta", "Canal arcano"] },
     lanes: [
-      { id: "piromancia", name: "Piromancia", icons: ["minecraft:blaze_powder", "minecraft:fire_charge", "minecraft:magma_cream", "minecraft:blaze_rod", "minecraft:lava_bucket"],
+      { id: "piromancia", name: "Piromancia", spells: [['firebolt', 1], ['scorch', 2], ['fireball', 3], ['flaming_barrage', 3]], icons: ["minecraft:blaze_powder", "minecraft:fire_charge", "minecraft:magma_cream", "minecraft:blaze_rod", "minecraft:lava_bucket"],
         stats: [["fire", 0.03], ["mana", 25], ["cast", 0.02]], notables: ["Llama viva", "Combustión", "Infierno"],
         cap: { title: "Archipiromante", icon: "minecraft:lava_bucket", stats: [["fire", 0.15], ["mana", 100], ["cdr", 0.05]], lore: "Cima de la Piromancia: el fuego te obedece." },
         spurs: [["mana", 25], ["hp", 2], ["mana", 25]] },
-      { id: "criomancia", name: "Criomancia", icons: ["minecraft:snowball", "minecraft:packed_ice", "minecraft:blue_ice", "minecraft:powder_snow_bucket", "minecraft:prismarine_shard"],
+      { id: "criomancia", name: "Criomancia", spells: [['icicle', 1], ['ray_of_frost', 2], ['cone_of_cold', 3], ['blizzard', 3]], icons: ["minecraft:snowball", "minecraft:packed_ice", "minecraft:blue_ice", "minecraft:powder_snow_bucket", "minecraft:prismarine_shard"],
         stats: [["ice", 0.03], ["mana", 25], ["sres", 0.02]], notables: ["Escarcha", "Ventisca", "Cero absoluto"],
         cap: { title: "Señor del hielo", icon: "minecraft:blue_ice", stats: [["ice", 0.15], ["mana", 100], ["sres", 0.05]], lore: "Cima de la Criomancia: el invierno eterno." },
         spurs: [["mana", 25], ["hp", 2], ["mana", 25]] },
-      { id: "arcanismo", name: "Arcanismo", icons: ["minecraft:amethyst_cluster", "minecraft:nether_star", "minecraft:experience_bottle", "minecraft:glowstone_dust", "minecraft:end_crystal"],
+      { id: "arcanismo", name: "Arcanismo", spells: [['magic_missile', 1], ['counterspell', 1], ['telekinesis', 3], ['starfall', 3]], icons: ["minecraft:amethyst_cluster", "minecraft:nether_star", "minecraft:experience_bottle", "minecraft:glowstone_dust", "minecraft:end_crystal"],
         stats: [["evoc", 0.03], ["holy", 0.03], ["cdr", 0.02]], notables: ["Runa", "Sabiduría arcana", "Canalizar"],
         cap: { title: "Archimago", icon: "minecraft:end_crystal", stats: [["evoc", 0.1], ["holy", 0.1], ["mregen", 0.15]], lore: "Cima del Arcanismo: escudos, curación y magia pura." },
         spurs: [["mana", 25], ["mregen", 0.05], ["mana", 25]] },
-      { id: "oscuridad", name: "Oscuridad", icons: ["minecraft:ender_pearl", "minecraft:fermented_spider_eye", "minecraft:echo_shard", "minecraft:ender_eye", "minecraft:sculk_catalyst"],
+      { id: "oscuridad", name: "Oscuridad", spells: [['blood_needles', 1], ['wither_skull', 2], ['abyssal_shroud', 3], ['eldritch_blast', 3]], icons: ["minecraft:ender_pearl", "minecraft:fermented_spider_eye", "minecraft:echo_shard", "minecraft:ender_eye", "minecraft:sculk_catalyst"],
         stats: [["ender", 0.03], ["blood", 0.03], ["eldr", 0.03]], notables: ["Vacío", "Pacto de sangre", "Locura"],
         cap: { title: "Señor de las sombras", icon: "minecraft:dragon_egg", stats: [["ender", 0.1], ["blood", 0.1], ["eldr", 0.1]], lore: "Cima de la Oscuridad: poder a cualquier precio." },
         spurs: [["mana", 25], ["hp", 2], ["mana", 25]] },
@@ -146,15 +147,15 @@ const classes = [
     trunk: { icons: ["minecraft:iron_pickaxe", "minecraft:apple", "minecraft:redstone", "minecraft:leather_helmet", "minecraft:piston", "minecraft:repeater"],
              stats: [["mine", 0.03], ["hp", 2], ["xpg", 0.02]], notables: ["Manos de obrero", "Cabeza fría"] },
     lanes: [
-      { id: "minero", name: "Minero", icons: ["minecraft:iron_pickaxe", "minecraft:raw_iron", "minecraft:gold_ingot", "minecraft:diamond_pickaxe", "minecraft:tnt"],
+      { id: "minero", name: "Minero", spells: [['touch_dig', 1], ['planar_sight', 2], ['stomp', 3], ['earthquake', 4]], icons: ["minecraft:iron_pickaxe", "minecraft:raw_iron", "minecraft:gold_ingot", "minecraft:diamond_pickaxe", "minecraft:tnt"],
         stats: [["mine", 0.04], ["luck", 0.3], ["hp", 1]], notables: ["Veta rica", "Manos de piedra", "Corazón de la montaña"],
         cap: { title: "Maestro minero", icon: "minecraft:netherite_pickaxe", stats: [["mine", 0.2], ["luck", 1.5], ["hp", 4]], lore: "Cima del Minero: la roca se aparta." },
         spurs: [["hp", 2], ["luck", 0.3], ["hp", 2]] },
-      { id: "inventor", name: "Inventor", icons: ["minecraft:redstone", "minecraft:comparator", "minecraft:clock", "minecraft:experience_bottle", "minecraft:observer"],
+      { id: "inventor", name: "Inventor", spells: [['charge', 1], ['electrocute', 2], ['chain_lightning', 3], ['lightning_lance', 3]], icons: ["minecraft:redstone", "minecraft:comparator", "minecraft:clock", "minecraft:experience_bottle", "minecraft:observer"],
         stats: [["xpg", 0.03], ["luck", 0.3], ["aspd", 0.03]], notables: ["Ojo de artesano", "Mente brillante", "Idea genial"],
         cap: { title: "Inventor", icon: "minecraft:enchanted_book", stats: [["xpg", 0.2], ["luck", 1], ["aspd", 0.1]], lore: "Cima del Inventor: todo problema tiene solución." },
         spurs: [["hp", 2], ["xpg", 0.02], ["hp", 2]] },
-      { id: "zapador", name: "Zapador", icons: ["minecraft:iron_helmet", "minecraft:iron_boots", "minecraft:leather_leggings", "minecraft:lantern", "minecraft:shield"],
+      { id: "zapador", name: "Zapador", spells: [['shield', 1], ['fortify', 2], ['gust', 3], ['shockwave', 3]], icons: ["minecraft:iron_helmet", "minecraft:iron_boots", "minecraft:leather_leggings", "minecraft:lantern", "minecraft:shield"],
         stats: [["hp", 2], ["arm", 1], ["move", 0.02]], notables: ["Espeleólogo", "Pies firmes", "Casco de minero"],
         cap: { title: "Zapador", icon: "minecraft:netherite_helmet", stats: [["hp", 6], ["arm", 2], ["move", 0.05]], lore: "Cima del Zapador: bajo tierra eres inmune al miedo." },
         spurs: [["mine", 0.02], ["hp", 2], ["mine", 0.02]] },
@@ -165,15 +166,15 @@ const classes = [
     trunk: { icons: ["minecraft:iron_axe", "minecraft:sugar", "minecraft:leather_boots", "minecraft:flint", "minecraft:iron_sword", "minecraft:black_dye"],
              stats: [["dmg", 0.5], ["aspd", 0.03], ["move", 0.01]], notables: ["Filo afilado", "Instinto"] },
     lanes: [
-      { id: "sombra", name: "Sombra", icons: ["minecraft:black_dye", "minecraft:ink_sac", "minecraft:phantom_membrane", "minecraft:leather_boots", "minecraft:rabbit_foot"],
+      { id: "sombra", name: "Sombra", spells: [['invisibility', 1], ['evasion', 2], ['blood_step', 3], ['abyssal_shroud', 3]], icons: ["minecraft:black_dye", "minecraft:ink_sac", "minecraft:phantom_membrane", "minecraft:leather_boots", "minecraft:rabbit_foot"],
         stats: [["dodge", 0.02], ["move", 0.02], ["crit", 0.02]], notables: ["Paso silencioso", "Velo", "Desvanecer"],
         cap: { title: "Fantasma", icon: "minecraft:phantom_membrane", stats: [["dodge", 0.08], ["move", 0.06], ["crit", 0.06]], lore: "Cima de la Sombra: no te ven, no te tocan." },
         spurs: [["hp", 2], ["dodge", 0.01], ["hp", 2]] },
-      { id: "duelista", name: "Duelista", icons: ["minecraft:iron_sword", "minecraft:sugar", "minecraft:iron_nugget", "minecraft:diamond_sword", "minecraft:blaze_rod"],
+      { id: "duelista", name: "Duelista", spells: [['shadow_slash', 1], ['haste', 2], ['echoing_strikes', 3], ['burning_dash', 3]], icons: ["minecraft:iron_sword", "minecraft:sugar", "minecraft:iron_nugget", "minecraft:diamond_sword", "minecraft:blaze_rod"],
         stats: [["aspd", 0.05], ["dmg", 0.5], ["pierce", 1]], notables: ["Estocada", "Contragolpe", "Danza de espadas"],
         cap: { title: "Maestro de esgrima", icon: "minecraft:netherite_sword", stats: [["aspd", 0.2], ["dmg", 1.5], ["pierce", 3]], lore: "Cima del Duelista: la espada más rápida." },
         spurs: [["hp", 2], ["arm", 1], ["hp", 2]] },
-      { id: "verdugo", name: "Verdugo", icons: ["minecraft:netherite_axe", "minecraft:spider_eye", "minecraft:redstone", "minecraft:iron_axe", "minecraft:wither_skeleton_skull"],
+      { id: "verdugo", name: "Verdugo", spells: [['blood_slash', 1], ['acupuncture', 2], ['ray_of_siphoning', 3], ['devour', 3]], icons: ["minecraft:netherite_axe", "minecraft:spider_eye", "minecraft:redstone", "minecraft:iron_axe", "minecraft:wither_skeleton_skull"],
         stats: [["critd", 0.08], ["life", 0.01], ["chp", 0.01]], notables: ["Golpe letal", "Sed", "Ejecución"],
         cap: { title: "Verdugo", icon: "minecraft:wither_skeleton_skull", stats: [["critd", 0.3], ["life", 0.04], ["chp", 0.05]], lore: "Cima del Verdugo: el final de todo enemigo." },
         spurs: [["hp", 2], ["life", 0.01], ["hp", 2]] },
@@ -182,14 +183,22 @@ const classes = [
 ];
 
 
+// nombres y descripciones de los hechizos (los mismos que usan las misiones y /hechizo)
+const hechizosCtx = { global: {} };
+vm.createContext(hechizosCtx);
+vm.runInContext(readFileSync(join(dirname(fileURLToPath(import.meta.url)), "..", "kubejs", "startup_scripts", "hechizos_datos.js"), "utf8"), hechizosCtx);
+const HECHIZOS = hechizosCtx.global.HECHIZOS;
+const SPELL_NODES = [5, 11, 17, 23];   // nodos de cada camino de Habilidades que enseñan un hechizo
+const arbolHechizos = {};              // nodo -> [hechizo, nivel del pergamino], se escribe en kubejs/server_scripts/hechizos_arbol_datos.js
+
 // ---- constructor de categorías -------------------------------------------------------------------------
 const TRUNK_STEP = 44, LANE_STEP = 44, LANE_GAP = 120, BAND_GAP = 620, SPUR = 38;
 const BG = (n) => `minecraft:textures/gui/advancements/backgrounds/${n}.png`;
 
 const makeBuilder = (mode) => {
-  const defs = {}, skills = {}, conns = [];
+  const defs = {}, skills = {}, conns = [], spells = {};
   return {
-    defs, skills, conns,
+    defs, skills, conns, spells,
     // tooltip = nombre del camino (dorado) + una línea verde por bonificación + texto extra (gris)
     node({ id, title, path, icon, frame, stats, lore, x, y, root = false, requiredSpent = 0, stage }) {
       const parts = [{ text: path + "\n", color: "gold" }];
@@ -243,7 +252,15 @@ function buildBand(b, y0, cls, opts) {
       const id = `${cls.id}_${lane.id}_${k}`, x = laneX0 + (k - 1) * LANE_STEP;
       const isCap = k === laneN, notable = !isCap && k % 3 === 0;
       const ls = lane.stats, icon = lane.icons[(k - 1) % lane.icons.length], m = laneN > 12 ? tierMult(k) : 1;
-      if (isCap) b.node({ id, x, y: ly, frame: "challenge", title: lane.cap.title, path, icon: lane.cap.icon, stats: lane.cap.stats, lore: lane.cap.lore, requiredSpent: capSpent, stage: stages[id] });
+      const spellAt = laneN > 12 && lane.spells ? SPELL_NODES.indexOf(k) : -1;
+      if (spellAt >= 0 && lane.spells[spellAt]) {
+        // nodo de hechizo: al comprarlo se aprende el hechizo (kubejs/server_scripts/hechizos.js lo detecta con la API de Pufferfish) y recibes su pergamino
+        const [sid, slvl] = lane.spells[spellAt], info = HECHIZOS[sid];
+        if (!info) throw new Error("hechizo sin datos en hechizos_datos.js: " + sid);
+        b.spells[id] = [sid, slvl];
+        b.node({ id, x, y: ly, frame: "goal", title: `Hechizo: ${info[0]}`, path, icon: "irons_spellbooks:scroll", stats: scaleStats([ls[(k - 1) % ls.length]], m),
+          lore: `Aprendes «${info[0]}» (nivel ${slvl}) y recibes su pergamino. ${info[1]}`, stage: stages[id] });
+      } else if (isCap) b.node({ id, x, y: ly, frame: "challenge", title: lane.cap.title, path, icon: lane.cap.icon, stats: lane.cap.stats, lore: lane.cap.lore, requiredSpent: capSpent, stage: stages[id] });
       else if (notable) b.node({ id, x, y: ly, frame: "goal", title: notableName(lane.notables, k / 3 - 1), path, icon, stats: scaleStats([[ls[0][0], ls[0][1] * 2], ls[(k / 3) % ls.length]], m), stage: stages[id] });
       else b.node({ id, x, y: ly, frame: "task", title: `${lane.name} ${roman[k - 1]}`, path, icon, stats: scaleStats([ls[(k - 1) % ls.length]], m), stage: stages[id] });
       b.link(p, id);
@@ -306,6 +323,7 @@ const itemIcon = (item) => ({ type: "item", data: { item } });
     const b = makeBuilder("normal");
     // 10 de Fundamentos + caminos de 30 nodos (+ apoyos): ~120-170 nodos por clase para 100 puntos (nivel 100): hay que elegir
     buildBand(b, 0, { ...cls, stages: classStages(cls) }, { trunkN: 10, laneN: 30, capSpent: 45 });
+    Object.entries(b.spells).forEach(([node, v]) => { arbolHechizos[node] = [cls.id, ...v]; });
     writeCategory(`habilidades_${cls.id}`, b, {
       title: `Habilidades: ${cls.name}`,
       description: `Tu árbol de ${cls.name}: nivel 1 a 100, un punto por nivel. No alcanzan los puntos para todo: elige tus caminos. Se desbloquea al elegir la clase.`,
@@ -512,3 +530,16 @@ for (const cls of classes) {
 // ---- índice de categorías (orden de pestañas) ------------------------------------------------------------
 out("config.json", { version: 3, show_warnings: true, categories: categoryIds });
 console.log(`categorías: ${categoryIds.length}`);
+
+// ---- hechizos del árbol de Habilidades: nodo -> [clase, hechizo, nivel] para kubejs/server_scripts/hechizos.js -------------------
+{
+  const f = join(dirname(fileURLToPath(import.meta.url)), "..", "kubejs", "server_scripts", "hechizos_arbol_datos.js");
+  const lines = Object.entries(arbolHechizos).map(([node, [cls, sid, lvl]]) => `  ${node}: ['${cls}', '${sid}', ${lvl}],`);
+  writeFileSync(f, `// GENERADO por tools/gen-skills.mjs (no editar a mano): nodos de hechizo del árbol de Habilidades, nodo -> [clase, hechizo, nivel del pergamino].
+// hechizos.js enseña el hechizo cuando el jugador tiene el nodo comprado.
+global.HECHIZOS_ARBOL = {
+${lines.join("\n")}
+};
+`);
+  console.log(`hechizos del árbol: ${lines.length}`);
+}

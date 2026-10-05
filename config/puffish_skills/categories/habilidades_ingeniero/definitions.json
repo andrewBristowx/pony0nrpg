@@ -612,24 +612,29 @@
 		]
 	},
 	"ingeniero_minero_5": {
-		"title": "Minero V",
+		"title": "Hechizo: Toque excavador",
 		"description": [
 			{
 				"text": "Ingeniero › Minero\n",
 				"color": "gold"
 			},
 			{
-				"text": "+0.3 Suerte",
+				"text": "+0.3 Suerte\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Toque excavador» (nivel 1) y recibes su pergamino. Rompe bloques con magia, sin necesidad de herramienta.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:tnt"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -888,24 +893,29 @@
 		]
 	},
 	"ingeniero_minero_11": {
-		"title": "Minero XI",
+		"title": "Hechizo: Visión planar",
 		"description": [
 			{
 				"text": "Ingeniero › Minero\n",
 				"color": "gold"
 			},
 			{
-				"text": "+0.42 Suerte",
+				"text": "+0.42 Suerte\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Visión planar» (nivel 2) y recibes su pergamino. Ves criaturas a través de los bloques.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:iron_pickaxe"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1122,24 +1132,29 @@
 		]
 	},
 	"ingeniero_minero_17": {
-		"title": "Minero XVII",
+		"title": "Hechizo: Pisotón",
 		"description": [
 			{
 				"text": "Ingeniero › Minero\n",
 				"color": "gold"
 			},
 			{
-				"text": "+0.42 Suerte",
+				"text": "+0.42 Suerte\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Pisotón» (nivel 3) y recibes su pergamino. Un temblor delante de ti daña a las criaturas.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:raw_iron"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1386,24 +1401,29 @@
 		]
 	},
 	"ingeniero_minero_23": {
-		"title": "Minero XXIII",
+		"title": "Hechizo: Terremoto",
 		"description": [
 			{
 				"text": "Ingeniero › Minero\n",
 				"color": "gold"
 			},
 			{
-				"text": "+0.54 Suerte",
+				"text": "+0.54 Suerte\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Terremoto» (nivel 4) y recibes su pergamino. Un temblor sacude la zona y daña a las criaturas que pisan el suelo.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:gold_ingot"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1872,24 +1892,29 @@
 		]
 	},
 	"ingeniero_inventor_5": {
-		"title": "Inventor V",
+		"title": "Hechizo: Carga",
 		"description": [
 			{
 				"text": "Ingeniero › Inventor\n",
 				"color": "gold"
 			},
 			{
-				"text": "+0.3 Suerte",
+				"text": "+0.3 Suerte\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Carga» (nivel 1) y recibes su pergamino. Más velocidad y capacidad de combate con la fuerza del rayo.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:observer"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -2148,24 +2173,29 @@
 		]
 	},
 	"ingeniero_inventor_11": {
-		"title": "Inventor XI",
+		"title": "Hechizo: Electrocutar",
 		"description": [
 			{
 				"text": "Ingeniero › Inventor\n",
 				"color": "gold"
 			},
 			{
-				"text": "+0.42 Suerte",
+				"text": "+0.42 Suerte\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Electrocutar» (nivel 2) y recibes su pergamino. Un cono de electricidad que daña a lo que atraviesa.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:redstone"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -2382,24 +2412,29 @@
 		]
 	},
 	"ingeniero_inventor_17": {
-		"title": "Inventor XVII",
+		"title": "Hechizo: Cadena de rayos",
 		"description": [
 			{
 				"text": "Ingeniero › Inventor\n",
 				"color": "gold"
 			},
 			{
-				"text": "+0.42 Suerte",
+				"text": "+0.42 Suerte\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Cadena de rayos» (nivel 3) y recibes su pergamino. Rayos que saltan entre criaturas cercanas.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:comparator"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -2646,24 +2681,29 @@
 		]
 	},
 	"ingeniero_inventor_23": {
-		"title": "Inventor XXIII",
+		"title": "Hechizo: Lanza de rayo",
 		"description": [
 			{
 				"text": "Ingeniero › Inventor\n",
 				"color": "gold"
 			},
 			{
-				"text": "+0.54 Suerte",
+				"text": "+0.54 Suerte\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Lanza de rayo» (nivel 3) y recibes su pergamino. Carga una lanza eléctrica y lánzala con gran daño.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:clock"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -3132,24 +3172,29 @@
 		]
 	},
 	"ingeniero_zapador_5": {
-		"title": "Zapador V",
+		"title": "Hechizo: Escudo arcano",
 		"description": [
 			{
 				"text": "Ingeniero › Zapador\n",
 				"color": "gold"
 			},
 			{
-				"text": "+1 Armadura",
+				"text": "+1 Armadura\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Escudo arcano» (nivel 1) y recibes su pergamino. Un escudo fijo que bloquea proyectiles y no deja pasar a las criaturas.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:shield"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -3408,24 +3453,29 @@
 		]
 	},
 	"ingeniero_zapador_11": {
-		"title": "Zapador XI",
+		"title": "Hechizo: Fortificar",
 		"description": [
 			{
 				"text": "Ingeniero › Zapador\n",
 				"color": "gold"
 			},
 			{
-				"text": "+1.4 Armadura",
+				"text": "+1.4 Armadura\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Fortificar» (nivel 2) y recibes su pergamino. Da vida temporal a ti y a tus aliados cercanos.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:iron_helmet"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -3642,24 +3692,29 @@
 		]
 	},
 	"ingeniero_zapador_17": {
-		"title": "Zapador XVII",
+		"title": "Hechizo: Ráfaga",
 		"description": [
 			{
 				"text": "Ingeniero › Zapador\n",
 				"color": "gold"
 			},
 			{
-				"text": "+1.4 Armadura",
+				"text": "+1.4 Armadura\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Ráfaga» (nivel 3) y recibes su pergamino. Un golpe de viento que empuja a las criaturas en cono.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:iron_boots"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -3906,24 +3961,29 @@
 		]
 	},
 	"ingeniero_zapador_23": {
-		"title": "Zapador XXIII",
+		"title": "Hechizo: Onda de choque",
 		"description": [
 			{
 				"text": "Ingeniero › Zapador\n",
 				"color": "gold"
 			},
 			{
-				"text": "+1.8 Armadura",
+				"text": "+1.8 Armadura\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Onda de choque» (nivel 3) y recibes su pergamino. Una onda eléctrica devastadora contra los expuestos.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:leather_leggings"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",

@@ -612,24 +612,29 @@
 		]
 	},
 	"arquero_francotirador_5": {
-		"title": "Francotirador V",
+		"title": "Hechizo: Flecha mágica",
 		"description": [
 			{
 				"text": "Arquero › Francotirador\n",
 				"color": "gold"
 			},
 			{
-				"text": "+2% Probabilidad de crítico",
+				"text": "+2% Probabilidad de crítico\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Flecha mágica» (nivel 1) y recibes su pergamino. Una flecha de magia arcana.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:arrow"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -888,24 +893,29 @@
 		]
 	},
 	"arquero_francotirador_11": {
-		"title": "Francotirador XI",
+		"title": "Hechizo: Flecha venenosa",
 		"description": [
 			{
 				"text": "Arquero › Francotirador\n",
 				"color": "gold"
 			},
 			{
-				"text": "+2.8% Probabilidad de crítico",
+				"text": "+2.8% Probabilidad de crítico\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Flecha venenosa» (nivel 2) y recibes su pergamino. Una flecha cargada que suelta una nube de veneno.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:spectral_arrow"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1122,24 +1132,29 @@
 		]
 	},
 	"arquero_francotirador_17": {
-		"title": "Francotirador XVII",
+		"title": "Hechizo: Flecha de fuego",
 		"description": [
 			{
 				"text": "Arquero › Francotirador\n",
 				"color": "gold"
 			},
 			{
-				"text": "+2.8% Probabilidad de crítico",
+				"text": "+2.8% Probabilidad de crítico\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Flecha de fuego» (nivel 3) y recibes su pergamino. Una flecha ardiente que prende lo que toca.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:spyglass"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1386,24 +1401,29 @@
 		]
 	},
 	"arquero_francotirador_23": {
-		"title": "Francotirador XXIII",
+		"title": "Hechizo: Lluvia de flechas",
 		"description": [
 			{
 				"text": "Arquero › Francotirador\n",
 				"color": "gold"
 			},
 			{
-				"text": "+3.6% Probabilidad de crítico",
+				"text": "+3.6% Probabilidad de crítico\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Lluvia de flechas» (nivel 3) y recibes su pergamino. Una oleada de flechas mágicas cae sobre el objetivo.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:tipped_arrow"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1872,24 +1892,29 @@
 		]
 	},
 	"arquero_explorador_5": {
-		"title": "Explorador V",
+		"title": "Hechizo: Prisa",
 		"description": [
 			{
 				"text": "Arquero › Explorador\n",
 				"color": "gold"
 			},
 			{
-				"text": "+1.5% Esquiva",
+				"text": "+1.5% Esquiva\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Prisa» (nivel 1) y recibes su pergamino. Más velocidad de movimiento y de ataque durante un rato (a ti o a un objetivo).",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:map"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -2148,24 +2173,29 @@
 		]
 	},
 	"arquero_explorador_11": {
-		"title": "Explorador XI",
+		"title": "Hechizo: Visión planar",
 		"description": [
 			{
 				"text": "Arquero › Explorador\n",
 				"color": "gold"
 			},
 			{
-				"text": "+2.1% Esquiva",
+				"text": "+2.1% Esquiva\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Visión planar» (nivel 2) y recibes su pergamino. Ves criaturas a través de los bloques.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:leather_boots"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -2382,24 +2412,29 @@
 		]
 	},
 	"arquero_explorador_17": {
-		"title": "Explorador XVII",
+		"title": "Hechizo: Evasión",
 		"description": [
 			{
 				"text": "Arquero › Explorador\n",
 				"color": "gold"
 			},
 			{
-				"text": "+2.1% Esquiva",
+				"text": "+2.1% Esquiva\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Evasión» (nivel 3) y recibes su pergamino. Al ser atacado te teletransportas cerca y evitas el daño (limitado).",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:compass"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -2646,24 +2681,29 @@
 		]
 	},
 	"arquero_explorador_23": {
-		"title": "Explorador XXIII",
+		"title": "Hechizo: Teletransporte",
 		"description": [
 			{
 				"text": "Arquero › Explorador\n",
 				"color": "gold"
 			},
 			{
-				"text": "+2.7% Esquiva",
+				"text": "+2.7% Esquiva\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Teletransporte» (nivel 3) y recibes su pergamino. Te teletransportas a donde miras.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:rabbit_foot"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -3132,24 +3172,29 @@
 		]
 	},
 	"arquero_tirador_5": {
-		"title": "Tirador veloz V",
+		"title": "Hechizo: Golpes con eco",
 		"description": [
 			{
 				"text": "Arquero › Tirador veloz\n",
 				"color": "gold"
 			},
 			{
-				"text": "+5% Velocidad de flecha",
+				"text": "+5% Velocidad de flecha\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Golpes con eco» (nivel 1) y recibes su pergamino. Tus ataques no mágicos crean un eco: una espada espectral o una flecha mágica.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:arrow"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -3408,24 +3453,29 @@
 		]
 	},
 	"arquero_tirador_11": {
-		"title": "Tirador veloz XI",
+		"title": "Hechizo: Ráfaga",
 		"description": [
 			{
 				"text": "Arquero › Tirador veloz\n",
 				"color": "gold"
 			},
 			{
-				"text": "+7% Velocidad de flecha",
+				"text": "+7% Velocidad de flecha\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Ráfaga» (nivel 2) y recibes su pergamino. Un golpe de viento que empuja a las criaturas en cono.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:crossbow"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -3642,24 +3692,29 @@
 		]
 	},
 	"arquero_tirador_17": {
-		"title": "Tirador veloz XVII",
+		"title": "Hechizo: Aspecto de la araña",
 		"description": [
 			{
 				"text": "Arquero › Tirador veloz\n",
 				"color": "gold"
 			},
 			{
-				"text": "+7% Velocidad de flecha",
+				"text": "+7% Velocidad de flecha\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Aspecto de la araña» (nivel 3) y recibes su pergamino. Más daño a criaturas envenenadas.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:bow"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -3906,24 +3961,29 @@
 		]
 	},
 	"arquero_tirador_23": {
-		"title": "Tirador veloz XXIII",
+		"title": "Hechizo: Lluvia de flechas",
 		"description": [
 			{
 				"text": "Arquero › Tirador veloz\n",
 				"color": "gold"
 			},
 			{
-				"text": "+9% Velocidad de flecha",
+				"text": "+9% Velocidad de flecha\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Lluvia de flechas» (nivel 4) y recibes su pergamino. Una oleada de flechas mágicas cae sobre el objetivo.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:string"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",

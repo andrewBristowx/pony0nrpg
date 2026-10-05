@@ -70,15 +70,21 @@ function crearScroll(hechizo, nivel) {
   return stack;
 }
 
-/** el jugador aprende un hechizo (stage hech_<hechizo>: sin el no se puede lanzar, ver class_gating.js) y recibe su pergamino; devuelve el texto del aviso */
-function aprenderHechizo(p, hechizo, nivel) {
+/** el jugador aprende un hechizo (stage hech_<hechizo>: sin el no se puede lanzar, ver class_gating.js) y recibe su pergamino.
+ *  El pergamino se entrega una sola vez por nivel (se recuerda el mayor entregado en persistentData hechDado_<hechizo>), asi que repetir una mision,
+ *  reiniciar el arbol de habilidades o reaprender no duplica pergaminos. forzar = true (comandos /hechizo recibir y /hechizo aprender) lo entrega siempre. */
+function aprenderHechizo(p, hechizo, nivel, forzar) {
+  nivel = nivel || 1;
   var info = global.HECHIZOS && global.HECHIZOS[hechizo];
   var nuevo = !p.stages.has('hech_' + hechizo);
+  var dado = p.persistentData.getInt('hechDado_' + hechizo);
+  var entregar = forzar || nivel > dado;
   p.stages.add('hech_' + hechizo);
-  var stack = crearScroll('irons_spellbooks:' + hechizo, nivel || 1);
-  if (!stack.isEmpty()) p.give(stack);
+  if (!entregar) return null;
+  var stack = crearScroll('irons_spellbooks:' + hechizo, nivel);
+  if (!stack.isEmpty()) { p.give(stack); if (nivel > dado) p.persistentData.putInt('hechDado_' + hechizo, nivel); }
   var nombre = info ? info[0] : hechizo;
-  decir(p, Text.lightPurple((nuevo ? 'Hechizo aprendido: ' : 'Pergamino entregado: ')).append(Text.white('«' + nombre + '» (nivel ' + (nivel || 1) + ')')).append(Text.gray(info ? ' — ' + info[1] : '')));
+  decir(p, Text.lightPurple((nuevo ? 'Hechizo aprendido: ' : 'Pergamino entregado: ')).append(Text.white('«' + nombre + '» (nivel ' + nivel + ')')).append(Text.gray(info ? ' — ' + info[1] : '')));
   return nombre;
 }
 global.aprenderHechizo = aprenderHechizo;

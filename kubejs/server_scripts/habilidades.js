@@ -1,6 +1,7 @@
 // Habilidades por clase: cada clase tiene su propia categoria de Pufferfish's Skills ("habilidades_<clase>", con su nivel y sus puntos) y cada
 // jugador solo ve la de su clase (las demas estan bloqueadas). Aqui:
 //  - se desbloquea la categoria de la clase al entrar y cada 5 s (la clase la da Origins con el stage origen_<clase>);
+//  - el nombre del chat/TAB lleva el nivel (gremio_nombres.js: global.nivelDe) y se refresca cuando cambia;
 //  - /skillxp <jugador> <xp> (operador) da XP de habilidades a la categoria de la clase del jugador: es lo que usan las misiones de FTB Quests
 //    (antes iba a la categoria unica "habilidades"). Si el jugador aun no tiene clase, la XP queda pendiente y se aplica al elegirla.
 // OJO (Rhino de este pack): `const`/`let` DENTRO de un try da "redeclaration of var"; dentro de try se usa `var`.
@@ -29,10 +30,20 @@ function desbloquearHabilidades(p) {
 }
 global.desbloquearHabilidades = desbloquearHabilidades;
 
-PlayerEvents.loggedIn((event) => desbloquearHabilidades(event.player));
+/** si el nivel de Habilidades cambio desde la ultima vez, refresca el nombre (chat y TAB muestran el nivel junto al rol) */
+function refrescarNivel(p) {
+  var lv = global.nivelDe ? global.nivelDe(p) : 0;
+  if (lv > 0 && p.persistentData.getInt('nivelMostrado') !== lv) {
+    p.persistentData.putInt('nivelMostrado', lv);
+    if (global.refrescarGremio) global.refrescarGremio(p);
+  }
+}
+global.refrescarNivel = refrescarNivel;
+
+PlayerEvents.loggedIn((event) => { desbloquearHabilidades(event.player); event.server.scheduleInTicks(40, () => refrescarNivel(event.player)); });
 PlayerEvents.tick((event) => {
   const p = event.player;
-  if (p.age % 100 === 13) desbloquearHabilidades(p);
+  if (p.age % 100 === 13) { desbloquearHabilidades(p); refrescarNivel(p); }
 });
 
 ServerEvents.commandRegistry((event) => {
@@ -49,6 +60,7 @@ ServerEvents.commandRegistry((event) => {
             return 1;
           }
           p.server.runCommandSilent('puffish_skills experience add ' + p.username + ' habilidades_' + c + ' ' + xp);
+          refrescarNivel(p);
           return 1;
         }))));
 });

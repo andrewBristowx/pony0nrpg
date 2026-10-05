@@ -30,5 +30,10 @@ Probado con `tools/test-kubejs.sh` y los scripts de `tools/test/` (zz_npc.js: in
 - Para jugadores que ya habían completado misiones antes: un operador usa `/rol recompensa <rol> <nivel> <jugador>` (da también el equipo con atributos).
 - Prueba con el pack completo: bajar los mods del servidor (126 en Modrinth + FTB de maven.ftb.dev; Twilight Forest solo está en CurseForge) a una carpeta con Forge; **neutralizar** la colocación automática de pueblos de `gremios.js` (si no, `/forceload` bloquea un mundo nuevo). `Item.of('id{nbt}')` NO interpreta el NBT: `Item.of(id)` y `stack.nbt = TagParser.parseTag(snbt)`.
 
+## Hecho: hechizos en el árbol de Habilidades y nivel junto al rol
+- Cada camino de Habilidades (16 caminos) tiene 4 **nodos de hechizo** (nodos 5, 11, 17 y 23, icono de pergamino, marco "goal"): al comprarlos se aprende el hechizo y se recibe su pergamino (nivel 1–4). Definidos en `lanes[].spells` de `tools/gen-skills.mjs`; el generador escribe `kubejs/server_scripts/hechizos_arbol_datos.js` (nodo → clase, hechizo, nivel). `hechizos.js` consulta con la API de Pufferfish (estado `UNLOCKED`) al entrar y cada 5 s y enseña lo que falte, sin comandos de recompensa (no dependen de permisos). El pergamino se entrega una sola vez por nivel (`hechDado_<hechizo>` en persistentData): reiniciar el árbol no duplica. Los hechizos aprendidos no se pierden al reiniciar el árbol.
+- **Nivel junto al rol**: `[Healer · Nv 37]` en chat y TAB (`[Nv 37]` si aún no hay rol). Es el nivel de Habilidades (1–100) de la clase, leído con `SkillsAPI` (`global.nivelDe` en `gremio_nombres.js`); `habilidades.js` refresca el nombre cuando cambia (cada 5 s y tras `/skillxp`).
+- Probado con el pack completo (`tools/test/zz_nivel_arbol.js`): niveles, nombre decorado, compra de nodos y aprendizaje sin duplicar; los 64 hechizos del árbol existen en Iron's Spells.
+
 ## Ideas pendientes
 - Rangos (Novato → Maestro) como tercera etiqueta; PvP prohibido dentro del bazar aunque haya guerra; tiendas de Lightman's Currency / NPC en los puestos del bazar; reinicio programado del mundo de aventura.

@@ -190,7 +190,7 @@ hash = "8bc510e2fbf0c2596ef8de272469e5d6500cca3fa8bdec30226ecee982fe85e9"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_arquero/definitions.json"
-hash = "e2cbd4dcb9ebbfd6a755081599acae10a6238fe03a6871ccd9fac34ee3d1886e"
+hash = "5654b46db2040e8e05ea195e27c0b2fcdb3f8134dd852cbfb7215742897ad6fc"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_arquero/experience.json"
@@ -210,7 +210,7 @@ hash = "0b03fe61b51f12ca0884a29ec6d8fa614ab8380811906129291e33a60dc069c5"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_asesino/definitions.json"
-hash = "fd08861364e03f1545a35a554c9f49c2c1d7f15a1c7f287c46651cb65fe5e8fd"
+hash = "f14464ebd3e841f1f260e54048a6f871f7b222588f792e92ac1170f1d8a42d2e"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_asesino/experience.json"
@@ -230,7 +230,7 @@ hash = "8e13b66094630889feac45e8f7434a3104dbd669c05200c8126e02e0f4f8d423"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_guerrero/definitions.json"
-hash = "70ba637af5cf5fd00aeb0d554ae7054683f28a45eb1bf87cbba6b88589842239"
+hash = "a192087d0948ad618be7f95047b87b66133d8c29cf7a17400d8d6602a2792e31"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_guerrero/experience.json"
@@ -250,7 +250,7 @@ hash = "a7ddd997935417c9a1693858cf103cf06bbc56df8cc999b48abbc13fa9070309"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_ingeniero/definitions.json"
-hash = "5e983cafdb35272adc12bbf7163a431dd4b1f038a3f43d1c9bdc0a517b6ae879"
+hash = "626a1411d1e3814e6f63540b7af4b17ee0dc614ff3fda73ff944a6f080fe49d4"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_ingeniero/experience.json"
@@ -270,7 +270,7 @@ hash = "da8876cc23236e8b89591637075b4b126bb052cf96246214777b26fbd76cc8d0"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_mago/definitions.json"
-hash = "9663e13704268a00c7e2727d0628da58a95847e3729f11432d3e55bc426c37db"
+hash = "a67dd3286a168ea3fd6d7b52a0e14b3a1d3259be9a6746f4664a1a0a77667f2b"
 
 [[files]]
 file = "config/puffish_skills/categories/habilidades_mago/experience.json"
@@ -1330,7 +1330,7 @@ hash = "effe85f5f4bf9c2426457a4ac8d1e77931fb9ab3e9022f2f9bdf45e0bd5c6fa2"
 
 [[files]]
 file = "kubejs/server_scripts/gremio_roles.js"
-hash = "04b134a369717fa2a3d3acfca57b46bd1d25464391af0499f1219faf82025a66"
+hash = "01aa9ce851bd9807d841a7da4bd74d65ed86c735965d7787dead531588b396eb"
 
 [[files]]
 file = "kubejs/server_scripts/gremio_roles_tabla.js"
@@ -1342,11 +1342,15 @@ hash = "256253d84ecdc9f905910d89d222d6be2574a3d1e2561a8702e201788d8f9058"
 
 [[files]]
 file = "kubejs/server_scripts/habilidades.js"
-hash = "7261af989c442407661353af0e0b1ebf9e14e35c1f34a813dd45e67950b79e9a"
+hash = "a770ee4a0c7f2908134cc26d5ff1aa1962ca2468de70076d389587ad10bd7d53"
 
 [[files]]
 file = "kubejs/server_scripts/hechizos.js"
-hash = "bdd7877e168185d99c17f46ef5f224a3f00995d4617a469cc2a36cefc21d4509"
+hash = "88793cd92261db76ff72590330fe4c48f7778ab38d7b120186a97087e7270823"
+
+[[files]]
+file = "kubejs/server_scripts/hechizos_arbol_datos.js"
+hash = "f25a52da75316e7e1f29e7d587d20311599d2e05c539b78502e7e52a6a76a4f3"
 
 [[files]]
 file = "kubejs/server_scripts/sin_mobs_de_mods.js"
@@ -1358,15 +1362,15 @@ hash = "f757bd8ed3c8231f187f650b9fa0e058d79f283dd7201c41d61e92f7cc0c1c8f"
 
 [[files]]
 file = "kubejs/startup_scripts/class_gating.js"
-hash = "c0ef8f6f12cbe64d4b1e311b680a5339c56d6f0fcbc9bf6f78ecff74f17b9f49"
+hash = "3071e00b8d3f73ac3c0223b6437a5057aa58a01a73f6d6bbce33b5ea34e6645d"
 
 [[files]]
 file = "kubejs/startup_scripts/gremio_nombres.js"
-hash = "8db84897d3468d24b22719e093804535a5698d9ff982e548559ce97dacb4cd82"
+hash = "c630e82dde5c27c16ff68c0d1797dddd1f011161130082c965e5f50a1735b9f7"
 
 [[files]]
 file = "kubejs/startup_scripts/hechizos_datos.js"
-hash = "d02d0f2d53be262073c403ba446f270904d83a8c5229e844ab925e37d3d1556d"
+hash = "6ec40190c6f24e32a0bbccfe850aec1eca1a877b6fc74c276ea950ba2c315079"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"

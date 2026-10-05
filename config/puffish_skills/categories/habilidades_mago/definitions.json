@@ -612,24 +612,29 @@
 		]
 	},
 	"mago_piromancia_5": {
-		"title": "Piromancia V",
+		"title": "Hechizo: Flecha de fuego",
 		"description": [
 			{
 				"text": "Mago › Piromancia\n",
 				"color": "gold"
 			},
 			{
-				"text": "+25 Maná máximo",
+				"text": "+25 Maná máximo\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Flecha de fuego» (nivel 1) y recibes su pergamino. Un proyectil de fuego que prende lo que toca.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:lava_bucket"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -888,24 +893,29 @@
 		]
 	},
 	"mago_piromancia_11": {
-		"title": "Piromancia XI",
+		"title": "Hechizo: Abrasar",
 		"description": [
 			{
 				"text": "Mago › Piromancia\n",
 				"color": "gold"
 			},
 			{
-				"text": "+35 Maná máximo",
+				"text": "+35 Maná máximo\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Abrasar» (nivel 2) y recibes su pergamino. Un haz de fuego de corto alcance.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:blaze_powder"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1122,24 +1132,29 @@
 		]
 	},
 	"mago_piromancia_17": {
-		"title": "Piromancia XVII",
+		"title": "Hechizo: Bola de fuego",
 		"description": [
 			{
 				"text": "Mago › Piromancia\n",
 				"color": "gold"
 			},
 			{
-				"text": "+35 Maná máximo",
+				"text": "+35 Maná máximo\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Bola de fuego» (nivel 3) y recibes su pergamino. Una bola de fuego que explota con gran daño.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:fire_charge"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1386,24 +1401,29 @@
 		]
 	},
 	"mago_piromancia_23": {
-		"title": "Piromancia XXIII",
+		"title": "Hechizo: Descarga flamígera",
 		"description": [
 			{
 				"text": "Mago › Piromancia\n",
 				"color": "gold"
 			},
 			{
-				"text": "+45 Maná máximo",
+				"text": "+45 Maná máximo\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Descarga flamígera» (nivel 3) y recibes su pergamino. Una lluvia de proyectiles de fuego.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:magma_cream"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1872,24 +1892,29 @@
 		]
 	},
 	"mago_criomancia_5": {
-		"title": "Criomancia V",
+		"title": "Hechizo: Carámbano",
 		"description": [
 			{
 				"text": "Mago › Criomancia\n",
 				"color": "gold"
 			},
 			{
-				"text": "+25 Maná máximo",
+				"text": "+25 Maná máximo\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Carámbano» (nivel 1) y recibes su pergamino. Un proyectil de hielo que congela.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:prismarine_shard"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -2148,24 +2173,29 @@
 		]
 	},
 	"mago_criomancia_11": {
-		"title": "Criomancia XI",
+		"title": "Hechizo: Rayo de escarcha",
 		"description": [
 			{
 				"text": "Mago › Criomancia\n",
 				"color": "gold"
 			},
 			{
-				"text": "+35 Maná máximo",
+				"text": "+35 Maná máximo\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Rayo de escarcha» (nivel 2) y recibes su pergamino. Un haz de hielo que daña y ralentiza.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:snowball"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -2382,24 +2412,29 @@
 		]
 	},
 	"mago_criomancia_17": {
-		"title": "Criomancia XVII",
+		"title": "Hechizo: Cono de frío",
 		"description": [
 			{
 				"text": "Mago › Criomancia\n",
 				"color": "gold"
 			},
 			{
-				"text": "+35 Maná máximo",
+				"text": "+35 Maná máximo\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Cono de frío» (nivel 3) y recibes su pergamino. Una ráfaga helada en cono delante de ti.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:packed_ice"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -2646,24 +2681,29 @@
 		]
 	},
 	"mago_criomancia_23": {
-		"title": "Criomancia XXIII",
+		"title": "Hechizo: Ventisca",
 		"description": [
 			{
 				"text": "Mago › Criomancia\n",
 				"color": "gold"
 			},
 			{
-				"text": "+45 Maná máximo",
+				"text": "+45 Maná máximo\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Ventisca» (nivel 3) y recibes su pergamino. Una tormenta de hielo sobre una zona.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:blue_ice"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -3132,24 +3172,29 @@
 		]
 	},
 	"mago_arcanismo_5": {
-		"title": "Arcanismo V",
+		"title": "Hechizo: Misil mágico",
 		"description": [
 			{
 				"text": "Mago › Arcanismo\n",
 				"color": "gold"
 			},
 			{
-				"text": "+3% Poder sagrado",
+				"text": "+3% Poder sagrado\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Misil mágico» (nivel 1) y recibes su pergamino. Un proyectil de magia arcana.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:end_crystal"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -3408,24 +3453,29 @@
 		]
 	},
 	"mago_arcanismo_11": {
-		"title": "Arcanismo XI",
+		"title": "Hechizo: Contrahechizo",
 		"description": [
 			{
 				"text": "Mago › Arcanismo\n",
 				"color": "gold"
 			},
 			{
-				"text": "+4.2% Poder sagrado",
+				"text": "+4.2% Poder sagrado\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Contrahechizo» (nivel 1) y recibes su pergamino. Interrumpe el hechizo que esté lanzando otra criatura.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:amethyst_cluster"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -3642,24 +3692,29 @@
 		]
 	},
 	"mago_arcanismo_17": {
-		"title": "Arcanismo XVII",
+		"title": "Hechizo: Telequinesis",
 		"description": [
 			{
 				"text": "Mago › Arcanismo\n",
 				"color": "gold"
 			},
 			{
-				"text": "+4.2% Poder sagrado",
+				"text": "+4.2% Poder sagrado\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Telequinesis» (nivel 3) y recibes su pergamino. Agarra a una criatura y la atrae hacia tu mirada.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:nether_star"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -3906,24 +3961,29 @@
 		]
 	},
 	"mago_arcanismo_23": {
-		"title": "Arcanismo XXIII",
+		"title": "Hechizo: Lluvia de estrellas",
 		"description": [
 			{
 				"text": "Mago › Arcanismo\n",
 				"color": "gold"
 			},
 			{
-				"text": "+5.4% Poder sagrado",
+				"text": "+5.4% Poder sagrado\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Lluvia de estrellas» (nivel 3) y recibes su pergamino. Cometas arcanos caen sobre una zona.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:experience_bottle"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -4392,24 +4452,29 @@
 		]
 	},
 	"mago_oscuridad_5": {
-		"title": "Oscuridad V",
+		"title": "Hechizo: Agujas de sangre",
 		"description": [
 			{
 				"text": "Mago › Oscuridad\n",
 				"color": "gold"
 			},
 			{
-				"text": "+3% Poder de sangre",
+				"text": "+3% Poder de sangre\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Agujas de sangre» (nivel 1) y recibes su pergamino. Una ráfaga de agujas de sangre.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:sculk_catalyst"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -4668,24 +4733,29 @@
 		]
 	},
 	"mago_oscuridad_11": {
-		"title": "Oscuridad XI",
+		"title": "Hechizo: Calavera marchita",
 		"description": [
 			{
 				"text": "Mago › Oscuridad\n",
 				"color": "gold"
 			},
 			{
-				"text": "+4.2% Poder de sangre",
+				"text": "+4.2% Poder de sangre\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Calavera marchita» (nivel 2) y recibes su pergamino. Lanza una calavera del Wither que marchita al impactar.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:ender_pearl"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -4902,24 +4972,29 @@
 		]
 	},
 	"mago_oscuridad_17": {
-		"title": "Oscuridad XVII",
+		"title": "Hechizo: Manto abisal",
 		"description": [
 			{
 				"text": "Mago › Oscuridad\n",
 				"color": "gold"
 			},
 			{
-				"text": "+4.2% Poder de sangre",
+				"text": "+4.2% Poder de sangre\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Manto abisal» (nivel 3) y recibes su pergamino. Esquivas cualquier ataque durante un breve tiempo.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:fermented_spider_eye"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -5166,24 +5241,29 @@
 		]
 	},
 	"mago_oscuridad_23": {
-		"title": "Oscuridad XXIII",
+		"title": "Hechizo: Estallido ancestral",
 		"description": [
 			{
 				"text": "Mago › Oscuridad\n",
 				"color": "gold"
 			},
 			{
-				"text": "+5.4% Poder de sangre",
+				"text": "+5.4% Poder de sangre\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Estallido ancestral» (nivel 3) y recibes su pergamino. Un rayo de energía ancestral de gran daño.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:echo_shard"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",

@@ -118,7 +118,7 @@ ForgeEvents.onEvent('io.redspace.ironsspellbooks.api.events.SpellPreCastEvent', 
     var id = String(event.getSpellId()), path = id.substring(id.indexOf(':') + 1);
     if (global.hechizoAprendido(player, path)) return;
     var info = global.HECHIZOS && global.HECHIZOS[path];
-    player.setStatusMessage(Text.red('No has aprendido ' + (info ? '«' + info[0] + '»' : 'este hechizo') + ': los hechizos se consiguen con tu progresión (misiones de rol).'));
+    player.setStatusMessage(Text.red('No has aprendido ' + (info ? '«' + info[0] + '»' : 'este hechizo') + ': los hechizos se consiguen con tu progresión (misiones de rol y árbol de Habilidades).'));
     event.setCanceled(true);
   } catch (e) { console.error('[class_gating] SpellPreCastEvent: ' + e); }
 });

@@ -612,24 +612,29 @@
 		]
 	},
 	"guerrero_baluarte_5": {
-		"title": "Baluarte V",
+		"title": "Hechizo: Piel de roble",
 		"description": [
 			{
 				"text": "Guerrero › Baluarte\n",
 				"color": "gold"
 			},
 			{
-				"text": "+2 Vida máxima",
+				"text": "+2 Vida máxima\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Piel de roble» (nivel 1) y recibes su pergamino. Reduce el daño que recibes durante un rato.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:iron_leggings"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -888,24 +893,29 @@
 		]
 	},
 	"guerrero_baluarte_11": {
-		"title": "Baluarte XI",
+		"title": "Hechizo: Pisotón",
 		"description": [
 			{
 				"text": "Guerrero › Baluarte\n",
 				"color": "gold"
 			},
 			{
-				"text": "+2.8 Vida máxima",
+				"text": "+2.8 Vida máxima\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Pisotón» (nivel 2) y recibes su pergamino. Un temblor delante de ti daña a las criaturas.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:iron_chestplate"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1122,24 +1132,29 @@
 		]
 	},
 	"guerrero_baluarte_17": {
-		"title": "Baluarte XVII",
+		"title": "Hechizo: Escudo arcano",
 		"description": [
 			{
 				"text": "Guerrero › Baluarte\n",
 				"color": "gold"
 			},
 			{
-				"text": "+2.8 Vida máxima",
+				"text": "+2.8 Vida máxima\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Escudo arcano» (nivel 3) y recibes su pergamino. Un escudo fijo que bloquea proyectiles y no deja pasar a las criaturas.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:shield"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1386,24 +1401,29 @@
 		]
 	},
 	"guerrero_baluarte_23": {
-		"title": "Baluarte XXIII",
+		"title": "Hechizo: Terremoto",
 		"description": [
 			{
 				"text": "Guerrero › Baluarte\n",
 				"color": "gold"
 			},
 			{
-				"text": "+3.6 Vida máxima",
+				"text": "+3.6 Vida máxima\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Terremoto» (nivel 3) y recibes su pergamino. Un temblor sacude la zona y daña a las criaturas que pisan el suelo.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:iron_helmet"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -1872,24 +1892,29 @@
 		]
 	},
 	"guerrero_berserker_5": {
-		"title": "Berserker V",
+		"title": "Hechizo: Prisa",
 		"description": [
 			{
 				"text": "Guerrero › Berserker\n",
 				"color": "gold"
 			},
 			{
-				"text": "+2% Probabilidad de crítico",
+				"text": "+2% Probabilidad de crítico\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Prisa» (nivel 1) y recibes su pergamino. Más velocidad de movimiento y de ataque durante un rato (a ti o a un objetivo).",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:flint"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -2148,24 +2173,29 @@
 		]
 	},
 	"guerrero_berserker_11": {
-		"title": "Berserker XI",
+		"title": "Hechizo: Golpe flamígero",
 		"description": [
 			{
 				"text": "Guerrero › Berserker\n",
 				"color": "gold"
 			},
 			{
-				"text": "+2.8% Probabilidad de crítico",
+				"text": "+2.8% Probabilidad de crítico\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Golpe flamígero» (nivel 2) y recibes su pergamino. Tajo de fuego que escala con tu arma; no se puede interrumpir.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:iron_axe"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -2382,24 +2412,29 @@
 		]
 	},
 	"guerrero_berserker_17": {
-		"title": "Berserker XVII",
+		"title": "Hechizo: Tajo de sangre",
 		"description": [
 			{
 				"text": "Guerrero › Berserker\n",
 				"color": "gold"
 			},
 			{
-				"text": "+2.8% Probabilidad de crítico",
+				"text": "+2.8% Probabilidad de crítico\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Tajo de sangre» (nivel 3) y recibes su pergamino. Un corte de energía de sangre que daña a las criaturas delante de ti.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:redstone"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -2646,24 +2681,29 @@
 		]
 	},
 	"guerrero_berserker_23": {
-		"title": "Berserker XXIII",
+		"title": "Hechizo: Onda de choque",
 		"description": [
 			{
 				"text": "Guerrero › Berserker\n",
 				"color": "gold"
 			},
 			{
-				"text": "+3.6% Probabilidad de crítico",
+				"text": "+3.6% Probabilidad de crítico\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Onda de choque» (nivel 3) y recibes su pergamino. Una onda eléctrica devastadora contra los expuestos.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:blaze_powder"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -3132,24 +3172,29 @@
 		]
 	},
 	"guerrero_paladin_5": {
-		"title": "Paladín V",
+		"title": "Hechizo: Castigo divino",
 		"description": [
 			{
 				"text": "Guerrero › Paladín\n",
 				"color": "gold"
 			},
 			{
-				"text": "+2 Vida máxima",
+				"text": "+2 Vida máxima\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Castigo divino» (nivel 1) y recibes su pergamino. Descarga luz sagrada sobre el enemigo.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:golden_sword"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -3408,24 +3453,29 @@
 		]
 	},
 	"guerrero_paladin_11": {
-		"title": "Paladín XI",
+		"title": "Hechizo: Curar",
 		"description": [
 			{
 				"text": "Guerrero › Paladín\n",
 				"color": "gold"
 			},
 			{
-				"text": "+2.8 Vida máxima",
+				"text": "+2.8 Vida máxima\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Curar» (nivel 2) y recibes su pergamino. Recuperas vida al instante.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:golden_apple"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -3642,24 +3692,29 @@
 		]
 	},
 	"guerrero_paladin_17": {
-		"title": "Paladín XVII",
+		"title": "Hechizo: Nube regeneradora",
 		"description": [
 			{
 				"text": "Guerrero › Paladín\n",
 				"color": "gold"
 			},
 			{
-				"text": "+2.8 Vida máxima",
+				"text": "+2.8 Vida máxima\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Nube regeneradora» (nivel 3) y recibes su pergamino. Una nube que cura a los aliados que están dentro.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:glistering_melon_slice"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
@@ -3906,24 +3961,29 @@
 		]
 	},
 	"guerrero_paladin_23": {
-		"title": "Paladín XXIII",
+		"title": "Hechizo: Rayo de sol",
 		"description": [
 			{
 				"text": "Guerrero › Paladín\n",
 				"color": "gold"
 			},
 			{
-				"text": "+3.6 Vida máxima",
+				"text": "+3.6 Vida máxima\n",
 				"color": "green"
+			},
+			{
+				"text": "Aprendes «Rayo de sol» (nivel 3) y recibes su pergamino. Un haz de luz sagrada que daña a lo que atraviesa.",
+				"color": "gray",
+				"italic": true
 			}
 		],
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "minecraft:golden_chestplate"
+				"item": "irons_spellbooks:scroll"
 			}
 		},
-		"frame": "task",
+		"frame": "goal",
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
