@@ -1,0 +1,216 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oficio_cocinero"
+	group: "5677092D8B6DEB7B"
+	title: "Oficio: Cocinero"
+	subtitle: ["Misiones del Cocinero"]
+	icon: "minecraft:smoker"
+	id: "6394018AFD681002"
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			id: "77188528BE04548A"
+			title: "Juramento del Cocinero"
+			subtitle: "Elige tu oficio"
+			description: [
+				"El cocinero sube cocinando carne y pescado, y comiendo."
+				""
+				"Habla con el maestro de oficio de tu pueblo (al norte de la plaza, enfrente de los maestros de rol). Al confirmar el oficio de Cocinero, esta misión se completa sola (stage &6trabajo_cocinero&r)."
+				""
+				"&cEl oficio no se puede cambiar&r: solo tendrás el árbol y las misiones de este oficio."
+			]
+			icon: "minecraft:nether_star"
+			x: 0.5d
+			y: 0.5d
+			invisible: true
+			invisible_until_tasks: 1
+			tasks: [
+				{
+					id: "68B273851FB14BEB"
+					type: "gamestage"
+					stage: "trabajo_cocinero"
+				}
+			]
+			rewards: [
+				{
+					id: "531A81A0864D4206"
+					type: "command"
+					command: "/oficioxp {p} cocinero 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "03B88B3DB4EFE27A"
+					type: "command"
+					command: "/skillxp {p} 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "3D784CB3076F8F29"
+			title: "Oficio: Cocinero"
+			subtitle: "Presentación"
+			description: [
+				"El cocinero sube cocinando carne y pescado, y comiendo."
+				""
+				"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Cocinero. Cada nivel del oficio te da 1 punto para su árbol."
+			]
+			icon: "minecraft:smoker"
+			x: 2.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["77188528BE04548A"]
+			tasks: [
+				{
+					id: "35B4AC0E46C6288D"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "46E0B8F6BCC072D9"
+					type: "command"
+					command: "/oficioxp {p} cocinero 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "725452F1998D1844"
+					type: "command"
+					command: "/skillxp {p} 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "7FBA0139CE49742D"
+			title: "Cocinero: práctica"
+			subtitle: "Haz el trabajo"
+			description: ["Cocina carne y pescado, y prepara comida variada."]
+			icon: "minecraft:cooked_beef"
+			x: 4.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["3D784CB3076F8F29"]
+			tasks: [
+				{
+					id: "173C06BF79FAA346"
+					type: "item"
+					item: "minecraft:cooked_beef"
+					count: 16L
+				}
+				{
+					id: "2782FD644C90A99A"
+					type: "item"
+					item: "minecraft:cooked_porkchop"
+					count: 16L
+				}
+				{
+					id: "283284A2EAF1425B"
+					type: "item"
+					item: "minecraft:baked_potato"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "72844D21264C4D3D"
+					type: "command"
+					command: "/oficioxp {p} cocinero 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "0E518EE38E02F6AF"
+					type: "command"
+					command: "/skillxp {p} 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "1E3C905D570263E5"
+					type: "item"
+					item: "minecraft:smoker"
+				}
+			]
+		}
+		{
+			id: "68BD6D85D14A3037"
+			title: "Cocinero I"
+			subtitle: "Hito de oficio"
+			description: ["Sube en el árbol de Cocinero hasta &6Fundamentos VI&r. Esto activa el hito Cocinero I."]
+			icon: "minecraft:nether_star"
+			x: 6.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["7FBA0139CE49742D"]
+			tasks: [
+				{
+					id: "5EAC1A03435E6653"
+					type: "gamestage"
+					stage: "oficio_cocinero_1"
+				}
+			]
+			rewards: [
+				{
+					id: "52C04DE95F8E1FAF"
+					type: "command"
+					command: "/oficioxp {p} cocinero 100"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "50260EFB162DBCA5"
+					type: "command"
+					command: "/skillxp {p} 200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "6C191F421BBD6ABA"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "5A47B3CACF9C830C"
+			title: "Cocinero II"
+			subtitle: "Maestría"
+			description: ["Llega hasta la cima de uno de los dos caminos de Cocinero. Es el hito de maestría del oficio."]
+			icon: "minecraft:nether_star"
+			x: 8.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["68BD6D85D14A3037"]
+			tasks: [
+				{
+					id: "2658AE18868F790E"
+					type: "gamestage"
+					stage: "oficio_cocinero_2"
+				}
+			]
+			rewards: [
+				{
+					id: "39942D5373B3341F"
+					type: "command"
+					command: "/skillxp {p} 500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "69DE34F59CBF51B2"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+					count: 3
+				}
+			]
+		}
+	]
+}

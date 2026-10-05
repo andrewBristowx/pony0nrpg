@@ -333,7 +333,7 @@ const itemIcon = (item) => ({ type: "item", data: { item } });
 }
 
 // ============================================================================================================
-// 2) OFICIOS: una categoría (pestaña) por oficio, con su propio nivel. La XP se gana HACIENDO las tareas
+// 2) OFICIOS: una categoría (pestaña) por oficio, con su propio nivel; bloqueadas hasta elegir el oficio (kubejs/server_scripts/gremio_oficios.js). La XP se gana HACIENDO las tareas
 //    del oficio; 1 punto por nivel (nivel máx. 30). Los hitos dan un "stage" de KubeJS para recetas futuras.
 // ============================================================================================================
 const blockVar = (data) => ({ operations: [{ type: "get_mined_block_state" }, { type: "puffish_skills:test", data }] });
@@ -490,8 +490,8 @@ for (const job of jobs) {
   const b = makeBuilder("normal");
   buildBand(b, 0, { ...job, stages: milestones(job.id, job.lanes.map((l) => l.id)) }, { trunkN: 6, laneN: 8, capSpent: 12 });
   writeCategory(`oficio_${job.id}`, b, {
-    title: job.name, description: job.about + " Cada nivel da 1 punto.",
-    icon: itemIcon(job.icon), background: BG(job.bg), unlocked_by_default: true, exclusive_root: false,
+    title: job.name, description: job.about + " Cada nivel da 1 punto. Solo se desbloquea al elegir este oficio con su maestro (uno solo por jugador).",
+    icon: itemIcon(job.icon), background: BG(job.bg), unlocked_by_default: false, exclusive_root: false,
   }, { level_limit: 30, experience_per_level: jobXp(job.id), sources: job.xp });
 }
 

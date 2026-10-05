@@ -7,7 +7,7 @@
 	subtitle: ["Misiones del DPS"]
 	icon: "minecraft:diamond_sword"
 	id: "70E251907E818AC2"
-	order_index: 19
+	order_index: 25
 	quest_links: [ ]
 	quests: [
 		{

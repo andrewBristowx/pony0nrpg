@@ -7,7 +7,7 @@
 	subtitle: ["Misiones del Soporte"]
 	icon: "minecraft:ender_chest"
 	id: "55188C25C6EDE10E"
-	order_index: 21
+	order_index: 27
 	quest_links: [ ]
 	quests: [
 		{

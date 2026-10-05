@@ -1,0 +1,216 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oficio_granjero"
+	group: "5677092D8B6DEB7B"
+	title: "Oficio: Granjero"
+	subtitle: ["Misiones del Granjero"]
+	icon: "minecraft:iron_hoe"
+	id: "1FF7EF976C4D3261"
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			id: "65204E87E316D00A"
+			title: "Juramento del Granjero"
+			subtitle: "Elige tu oficio"
+			description: [
+				"El granjero sube cosechando cultivos maduros (no vale romper los brotes)."
+				""
+				"Habla con el maestro de oficio de tu pueblo (al norte de la plaza, enfrente de los maestros de rol). Al confirmar el oficio de Granjero, esta misión se completa sola (stage &6trabajo_granjero&r)."
+				""
+				"&cEl oficio no se puede cambiar&r: solo tendrás el árbol y las misiones de este oficio."
+			]
+			icon: "minecraft:nether_star"
+			x: 0.5d
+			y: 0.5d
+			invisible: true
+			invisible_until_tasks: 1
+			tasks: [
+				{
+					id: "1EE7509E37AFC73F"
+					type: "gamestage"
+					stage: "trabajo_granjero"
+				}
+			]
+			rewards: [
+				{
+					id: "5F8FF2C5B9D5FD34"
+					type: "command"
+					command: "/oficioxp {p} granjero 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "7EC5A3772043D6C6"
+					type: "command"
+					command: "/skillxp {p} 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "13233115E9BE894E"
+			title: "Oficio: Granjero"
+			subtitle: "Presentación"
+			description: [
+				"El granjero sube cosechando cultivos maduros (no vale romper los brotes)."
+				""
+				"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Granjero. Cada nivel del oficio te da 1 punto para su árbol."
+			]
+			icon: "minecraft:iron_hoe"
+			x: 2.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["65204E87E316D00A"]
+			tasks: [
+				{
+					id: "577031CD42405C68"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "0EC9F1DDDEB94273"
+					type: "command"
+					command: "/oficioxp {p} granjero 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "7E26FF5785970637"
+					type: "command"
+					command: "/skillxp {p} 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "7A9A2BC994E724B0"
+			title: "Granjero: práctica"
+			subtitle: "Haz el trabajo"
+			description: ["Cosecha trigo, zanahorias y patatas maduras."]
+			icon: "minecraft:wheat"
+			x: 4.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["13233115E9BE894E"]
+			tasks: [
+				{
+					id: "3622201DE590B0AE"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 32L
+				}
+				{
+					id: "644443B80F273339"
+					type: "item"
+					item: "minecraft:carrot"
+					count: 16L
+				}
+				{
+					id: "1F661F24C8817196"
+					type: "item"
+					item: "minecraft:potato"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "601E9A244B2A26A7"
+					type: "command"
+					command: "/oficioxp {p} granjero 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "1848D75FF72D1C0D"
+					type: "command"
+					command: "/skillxp {p} 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "6046FDAD8A67C356"
+					type: "item"
+					item: "minecraft:iron_hoe"
+				}
+			]
+		}
+		{
+			id: "78803FF8DA71FBF2"
+			title: "Granjero I"
+			subtitle: "Hito de oficio"
+			description: ["Sube en el árbol de Granjero hasta &6Fundamentos VI&r. Esto activa el hito Granjero I."]
+			icon: "minecraft:nether_star"
+			x: 6.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["7A9A2BC994E724B0"]
+			tasks: [
+				{
+					id: "1E20D5E6C72B2BFA"
+					type: "gamestage"
+					stage: "oficio_granjero_1"
+				}
+			]
+			rewards: [
+				{
+					id: "3C86CF8CB8AD924D"
+					type: "command"
+					command: "/oficioxp {p} granjero 100"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "17F9D80390FDB99A"
+					type: "command"
+					command: "/skillxp {p} 200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "7B0CD3DF8F7173D6"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "1E4B814A8E7F26E2"
+			title: "Granjero II"
+			subtitle: "Maestría"
+			description: ["Llega hasta la cima de uno de los dos caminos de Granjero. Es el hito de maestría del oficio."]
+			icon: "minecraft:nether_star"
+			x: 8.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["78803FF8DA71FBF2"]
+			tasks: [
+				{
+					id: "49F3E9CD91EE0BAD"
+					type: "gamestage"
+					stage: "oficio_granjero_2"
+				}
+			]
+			rewards: [
+				{
+					id: "4F5556C6E5DBB00C"
+					type: "command"
+					command: "/skillxp {p} 500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "516C408AAEFDF395"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+					count: 3
+				}
+			]
+		}
+	]
+}

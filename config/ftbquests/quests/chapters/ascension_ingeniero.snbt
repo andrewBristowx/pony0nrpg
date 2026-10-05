@@ -7,7 +7,7 @@
 	subtitle: ["Puntos de Ascensión para Ingeniero"]
 	icon: "create:precision_mechanism"
 	id: "0A23F5912A5F28C7"
-	order_index: 16
+	order_index: 22
 	quest_links: [ ]
 	quests: [
 		{

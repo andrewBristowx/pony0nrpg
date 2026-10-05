@@ -73,7 +73,7 @@
 				{
 					id: "5A19931BF5642992"
 					type: "command"
-					command: "/puffish_skills experience add {p} oficio_herrero 80"
+					command: "/oficioxp {p} herrero 80"
 					elevate_perms: true
 					silent: true
 				}
@@ -173,7 +173,7 @@
 				{
 					id: "534AD261FEC1F825"
 					type: "command"
-					command: "/puffish_skills experience add {p} oficio_herrero 80"
+					command: "/oficioxp {p} herrero 80"
 					elevate_perms: true
 					silent: true
 				}

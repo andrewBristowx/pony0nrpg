@@ -149,11 +149,13 @@
 		{
 			id: "54EFDB76A048C766"
 			title: "Oficios"
-			subtitle: "Mejora haciendo tareas"
+			subtitle: "Elige uno"
 			description: [
-				"Además de tu clase tienes siete oficios: Minero, Leñador, Granjero, Pescador, Herrero, Cocinero y Encantador."
+				"Además de tu clase puedes tener UN oficio: Minero, Leñador, Granjero, Pescador, Herrero, Cocinero o Encantador."
 				""
-				"Cada oficio sube de nivel por sí solo mientras haces sus tareas (picar, talar, cosechar, pescar, fabricar, cocinar, encantar) y da puntos para su propio árbol."
+				"Los maestros de oficio están en la plaza de tu pueblo, al norte del pozo (enfrente de los maestros de rol). Habla con uno y confirma: no se puede cambiar."
+				""
+				"Tu oficio sube de nivel por sí solo mientras haces sus tareas (picar, talar, cosechar, pescar, fabricar, cocinar, encantar) y da puntos para su propia pestaña del árbol de Habilidades y su propio capítulo de misiones."
 			]
 			icon: "ftbquests:book"
 			x: 6.5d
@@ -170,13 +172,6 @@
 					id: "39F16D6E3FDCB43F"
 					type: "command"
 					command: "/skillxp {p} 40"
-					elevate_perms: true
-					silent: true
-				}
-				{
-					id: "751BBA205810BF5E"
-					type: "command"
-					command: "/puffish_skills experience add {p} oficio_minero 30"
 					elevate_perms: true
 					silent: true
 				}

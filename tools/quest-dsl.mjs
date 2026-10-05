@@ -28,8 +28,8 @@ export const R = {
   xp: (n) => ({ type: "xp", xp: n }),
   // XP de habilidades: /skillxp (kubejs/server_scripts/habilidades.js) la manda a la categoría de la clase del jugador (habilidades_<clase>)
   skill: (n) => cmd(`/skillxp {p} ${n}`),
-  // XP de un oficio (categoría oficio_<id>)
-  job: (job, n) => cmd(`/puffish_skills experience add {p} oficio_${job} ${n}`),
+  // XP de un oficio (categoría oficio_<id>): /oficioxp (kubejs/server_scripts/gremio_oficios.js) solo la da a quien TIENE ese oficio
+  job: (job, n) => cmd(`/oficioxp {p} ${job} ${n}`),
   // Monedas de Lightman's Currency: R.coins({ cobre: 50 }) -> un premio por tipo de moneda
   coins: (obj) => Object.entries(obj).map(([k, n]) => ({ type: "item", item: COINS[k], ...(n > 1 ? { count: n } : {}), _item: COINS[k] })),
   cmd,

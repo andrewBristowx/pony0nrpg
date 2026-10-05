@@ -222,7 +222,7 @@ function construirPueblo(server, level, run, id, s, ox, oz) {
   suavizarBordes(level, x1, z1, x2, z2, ref);
   const pd = server.persistentData;
   pd.putInt('pueblo_' + id + '_x', ox); pd.putInt('pueblo_' + id + '_z', oz); pd.putInt('pueblo_' + id + '_y', ref);
-  pd.putInt('pueblo_' + id + '_lado', PUEBLO_LADO); pd.putInt('pueblo_' + id + '_v', PUEBLO_VERSION); pd.putInt('npcrol_' + id + '_v', 0);
+  pd.putInt('pueblo_' + id + '_lado', PUEBLO_LADO); pd.putInt('pueblo_' + id + '_v', PUEBLO_VERSION); pd.putInt('npcrol_' + id + '_v', 0); pd.putInt('npcofi_' + id + '_v', 0);
   console.info('[gremios] pueblo de ' + id + ' colocado en ' + ox + ',' + (ref - PUEBLO_SUELO) + ',' + oz + ' (suelo a y=' + ref + ')');
 }
 
@@ -243,17 +243,23 @@ function puebloSpawn(server, id) {
   return { x: o.x + off[0] + 0.5, y: server.persistentData.getInt('pueblo_' + id + '_y') + 1, z: o.z + off[1] + 0.5 };
 }
 
-// ---- maestros de rol (Easy NPC): 4 por pueblo, en fila al sur de la plaza; el NBT lo define gremio_roles.js ------------------------
-const NPC_ROL_VERSION = 1;                                         // subirla vuelve a colocar los maestros en todos los pueblos
-const NPC_ROL_Z = 74, NPC_ROL_X = { tanque: 57, dps: 61, healer: 67, soporte: 71 };   // posicion dentro de la plantilla (suelo y=3, el NPC en y=4)
+// ---- maestros de rol y de oficio (Easy NPC): en fila en la plaza; el NBT lo definen gremio_roles.js y gremio_oficios.js --------------
+// Maestros de rol: al SUR del pozo (z=74); maestros de oficio: al NORTE, enfrente (z=54). Posicion dentro de la plantilla (suelo y=3, el NPC en y=4).
+// La version de cada grupo se guarda por pueblo: subirla vuelve a colocar ese grupo en todos los pueblos.
+const GRUPOS_NPC = {
+  rol: { clave: 'npcrol', version: 1, z: 74, xs: { tanque: 57, dps: 61, healer: 67, soporte: 71 }, etiqueta: 'pony0n_rol_npc', nombre: 'maestros de rol', comando: '/rol npcs',
+         ids: () => global.ROL_IDS, entidad: (i) => global.NPC_ROL_ENTIDAD(i), snbt: (i) => global.npcRolSnbt(i) },
+  oficio: { clave: 'npcofi', version: 1, z: 54, xs: { minero: 56, lenador: 59, granjero: 62, pescador: 66, herrero: 69, cocinero: 72, encantador: 64 }, etiqueta: 'pony0n_oficio_npc', nombre: 'maestros de oficio', comando: '/oficio npcs',
+          ids: () => global.OFICIO_IDS, entidad: (i) => global.NPC_OFICIO_ENTIDAD(i), snbt: (i) => global.npcOficioSnbt(i) },
+};
 
-/** coloca (o recoloca) los maestros de rol de un pueblo ya colocado, con /forceload y sin bloquear el tick */
-function asegurarNpcsRol(server, id, alTerminar) {
-  const pd = server.persistentData;
-  if (!global.ROL_IDS || !puebloColocado(server, id) || pd.getInt('npcrol_' + id + '_v') >= NPC_ROL_VERSION) { if (alTerminar) alTerminar(); return; }
+/** coloca (o recoloca) un grupo de maestros de un pueblo ya colocado, con /forceload y sin bloquear el tick */
+function asegurarNpcsGrupo(server, id, g, alTerminar) {
+  const pd = server.persistentData, ids = g.ids();
+  if (!ids || !puebloColocado(server, id) || pd.getInt(g.clave + '_' + id + '_v') >= g.version) { if (alTerminar) alTerminar(); return; }
   const level = server.overworld(), o = puebloOrigen(server, id), ref = pd.getInt('pueblo_' + id + '_y');
   const run = (c) => server.runCommandSilent('execute in minecraft:overworld run ' + c);
-  const z = o.z + NPC_ROL_Z, cz = z >> 4, cx0 = (o.x + 55) >> 4, cx1 = (o.x + 73) >> 4;
+  const z = o.z + g.z, cz = z >> 4, cx0 = (o.x + 55) >> 4, cx1 = (o.x + 73) >> 4;
   const zona = (cx0 * 16) + ' ' + (cz * 16) + ' ' + (cx1 * 16 + 15) + ' ' + (cz * 16 + 15);
   run('forceload add ' + zona);
   var esperas = 0;
@@ -261,34 +267,39 @@ function asegurarNpcsRol(server, id, alTerminar) {
     var faltan = 0;
     for (var cx = cx0; cx <= cx1; cx++) if (!level.hasChunk(cx, cz)) faltan++;
     if (faltan > 0) {
-      if (++esperas > 90) { run('forceload remove ' + zona); console.error('[gremios] maestros de rol de ' + id + ': faltaron chunks; usa /rol npcs'); if (alTerminar) alTerminar(); return; }
+      if (++esperas > 90) { run('forceload remove ' + zona); console.error('[gremios] ' + g.nombre + ' de ' + id + ': faltaron chunks; usa ' + g.comando); if (alTerminar) alTerminar(); return; }
       server.scheduleInTicks(20, esperar);
       return;
     }
-    run('kill @e[tag=pony0n_rol_npc,x=' + (o.x + 64) + ',y=' + ref + ',z=' + (o.z + 64) + ',distance=..90]');   // quita los anteriores
-    global.ROL_IDS.forEach((rol) => {
-      run('summon ' + global.NPC_ROL_ENTIDAD(rol) + ' ' + (o.x + NPC_ROL_X[rol] + 0.5) + ' ' + (ref + 1) + ' ' + (z + 0.5) + ' ' + global.npcRolSnbt(rol));
+    run('kill @e[tag=' + g.etiqueta + ',x=' + (o.x + 64) + ',y=' + ref + ',z=' + (o.z + 64) + ',distance=..90]');   // quita los anteriores
+    ids.forEach((i) => {
+      run('summon ' + g.entidad(i) + ' ' + (o.x + g.xs[i] + 0.5) + ' ' + (ref + 1) + ' ' + (z + 0.5) + ' ' + g.snbt(i));
     });
     run('forceload remove ' + zona);
-    pd.putInt('npcrol_' + id + '_v', NPC_ROL_VERSION);
-    console.info('[gremios] maestros de rol colocados en el pueblo de ' + id);
+    pd.putInt(g.clave + '_' + id + '_v', g.version);
+    console.info('[gremios] ' + g.nombre + ' colocados en el pueblo de ' + id);
     if (alTerminar) alTerminar();
   })();
 }
+const asegurarNpcsRol = (server, id, alTerminar) => asegurarNpcsGrupo(server, id, GRUPOS_NPC.rol, alTerminar);
 
-/** uno detras de otro, en todos los pueblos de gremio */
+/** uno detras de otro, en todos los pueblos de gremio: primero los de rol y luego los de oficio */
 function asegurarNpcsTodos(server, alTerminar) {
-  const ids = Object.keys(GREMIOS);
+  const ids = Object.keys(GREMIOS), grupos = [GRUPOS_NPC.rol, GRUPOS_NPC.oficio];
   var k = 0;
   (function siguiente() {
-    if (k >= ids.length) { if (alTerminar) alTerminar(); return; }
-    asegurarNpcsRol(server, ids[k++], function () { server.scheduleInTicks(20, siguiente); });
+    if (k >= ids.length * grupos.length) { if (alTerminar) alTerminar(); return; }
+    const g = grupos[Math.floor(k / ids.length)], id = ids[k % ids.length];
+    k++;
+    asegurarNpcsGrupo(server, id, g, function () { server.scheduleInTicks(20, siguiente); });
   })();
 }
-global.recolocarNpcsRol = (server) => {
-  Object.keys(GREMIOS).forEach((id) => server.persistentData.putInt('npcrol_' + id + '_v', 0));
+const recolocarGrupo = (server, g) => {
+  Object.keys(GREMIOS).forEach((id) => server.persistentData.putInt(g.clave + '_' + id + '_v', 0));
   asegurarNpcsTodos(server);
 };
+global.recolocarNpcsRol = (server) => recolocarGrupo(server, GRUPOS_NPC.rol);
+global.recolocarNpcsOficio = (server) => recolocarGrupo(server, GRUPOS_NPC.oficio);
 
 // ---- comandos -------------------------------------------------------------------------------------------------
 ServerEvents.commandRegistry((event) => {

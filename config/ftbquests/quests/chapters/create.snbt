@@ -223,7 +223,7 @@
 				{
 					id: "2951BDCD8F75F065"
 					type: "command"
-					command: "/puffish_skills experience add {p} oficio_herrero 60"
+					command: "/oficioxp {p} herrero 60"
 					elevate_perms: true
 					silent: true
 				}
@@ -256,7 +256,7 @@
 				{
 					id: "41CF988C3E8C6796"
 					type: "command"
-					command: "/puffish_skills experience add {p} oficio_minero 80"
+					command: "/oficioxp {p} minero 80"
 					elevate_perms: true
 					silent: true
 				}
@@ -295,7 +295,7 @@
 				{
 					id: "408C0ABDF8EEC1B7"
 					type: "command"
-					command: "/puffish_skills experience add {p} oficio_lenador 80"
+					command: "/oficioxp {p} lenador 80"
 					elevate_perms: true
 					silent: true
 				}

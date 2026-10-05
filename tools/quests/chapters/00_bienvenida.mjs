@@ -31,10 +31,11 @@ export default {
           "Lo básico (espadas y armaduras vanilla) lo puede usar cualquiera."],
       tasks: [T.check()], rewards: [R.skill(40)] },
 
-    { k: "oficios", t: "Oficios", sub: "Mejora haciendo tareas", deps: ["habilidades"],
-      d: ["Además de tu clase tienes siete oficios: Minero, Leñador, Granjero, Pescador, Herrero, Cocinero y Encantador.",
-          "Cada oficio sube de nivel por sí solo mientras haces sus tareas (picar, talar, cosechar, pescar, fabricar, cocinar, encantar) y da puntos para su propio árbol."],
-      tasks: [T.check()], rewards: [R.skill(40), R.job("minero", 30)] },
+    { k: "oficios", t: "Oficios", sub: "Elige uno", deps: ["habilidades"],
+      d: ["Además de tu clase puedes tener UN oficio: Minero, Leñador, Granjero, Pescador, Herrero, Cocinero o Encantador.",
+          "Los maestros de oficio están en la plaza de tu pueblo, al norte del pozo (enfrente de los maestros de rol). Habla con uno y confirma: no se puede cambiar.",
+          "Tu oficio sube de nivel por sí solo mientras haces sus tareas (picar, talar, cosechar, pescar, fabricar, cocinar, encantar) y da puntos para su propia pestaña del árbol de Habilidades y su propio capítulo de misiones."],
+      tasks: [T.check()], rewards: [R.skill(40)] },
 
     { k: "jei", t: "Recetas con EMI", sub: "Mira sobre un objeto y pulsa R o U", deps: ["libro"],
       d: ["EMI muestra las recetas de todos los objetos del pack (funciona junto a JEI, que le aporta las recetas de muchos mods).",

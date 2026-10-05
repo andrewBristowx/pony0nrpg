@@ -7,7 +7,7 @@
 	subtitle: ["Misiones del Tanque"]
 	icon: "minecraft:shield"
 	id: "5B3CF9407B212762"
-	order_index: 18
+	order_index: 24
 	quest_links: [ ]
 	quests: [
 		{

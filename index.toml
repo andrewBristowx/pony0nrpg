@@ -10,39 +10,39 @@ hash = "4805b03d6d8ba55454487eb11f791adb7d961d920c3f942ab0a6d2427c3b48a5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascension_arquero.snbt"
-hash = "ad907eb93471cc03f0a63edb42fced34fd50aa062c1e6ad69c8696dca46b07c6"
+hash = "7801787b279a075a947cb4db3ec66f62173a28d2feac8cce66efdeb05e4fe144"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascension_asesino.snbt"
-hash = "529036a661c1882c44df36c2ec7f9ca48f74e0106073b9bed30240fbe1561a40"
+hash = "31c57dfbcd80e8b47b1430ea48c9ed25a8b4c076accf41c6d4207f301fca8aa5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascension_guerrero.snbt"
-hash = "db2767169d71f49c9fbcf9e21e816121f76e7042d955006aba36e0a1b1ffb0d7"
+hash = "843912d86d7678345bfe5f996d2b096f967e719cd208fa79c4078a960c77ff2a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascension_ingeniero.snbt"
-hash = "cdd97c8526c88c7a1be46d5b948fcae3778457b90c0e554258c4c47a3864c588"
+hash = "3f7e50101bf6ffc2c2ec225571cf724541db855b2540d5a8e4cb2866da8450c5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascension_mago.snbt"
-hash = "67c52fa60346780b6c8d18540a9be354b2a17a3f1034513959c6b723d04f19ef"
+hash = "1e8f9d9c9a505e4eb28d28a915acf36091ef31b047c29e8b31c554b0e73ccb76"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/aventurero.snbt"
-hash = "17f065812280d4e5034ceac5055dbc37164489b94995e051f428a7650424e48c"
+hash = "08eeab53660890ddee0986ef08abd475388d27b4b1d7d685911b3acda79b32db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bienvenida.snbt"
-hash = "09917eb581f255e1e593eb99b243bbc976f271bcaa7f96fa5ed21980ec9fcdae"
+hash = "a950e15b0c23e7d1892bfc2681d6bd35b5fdf4cb81e2fb3800e65a105883fe55"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/comienzo.snbt"
-hash = "baae34bf23547ac3e363aeb16b55d469923d8fff40a8c5e804ba776534a61187"
+hash = "e5cd5792c04cfbac43be59ebf4842d72768221a7b4164162a434a43fe216e829"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "7f2150eb3b2ed879c38821b2974018d933ceda07ed39fa852e9c556f8cfa5ea3"
+hash = "f4de36bfed68555ed6ba8e329b7826dd412c4b653bf2c2801eeae56ca490bf32"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fin.snbt"
@@ -62,35 +62,59 @@ hash = "860635736d47829e8fe51068e65b580265ce7279749c6ad9b9739fe2aab850be"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mas_alla.snbt"
-hash = "4bcfe0ecb29c17a0148f3ed73143b3abd3fc31e9ccfd59ba1338b9015a32d14f"
+hash = "8e22c12bcfb489e692522efa3e184dd32d5651c6c75c3141c29081572acc71e6"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/oficios.snbt"
-hash = "de8d07fce7194070bd141be93422644d465013b347ddf74218be148152421a6e"
+file = "config/ftbquests/quests/chapters/oficio_cocinero.snbt"
+hash = "a1608eb5b7c421d9272429be8b7bef6b38a6cfa8bf01ee945ca6cafbcfd2966f"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/oficio_encantador.snbt"
+hash = "400ad0ff04d9e35da295785e333da9371cb191a8945ef624b8dfe717563d308b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/oficio_granjero.snbt"
+hash = "9bac135e9f9094d70ca1bfaf361ba8469d021a3a3302e4c85df0aca38eb727ea"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/oficio_herrero.snbt"
+hash = "79fbed3c3c38f7b66f642cc150a81c76ebb4ea432acf8b52d20b7516eb39b2ea"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/oficio_lenador.snbt"
+hash = "850b2df2b8be5f3980233b1a8ee67adef53a820d5ad503b67eacac5ba34c39d3"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/oficio_minero.snbt"
+hash = "685a807427b65cb89d333ee0208f5e29cda189988e7b91b7fb8d09262f21d586"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/oficio_pescador.snbt"
+hash = "24775861ead354e3fb5c559c29ee36e6d84c58c46fecb264c8bd2adf39d21343"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rol_dps.snbt"
-hash = "3a9a8028da4e5188498312c9fb5379da2ba261fc8ddb32a4a6775dd79a9817c6"
+hash = "19b741221fe76e249d7859783140baa3ba79077023f09003430f8d6591f0ae09"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rol_healer.snbt"
-hash = "836ca77bad13e5b7360fcc214c7e92e2e5d7d5e3236d2fb0ed7fdc400ea723f2"
+hash = "4f5bfbba0c6ad192e79864acae3eb29013981ab8d9a55e4a9f7db4f6f9417592"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rol_soporte.snbt"
-hash = "bc8c25612c11574d881d5834ffa718d4fb5cd1b9bc724aba3ead4c1893595cbc"
+hash = "1f6475a203e34340f8db96dbf3e7c3568b4144708cf2b66c23331887d04be390"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rol_tanque.snbt"
-hash = "8042d44989f2970643e5608528fb4a0e246c6cf86a39ae98eb6bf423a4e9faca"
+hash = "c9d4702eb6e95ed5caa3e07ab97c103b109acfdb0f9d1dbf1c136d7a3b40d50a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/secretos.snbt"
-hash = "1afecff8e862cd877ce81632d703a31948e2fe7ea0059b414b2e938c0d802033"
+hash = "b1c6ea77c996f7a8882f82389a3f4961e829bf3b0907306fc9e75df127fa35a3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tecnologia.snbt"
-hash = "0ba2e58ab4e1c460291deff627e1be9ca4ae1d29546d886eccc0675bd54d6a97"
+hash = "53d109d264bf157157751ef01d227d71eb12676dd9483e731a85846a093982e4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tierras.snbt"
@@ -282,7 +306,7 @@ hash = "cecda99fa0a94603618094cbf17d0fda718bf66b373e137d669825403925f06e"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_cocinero/category.json"
-hash = "0f333d235f1dcb9eff2fe1f00ff7a80b3324a0f52cde786ed3467b4af735adf4"
+hash = "3398fd373ed82c83cd4f687df1d1f44a2de8ba9365c5bb341d03e3e6eb680145"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_cocinero/connections.json"
@@ -302,7 +326,7 @@ hash = "d01681360ef558f6fc4099f9bcc0936890a2495521b9825b602c43a06972c9ce"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_encantador/category.json"
-hash = "734c71d5195693d6dad451bf18bfa2b3e80f39b7657372052a9578f24c8ba114"
+hash = "5c2d37491a20bb9568d6f30dcc77fbecce93201ae4c7c9e2569ef6e1d0fe3e26"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_encantador/connections.json"
@@ -322,7 +346,7 @@ hash = "419eb898c8e71b6d82a8a9bb0a24eb114eb4e42ad45cfa122ce732be8097c1b8"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_granjero/category.json"
-hash = "89f410124d5e9d22f6ce1c936564118437c642db6ef0e518643ec16dd0cb8159"
+hash = "680b7070eb81899d5aed9043a79e1986300ebe4a0844d037f1b262153cb79557"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_granjero/connections.json"
@@ -342,7 +366,7 @@ hash = "cbafa23a355776a92a571c98e6502d6cbaa99e9412183e85e3aa8a459b891a2f"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_herrero/category.json"
-hash = "6f1fc5cc990e46e08b7591f6c99d99b1fb39761d815e4262912f361a734ff2a1"
+hash = "b34f2fb9faf11cbaddb440799d2a66db64a6a6166621f9092e9d3f71e60bb479"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_herrero/connections.json"
@@ -362,7 +386,7 @@ hash = "776ea5e82a67e43a17c95e2a8702169016e8a8d96c969c2d9c8749ef7b4609b3"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_lenador/category.json"
-hash = "1689a0a3376ea2a2bc2d632054f13bfeb5601d828cd083f6e18922ee444635a7"
+hash = "90ad85a7e08ce81db62afc4c156ebe79b0e5d81e4d7fd33487b5df9b23e553f3"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_lenador/connections.json"
@@ -382,7 +406,7 @@ hash = "9ab304540fa71466304ea85be9da34d52d93e74f81f72c66076a8648916b7556"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_minero/category.json"
-hash = "da4a929d1b6a9d13dca184eadfe6cbb66ba071dd35c99176ba14a8278ed95183"
+hash = "9ba782ed379da6c082f80e29589773247d504bebef2a58d54b37e495f7b3d8c0"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_minero/connections.json"
@@ -402,7 +426,7 @@ hash = "1fc2e5e805f2acbd249e86232d27d61881045c3c090dd676fc91adf5e7b26849"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_pescador/category.json"
-hash = "12413b607b910bdbbd569ddf0c93fe170e5ede8c36d3f456ab27025f762ff181"
+hash = "8f5db7bac2005f8c88b97a7ab1d9d245b3076257c9ab2ab8a9bc9924be8c44fb"
 
 [[files]]
 file = "config/puffish_skills/categories/oficio_pescador/connections.json"
@@ -1329,6 +1353,10 @@ file = "kubejs/server_scripts/gremio_equipo.js"
 hash = "effe85f5f4bf9c2426457a4ac8d1e77931fb9ab3e9022f2f9bdf45e0bd5c6fa2"
 
 [[files]]
+file = "kubejs/server_scripts/gremio_oficios.js"
+hash = "5e6888bf3607374f7cfe94c191ee43405456c1cdaefa5be8b0e222d7d5484f99"
+
+[[files]]
 file = "kubejs/server_scripts/gremio_roles.js"
 hash = "01aa9ce851bd9807d841a7da4bd74d65ed86c735965d7787dead531588b396eb"
 
@@ -1338,7 +1366,7 @@ hash = "7c3dc44b3079714a7a1e79d356f4c27157e585f61a36650bc83e8c312b4eaa6e"
 
 [[files]]
 file = "kubejs/server_scripts/gremios.js"
-hash = "256253d84ecdc9f905910d89d222d6be2574a3d1e2561a8702e201788d8f9058"
+hash = "0cdc51e429cb0570a5f8b563d1580e7896af9a99e930169719b5a3205fcaec53"
 
 [[files]]
 file = "kubejs/server_scripts/habilidades.js"

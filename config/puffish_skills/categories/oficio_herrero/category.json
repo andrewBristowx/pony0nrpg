@@ -1,6 +1,6 @@
 {
 	"title": "Herrero",
-	"description": "Sube fabricando herramientas, armas y armaduras, y fundiendo lingotes. Cada nivel da 1 punto.",
+	"description": "Sube fabricando herramientas, armas y armaduras, y fundiendo lingotes. Cada nivel da 1 punto. Solo se desbloquea al elegir este oficio con su maestro (uno solo por jugador).",
 	"icon": {
 		"type": "item",
 		"data": {
@@ -8,6 +8,6 @@
 		}
 	},
 	"background": "minecraft:textures/gui/advancements/backgrounds/nether.png",
-	"unlocked_by_default": true,
+	"unlocked_by_default": false,
 	"exclusive_root": false
 }

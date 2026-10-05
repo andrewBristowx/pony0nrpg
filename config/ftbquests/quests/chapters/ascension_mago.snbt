@@ -7,7 +7,7 @@
 	subtitle: ["Puntos de Ascensión para Mago"]
 	icon: "minecraft:enchanted_book"
 	id: "479A8AB763858CBE"
-	order_index: 15
+	order_index: 21
 	quest_links: [ ]
 	quests: [
 		{

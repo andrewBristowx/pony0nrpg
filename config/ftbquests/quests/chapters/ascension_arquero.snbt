@@ -7,7 +7,7 @@
 	subtitle: ["Puntos de Ascensión para Arquero"]
 	icon: "minecraft:bow"
 	id: "6F58F88937D025BF"
-	order_index: 14
+	order_index: 20
 	quest_links: [ ]
 	quests: [
 		{

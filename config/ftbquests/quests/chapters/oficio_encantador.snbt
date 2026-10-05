@@ -1,0 +1,205 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oficio_encantador"
+	group: "5677092D8B6DEB7B"
+	title: "Oficio: Encantador"
+	subtitle: ["Misiones del Encantador"]
+	icon: "minecraft:enchanting_table"
+	id: "407CFC31203E5A6D"
+	order_index: 18
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4CFF4C2D6DCEE2D8"
+			title: "Juramento del Encantador"
+			subtitle: "Elige tu oficio"
+			description: [
+				"El encantador sube encantando objetos: más nivel de encantamiento, más experiencia."
+				""
+				"Habla con el maestro de oficio de tu pueblo (al norte de la plaza, enfrente de los maestros de rol). Al confirmar el oficio de Encantador, esta misión se completa sola (stage &6trabajo_encantador&r)."
+				""
+				"&cEl oficio no se puede cambiar&r: solo tendrás el árbol y las misiones de este oficio."
+			]
+			icon: "minecraft:nether_star"
+			x: 0.5d
+			y: 0.5d
+			invisible: true
+			invisible_until_tasks: 1
+			tasks: [
+				{
+					id: "3E1B660D926F491F"
+					type: "gamestage"
+					stage: "trabajo_encantador"
+				}
+			]
+			rewards: [
+				{
+					id: "1625171A362302C3"
+					type: "command"
+					command: "/oficioxp {p} encantador 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "31BAF21474D59326"
+					type: "command"
+					command: "/skillxp {p} 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "3FBBFC54D5DAA930"
+			title: "Oficio: Encantador"
+			subtitle: "Presentación"
+			description: [
+				"El encantador sube encantando objetos: más nivel de encantamiento, más experiencia."
+				""
+				"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Encantador. Cada nivel del oficio te da 1 punto para su árbol."
+			]
+			icon: "minecraft:enchanting_table"
+			x: 2.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["4CFF4C2D6DCEE2D8"]
+			tasks: [
+				{
+					id: "674ED2892E83565A"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "452B151A1919E223"
+					type: "command"
+					command: "/oficioxp {p} encantador 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "03180DB8DED73E18"
+					type: "command"
+					command: "/skillxp {p} 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "633611C375001E7D"
+			title: "Encantador: práctica"
+			subtitle: "Haz el trabajo"
+			description: ["Encanta objetos en la mesa de encantamientos."]
+			icon: "minecraft:enchanted_book"
+			x: 4.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["3FBBFC54D5DAA930"]
+			tasks: [
+				{
+					id: "49E690D986C19220"
+					type: "item"
+					item: "minecraft:enchanted_book"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "3DD076607193B31D"
+					type: "command"
+					command: "/oficioxp {p} encantador 150"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "66AC6B41B9356479"
+					type: "command"
+					command: "/skillxp {p} 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "57442437D23F8B00"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 32
+				}
+			]
+		}
+		{
+			id: "3205EE25836E9780"
+			title: "Encantador I"
+			subtitle: "Hito de oficio"
+			description: ["Sube en el árbol de Encantador hasta &6Fundamentos VI&r. Esto activa el hito Encantador I."]
+			icon: "minecraft:nether_star"
+			x: 6.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["633611C375001E7D"]
+			tasks: [
+				{
+					id: "5EC48CE86B2080DE"
+					type: "gamestage"
+					stage: "oficio_encantador_1"
+				}
+			]
+			rewards: [
+				{
+					id: "43F6695DD85110AA"
+					type: "command"
+					command: "/oficioxp {p} encantador 100"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "60731D164B4B1F48"
+					type: "command"
+					command: "/skillxp {p} 200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "35F7F96D383352D7"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "1FC77D8FE6F630D7"
+			title: "Encantador II"
+			subtitle: "Maestría"
+			description: ["Llega hasta la cima de uno de los dos caminos de Encantador. Es el hito de maestría del oficio."]
+			icon: "minecraft:nether_star"
+			x: 8.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["3205EE25836E9780"]
+			tasks: [
+				{
+					id: "4378C39DD425920A"
+					type: "gamestage"
+					stage: "oficio_encantador_2"
+				}
+			]
+			rewards: [
+				{
+					id: "1C041EBDEFCAA6B9"
+					type: "command"
+					command: "/skillxp {p} 500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "682F59A102DE590D"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+					count: 3
+				}
+			]
+		}
+	]
+}

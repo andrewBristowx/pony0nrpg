@@ -1,0 +1,214 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oficio_herrero"
+	group: "5677092D8B6DEB7B"
+	title: "Oficio: Herrero"
+	subtitle: ["Misiones del Herrero"]
+	icon: "minecraft:anvil"
+	id: "7DACB62CE0BBACA8"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1384FDAF62FDF137"
+			title: "Juramento del Herrero"
+			subtitle: "Elige tu oficio"
+			description: [
+				"El herrero sube fabricando herramientas, armas y armaduras, y fundiendo lingotes."
+				""
+				"Habla con el maestro de oficio de tu pueblo (al norte de la plaza, enfrente de los maestros de rol). Al confirmar el oficio de Herrero, esta misión se completa sola (stage &6trabajo_herrero&r)."
+				""
+				"&cEl oficio no se puede cambiar&r: solo tendrás el árbol y las misiones de este oficio."
+			]
+			icon: "minecraft:nether_star"
+			x: 0.5d
+			y: 0.5d
+			invisible: true
+			invisible_until_tasks: 1
+			tasks: [
+				{
+					id: "52D9478487C12CB9"
+					type: "gamestage"
+					stage: "trabajo_herrero"
+				}
+			]
+			rewards: [
+				{
+					id: "0DC6477883365410"
+					type: "command"
+					command: "/oficioxp {p} herrero 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "20EE518A9E27A3D2"
+					type: "command"
+					command: "/skillxp {p} 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "0F821A5E8DD2FEF7"
+			title: "Oficio: Herrero"
+			subtitle: "Presentación"
+			description: [
+				"El herrero sube fabricando herramientas, armas y armaduras, y fundiendo lingotes."
+				""
+				"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Herrero. Cada nivel del oficio te da 1 punto para su árbol."
+			]
+			icon: "minecraft:anvil"
+			x: 2.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["1384FDAF62FDF137"]
+			tasks: [
+				{
+					id: "3AE5861C1EFDEBC5"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "00BCE10F6991428C"
+					type: "command"
+					command: "/oficioxp {p} herrero 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "65DDDFFC6630F108"
+					type: "command"
+					command: "/skillxp {p} 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "091060E3984D25F4"
+			title: "Herrero: práctica"
+			subtitle: "Haz el trabajo"
+			description: ["Fabrica armas y herramientas de hierro y funde lingotes."]
+			icon: "minecraft:iron_sword"
+			x: 4.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["0F821A5E8DD2FEF7"]
+			tasks: [
+				{
+					id: "61C58F33478B0A60"
+					type: "item"
+					item: "minecraft:iron_sword"
+				}
+				{
+					id: "26D32709FBFE6553"
+					type: "item"
+					item: "minecraft:iron_pickaxe"
+				}
+				{
+					id: "7550783820B57856"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 32L
+				}
+			]
+			rewards: [
+				{
+					id: "63848A495FA15ADC"
+					type: "command"
+					command: "/oficioxp {p} herrero 150"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "4101DB100981B8FD"
+					type: "command"
+					command: "/skillxp {p} 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "56E088A968C4B5FB"
+					type: "item"
+					item: "minecraft:anvil"
+				}
+			]
+		}
+		{
+			id: "47E182CEA6EC2517"
+			title: "Herrero I"
+			subtitle: "Hito de oficio"
+			description: ["Sube en el árbol de Herrero hasta &6Fundamentos VI&r. Esto activa el hito Herrero I."]
+			icon: "minecraft:nether_star"
+			x: 6.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["091060E3984D25F4"]
+			tasks: [
+				{
+					id: "0D3F694FBC21A233"
+					type: "gamestage"
+					stage: "oficio_herrero_1"
+				}
+			]
+			rewards: [
+				{
+					id: "737C59FAA6FA3930"
+					type: "command"
+					command: "/oficioxp {p} herrero 100"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "395B33818700B1E4"
+					type: "command"
+					command: "/skillxp {p} 200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "4465D82E7A5C0A15"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "45FA2FE042BE5FA3"
+			title: "Herrero II"
+			subtitle: "Maestría"
+			description: ["Llega hasta la cima de uno de los dos caminos de Herrero. Es el hito de maestría del oficio."]
+			icon: "minecraft:nether_star"
+			x: 8.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["47E182CEA6EC2517"]
+			tasks: [
+				{
+					id: "3865F74E5F217AEC"
+					type: "gamestage"
+					stage: "oficio_herrero_2"
+				}
+			]
+			rewards: [
+				{
+					id: "21A03EE2FD793CF3"
+					type: "command"
+					command: "/skillxp {p} 500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "5242F200E57CD57A"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+					count: 3
+				}
+			]
+		}
+	]
+}

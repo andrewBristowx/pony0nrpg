@@ -1,0 +1,210 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oficio_minero"
+	group: "5677092D8B6DEB7B"
+	title: "Oficio: Minero"
+	subtitle: ["Misiones del Minero"]
+	icon: "minecraft:iron_pickaxe"
+	id: "006626DAB29F1DA1"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2A1E49817138DBCC"
+			title: "Juramento del Minero"
+			subtitle: "Elige tu oficio"
+			description: [
+				"El minero sube picando minerales (mucho) y roca (poco)."
+				""
+				"Habla con el maestro de oficio de tu pueblo (al norte de la plaza, enfrente de los maestros de rol). Al confirmar el oficio de Minero, esta misión se completa sola (stage &6trabajo_minero&r)."
+				""
+				"&cEl oficio no se puede cambiar&r: solo tendrás el árbol y las misiones de este oficio."
+			]
+			icon: "minecraft:nether_star"
+			x: 0.5d
+			y: 0.5d
+			invisible: true
+			invisible_until_tasks: 1
+			tasks: [
+				{
+					id: "6679E44C24DF5915"
+					type: "gamestage"
+					stage: "trabajo_minero"
+				}
+			]
+			rewards: [
+				{
+					id: "74AC48B217C5B22B"
+					type: "command"
+					command: "/oficioxp {p} minero 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "2B565229105EC781"
+					type: "command"
+					command: "/skillxp {p} 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "25BEE9254C547186"
+			title: "Oficio: Minero"
+			subtitle: "Presentación"
+			description: [
+				"El minero sube picando minerales (mucho) y roca (poco)."
+				""
+				"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Minero. Cada nivel del oficio te da 1 punto para su árbol."
+			]
+			icon: "minecraft:iron_pickaxe"
+			x: 2.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["2A1E49817138DBCC"]
+			tasks: [
+				{
+					id: "69D9ED982935C378"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "4937EF44F29703A1"
+					type: "command"
+					command: "/oficioxp {p} minero 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "3C5E914841AC7CC1"
+					type: "command"
+					command: "/skillxp {p} 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "052842FA3C8486B6"
+			title: "Minero: práctica"
+			subtitle: "Haz el trabajo"
+			description: ["Pica minerales: cada uno da experiencia de oficio. Consigue diamantes y esmeraldas."]
+			icon: "minecraft:diamond"
+			x: 4.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["25BEE9254C547186"]
+			tasks: [
+				{
+					id: "33C0FBF9596C1A9B"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 3L
+				}
+				{
+					id: "449AC941F920BE10"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "460DE9C463C25CE5"
+					type: "command"
+					command: "/oficioxp {p} minero 150"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "2DB4FB88993F2466"
+					type: "command"
+					command: "/skillxp {p} 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "567680A9A31C54A0"
+					type: "item"
+					item: "minecraft:iron_pickaxe"
+				}
+			]
+		}
+		{
+			id: "38DE964C6B51D80F"
+			title: "Minero I"
+			subtitle: "Hito de oficio"
+			description: ["Sube en el árbol de Minero hasta &6Fundamentos VI&r. Esto activa el hito Minero I."]
+			icon: "minecraft:nether_star"
+			x: 6.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["052842FA3C8486B6"]
+			tasks: [
+				{
+					id: "77380C41A4742B11"
+					type: "gamestage"
+					stage: "oficio_minero_1"
+				}
+			]
+			rewards: [
+				{
+					id: "1B44BF252C2EE267"
+					type: "command"
+					command: "/oficioxp {p} minero 100"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "771CAEC5A97802F3"
+					type: "command"
+					command: "/skillxp {p} 200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "18C8EFCB44BFF109"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "32E6394B18CD6A9C"
+			title: "Minero II"
+			subtitle: "Maestría"
+			description: ["Llega hasta la cima de uno de los dos caminos de Minero. Es el hito de maestría del oficio."]
+			icon: "minecraft:nether_star"
+			x: 8.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["38DE964C6B51D80F"]
+			tasks: [
+				{
+					id: "3C7371F0BBBBC463"
+					type: "gamestage"
+					stage: "oficio_minero_2"
+				}
+			]
+			rewards: [
+				{
+					id: "0D31837C23F99305"
+					type: "command"
+					command: "/skillxp {p} 500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "093524BA1EEBA862"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+					count: 3
+				}
+			]
+		}
+	]
+}

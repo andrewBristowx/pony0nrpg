@@ -1,0 +1,210 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oficio_pescador"
+	group: "5677092D8B6DEB7B"
+	title: "Oficio: Pescador"
+	subtitle: ["Misiones del Pescador"]
+	icon: "minecraft:fishing_rod"
+	id: "59E9B142417265DE"
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			id: "79270BB7AADA42E9"
+			title: "Juramento del Pescador"
+			subtitle: "Elige tu oficio"
+			description: [
+				"El pescador sube pescando."
+				""
+				"Habla con el maestro de oficio de tu pueblo (al norte de la plaza, enfrente de los maestros de rol). Al confirmar el oficio de Pescador, esta misión se completa sola (stage &6trabajo_pescador&r)."
+				""
+				"&cEl oficio no se puede cambiar&r: solo tendrás el árbol y las misiones de este oficio."
+			]
+			icon: "minecraft:nether_star"
+			x: 0.5d
+			y: 0.5d
+			invisible: true
+			invisible_until_tasks: 1
+			tasks: [
+				{
+					id: "51CEA8A140B144BE"
+					type: "gamestage"
+					stage: "trabajo_pescador"
+				}
+			]
+			rewards: [
+				{
+					id: "741C47083A6AD9DE"
+					type: "command"
+					command: "/oficioxp {p} pescador 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "21054BBE96AD7D2D"
+					type: "command"
+					command: "/skillxp {p} 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "0A978EF66D8B86F3"
+			title: "Oficio: Pescador"
+			subtitle: "Presentación"
+			description: [
+				"El pescador sube pescando."
+				""
+				"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Pescador. Cada nivel del oficio te da 1 punto para su árbol."
+			]
+			icon: "minecraft:fishing_rod"
+			x: 2.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["79270BB7AADA42E9"]
+			tasks: [
+				{
+					id: "0D62B8C3886430A1"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "0315E77218150C1D"
+					type: "command"
+					command: "/oficioxp {p} pescador 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "5C0EA9BD0323C0B2"
+					type: "command"
+					command: "/skillxp {p} 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "12127C56865A0B3E"
+			title: "Pescador: práctica"
+			subtitle: "Haz el trabajo"
+			description: ["Pesca peces variados."]
+			icon: "minecraft:cod"
+			x: 4.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["0A978EF66D8B86F3"]
+			tasks: [
+				{
+					id: "220ED245B837704D"
+					type: "item"
+					item: "minecraft:cod"
+					count: 8L
+				}
+				{
+					id: "77142BF322939970"
+					type: "item"
+					item: "minecraft:salmon"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "74D36B7A22C80655"
+					type: "command"
+					command: "/oficioxp {p} pescador 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "3E21007DED624215"
+					type: "command"
+					command: "/skillxp {p} 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "3EE380319A71776C"
+					type: "item"
+					item: "minecraft:fishing_rod"
+				}
+			]
+		}
+		{
+			id: "79BD84E79300DBFE"
+			title: "Pescador I"
+			subtitle: "Hito de oficio"
+			description: ["Sube en el árbol de Pescador hasta &6Fundamentos VI&r. Esto activa el hito Pescador I."]
+			icon: "minecraft:nether_star"
+			x: 6.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["12127C56865A0B3E"]
+			tasks: [
+				{
+					id: "39F88D3D5C508D0E"
+					type: "gamestage"
+					stage: "oficio_pescador_1"
+				}
+			]
+			rewards: [
+				{
+					id: "543813ABD1B6F421"
+					type: "command"
+					command: "/oficioxp {p} pescador 100"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "2DD37CF3373D9883"
+					type: "command"
+					command: "/skillxp {p} 200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "7BB6CF8DCFE9370A"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "0810C52F89006743"
+			title: "Pescador II"
+			subtitle: "Maestría"
+			description: ["Llega hasta la cima de uno de los dos caminos de Pescador. Es el hito de maestría del oficio."]
+			icon: "minecraft:nether_star"
+			x: 8.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["79BD84E79300DBFE"]
+			tasks: [
+				{
+					id: "479EC67E6A8CA3DA"
+					type: "gamestage"
+					stage: "oficio_pescador_2"
+				}
+			]
+			rewards: [
+				{
+					id: "0C24D0CDF2BF77C7"
+					type: "command"
+					command: "/skillxp {p} 500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "6929522DE51F2262"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+					count: 3
+				}
+			]
+		}
+	]
+}

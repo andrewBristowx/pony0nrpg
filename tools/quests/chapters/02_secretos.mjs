@@ -56,8 +56,8 @@ export default {
       rewards: [R.skill(180), R.job("cocinero", 100), R.item("farmersdelight:tomato_seeds", 4)] },
 
     { k: "oficio", t: "Un oficio", sub: "Elige en qué especializarte", deps: ["mochila"],
-      d: ["Abre el árbol de habilidades (&6K&r) y mira las pestañas de oficios. Cada uno sube al hacer sus tareas: pica, tala, cultiva, pesca, forja, cocina o encanta.",
-          "Cuando llegues al nivel 5 de cualquier oficio, marca esta misión."],
+      d: ["Habla con un maestro de oficio (al norte de la plaza de tu pueblo) y elige UNO: no se puede cambiar. Se abre su pestaña en el árbol de habilidades (&6K&r) y su capítulo de misiones.",
+          "Tu oficio sube al hacer sus tareas: pica, tala, cultiva, pesca, forja, cocina o encanta. Cuando llegues al nivel 5 de tu oficio, marca esta misión."],
       tasks: [T.check()],
       rewards: [R.skill(200)] },
 

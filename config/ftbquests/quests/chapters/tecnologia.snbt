@@ -283,7 +283,7 @@
 				{
 					id: "76CBEED3251539C5"
 					type: "command"
-					command: "/puffish_skills experience add {p} oficio_minero 200"
+					command: "/oficioxp {p} minero 200"
 					elevate_perms: true
 					silent: true
 				}

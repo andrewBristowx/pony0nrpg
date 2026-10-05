@@ -115,7 +115,7 @@
 				{
 					id: "436F19784A86FAAA"
 					type: "command"
-					command: "/puffish_skills experience add {p} oficio_lenador 20"
+					command: "/oficioxp {p} lenador 20"
 					elevate_perms: true
 					silent: true
 				}
@@ -154,7 +154,7 @@
 				{
 					id: "22E2556500A29BBB"
 					type: "command"
-					command: "/puffish_skills experience add {p} oficio_minero 25"
+					command: "/oficioxp {p} minero 25"
 					elevate_perms: true
 					silent: true
 				}
@@ -267,7 +267,7 @@
 				{
 					id: "46D1B9850F90F0AF"
 					type: "command"
-					command: "/puffish_skills experience add {p} oficio_minero 60"
+					command: "/oficioxp {p} minero 60"
 					elevate_perms: true
 					silent: true
 				}
@@ -339,7 +339,7 @@
 				{
 					id: "5D3CE6FBB3674567"
 					type: "command"
-					command: "/puffish_skills experience add {p} oficio_herrero 40"
+					command: "/oficioxp {p} herrero 40"
 					elevate_perms: true
 					silent: true
 				}
@@ -377,7 +377,7 @@
 				{
 					id: "0CE56D9ABB9DF445"
 					type: "command"
-					command: "/puffish_skills experience add {p} oficio_granjero 50"
+					command: "/oficioxp {p} granjero 50"
 					elevate_perms: true
 					silent: true
 				}

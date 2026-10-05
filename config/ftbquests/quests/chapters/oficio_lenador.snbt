@@ -1,0 +1,210 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oficio_lenador"
+	group: "5677092D8B6DEB7B"
+	title: "Oficio: Leñador"
+	subtitle: ["Misiones del Leñador"]
+	icon: "minecraft:iron_axe"
+	id: "58634DDBC4244DAE"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			id: "306A37916A80EBE9"
+			title: "Juramento del Leñador"
+			subtitle: "Elige tu oficio"
+			description: [
+				"El leñador sube talando árboles."
+				""
+				"Habla con el maestro de oficio de tu pueblo (al norte de la plaza, enfrente de los maestros de rol). Al confirmar el oficio de Leñador, esta misión se completa sola (stage &6trabajo_lenador&r)."
+				""
+				"&cEl oficio no se puede cambiar&r: solo tendrás el árbol y las misiones de este oficio."
+			]
+			icon: "minecraft:nether_star"
+			x: 0.5d
+			y: 0.5d
+			invisible: true
+			invisible_until_tasks: 1
+			tasks: [
+				{
+					id: "1FDC2C0FB805A191"
+					type: "gamestage"
+					stage: "trabajo_lenador"
+				}
+			]
+			rewards: [
+				{
+					id: "3DDEB1F808B808F3"
+					type: "command"
+					command: "/oficioxp {p} lenador 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "6865D3878BD1AB27"
+					type: "command"
+					command: "/skillxp {p} 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "43DCEA911516BB9B"
+			title: "Oficio: Leñador"
+			subtitle: "Presentación"
+			description: [
+				"El leñador sube talando árboles."
+				""
+				"Abre el árbol de habilidades (&6K&r) y busca la pestaña de Leñador. Cada nivel del oficio te da 1 punto para su árbol."
+			]
+			icon: "minecraft:iron_axe"
+			x: 2.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["306A37916A80EBE9"]
+			tasks: [
+				{
+					id: "70330B090796752A"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "18F2F93DBFEEFAD7"
+					type: "command"
+					command: "/oficioxp {p} lenador 40"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "005F45FD9AC176BC"
+					type: "command"
+					command: "/skillxp {p} 60"
+					elevate_perms: true
+					silent: true
+				}
+			]
+		}
+		{
+			id: "6CC35498C49CDCCC"
+			title: "Leñador: práctica"
+			subtitle: "Haz el trabajo"
+			description: ["Tala árboles y consigue troncos de varios tipos."]
+			icon: "minecraft:oak_log"
+			x: 4.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["43DCEA911516BB9B"]
+			tasks: [
+				{
+					id: "4FDDCCBC5A9ABC36"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 32L
+				}
+				{
+					id: "23203E3665FB2002"
+					type: "item"
+					item: "minecraft:spruce_log"
+					count: 32L
+				}
+			]
+			rewards: [
+				{
+					id: "1140224B7C445FAF"
+					type: "command"
+					command: "/oficioxp {p} lenador 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "7E6392F462D6FC53"
+					type: "command"
+					command: "/skillxp {p} 120"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "38FEBB4BBA139AFA"
+					type: "item"
+					item: "minecraft:iron_axe"
+				}
+			]
+		}
+		{
+			id: "273BE439488CA9E1"
+			title: "Leñador I"
+			subtitle: "Hito de oficio"
+			description: ["Sube en el árbol de Leñador hasta &6Fundamentos VI&r. Esto activa el hito Leñador I."]
+			icon: "minecraft:nether_star"
+			x: 6.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["6CC35498C49CDCCC"]
+			tasks: [
+				{
+					id: "2EF4EA4FA37527D3"
+					type: "gamestage"
+					stage: "oficio_lenador_1"
+				}
+			]
+			rewards: [
+				{
+					id: "0F8B62C4269C633D"
+					type: "command"
+					command: "/oficioxp {p} lenador 100"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "7CF87CD1D067C663"
+					type: "command"
+					command: "/skillxp {p} 200"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "45E25D29B7D644A9"
+					type: "item"
+					item: "lightmanscurrency:coin_gold"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "50B2C9D3E83C538B"
+			title: "Leñador II"
+			subtitle: "Maestría"
+			description: ["Llega hasta la cima de uno de los dos caminos de Leñador. Es el hito de maestría del oficio."]
+			icon: "minecraft:nether_star"
+			x: 8.5d
+			y: 0.5d
+			hide_until_deps_visible: true
+			dependencies: ["273BE439488CA9E1"]
+			tasks: [
+				{
+					id: "349F593527D43039"
+					type: "gamestage"
+					stage: "oficio_lenador_2"
+				}
+			]
+			rewards: [
+				{
+					id: "59A4055F2033112D"
+					type: "command"
+					command: "/skillxp {p} 500"
+					elevate_perms: true
+					silent: true
+				}
+				{
+					id: "60FCF8BE11B15237"
+					type: "item"
+					item: "lightmanscurrency:coin_emerald"
+					count: 3
+				}
+			]
+		}
+	]
+}
